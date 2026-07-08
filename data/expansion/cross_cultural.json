@@ -1,0 +1,458 @@
+{
+ "themes": [
+  {
+   "name": "Icaros as visible song ≈ Shipibo kené and the DMT lattice",
+   "description": "Among the Shipibo-Conibo of the Peruvian Amazon, ayahuasca visions are rendered as kené — intricate maze-like geometric patterns painted on textiles, pottery, skin and bodies. Practitioners describe a synesthetic identity between sound and pattern: an onanya 'sings' a design into the air, and initiates say they can read a chant by looking at a pattern and paint a pattern by hearing a song (the song IS the design). This maps onto the near-ubiquitous DMT report of self-organizing geometric lattices, grids, tessellations and 'syntax-driving light' (McKenna) that pulse in time with an implied music. Because ayahuasca's visionary agent is the SAME molecule (N,N-DMT, orally activated by an MAOI admixture), the chemistry is literally shared, not merely analogous — which makes the shared geometric vocabulary the single most concrete cross-cultural convergence in the atlas. Amaringo's paintings and Luna's fieldwork document the same grids independently of Western psychedelic culture.",
+   "convergence_strength": "striking",
+   "skeptical_reading": "Repeating geometric form-constants (lattices, tunnels, spirals) are a generic output of a serotonergically over-driven visual cortex, so the grid appears whether or not a culture happens to weave it into textiles.",
+   "sources": [
+    {
+     "source_key": "luna",
+     "detail": "Vegetalismo fieldwork (Iquitos/Pucallpa, early 1980s) documenting kené and the synesthetic song-design identity among Shipibo and mestizo ayahuasqueros."
+    },
+    {
+     "source_key": "amaringo",
+     "detail": "Ayahuasca Visions (with Luna, 1991): geometric, luminous vine-vision paintings by a Peruvian vegetalista, recorded outside Western psychedelic framing."
+    },
+    {
+     "source_key": "shanon",
+     "detail": "The Antipodes of the Mind catalogues recurrent geometric/lattice content across hundreds of ayahuasca sessions."
+    },
+    {
+     "source_key": "narby",
+     "detail": "Notes the ubiquity of geometric and serpentine visionary motifs across Amazonian ayahuasca practice."
+    }
+   ]
+  },
+  {
+   "name": "The vine that teaches: plant-teacher doctores ≈ DMT's instructor-entities",
+   "description": "Luna's central ethnographic finding is the concept of plantas maestras ('plant teachers') or doctores: plants held to have a spirit that instructs the apprentice, whose two most prized gifts are icaros (magical songs) and yachay (knowledge/phlegm). Learning is explicitly pedagogical — the vine and its allied plants show, teach, and impart. This parallels one of the most frequent DMT motifs: entities that appear to be waiting to instruct, that 'show' the voyager an object, teaching, or body of knowledge, and that communicate the sense of a curriculum being delivered (Strassman's 'high-tech nursery/lab' instructors; Johns Hopkins respondents reporting benevolent, guiding beings). Both traditions frame the encounter not as random hallucination but as tuition from an intelligence.",
+   "convergence_strength": "moderate",
+   "skeptical_reading": "Framing an altered state as instruction by a wise other is a cross-culturally common way for the mind to narrate involuntary insight, and vegetalismo teaches initiates in advance to expect exactly such teachers.",
+   "sources": [
+    {
+     "source_key": "luna",
+     "detail": "'The concept of plants as teachers among four mestizo shamans of Iquitos' (1984) and Vegetalismo (1986): plantas maestras / doctores giving icaros and yachay."
+    },
+    {
+     "source_key": "strassman",
+     "detail": "Volunteers met beings that seemed to be waiting and that showed or taught them things in nursery/lab-like settings."
+    },
+    {
+     "source_key": "davis2020",
+     "detail": "N=2,561 survey: entities frequently rated as benevolent and as imparting a message or teaching."
+    },
+    {
+     "source_key": "hancock",
+     "detail": "Reads the ayahuasca/DMT 'ancient teachers' as continuous with a worldwide tradition of instructing tutelary beings."
+    }
+   ]
+  },
+  {
+   "name": "The cosmic serpent: twin snakes across ayahuasca and world myth",
+   "description": "Serpents are among the most reliable ayahuasca motifs — giant anacondas, twin snakes, twisting ladders and 'sky ropes.' Narby's Cosmic Serpent gathers reports that shamans on all inhabited continents describe a 'cosmic serpent,' a long single-and-double entity said to be the key to life, and (controversially) proposes the visions reflect DNA's double helix accessed at a molecular level. The motif recurs in DMT and ayahuasca phenomenology (Shanon, Luna) and rhymes with serpent symbolism in world creation myth (Eliade). The DNA claim is explicitly speculative and widely criticized; what is documented is the cross-cultural frequency of the serpent/twin-helix image itself, which the atlas maps as report-convergence, not as a decoded biological truth.",
+   "convergence_strength": "speculative/contested",
+   "skeptical_reading": "Snakes are a phylogenetically ancient, hard-wired human threat category, so a stressed visual-emotional system reaching for a salient 'other' will default to serpents without any molecular message being read.",
+   "sources": [
+    {
+     "source_key": "narby",
+     "detail": "The Cosmic Serpent (1998): worldwide 'twin serpent / twisted ladder / sky rope' reports; the DNA-double-helix reading, offered as hypothesis."
+    },
+    {
+     "source_key": "shanon",
+     "detail": "Serpents/anacondas among the highest-frequency ayahuasca vision contents."
+    },
+    {
+     "source_key": "luna",
+     "detail": "Documents serpent tutelary spirits in vegetalismo cosmology."
+    },
+    {
+     "source_key": "eliade",
+     "detail": "Serpent and cosmic-axis symbolism as a recurring feature of world creation myth and shamanic cosmology."
+    }
+   ]
+  },
+  {
+   "name": "Mesoamerican mushroom iconography (honest: contested)",
+   "description": "Pre-Columbian Mesoamerica used psilocybin mushrooms (Nahuatl teonánacatl, 'flesh of the gods'; Maya k'aizalaj okox), documented ethnohistorically and, Wasson argued, rediscovered ritually alive at Huautla in 1955. Physical claims cluster around 'mushroom stones' (~1000 BC onward, Guatemalan highlands) and the Aztec Xochipilli statue, read by some as carved with sacred mushrooms and other entheogenic flowers. These are offered as deep-time evidence that visionary states shaped iconography — a plausible cultural ancestor to modern tryptamine art. BUT the reading is genuinely contested: not all mushroom-shaped imagery implies ingestion, some may be metaphoric or purely botanical, and a stone's mushroom form does not by itself prove a psychedelic cult. Included here explicitly as an honest, disputed parallel rather than a settled one.",
+   "convergence_strength": "speculative/contested",
+   "skeptical_reading": "Mushroom-shaped artifacts and flower carvings can be funerary, botanical, or decorative, so pattern-matching them to a psychedelic cult risks reading modern preoccupations back into ambiguous archaeology.",
+   "sources": [
+    {
+     "source_key": "wasson",
+     "detail": "Documented living Mazatec psilocybin ritual (Huautla, 1955) and the teonánacatl / 'flesh of the gods' tradition."
+    },
+    {
+     "source_key": "carodartal",
+     "detail": "'Hallucinogenic drugs in pre-Columbian Mesoamerican cultures' surveys mushroom stones, Xochipilli, and the interpretive debate over what the iconography proves."
+    },
+    {
+     "source_key": "hancock",
+     "detail": "Argues visionary states left durable marks on ancient iconography worldwide (a claim critics regard as over-read)."
+    }
+   ]
+  },
+  {
+   "name": "Soma / Haoma: the Vedic entheogen debate (speculative)",
+   "description": "The Rigveda (and Avestan haoma) praise a pressed plant whose juice grants luminous, expansive, quasi-visionary states. R. Gordon Wasson (1968) argued soma was the fly-agaric mushroom Amanita muscaria, drawing on Siberian shamanic parallels and the mountainous origin and lack of any named leaf/flower/seed in the hymns. The identification is far from settled: Flattery & Schwartz (1989) argued for Peganum harmala (Syrian rue, a harmaline source), others for Ephedra (a non-psychedelic stimulant), and McKenna for Psilocybe — with modern Sanskritists (Gerety) stressing the text underdetermines any single plant. Relevant to the atlas only as a possible ancient echo of an entheogenic sacrament; the identity, and whether the state resembled the tryptamine state at all, is speculative.",
+   "convergence_strength": "speculative/contested",
+   "skeptical_reading": "The hymns describe a pressed, filtered stalk-juice drunk for vigor and 'immortality,' which fits a non-psychedelic stimulant like ephedra at least as well as any visionary agent, so reading DMT-like phenomenology into soma is projection.",
+   "sources": [
+    {
+     "source_key": "wasson",
+     "detail": "Soma: Divine Mushroom of Immortality (1968) — the Amanita muscaria identification and Siberian-shamanism parallel."
+    },
+    {
+     "source_key": "flattery_schwartz",
+     "detail": "Haoma and Harmaline (1989): argues the Indo-Iranian sacrament was Peganum harmala, a harmaline-bearing plant."
+    },
+    {
+     "source_key": "gerety",
+     "detail": "Modern Vedic scholarship ('The Soma Question') holds the hymns underdetermine the botanical identity; no consensus exists."
+    }
+   ]
+  },
+  {
+   "name": "The bardo as trip-map: Leary's Psychedelic Experience ≈ DMT dissolution and return",
+   "description": "The Tibetan Bardo Thödol ('Liberation Through Hearing in the Intermediate State'), introduced to the West by W.Y. Evans-Wentz's 1927 edition, charts the between-death bardos: an initial encounter with the Clear Light of pure reality, followed by visions of peaceful then wrathful deities, which the deceased is coached to recognize as projections of their own mind. In 1964 Leary, Metzner and Alpert rewrote it as The Psychedelic Experience, mapping ego-loss onto the first bardo, the play of visionary forms onto the second, and re-entry into self onto the third. The structural rhyme with the DMT arc — ego dissolution, an overwhelming luminous field, encounters with intense (benevolent or terrifying) forms, then reconstitution — is close. The honest caveat: the fit is partly authored, because Leary deliberately imposed the bardo template as a set-and-setting script rather than discovering it in the data.",
+   "convergence_strength": "moderate",
+   "skeptical_reading": "Leary explicitly overlaid the bardo scheme onto the psychedelic session as a guiding manual, so the tight correspondence is a template imposed in advance, not an independent convergence.",
+   "sources": [
+    {
+     "source_key": "evanswentz",
+     "detail": "The Tibetan Book of the Dead (1927 edition, tr. Kazi Dawa-Samdup): Clear Light, peaceful/wrathful deities as mind-projections across the bardos."
+    },
+    {
+     "source_key": "leary",
+     "detail": "The Psychedelic Experience (1964): a four-part manual mapping ego-loss / vision / re-entry onto the three bardos."
+    },
+    {
+     "source_key": "timmermann2018",
+     "detail": "Empirically documents DMT-induced ego-dissolution and transcendence-of-time/space, the phenomenology Leary's mapping targets."
+    },
+    {
+     "source_key": "moody",
+     "detail": "The 'being of light' / luminous-reality element parallels the bardo's Clear Light."
+    }
+   ]
+  },
+  {
+   "name": "Waiting rooms and bouncers ≈ Hekhalot palaces and their gatekeepers",
+   "description": "Early Jewish mystical texts — the Hekhalot ('palaces') and Merkavah ('chariot') literature studied by Scholem — describe an ascent (paradoxically a 'descent to the chariot') through seven heavenly palaces to the throne of glory. Each palace gate is held by fierce angelic gatekeepers who admit the traveler only if he presents the correct seals and secret names; the unworthy are barred or destroyed. This threshold architecture rhymes with a recurrent DMT report: arriving in an antechamber or 'waiting room,' sometimes met by gatekeeper-like beings who seem to appraise, admit, or turn back the voyager before deeper realms open. Both encode a graded, permissioned cosmos with beings stationed at boundaries — palaces/gatekeepers on one side, waiting-rooms/'bouncers' on the other.",
+   "convergence_strength": "striking",
+   "skeptical_reading": "Threshold-guardian architecture (gates, tests, seals, admission) is a near-universal grammar of initiation and pilgrimage narrative, so a mind modeling a boundary-crossing will reach for gatekeepers regardless of any shared realm.",
+   "sources": [
+    {
+     "source_key": "scholem",
+     "detail": "Major Trends in Jewish Mysticism / Jewish Gnosticism: the seven Hekhalot palaces, angelic gatekeepers, and the seals-and-names required for passage."
+    },
+    {
+     "source_key": "strassman",
+     "detail": "Volunteers described antechamber / 'they were waiting for me' arrivals and beings that seemed to control access."
+    },
+    {
+     "source_key": "lyke2019",
+     "detail": "Entity-encounter typology includes threshold/guardian beings gating deeper experience."
+    },
+    {
+     "source_key": "nexus",
+     "detail": "First-person 'waiting room' and 'bouncer'-style gatekeeper reports in the psychonaut corpus."
+    }
+   ]
+  },
+  {
+   "name": "Living geometry: Ezekiel's wheels and the ophanim ≈ DMT's self-transforming machinery",
+   "description": "Ezekiel 1 (Babylonian exile, ~593 BCE) describes the ophanim: gleaming wheels beside four living creatures, constructed as 'a wheel within a wheel' so they move in any direction without turning, and their rims 'full of eyes all around.' The whole apparatus — creatures, wheels, throne — became the Merkavah, and the seed of an entire mystical tradition. The image is uncannily close to a common DMT motif: rotating, interlocking, hyperdimensional geometric structures that seem alive, watching, and mechanically self-transforming (McKenna's 'self-transforming machine elves'; the eye-studded, rotating 'machinery' of many trip reports). Both describe animate geometry that sees — sentient mechanism rather than dead pattern.",
+   "convergence_strength": "striking",
+   "skeptical_reading": "Rotating, nested, eye-covered forms are close to what a hyper-activated visual system spontaneously generates, so an exilic prophet and a modern tripper may simply be describing the same neural hardware in the idioms of their eras.",
+   "sources": [
+    {
+     "source_key": "ezekiel",
+     "detail": "Ezekiel 1: 'a wheel within a wheel,' rims 'full of eyes,' living creatures and throne — the founding vision of animate divine geometry."
+    },
+    {
+     "source_key": "scholem",
+     "detail": "Traces how Ezekiel's chariot vision became the Merkavah tradition of ascent to the living throne-machinery."
+    },
+    {
+     "source_key": "mckenna",
+     "detail": "'Self-transforming machine elves' and syntax-driving light: living, watching, mechanical geometry."
+    },
+    {
+     "source_key": "qri",
+     "detail": "Characterizes high-dose tryptamine geometry as structured, symmetry-rich and dynamically self-transforming."
+    }
+   ]
+  },
+  {
+   "name": "Fairy abduction ≈ machine-elf encounter: little people, gifts, and missing time",
+   "description": "Evans-Wentz's Fairy-Faith in Celtic Countries (1911) recorded a living belief in the 'good people': small luminous beings inhabiting a parallel realm, who take humans to places of unusual beauty where time runs differently, bestow gifts or knowledge, and return the visitor changed. Vallée's Passport to Magonia (1969) argued this same encounter template — non-human beings, contact, time distortion, otherworld journey — runs continuously from medieval fairy lore into modern UFO reports. The cluster maps closely onto DMT's 'little people'/elf encounters (McKenna's 'tykes'), the sense of entering an impossibly rich other-place, marked time distortion, and being given an object or teaching. Hancock explicitly reads DMT elves as continuous with folkloric faeries and cave-art therianthropes.",
+   "convergence_strength": "striking",
+   "skeptical_reading": "'Little people who steal time and give gifts' is a portable folk template the mind supplies to narrate any boundary-dissolving anomalous experience — the shared script is cultural furniture, not a shared destination.",
+   "sources": [
+    {
+     "source_key": "evanswentz",
+     "detail": "The Fairy-Faith in Celtic Countries (1911): little luminous people, otherworld time distortion, gifts, and the returned-changed motif."
+    },
+    {
+     "source_key": "vallee",
+     "detail": "Passport to Magonia (1969): fairy lore and UFO abduction share one cross-historical encounter structure (beings, contact, missing time, reproductive interest)."
+    },
+    {
+     "source_key": "mckenna",
+     "detail": "'Machine elves' / 'tykes' — small, playful, gift-bearing entities in a hyper-rich space."
+    },
+    {
+     "source_key": "hancock",
+     "detail": "Reads DMT elves as continuous with folkloric faeries and Palaeolithic therianthropes."
+    }
+   ]
+  },
+  {
+   "name": "The examination table: alien abduction ≈ DMT's surgery / probing motif",
+   "description": "John Mack's Abduction (1994) documented a recurring script: capture by grey (or mantis-like) beings, an examination on a table, medical/reproductive procedures, telepathic communication, and a transformed worldview afterward. Strassman independently noticed that some DMT volunteers reported strikingly similar 'being examined/operated on by beings' scenarios, and the grey/mantis entity is a well-attested DMT type. The atlas maps the phenomenological overlap while flagging the strongest critique: Susan Clancy's Abducted (2005) shows abduction belief typically follows a sleep-paralysis episode narrated through a culturally available abduction script, with false memory doing the rest — i.e., convergence here may reflect a shared modern narrative import rather than a shared realm.",
+   "convergence_strength": "moderate",
+   "skeptical_reading": "Clancy: sleep paralysis + a media-supplied 'greys and exam table' script + a drive for meaning reliably manufacture vivid false memories of abduction with no external agent, and the same script can color a drug-state encounter.",
+   "sources": [
+    {
+     "source_key": "mack",
+     "detail": "Abduction (1994): the greys / examination-table / reproductive-procedure encounter script and its transformative aftermath."
+    },
+    {
+     "source_key": "clancy",
+     "detail": "Abducted (2005): abduction belief follows sleep paralysis narrated via a cultural script + false memory — the steelman that convergence isn't proof."
+    },
+    {
+     "source_key": "strassman",
+     "detail": "Observed DMT volunteers reporting examination/operation-by-beings scenarios overlapping the abduction motif."
+    },
+    {
+     "source_key": "vallee",
+     "detail": "Places the modern abduction script in a long folkloric lineage of otherworld capture and bodily interest."
+    }
+   ]
+  },
+  {
+   "name": "Tunnel, light, beings, return: the NDE structure ≈ the DMT arc",
+   "description": "Moody's Life After Life (1975) distilled a recurring near-death sequence: peace and painlessness, out-of-body separation, passage through a dark tunnel toward a bright light, a 'being of light,' encounters with others, and return. Greyson's NDE Scale operationalized these features and found NDE memories rated 'realer than real' and vivid for decades. Timmermann's 2018 within-subjects, placebo-controlled study is the empirical hinge: DMT produced significantly higher scores than placebo on 10 of 16 Greyson NDE-scale items and all subscales, with mystical and time/space-transcendence factors correlating strongly with NDE score. The convergence is thus measured, not merely asserted — yet honestly partial: life review and reunion with deceased relatives are central to NDEs but rare in DMT (Michael 2025).",
+   "convergence_strength": "striking",
+   "skeptical_reading": "Both the dying/stressed brain and the DMT-flooded brain may be running the same endogenous neurochemical program, so the overlap points to shared physiology, not a shared afterworld.",
+   "sources": [
+    {
+     "source_key": "moody",
+     "detail": "Life After Life (1975): the tunnel / light / being-of-light / return template from ~150 NDE accounts; coined 'near-death experience.'"
+    },
+    {
+     "source_key": "greyson",
+     "detail": "The Greyson NDE Scale and the 'realer than real,' decades-durable memory quality shared with DMT."
+    },
+    {
+     "source_key": "timmermann2018",
+     "detail": "DMT vs placebo: significantly higher scores on 10/16 NDE-scale items and all subscales; mystical factor r≈0.9 with NDE score."
+    },
+    {
+     "source_key": "michael2025",
+     "detail": "Quantifies the overlap and the disanalogy: life-review and deceased-relative encounters are central to NDEs but rare in DMT."
+    }
+   ]
+  },
+  {
+   "name": "Dismemberment and reassembly: shamanic initiation ≈ ego death and rebuild",
+   "description": "Eliade's Shamanism: Archaic Techniques of Ecstasy (1951) records a widespread initiatory pattern, especially Siberian: the candidate is seized by spirits, dismembered, the flesh stripped and the bones counted, sometimes reduced to a skeleton and the head cut and distributed — then re-fleshed and reassembled as a new, empowered being. Eliade reads this as a necessary destruction of the profane self and a mystical rebirth (bone as the seed of renewed life). Harner's 'core shamanism' generalizes the tunnel-journey and ordeal. The pattern rhymes with DMT/high-dose psychedelic 'ego death': the felt annihilation and dissolution of the self followed by reconstitution, often described as being taken apart and put back together transformed.",
+   "convergence_strength": "striking",
+   "skeptical_reading": "Destruction-then-renewal is a universal ritual grammar of transformation (learned or innate), so 'taken apart and rebuilt' is the mind's default script for radical inner change, not evidence of a literal dismembering agent.",
+   "sources": [
+    {
+     "source_key": "eliade",
+     "detail": "Shamanism (1951): initiatory dismemberment, bone-counting, reduction to skeleton, and reassembly as mystical death-and-rebirth."
+    },
+    {
+     "source_key": "harner",
+     "detail": "Core shamanism: the ordeal-and-return journey to a realm 'teeming with beings.'"
+    },
+    {
+     "source_key": "strassman",
+     "detail": "DMT volunteers described self-annihilation / being taken apart and reconstituted."
+    },
+    {
+     "source_key": "timmermann2018",
+     "detail": "Measured DMT-induced ego-dissolution — the phenomenological core of the 'death and rebuild' motif."
+    }
+   ]
+  },
+  {
+   "name": "Iboga and the Bwiti: meeting the ancestors (a DIFFERENT molecule)",
+   "description": "The Bwiti religion of Gabon (Fang, Mitsogo and others; ethnographically documented by Fernandez, 1982) centers on an initiatory ordeal in which the candidate consumes large amounts of Tabernanthe iboga root bark and undertakes a long, death-like inner journey to meet ancestors and mythic figures, returning as an initiate who has 'seen the other side.' The structural rhyme with DMT/NDE material is real: ego-dissolving ordeal, encounter with tutelary/ancestral beings, transformation on return. CRUCIAL HONESTY FLAG: iboga's active principle is ibogaine, a long-acting indole alkaloid — NOT DMT. So this is a parallel in ritual structure and phenomenological arc across a DIFFERENT substance and pharmacology, included precisely to show the convergence is not chemistry-specific here.",
+   "convergence_strength": "moderate",
+   "skeptical_reading": "Bwiti initiates are told in advance they will meet the ancestors, and the pharmacology (ibogaine, not DMT) differs, so the shared 'meet the dead' arc owes much to trained expectation plus a common ordeal grammar.",
+   "sources": [
+    {
+     "source_key": "fernandez",
+     "detail": "Bwiti: An Ethnography of the Religious Imagination in Africa (1982): the iboga initiation ordeal, ancestral encounter, and return-as-initiate."
+    },
+    {
+     "source_key": "eliade",
+     "detail": "Frames such ordeal-and-return initiations within the worldwide shamanic pattern of death-and-rebirth."
+    },
+    {
+     "source_key": "moody",
+     "detail": "The death-like journey and encounter-with-the-dead structure parallels the NDE template."
+    }
+   ]
+  },
+  {
+   "name": "Alchemy and hermetic transformation: ouroboros, union of opposites, 'as above so below'",
+   "description": "Western alchemical/hermetic imagery — the ouroboros (serpent devouring its tail), the hermaphroditic Mercurius uniting spirit and matter, the union of opposites (coniunctio), and the Hermetic axiom 'as above, so below' — was read by Jung (Psychology and Alchemy, 1944) as a projected symbolic language for inner transformation and the wholeness-symbol of the mandala. These map onto persistent DMT/psychedelic themes: the felt union of opposites and dissolution of subject/object boundaries, overwhelming interconnection, mandala-like rotational symmetry, and a sense that microcosm mirrors macrocosm. The parallel is suggestive but the weakest kind of convergence, because much of the alignment was created by 20th-century readers (Jung and successors) explicitly retrofitting alchemical symbols onto the psyche.",
+   "convergence_strength": "speculative/contested",
+   "skeptical_reading": "Alchemy is a symbolic idiom for psychological transformation that Jung and later psychedelic writers deliberately mapped onto inner experience, so the 'match' is a modern interpretive overlay, not an independent tradition converging on the same content.",
+   "sources": [
+    {
+     "source_key": "jung_alchemy",
+     "detail": "Psychology and Alchemy (1944): ouroboros/Mercurius as union of opposites and mandala of wholeness; alchemists projecting psychic transformation onto matter."
+    },
+    {
+     "source_key": "jung",
+     "detail": "The mandala as the archetype of the Self and integration — the frame for reading rotational psychedelic geometry."
+    },
+    {
+     "source_key": "mckenna",
+     "detail": "The dissolution of opposites and 'everything connected' quality echoed in the coniunctio / 'as above so below' idea."
+    },
+    {
+     "source_key": "shanon",
+     "detail": "Documents union-of-opposites and cosmic-interconnection phenomenology in the ayahuasca corpus."
+    }
+   ]
+  },
+  {
+   "name": "Jung's collective unconscious: the naturalistic frame for the convergence",
+   "description": "Jung proposed a collective unconscious — an impersonal, universal psychic substrate identical across individuals — populated by archetypes that surface as similar figures and symbols in strangers who never met. In Flying Saucers: A Modern Myth (1959) he argued UFOs function psychologically as mandalas projected into the sky, symbols of transcendent wholeness thrown up by a collective psyche under stress. Applied to the atlas, this is the standard naturalistic explanation for WHY unrelated people report similar entities, geometries and otherworlds: not a shared external realm but a shared inner architecture. It is the atlas's honest default frame — while noting the theory is itself unfalsifiable, and so 'explains' the convergence without being provable either.",
+   "convergence_strength": "moderate",
+   "skeptical_reading": "This IS the skeptical reading — a shared neural/archetypal substrate, not a shared external world — yet it is unfalsifiable, so it accounts for the convergence without settling the ontology.",
+   "sources": [
+    {
+     "source_key": "jung",
+     "detail": "The collective unconscious and archetypes: a universal, impersonal psychic layer producing similar figures across unrelated individuals."
+    },
+    {
+     "source_key": "jung_ufo",
+     "detail": "Flying Saucers: A Modern Myth (1959): UFOs as projected mandalas / archetypal symbols of wholeness from the collective psyche."
+    },
+    {
+     "source_key": "davis2020",
+     "detail": "The large-N regularity of entity descriptors across strangers is what an archetypal-substrate account is invoked to explain."
+    },
+    {
+     "source_key": "hancock",
+     "detail": "Treats the cross-cultural recurrence of tutelary beings as evidence of a deep, shared human source (archetypal or otherwise)."
+    }
+   ]
+  }
+ ],
+ "sources_new": [
+  {
+   "key": "luna",
+   "author": "Luis Eduardo Luna",
+   "work": "Vegetalismo: Shamanism Among the Mestizo Population of the Peruvian Amazon; 'The Concept of Plants as Teachers Among Four Mestizo Shamans of Iquitos' (J. Ethnopharmacology); Ayahuasca Visions (with Pablo Amaringo)",
+   "year": "1984–1991",
+   "type": "book/paper",
+   "note": "Anthropologist; foundational fieldwork on plant teachers (doctores), icaros and Shipibo/mestizo ayahuasca practice. Ethnographic documentation, not a claim of external reality."
+  },
+  {
+   "key": "evanswentz",
+   "author": "W. Y. Evans-Wentz",
+   "work": "The Fairy-Faith in Celtic Countries (1911); The Tibetan Book of the Dead (1927 edition, tr. Kazi Dawa-Samdup)",
+   "year": "1911, 1927",
+   "type": "book",
+   "note": "Folklorist/Theosophist. Recorded living Celtic fairy belief and introduced the Bardo Thödol to the West. A Theosophical framing colors the 1927 edition — treat as a cultural document."
+  },
+  {
+   "key": "leary",
+   "author": "Timothy Leary, Ralph Metzner & Richard Alpert",
+   "work": "The Psychedelic Experience: A Manual Based on the Tibetan Book of the Dead",
+   "year": "1964",
+   "type": "book",
+   "note": "Deliberately maps psychedelic ego-loss/vision/re-entry onto the three bardos as a set-and-setting script; the bardo–trip fit is authored, not independently observed."
+  },
+  {
+   "key": "vallee",
+   "author": "Jacques Vallée",
+   "work": "Passport to Magonia: On UFOs, Folklore, and Parallel Worlds",
+   "year": "1969",
+   "type": "book",
+   "note": "Argues fairy lore and modern UFO/abduction reports share one cross-historical encounter structure (beings, contact, missing time). Comparative folklore, agnostic on ultimate cause."
+  },
+  {
+   "key": "scholem",
+   "author": "Gershom Scholem",
+   "work": "Major Trends in Jewish Mysticism (1941); Jewish Gnosticism, Merkabah Mysticism, and Talmudic Tradition (1960)",
+   "year": "1941, 1960",
+   "type": "book",
+   "note": "Founder of academic Kabbalah studies; primary scholarship on the Hekhalot 'palaces,' angelic gatekeepers, seals/names, and Merkavah ascent."
+  },
+  {
+   "key": "wasson",
+   "author": "R. Gordon Wasson",
+   "work": "Soma: Divine Mushroom of Immortality (1968); reports on Mexican teonánacatl / Mazatec mushroom ritual (from 1957)",
+   "year": "1957–1968",
+   "type": "book",
+   "note": "Ethnomycologist. Proposed soma = Amanita muscaria and publicized living Mesoamerican psilocybin ritual. Both identifications are influential but contested."
+  },
+  {
+   "key": "flattery_schwartz",
+   "author": "David S. Flattery & Martin Schwartz",
+   "work": "Haoma and Harmaline: The Botanical Identity of the Indo-Iranian Sacred Hallucinogen 'Soma'",
+   "year": "1989",
+   "type": "book",
+   "note": "Argues the Indo-Iranian sacrament was Peganum harmala (Syrian rue, harmaline), against Wasson's Amanita — one competing position in an unresolved debate."
+  },
+  {
+   "key": "gerety",
+   "author": "Finnian M. M. Gerety",
+   "work": "'The Soma Question' and related Vedic scholarship (Harvard CSWR, Psychedelic Intersections)",
+   "year": "2020s",
+   "type": "essay/scholarship",
+   "note": "Sanskritist; argues the Rigveda underdetermines soma's botanical identity and cautions against reading modern psychedelic phenomenology into the hymns."
+  },
+  {
+   "key": "carodartal",
+   "author": "Francisco Javier Carod-Artal",
+   "work": "Hallucinogenic drugs in pre-Columbian Mesoamerican cultures (Neurología)",
+   "year": "2015",
+   "type": "paper",
+   "note": "Peer-reviewed survey of Mesoamerican entheogen iconography (mushroom stones, Xochipilli, teonánacatl) and the interpretive limits of that evidence."
+  },
+  {
+   "key": "ezekiel",
+   "author": "Book of Ezekiel (Hebrew Bible)",
+   "work": "Ezekiel ch. 1 (the chariot / ophanim vision)",
+   "year": "c. 6th century BCE",
+   "type": "primary text",
+   "note": "'A wheel within a wheel,' rims 'full of eyes,' living creatures and throne — the founding vision of animate divine geometry and the seed of Merkavah mysticism."
+  },
+  {
+   "key": "fernandez",
+   "author": "James W. Fernandez",
+   "work": "Bwiti: An Ethnography of the Religious Imagination in Africa",
+   "year": "1982",
+   "type": "book",
+   "note": "Standard ethnography of Gabonese Bwiti and the iboga initiation ordeal. NB: iboga's agent is ibogaine, NOT DMT — a different substance; cited for ritual-structure parallel only."
+  },
+  {
+   "key": "jung_ufo",
+   "author": "C. G. Jung",
+   "work": "Flying Saucers: A Modern Myth of Things Seen in the Skies",
+   "year": "1959",
+   "type": "book",
+   "note": "Reads UFOs as projected mandalas / archetypal wholeness-symbols from the collective psyche — the naturalistic frame for why strangers report similar sky-beings."
+  },
+  {
+   "key": "jung_alchemy",
+   "author": "C. G. Jung",
+   "work": "Psychology and Alchemy (Collected Works vol. 12)",
+   "year": "1944",
+   "type": "book",
+   "note": "Reads ouroboros/Mercurius/coniunctio as a projected symbolic language of psychic transformation and the mandala of wholeness; basis for the alchemy–psychedelic parallel (and its steelman)."
+  }
+ ]
+}

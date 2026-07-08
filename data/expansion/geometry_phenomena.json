@@ -1,0 +1,285 @@
+{
+  "geometries": [
+    {
+      "name": "Klüver Form Constants (the geometric spine)",
+      "description": "The four universal geometric templates that recur across nearly all reported psychedelic and hallucinatory vision, and which underlie the more baroque DMT structures: (1) tunnels and funnels (also alleys, cones, vessels); (2) spirals; (3) cobwebs; and (4) lattices (honeycombs, checkerboards, triangles, gratings, filigree). Reported as saturated, brightly colored, symmetrical, endlessly replicating fields that tile the visual field. On DMT these primitive forms appear almost instantly at onset, then compound and sophisticate into chrysanthemums, jeweled tilings and hyperdimensional scenes — but the underlying grammar of tunnel/spiral/cobweb/lattice remains legible beneath the ornamentation. Because the same four forms show up in migraine aura, hypnagogia, sensory deprivation, fever, near-death states and pressure-phosphenes, they are treated as the scientific 'skeleton' of visionary geometry rather than anything DMT-specific.",
+      "phase": 1,
+      "science_note": "Named by Heinrich Klüver from systematic mescaline self-experiments (1926, elaborated 1966): 'form constants' = lattice/grating/honeycomb, cobweb, tunnel/funnel, spiral. Bressloff, Cowan, Golubitsky, Thomas & Wiener (2001) showed these four map, via the log-polar retino-cortical transform, onto just two families of stripe/roll patterns in primary visual cortex (V1): concentric/radial percepts correspond to one cortical orientation, spiral/lattice percepts to another. The forms are thus read as the intrinsic geometry of cortical pattern-formation, not external objects.",
+      "sources": [
+        {"source_key": "kluver", "detail": "The four form constants: 'grating, lattice, fretwork, filigree, honeycomb or chessboard'; 'cobweb'; 'tunnel, funnel, alley, cone or vessel'; and 'spiral,' seen in 'bright, highly saturated colors.'"},
+        {"source_key": "bressloff", "detail": "'Geometric visual hallucinations, Euclidean symmetry and the functional architecture of striate cortex' — form constants arise from spontaneous symmetry-breaking pattern formation in V1, mapped to the visual field by the log-polar retinocortical transform."},
+        {"source_key": "effectindex", "detail": "Subjective Effect Index catalogs 'partially defined' and 'fully defined geometry' as structured lattice/tessellation fields that precede full 3D and immersive geometry."}
+      ]
+    },
+    {
+      "name": "Hyperbolic Space & Negative Curvature",
+      "description": "Reports that DMT space is not merely full of shapes but is itself curved the 'wrong' way — saddle-shaped, warped, with far more surface area packed into it than ordinary Euclidean space could hold. Travelers describe scenes riddled with saddles, joints, twists, knots, double-helixes and curved alleys, where a small movement of attention produces enormous changes in the scene, and where surfaces seem to expand faster than they should as you look 'into' them (area growing exponentially with distance rather than proportionally). This is the felt substrate beneath many other effects: the 'impossible' packing of infinite detail, the sense of rooms folding around and behind you, and the Escher-like objects that cannot be embedded in a flat 3D world.",
+      "phase": 5,
+      "science_note": "Andrés Gómez Emilsson / Qualia Research Institute ('The Hyperbolic Geometry of DMT Experiences,' 2016) argues DMT phenomenal space acquires 'mean negative curvature' — a hyperbolic geometry where 'area grows exponentially' with radius and topology is forced to bifurcate at breakthrough. Framed as a phenomenological/modeling proposal, not a physical claim about spacetime.",
+      "sources": [
+        {"source_key": "qri", "detail": "'Phenomenal space... has an overall geometry that can accurately be described as hyperbolic'; scenes dominated by 'the omnipresence of saddles' with 'joints, twists, bifurcations, curved alleys, knots, and double helixes'; small movements 'lead to huge changes in the scene.'"},
+        {"source_key": "nexus", "detail": "Lexicon 'Folding Rooms' — multidimensional spaces where architecture is 'reaching behind and around one,' a lay description of non-Euclidean enclosure."}
+      ]
+    },
+    {
+      "name": "The Aperture / Iris Opening",
+      "description": "A recurring threshold image: the spinning onset mandala or a central point dilates open like a camera iris, a flower unfurling, a sphincter or a mechanical shutter, revealing depth and a space beyond. Where the Chrysanthemum can act as a closed door, the aperture is the moment it irises open and admits the traveler. Frequently reported as a bright central point or 'central light' that widens into a tunnel-mouth or portal, or as a magic-eye-like resolving of flat texture into an opening one is pulled through. Distinct from the tunnel-flight that often follows: the aperture is the dilation event itself, the opening of the way.",
+      "phase": 4,
+      "science_note": "Consistent with Klüver's 'tunnel/funnel' form constant and the retinocortical map, in which concentric/radial cortical activity is perceived as a central opening or funnel expanding outward from the visual-field center.",
+      "sources": [
+        {"source_key": "nexus", "detail": "'The Chrysanthemum... turns into a doorway, either welcoming or blocking access to breakthrough Hyperspace'; 'Central Light' described as an intelligent, sun-like source 'ontologically central to all existence.'"},
+        {"source_key": "qri", "detail": "'Magic Eye' stage: flat texture resolves into depth so that 'the surfaces of the world-sheet' open into 3D forms and passageways."},
+        {"source_key": "michael2021", "detail": "22% of accounts (8/36) reported breaking through a 'veil or membrane' that parts to admit them into the breakthrough space."}
+      ]
+    },
+    {
+      "name": "Zooming / Rushing Tunnel Flight",
+      "description": "The 'rush': an overwhelming sensation of acceleration and forward (or upward) motion — being pulled, sucked, launched or elevatored at unimaginable speed through a tunnel, vortex or stack of dimensional layers. Often paired with a rising vibratory tone and a feeling of the body's 'vibratory rate' climbing. Travelers report a 'dimensional elevator' that rises through successive vistas, each opening a chance to exit; or a tornado/typhoon of sensation that sweeps them under. The visual correlate is streaming radial motion — walls of pattern flying past — typically resolving at the far end into the waiting room or breakthrough space.",
+      "phase": 3,
+      "science_note": "The tunnel-with-forward-flow percept corresponds to Klüver's tunnel/funnel form constant animated by expanding concentric activity in V1; the retinocortical map renders outward-spreading cortical excitation as motion toward or through a central aperture.",
+      "sources": [
+        {"source_key": "nexus", "detail": "'Acceleration, Acute' — 'a constantly rising, accelerating vibration felt through the entire body'; 'Dimensional Elevator' — a small rising space 'ascending through a multitude of higher & extra dimensional spaces,' opening periodically on new vistas."},
+        {"source_key": "michael2021", "detail": "39% (14/36) described intense sensory onset events — 'it came like a typhoon over me' and being 'in the middle of a tornado, everything was going at unimaginable speed.'"},
+        {"source_key": "strassman", "detail": "Volunteers reported 'a startlingly rapid onset' and a sense of consciousness being separated from and rushed away from the body."}
+      ]
+    },
+    {
+      "name": "Embedded Faces & the Pareidolia Cascade",
+      "description": "Faces — and, more broadly, eyes, figures and creatures — that resolve out of the geometric field itself, so that the pattern is 'looking back.' The ornamented surfaces (arabesques, filigree, lattices) spontaneously organize into countless faces, masks, and watching entities, which morph and multiply the longer they are attended. Reported both as benign 'faces in the wallpaper' at lower intensity and as fully present entities-within-the-pattern at breakthrough, blurring the line between decoration and being. This is the hinge between pure geometry and entity contact: the ornament becomes populated.",
+      "phase": 2,
+      "science_note": "An intensified form of ordinary facial pareidolia (the visual system's low threshold for detecting face-like configurations), here applied to self-generated geometric texture; Effect Index classes it under the pattern-overlay that renders surfaces 'covered in... faces.'",
+      "sources": [
+        {"source_key": "nexus", "detail": "Static Pattern Overlay: uniform surfaces display patterns 'resembling arabesques, hieroglyphs, or faces — extremely convincing and nearly indistinguishable from consensus reality.'"},
+        {"source_key": "michael2021", "detail": "Sentient-being encounters in 94% (34/36) of accounts, entities frequently emerging from and made of the surrounding geometric/mechanical texture."},
+        {"source_key": "effectindex", "detail": "Documents complex geometry populated with recognizable figurative elements including faces as the field's complexity increases."}
+      ]
+    },
+    {
+      "name": "Alien Glyphs & Unreadable Writing Systems",
+      "description": "Dense inscriptions of symbols — hieroglyph-like, runic, circuit-like or wholly novel — covering surfaces, scrolling through the air, or presented as engraved 'gifts.' They radiate the felt certainty of being meaningful, legible, even urgent, yet cannot be read or retained; the meaning stays just out of reach and dissolves on the return. Distinct from 'living language / visible sound' (which is language experienced as generative, sound made visible): glyphs are static, inscribed, indecipherable script — text encountered as ornament and as message. Often reported on the walls of the space, on entity 'presents,' or as a writing that entities seem to be reading fluently.",
+      "phase": 8,
+      "science_note": "Framed as text-pareidolia and the sense-of-meaning ('noetic') quality reported across the state; the Subjective Effect Index groups such symbol-laden overlays with hieroglyphic pattern content.",
+      "sources": [
+        {"source_key": "nexus", "detail": "'Gifsts/Presents' — entities present 'sculptures,' 'orbs,' 'Faberge eggs from mars,' or 'glyphs' whose significance remains 'quite impossible to grasp'; surfaces bear patterns 'resembling arabesques, hieroglyphs.'"},
+        {"source_key": "mckenna", "detail": "Recurring reports of a visible, self-displaying 'Logos' and inscribed/objectified language that seems to carry meaning yet resists translation."},
+        {"source_key": "shanon", "detail": "Ayahuasca typology includes visions of scripts, symbols and 'writing' among primitive figurative and figurative-image classes."}
+      ]
+    },
+    {
+      "name": "Impossible Colors",
+      "description": "Colors reported as lying outside the ordinary gamut — hues that 'don't exist,' self-luminous, hyper-saturated, or described as combinations that cannot normally coexist (a 'glowing dark,' colors 'never seen before,' colors that seem to carry information or emotion directly). At lower intensity this reads as extreme colour enhancement and surreal saturation; at breakthrough travelers insist the palette is genuinely novel and beyond photographic or verbal capture. Closely tied to the sense of ultra-detail and to the felt hyper-reality of the space.",
+      "phase": 2,
+      "science_note": "Effect Index notes that intense colour enhancement 'can sometimes result in seeing colours which are perceived as surreal or seemingly impossible.' Consistent with Klüver's observation of unusually 'highly saturated' hallucinatory color and with reports of perceptual dimensions exceeding normal photopic experience; presented as report, not a claim about physical light.",
+      "sources": [
+        {"source_key": "effectindex", "detail": "'Colour enhancement... at higher levels can sometimes result in seeing colours which are perceived as surreal or seemingly impossible.'"},
+        {"source_key": "kluver", "detail": "Mescaline form constants appear in 'bright, highly saturated colors' beyond ordinary vividness."},
+        {"source_key": "shanon", "detail": "Ayahuasca 'Visions of Light' and heightened chromatic intensity form a distinct category of the visual typology."}
+      ]
+    },
+    {
+      "name": "TV Static & the Signal-Noise Transition",
+      "description": "The grainy, shimmering field of fine dots — 'visual snow' or 'TV static' — that appears at the very threshold and again on the return, and that acts as the medium out of which structured geometry condenses and back into which it dissolves. Onset is often described as reality 'pixelating,' 'buzzing,' or breaking into a granular carrier of light before pattern crystallizes; the come-down runs the process in reverse. A related transition image is a bright 'static line' or seam — a vertical shimmer of noise dividing two realities — through which one crosses.",
+      "phase": 1,
+      "science_note": "Effect Index/PsychonautWiki place 'visual noise (visual snow / visual static)' as Level 1 geometry — the lowest, foundational tier from which higher structured levels emerge; read as spontaneous baseline noise in the visual system amplified by the drug.",
+      "sources": [
+        {"source_key": "effectindex", "detail": "Geometry Level 1 = 'visual noise (also known as visual snow or visual static),' the substrate preceding motion, colour and defined geometry."},
+        {"source_key": "nexus", "detail": "'Dimensional Rift' — 'a white static line' comprised of folding shapes that divides two simultaneously perceived realities."},
+        {"source_key": "psychonautwiki", "detail": "Community subjective-effect documentation describes onset 'graininess' resolving into structured geometry and reversing on offset."}
+      ]
+    },
+    {
+      "name": "Dimensional Layering & Space-Folding",
+      "description": "The perception that space has extra dimensions and is being folded, stacked, sheeted or turned inside-out — rooms that fold over and into themselves, planes sliding through one another, architecture that extends 'behind and around' the observer in directions that don't exist in waking space. Travelers report a stack or accordion of layered worlds (the 'sheets'), reality assembling and disassembling out of discrete modular components, and structures that recursively bifurcate. Underpins the hyperdimensional-object and hyperbolic-curvature reports; here the emphasis is on the ongoing folding/unfolding of the container itself.",
+      "phase": 5,
+      "science_note": "Corresponds to QRI's 'world-sheet' account, in which breakthrough forces the 'very topology of one's world-sheet' to change and bifurcate, producing overlapping sheets and folded enclosures beyond 3D Euclidean embedding.",
+      "sources": [
+        {"source_key": "qri", "detail": "At breakthrough 'the very topology of one's world-sheet is forced to change,' with 'multiple things happening at once' as sheets bifurcate and fold."},
+        {"source_key": "nexus", "detail": "'Folding Rooms' — entities and architecture 'fold over and in on themselves,' 'reaching behind and around one'; 'Legoland' — reality of discrete bricks in 'constant flux of rebuilding.'"},
+        {"source_key": "michael2021", "detail": "17% (6/36) reported explicitly 'hyperdimensional structures' beyond ordinary three-dimensional space."}
+      ]
+    },
+    {
+      "name": "Time Geometry — Moments as Objects & Loops",
+      "description": "Time reported as spatialized, structured, or dissolved: moments experienced as objects one can inspect from outside, the felt sense of time compressing toward a standstill, loops in which the same instant recurs, and a laid-out 'timeline' one can move along or watch rewind. Some describe reaching a granular floor of time (an ultimate smallest tick) at which time appears to stop; others describe stepping outside the ordinary flow entirely, or sensing an approaching future 'attractor.' The eternity-in-an-instant quality — a lifetime or endless duration inside a few objective minutes — is among the most consistent temporal reports.",
+      "phase": 9,
+      "science_note": "The subjective-time compression correlates in Timmermann et al. (2019) with the emergence of low-frequency delta/theta EEG activity at the eyes-closed peak of the experience — the same window associated with peak visual immersion. Reported as phenomenology; no claim about physical time.",
+      "sources": [
+        {"source_key": "nexus", "detail": "'Planck Time' — 'time compressing into smaller and smaller units' until it appears to stop; 'Mirror' — travelling forward then 'quickly rewinds back through the entire trip'; 'Loop, Stuck in a'; 'Eschatothesia' — 'sensing of a future attractor.'"},
+        {"source_key": "timmermann2019", "detail": "Delta/theta oscillatory emergence correlated with the peak, eyes-closed visual component of the DMT experience — the window in which time-distortion is most extreme."},
+        {"source_key": "shanon", "detail": "Reports of atemporality and the dilation/spatialization of time as a recurrent structural feature of the visionary state."}
+      ]
+    },
+    {
+      "name": "Omnidirectional 360° Vision",
+      "description": "The sense of seeing in all directions at once — a spherical, panoramic awareness with no back-of-the-head blind spot, as though vision has detached from the two forward-facing eyes and become a full surround. Often reported together with a 'view from everywhere / no fixed vantage' quality and with multiple simultaneous perspectives on the same scene. Travelers describe being at the center of a fully enclosing environment, or occupying several viewpoints at once, consistent with the full-immersion 'you are inside it' character of the deeper levels.",
+      "phase": 6,
+      "science_note": "Aligns with Effect Index/PsychonautWiki's highest geometry tiers ('all-encompassing,' fully immersive perceptual replacement) and QRI's 'full immersion' Waiting Room stage in which partial overlay gives way to total surround.",
+      "sources": [
+        {"source_key": "qri", "detail": "Waiting Room stage: 'full immersion' replaces partial immersion, with 'total and complete synchronization of all senses into a unified synesthetic experience' surrounding the observer."},
+        {"source_key": "nexus", "detail": "Full Immersion Visual (FIV) — hallucinations 'of such intensity that one becomes fully immersed within them,' enclosing the field on all sides."},
+        {"source_key": "effectindex", "detail": "Geometry Level 7 'all-encompassing' — complete visual replacement creating perception of having 'broken through' into a surrounding reality."}
+      ]
+    },
+    {
+      "name": "Body Dissolution & Merging with the Geometry",
+      "description": "The felt boundary of the body loosening and dissolving — flesh 'unzipping' or breaking into waves, particles, light and vibration — until the self is no longer inside a body but distributed across, or fused into, the surrounding pattern. Travelers describe becoming the geometry, the tunnel, or the light; sensing the body 'rewired' so that touch and sight merge; or being left as a point of pure awareness with no located form. Sits between the somatic rush and breakthrough, and shades into ego-dissolution when the sense of a separate self goes with the body.",
+      "phase": 4,
+      "science_note": "Corresponds to reports of disembodiment/dissolution that Timmermann et al. (2019) place at the immersive peak; the loss of bodily boundary is one facet of the ego-dissolution the DMT literature associates with alpha-power suppression and increased signal diversity.",
+      "sources": [
+        {"source_key": "nexus", "detail": "'Body Deconstruction' — 'body seems to be dissolved and deconstructed into waves, particles, vibration, light,' potentially leaving only consciousness perceiving hyperspace; 'Kinesioöptic' — bodily sensation 'rewired to the visual cortex.'"},
+        {"source_key": "timmermann2019", "detail": "Marked alpha/beta suppression and increased signal diversity at the immersive peak, correlating with self-reported immersiveness and loss of ordinary embodied perspective."},
+        {"source_key": "michael2021", "detail": "Disembodiment / separation of consciousness from the body reported as a core onset feature of the breakthrough."}
+      ]
+    },
+    {
+      "name": "Entity Soundscapes & the Audio Windup",
+      "description": "The auditory layer of the space beyond the onset ring: high-volume chattering, twittering and laughter attributed to entities; buzzing, chiming and resonant tones; complex 'impossible' music; and a characteristic 'windup / windout' in which entity communication accelerates into a rising feedback-like sound as they arrive or depart. Distinct from the Carrier Wave (the steady onset ring-tone): these are structured, often social or musical sounds within the space, sometimes experienced synesthetically as entangled with the visuals. A brief 'pop' or 'snap' is frequently reported at the instant of breaking through.",
+      "phase": 7,
+      "science_note": "Strassman's volunteers described high-volume entity vocalizations ('the elves laughing or talking at high volume, chattering, twittering'); Effect Index classes such experiences as auditory hallucination co-occurring with auditory enhancement/distortion.",
+      "sources": [
+        {"source_key": "strassman", "detail": "Volunteers reported loud entity auditory hallucinations — typically 'the elves laughing or talking at high volume, chattering, twittering.'"},
+        {"source_key": "nexus", "detail": "'Audio Windup/Windout' — as entities depart their communication becomes 'a winding up sound' like accelerating feedback that resolves into a resonant buzz or chime; 'Audioplasticity' — 'sounds and words become entangled' synesthetically."},
+        {"source_key": "effectindex", "detail": "Auditory hallucinations are documented as frequently accompanied by 'auditory distortion and auditory enhancement.'"}
+      ]
+    },
+    {
+      "name": "Tactile Geometry (Felt Textures)",
+      "description": "Geometry that is not only seen but felt — surfaces with palpable texture, and a repertoire of bodily sensations: waves of tingling and 'energy' moving over and through the skin, the sense of being handled, molded or operated on, and contact with the space's own substance (a squishy, sticky, gel-like 'matter' from which forms are built). Travelers report running their attention over ridged, crystalline, liquid or plush surfaces and feeling them respond; synesthetic crossover means color and sound are often felt as touch. This tactile dimension deepens the hyper-reality of the space — it can be touched, and it touches back.",
+      "phase": 5,
+      "science_note": "Effect Index/PsychonautWiki document 'spontaneous tactile sensations' — 'distinct tingling sensations that occur across the skin and within the body' without external trigger — alongside tactile enhancement; frequently reported as synesthetic (visual/auditory input felt as touch).",
+      "sources": [
+        {"source_key": "effectindex", "detail": "'Spontaneous tactile sensations... feelings of seemingly random yet distinct tingling sensations that occur across the skin and within the body,' plus general tactile enhancement."},
+        {"source_key": "nexus", "detail": "'Jimjam' — the 'squishy, goopy, sticky, stringy matter of hyperspace that anything can be created from'; 'Soul Surgery' — sensation of 'being partially disassembled and operated upon.'"},
+        {"source_key": "michael2021", "detail": "'Synthetic/organic-mechanic textures' reported in 42% (15/36) of accounts as a felt as well as seen surface quality."}
+      ]
+    },
+    {
+      "name": "Energy Conduits & Living Circuitry",
+      "description": "The space rendered as flowing energy and machinery: luminous conduits, cables, circuit-board traces, pulsing veins of light, gears, looms and vast apparatus that seem to route power or information through the scene — often described as 'the machine that keeps everything together,' alive and self-operating. Travelers report currents of energy running through the geometry (and through their dissolved bodies), nodes and junctions lighting up, and a sense that the patterns are functional circuitry rather than mere decoration — computation or metabolism made visible.",
+      "phase": 8,
+      "science_note": "QRI's model frames curvature as storing and propagating 'potential energy' across modalities — a phenomenological account of why the space reads as energetic/circuit-like; presented as an interpretive proposal, not physics.",
+      "sources": [
+        {"source_key": "michael2021", "detail": "Participant EM: 'like this massive machine that keeps everything together,' a 'construction with a mind of its own... moving around, everything was changing inside'; mechanical/synthetic textures in 42% of accounts."},
+        {"source_key": "qri", "detail": "Proposes that 'curvature stores potential energy' and that 'excess curvature' propagates across modalities — the felt basis of energetic flow and circuitry in the scene."},
+        {"source_key": "nexus", "detail": "'Mangotanglement' — endless objects made of 'organic matter and grids of light-dots,' pulsating multidimensionally like living circuitry."}
+      ]
+    },
+    {
+      "name": "Ultra-Detail & Infinite Resolution",
+      "description": "The pervasive sense that the visual field has been 'upgraded to HD' and then far beyond — edges sharper than physically possible, textures resolving into finer and finer detail the closer attention zooms, and an intuition of literally infinite resolution with no smallest pixel. Every element of the pattern seems fully rendered at every scale simultaneously, and travelers report being able to inspect a sub-region and find an entire further world of detail inside it. This 'more real than real' acuity begins at threshold as heightened clarity and becomes, at depth, the felt impossibility of the space — more information than a normal visual field could contain.",
+      "phase": 2,
+      "science_note": "Klüver noted hallucinatory patterns carrying detail finer than ordinary vision; QRI describes threshold as increased 'level of detail' ('an HD version') and links the infinite-detail feeling to hyperbolic area-growth, where exponentially more surface is packed into each region.",
+      "sources": [
+        {"source_key": "qri", "detail": "Threshold = 'upgrading one's experience to an HD version of it,' with 'the level of detail in one's experience... increased'; hyperbolic geometry packs exponentially growing area/detail into each region."},
+        {"source_key": "kluver", "detail": "Documented hallucinatory form constants with fine, replicating, saturated detail exceeding ordinary perceptual resolution."},
+        {"source_key": "nexus", "detail": "'Hyperreal' — 'unquestionable subjective certainty' that the experience is real, 'probably far more real' than waking life, driven partly by its impossible clarity and detail."}
+      ]
+    },
+    {
+      "name": "Breathing & Liquid Surfaces",
+      "description": "At and around threshold, ordinary surfaces begin to breathe, ripple, melt and flow — walls pulsing in and out, floors rolling in slow waves, edges softening as if everything were made of liquid, wax or living tissue. Objects seem to inhale and exhale in time with the traveler; textures crawl and reflow; solid matter takes on a wet, gel-like or candy-like plasticity. This animate-liquid quality is often the first sign the substance has taken hold (in the ambient, eyes-open phase) and returns during the descent as hyperspace 'melts' back into the room.",
+      "phase": 1,
+      "science_note": "Corresponds to Effect Index/PsychonautWiki 'drifting' (morphing/breathing/flowing/melting) effects and to low-level geometry animating static surfaces — attributed to unstable, continuously updated edge and motion processing under the drug.",
+      "sources": [
+        {"source_key": "effectindex", "detail": "Lower-intensity visual effects include continuous morphing, breathing and flowing of surfaces before defined geometry takes over."},
+        {"source_key": "nexus", "detail": "'Plasmatis' — 'the multicolored constantly shifting gel-goo' decorating space; 'Candyland' — reality 'as if made of colorful candy,' polished and plastic."},
+        {"source_key": "shanon", "detail": "Reports of surfaces and forms in continuous fluid transformation as a baseline feature of the visual style."}
+      ]
+    }
+  ],
+  "augments": [
+    {
+      "name": "The Chrysanthemum",
+      "note": "Augment: the onset mandala can be read as a Klüver spiral/lattice form constant driven to breakthrough intensity, its 'perfect symmetry' a product of a lowered symmetry-detection threshold (QRI) rather than an external object. Effect Index locates it near 'fully defined geometry' — profoundly complex, fully structured 2D pattern that saturates the field before opening into depth.",
+      "sources": [
+        {"source_key": "kluver", "detail": "The spinning radial/lattice character matches the spiral and lattice form constants seen across mescaline and other hallucinatory states."},
+        {"source_key": "qri", "detail": "Chrysanthemum stage involves a 'lowered symmetry detection threshold' where patterns 'lock into perfectly symmetrical structures.'"},
+        {"source_key": "effectindex", "detail": "Corresponds to 'Level 4 — fully defined geometry': 'profoundly complex and fully structured' 2D patterns with an extensive color range."}
+      ]
+    },
+    {
+      "name": "Fractal lattices & jeweled tilings",
+      "note": "Augment: the lattice/honeycomb tiling is Klüver's fourth form constant, and Bressloff/Cowan derive exactly such lattices from stripe/roll patterns in V1 mapped through the retinocortical transform — the tessellations are a signature of cortical geometry. Michael et al. (2021) found explicit lattice/gridwork imagery in 25% of accounts.",
+      "sources": [
+        {"source_key": "kluver", "detail": "Lattice form constant: 'grating, lattice, fretwork, filigree, honeycomb, or chessboard.'"},
+        {"source_key": "bressloff", "detail": "Regular tilings/lattices arise as V1 stripe-and-lattice eigenmodes projected to the visual field — the mathematical origin of jeweled tessellation percepts."},
+        {"source_key": "michael2021", "detail": "Lattice/gridwork environments reported in 25% (9/36) of accounts; participant GR described 'an empty blueprint of the universe... a simple grid.'"}
+      ]
+    },
+    {
+      "name": "The Carrier Wave",
+      "note": "Augment: the onset ring-tone is often experienced as an accelerating, rising vibration ('Acute Acceleration') felt through the whole body, and later couples to structured entity sound — the 'audio windup/windout' as beings arrive and depart. Strassman's volunteers add high-volume entity vocalizations layered over the tone.",
+      "sources": [
+        {"source_key": "nexus", "detail": "'Acceleration, Acute' — 'a constantly rising, accelerating vibration felt through the entire body'; carrier tone 'sometimes steady, sometimes warbling up and down like a siren.'"},
+        {"source_key": "strassman", "detail": "High-volume auditory hallucinations of entities 'chattering, twittering' layered over the onset tone."}
+      ]
+    },
+    {
+      "name": "Hyper-dimensional objects",
+      "note": "Augment: framed by QRI as objects that cannot be embedded in 3D Euclidean space because the surrounding geometry is hyperbolic — hence their Escher-like, 'impossible' character. Michael et al. (2021) report hyperdimensional structures in 17% of accounts. Effect Index/DMT literature explicitly cites 'Escher-like impossible objects' as characteristic DMT content.",
+      "sources": [
+        {"source_key": "qri", "detail": "Objects acquire 'mean negative curvature' and cannot 'fit in an experiential field with 3D Euclidean phenomenal space,' producing impossible/hyperdimensional forms."},
+        {"source_key": "michael2021", "detail": "'Hyperdimensional structures' explicitly reported in 17% (6/36) of accounts."},
+        {"source_key": "effectindex", "detail": "DMT phenomenology described as including 'perceiving hyperbolic geometry or seeing Escher-like impossible objects.'"}
+      ]
+    },
+    {
+      "name": "Living language / visible sound",
+      "note": "Augment: the DMT-Nexus lexicon documents the mechanism — 'audioplasticity,' where 'sounds and words become entangled' across the senses — as the substrate of McKenna's visible Logos. Shanon's ayahuasca typology independently catalogs script/symbol visions, situating visible-language within a cross-tradition pattern.",
+      "sources": [
+        {"source_key": "nexus", "detail": "'Audioplasticity' — synesthetic entanglement of sounds and words with the visual field, the felt basis of 'seeing' language."},
+        {"source_key": "shanon", "detail": "Structural typology includes visions of writing, scripts and symbols among figurative visual classes."}
+      ]
+    },
+    {
+      "name": "Mandalas & symmetry fields",
+      "note": "Augment: QRI reports that DMT visuals can instantiate any of the seventeen wallpaper symmetry groups, and that QRI 'was able to confirm that all 17 wallpaper groups are indeed possible in DMT states' — grounding the mandala/symmetry field in Gómez Emilsson's 'algorithmic reduction' framework of symmetry-governed psychedelic visuals.",
+      "sources": [
+        {"source_key": "qri", "detail": "DMT visuals 'instantiate any of the 17 wallpaper symmetry groups' via a lowered symmetry-detection threshold; all 17 groups confirmed possible in DMT states."},
+        {"source_key": "effectindex", "detail": "Symmetry (radial, bilateral, tessellating) documented as a core stylistic variation dimension of psychedelic geometry."}
+      ]
+    },
+    {
+      "name": "Static Pattern Overlay & filigree",
+      "note": "Augment: the DMT-Nexus lexicon specifies SPO surfaces as 'arabesques, hieroglyphs, or faces' that are 'extremely convincing and nearly indistinguishable from consensus reality,' and names the ornamental filigree 'Schnörkel' — spirals and ornamentation 'being designed and redesigned in realtime' rather than static.",
+      "sources": [
+        {"source_key": "nexus", "detail": "SPO = surfaces of 'arabesques, hieroglyphs, or faces,' 'extremely convincing'; 'Schnörkel' = 'spirals, ornamentations, and filigree' continuously 'designed and redesigned in realtime.'"},
+        {"source_key": "kluver", "detail": "'Filigree' and 'fretwork' are named variants of the lattice form constant — the classical root of the filigree overlay."}
+      ]
+    }
+  ],
+  "sources_new": [
+    {
+      "key": "kluver",
+      "author": "Heinrich Klüver",
+      "work": "Mescal, and Mechanisms of Hallucinations",
+      "year": "1926/1966",
+      "type": "book",
+      "note": "Origin of the 'form constants': lattice/honeycomb, cobweb, tunnel/funnel, and spiral, observed across systematic mescaline self-experiments in bright, highly saturated colors. The foundational scientific taxonomy of visionary geometry; describes recurring forms, not a representative statistical sample."
+    },
+    {
+      "key": "bressloff",
+      "author": "Paul C. Bressloff, Jack D. Cowan, Martin Golubitsky, Peter J. Thomas & Matthew C. Wiener",
+      "work": "Geometric visual hallucinations, Euclidean symmetry and the functional architecture of striate cortex (Phil. Trans. R. Soc. B)",
+      "year": "2001",
+      "type": "paper",
+      "note": "Neural-field model deriving Klüver's four form constants from spontaneous symmetry-breaking pattern formation in primary visual cortex (V1), mapped to the visual field by the log-polar retinocortical transform. Explains why the same geometries recur across drugs, migraine and sensory deprivation."
+    },
+    {
+      "key": "effectindex",
+      "author": "Josie Kins (Effect Index / Subjective Effect Index)",
+      "work": "Subjective Effect Index — Geometry, Colour enhancement, Auditory & Tactile effects (effectindex.com)",
+      "year": "2017–",
+      "type": "reference",
+      "note": "Granular community taxonomy of ~233 subjective effects incl. a 7-level geometry scale (visual noise → all-encompassing) and higher '8A/8B' semantic/consciousness-exposure geometry. A structured phenomenological catalog compiled from many reports, not a controlled study."
+    },
+    {
+      "key": "psychonautwiki",
+      "author": "PsychonautWiki contributors",
+      "work": "PsychonautWiki — Geometry, Drifting, Spontaneous tactile sensations, DMT (psychonautwiki.org)",
+      "year": "2013–",
+      "type": "reference",
+      "note": "Community-maintained subjective-effect wiki paralleling the Effect Index leveling system, including Level 8A (semantic concept network) and 8B (inner mechanics of consciousness) geometry. Collaborative, non-peer-reviewed; useful for lay descriptive vocabulary."
+    }
+  ]
+}

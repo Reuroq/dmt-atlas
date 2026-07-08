@@ -1,0 +1,378 @@
+{
+  "data_points": [
+    {
+      "claim": "Davis 2020 breakthrough-DMT entity survey sample size",
+      "stat_or_value": "N = 2561",
+      "source_key": "davis2020",
+      "detail": "Anonymous online survey of people who took a 'breakthrough' dose of inhaled N,N-DMT and encountered a seemingly autonomous being/entity; Johns Hopkins (Davis, Clifton, Weaver, Hurwitz, Johnson, Griffiths), J Psychopharmacol 2020. Recruited from >10,000 initial respondents."
+    },
+    {
+      "claim": "Most common label used for the DMT entity was 'being'",
+      "stat_or_value": "60%",
+      "source_key": "davis2020",
+      "detail": "Entity-descriptor breakdown, Davis 2020 (N=2561). 'Being' was the single most frequent label."
+    },
+    {
+      "claim": "Other frequent DMT entity labels: guide / spirit / alien / helper",
+      "stat_or_value": "guide 43%, spirit 39%, alien 39%, helper 34%",
+      "source_key": "davis2020",
+      "detail": "Entity-descriptor breakdown, Davis 2020. Respondents could endorse multiple labels; more specific labels like 'elf' were far rarer than generic 'being/guide/helper'."
+    },
+    {
+      "claim": "DMT entity perceived as conscious",
+      "stat_or_value": "96%",
+      "source_key": "davis2020",
+      "detail": "Attribute ratings of the encountered entity, Davis 2020 (N=2561)."
+    },
+    {
+      "claim": "DMT entity perceived as intelligent",
+      "stat_or_value": "96%",
+      "source_key": "davis2020",
+      "detail": "Attribute ratings, Davis 2020."
+    },
+    {
+      "claim": "DMT entity perceived as benevolent",
+      "stat_or_value": "78%",
+      "source_key": "davis2020",
+      "detail": "Attribute ratings, Davis 2020. Contrasts with only ~41% reporting any fear during the encounter."
+    },
+    {
+      "claim": "DMT entity perceived as sacred",
+      "stat_or_value": "70%",
+      "source_key": "davis2020",
+      "detail": "Attribute ratings, Davis 2020. A separate 54% rated the entity as having agency in the world."
+    },
+    {
+      "claim": "Rated the DMT encounter as 'more real' than everyday waking consciousness",
+      "stat_or_value": "≥65%",
+      "source_key": "davis2020",
+      "detail": "Davis 2020; majority labelled the experience as more real than everyday reality, a hallmark 'realer than real' finding."
+    },
+    {
+      "claim": "Reported fear at some point during the DMT entity encounter",
+      "stat_or_value": "41%",
+      "source_key": "davis2020",
+      "detail": "Davis 2020. Fear was the most common challenging emotion but was outweighed by love/kindness/joy, the most prominent emotions both felt and attributed to the entity."
+    },
+    {
+      "claim": "Received a message, insight or directive from the DMT entity",
+      "stat_or_value": "69%",
+      "source_key": "davis2020",
+      "detail": "Davis 2020. A separate 19% reported receiving a prediction about the future."
+    },
+    {
+      "claim": "Believed the DMT entity continued to exist after the encounter ended",
+      "stat_or_value": "72%",
+      "source_key": "davis2020",
+      "detail": "Davis 2020; respondents held the entity existed in this or another dimension after the experience. (Report only; the Atlas makes no metaphysical claim.)"
+    },
+    {
+      "claim": "Self-identified atheists before vs after the DMT encounter",
+      "stat_or_value": "28% before → 10% after",
+      "source_key": "davis2020",
+      "detail": "Davis 2020. More than half of respondents who identified as atheist before the experience no longer did so afterwards; the survey found significant increases in belief in ultimate reality / higher power / God / universal divinity. Reported belief shift only."
+    },
+    {
+      "claim": "Lawrence 2022 corpus of inhaled N,N-DMT experience reports analysed",
+      "stat_or_value": "3778 experiences (from 3305 posts, 2009–2018)",
+      "source_key": "lawrence2022",
+      "detail": "Ten years of r/DMT Reddit posts, quantitative content analysis; Lawrence, Carhart-Harris, Griffiths, Timmermann et al., Scientific Reports 2022;12:8562."
+    },
+    {
+      "claim": "Entity encounters reported in the Lawrence 2022 DMT corpus",
+      "stat_or_value": "45.5% (n = 1719)",
+      "source_key": "lawrence2022",
+      "detail": "Lawrence 2022. Encounter rate lower than in entity-selected surveys (Davis) because this corpus was not pre-screened for entity contact."
+    },
+    {
+      "claim": "Lawrence 2022 entity phenotype: feminine",
+      "stat_or_value": "24.2% (n = 416)",
+      "source_key": "lawrence2022",
+      "detail": "Most common single phenotype among entity encounters (n=1719) in Lawrence 2022."
+    },
+    {
+      "claim": "Lawrence 2022 entity phenotype: deities / divine beings",
+      "stat_or_value": "17.0% (n = 293)",
+      "source_key": "lawrence2022",
+      "detail": "Phenotype breakdown, Lawrence 2022."
+    },
+    {
+      "claim": "Lawrence 2022 entity phenotype: aliens",
+      "stat_or_value": "16.3% (n = 281)",
+      "source_key": "lawrence2022",
+      "detail": "Phenotype breakdown, Lawrence 2022."
+    },
+    {
+      "claim": "Lawrence 2022 entity phenotype: creature-based (incl. reptilian, insectoid)",
+      "stat_or_value": "9.2% (n = 158)",
+      "source_key": "lawrence2022",
+      "detail": "Phenotype breakdown, Lawrence 2022."
+    },
+    {
+      "claim": "Lawrence 2022 entity phenotype: mythological beings (incl. 'machine elves')",
+      "stat_or_value": "8.4% (n = 144)",
+      "source_key": "lawrence2022",
+      "detail": "Phenotype breakdown, Lawrence 2022. Notably low, contradicting the popular assumption that 'machine elves' dominate DMT encounters."
+    },
+    {
+      "claim": "Lawrence 2022 entity phenotype: jesters / clowns",
+      "stat_or_value": "6.5% (n = 112)",
+      "source_key": "lawrence2022",
+      "detail": "Phenotype breakdown, Lawrence 2022."
+    },
+    {
+      "claim": "Lawrence 2022 entity interaction disposition: positive / benevolent vs guide/pedagogical vs negative",
+      "stat_or_value": "positive 34.9% (n=600); guide/companion 32.4% (n=557); negative 11.4% (n=196)",
+      "source_key": "lawrence2022",
+      "detail": "Interaction-type breakdown among entity encounters (n=1719), Lawrence 2022."
+    },
+    {
+      "claim": "Michael 2021 naturalistic field-study DMT reports involving an entity/'being' encounter",
+      "stat_or_value": "94% (34 of 36)",
+      "source_key": "michael2021",
+      "detail": "'An Encounter With the Other' (Michael, Luke, Robinson, Front Psychol 2021). 36 immediate post-experience interviews; screened experienced users, 40–75 mg inhaled (mean 54.5), 83% Caucasian, mean age 37.4. Most entities (72%) were 'otherly creatures'."
+    },
+    {
+      "claim": "Michael 2021 entity demeanour: charming/inviting vs benevolent vs mischievous vs fearsome",
+      "stat_or_value": "charming/inviting 56%; benevolent 28%; mischievous/jestful 14%; fearsome/menacing 8%",
+      "source_key": "michael2021",
+      "detail": "Demeanour breakdown (of 36), Michael 2021. Threatening tone was rare."
+    },
+    {
+      "claim": "Michael 2021 interaction & communication with entities",
+      "stat_or_value": "helping/nurturing role 53%; showing/communing 47%; communication present 39%; explicit messages received 33%",
+      "source_key": "michael2021",
+      "detail": "Michael 2021 (of 36). 100% (36/36) reported experiencing 'other worlds'."
+    },
+    {
+      "claim": "Michael 2025 naturalistic DMT reports containing at least one canonical NDE theme",
+      "stat_or_value": "94% (34 of 36)",
+      "source_key": "michael2025",
+      "detail": "'An encounter with death' (Michael, Luke, Robinson, Front Psychol 2025), comparing 36 DMT interviews with 34 matched NDE narratives. Concludes DMT is 'NDE-mimetic' but qualitatively distinct; 5 classical NDE features were entirely absent from DMT. (Some secondary summaries cite 95%; full-text figure is 34/36 = 94%.)"
+    },
+    {
+      "claim": "Michael 2025 individual NDE-feature prevalence in DMT reports",
+      "stat_or_value": "disembodiment 53% (19/36); translocation 33% (12/36); bright light(s) 25% (9/36); tunnel-like structures 28% (10/36); the void 11% (4/36)",
+      "source_key": "michael2025",
+      "detail": "Feature-by-feature content analysis, Michael 2025. Classic NDE motifs like life-review-like (6%) and deceased-family (6%) were rare in DMT; 39% (14/36) reported ≥1 less-typical NDE motif."
+    },
+    {
+      "claim": "Strassman UNM DMT program scale (1990–1995)",
+      "stat_or_value": "~60 volunteers, ~400 doses administered",
+      "source_key": "strassman",
+      "detail": "University of New Mexico School of Medicine, first US human psychedelic study in a generation. Dose-response work published as Strassman & Qualls, Arch Gen Psychiatry 1994 (Parts I & II). Study-history fact, not dosing guidance."
+    },
+    {
+      "claim": "Strassman's estimate of high-dose volunteers reporting contact with autonomous 'beings'",
+      "stat_or_value": "at least ~50%",
+      "source_key": "strassman",
+      "detail": "Strassman (DMT: The Spirit Molecule) reported roughly half of high-dose sessions involved encounters with seemingly independent entities; qualitative estimate, not a controlled frequency count."
+    },
+    {
+      "claim": "Timmermann 2018 participants exceeding the Greyson NDE-scale threshold under DMT",
+      "stat_or_value": "13 of 13 (100%) scored ≥ 7",
+      "source_key": "timmermann2018",
+      "detail": "'DMT Models the Near-Death Experience' (Front Psychol 2018). Within-subjects placebo-controlled, N=13; NDE cutoff is ≥7 of 32."
+    },
+    {
+      "claim": "Timmermann 2018 DMT vs placebo on total Greyson NDE score",
+      "stat_or_value": "t = 10.91, df = 12, p = 1.39e-7, Cohen's d = 3.09",
+      "source_key": "timmermann2018",
+      "detail": "Very large effect. Ego-dissolution similarly elevated (t=6.98, d=2.67). Timmermann 2018."
+    },
+    {
+      "claim": "Timmermann 2018 overlap of DMT state with 'real' NDE reports",
+      "stat_or_value": "no significant difference on 15 of 16 NDE items, all 4 subscales, and total score",
+      "source_key": "timmermann2018",
+      "detail": "DMT scores compared against a matched group who had life-threatening-event NDEs (Greyson subscales: cognitive, affective, transcendental, paranormal). Timmermann 2018."
+    },
+    {
+      "claim": "Timmermann 2019 EEG spectral changes under DMT",
+      "stat_or_value": "robust reduction of alpha (8–12 Hz) and beta power; increase in delta/theta at peak",
+      "source_key": "timmermann2019",
+      "detail": "'Neural correlates of the DMT experience assessed with multivariate EEG', Sci Rep 2019;9:16324, N=13, placebo-controlled. First study of pure DMT on spontaneous human brain activity."
+    },
+    {
+      "claim": "Timmermann 2019 signal-diversity / Lempel-Ziv complexity finding",
+      "stat_or_value": "significant increase in LZ complexity, tracking self-reported experience intensity",
+      "source_key": "timmermann2019",
+      "detail": "LZ complexity rose at the DMT peak and correlated with 'immersiveness' and visual-imagery ratings; consistent with the entropic-brain framework. Timmermann 2019."
+    },
+    {
+      "claim": "Timmermann 2023 EEG-fMRI study of DMT: sample and dose",
+      "stat_or_value": "N = 20; 20 mg IV bolus vs placebo",
+      "source_key": "timmermann2023",
+      "detail": "'Human brain effects of DMT assessed via EEG-fMRI', PNAS 2023;120(13):e2218949120. Simultaneous EEG-fMRI before/during/after. Dose is a study-administration fact."
+    },
+    {
+      "claim": "Timmermann 2023 whole-brain fMRI signature of DMT",
+      "stat_or_value": "robust increase in global functional connectivity (GFC); network disintegration/desegregation; compression of the principal cortical gradient",
+      "source_key": "timmermann2023",
+      "detail": "GFC × subjective-intensity maps spatially correlated with independent PET-derived 5-HT2A receptor density maps. Timmermann 2023."
+    },
+    {
+      "claim": "Alamia 2020: DMT reverses the direction of cortical travelling waves",
+      "stat_or_value": "backward waves decreased (~0.47 → ~0.18 dB); forward waves increased (~0 → ~0.19 dB)",
+      "source_key": "alamia2020",
+      "detail": "'DMT alters cortical travelling waves', eLife 2020;9:e59784, N=13 (dose groups 7–20 mg IV). Effects peaked 2–5 min post-injection and faded by ~10 min."
+    },
+    {
+      "claim": "Alamia 2020 alpha-band and slow-band Bayesian evidence under DMT",
+      "stat_or_value": "alpha reduction BF10 = 16.04; delta increase BF10 = 391.16; theta increase BF10 = 19.23",
+      "source_key": "alamia2020",
+      "detail": "Bayesian factors for spectral change, Alamia 2020. Alpha suppression is among the most reliable neurophysiological signatures of the psychedelic state."
+    },
+    {
+      "claim": "Lyke 2019 Erowid DMT entity-report analysis: base rates",
+      "stat_or_value": "149 reports (2006–2015); 75% described ≥1 entity; 180 total entities coded",
+      "source_key": "lyke2019",
+      "detail": "Lyke (2019), Erowid trip-report content analysis; sample 90% male, mean age 24.6. 37% of reports described multiple entities. Most common interaction type was showing/teaching/guidance (25%)."
+    },
+    {
+      "claim": "Lyke 2019 entity-type frequencies",
+      "stat_or_value": "poorly-defined/formless 29%; humanoid 22%; divine 10%; aliens 8%; elves/fairies 7%; animals 6%; geometric/machine 6%",
+      "source_key": "lyke2019",
+      "detail": "Lyke 2019. 'Machine elves' were among the least common phenotypes—most entities were amorphous or generic ('not everyone gets machine elves'). Gender specified in only 24% of descriptions, more often female."
+    },
+    {
+      "claim": "Sanz 2018 NLP corpus: hallucinogens rank highest in semantic similarity to dreaming",
+      "stat_or_value": "165 substances compared; ANOVA of drug category on dream-similarity F = 31.34, p < 0.0001",
+      "source_key": "sanz2018",
+      "detail": "'The Experience Elicited by Hallucinogens Presents the Highest Similarity to Dreaming...', Front Neurosci 2018;12:7. Semantic analysis of Erowid reports vs ~200,000 dream-journal reports."
+    },
+    {
+      "claim": "Sanz 2018: where DMT ranked for dream-similarity",
+      "stat_or_value": "DMT ~#15 (high-lucidity) / ~#29 (low-lucidity) of 165; LSD ranked #1",
+      "source_key": "sanz2018",
+      "detail": "Sanz 2018. DMT high on similarity but exceeded by LSD and some deliriants (e.g., Datura ranked #1 for low-lucidity dreams)."
+    },
+    {
+      "claim": "Martial 2019 NLP: which drug's reports most resemble near-death experiences",
+      "stat_or_value": "ketamine ranked #1 of 165 substances; DMT ranked lower",
+      "source_key": "martial2019",
+      "detail": "'Neurochemical models of near-death experiences', Conscious Cogn 2019;69:52–69. ~15,000 Erowid reports vs 625 NDE narratives; ketamine most similar, then Salvia, then serotonergic psychedelics incl. DMT. Tension with Timmermann 2018 (which frames DMT as an NDE model) — both included for the disagreement."
+    },
+    {
+      "claim": "Cakic 2010 Australian DMT user survey: route of use",
+      "stat_or_value": "n = 121; smoking 98.3%; ayahuasca 30.6%",
+      "source_key": "cakic2010",
+      "detail": "Cakic, Potkonyak & Marshall, Drug Alcohol Depend 2010;111(1):30–37. Online survey of recreational users; increased psychospiritual insight reported by 75.5% (smoked)."
+    },
+    {
+      "claim": "Winstock 2014 Global Drug Survey DMT prevalence",
+      "stat_or_value": "lifetime 8.9% (n = 1980); past-year 5.0% (n = 1123)",
+      "source_key": "winstock2014",
+      "detail": "Winstock, Kaar & Borschmann, J Psychopharmacol 2014;28(1):49–54. Large global self-selected sample (~22,000)."
+    },
+    {
+      "claim": "Winstock 2014: DMT abuse-liability / urge-to-use-more",
+      "stat_or_value": "'urge to use more' = 1.3 (lowest of drugs compared)",
+      "source_key": "winstock2014",
+      "detail": "Winstock 2014. Despite a very desirable effect profile, DMT showed the lowest urge to redose among compared drugs (e.g., ketamine ~3.0). Reported epidemiology only; no use guidance."
+    },
+    {
+      "claim": "Barsuglia 2018 5-MeO-DMT retreat study: complete mystical experience rate",
+      "stat_or_value": "75% (15 of 20) had a 'complete' mystical experience; MEQ30 overall M = 4.17 (SD 0.64, 0–5 scale)",
+      "source_key": "barsuglia2018",
+      "detail": "DISTINCT COMPOUND — 5-MeO-DMT (toad-derived), NOT N,N-DMT. Barsuglia et al., Front Psychol 2018;9:2459; n=20; intensity statistically comparable to a high-dose (30 mg/70 kg) lab psilocybin session. Included for cross-compound contrast."
+    },
+    {
+      "claim": "Cott & Rock 2008 early DMT phenomenology survey",
+      "stat_or_value": "19 reports coded → 9 thematic categories; sample mean age 23, 95% male",
+      "source_key": "cottrock2008",
+      "detail": "Cott & Rock, J Sci Explor 2008. Themes: hallucinations, lucidity, affective distortions, ineffability, extreme intensity, spirituality, space-time/self distortion, familiarity, entering other realities inhabited by sentient beings."
+    },
+    {
+      "claim": "Luan 2024 first extended-state (continuous-infusion) DMT study: design",
+      "stat_or_value": "11 volunteers; up to 4 dose levels; ~30-min bolus-plus-infusion; single-blind, placebo-controlled, within-subjects",
+      "source_key": "luan2024",
+      "detail": "'Psychological and physiological effects of extended DMT', Luan, Eckernäs, ... Carhart-Harris, Timmermann, J Psychopharmacol 2024. Operationalises the Gallimore & Strassman (2016, Front Pharmacol 7:211) target-controlled-infusion model. Doses are study-administration facts."
+    },
+    {
+      "claim": "Luan 2024 extended-DMT phenomenology and safety findings",
+      "stat_or_value": "entity encounters increased in the latter part of infusion; ego dissolution stayed minimal; short-term psychological tolerance; heart rate & anxiety stabilised to normal",
+      "source_key": "luan2024",
+      "detail": "Luan 2024. Subjective intensity plateaued while plasma DMT rose slightly (apparent habituation). No serious adverse events; supports feasibility of a sustained DMT state."
+    },
+    {
+      "claim": "QRI 'hyperbolic geometry of DMT' model (theory, not empirical measurement)",
+      "stat_or_value": "6 dose-ordered phases; claims all 17 wallpaper symmetry groups (and up to 230 crystallographic space groups) can manifest",
+      "source_key": "qri",
+      "detail": "Qualia Research Institute (Gomez-Emilsson). Phases: threshold → chrysanthemum → 'magic eye' → waiting room → breakthrough → amnesia; posits phenomenal space acquires negative (hyperbolic) curvature that intensifies with intensity. LABELLED AS SPECULATIVE THEORY — no metaphysical or measured-curvature claim endorsed by the Atlas."
+    }
+  ],
+  "sources_new": [
+    {
+      "key": "timmermann2023",
+      "author": "Timmermann C, Roseman L, Haijen E, Carhart-Harris RL, et al.",
+      "work": "Human brain effects of DMT assessed via EEG-fMRI (PNAS 120(13):e2218949120)",
+      "year": 2023,
+      "type": "neuroimaging study",
+      "note": "N=20, 20 mg IV DMT; simultaneous EEG-fMRI; GFC increase, cortical-gradient compression, 5-HT2AR spatial correlation."
+    },
+    {
+      "key": "alamia2020",
+      "author": "Alamia A, Timmermann C, Nutt DJ, VanRullen R, Carhart-Harris RL",
+      "work": "DMT alters cortical travelling waves (eLife 9:e59784)",
+      "year": 2020,
+      "type": "EEG study",
+      "note": "N=13; DMT decreases backward and increases forward travelling waves; alpha suppression (BF10=16.04)."
+    },
+    {
+      "key": "sanz2018",
+      "author": "Sanz C, Zamberlan F, Erowid E, Erowid F, Tagliazucchi E",
+      "work": "The Experience Elicited by Hallucinogens Presents the Highest Similarity to Dreaming within a Large Database of Psychoactive Substance Reports (Front Neurosci 12:7)",
+      "year": 2018,
+      "type": "NLP / corpus study",
+      "note": "165 substances vs dream-journal corpus; ANOVA F=31.34, p<0.0001; DMT high but below LSD/deliriants."
+    },
+    {
+      "key": "martial2019",
+      "author": "Martial C, Cassol H, Charland-Verville V, ... Tagliazucchi E, Laureys S",
+      "work": "Neurochemical models of near-death experiences: a large-scale study based on the semantic similarity of written reports (Conscious Cogn 69:52-69)",
+      "year": 2019,
+      "type": "NLP / corpus study",
+      "note": "~15,000 Erowid reports across 165 substances vs 625 NDE narratives; ketamine most NDE-like, DMT lower. Tension with Timmermann 2018."
+    },
+    {
+      "key": "cakic2010",
+      "author": "Cakic V, Potkonyak J, Marshall A",
+      "work": "Dimethyltryptamine (DMT): subjective effects and patterns of use among Australian recreational users (Drug Alcohol Depend 111(1):30-37)",
+      "year": 2010,
+      "type": "survey",
+      "note": "n=121; smoking 98.3%, ayahuasca 30.6%; psychospiritual insight 75.5%; anxiety/stress 10.9%."
+    },
+    {
+      "key": "winstock2014",
+      "author": "Winstock AR, Kaar S, Borschmann R",
+      "work": "Dimethyltryptamine (DMT): prevalence, user characteristics and abuse liability in a large global sample (J Psychopharmacol 28(1):49-54)",
+      "year": 2014,
+      "type": "epidemiological survey (Global Drug Survey)",
+      "note": "Lifetime 8.9% (n=1980), past-year 5.0% (n=1123); lowest urge-to-redose (1.3) of compared drugs."
+    },
+    {
+      "key": "barsuglia2018",
+      "author": "Barsuglia J, Davis AK, Palmer R, ... Griffiths RR",
+      "work": "Intensity of Mystical Experiences Occasioned by 5-MeO-DMT and Comparison With a Prior Psilocybin Study (Front Psychol 9:2459)",
+      "year": 2018,
+      "type": "field study",
+      "note": "DISTINCT COMPOUND 5-MeO-DMT (not N,N-DMT). n=20; 75% complete mystical experience; MEQ30 M=4.17."
+    },
+    {
+      "key": "cottrock2008",
+      "author": "Cott C, Rock A",
+      "work": "Phenomenology of N,N-Dimethyltryptamine Use: A Thematic Analysis (J Sci Explor 22(3))",
+      "year": 2008,
+      "type": "survey / thematic analysis",
+      "note": "19 online reports; 9 themes; mean age 23, 95% male. Early systematic DMT phenomenology."
+    },
+    {
+      "key": "luan2024",
+      "author": "Luan LX, Eckernäs E, Ashton M, Rosas FE, ... Carhart-Harris RL, Timmermann C",
+      "work": "Psychological and physiological effects of extended DMT (J Psychopharmacol)",
+      "year": 2024,
+      "type": "clinical pilot (continuous IV infusion / DMTx)",
+      "note": "First extended-state DMT study; 11 volunteers, up to 4 dose levels, ~30-min bolus+infusion; entity encounters rose late, minimal ego dissolution, short-term psychological tolerance."
+    }
+  ]
+}

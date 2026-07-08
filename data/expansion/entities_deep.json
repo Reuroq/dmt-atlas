@@ -1,0 +1,614 @@
+{
+  "entities": [
+    {
+      "name": "The Surgeons — hyperspace medical team",
+      "aka": ["The Doctors", "Hyperspace surgeons", "The healers", "Entities performing procedures"],
+      "type": "medical",
+      "appearance": "Reported as clinical figures — sometimes explicitly humanoid in surgical or medical attire, sometimes insectoid, robotic, or featureless — arranged around the experiencer as a coordinated team. The setting is frequently described as an operating theatre, examination room, or laboratory rendered in impossible hyperspace materials. Instruments, probes, and glowing implements are commonly described; some reports describe the beings' hands or appendages passing directly into the body.",
+      "behavior": "Working on the experiencer: probing, scanning, inserting or removing objects, adjusting 'energy', repairing perceived damage, or performing what is interpreted as psychic surgery. They work with detached professional focus, often seeming unsurprised by the experiencer's arrival — as if the appointment was scheduled. Several reports describe them pausing to acknowledge the experiencer before resuming work.",
+      "communication": "Usually minimal and task-focused: brief telepathic reassurances ('relax', 'we are helping', 'hold still'), or silent coordination among themselves. Some reports describe post-procedure explanations of what was 'fixed'.",
+      "emotional_tone": "Clinical, detached, but frequently experienced as benevolent; a minority of reports describe violation, terror, and abduction-like helplessness, closely paralleling alien-abduction medical-exam narratives.",
+      "message_or_purpose": "Healing, repair, tuning, or upgrading the experiencer — physically, energetically, or psychologically. Experiencers often emerge convinced something was done to them, whether or not they welcomed it.",
+      "frequency": "No survey isolates a 'surgeon' category, but the motif is robustly recurrent: several of Strassman's UNM volunteers described beings performing tests, probes, and procedures on them; Meyer's 340-report corpus notes medical imagery, scanning, and examination by machine-like entities; Michael et al. (2021) recorded entities performing 'procedures' or 'healing work'. A staple of Erowid and r/DMT reports.",
+      "phase": 7,
+      "sources": [
+        {"source_key": "strassman", "detail": "Multiple UNM volunteers described clinical, experimental scenarios — beings inserting probes, running tests, and 'doing something' to them; Strassman noted the strong parallel to alien-abduction medical-examination reports (giant eyes, telepathy, procedures)."},
+        {"source_key": "meyer", "detail": "The 340-report corpus includes humanoid figures in medical attire and 'procedural interactions — medical imagery, scanning, and examination by machine-like entities'."},
+        {"source_key": "michael2021", "detail": "Field-study participants reported entities performing 'procedures' or 'healing work' on them during breakthrough encounters."},
+        {"source_key": "mack", "detail": "The procedure/examination scenario is structurally near-identical to the medical-exam core of abduction narratives Mack documented, a parallel Strassman explicitly drew."},
+        {"source_key": "erowid", "detail": "Erowid DMT vault reports recurrently describe operating-table scenes and teams of beings 'working on' the submitter."}
+      ]
+    },
+    {
+      "name": "The Operators — hidden technicians of the experience",
+      "aka": ["The Technicians", "The Director", "The stagehands", "The ones running the show"],
+      "type": "other",
+      "appearance": "Often barely glimpsed or entirely behind-the-scenes: figures at control panels, silhouettes adjusting dials, beings manipulating the visible scenery like stagehands or projectionists. When seen, they may appear as slender humanoids, elf-like engineers, or abstract presences 'behind' the visual field. Distinct from the machine elves in that their focus is the experience's machinery rather than the experiencer.",
+      "behavior": "Running, directing, or maintaining the experience itself — assembling scenes, cueing transitions, operating the 'projector'. Experiencers describe catching them at work, as if peeking backstage, sometimes triggering amusement or mild annoyance in the beings. The DMT-Nexus lexicon documents first-person accounts of a 'Director' who built allegorical visions like a film director crossed with a dungeon master, and a 'Conductor' responsible for the experience's soundtrack.",
+      "communication": "Often none — they are absorbed in their work. When communication occurs it is wry and knowing: acknowledgment that the experiencer has noticed the mechanism ('you caught us'), or matter-of-fact explanation of their role.",
+      "emotional_tone": "Impersonal-to-playful; frequently produces in the experiencer a destabilizing 'it's all staged' insight — sometimes comforting (someone is in charge), sometimes paranoid (reality is a production).",
+      "message_or_purpose": "Maintenance and orchestration of the experience; occasionally interpreted as revealing that ordinary reality is likewise 'run' from behind the scenes — the 'cosmic game' insight.",
+      "frequency": "Not isolated in any survey; Michael et al. (2021) coded a 'manipulating or controlling (trickster/orchestrator)' entity role in 17% of encounters, which covers this figure. A recurrent named archetype in DMT-Nexus community writing ('The Director', 'The Conductor'); regular in r/DMT threads about 'the beings running the place'.",
+      "phase": 6,
+      "sources": [
+        {"source_key": "nexus", "detail": "Lexicon contributor accounts name 'The Director' ('a role analogous to a movie director combined with a D&D dungeon master... responsible for creating and directing many if not all of the allegorical visions') and 'The Conductor' (author of the experience's 'soundtrack')."},
+        {"source_key": "michael2021", "detail": "Coded an orchestrator/controller role in 17% of encounters; one participant described a female entity who was 'orchestrating the entire DMT space environment' while giggling."},
+        {"source_key": "mckenna", "detail": "McKenna's descriptions of hyperspace as a made, engineered place — objects sung into existence, a 'cosmic control room' quality — seeded the community's operator/technician framing."},
+        {"source_key": "erowid", "detail": "Community lore, not a study category: Erowid reports describe glimpsing 'the ones who run it' adjusting scenery or machinery behind the visuals."}
+      ]
+    },
+    {
+      "name": "The Teacher — professor of hyperspace",
+      "aka": ["The Professor", "The Instructor", "The Guide-Teacher", "Diplomatic anthropologists (McKenna)"],
+      "type": "teacher",
+      "appearance": "Highly variable but consistently authoritative: a robed elder, a scholarly humanoid, a formless voice-with-presence, or an ordinary-seeming person radiating superhuman intelligence. Often appears singly, positioned as if the experiencer has entered a classroom, lecture, or tutorial. The DMT-Nexus lexicon records long-running relationships with a consistent 'Guide' personality across many sessions.",
+      "behavior": "Deliberate demonstration and instruction: showing objects, diagrams, or scenes; walking the experiencer through lessons; correcting misunderstandings; assigning what feel like exercises or homework. Teachers are patient but businesslike, and reports emphasize the sense of a curriculum — that the lesson was prepared and the student expected. Meyer's corpus documents entities demonstrating techniques (e.g., breathing, yoga-like postures) and symbolic knowledge.",
+      "communication": "The most linguistically rich of entity types: fluent telepathy, direct 'knowledge transfer' where understanding arrives whole, visual demonstration with commentary, occasionally heard speech. McKenna characterized his teachers as trying to transmit a new language.",
+      "emotional_tone": "Benevolent, patient, occasionally stern or disappointed; experiencers often report feeling like a small child or new student before a vast intelligence.",
+      "message_or_purpose": "Instruction: about death, love, the structure of reality, how to live, or skills to practice. The felt purpose is the experiencer's development — many report the same teacher resuming lessons across separate sessions.",
+      "frequency": "One of the best-attested roles: 'guide' was the single most-selected descriptor in the Johns Hopkins survey (43% of 2,561 respondents); Michael et al. (2021) found 'showing or communing' behavior in 47% of encounters and teaching/guidance messages in multiple cases; Meyer's corpus lists teaching/instruction among the most common entity activities.",
+      "phase": 7,
+      "sources": [
+        {"source_key": "davis2020", "detail": "'Guide' was the most frequently selected entity descriptor (43%) among 2,561 survey respondents describing their single most memorable DMT entity encounter."},
+        {"source_key": "mckenna", "detail": "Described spirit-guide 'teachers' intent on transmitting language and knowledge; St. John summarizes McKenna's framing of them as 'diplomatic anthropologists... coming to give us the keys to galactic citizenship'."},
+        {"source_key": "stjohn", "detail": "Mystery School in Hyperspace documents the teacher/mystery-school framing across decades of DMT culture, including reports of councils and teachers imparting knowledge, laws, and instructions."},
+        {"source_key": "nexus", "detail": "Lexicon contributor NGC_2264 describes 'The Guide' — 'a calm, gentle, benevolent teacher... responsible for teaching me many lessons which seemed to be improving my life' — recurring across sessions."},
+        {"source_key": "meyer", "detail": "Corpus includes entities giving instruction — demonstrating techniques and symbolic knowledge — as a common activity class."},
+        {"source_key": "michael2021", "detail": "'Showing or communing' (presenter/focuser role) coded in 47% of encounters; explicit teaching/guidance messages recorded in multiple cases."}
+      ]
+    },
+    {
+      "name": "The Council — tribunal of elders",
+      "aka": ["The Galactic Council", "The Elders", "The Tribunal", "The Committee"],
+      "type": "teacher",
+      "appearance": "A group — typically described as three to twelve beings — arranged formally: seated in a semicircle, arc, or raised bench, facing the experiencer. Individual members are variously robed elders, light beings, animal-headed figures, or featureless presences; what defines the type is the deliberate, convened arrangement and the experiencer's position as the one appearing before them.",
+      "behavior": "Deliberation, evaluation, and pronouncement. The council receives the experiencer as if summoned or scheduled, reviews them (sometimes their life, sometimes their conduct in hyperspace), confers among itself, and delivers judgments, instructions, or blessings. Some reports describe being turned away or told 'not yet'; others describe formal welcomes 'as travelers, royalty, or long-lost family'.",
+      "communication": "Formal and collective: pronouncements experienced as arriving from the group as a whole, telepathic verdicts, or one spokes-being addressing the experiencer on behalf of the rest.",
+      "emotional_tone": "Solemn, weighty, august; ranges from profoundly affirming (being seen and accepted by wise authority) to intimidating (life review before judges). Rarely malicious.",
+      "message_or_purpose": "Evaluation and transmission of law-like guidance: how to behave, what to change, what the experiencer is ready (or not ready) for. Frequently entangled with life-review and near-death-experience-style judgment motifs.",
+      "frequency": "No survey isolates a council category; it is a recurrent community motif documented in DMT literature — St. John records users reporting 'a galactic council of spiritual elders looking to impart knowledge, laws and instructions for behavior' — and appears regularly in Erowid and r/DMT reports. Community lore rather than a studied category.",
+      "phase": 8,
+      "sources": [
+        {"source_key": "stjohn", "detail": "Documents recurring user reports of a 'galactic council' of spiritual elders imparting knowledge, laws and instructions, with beings welcoming experiencers 'as travelers, royalty, or long-lost family'."},
+        {"source_key": "erowid", "detail": "Vault reports recurrently describe appearing before assembled groups of elder beings who evaluate, welcome, or instruct the submitter."},
+        {"source_key": "moody", "detail": "Structural parallel: the NDE life-review before a presence or beings-of-light provides the closest studied analogue to the DMT tribunal scene."},
+        {"source_key": "nexus", "detail": "Community accounts of formal group receptions and hierarchies of beings (e.g., archangels 'ruling' orders of light beings) supply the council's social architecture."}
+      ]
+    },
+    {
+      "name": "Child-sprites — hyperspace children",
+      "aka": ["The children", "Child-like sprites", "Playroom beings", "Nursery elves"],
+      "type": "other",
+      "appearance": "Small, quick, child-like figures — sometimes literal children, sometimes childlike sprites, cherub- or pixie-like forms — frequently encountered in bright, toy-like environments described as playrooms, nurseries, or playgrounds built from hyperspace geometry. Often plural and swarming with excited energy.",
+      "behavior": "Play as first contact: they giggle, chase, tumble, tug at the experiencer, show off toys or tricks, and invite participation in games. Strassman's volunteers reported nursery and playroom scenes; Michael et al. noted powerful entities displaying 'childish' qualities — one participant described a faerie-like being simultaneously 'all-powerful' yet 'infantile', giggling as it ran the space. Some accounts describe the childlike surface as a mask over something older and more knowing.",
+      "communication": "Laughter, gesture, mimicry, and simple telepathic exclamations of delight ('you're here! play!'); rarely delivers complex verbal content.",
+      "emotional_tone": "Joyful, welcoming, disarming; occasionally uncanny when the childishness is sensed to be a costume — community accounts of impish beings whose 'good side... is childishly playful' but whose 'true nature is dark' urge discernment.",
+      "message_or_purpose": "Welcome, delight, and disarmament — reports often interpret them as easing the shock of arrival or modeling unselfconscious joy. In darker readings, the child-guise is a lure.",
+      "frequency": "Not a survey category, but child-like beings and nursery/playroom scenes recur across Strassman's UNM reports, the Nexus archives, and Erowid; the childlike-demeanor observation is independently documented in Michael et al. (2021). Community-frequent, uncounted.",
+      "phase": 6,
+      "sources": [
+        {"source_key": "strassman", "detail": "UNM volunteers described nursery- and playroom-like scenes with small playful beings among the encounter environments."},
+        {"source_key": "michael2021", "detail": "Recorded entities 'displaying childish qualities despite apparent power'; one being was described as 'all-powerful' yet 'infantile', giggling while orchestrating the space."},
+        {"source_key": "nexus", "detail": "The lexicon's 'Imps' entry describes beings whose presented side is 'spastic, hyper, childishly playful, friendly... and seemingly benign' — with a warning that their true nature can be 'dark, cruel, madly sadistic'."},
+        {"source_key": "erowid", "detail": "Erowid reports include child-like greeters and playground scenes; the ceiling-faces report in Meyer's corpus describes 'little people... waving and making faces' with childlike mischief."}
+      ]
+    },
+    {
+      "name": "The Harlequin — card-dealer of hyperspace",
+      "aka": ["Hyperspace Harlequin", "The Fool (who is no fool)", "Tarot-dealer"],
+      "type": "trickster",
+      "appearance": "Medieval harlequin or fool in diamond-patterned motley, ruff, and cap — visually kin to the jester but carried with poise rather than antics. The Nexus lexicon insists on the distinction: they 'truly resemble medieval jesters and harlequins, however, they are not silly or foolish in any way. They tend to be hyper-intelligent.' Often one figure rather than a troupe, holding or producing objects.",
+      "behavior": "Presentation of charged objects: the harlequin's signature act is showing things — 'often flashing Hyperspace tarot cards at you which, on their own, can impart reams of information to you when you look at them' (Nexus lexicon). Where the jester pranks and mocks, the harlequin reveals: each object, card, or gesture is a compressed transmission. Reports describe sleight-of-hand that is actually instruction.",
+      "communication": "Object-mediated: information arrives through the shown thing rather than through speech. Supplemented by knowing looks, bows, and flourishes; occasionally terse telepathic captions.",
+      "emotional_tone": "Charged, riddling, faintly aristocratic; less mocking than the jester, more initiatory — experiencers report feeling tested on whether they can receive what is shown.",
+      "message_or_purpose": "Revelation by display: transmitting dense meaning through symbols, cards, and objects; interpreted in the community as an initiator who shows exactly as much as the traveler can absorb.",
+      "frequency": "Jester/harlequin figures were coded in roughly 8-11% of encounters in Michael et al. (2021) and 'jesters' tagged in 6.5% of entity reports in the 3,778-report Reddit corpus (Lawrence 2022); the harlequin-as-distinct-from-jester refinement is DMT-Nexus community taxonomy, not a study category.",
+      "phase": 6,
+      "sources": [
+        {"source_key": "nexus", "detail": "Lexicon entry distinguishes Hyperspace Jesters/Harlequins as 'not silly or foolish in any way... hyper-intelligent... They like to show you things... objects. Often flashing Hyperspace tarot cards at you which, on their own, can impart reams of information' (essential nature: CRAFT)."},
+        {"source_key": "michael2021", "detail": "Jester/harlequin-like beings appeared in roughly 8-11% of coded encounters in the naturalistic field study."},
+        {"source_key": "lawrence2022", "detail": "'Jesters' identified in 6.5% of entity-containing reports in the 3,778-report r/DMT corpus (entities present in 45.5% of all reports)."},
+        {"source_key": "jung", "detail": "The harlequin/fool as initiatory archetype — the figure whose play conceals gnosis — is a standing Jungian frame the community itself applies to this being."}
+      ]
+    },
+    {
+      "name": "The Ringmaster — showman of the circus dimension",
+      "aka": ["Circus Ringleader", "The Presenter", "The MC of hyperspace"],
+      "type": "trickster",
+      "appearance": "A theatrical master-of-ceremonies: coat and tails, top hat, sometimes a cane, wand, or baton, presiding over carnival- or circus-styled spaces. The Nexus lexicon describes Circus Ringleaders as 'all about showmanship... often with coat and tails and a ridiculously cool top hat to boot. They may even have a baton, wand or fancy cane they use to direct your attention.'",
+      "behavior": "Directs attention like a stage act: sweeping gestures that cue reveals, curtains opening on scenes, acts and performers summoned for the experiencer's benefit. Functions as the front-of-house counterpart to the backstage Operators — the experience is framed as a show being put on for (or about) the traveler. Circus and carnival atmospheres appear independently in Strassman's UNM reports.",
+      "communication": "Theatrical address: grand announcing gestures, an emcee's telepathic patter, ta-da reveals. The content is the show itself; the Ringmaster's job is to make sure the experiencer watches the right part.",
+      "emotional_tone": "Exuberant, spectacular, slightly overwhelming; usually benevolent-entertaining, though carnival settings shade sinister in a minority of reports (Strassman recorded frightening clown/carnival scenes as well as delightful ones).",
+      "message_or_purpose": "Presentation: 'watch this'. Community interpretation ranges from pure entertainment/welcome to curated instruction disguised as spectacle — the show's acts often carry the lesson.",
+      "frequency": "Not a survey category. The showman figure is documented as a named class in the DMT-Nexus lexicon ('Circus Ringleaders', essential nature: 'ENTERTAINMENT & SHOWMANSHIP'), consistent with Michael et al.'s 'presenter/focuser' role coded in 47% of encounters and with circus/carnival scenes in Strassman's and Erowid's archives. Community-recurrent.",
+      "phase": 6,
+      "sources": [
+        {"source_key": "nexus", "detail": "Lexicon class 'Circus Ringleaders': 'all about showmanship... coat and tails and a ridiculously cool top hat... a baton, wand or fancy cane they use to direct your attention'."},
+        {"source_key": "michael2021", "detail": "The 'showing or communing' presenter/focuser role — the Ringmaster's function — was the most common active entity role, coded in 47% of encounters."},
+        {"source_key": "strassman", "detail": "UNM volunteers reported circus- and carnival-like atmospheres, including 'clowns' in Strassman's famous list of encountered forms ('clowns, reptiles, mantises, bees, spiders, cacti, and stick figures')."},
+        {"source_key": "erowid", "detail": "Erowid reports recurrently describe big-top settings and a presiding presenter figure orchestrating reveals."}
+      ]
+    },
+    {
+      "name": "Octopoid & tentacled beings",
+      "aka": ["Octopus beings", "Tentacled intelligences", "Cephalopod entities"],
+      "type": "other",
+      "appearance": "Beings with cephalopod features: radial tentacled bodies, boneless flowing limbs, iridescent color-shifting skin that displays patterns like a cuttlefish's chromatophores. Scale ranges from hand-sized curiosities to vast tentacled masses filling the visual field. Sometimes hybridized — a humanoid torso with tentacled lower body, or tentacles emerging from geometry itself. In dark encounters, tentacled true-forms are revealed beneath fair disguises.",
+      "behavior": "Fluid investigation: tentacles reach toward, wrap, taste, or gently palpate the experiencer; color-pattern displays ripple across their skin in what many interpret as language. Generally curious and probing rather than aggressive, though the boneless alien intimacy of contact can overwhelm. The Nexus lexicon's 'Bride of the Devil' account describes a beautiful woman whose true form was 'a hideous hyperdimensional mass of writhing, purplish-black tentacles resembling thorny vines' — the tentacled form as concealed nature.",
+      "communication": "Skin-display language (moving color patterns offered as visible speech), tactile telepathy through contact, and wordless transmission of alien but coherent intent.",
+      "emotional_tone": "Deeply alien — awe, fascination, and body-horror unease in varying mixture; among the least anthropomorphic and least emotionally legible of entity types.",
+      "message_or_purpose": "Rarely delivers propositional messages; the encounter itself — contact with a radically other intelligence — is the content. Some reports describe being 'read' through touch.",
+      "frequency": "Octopoid features were coded in 11% of entity encounters in Michael et al.'s (2021) field study — as common as insectoid features in that dataset. Recurrent in Erowid and r/DMT reports; no other survey isolates the category.",
+      "phase": 7,
+      "sources": [
+        {"source_key": "michael2021", "detail": "Octopoid features coded in 4 of 36 encounters (11%) — equal in that corpus to insectoid proportions (11%)."},
+        {"source_key": "nexus", "detail": "Tentacled true-forms appear in lexicon accounts, e.g. 'The Bride of the Devil' whose real shape was 'a hideous hyperdimensional mass of writhing, purplish-black tentacles resembling thorny vines'."},
+        {"source_key": "erowid", "detail": "Erowid DMT reports recurrently describe octopus-like and tentacled beings, often noted for color-shifting skin displays."},
+        {"source_key": "lawrence2022", "detail": "Tentacled/cephalopod imagery appears within the broader creature categories of the 3,778-report Reddit corpus, though not isolated as its own tag."}
+      ]
+    },
+    {
+      "name": "Morphos — amorphous & protean intelligences",
+      "aka": ["Blob intelligences", "Shapeshifting masses", "Nebulous beings", "The formless ones"],
+      "type": "impersonal-intelligence",
+      "appearance": "Intelligences without stable form: blobs, clouds, waves, and fields that are unmistakably alive and aware yet refuse fixed shape. The Nexus lexicon's 'Morphos' class 'tend to have fairly unstable forms and can rise and subside out of the Jim Jam like waves... capable of solidifying into phantastic phorms if they so choose', often condensing briefly into mythological shapes 'only far more colorful and multi-dimensional'. Others remain permanently nebulous — described as thinking fog, sentient liquid, or aware plasma.",
+      "behavior": "Emergence and dissolution: they surface out of the background visual field, engage, and melt back into it, blurring the line between entity and environment. When they solidify a form, it reads as a courtesy — a shape worn briefly so the experiencer has something to address. The Nexus 'Aliens' entry likewise notes 'more amorphous and nebulous intelligences' among the truly alien classes.",
+      "communication": "Pre-verbal and osmotic: meaning seeps in during proximity rather than being 'said'. When formed, they may briefly adopt the communication style of the shape they wear.",
+      "emotional_tone": "Oceanic and impersonal, with flashes of guidance and wisdom when they condense; the Nexus lexicon assigns Morphos the essential nature 'GUIDANCE & WISDOM'.",
+      "message_or_purpose": "Demonstration that form is optional — many experiencers take the shapeshifting itself as the lesson (identity as costume, mind prior to form).",
+      "frequency": "Michael et al. (2021) coded non-human 'otherly creatures' in 72% of encounters and featureless silhouettes in 14%, ranges that include amorphous beings; the 'Morphos' class name is DMT-Nexus community taxonomy. Common in community archives, uncounted as a distinct survey category.",
+      "phase": 6,
+      "sources": [
+        {"source_key": "nexus", "detail": "Lexicon class 'Morphos': 'fairly unstable forms... rise and subside out of the Jim Jam like waves... capable of solidifying into phantastic phorms', essential nature 'GUIDANCE & WISDOM'; the Aliens entry adds 'more amorphous and nebulous intelligences' among alien classes."},
+        {"source_key": "michael2021", "detail": "'Otherly creatures' (non-human, non-animal) coded in 72% of encounters; silhouettes/featureless presences in 14% — the categories into which amorphous intelligences fall."},
+        {"source_key": "shanon", "detail": "Shanon's ayahuasca phenomenology documents beings continuous with their visual surround — entities that condense out of and dissolve back into the visionary field."},
+        {"source_key": "erowid", "detail": "Erowid reports describe living fog, sentient liquid, and aware shapeless masses as a recurring encounter class."}
+      ]
+    },
+    {
+      "name": "Orbs & point-light beings",
+      "aka": ["Light orbs", "Spheres of consciousness", "Will-o'-wisps of hyperspace", "Giant spheres"],
+      "type": "light",
+      "appearance": "Discrete points, balls, or spheres of light experienced as individual conscious beings — from firefly-like sparks that dart and hover to the 'giant spheres' listed among Effect Index's entity archetypes. Often plural, moving with evident intention: circling the experiencer, clustering, dispersing, pulsing in rhythm. Distinguished from generalized light-being/angel forms by their minimal, geometric presentation — awareness with no body at all beyond luminous shape.",
+      "behavior": "Attentive motion: approaching, orbiting, leading (experiencers describe following an orb deeper into the space), pulsing in apparent response to thought. Groups of orbs coordinate like schools of fish. Some reports describe an orb docking with or entering the experiencer's body or field, accompanied by emotional flooding.",
+      "communication": "Pulse, color-change, and position — a signal-lamp language — plus direct feeling-transmission at contact. Verbal content is rare; emotional content is strong.",
+      "emotional_tone": "Curious, gentle, often described as innocent or pure; encounters are typically calm and warm rather than overwhelming.",
+      "message_or_purpose": "Presence, guidance-by-leading, and emotional transmission (reassurance, love, welcome) rather than propositional teaching.",
+      "frequency": "Effect Index lists 'giant spheres' among documented autonomous-entity archetypes and orb-form beings recur across Erowid and r/DMT reports; no survey isolates an orb category. Community-recurrent, uncounted.",
+      "phase": 5,
+      "sources": [
+        {"source_key": "effectindex", "detail": "'Giant spheres' and light-form beings are included in the Effect Index catalogue of autonomous-entity manifestation archetypes."},
+        {"source_key": "erowid", "detail": "Erowid reports recurrently describe conscious points and balls of light that hover, lead, or orbit the experiencer."},
+        {"source_key": "michael2021", "detail": "Beings of light and minimal-form presences fall within the study's non-humanoid and 'presence' codings (presences without imagery: 17%)."},
+        {"source_key": "luke2011", "detail": "Luke's entity-encounter analyses note luminous minimal-form beings as a cross-substance encounter type with folkloric parallels (will-o'-wisps, spirit lights)."}
+      ]
+    },
+    {
+      "name": "Plant spirits & devas",
+      "aka": ["Plant teachers", "Vegetal intelligences", "Plant & Object Devas", "Mother of the plant"],
+      "type": "plant",
+      "appearance": "Intelligences that present as botanical: living vines that gesture, flowers with regarding faces, tree-like presences, or beings woven from leaf, root, and tendril patterns. The Nexus lexicon's 'Plant & Object Devas' are 'living, often hyper-intelligent, beings that often resemble plants or objects more than they do what we might normally recognize as sentient beings'. In the ayahuasca literature the plant intelligence often personifies as a maternal or serpentine figure; in vaped-DMT reports it is more often the vegetal architecture itself becoming aware.",
+      "behavior": "Slow, enveloping engagement: growing around or through the space, blooming displays timed to the experiencer's attention, transmitting botanical imagery (roots, photosynthesis, growth) as experiential lessons. Amaringo's paintings and the mestizo vegetalismo tradition depict plant mothers instructing singers; Narby documents the claim that plant spirits teach knowledge directly.",
+      "communication": "Imagistic and somatic — cascades of plant imagery, felt growth, and in the ayahuasca tradition, received songs (icaros); rarely conversational in vaped-DMT reports.",
+      "emotional_tone": "Ancient, patient, maternal-to-utterly-indifferent; the Nexus lexicon assigns devas the essential nature 'MYSTERIES & ECSTASY', noting quasi-erotic dimensions ('erogenous zones like pistils and stamen').",
+      "message_or_purpose": "Teaching from the vegetal perspective: interconnection, growth, medicine knowledge in the shamanic traditions. Honest caveat: the plant-teacher framing is strongest in ayahuasca/vegetalismo contexts and is partially imported into vaped-DMT culture from there.",
+      "frequency": "Effect Index lists 'plants' among documented entity archetypes; the Nexus lexicon names 'Plant & Object Devas' as a class; central to the ayahuasca literature (Narby, Amaringo, Shanon, Harner). In pure vaped-DMT surveys no plant-spirit category is isolated — community-recurrent there, tradition-central in ayahuasca contexts.",
+      "phase": 6,
+      "sources": [
+        {"source_key": "nexus", "detail": "Lexicon class 'Plant & Object Devas': 'living, often hyper-intelligent, beings that often resemble plants or objects... they seem to have erogenous zones like pistils and stamen' (essential nature: 'MYSTERIES & ECSTASY')."},
+        {"source_key": "narby", "detail": "The Cosmic Serpent documents Amazonian claims that plant spirits are the source of botanical and medical knowledge transmitted in visions."},
+        {"source_key": "amaringo", "detail": "Amaringo's visionary paintings systematically depict plant mothers and vegetal spirit hierarchies encountered in ayahuasca visions."},
+        {"source_key": "shanon", "detail": "Antipodes of the Mind catalogues plant and vegetal beings as a standing category of ayahuasca visions among his corpus of reports."},
+        {"source_key": "harner", "detail": "Harner's ethnography records plant-spirit encounter and instruction as core shamanic technology in Upper Amazon practice."},
+        {"source_key": "effectindex", "detail": "'Plants' and 'conscious inanimate objects' are listed among Effect Index's autonomous-entity archetypes."}
+      ]
+    },
+    {
+      "name": "Animal-headed figures — Egyptian-styled beings",
+      "aka": ["Anubis figures", "Egyptian gods", "Theriocephalic beings", "Jackal- and bird-headed guides"],
+      "type": "deity",
+      "appearance": "Humanoid bodies with animal heads in unmistakably Egyptian iconographic style: jackal-headed (Anubis-like), falcon- or ibis-headed, cat-headed figures, often with gold ornament, headdresses, and hieroglyphic or frieze-like surroundings. The Nexus lexicon's gods entry explicitly includes Egyptian archetypes and notes the beings 'tend to be more sci-fi than you would imagine them from only reading sacred books' — chrome, neon, and circuitry versions of temple iconography.",
+      "behavior": "Ceremonial and psychopomp-like: standing in attendance, conducting the experiencer through gates or halls, weighing/assessing gestures reminiscent of judgment scenes, presiding silently over thresholds. More formal and less interactive than elves or tricksters — they are encountered in office, as functionaries of some standing order.",
+      "communication": "Sparse and hieratic: gesture, posture, and placement carry the meaning; occasional weighty telepathic pronouncements. Some reports describe hieroglyph-like symbol streams offered as language.",
+      "emotional_tone": "Solemn, ancient, numinous; commonly awe or dread-tinged reverence rather than warmth.",
+      "message_or_purpose": "Threshold governance and judgment: experienced as officiants of passage — death-and-transition imagery is dense around them, and many experiencers spontaneously link them to funerary myth.",
+      "frequency": "No survey isolates Egyptian-styled beings; 'divine' beings were tagged in 17% of entity reports in the Reddit corpus (Lawrence 2022) and 'religious personage' selected by 11% in Davis 2020, categories within which these figures appear. Egyptian motifs are a persistent minority strand in Erowid/r/DMT archives. Community-recurrent, uncounted.",
+      "phase": 7,
+      "sources": [
+        {"source_key": "nexus", "detail": "'Gods & Goddesses' lexicon entry: 'These beings actually do resemble various cultural archetypal godheads. There are Hindu, Egyptian, Mayan, Celtic, African and plenty of unrecognizable types... more sci-fi than you would imagine them from only reading sacred books.'"},
+        {"source_key": "lawrence2022", "detail": "'Divine' beings tagged in 17% of entity-containing reports in the 3,778-report r/DMT corpus — the umbrella under which culturally-styled god-forms were coded."},
+        {"source_key": "davis2020", "detail": "'Religious personage' selected as a descriptor by 11% of 2,561 respondents describing their most memorable entity."},
+        {"source_key": "jung", "detail": "Theriocephalic god-forms as archetypal images — the standing depth-psychological frame for why Egyptian iconography recurs in visionary states of Westerners."},
+        {"source_key": "eliade", "detail": "Psychopomp and threshold-guardian roles in comparative religion map directly onto how these figures behave in reports."}
+      ]
+    },
+    {
+      "name": "Aztec & Mayan-styled beings",
+      "aka": ["Mesoamerican entities", "Quetzal-feathered beings", "Aztec gods", "The temple builders"],
+      "type": "deity",
+      "appearance": "Beings and environments in dense Mesoamerican style: stepped-pyramid architecture, interlocking angular glyph patterns, feathered-serpent motifs, jade, turquoise and gold, elaborate feathered headdresses. Experiencers frequently describe the visual geometry of the whole space as 'Aztec' or 'Mayan' before any being appears; the beings themselves wear the same interlocking patterning, sometimes indistinguishable from the living walls of their temples.",
+      "behavior": "Ceremonial display and presiding presence: standing atop or within pyramid-temple structures, conducting rites, animating glyph-patterned surfaces. McKenna repeatedly reached for Mesoamerican comparisons in describing hyperspace decor, and community reports treat 'Aztec patterning' as one of the canonical DMT visual signatures that then peoples itself with matching entities.",
+      "communication": "Glyphic and architectural: meaning embedded in pattern, procession, and rite rather than conversation; occasional imperious telepathic address.",
+      "emotional_tone": "Majestic, alien-ancient, sometimes ominous — the sacrificial resonance of the iconography colors some encounters with dread; others report pure regal splendor.",
+      "message_or_purpose": "Largely presentational — display of an order, civilization, or cosmology; some experiencers report feeling shown 'their' history or claimed as returning kin. Community lore, not a studied claim.",
+      "frequency": "Not isolated in any survey; folds under 'divine' (17% of entity reports, Lawrence 2022). The Aztec/Mayan visual signature is among the most-cited pattern styles in community reports (a McKenna staple), with matching entities a recurrent minority theme in Erowid and r/DMT archives.",
+      "phase": 6,
+      "sources": [
+        {"source_key": "mckenna", "detail": "McKenna's hyperspace descriptions repeatedly invoke Mesoamerican comparisons, embedding 'Aztec/Mayan' as a canonical stylistic register for the space and its inhabitants."},
+        {"source_key": "nexus", "detail": "The lexicon's gods entry lists 'Mayan' among the archetypal godhead styles actually encountered."},
+        {"source_key": "lawrence2022", "detail": "Culturally-styled god-forms fall under the 'divine' tag (17% of entity reports) in the Reddit corpus."},
+        {"source_key": "erowid", "detail": "Erowid reports recurrently name Aztec/Mayan patterning and temple scenes, sometimes populated by matching priest- or god-like figures."}
+      ]
+    },
+    {
+      "name": "Robotic drones & automatons",
+      "aka": ["Machine drones", "Automatons", "Mechanical workers", "Robot beings"],
+      "type": "impersonal-intelligence",
+      "appearance": "Explicitly mechanical beings: chrome or ceramic-surfaced humanoids, insect-machine hybrids (Meyer's corpus includes 'scarab creatures with mechanical elements'), hovering drone-forms, and articulated automatons. Distinguished from the ambient 'machine' intelligence by being discrete, embodied units — often multiple identical units — moving with precise, purposeful, repetitive motion.",
+      "behavior": "Task execution: scanning, measuring, carrying, assembling, escorting. They attend to the experiencer the way airport machinery attends to luggage — thorough, efficient, neither warm nor hostile. Strassman's UNM volunteers included reports of automaton- or robot-like beings running what felt like tests; Meyer's corpus documents 'scanning and examination by machine-like entities'. Effect Index lists 'robotic machines' and 'bio-mechanical intelligences' among documented entity archetypes.",
+      "communication": "Minimal and functional: status-tone beeps, procedural telepathic notices ('scan complete', 'proceed'), or none at all. They respond to the experiencer as an object of process rather than a conversation partner.",
+      "emotional_tone": "Neutral to eerie; the absence of emotional response from the beings is itself the most-reported feeling — experiencers describe being 'processed'.",
+      "message_or_purpose": "Function, not message: measurement, maintenance, transport, examination. Interpreters split between 'workers of the hyperspace infrastructure' and 'the experience's own subroutines made visible'.",
+      "frequency": "No survey isolates a robot category; 'robotic machines' and 'bio-mechanical intelligences' are documented Effect Index archetypes, automaton reports appear in Strassman's UNM record and Meyer's corpus, and drone-like workers recur in community archives. Community-recurrent, uncounted.",
+      "phase": 6,
+      "sources": [
+        {"source_key": "effectindex", "detail": "'Robotic machines' and 'bio-mechanical intelligences' are listed among Effect Index's documented autonomous-entity archetypes."},
+        {"source_key": "strassman", "detail": "UNM volunteers described automaton/robot-like beings conducting test-like procedures in clinical hyperspace scenarios."},
+        {"source_key": "meyer", "detail": "Corpus includes 'scarab creatures with mechanical elements' and machine-like entities performing scanning and examination."},
+        {"source_key": "gallimore", "detail": "Gallimore's 'machine-dimension' framing of DMT space provides the community's leading interpretive language for its mechanical inhabitants."}
+      ]
+    },
+    {
+      "name": "Hooded & cloaked figures",
+      "aka": ["The hooded ones", "Cloaked figures", "Robed silhouettes", "The monks"],
+      "type": "other",
+      "appearance": "Humanoid figures defined by concealment: hooded robes or cloaks with faces hidden in shadow or simply absent. Usually dark-toned but sometimes luminous-robed; often encountered singly at thresholds or in silent groups (processions, semicircles, watchers at the edge of a scene). Effect Index lists 'hooded figures' among its documented entity archetypes; community guides class them with shadow people as a common humanoid form.",
+      "behavior": "Watching, waiting, escorting, and withholding: they stand at doorways and peripheries, observe without approach, occasionally beckon or lead, and almost never reveal what is under the hood. Their refusal to disclose is the defining behavior — many reports describe an encounter that consists entirely of mutual regard.",
+      "communication": "Predominantly silent; at most a gesture (beckoning, barring, pointing) or a single weighty telepathic impression. The concealment itself is often experienced as the message.",
+      "emotional_tone": "Ambiguous by design: solemn and guardian-like to some, ominous and reaper-like to others. They concentrate the experiencer's own projections — the same figure is reported as protector, psychopomp, and threat.",
+      "message_or_purpose": "Threshold presence: marking boundaries, escorting passage, embodying the not-yet-revealed. Community interpretation ranges from death symbolism to 'staff who don't interact with visitors'.",
+      "frequency": "Listed as a documented archetype by Effect Index and named among common humanoid entity forms in community guides; recurrent in r/DMT threads and Erowid reports (and in hypnagogic/sleep-paralysis literature, suggesting a cross-state figure). No survey isolates the category.",
+      "phase": 5,
+      "sources": [
+        {"source_key": "effectindex", "detail": "'Hooded figures' are explicitly listed among Effect Index's autonomous-entity manifestation archetypes, alongside shadow people and spirits."},
+        {"source_key": "erowid", "detail": "Erowid DMT reports recurrently feature silent robed/hooded watchers at thresholds and peripheries."},
+        {"source_key": "luke2011", "detail": "Luke's comparative work situates hooded/shadow figures as a cross-state encounter type shared with sleep paralysis and apparitional experience."},
+        {"source_key": "nexus", "detail": "Faceless, shrouded humanoids ('Faceless Goons... usually with indistinct faces and shrouded in a bit of a hazy, shadowy aura') appear in lexicon contributor taxonomies."}
+      ]
+    },
+    {
+      "name": "Embedded faces — faces in the walls",
+      "aka": ["Wall faces", "Faces in the patterns", "The watching surfaces", "Face-filled geometry"],
+      "type": "other",
+      "appearance": "Faces emerging from, embedded in, or composing surfaces: walls, ceilings, tapestry patterns, and the geometric lattice itself resolving into eyes, noses, and mouths — from a single vast face occupying a wall to surfaces tiled entirely with small watching faces. Occurs at lower doses with eyes open (room surfaces animating) and within deep-state geometry (pattern-space populated by faces). One report in Meyer's corpus describes ceiling stucco becoming 'little eyes, pointed noses, and giggling mouths... poking out of the ceiling, waving and making faces'.",
+      "behavior": "Watching and reacting: the faces track the experiencer, change expression in response to attention, whisper, giggle, or simply regard. They rarely detach from their surface — the wall itself has become populous. Often experienced as the first sign that the space is inhabited, before any free-standing entity appears.",
+      "communication": "Expression and gaze; occasionally murmuring or laughter attributed to the faces. Rarely propositional — the communication is 'you are seen'.",
+      "emotional_tone": "Ranges from whimsical (giggling, waving faces) to deeply unsettling (walls of silent watchers); strongly dose- and set-dependent.",
+      "message_or_purpose": "Ambient sentience: the discovery that the environment itself is aware. Many experiencers treat embedded faces as the environment's precursor-form of entity contact.",
+      "frequency": "The Reddit-corpus analysis (Lawrence 2022) identified explicit face/eye imagery in 90 of 3,778 reports (2.4%), with room/wall distortion in 175 reports — likely undercounts since faces are often folded into general visual descriptions. Ubiquitous as a low-dose motif in community archives.",
+      "phase": 3,
+      "sources": [
+        {"source_key": "lawrence2022", "detail": "Faces or eyes explicitly described in 90 of 3,778 r/DMT reports (2.4%); room and wall distortion in 175 reports — the coding categories covering embedded-face phenomena."},
+        {"source_key": "meyer", "detail": "Corpus report of ceiling stucco becoming 'little eyes, pointed noses, and giggling mouths', with little people 'poking out of the ceiling, waving and making faces'."},
+        {"source_key": "erowid", "detail": "Faces surfacing in walls, patterns, and textures is among the most commonly described open-eye phenomena in Erowid DMT reports, typically at sub-breakthrough doses."},
+        {"source_key": "effectindex", "detail": "Effect Index documents face-formation within pattern recognition enhancement and transformations, continuous with its entity-emergence taxonomy (Level 1 entities: 'poorly outlined silhouettes barely distinguishable from background')."}
+      ]
+    },
+    {
+      "name": "Fractal humanoids — beings made of the geometry",
+      "aka": ["Geometric beings", "Pattern-people", "Fractal elves", "Beings of living mathematics"],
+      "type": "impersonal-intelligence",
+      "appearance": "Humanoid silhouettes constituted entirely of the surrounding visual geometry: bodies of tessellating pattern, filigree, lattice, or recursive fractal structure, continuous with — and often emerging out of — the pattern-field around them. Effect Index explicitly notes entities may be 'composed of either geometric structures or realistic materials'; these are the geometric pole. Their outlines hold while their substance perpetually self-transforms, kaleidoscopic and boundaryless at the edges.",
+      "behavior": "Emergence, display, and reabsorption: they condense from the pattern, interact — often by modulating the very geometry they are made of, sending waves of structure toward the experiencer — and dissolve back. Frequently plural and synchronized, moving as if the pattern itself had decided to be several people for a while. Michael et al.'s 'sentient structures' coding (25% of encounters) captures the adjacent phenomenon of environment-as-being.",
+      "communication": "Geometry as language: transmissions arrive as pattern-changes, unfolding forms, and structured light experienced as meaningful — closer to being shown mathematics than being spoken to.",
+      "emotional_tone": "Impersonal but not cold; wonder, alien intelligence, and the vertiginous sense that the distinction between place, pattern, and person has failed.",
+      "message_or_purpose": "Often interpreted as the space itself taking a face to interact — the geometry's ambassadors. Content is typically structural insight (how the space works) rather than personal guidance.",
+      "frequency": "Michael et al. (2021) coded 'sentient structures' in 25% of encounters — the nearest studied category; Effect Index documents geometry-composed entities as one of its two compositional classes. A standing description in community archives ('the pattern became a person'). Uncounted as its own survey category.",
+      "phase": 4,
+      "sources": [
+        {"source_key": "michael2021", "detail": "'Sentient structures' coded in 9 of 36 encounters (25%) — environment and pattern experienced as being(s)."},
+        {"source_key": "effectindex", "detail": "Effect Index specifies entities may be 'composed of either geometric structures or realistic materials', documenting the geometry-composed entity class."},
+        {"source_key": "qri", "detail": "QRI's analyses of DMT phenomenology (e.g., world-sheet/energy-parameter models) treat entity-appearance as structured excitations of the visual field — the interpretive frame matching 'the pattern became a person' reports."},
+        {"source_key": "mckenna", "detail": "McKenna's 'self-transforming' descriptor already fused being and geometry; fractal humanoids are the limit case where the being is nothing but the transforming structure."}
+      ]
+    },
+    {
+      "name": "The Mimic — wearer of familiar faces",
+      "aka": ["The shapeshifter", "False loved ones", "The impostor", "Strange visitors in borrowed faces"],
+      "type": "dark",
+      "appearance": "An entity presenting as someone known — a friend, family member, deceased loved one, or famous figure — with something subtly wrong: eyes too knowing, expression a half-beat off, the 'essence underneath' not matching the face. The Nexus lexicon documents 'Strange Visitors' who 'presented themselves as humanoid, sometimes even wearing the faces of my friends or famous historical figures, but the essence underneath was anything but'; the same archive's 'Succubus Twins' posed as friendly fairy-like women whose glimpsed true nature was 'hideous, withered crones with wicked, unnaturally wide and serrated grins'.",
+      "behavior": "Impersonation and testing: approaching in a trusted guise, soliciting trust or engagement, and sometimes dropping the mask — deliberately or when challenged. Community threads trade methods for 'testing' suspect loved-ones (asking questions only the real person could answer, demanding they show their true form). Not all mask-wearers are hostile; some reports frame the borrowed face as a courtesy interface chosen to avoid frightening the experiencer.",
+      "communication": "Fluent — that is part of the unease; it speaks as the person would, until it doesn't. Mask-drops are usually silent: a look, a grin, a dissolution.",
+      "emotional_tone": "Uncanny; ranges from mildly wrong to horror at revelation. Distinctively generates lasting distrust: experiencers report re-examining even comforting encounters afterward.",
+      "message_or_purpose": "Contested: luring/feeding (dark reading), testing discernment (initiatory reading), or benevolent interface (charitable reading). The atlas records all three as interpretations, not facts.",
+      "frequency": "No survey isolates a mimic category. Documented in Nexus contributor taxonomies ('Strange Visitors', 'Succubus Twins') and a recurrent r/DMT discussion theme, especially as a caution around deceased-loved-one encounters. Community lore, uncounted.",
+      "phase": 7,
+      "sources": [
+        {"source_key": "nexus", "detail": "'The Strange Visitors': beings 'wearing the faces of my friends or famous historical figures, but the essence underneath was anything but'; 'The Succubus Twins': luring beings posing as cheerful young women whose true forms were 'hideous, withered crones with wicked, unnaturally wide and serrated grins'."},
+        {"source_key": "erowid", "detail": "Erowid reports include encounters with familiar persons who felt 'not really them', sometimes resolving into unknown entities."},
+        {"source_key": "clancy", "detail": "Clancy's work on how memory and expectation construct convincing familiar presences offers the standing skeptical frame for mimic reports — the atlas notes it as one interpretation."},
+        {"source_key": "effectindex", "detail": "Effect Index's personality taxonomy — entities as 'character representations... of previously known individuals' generated by the state — documents the mechanism-agnostic version of the familiar-face phenomenon."}
+      ]
+    },
+    {
+      "name": "The Choir — singing collectives",
+      "aka": ["Angelic choirs", "The singers", "Choral beings", "The humming ones"],
+      "type": "light",
+      "appearance": "Groups of beings defined by their sound: ranked luminous figures singing in harmony, rings of small beings humming in unison, or voices without visible sources filling the space with structured song. Sometimes explicitly angelic in presentation (tiered hosts, radiance); sometimes abstract — the Nexus 'Triad' account describes three floating sprite-like beings that 'emitted a symphony of humming, cooing, hypnotic noises'.",
+      "behavior": "Singing as action: the choir's music builds, sustains, or transforms the space — experiencers describe scenery assembling in time with the song, emotional states being played like instruments, and the McKenna-derived motif of beings singing objects into existence. They generally attend to the song rather than the visitor, though some choirs are experienced as singing at or into the experiencer as a form of work upon them.",
+      "communication": "Music as medium: wordless song carrying emotional and structural content; occasionally the song is felt to contain language just beyond comprehension. Direct address is rare.",
+      "emotional_tone": "Exalted, ecstatic, frequently tear-inducing; among the most consistently positive entity presentations. Sacred-music associations are near-universal in these reports.",
+      "message_or_purpose": "Construction and consecration: the singing is experienced as making or maintaining the place, and as blessing or tuning the visitor. Auditory analogue of the light-being encounter.",
+      "frequency": "No survey isolates a choir category. Auditory phenomena including music and voices are well-documented in DMT studies, McKenna's singing-creation motif is canonical, the Nexus archive attests humming collective beings, and choir reports recur on Erowid. Community-recurrent, uncounted.",
+      "phase": 8,
+      "sources": [
+        {"source_key": "mckenna", "detail": "McKenna's machine elves sang — 'singing' structures and objects into existence — establishing song-as-craft as a canonical hyperspace behavior."},
+        {"source_key": "nexus", "detail": "'The Triad': three floating collective-intelligence sprites that 'emitted a symphony of humming, cooing, hypnotic noises'; 'The Conductor' account attests an entity authoring the experience's music."},
+        {"source_key": "erowid", "detail": "Erowid reports include choral singing, angelic hosts, and spaces sustained by audible harmony."},
+        {"source_key": "strassman", "detail": "UNM volunteers reported powerful auditory phenomena including music-like sound; celestial/heavenly framing appears in the positive encounter reports."}
+      ]
+    },
+    {
+      "name": "The Hive Queen — matriarch of the swarm",
+      "aka": ["Queen of the Machine Elves", "The Matriarch", "Insect queen", "Mother of the hive"],
+      "type": "divine-feminine",
+      "appearance": "A singular vast female presence standing behind a multitude: presented either as an enormous insectoid queen attended by swarm-workers, or — in the DMT-Nexus lexicon's striking formulation — as the hidden identity of everything already seen: 'Seeing the Queen of the Machine Elves is akin to suddenly realizing that all the patterns and Machine Elves you have seen before are, in fact, Her.' Regal, central, and orders of magnitude larger or deeper than her attendants.",
+      "behavior": "Reception at the center: the swarm parts, conducts, or carries the experiencer inward to her; she examines, acknowledges, or absorbs attention while the collective moves in coordination around her will. In insectoid-styled versions she is tended by mantis- or bee-like workers; in the machine-elf version the entire space is retroactively understood as her body or expression.",
+      "communication": "Regal telepathy — few words, total authority; or the wordless revelation-of-identity in which the experiencer simply understands that everything present is one being, and female.",
+      "emotional_tone": "Overwhelming maternal-sovereign presence: awe, submission, sometimes fear (the insect-queen framing can read as being processed by a hive), sometimes profound belonging.",
+      "message_or_purpose": "Revelation of the unity behind multiplicity — the swarm as one mind — and reception of the visitor into (or evaluation for) that unity.",
+      "frequency": "The Machine Elves' Queen is a named DMT-Nexus lexicon entity ('the underlying source of all Hyperspace experiences'); insect-queen variants recur in community reports adjacent to the well-attested insectoid class (insectoid features: 11% of encounters in Michael 2021; reptilian/insect beings 9.2% of entity reports in Lawrence 2022). Community taxonomy, uncounted as its own survey category.",
+      "phase": 8,
+      "sources": [
+        {"source_key": "nexus", "detail": "Named lexicon entity 'Machine Elves' Queen': 'The underlying source of all Hyperspace experiences. Seeing the Queen... is akin to suddenly realizing that all the patterns and Machine Elves you have seen before are, in fact, Her.'"},
+        {"source_key": "michael2021", "detail": "Insectoid features in 11% of encounters and 'omnipresence' in 14% — the two codings the queen presentation fuses (insect collective + being-coextensive-with-space)."},
+        {"source_key": "lawrence2022", "detail": "Female entities were the most common tag (24.2%) and reptilian/insect-like beings 9.2% in the Reddit corpus — the queen sits at the intersection of the corpus's largest female category and its insectoid strand."},
+        {"source_key": "erowid", "detail": "Hive, swarm, and queen-attendant scenes recur in Erowid insectoid encounter reports."}
+      ]
+    },
+    {
+      "name": "The Scanners — entry examiners",
+      "aka": ["Security", "The customs agents", "Checkpoint beings", "The examiners"],
+      "type": "guardian",
+      "appearance": "Beings encountered at or just after entry whose whole engagement is inspection: figures or apparatuses that sweep the experiencer with light, gaze, or instrument-like appendages; ushers in threshold spaces; machine-like examiners. Often minimally personified — the scan matters more than the scanner. The Nexus lexicon's 'Waiting Room' is 'populated with telepathic entities (ushers)', and Meyer's corpus records 'scanning and examination by machine-like entities'.",
+      "behavior": "Examination and processing: reading the experiencer top to bottom, checking something — variously felt as identity, readiness, intent, or 'credentials' — then admitting, redirecting, or ignoring. Distinct from the bouncer/gatekeeper (who bars or admits by authority): scanners assess by inspection, often without any verdict being announced. The pervasive reported sense of being expected — Meyer notes 'a consistent sense of being watched or expected by an intelligence' — frequently attaches to these figures.",
+      "communication": "Procedural: the scan itself, terse telepathic status impressions ('you may proceed', 'not this one'), or silence. No small talk.",
+      "emotional_tone": "Neutral-bureaucratic to mildly ominous; experiencers report airport-security, customs, or triage associations — being an item in a process.",
+      "message_or_purpose": "Vetting and sorting at the threshold; community interpretation ranges from protective filtering to indifferent infrastructure. The atlas notes 'checked my credentials' phrasing is community idiom, not a studied category.",
+      "phase": 5,
+      "frequency": "Not a survey category. Composited from well-attested elements: Meyer's corpus documents scanning/examination by machine-like entities and the sense of being expected; the Nexus lexicon attests telepathic ushers in the Waiting Room; Strassman's volunteers reported test-like probing on arrival. The 'security/customs' framing is recurrent r/DMT idiom.",
+      "sources": [
+        {"source_key": "meyer", "detail": "Corpus documents 'scanning and examination by machine-like entities' and 'a consistent sense of being watched or expected by an intelligence'."},
+        {"source_key": "nexus", "detail": "'Waiting Room' lexicon entry: a lobby-like threshold space 'populated with telepathic entities (ushers)' — the scanners' native habitat."},
+        {"source_key": "strassman", "detail": "UNM reports of immediate-on-arrival probing and testing supply the clinical variant of the entry examination."},
+        {"source_key": "erowid", "detail": "Erowid and r/DMT reports use security/customs/checkpoint language for beings that inspect the traveler before deeper access — community idiom for a recurrent threshold experience."}
+      ]
+    },
+    {
+      "name": "Composite & collective beings — the many-as-one",
+      "aka": ["Merged beings", "Collective intelligences", "The legion", "Beings of beings"],
+      "type": "other",
+      "appearance": "Entities visibly composed of other entities or minds: a figure whose body resolves into a crowd, several beings sharing one voice and intent, or a formation (the Nexus 'Triad' — 'a triad of beings, who I think was some sort of collective intelligence... three smallish floating sprites') that behaves as a single organism. Related presentations: beings made of many faces, and swarms that address the experiencer in the first person singular.",
+      "behavior": "Unified multiplicity: the components move, speak, and attend in perfect coordination; parts may detach to interact and then rejoin. Some composites form during the encounter — separate beings merging in front of the experiencer, occasionally inviting the experiencer into the merge (overlapping with ego-dissolution and unity experiences at peak).",
+      "communication": "Chorus-in-unison telepathy: one message with many simultaneous carriers, or a conversation in which every component answers at once. Experiencers describe it as unmistakably plural and unmistakably one.",
+      "emotional_tone": "Uncanny-to-sublime: the violation of one-mind-one-body is disturbing to some, ecstatic to others, especially when invited to join.",
+      "message_or_purpose": "Demonstration of collective mind — individuality as optional structure; invitations to merge are often read as previews of the peak unity state.",
+      "frequency": "No survey category; attested in Nexus contributor taxonomy (the Triad; also 'Tapestries' — beings of incomprehensible dimensional plurality), consistent with Michael et al.'s omnipresence coding (14%), and recurrent in community reports of swarm-minds and merged beings. Community-recurrent, uncounted.",
+      "phase": 8,
+      "sources": [
+        {"source_key": "nexus", "detail": "'The Triad': 'a triad of beings, who I think was some sort of collective intelligence... three smallish floating sprites... emitted a symphony of humming, cooing, hypnotic noises'; 'Tapestries': 'mostly incomprehensible beings of peculiar dimensional properties'."},
+        {"source_key": "michael2021", "detail": "'Omnipresence' coded in 14% of encounters — being(s) experienced as pervading the space rather than localized, adjacent to the many-as-one presentation."},
+        {"source_key": "shanon", "detail": "Shanon's ayahuasca corpus includes multiplicities of beings acting with single coordinated intent as a recurring visionary structure."},
+        {"source_key": "erowid", "detail": "Erowid reports describe swarm-minds, merging beings, and single voices issuing from crowds."}
+      ]
+    },
+    {
+      "name": "The Silent Witness — felt presence without form",
+      "aka": ["The Observer", "The Presence", "The Watcher", "Felt presence"],
+      "type": "other",
+      "appearance": "No appearance at all: an unmistakable someone-is-here without image — location-specific (behind, beside, above) or pervading the whole space. Michael et al. (2021) coded 'presences with no imagery' in 17% of encounters and 'omnipresence' in 14%; Effect Index's Level 1 entities are 'vaguely defined presences' below the threshold of visible form. Distinct from every other entry in this taxonomy by being defined negatively — pure detected other.",
+      "behavior": "Attention: the Witness watches. It does not act, guide, or interfere; its entire behavior is sustained, evident awareness of the experiencer. Sometimes it accompanies (a felt escort through the experience); sometimes it simply is, before, during, and after the visual content. The Nexus lexicon separately records travelers being placed into 'witness consciousness' — 'a camera mode' of pure perception — by entities, the mirror-image phenomenon.",
+      "communication": "None, and yet total: experiencers report being completely known — read to the bottom — without a single message. The absence of communication from so evident an intelligence is itself the experience's signature.",
+      "emotional_tone": "Ranges with set: profound companionship and safety (being accompanied), neutral observation (being studied), or dread (being watched by something unaccountable). Frequently described as more real than any visual entity.",
+      "message_or_purpose": "None stated — presence as such. Interpretations span guardian, researcher, God, the experiencer's own awareness externalized, and the space itself noticing its visitor. The atlas records all as interpretations.",
+      "frequency": "Among the better-attested phenomena: presences without imagery 17% and omnipresence 14% in Michael et al. (2021); felt-presence is a standing category in psychedelic and anomalous-experience research (Luke), and Strassman's volunteers reported a powerful sense of an aware presence even without form. Well-documented across sources.",
+      "phase": 4,
+      "sources": [
+        {"source_key": "michael2021", "detail": "'Presences with no imagery' coded in 17% of encounters and 'omnipresence' in 14% — non-visual entity contact as a substantial minority of all encounters."},
+        {"source_key": "effectindex", "detail": "Level 1 of Effect Index's entity-visibility scale is the 'vaguely defined presence' — entity contact below the threshold of resolved form."},
+        {"source_key": "strassman", "detail": "UNM volunteers reported the immediate, pre-visual conviction of an intelligent presence aware of them — often the first and most certain element of the encounter."},
+        {"source_key": "luke2011", "detail": "Luke situates DMT felt-presence within the wider anomalous-experience literature (sensed-presence phenomena across states), supporting it as a robust cross-state category."}
+      ]
+    },
+    {
+      "name": "Fairies, sirens & seductresses",
+      "aka": ["Flirty Fairies", "The seductress", "Succubus figures", "Winged temptresses"],
+      "type": "other",
+      "appearance": "Female-presenting beings whose register is charm: classic winged fairies ('They resemble traditional fairies and often actually have wings... beautiful women who are overflowing with beauty and joy' — Nexus lexicon), dancers, and burlesque-flirtatious figures who 'squirm and pose, bat their eyelashes, wink and play'. Distinct from the Divine Feminine (goddess/mother) by scale and register: these are peers and performers, not enthroned powers. Dark variants exist: the lexicon's 'Succubus Twins' whose glimpsed true nature was crone-like and predatory.",
+      "behavior": "Flirtation, luring, and delight: beckoning the experiencer deeper, dancing for and with them, showering charm and playful affection. In benign accounts the flirtation is pure exuberant welcome; in cautionary accounts it is bait — distraction from the lesson, or a lure toward entanglement. The community's own taxonomy holds both readings simultaneously.",
+      "communication": "Body language first — wink, pose, beckon, dance; light teasing telepathy; laughter. Content is invitation rather than information.",
+      "emotional_tone": "Intoxicating, joyous, erotic-adjacent; with a documented uncanny edge in the cautionary accounts. Davis (2020) respondents selected 'faerie' as a descriptor of their most memorable entity in 8% of cases.",
+      "message_or_purpose": "Welcome, delight, and invitation — or lure, in the dark reading. Nexus assigns the Flirty Fairies the essential nature 'BEAUTY'.",
+      "frequency": "'Faerie' selected by 8% of 2,561 respondents in Davis 2020 (with 'elf' at 14%); female entities were the single most common tag (24.2%) in the Lawrence 2022 Reddit corpus, within which flirtatious fairy presentations are a recurrent strand; named classes in the Nexus lexicon (Flirty Fairies, Succubus Twins).",
+      "phase": 6,
+      "sources": [
+        {"source_key": "davis2020", "detail": "'Faerie' selected as a descriptor by 8% of respondents (and 'elf' by 14%) among 2,561 most-memorable entity encounters."},
+        {"source_key": "lawrence2022", "detail": "Female entities were the most common entity tag in the Reddit corpus (24.2% of entity-containing reports)."},
+        {"source_key": "nexus", "detail": "'Flirty Fairies': winged, 'overflowing with beauty and joy... squirm and pose, bat their eyelashes, wink and play in a nearly burlesque fashion' (essential nature: BEAUTY); dark counterpart 'Succubus Twins' who lure while concealing predatory true forms."},
+        {"source_key": "luke2011", "detail": "Luke connects DMT fairy encounters to the folkloric fairy-encounter literature — same charm-and-lure ambivalence across centuries of reports."}
+      ]
+    },
+    {
+      "name": "The Dream Wizards — robed magi of hyperspace",
+      "aka": ["The Wizards", "Gandalf figures", "The Magus", "Robed scholars"],
+      "type": "teacher",
+      "appearance": "Classic wizard iconography rendered in hyperspace excess: 'Gandalf types with far more trippy and cool robes' (Nexus lexicon), long-bearded or hooded magi inhabiting 'monasteries, castles, and even Roger Dean-ish cities'. Encountered in their own architecture — towers, studies, libraries — surrounded by instruments and apparatus of an unreadable craft.",
+      "behavior": "Aloof mastery: characteristically 'they tend to ignore you, but might deign to give you a slight indication that they are aware of you' (Nexus). Unlike the Teacher, they do not instruct unbidden; the experiencer is a visitor in a working scholar's domain, tolerated rather than received. Reports of eventual engagement describe terse demonstrations or a single significant look.",
+      "communication": "Withheld: acknowledgment by glance or nod; on rare engagement, dense wordless transmission. The default is studied indifference.",
+      "emotional_tone": "Austere, absorbed, mildly humbling — the experiencer feels like an uninvited student at the door of a master who has better things to do.",
+      "message_or_purpose": "None volunteered; the encounter's felt content is that mastery exists here and the experiencer has not earned its attention. Some read them as future teachers not yet engaged.",
+      "frequency": "A named class in the DMT-Nexus lexicon ('Wizards, Dream'); robed magus figures recur in Erowid and r/DMT reports and overlap with the ascended-master/monk strand. No survey category; community-recurrent, uncounted.",
+      "phase": 7,
+      "sources": [
+        {"source_key": "nexus", "detail": "Lexicon class 'Wizards, Dream': 'classic Gandalf types with far more trippy and cool robes... inhabit monasteries, castles, and even Roger Dean-ish cities. They tend to ignore you, but might deign to give you a slight indication that they are aware of you.'"},
+        {"source_key": "erowid", "detail": "Robed wizard/magus figures in towers, studies, and temple-cities recur across Erowid DMT reports."},
+        {"source_key": "jung", "detail": "The Wise Old Man archetype — the magus who possesses but withholds knowledge — is the standing archetypal reading the community applies to this figure."}
+      ]
+    }
+  ],
+  "augments": [
+    {
+      "category": "entities",
+      "name": "Self-transforming machine elves",
+      "add_detail": "Community taxonomy adds texture: the DMT-Nexus lexicon calls them 'Tykes', 'the primary inhabitants of the Hyperspace', who 'seem to live in, and be part of, some kind of Folding Rooms, and appear to be capable of transforming their own shapes freely' — with a further lexicon entity, the Machine Elves' Queen, as the revealed identity behind all of them. Quantitatively, 'mechanical elves' were tagged in 8.4% of entity-containing reports in the 3,778-report Reddit corpus, and 'elf' was selected by 14% of respondents in the Johns Hopkins survey — common, but well behind guide/alien/spirit descriptors.",
+      "add_sources": [
+        {"source_key": "nexus", "detail": "Lexicon: Machine Elves 'also known as Tykes... primary inhabitants of the Hyperspace... live in, and be part of, some kind of Folding Rooms... capable of transforming their own shapes freely'; see also the 'Machine Elves' Queen' entry."},
+        {"source_key": "lawrence2022", "detail": "'Mechanical elves' tagged in 8.4% of entity reports in the 3,778-report r/DMT corpus (entities present in 45.5% of all reports)."},
+        {"source_key": "davis2020", "detail": "'Elf' selected as a descriptor by 14% of 2,561 respondents — notable but far less common than 'guide' (43%) or 'alien' (39%)."}
+      ]
+    },
+    {
+      "category": "entities",
+      "name": "The Jester / Trickster / Clown",
+      "add_detail": "Now quantified in two independent datasets: jester/harlequin-like beings in roughly 8-11% of encounters in Michael et al.'s naturalistic field study (with 'mischievous/jestful' demeanor coded in 14%), and 'jesters' tagged in 6.5% of entity reports in the Lawrence 2022 Reddit corpus. Strassman's famous list of UNM volunteer encounters begins with 'clowns'. The community distinguishes the prank-playing jester proper from the hyper-intelligent card-flashing Harlequin (see new entry) and from the top-hatted Ringmaster — three registers of the performer archetype.",
+      "add_sources": [
+        {"source_key": "michael2021", "detail": "Jester/harlequin-like forms in ~8-11% of coded encounters; mischievous/jestful demeanor in 14%."},
+        {"source_key": "lawrence2022", "detail": "'Jesters' tagged in 6.5% of entity-containing reports in the 3,778-report Reddit corpus."},
+        {"source_key": "strassman", "detail": "'Clowns' head Strassman's summary list of forms encountered by UNM volunteers ('clowns, reptiles, mantises, bees, spiders, cacti, and stick figures')."}
+      ]
+    },
+    {
+      "category": "entities",
+      "name": "Guardians & gatekeepers — 'the bouncer'",
+      "add_detail": "The community threshold-architecture around the gatekeeper is richer than the bouncer alone: the Nexus lexicon documents the 'Waiting Room' ('a holographic virtual landscape encountered during a breakthrough. Analogous to a games lobby... populated with telepathic entities (ushers)') and the 'In-Between' ('the world where you arrive before you break into Hyperspace... on your own, already left this plain, but not yet reached the other'). A related recurrent community motif is being refused or 'locked out' of hyperspace — experiencers reporting that gatekeeping beings barred entry on particular occasions or 'banned' them for a period. Distinguish the bouncer (bars/admits by authority) from the Scanners (assess by inspection; see new entry).",
+      "add_sources": [
+        {"source_key": "nexus", "detail": "'Waiting Room' (lobby-space 'populated with telepathic entities (ushers)') and 'In-Between' (pre-breakthrough threshold world) lexicon entries formalize the gatekeeper's architecture."},
+        {"source_key": "stjohn", "detail": "Documents the community discourse of admission, refusal, and being 'locked out' of hyperspace as part of the gatekeeping mythos."}
+      ]
+    },
+    {
+      "category": "entities",
+      "name": "Dark entities & demons",
+      "add_detail": "Quantified: in the Johns Hopkins survey (N=2,561), 16% experienced their entity as 'negatively judgmental' and 11% as 'malicious' (against 78% benevolent/sacred); Michael et al. coded fearsome/menacing demeanor in 8% of encounters. Community taxonomy names recurring dark sub-figures: the Nexus lexicon's 'Imps' (playful surface, 'dark, cruel, madly sadistic' underneath), 'The Tormentor' ('a tall, domineering, shadowy figure shrouded in an aura of hazy, shifting darkness'), 'Faceless Goons' (indistinct-faced antagonists appearing in groups of 5-20), and 'Cosmic Horrors' ('utterly and devastatingly powerful and terrifying, with near-complete control'). Jules Evans's Challenging Psychedelic Experiences work documents lasting distress and even 'entity attachment' beliefs following negative encounters — an integration-relevant finding.",
+      "add_sources": [
+        {"source_key": "davis2020", "detail": "16% of respondents experienced the entity as 'negatively judgmental', 11% as 'malicious' — the studied floor for dark-encounter prevalence."},
+        {"source_key": "michael2021", "detail": "Fearsome/menacing demeanor coded in 8% of naturalistic-study encounters; 'manipulating or controlling' role in 17%."},
+        {"source_key": "nexus", "detail": "Named dark sub-figures in contributor taxonomy: Imps, The Tormentor, Faceless Goons, Cosmic Horrors, Succubus Twins — a graded community demonology."},
+        {"source_key": "evans2023", "detail": "Documents post-encounter distress, fear, and entity-attachment beliefs among people reporting negative psychedelic entity encounters, and their integration needs."}
+      ]
+    },
+    {
+      "category": "entities",
+      "name": "Light beings & angels",
+      "add_detail": "Quantified: 'angel' was selected by 16% of Johns Hopkins survey respondents. The Nexus lexicon adds structure: Light Beings are 'entirely made of light. Details like facial expression are often hard to distinguish because of their strong radiance. Always very benign, often connected to the Central Light', with 'Archangels' described as 'a hierarchy of beings that rule the hierarchy of normal Light Beings'; its 'Angels' entry notes they 'don't necessarily look like typical pop culture angels... tend to emanate light and are often keenly watching the humans present... often hang out in the background'. See also the new Orbs and Choir entries for minimal-form and auditory presentations of the light-being family.",
+      "add_sources": [
+        {"source_key": "davis2020", "detail": "'Angel' selected as a descriptor by 16% of 2,561 respondents."},
+        {"source_key": "nexus", "detail": "Lexicon entries for Light Beings ('always very benign, often connected to the Central Light'), Archangels (a ruling hierarchy), and Angels ('emanate light... keenly watching... hang out in the background')."}
+      ]
+    },
+    {
+      "category": "entities",
+      "name": "Deities & god-like presences",
+      "add_detail": "Quantified: 'divine' beings tagged in 17% of entity reports in the Lawrence 2022 Reddit corpus; 'religious personage' selected by 11% in Davis 2020. The Nexus lexicon's gods entry adds a characteristic detail: encountered god-forms span 'Hindu, Egyptian, Mayan, Celtic, African and plenty of unrecognizable types' and 'tend to be more sci-fi than you would imagine them from only reading sacred books' — technologized versions of traditional iconography. Culture-specific presentations are now broken out in the new Egyptian animal-headed and Aztec/Mayan entries.",
+      "add_sources": [
+        {"source_key": "lawrence2022", "detail": "'Divine' beings tagged in 17% of entity-containing reports in the 3,778-report corpus."},
+        {"source_key": "davis2020", "detail": "'Religious personage' selected by 11% of respondents."},
+        {"source_key": "nexus", "detail": "Gods entry: styles span Hindu/Egyptian/Mayan/Celtic/African and unrecognizable types, 'more sci-fi than you would imagine them from only reading sacred books'."}
+      ]
+    },
+    {
+      "category": "entities",
+      "name": "The Divine Feminine",
+      "add_detail": "Quantified: female entities were the single most common entity tag in the Lawrence 2022 Reddit corpus — 24.2% of entity-containing reports. The Nexus lexicon's 'Mother Goddess' entry gives the register: 'A huge, bright, feminine Goddess... Bright, really bright light, caring, loving, caressing away all pain and all tears'. Distinguish the enthroned goddess/mother from the peer-scale fairy/seductress presentations (new entry) and from the Hive Queen (new entry), which fuses the feminine sovereign with the collective swarm.",
+      "add_sources": [
+        {"source_key": "lawrence2022", "detail": "Female entities were the most common entity tag in the corpus: 24.2% of entity-containing reports."},
+        {"source_key": "nexus", "detail": "'Mother Goddess' lexicon entry: 'A huge, bright, feminine Goddess... caring, loving, caressing away all pain and all tears... with an explicit feminine character.'"}
+      ]
+    },
+    {
+      "category": "entities",
+      "name": "Mantis & insectoid beings",
+      "add_detail": "Quantified across three datasets: insectoid proportions in 11% and grey- or mantis-like forms in 6% of encounters (Michael et al. 2021); reptilian-or-insect-like beings in 9.2% of entity reports (Lawrence 2022 Reddit corpus); 'mantises, bees, spiders' appear by name in Strassman's summary of UNM volunteer encounters, several of which involved insectoids conducting procedures — the strongest overlap between the insectoid class and the new Surgeons entry. Meyer's corpus adds hybrid forms: 'scarab creatures with mechanical elements'.",
+      "add_sources": [
+        {"source_key": "michael2021", "detail": "Insectoid proportions coded in 11% of encounters; grey- or mantis-like in 6%."},
+        {"source_key": "lawrence2022", "detail": "Reptilian or insect-like creatures tagged in 9.2% of entity-containing reports."},
+        {"source_key": "meyer", "detail": "Insectoid/arthropod category includes giant spider-like beings and 'scarab creatures with mechanical elements'."}
+      ]
+    },
+    {
+      "category": "entities",
+      "name": "Alien & 'Grey' forms",
+      "add_detail": "Quantified: 'alien' was the second most-selected descriptor in the Johns Hopkins survey (39% of 2,561), and alien creatures were tagged in 16.3% of entity reports in the Lawrence 2022 corpus; Michael et al. coded grey- or mantis-like forms in 6% of encounters. The Nexus lexicon adds a phenomenological marker for the truly alien class: 'their minds feel far more foreign than other sorts of entities you encounter... often you come to them in their own realms' — foreignness of mind, not just form, as the class signature.",
+      "add_sources": [
+        {"source_key": "davis2020", "detail": "'Alien' selected by 39% of respondents — second only to 'guide' (43%)."},
+        {"source_key": "lawrence2022", "detail": "Alien creatures tagged in 16.3% of entity-containing reports in the Reddit corpus."},
+        {"source_key": "nexus", "detail": "Aliens entry: 'so different from us as to be outside of our myths... their minds feel far more foreign than other sorts of entities... often you come to them in their own realms'."}
+      ]
+    },
+    {
+      "category": "entities",
+      "name": "Reptilian beings",
+      "add_detail": "Quantified: serpentine forms in 8% of encounters (Michael et al. 2021); reptilian-or-insect beings in 9.2% of entity reports (Lawrence 2022); 'reptiles' named in Strassman's UNM summary list, including the corpus's most disturbing encounter reports. Community taxonomy (Nexus 'Aliens' entry) files 'the reptilians (of various sorts)' among the genuinely alien classes met 'in their own realms'.",
+      "add_sources": [
+        {"source_key": "michael2021", "detail": "Serpentine features coded in 8% of encounters."},
+        {"source_key": "lawrence2022", "detail": "Reptilian or insect-like creatures tagged in 9.2% of entity-containing reports."},
+        {"source_key": "nexus", "detail": "'The reptilians (of various sorts)' listed among the truly alien classes in the lexicon's Aliens entry."}
+      ]
+    },
+    {
+      "category": "entities",
+      "name": "The generic 'Other' — guides, spirits & helpers",
+      "add_detail": "The Johns Hopkins survey makes this the statistical center of the taxonomy: 'guide' (43%), 'spirit' (39%), and 'helper' (34%) were three of the four most-selected descriptors, and Michael et al. coded 'helping or nurturing' as the most common entity role (53% of encounters), with charming/inviting demeanor in 56%. Meyer's corpus adds signature helper behaviors: greeting travelers with 'welcome back', offering gifts ('candy', objects), and a consistent sense of being expected.",
+      "add_sources": [
+        {"source_key": "davis2020", "detail": "'Guide' 43%, 'spirit' 39%, 'helper' 34% — the descriptor core of the survey; 78% experienced the entity as benevolent and/or sacred."},
+        {"source_key": "michael2021", "detail": "'Helping or nurturing' role coded in 53% of encounters; charming/inviting demeanor in 56%; telepathic/intuitive communication in 31%."},
+        {"source_key": "meyer", "detail": "Corpus documents 'welcome back' greetings, gift-offering, and the sense of being expected as signature helper behaviors; 226 of 340 reports (66%) mention apparently independently-existing beings."}
+      ]
+    },
+    {
+      "category": "entities",
+      "name": "Impersonal geometric intelligences — 'the machine'",
+      "add_detail": "Michael et al. coded 'sentient structures' — environment experienced as being — in 25% of encounters, the studied face of the machine. Community taxonomy adds a strange peripheral class: the Nexus 'Tapestries', 'mostly incomprehensible beings of peculiar dimensional properties... flat projections [that] at the same time extend in more than three dimensions... usually uninterested in the traveler' — machine-adjacent intelligences notable precisely for their indifference. Embodied, unit-like presentations are now broken out in the new Robotic Drones and Fractal Humanoids entries.",
+      "add_sources": [
+        {"source_key": "michael2021", "detail": "'Sentient structures' coded in 25% of encounters — the environment itself experienced as intelligent."},
+        {"source_key": "nexus", "detail": "'Tapestries' entry: incomprehensible flat-yet-hyperdimensional beings, 'usually uninterested in the traveler'."}
+      ]
+    },
+    {
+      "category": "entities",
+      "name": "Deceased loved ones & ancestors",
+      "add_detail": "Effect Index includes 'ancestors' and 'souls' among documented entity archetypes, and human forms were coded in 17% of encounters in Michael et al. (2021). An important community caution now documented in the new Mimic entry: recurring reports of beings wearing the faces of loved ones whose 'essence underneath' did not match (Nexus 'Strange Visitors'), which colors how the community evaluates deceased-loved-one encounters — treasured, but tested.",
+      "add_sources": [
+        {"source_key": "effectindex", "detail": "'Ancestors', 'souls', and 'ghosts' listed among Effect Index's autonomous-entity archetypes."},
+        {"source_key": "michael2021", "detail": "Human beings coded in 17% of encounters in the naturalistic field study."},
+        {"source_key": "nexus", "detail": "'Strange Visitors' entry documents entities wearing familiar faces with a non-matching essence — the community's standing caution around familiar-person encounters."}
+      ]
+    }
+  ],
+  "sources_new": [
+    {
+      "key": "effectindex",
+      "author": "Josie Kins (Effect Index)",
+      "work": "Autonomous Entity — The Subjective Effect Index",
+      "year": "2022",
+      "type": "community documentation / phenomenological taxonomy",
+      "note": "Systematic community-built taxonomy of 'autonomous entity' phenomena: catalogue of manifestation archetypes (humans, shadow people, aliens, insectoids, giant spheres, plants, robotic machines, hooded figures, ancestors, glitch creatures, etc.), a 3-level visibility scale (vague presence → fully defined), a 5-level communication-coherency scale (silence → fully coherent speech), and personality categories (character/concept/subconscious/self representations). Community documentation, not peer-reviewed."
+    },
+    {
+      "key": "brownphinn",
+      "author": "David Jay Brown & Sara Phinn Huntley",
+      "work": "The Illustrated Field Guide to DMT Entities",
+      "year": "2025",
+      "type": "book (illustrated bestiary)",
+      "note": "Book-length visual bestiary of recurring DMT entity types (machine elves, tricksters, teachers, insectoids, and others), with AI-assisted illustration; draws on the Reddit-corpus entity statistics (3,778 reports, 45.5% containing entities) and community archives. Useful as a curated map of recurring types; not a primary study."
+    },
+    {
+      "key": "evans2023",
+      "author": "Jules Evans (Challenging Psychedelic Experiences Project / Ecstatic Integration)",
+      "work": "Encounters with negative entities",
+      "year": "2023",
+      "type": "essay / qualitative research writing",
+      "note": "Documents negative and frightening entity encounters and their aftermath — lasting fear, distress, and 'entity attachment' beliefs — from the Challenging Psychedelic Experiences Project's survey work and integration cases. Source for the integration-relevant dark-entity augment; journalistic-scholarly rather than peer-reviewed."
+    }
+  ]
+}

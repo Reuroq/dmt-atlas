@@ -1,0 +1,399 @@
+{
+  "realms": [
+    {
+      "name": "The Hospital / Operating Theater",
+      "aka": ["The Medical Bay", "The Surgery", "The Healing Table", "The DMT Clinic"],
+      "description": "A brilliantly lit clinical space reported across Strassman's volunteers and community archives: a central table or gurney under a sourceless overhead glare, surrounded by instrument-crowded walls that read simultaneously as surgical suite and machine bay. Surfaces are described as white, chrome, or a luminous plastic-like material that flexes organically; curtained bays and articulated arms fold out of the walls. The mood is a strange fusion of sterility and tenderness — reporters describe feeling like a patient who has arrived mid-procedure, with the room itself seeming purpose-built for working on visitors.",
+      "what_happens_there": "The traveler typically finds themselves lying down while beings examine, probe, measure, adjust, or 'repair' their body or energetic anatomy. Several of Strassman's University of New Mexico volunteers reported classic UFO-abduction-style medical examinations, with probes inserted and procedures performed by businesslike beings. An Erowid report titled 'Alien Head Surgery' describes an 'alien-induced chiropractic/energy healing session' with sinuses and esophagus contorted in a cleansing process carrying 'healing or clinical intention.' Many reporters describe reassurance being transmitted mid-procedure — a communicated sense of 'you are being worked on, don't resist.' Whether the operation is healing, maintenance, or inspection is usually left ambiguous.",
+      "typical_entities": ["Doctor or surgeon-like beings", "Nurse-like attendants", "Grey-alien clinicians", "Insectoid examiners", "Machine-armed technicians"],
+      "map_x": 0.63,
+      "map_y": 0.27,
+      "sources": [
+        {"source_key": "strassman", "detail": "Multiple UNM volunteers reported abduction-style medical examination and probing scenes in high-tech clinical settings (DMT: The Spirit Molecule)."},
+        {"source_key": "erowid", "detail": "Experience #114245 'Alien Head Surgery': perceived chiropractic/energy healing session with clinical intention."},
+        {"source_key": "mack", "detail": "Structural parallel: the medical-examination chamber is the core setting of abduction reports Mack documented."},
+        {"source_key": "lawrence2022", "detail": "Being inside a room reported in 582 experiences (15.4%) of the r/DMT corpus; entity interactions include being examined or worked on."},
+        {"source_key": "nexus", "detail": "Forum reports of 'DMT doctors' and healing-table scenes recur in experience threads."}
+      ]
+    },
+    {
+      "name": "The Testing Laboratory",
+      "aka": ["The Alien Lab", "The Research Facility", "The Examination Chamber"],
+      "description": "Distinct in tone from the Operating Theater: where the hospital heals, the laboratory studies. Reporters describe a colder, more utilitarian space — benches, arrays of unidentifiable apparatus, scanning fields of colored light, transparent enclosures, and a pervasive sense of being an object of research rather than a patient. Light is flatter and more forensic; architecture is modular and technological, often described as vast beyond its visible walls. Strassman summarized that his psychonauts 'regularly found themselves hurtled into alien laboratories.'",
+      "what_happens_there": "The traveler is scanned, measured, sampled, tested, or observed by beings whose attitude reporters characterize as detached scientific curiosity — interested, unhostile, but not warm. Some reports describe consciousness itself being probed or 'read out'; others describe watching experiments performed on other things or beings. The recurring emotional signature is role-reversal: the psychonaut who came to study hyperspace discovers they are the specimen. Some visitors report the beings seeming surprised at their arrival before resuming work.",
+      "typical_entities": ["Scientist-like humanoids", "Grey-alien researchers", "Mantis-like observers", "Automaton assistants"],
+      "map_x": 0.71,
+      "map_y": 0.21,
+      "sources": [
+        {"source_key": "strassman", "detail": "'Strassman's psychonauts regularly found themselves hurtled into alien laboratories' — recurring experimentation and observation scenes among volunteers."},
+        {"source_key": "mack", "detail": "Comparative frame: examination/testing chambers with detached researcher beings mirror abduction phenomenology."},
+        {"source_key": "davis2020", "detail": "In the N=2,561 entity survey, entity roles include assessors and observers alongside guides and healers."},
+        {"source_key": "nexus", "detail": "Community reports of being 'scanned', 'tested', or 'calibrated' by clinical entities recur across forum threads."}
+      ]
+    },
+    {
+      "name": "The Control Room / Cockpit",
+      "aka": ["The Bridge", "The Cockpit", "Mission Control", "The Console Room"],
+      "description": "A recurring command-center architecture: banks of panels, levers, dials, and screen-like surfaces arranged around a commanding viewpoint, frequently likened by reporters to 'a giant control room, or a bridge of a starship' (DMT-Nexus locations thread). The room often overlooks something — a viewport onto space, onto swirling data, or unnervingly onto the traveler's own life or body. Materials are polished, machine-like, and 'throbbing with energy'; light comes from instrumentation. The mood is one of consequence: this is a place where something important is being run.",
+      "what_happens_there": "Beings are seen operating, monitoring, and adjusting — integrated with the machinery they work. In Strassman's study, the volunteer Jeremiah reported a session in which his brain was 'reprogrammed by a master technician sitting at a computer console.' Community reports describe entities demonstrating the controls, occasionally inviting the traveler to look at (rarely to touch) the mechanism, and conveying that what is being controlled is reality itself, or the traveler's own experience. A common takeaway reported is the impression of having glimpsed 'backstage' at existence.",
+      "typical_entities": ["The master technician", "Operator/engineer beings", "Machine elves integrated with consoles", "Humanoid automatons"],
+      "map_x": 0.67,
+      "map_y": 0.38,
+      "sources": [
+        {"source_key": "strassman", "detail": "Jeremiah's report of a 'master technician' at a computer console reprogramming his brain."},
+        {"source_key": "nexus", "detail": "Hyperspace Lexicon locations thread: a space where beings observe and control an external environment, 'a giant control room, or a bridge of a starship.'"},
+        {"source_key": "gallimore", "detail": "Interpretive frame: hyperspace as an informational, computed space makes the control-room motif a recurring intuitive metaphor in reports he analyzes."}
+      ]
+    },
+    {
+      "name": "The Hive",
+      "aka": ["The Honeycomb", "The Insect Cathedral", "The Mantis Hive"],
+      "description": "Cellular, hexagonal architecture reported at scale: honeycombed walls and chambers that 'evolve and change,' warm amber or golden-brown light, and a pervasive coordinated hum. Reporters describe corridors and cells that feel grown rather than built, with surfaces alive in synchronized motion — a civilization-as-organism. One field-study participant described structures 'not quite a honeycomb…lattice-work,' and honeycombed buildings in flux recur in the corpus. The mood is ordered, industrious, and slightly overwhelming: individual attention feels secondary to the collective purpose humming through the walls.",
+      "what_happens_there": "Travelers report being escorted or conveyed through cells, watched by many eyes at once, or addressed by a collective intelligence speaking through individual members. Insectoid stewards go about incomprehensible tasks; some visitors report telepathic 'downloads' delivered with hive-like efficiency, others a queen-like presiding presence deeper in. Reports range from awe at the organization to fear of absorption. Uncertainty note: the named 'hive' as a destination is mainly a community-archive motif; formal studies record insectoid entities and honeycomb architecture without labeling the place.",
+      "typical_entities": ["Mantis beings", "Insectoid workers", "A queen or presiding intelligence", "Collective/hive-mind presences"],
+      "map_x": 0.73,
+      "map_y": 0.56,
+      "sources": [
+        {"source_key": "lawrence2022", "detail": "Reptilian or insect-like entities in ~9.2% of entity descriptions in the r/DMT corpus."},
+        {"source_key": "michael2021", "detail": "Honeycomb/lattice architecture: 'not quite a honeycomb…lattice-work'; honeycombed evolving buildings reported."},
+        {"source_key": "nexus", "detail": "Insectoid-encounter threads (e.g. mantid encounters within highly organized energy architecture) recur on the forum."},
+        {"source_key": "reddit", "detail": "r/DMT recurring-place threads describe hive/honeycomb chambers tended by insectoid beings."}
+      ]
+    },
+    {
+      "name": "The Nursery / Incubation Chamber",
+      "aka": ["The Crèche", "The Hatchery", "The Caretaker Ward"],
+      "description": "A soft-lit ward or crèche reported most famously by Strassman's volunteer Jeremiah, who 'landed in a nursery where alien caretakers looked after him, but only in a most casual manner.' Descriptions feature rows of cradles, pods, or incubator-like vessels; rounded, padded architecture; and gentle, diffuse light. The New Republic's summary of the Strassman corpus notes volunteers hurtled into 'high-tech nurseries.' The mood is peculiar: institutional care delivered with competence but strange nonchalance, as if newly arrived consciousnesses are routine cargo.",
+      "what_happens_there": "The traveler is tended, monitored, or simply kept — treated as a new arrival, an infant, or something being grown. Caretaker beings check on the visitor with offhand attentiveness. Some reports describe seeing other occupants gestating in adjacent pods, or receiving the impression that this is where beings (or souls, in reporters' framings) are prepared. The signature feeling reported is of being very small, very new, and safely — if impersonally — held.",
+      "typical_entities": ["Alien caretakers", "Nurse-like attendants", "Midwife figures", "Other incubating presences"],
+      "map_x": 0.58,
+      "map_y": 0.18,
+      "sources": [
+        {"source_key": "strassman", "detail": "Jeremiah's nursery report: alien caretakers attending 'in a most casual manner'; 'high-tech nurseries' recur in summaries of the volunteer corpus."},
+        {"source_key": "nexus", "detail": "Forum reports of crèche/incubation and caretaker-ward scenes among breakthrough accounts."},
+        {"source_key": "reddit", "detail": "r/DMT accounts of nursery-like chambers and being handled as a newborn arrival."}
+      ]
+    },
+    {
+      "name": "The Library / Hall of Records",
+      "aka": ["The Akashic Library", "The Archive", "The Hall of Records"],
+      "description": "A vast reading-room architecture: shelves and stacks receding beyond sight, tiered galleries, and volumes whose covers and pages carry living, self-rearranging script. Illumination is described as golden or amber, seemingly emitted by the texts themselves. The recurring hieroglyph-like 'living language' of DMT reports — field-study participants repeatedly observed 'ancient language or hieroglyphics' — here becomes the substance of an entire place. The mood is hushed, immense, and weighty with implied knowledge; reporters often describe the certainty that everything knowable is filed here.",
+      "what_happens_there": "Travelers report being shown books, scrolls, or records — sometimes 'their own' record — by librarian or guardian figures; receiving compressed downloads of information they cannot fully retain on return; or simply wandering awestruck among the stacks. The frustration of forgetting is a signature motif: the knowledge felt total in situ and evaporates on re-entry. Uncertainty note: the named library is predominantly a community-archive and esoteric-tradition motif (the 'Akashic records' framing); formal studies document living script and knowledge-transmission rather than the room itself.",
+      "typical_entities": ["Librarian/guardian beings", "Record keepers", "Scribe-like figures", "Beings of light presiding over texts"],
+      "map_x": 0.55,
+      "map_y": 0.47,
+      "sources": [
+        {"source_key": "michael2021", "detail": "Ancient language or hieroglyphics repeatedly observed; knowledge-transmission themes across the 36-interview field corpus."},
+        {"source_key": "shanon", "detail": "Ayahuasca typology includes visionary texts, scripts and writing, and scenes of instruction within marvelous palatial interiors."},
+        {"source_key": "meyer", "detail": "Entity communications frequently framed as conveying stored or archival knowledge."},
+        {"source_key": "reddit", "detail": "Recurring r/DMT threads describing a 'library' or 'hall of records' visited across separate journeys."},
+        {"source_key": "nexus", "detail": "Forum reports of archive/library spaces where information is shown or downloaded."}
+      ]
+    },
+    {
+      "name": "The Garden",
+      "aka": ["The Hanging Gardens", "The Paradise Garden", "The Living Garden"],
+      "description": "A place of engineered nature: luminous flora, jeweled and mercurial plant-structures, terraces and fountains that blur the line between garden and palace. One field-study participant described 'a garden of extraordinary beauty' with mercurial living structures resembling 'palaces from ancient Babylonian gardens.' Light is typically golden or springlike; growth is visibly alive, blooming and reconfiguring in real time. In Shanon's ayahuasca corpus, enchanted gardens and marvelous parklands are among the recurrent sceneries. The mood reported is restorative — welcome, safety, and almost painful beauty.",
+      "what_happens_there": "Travelers stroll or are guided through the grounds; plants respond to attention, opening or performing; water and light features convey meaning without words. Reporters describe emotional healing, grief release, and encounters with gentle presences among the foliage. Some accounts describe the garden as a reward or rest-stop between more intense chambers; a few describe tending or being shown how the garden 'grows worlds.'",
+      "typical_entities": ["Plant spirits", "Feminine guide figures", "Beings of light", "Small gardener entities"],
+      "map_x": 0.34,
+      "map_y": 0.29,
+      "sources": [
+        {"source_key": "michael2021", "detail": "Natural landscapes (4 cases): 'a garden of extraordinary beauty'…'palaces from ancient Babylonian gardens.'"},
+        {"source_key": "shanon", "detail": "Gardens and enchanted parkland among recurrent sceneries in the ayahuasca structural typology."},
+        {"source_key": "erowid", "detail": "Experience vault accounts of paradisiacal garden realms during breakthrough."}
+      ]
+    },
+    {
+      "name": "The City of Lights / Alien Metropolis",
+      "aka": ["The Futuristic City", "The Crystal City", "The Infinite City"],
+      "description": "A skyline of impossible architecture seen usually from above or from a grand approach: towers of light, crystalline and machine-like structures 'that defy conventional physics and engineering,' boulevards and plazas alive with movement. A DMT-Nexus locations account describes 'a grand central square with skyscrapers and Arabic-style palace.' Shanon lists cities — often marvelous, celestial, or ancient-futuristic — among the recurrent ayahuasca visions, and field-study 'artificial worlds' (6 participants, 17%) include futuristic sci-fi cityscapes. Light is the city's substance: windows, veins, and traffic all rendered in luminous flows.",
+      "what_happens_there": "Most reporters describe flyover or approach perspectives — the city shown rather than entered — accompanied by awe at its scale and the certainty that it is inhabited and ancient. Those who report entering describe guided tours through streets and interiors, markets and plazas, with the architecture itself responsive and alive. A recurring motif is civilizational implication: the sense that an entire functioning society exists here and continues whether or not anyone visits.",
+      "typical_entities": ["Citizen crowds of humanoid or geometric beings", "Guide entities", "Machine elves as urban artisans"],
+      "map_x": 0.62,
+      "map_y": 0.66,
+      "sources": [
+        {"source_key": "shanon", "detail": "Cities — marvelous and celestial — among the most common ayahuasca vision contents in the structural typology."},
+        {"source_key": "michael2021", "detail": "Artificial worlds (6 participants, 17%): futuristic, sci-fi urban and technological environments."},
+        {"source_key": "nexus", "detail": "Locations thread: 'The City' — grand central square, skyscrapers, Arabic-style palace."},
+        {"source_key": "mckenna", "detail": "Machine-like, polished, iridescent vistas 'throbbing with energy' in his hyperspace descriptions."}
+      ]
+    },
+    {
+      "name": "The Court / Council Chamber",
+      "aka": ["The Council of Elders", "The Galactic Council", "The Tribunal"],
+      "description": "A formal assembly space: semi-circular or ringed seating, a raised dais or well at the center where the traveler stands, and an atmosphere of gravity and protocol. Architecture is described variously as marble-classical, crystalline, or abstractly geometric, but the arrangement — many seated presences facing one arrival — is the constant. Light falls on the visitor. Community reports name a 'Galactic council' of spiritual elders 'who impart knowledge, laws, and instructions for behavior.' The mood is solemn but rarely hostile: being seen completely is the dominant sensation reported.",
+      "what_happens_there": "The traveler is received, examined, welcomed, or instructed by an assembled body. Reporters describe being questioned wordlessly, given tasks or ethical instruction, formally 'recognized,' or — in overlap with bardo-flavored reports — gently evaluated. Some describe petitioning the council; others describe merely witnessing deliberations about matters beyond comprehension. The encounter typically ends with a verdict-like transmission: permission, reassurance, or a charge to carry back.",
+      "typical_entities": ["Councils of elders", "Robed or tall luminous beings", "Judge-like presiding figures", "Silent witness assemblies"],
+      "map_x": 0.52,
+      "map_y": 0.58,
+      "sources": [
+        {"source_key": "davis2020", "detail": "Entity survey (N=2,561): entity roles include instructors and guides; community framings include the 'Galactic council' of elders imparting knowledge and laws."},
+        {"source_key": "michael2021", "detail": "Entities' roles frequently included imparting insight, instruction, and evaluation."},
+        {"source_key": "reddit", "detail": "Recurring 'council' and 'tribunal' encounter threads in r/DMT."},
+        {"source_key": "nexus", "detail": "Forum accounts of appearing before assembled beings in formal chamber settings."}
+      ]
+    },
+    {
+      "name": "The Mesoamerican Temple Complex",
+      "aka": ["The Aztec Temple", "The Mayan Pyramid Plaza", "The Serpent Temple"],
+      "description": "Stepped pyramids, glyph-carved stone, feathered-serpent motifs, and torch- or ember-lit plazas rendered in saturated Day-Glo intensities. Shanon found scenes of ancient civilizations — with pre-Columbian civilizations among the most commonly reported — to be a core content category of ayahuasca visions, and DMT field-study participants describe 'very, very Aztec…patterns,' with mandala-like code culminating in 'a huge Aztec-like figure.' The architecture reads as ceremonial: axial staircases, altars, colonnades of carved deities whose reliefs animate and watch.",
+      "what_happens_there": "Travelers report standing in ritual plazas as processions or ceremonies unfold; ascending (or being drawn up) pyramid staircases; and meeting deity-like or priestly figures whose iconography matches the carved walls. The glyphs themselves are frequently reported as active — writing that performs its own meaning. Reporters debate whether the style is imposed from cultural memory or intrinsic to the state; the Atlas records only that the motif recurs across unconnected reporters.",
+      "typical_entities": ["Aztec/Mayan-styled deity figures", "Priestly attendants", "Feathered-serpent presences", "Animated glyph beings"],
+      "map_x": 0.26,
+      "map_y": 0.55,
+      "sources": [
+        {"source_key": "shanon", "detail": "Scenes of ancient civilizations — pre-Columbian among the most common — in the ayahuasca structural typology."},
+        {"source_key": "michael2021", "detail": "'Very, very Aztec…patterns'; mandala-like code culminating in a huge Aztec-like figure."},
+        {"source_key": "woolfe", "detail": "'Ancient Motifs in Psychedelic Experiences': Aztec/Mayan styling as a recurrent psychedelic aesthetic."},
+        {"source_key": "shroomery", "detail": "Community threads on recurring Aztec/Mesoamerican imagery while tripping."}
+      ]
+    },
+    {
+      "name": "The Egyptian Hall",
+      "aka": ["The Hieroglyph Hall", "The Temple of Columns", "The Pharaonic Court"],
+      "description": "Columned processional halls in gold, lapis, and ochre; wall surfaces dense with hieroglyphs that glow, animate, and read themselves aloud in meaning rather than sound. Shanon identifies ancient Egypt as one of the two most commonly reported ancient-civilization sceneries in ayahuasca visions, and hieroglyphic imagery saturates the DMT literature — Strassman's volunteer corpus was famously summarized as full of 'Day-Glo hieroglyphic' imagery. Scale is monumental: ceilings lost in shadow, colossal seated figures at the hall's ends, shafts of directed light.",
+      "what_happens_there": "Travelers process down the hall as if part of a rite; are received by pharaonic or jackal/ibis-styled figures; or stand before animated wall-texts that transmit compressed teachings. Some reports describe initiation or anointing gestures; others, a weighing or threshold moment consistent with the hall's funerary iconography. As with the Mesoamerican complex, reporters disagree on whether this is cultural memory or something stranger; recurrence across naive reporters is the documented fact.",
+      "typical_entities": ["Pharaonic figures", "Anubis/Thoth-styled beings", "Priest attendants", "Living hieroglyph entities"],
+      "map_x": 0.22,
+      "map_y": 0.4,
+      "sources": [
+        {"source_key": "shanon", "detail": "Ancient Egypt among the most commonly reported ancient-civilization scenes in the ayahuasca corpus."},
+        {"source_key": "strassman", "detail": "Hieroglyphic imagery recurrent across the UNM volunteer corpus ('Day-Glo hieroglyphic' visions)."},
+        {"source_key": "michael2021", "detail": "Objects appearing 'like Egyptian or hieroglyphical writings' presented by entities."},
+        {"source_key": "woolfe", "detail": "Egyptian motifs (hieroglyphics, pyramids, deities) catalogued among recurrent psychedelic ancient motifs."}
+      ]
+    },
+    {
+      "name": "The Theater / Grand Stage",
+      "aka": ["The Opera Hall", "The Show", "The Performance Hall", "The Vaudeville Stage"],
+      "description": "An ornate performance venue — proscenium, curtains, tiered boxes — described in a DMT-Nexus locations account as 'The Opera Hall,' an ornate classical venue of gold and marble. Lighting behaves theatrically: spotlights, backlit curtains, silhouettes; one field-study participant described entities 'as if light was coming from behind the curtain, how you would see silhouettes.' The space is charged with anticipation — something is always about to be revealed — and the architecture itself can participate, curtains and walls flourishing like performers.",
+      "what_happens_there": "Entities perform: they sing, dance, juggle impossible objects, and present things — McKenna's elves famously 'sing objects into existence' in demonstration-performances. The traveler is sometimes audience, sometimes pulled on stage, and sometimes realizes the performance is about them or is them. Community shorthand calls this 'the show.' St John analyzes the DMT breakthrough's pervasive theatrical, carnivalesque staging as part of its liminal aesthetics. The reveal — a curtain drawn on something more real — is the signature event reported.",
+      "typical_entities": ["Performer elves", "Jester and harlequin figures", "An audience of watching beings", "A master of ceremonies"],
+      "map_x": 0.38,
+      "map_y": 0.61,
+      "sources": [
+        {"source_key": "nexus", "detail": "Locations thread: 'The Opera Hall' — ornate classical venue with gold and marble architecture."},
+        {"source_key": "mckenna", "detail": "Elves' performative demonstrations — objects sung into existence for the visitor's instruction and delight."},
+        {"source_key": "stjohn", "detail": "The breakthrough's theatrical, carnivalesque staging analyzed as liminal aesthetics."},
+        {"source_key": "michael2021", "detail": "Curtain/silhouette imagery: entities seen 'as if light was coming from behind the curtain.'"}
+      ]
+    },
+    {
+      "name": "The Grid Plain",
+      "aka": ["The Infinite Checkerboard", "The Blueprint Plane", "The Lattice Plain"],
+      "description": "An open landscape rather than a chamber: a flat plane ruled with glowing gridlines running to every horizon beneath a black or faintly luminous sky. Field-study participants described gridwork 'not quite a honeycomb…lattice-work' and one experienced 'raw data outside of me existing…an empty blueprint of the universe.' The place feels pre-architectural — the scaffolding on which worlds would be drawn — and its emptiness is part of the report: vast, silent, coordinate-perfect. Distinct from the enclosed Geometric Palaces & the Lattice: this is the lattice as exterior terrain.",
+      "what_happens_there": "Travelers hover, skim, or stand on the plain; watch structures assemble themselves from the gridlines; or receive the strong impression of seeing reality's underlying coordinate system with the content switched off. Some describe data or symbols flowing along the lines. The characteristic response reported is cognitive vertigo — the sense of being shown the format rather than the file. Gallimore's information-theoretic reading of hyperspace is frequently invoked by reporters describing this place.",
+      "typical_entities": ["Usually unpopulated", "Occasional geometric presences", "Distant architect-like figures"],
+      "map_x": 0.15,
+      "map_y": 0.66,
+      "sources": [
+        {"source_key": "michael2021", "detail": "Nebulous worlds (13 participants, 36%): gridwork/lattice patterns; 'an empty blueprint of the universe.'"},
+        {"source_key": "gallimore", "detail": "Hyperspace-as-information framing that reporters commonly apply to grid/blueprint terrain."},
+        {"source_key": "nexus", "detail": "Locations thread: 'The White Void' described as an infinite, dimensionless plain, sometimes a starfield."},
+        {"source_key": "qri", "detail": "Analyses of DMT-state geometry (e.g. hyperbolic/lattice structure) matching reports of ruled, coordinate-like terrain."}
+      ]
+    },
+    {
+      "name": "The Ocean / Underwater Realm",
+      "aka": ["The Cosmic Ocean", "The Deep", "The Underwater Kingdom"],
+      "description": "An aquatic register of hyperspace: travelers report submergence in a medium that behaves like water — currents, pressure, suspended light — opening into abyssal spaces, reef-like architectures, or palatial halls that are unmistakably underwater. In the naturalistic field study, 14 participants (39%) described intense sensory onset events including 'submergence'; one participant's experience was 'slightly oceany in the feel…I felt underwater in some way, or contained by an energy.' Light is filtered and volumetric; beings drift and pulse like bioluminescent sea life. The mood ranges from womb-like containment to abyssal awe.",
+      "what_happens_there": "Reporters describe swimming or being carried by currents, meeting jellyfish- or ray-like beings of light, and descending toward deeper, darker strata. Water functions as a medium of communication — meaning arriving as pressure waves. Some accounts describe drowning-panic that resolves into the discovery that breathing is unnecessary, read by reporters as a surrender lesson. Uncertainty note: full underwater kingdoms are chiefly community-archive reports; the formal studies document the submergence sensation and oceanic containment.",
+      "typical_entities": ["Jellyfish-like light beings", "Serpentine water entities", "Drifting luminous presences"],
+      "map_x": 0.4,
+      "map_y": 0.82,
+      "sources": [
+        {"source_key": "michael2021", "detail": "Onset submergence (14 participants, 39% with significant sensory onset events): 'slightly oceany in the feel…I felt underwater in some way.'"},
+        {"source_key": "shanon", "detail": "Seas and water sceneries recur in the ayahuasca visionary corpus; serpents and aquatic imagery among the most common contents."},
+        {"source_key": "reddit", "detail": "r/DMT threads describing recurring underwater/ocean realms and aquatic light beings."},
+        {"source_key": "erowid", "detail": "Experience vault reports of oceanic and underwater breakthrough environments."}
+      ]
+    },
+    {
+      "name": "The Space Station / Docking Bay",
+      "aka": ["The Landing Bay", "The Orbital Platform", "The Mothership Hangar"],
+      "description": "An orbital arrival architecture: gantries, airlocks, hangar volumes, and port windows opening onto starfields. Strassman's volunteer Lucas 'approached a landing bay on a space station, accompanied by humanoid automatons.' The construction is explicitly technological — struts, decking, panel seams — but often warped by hyperspace exuberance: corridors that curve impossibly, bulkheads patterned with living geometry. Lighting is instrument-cool with beacon flashes. The mood is procedural: the traveler is traffic, being received, routed, and processed at a way-station between here and further.",
+      "what_happens_there": "Arrival, docking, and escort. Reporters describe being met by crews — frequently automaton-like or uniformed beings — guided through bays and corridors, and shown views of space or of Earth. Some describe briefings or orientation; others simply the logistics of arrival before the experience moves elsewhere. A recurring impression is of an established transit infrastructure: the station was operating before arrival and continues after departure.",
+      "typical_entities": ["Humanoid automatons", "Crew/officer beings", "Grey-alien staff", "Escort drones"],
+      "map_x": 0.79,
+      "map_y": 0.3,
+      "sources": [
+        {"source_key": "strassman", "detail": "Lucas: approached a landing bay on a space station accompanied by humanoid automatons."},
+        {"source_key": "michael2021", "detail": "Artificial sci-fi worlds among breakthrough environments (17%)."},
+        {"source_key": "nexus", "detail": "Locations thread: control-room space likened to 'a bridge of a starship'; station/ship settings recur in forum reports."},
+        {"source_key": "reddit", "detail": "r/DMT accounts of spacecraft interiors, hangars, and orbital platforms."}
+      ]
+    },
+    {
+      "name": "The White Room",
+      "aka": ["The Blank Chamber", "The White Void Room", "The Playpen"],
+      "description": "A featureless white space with sourceless, shadowless illumination — reporters on DMT-Nexus describe 'a white room with a sensed ceiling but seemingly infinite length and width.' There is floor enough to stand on and light enough to see by, but nothing to see: no seams, no furniture, no horizon. It overlaps the Waiting Room (the Hyperspace Lexicon lists 'white room' as one of its guises) but is distinguished in reports by its emptiness — where the Waiting Room implies an appointment, the White Room often simply holds the visitor. Mood reports split between serenity, laboratory-like neutrality, and the frustration of being 'stuck.'",
+      "what_happens_there": "Often, nothing — and that is the report: travelers wait, look for exits, and return. Nexus threads describe being 'in the White Room and can't look around.' Other accounts describe a single entity arriving into the blankness, the whiteness resolving into the next space, or the room functioning as a reset/quarantine between scenes. Some reporters treat reaching it repeatedly as a plateau to be passed; others as a place of pure potential before form.",
+      "typical_entities": ["Often none", "A single greeter entity", "Distant observers sensed beyond the whiteness"],
+      "map_x": 0.12,
+      "map_y": 0.18,
+      "sources": [
+        {"source_key": "nexus", "detail": "'White room' threads (First Steps in Hyperspace): sensed ceiling, seemingly infinite extent; Lexicon lists white room as a Waiting Room guise."},
+        {"source_key": "shroomery", "detail": "'THE WHITE ROOM' thread: the white space reported beyond the fractal/energy phase."},
+        {"source_key": "michael2021", "detail": "Nebulous worlds (36%) include undefined, contentless luminous spaces."}
+      ]
+    },
+    {
+      "name": "The Bardo Crossing / Hall of Judgment",
+      "aka": ["The Judgment Space", "The Life Review Chamber", "The Threshold of the Dead"],
+      "description": "A gray, misted, or dimensionless threshold space in which the traveler's life is displayed, weighed, or reviewed. Architecture, when present, is minimal and symbolic — scales, mirrors, a seated presence, panels showing scenes from memory. Strassman explicitly used the Tibetan Book of the Dead as an interpretive frame, noting his volunteers reported sequences paralleling the bardo (clear light, peaceful then wrathful presences, dissolution); NDE research documents the same life-review structure. The atmosphere reported is not punitive but total: everything witnessed, nothing hidden.",
+      "what_happens_there": "The life review: scenes replayed with the felt experience of all parties; questions posed ('what did you do with it?') without accusation; a weighing or sorting that the traveler participates in rather than merely receives. Some reports include escort figures or a presiding judge-like presence; others describe self-judgment before a silent mirror. Uncertainty note: this is the Atlas's most interpretation-laden realm — the bardo framing is an overlay reporters and researchers apply; what recurs in the raw reports is threshold + review + evaluation.",
+      "typical_entities": ["Psychopomp escort figures", "A presiding judge-like presence", "Deceased relatives (reported)", "Silent witnesses"],
+      "map_x": 0.49,
+      "map_y": 0.52,
+      "sources": [
+        {"source_key": "strassman", "detail": "Volunteers' sequences paralleled the Bardo Thodol progression; Strassman's explicit Tibetan Book of the Dead framing."},
+        {"source_key": "moody", "detail": "Life-review phenomenology in NDE reports structurally matching these accounts."},
+        {"source_key": "greyson", "detail": "NDE life review and evaluative threshold documented in the NDE research corpus."},
+        {"source_key": "eliade", "detail": "Cross-cultural threshold-and-judgment motifs in death journeys and initiation."},
+        {"source_key": "reddit", "detail": "r/DMT accounts of judgment/review spaces and 'being shown my life.'"}
+      ]
+    },
+    {
+      "name": "The Carnival Midway / Fairground Machinery",
+      "aka": ["The Cosmic Carnival", "The Midway", "The Merry-Go-Round", "The Casino"],
+      "description": "The open-air, mechanical counterpart to the indoor Circus/Playroom: strings of colored lights receding down a midway, wheels and rotors turning, carousel machinery of impossible complexity, booths and games staffed by barkers. McKenna declared 'the archetype of DMT is the circus,' and Strassman's participants reported clowns, jesters, jokers, and imps inhabiting dimensions resembling 'a circus, carnival, or casino.' In the r/DMT corpus, machinery, clockwork, gears, or wheels appear in 78 experiences (2.1%) — here that machinery is festive: fairground engineering as cosmic architecture. The mood is manic celebration with an undertow of trickery.",
+      "what_happens_there": "The traveler is welcomed like a mark at the fair: entities beckon toward games, rides, and demonstrations; carousel-like mechanisms spin the visitor through scene changes; prizes and tricks are presented with sleight-of-hand logic. Reporters describe delight, overstimulation, and the persistent suspicion of being teased or tested by trickster hosts. Boundary note: recorded as distinct from the Circus/Playroom by its exterior midway layout and emphasis on rotating machinery, though many reports blend the two.",
+      "typical_entities": ["Jesters and harlequins", "Carnival barker entities", "Imps and tricksters", "Ride-operator beings"],
+      "map_x": 0.3,
+      "map_y": 0.72,
+      "sources": [
+        {"source_key": "mckenna", "detail": "'The archetype of DMT is the circus' — the carnival register of hyperspace."},
+        {"source_key": "strassman", "detail": "Participants reported clowns, jesters, jokers, imps in circus/carnival/casino-like dimensions."},
+        {"source_key": "woolfe", "detail": "'Why Do Jesters and Tricksters Appear in the DMT Experience?' — trickster entities and their carnival environments."},
+        {"source_key": "lawrence2022", "detail": "Machinery, clockwork, gears, or wheels in 78 experiences (2.1%) of the r/DMT corpus."},
+        {"source_key": "stjohn", "detail": "Carnivalesque inversion-of-order aesthetics as a signature of breakthrough liminality."}
+      ]
+    },
+    {
+      "name": "The Uncanny Interior",
+      "aka": ["The False Room", "The Kitchen", "The Familiar Room That Isn't", "The Domestic Uncanny"],
+      "description": "Ordinary domestic space rendered wrong: a kitchen, living room, or hallway that is recognizably mundane yet subtly off — proportions stretched, light sourceless, objects breathing, a home that belongs to no one the traveler knows yet feels intimately familiar. The field-study literature notes DMT worlds 'uncannily echo worldly experience' — familiar elements distorted or exaggerated. A DMT-Nexus locations account records 'The Kitchen,' where 'a maternal figure cooks small entities.' Déjà-vu familiarity is a documented signature of the state: places never seen that feel like home or like return.",
+      "what_happens_there": "The traveler explores rooms that almost belong to them; domestic acts proceed with dream-logic (cooking, tidying, hosting) performed by homely figures whose ordinariness is itself the strangeness. Some reports describe comfort — being received in a familiar parlor; others describe mounting wrongness as details fail inspection. Reporters frequently describe the conviction of having been in this exact room on previous journeys. The realm functions in reports as hyperspace wearing the mask of home.",
+      "typical_entities": ["Maternal/grandmotherly figures", "Homely humanoid hosts", "Unseen inhabitants sensed in adjacent rooms"],
+      "map_x": 0.08,
+      "map_y": 0.45,
+      "sources": [
+        {"source_key": "nexus", "detail": "Locations thread: 'The Kitchen' — a maternal figure cooking small entities in a domestic space."},
+        {"source_key": "michael2021", "detail": "Worlds 'uncannily echo worldly experience' — familiar reality distorted or exaggerated."},
+        {"source_key": "davis2020", "detail": "Survey respondents commonly reported the encounter feeling familiar — like home or like returning somewhere previously visited."},
+        {"source_key": "reddit", "detail": "r/DMT threads on landing in ordinary-but-wrong rooms and recurring familiar interiors."}
+      ]
+    }
+  ],
+  "augments": [
+    {
+      "category": "realms",
+      "name": "The Waiting Room",
+      "add_detail": "The Hyperspace Lexicon defines the Waiting Room as a holographic threshold environment 'analogous to a games lobby, a place outside of the game,' also known as the playpen or the white room, and notes that waiting rooms 'vary in style immensely' — sometimes populated, sometimes empty. Community descriptions converge on an enclosed, impossibly geometrical antechamber appearing after visual onset but before full breakthrough, with resident entities often playing gatekeeper or usher roles (jester-like figures are frequently named). The cross-report consistency of this space among unconnected reporters is itself repeatedly remarked upon in the archives.",
+      "add_sources": [
+        {"source_key": "nexus", "detail": "Hyperspace Lexicon entry: 'games lobby' analogy; aka playpen/white room; styles vary immensely."},
+        {"source_key": "stjohn", "detail": "Waiting-room threshold analyzed within the breakthrough's liminal structure."}
+      ]
+    },
+    {
+      "category": "realms",
+      "name": "The Domed Cathedral",
+      "add_detail": "The Hyperspace Lexicon records 'The Dahh': the sudden sense of inhabiting 'a sacred cathedral, huge, yet invisible,' with holy reverberation. St John describes the vaulted dome as 'a revered space; the ultimate destination' reached after a fantastic passage — one account gives a solid-red vaulted ceiling over a dull grey floor populated by abstract entities performing magical demonstrations. A Nexus locations report adds 'The Golden Cathedral…complete with the most beautiful music.' McKenna's dome has walls 'crawling with geometric hallucinations…iridescent with deep sheens,' everything 'machine-like and polished and throbbing with energy.'",
+      "add_sources": [
+        {"source_key": "nexus", "detail": "Lexicon 'The Dahh' (invisible sacred cathedral with holy reverb); locations thread 'Golden Cathedral' with music."},
+        {"source_key": "stjohn", "detail": "The vaulted dome as revered ultimate destination; red-vaulted dome account with demonstration-performing entities."},
+        {"source_key": "mckenna", "detail": "Dome interior: brightly colored crawling geometry, polished machine-like surfaces throbbing with energy."}
+      ]
+    },
+    {
+      "category": "realms",
+      "name": "The Void",
+      "add_detail": "Field-study data ground the Void's phenomenology: space-like environments were the most common natural-world type (6 cases), e.g. being 'enveloped by a mystical black colour of the universe, inside of which there were an infinite number of geometric figures.' A recurring sub-register is the dark ocean: reporters describe the Void as a black sea one floats in — buoyant darkness with current and depth rather than vacuum. A Nexus locations account names 'The Ether,' a vast infinite space described as 'the flip side of space-time' where beings communicate cosmic knowledge; Strassman's bardo framing links the clear-light/void phase to the Tibetan Book of the Dead sequence his volunteers appeared to traverse.",
+      "add_sources": [
+        {"source_key": "michael2021", "detail": "Space-like environments (6 cases): 'mystical black colour of the universe' with infinite geometric figures."},
+        {"source_key": "nexus", "detail": "Locations thread: 'The Ether' — the flip side of space-time; dark-sea/starfield void descriptions."},
+        {"source_key": "strassman", "detail": "Void/clear-light phase mapped to the bardo sequence in his volunteers' reports."}
+      ]
+    },
+    {
+      "category": "realms",
+      "name": "The Workshop / Factory / Market",
+      "add_detail": "Quantified grounding: in the naturalistic field study, artificial worlds accounted for 6 participants (17%) — mechanized environments with sci-fi aesthetics, including 'conveyer belts within conveyer belts' and 'the innards of a machine' flowing with psychedelic energy; in the r/DMT corpus, machinery, clockwork, gears, or wheels appear in 78 experiences (2.1%). A Nexus locations report adds 'The Machine': floating above a gear-like core of 'impossible geometry and mechanical movement of massive interconnected rings' appearing as white light with intricate patterns. Beings in these settings often appear operating, maintaining, or integrated with the machinery itself.",
+      "add_sources": [
+        {"source_key": "michael2021", "detail": "Artificial worlds (17%): 'conveyer belts within conveyer belts'; 'the innards of a machine.'"},
+        {"source_key": "lawrence2022", "detail": "Machinery/clockwork/gears/wheels in 78 experiences (2.1%)."},
+        {"source_key": "nexus", "detail": "Locations thread: 'The Machine' — gear-like core, interconnected rings of impossible geometry."}
+      ]
+    },
+    {
+      "category": "realms",
+      "name": "Geometric Palaces & the Lattice",
+      "add_detail": "Shanon's structural typology finds temples and palaces — 'always marvellous' — among the most common ayahuasca vision contents across disparate cultures. Field-study participants describe honeycombed buildings that evolve and change, lattice-work 'like an amazing beautiful little spiderweb' stretching in every direction, and hyperdimensional structures — rotating multidimensional cubes 'with little cutaways, and each cutaway is its own 3D space.' In the r/DMT corpus, being inside a room was identified in 582 experiences (15.4%), making enclosed architecture one of the most frequent documented settings.",
+      "add_sources": [
+        {"source_key": "shanon", "detail": "Temples and palaces ('always marvellous') among the most common vision contents."},
+        {"source_key": "michael2021", "detail": "Evolving honeycombed buildings; spiderweb lattice; hyperdimensional cubes with cutaway 3D spaces."},
+        {"source_key": "lawrence2022", "detail": "Rooms in 582 experiences (15.4%) of the r/DMT corpus."}
+      ]
+    },
+    {
+      "category": "realms",
+      "name": "Tunnels & Corridors",
+      "add_detail": "The Hyperspace Lexicon adds two vertical/recursive variants: the 'Dimensional Elevator,' a small ascending space that rises through multiple higher-dimensional levels, opening at intervals onto new vistas where the traveler may choose to exit; and 'Folding Rooms,' multidimensional spaces whose architecture 'folds over and in on themselves,' in which entities are said to entangle and enmesh travelers. Both are reported as passage-architectures — corridors that move the traveler rather than being walked.",
+      "add_sources": [
+        {"source_key": "nexus", "detail": "Lexicon entries: Dimensional Elevator (ascending multi-level passage) and Folding Rooms (self-folding entangling architecture)."}
+      ]
+    },
+    {
+      "category": "realms",
+      "name": "The Circus / Playroom",
+      "add_detail": "Field-study grounding: children's worlds formed a distinct environment category (3 participants, 8%) — playroom and circus-like settings, 'completely shifted into another way of interpreting reality…into like, a circus sort,' with toys presented by clown entities, some bearing Egyptian- or hieroglyph-like markings. The Hyperspace Lexicon adds two toy-flavored sub-worlds: 'Legoland,' a reality 'made up entirely of distinct Lego bricks' in constant flux, and 'Candyland,' a pristine polished candy-cartoon overlay evoking childlike wonder and purity. A Nexus locations account adds 'The Circus Tent,' a dark floating space containing luminescent creatures.",
+      "add_sources": [
+        {"source_key": "michael2021", "detail": "Children's worlds (3 participants, 8%): playroom/circus settings; clown-given toys with hieroglyph-like markings."},
+        {"source_key": "nexus", "detail": "Lexicon: Legoland and Candyland; locations thread: The Circus Tent."}
+      ]
+    },
+    {
+      "category": "realms",
+      "name": "The Membrane / Veil",
+      "add_detail": "The Hyperspace Lexicon's 'Chrysanthemum' specifies the membrane's most-reported form: 'a gigantic, often spinning, kaleidoscopic fractal flower with a domelike appearance that turns into a doorway,' which either welcomes the traveler through or blocks access to breakthrough hyperspace — the veil as a living floral gate. A Nexus locations account adds 'The Red Lotus Flower': the interior of an enormous red flower with unfurling petals, reported as a place in itself on the near side of the crossing.",
+      "add_sources": [
+        {"source_key": "nexus", "detail": "Lexicon: the Chrysanthemum as spinning fractal-flower dome/doorway that admits or blocks; locations thread: the Red Lotus Flower interior."}
+      ]
+    },
+    {
+      "category": "realms",
+      "name": "Hyperspace",
+      "add_detail": "The community's own canonical definition, from the Hyperspace Lexicon: 'The place you go to after breakthrough, can be any place and time imaginable,' where impossible events occur easily amid extreme geometric explosions — hyperspace as the umbrella territory containing all mapped realms rather than a single location.",
+      "add_sources": [
+        {"source_key": "nexus", "detail": "Hyperspace Lexicon definition of Hyperspace as the post-breakthrough umbrella territory."}
+      ]
+    }
+  ],
+  "sources_new": [
+    {
+      "key": "woolfe",
+      "author": "Sam Woolfe",
+      "work": "samwoolfe.com essays: 'Why Do Jesters and Tricksters Appear in the DMT Experience?' (2019); 'Ancient Motifs in Psychedelic Experiences' (2013)",
+      "year": "2013-2019",
+      "type": "essay/blog analysis",
+      "note": "Synthesizes trip-report patterns on trickster/jester entities, their carnival-casino environments, and recurrent ancient-culture motifs (Egyptian, Aztec, Indian) across psychedelic reports."
+    },
+    {
+      "key": "shroomery",
+      "author": "Shroomery community",
+      "work": "Shroomery Message Board — The Psychedelic Experience forum (threads incl. 'THE WHITE ROOM'; 'Aztec imagery during trips'; 'Seeing Egyptian/Mayan-esque hieroglyphs whilst tripping')",
+      "year": "2004-2021",
+      "type": "community archive",
+      "note": "Long-running community corpus corroborating the white-room space and Mesoamerican/Egyptian visual motifs across unconnected reporters."
+    },
+    {
+      "key": "reddit",
+      "author": "r/DMT community",
+      "work": "r/DMT subreddit recurring-place and entity threads (the corpus underlying Lawrence et al. 2022)",
+      "year": "2009-present",
+      "type": "community archive",
+      "note": "Primary community archive for recurring-location reports: hives, councils, libraries, underwater realms, judgment spaces, familiar-room experiences."
+    }
+  ]
+}

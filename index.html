@@ -1,141 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
-<title>The DMT Atlas — a cartography of the collective experience</title>
-<meta name="description" content="An interactive, source-grounded map of the collective DMT experience: the recurring entities, realms, geometry, journey, and themes people report — every entry cited to who reported it." />
-<meta property="og:title" content="The DMT Atlas" />
-<meta property="og:description" content="A cartography of the collective experience — mapped from the reports. Every entry cited." />
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+<title>The DMT Atlas — a cartography of the collective DMT experience</title>
+<meta name="description" content="An interactive, source-grounded map of the collective DMT experience: 40 entities, 31 realms, the journey stages and themes people report — every entry cited to 87 written sources."/>
+<link rel="canonical" href="https://dmtatlas.com/"/>
+<meta property="og:title" content="The DMT Atlas — a cartography of the collective DMT experience"/>
+<meta property="og:description" content="An interactive, source-grounded map of the collective DMT experience: 40 entities, 31 realms, the journey stages and themes people report — every entry cited to 87 written sources."/>
+<meta property="og:type" content="article"/>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext x='16' y='24' font-size='24' text-anchor='middle' fill='%23f3c969'%3E%E2%9C%A6%3C/text%3E%3C/svg%3E"/>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BKTCYLB89C"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-BKTCYLB89C');</script>
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="styles.css?v=2" />
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="/site.css?v=3"/>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "The DMT Atlas", "url": "https://dmtatlas.com/", "description": "A source-grounded cartography of the reported DMT experience."}</script>
 </head>
 <body>
-  <div id="cosmos" aria-hidden="true"></div>
-
-  <header id="topbar">
-    <div class="brand">
-      <span class="mark">✦</span>
-      <div class="titles">
-        <h1>The DMT Atlas</h1>
-        <p class="tagline" id="tagline">A cartography of the collective experience</p>
-      </div>
-    </div>
-    <nav class="tabs" id="tabs">
-      <button data-view="constellation" class="active">Constellation</button>
-      <button data-view="map">Atlas Map</button>
-      <button data-view="journey">The Journey</button>
-    </nav>
-    <button id="aboutBtn" class="ghost" aria-label="About">About</button>
-  </header>
-
-  <main id="stage">
-    <canvas id="canvas"></canvas>
-    <section id="journey" class="hidden" aria-label="The Journey"></section>
-    <div id="hint" class="hint"></div>
-    <div id="legend" class="legend"></div>
-  </main>
-
-  <aside id="dossier" class="dossier closed" aria-live="polite">
-    <button id="dossierClose" class="dossier-close" aria-label="Close">×</button>
-    <div id="dossierBody"></div>
-  </aside>
-
-  <!-- Intro splash: the chrysanthemum gateway -->
-  <div id="intro">
-    <div class="intro-glow" aria-hidden="true"></div>
-    <img id="introFlower" src="assets/img/chrysanthemum.png" alt="" aria-hidden="true" />
-    <div class="intro-content">
-      <p class="intro-kicker">✦ &nbsp;Enter the chrysanthemum&nbsp; ✦</p>
-      <h2 class="intro-title">The DMT Atlas</h2>
-      <p class="intro-tag">A cartography of the collective experience — mapped from the reports.</p>
-      <p class="intro-note">A map of what people <em>report</em> — every entry cited. Not a claim it is a literal place or beings, and not a guide to making or taking anything.</p>
-      <button id="enterBtn" class="enter">Descend into the Atlas</button>
-      <p class="intro-links"><a href="identify.html">What did <em>you</em> meet?</a> &nbsp;·&nbsp; <a href="questions.html">Questions</a> &nbsp;·&nbsp; <a href="grounding.html">After the experience</a></p>
-      <p class="intro-stats" id="introStats"></p>
-    </div>
+<div class="cosmos" aria-hidden="true"></div>
+<header class="site-head"><div class="head-inner">
+  <a class="brand" href="/"><span class="mark">✦</span><b>The DMT Atlas</b></a>
+  <nav class="site-nav"><a href="/entities/">Entities</a><a href="/realms/">Realms</a><a href="/geometry/">Geometry</a><a href="/motifs/">Motifs</a><a href="/journey.html">Journey</a><a href="/themes.html">Themes</a><a href="/evidence.html">Evidence</a><a href="/library.html">Library</a><a class="cta" href="/explore.html">✦ Explore</a></nav>
+</div></header>
+<main>
+<section class="hero"><div class="hero-inner">
+  <img class="flower" src="/assets/img/chrysanthemum.png" alt="" aria-hidden="true"/>
+  <p class="kicker">✦ A CARTOGRAPHY OF THE COLLECTIVE EXPERIENCE ✦</p>
+  <h1>The DMT Atlas</h1>
+  <p class="lede">The recurring entities, realms, geometry, and journey of the reported DMT experience —
+  mapped from 87 written sources and every entry cited to who reported it.</p>
+  <p class="note">A map of what people <em>report</em> — not a claim that these are literal places or beings,
+  and never a guide to obtaining, making, or taking anything.</p>
+  <div class="cta-row">
+    <a class="btn primary" href="/explore.html">✦ Enter the interactive Atlas</a>
+    <a class="btn ghost" href="/identify.html">What did <i>you</i> meet?</a>
   </div>
-
-  <div id="aboutModal" class="modal hidden">
-    <div class="modal-card">
-      <button id="aboutClose" class="dossier-close" aria-label="Close">×</button>
-      <h2>What this is — and what it isn't</h2>
-      <p id="charterText"></p>
-      <ul class="charter-list" id="charterList"></ul>
-    </div>
-  </div>
-
-  <script src="app.js?v=2"></script>
-<!-- ATLAS-TEXT-START -->
-<style>.atlas-text{max-width:780px;margin:48px auto 24px;padding:0 22px;color:#cfd6e6;font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}.atlas-text h2{color:#fff;margin:1.7em 0 .45em;font-size:1.32rem;letter-spacing:-.01em}.atlas-text ul,.atlas-text ol{padding-left:1.2em}.atlas-text li{margin:.4em 0}.atlas-text b{color:#e8edf7}.atlas-text .muted{color:#8a93a8;font-size:.9rem;margin-top:1.4em}</style>
-<section class="atlas-text" id="atlas-text">
-<h2>The DMT experience, mapped</h2>
-<p>An evidence-grounded cartography of what people report from the DMT (N,N-Dimethyltryptamine) breakthrough state, drawn from 28 written sources: the entities encountered, the realms reached, the stages of the journey, and the recurring themes. This is a map of what is <em>reported</em> across the literature — not a metaphysical claim and not a how-to.</p>
-<h2>Entities reported in the DMT space (15)</h2><ul>
-<li><b>Self-transforming machine elves</b> — Small, hyperactive, jeweled and fractal beings in constant shape-shifting transformation; McKenna&#x27;s &#x27;jeweled self-dribbling basketballs&#x27; and &#x27;self-dribbling Fabergé eggs,&#x27; made &#x27;not of matte</li>
-<li><b>The Divine Feminine</b> — A huge, intensely bright feminine presence of light — maternal, nurturing, sometimes erotic; in ayahuasca personified as &#x27;Mother Ayahuasca,&#x27; the sentient spirit of the vine. Often felt more than seen.</li>
-<li><b>Deities &amp; god-like presences</b> — Vast god-like presences — a supreme being, the Godhead, archetypal cultural deities (Egyptian, Hindu, Mayan), or a formless &#x27;Universal/Gaian Mind&#x27; perceived through the visitor&#x27;s own framework.</li>
-<li><b>The generic &#x27;Other&#x27; — guides, spirits &amp; helpers</b> — Often a sensed presence as much as a seen creature — sometimes humanoid, sometimes form-light. The catch-all gestalt the literature calls &#x27;the Other.&#x27;</li>
-<li><b>Alien &amp; &#x27;Grey&#x27; forms</b> — Classic sci-fi aliens — Greys with large black eyes, or silvery, towering, slender beings whose faces are &#x27;jumbled, abstracted, and leaking colored light,&#x27; often in technological settings.</li>
-<li><b>Mantis &amp; insectoid beings</b> — Towering (often 6–9 ft) insect-proportioned beings — triangular heads, large black eyes, multi-jointed limbs; mantis, moth, or grasshopper-like.</li>
-<li><b>Reptilian beings</b> — Reptilian/saurian humanoids and serpents, sometimes &#x27;jewel-encrusted&#x27;; green scaled skin, snout-like faces, large oval eyes.</li>
-<li><b>The Jester / Trickster / Clown</b> — Clowns, jesters and harlequins in medieval-jester garb; sometimes mechanical clowns or top-hatted &#x27;circus ringleaders&#x27; with coats, tails and a baton.</li>
-<li><b>Guardians &amp; gatekeepers — &#x27;the bouncer&#x27;</b> — Often a sensed presence or imposing figure at a threshold / &#x27;waiting room&#x27; rather than a fixed form — felt more than seen.</li>
-<li><b>Impersonal geometric intelligences — &#x27;the machine&#x27;</b> — Not personified — animated sacred-geometric forms, lattices and structures that rotate, breathe, collapse and reform: a &#x27;living mathematical intelligence.&#x27; Also discrete robot/machine beings.</li>
-<li><b>Light beings &amp; angels</b> — Beings made entirely of light, so radiant that facial features are washed out; winged/angelic guardians.</li>
-<li><b>Dark entities &amp; demons</b> — Malignant, hostile, or shadowy forms — &#x27;The Tormentor,&#x27; a tall, domineering figure shrouded in darkness; &#x27;Cosmic Horrors&#x27;; or coolly amoral &#x27;stylish, sexy demons&#x27; beyond good and evil.</li>
-<li><b>Deceased loved ones &amp; ancestors</b> — Recognizable deceased people; in the field study humans appeared only as the deceased (no living humans).</li>
-<li><b>The Cosmic Serpent</b> — An enormous, often iridescent snake — sometimes paired &#x27;twin&#x27; serpents or a coiled double-helix; felt as the indwelling &#x27;mother&#x27; spirit of the ayahuasca vine.</li>
-<li><b>The Logos — the Voice</b> — Disembodied — a voice rather than a seen form; distinct from the seen elves. McKenna distinguished the heard Logos from the visible elf-language.</li>
-</ul>
-<h2>Realms &amp; spaces (12)</h2><ul>
-<li><b>Hyperspace</b> — The community&#x27;s central name for the place reached after breakthrough — &#x27;any place and time imaginable,&#x27; a &#x27;Wonderland meets Alien Spacecraft&#x27; of kaleidoscopic halls, impossible geometry and fold</li>
-<li><b>The Waiting Room</b> — A liminal, architectural threshold space reached just after onset and before (or at the edge of) full breakthrough — an enclosed, impossibly geometric chamber compared to a doctor&#x27;s waiting room, a games lobby &#x27</li>
-<li><b>The Domed Cathedral</b> — A vast, often domed or vaulted interior of impossible scale — cathedral, temple, opera house, or palace. McKenna&#x27;s canonical breakthrough scene: &#x27;tastefully soffited indirect lighting, and the crawling geometri</li>
-<li><b>The Throne Room</b> — A reported sub-realm in which the visitor is brought before a single central, elevated, sovereign presence — God/Goddess, King, Queen, or Cosmic Mother. The WEAKEST-attested location: not a formal lexicon entry, but infe</li>
-<li><b>The Void</b> — The inverse of the content-rich realms: a dissolution into undifferentiated awareness with little or no imagery — &#x27;a state, or place of nothingness, without time, matter or significance.&#x27; White, golden, or blac</li>
-<li><b>The Workshop / Factory / Market</b> — Industrial, fabricative realms experienced as the &#x27;innards of a machine&#x27; — conveyor belts, assembly lines, workshops where objects, language, or &#x27;memes&#x27; are manufactured and traded. McKenna nicknamed </li>
-<li><b>Geometric Palaces &amp; the Lattice</b> — Realms made entirely of structured geometry — jeweled, crystalline, or lattice/grid architecture experienced as the &#x27;blueprint&#x27; or scaffolding of reality (&#x27;an empty blueprint of the universe... simple grid</li>
-<li><b>The Circus / Playroom</b> — A playful, whimsical, often childlike or cartoonish realm — circuses, carnivals, nurseries full of toys and capering entities, reality &#x27;folding and unfolding.&#x27;</li>
-<li><b>Tunnels &amp; Corridors</b> — A transit structure rather than a destination — geometric tunnels or corridors that dominate the field during the rush, conveying fast or accelerating movement toward &#x27;somewhere else.&#x27;</li>
-<li><b>The Membrane / Veil</b> — The boundary surface one passes through to break through — often the chrysanthemum itself, &#x27;a permeable membrane of initial hyperspace that either must be passed through or will be a wall locking you out.&#x27;</li>
-<li><b>The In-Between</b> — &#x27;The world where you arrive before you break into Hyperspace — a world where you are on your own, already left this plane, but not yet reached the other.&#x27;</li>
-<li><b>The Deeper Realms</b> — Community-acknowledged realms BEYOND the initial hyperspace entry — often culturally themed (Egyptian, Mayan, Hindu) and framed as &#x27;not Hyperspace, but the realms of those gods&#x27;; a gradient, not strictly number</li>
-</ul>
-<h2>The breakthrough journey (11 stages)</h2><ol>
-<li><b>Inhalation / Onset</b> — Within ~3–30 seconds, before clear sensory change, a shift in the &#x27;ambiance&#x27; — a sudden sharpening and brightening of the senses, things acquiring &#x27;great significance,&#x27; often with a body vibration and</li>
-<li><b>The Chrysanthemum</b> — Closed-eye mandalic geometry blooms — the spinning orange/yellow chrysanthemum, dense fractal overlay, intense color, an organic hum. A threshold marker and doorway: break through it to go deeper, or stay at its surface.</li>
-<li><b>The Rush</b> — An overwhelming acceleration — fast movement along geometric tunnels, an ascending or intensifying sound (the carrier wave crescendoing) that &#x27;suddenly switches to a new environment.&#x27; Often felt as being launch</li>
-<li><b>Through the Membrane</b> — The pivotal rupture — a felt push &#x27;through&#x27; a surface (often the chrysanthemum-as-door), after which the perceptual world changes wholesale. ~22% explicitly report breaking through a veil or membrane.</li>
-<li><b>Breakthrough</b> — Full immersion into hyperspace — &#x27;so immersive you won&#x27;t be questioning whether you made it.&#x27; The structure of perception and consciousness shifts; geometry becomes &#x27;non-simply connected,&#x27; endles</li>
-<li><b>Arrival — The Waiting Room</b> — The visitor finds themselves in a structured location (waiting room / reception / nursery). Immersion is total; opening the eyes no longer changes the scene; entities become present, autonomous, and seemingly expectant.</li>
-<li><b>Entity Contact</b> — Encounter with seemingly autonomous, sentient beings — guides, helpers, spirits, deities, aliens, jesters, machine elves. Reported by the large majority at breakthrough; the beings appear curious, welcoming, and aware of</li>
-<li><b>The Download / Lesson</b> — Information transfer — usually telepathic/intuitive (&#x27;not language, just a knowing, a complete knowing&#x27;), or via visible language, gesture, or presented objects. Messages cluster on love, &#x27;let go,&#x27; &#</li>
-<li><b>The Peak / Throne / Apex</b> — The deepest reach for some — an audience with a central sovereign/divine presence, or conversely a peak of ego-dissolution, mystical union, or the Void. Strongly tied to mystical-experience and death-acceptance content. </li>
-<li><b>The Return</b> — The short-acting molecule wears off (minutes for inhaled DMT); the visitor is pulled back through the layers — geometry recedes, the waiting room dissolves — and rematerializes into ordinary space, often abruptly. Entiti</li>
-<li><b>Afterglow / Integration</b> — Post-experience wonder, emotional openness, and a struggle to verbalize — often a frustrating amnesia, the sense of having known something profound that can&#x27;t be recalled. Enduring worldview shifts (even atheists co</li>
-</ol>
-<h2>Recurring themes (13)</h2><ul>
-<li><b>More real than real</b> — The realm and its beings feel more vivid, solid, and authentic than waking life. Strassman: the entities &#x27;feel more real than real, but their ontological foundation cannot be determined.&#x27; Felt near-universally </li>
-<li><b>They were expecting me</b> — A pervasive sense of being anticipated, recognized, and welcomed — entities &#x27;excited to see&#x27; the visitor, saying &#x27;welcome back, where have you been?&#x27; McKenna&#x27;s elves &#x27;assured me that they lo</li>
-<li><b>You&#x27;re not supposed to be here</b> — A counter-current to the welcome — a sense of intruding on a domain not meant for the living, of having &#x27;broken in.&#x27; Some entities warn the visitor off; the lexicon casts breakthrough as &#x27;a singularity bey</li>
-<li><b>Remember — you already knew this</b> — Overwhelming déjà-vu and a sense of returning home / remembering something forgotten — &#x27;intense familiarity combined with absolute amazement,&#x27; entities like &#x27;my sisters.&#x27; The punchline of the cosmic j</li>
-<li><b>The cosmic joke</b> — An atmosphere of intense hilarity and the punchline that &#x27;it&#x27;s all a game&#x27; — visitors feel let in on a cosmic joke. The confrontation with the mind&#x27;s inability to make sense of existence resolves into</li>
-<li><b>Overwhelming love &amp; interconnection</b> — Profound, often unconditional love radiating from the beings and the realm, with feelings of unity and oneness. The most commonly transmitted message is love — for self and others.</li>
-<li><b>Death-rehearsal &amp; ego dissolution</b> — A confrontation with dying and the dissolution of the self — loss of inner narrative, body-ownership, and subject-object distinction. DMT reproduces much of the NDE profile, and many report acceptance / loss of fear of d</li>
-<li><b>Information, language &amp; the Logos</b> — The experience is saturated with meaning conveyed as information, symbol, and language — McKenna&#x27;s thesis that the entities are &#x27;made of language&#x27; and that one can &#x27;use your voice to make an object.&#</li>
-<li><b>Being shown a teaching or object</b> — Entities act as &#x27;presenter&#x27; — proffering an object, tablet, or self-assembling artifact, or directing attention to something to be learned. McKenna&#x27;s elves &#x27;proffered strange little tablets&#x27;; ~47</li>
-<li><b>Benevolence over malevolence</b> — Entities are far more often experienced as benevolent and loving than hostile — but the realm is not uniformly safe: a fear/menace minority and the &#x27;transgression&#x27; current coexist with the love.</li>
-<li><b>Ontological shock &amp; belief change</b> — The encounter commonly rewrites the visitor&#x27;s conception of reality and of whether the entity was &#x27;real&#x27; — a durable shift, including away from atheism toward belief in a higher power.</li>
-<li><b>Telepathy is the norm</b> — Communication with the &#x27;Other&#x27; is characteristically wordless — telepathy, gesture, sung/objectified language, or direct &#x27;knowing&#x27; — a consistent formal feature across DMT, ayahuasca, NDE, and abducti</li>
-<li><b>Convergence across traditions</b> — The DMT universe rhymes with humanity&#x27;s wider visionary record — ayahuasca (the SAME molecule), the shamanic three-worlds/tunnel-journey, the NDE (tunnel, light, hyper-reality), and the alien-abduction &#x27;examina</li>
-</ul>
-<p class="muted">Every entry traces to the written sources catalogued in the interactive map above; convergence across independent reports is striking but is not proof of anything external. Educational only.</p>
+  <div class="stats-strip"><div class="stat-pill"><b>40</b><span>entities</span></div><div class="stat-pill"><b>31</b><span>realms</span></div><div class="stat-pill"><b>24</b><span>phenomena</span></div><div class="stat-pill"><b>22</b><span>motifs</span></div><div class="stat-pill"><b>44</b><span>themes</span></div><div class="stat-pill"><b>106</b><span>cited stats</span></div><div class="stat-pill"><b>87</b><span>sources</span></div></div>
+</div></section>
+<section class="home-section section-cards">
+  <h2>The territories</h2>
+  <p class="sub">Everything in the Atlas is drawn from published books, peer-reviewed studies, and community
+  archives — then cross-linked, so every entity knows its realm, its phase, and its sources.</p>
+  <div class="grid"><a class="card" style="--card-accent:var(--c-entity)" href="/entities/">
+<h3>The Entities</h3><p>A field guide to every recurring being in the reports — machine elves to the Divine Feminine, with honest frequency data.</p><div class="meta"><span class="count-pill">40 entries</span></div></a><a class="card" style="--card-accent:var(--c-realm)" href="/realms/">
+<h3>The Realms</h3><p>The waiting room, the cathedral, the control room, the void — the reported places, mapped.</p><div class="meta"><span class="count-pill">31 entries</span></div></a><a class="card" style="--card-accent:var(--c-geometry)" href="/geometry/">
+<h3>Geometry &amp; Phenomena</h3><p>The chrysanthemum, living language, impossible colors — the perceptual signatures, with the science.</p><div class="meta"><span class="count-pill">24 entries</span></div></a><a class="card" style="--card-accent:var(--c-motif)" href="/motifs/">
+<h3>Motifs &amp; Events</h3><p>The greeting, the presentation, the download, the send-back — what repeatedly happens.</p><div class="meta"><span class="count-pill">22 entries</span></div></a><a class="card" style="--card-accent:var(--c-phase)" href="/journey.html">
+<h3>The Journey</h3><p>The breakthrough arc from inhale to return — the commonly-reported stages, in order.</p><div class="meta"><span class="count-pill">11 entries</span></div></a><a class="card" style="--card-accent:var(--c-theme)" href="/themes.html">
+<h3>Themes &amp; Mechanics</h3><p>More real than real, the cosmic joke, time dilation — the felt truths and folk-laws of the space.</p><div class="meta"><span class="count-pill">44 entries</span></div></a><a class="card" style="--card-accent:var(--c-source)" href="/evidence.html">
+<h3>The Evidence</h3><p>Every number behind the Atlas: survey percentages, sample sizes, EEG findings — all cited.</p><div class="meta"><span class="count-pill">106 entries</span></div></a></div>
 </section>
-<!-- ATLAS-TEXT-END -->
+<section class="charter"><div class="charter-card">
+  <h2>What this is — and what it isn't</h2>
+  <p>This is a map of what people report and write about the DMT experience, synthesized from published books, peer-reviewed studies, and community archives. Every entry is cited. It is a cartography of a shared phenomenology and mythology — not a claim that these are literally real places or beings, and not a guide to obtaining, making, or taking any substance.</p>
+  <ul class="charter-list"><li>Map of reports, not metaphysics. Recurring entities/realms are what strangers consistently describe — that the descriptions converge is the interesting, documented fact; it is not proof of an external dimension.</li><li>The famous image is not the common one. &#x27;Machine elves&#x27; are iconic (McKenna) but a minority percept (~2.9% of one report set; ~10% by one researcher&#x27;s estimate). The single most-reported figure is a feminine/Goddess presence (~24%).</li><li>Numbers come only from named studies. Where a frequency is given, the study is named. &#x27;More real than real&#x27; is felt near-universally but stated in those exact words by only ~0.6% (Lawrence 2022) — the feeling is pervasive, the literal phrase rare.</li><li>The journey order is a common scaffold, not a law. Every account differs; the waiting-room↔breakthrough line is largely dose-driven. Many people skip stages or land straight in the void.</li><li>It is not all love and safety. The benevolent majority (~78%) coexists with a fear/menace minority (~8% malicious; 41% felt fear at some point) and a &#x27;you&#x27;re not supposed to be here&#x27; current.</li><li>Some labels are cultural imports. &#x27;Reptilian&#x27; and &#x27;Grey&#x27; map onto pre-existing conspiracy/UFO scripts; researchers note the brain reliably foregrounds an agent, but &#x27;the specific make-up of the agent is culturally determined&#x27; (Timmermann).</li><li>Source tiers: peer-reviewed surveys/field studies (Davis 2020, Lawrence 2022, Michael 2021, Timmermann 2018/2019) &gt; clinical narrative (Strassman) &amp; cross-substance scholarship (Shanon) &gt; community lexicon (DMT-Nexus) &amp; popular syntheses. McKenna is one vivid primary account, not a representative sample.</li></ul>
+</div></section>
+</main>
+<script>/* legacy deep links (#entity:x, #about) belong to the explorer */
+if(location.hash && /^#(entity|realm|geometry|theme|phase|source|about)/.test(location.hash))
+  location.replace('/explore.html'+location.hash);</script>
+<footer class="site-foot"><div class="foot-inner">
+  <div><h4>The Atlas</h4><a href="/entities/">Entities</a><a href="/realms/">Realms</a>
+    <a href="/geometry/">Geometry &amp; phenomena</a><a href="/journey.html">The Journey</a>
+    <a href="/themes.html">Themes &amp; mechanics</a><a href="/motifs/">Motifs &amp; events</a></div>
+  <div><h4>Grounding</h4><a href="/evidence.html">The evidence — by the numbers</a>
+    <a href="/library.html">The library — every source</a><a href="/explore.html">Interactive explorer</a></div>
+  <div><h4>Tools</h4><a href="/identify.html">What did I meet?</a>
+    <a href="/questions.html">Questions from hyperspace</a><a href="/grounding.html">After the experience</a></div>
+  <div><h4>What this is</h4><p>A cartography of what people <i>report</i> — every entry cited to who
+    reported it. Not a claim these are literal places or beings, and never a guide to
+    obtaining, making, or taking anything.</p></div>
+</div>
+<div class="foot-note"><b>If you or someone you know is struggling after an experience:</b>
+Fireside Project (62-FIRESIDE), 988 Suicide &amp; Crisis Lifeline, Crisis Text Line (text HOME to 741741).
+See <a href="/grounding.html">After the experience</a>. · © The DMT Atlas</div></footer>
 </body>
 </html>

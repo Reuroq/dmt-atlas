@@ -1,0 +1,315 @@
+{
+  "motifs": [
+    {
+      "name": "The Greeting — the welcome party",
+      "description": "The arrival is received. Reports describe breaking through into applause, cheering, waving, or a crowd of beings turning toward the newcomer in unison — 'a welcome party,' 'they all turned to greet me.' Often staged in the waiting-room setting; the DMT-Nexus Hyperspace Lexicon describes the waiting room as populated by telepathic entities it calls 'ushers.' Distinct from the existing theme 'They were expecting me': the expectation is the attitude, the greeting is the event — the handshake at the door.",
+      "typical_actors": ["The generic 'Other' — guides, spirits & helpers", "Self-transforming machine elves", "The Jester / Trickster / Clown"],
+      "typical_phase": 6,
+      "interpretations": "Experiencers often take the greeting as evidence of a persistent place that noticed them arrive; researchers note it follows the social template the brain deploys wherever an 'arrival' is staged — threshold, host, guest.",
+      "frequency_note": "Welcoming interactions were coded in 10.3% of entity encounters (n=177) in Lawrence 2022; Michael 2021's field study found helping/nurturing receptions in roughly half of its 36 participants. A common but not universal opening beat.",
+      "sources": [
+        {"source_key": "lawrence2022", "detail": "Welcoming interactions coded in 177 entity encounters (10.3%) across 3,778 r/DMT reports."},
+        {"source_key": "michael2021", "detail": "Helping/nurturing entity receptions reported by ~53% of the 36-person field sample."},
+        {"source_key": "nexus", "detail": "Hyperspace Lexicon: the waiting room is 'populated with telepathic entities (ushers).'"},
+        {"source_key": "erowid", "detail": "First-person vault reports recurrently open entity contact with a greeting or celebratory reception."}
+      ]
+    },
+    {
+      "name": "The Presentation — 'the show'",
+      "description": "Beings put on a display FOR the experiencer: objects held up one after another, scenes staged, mechanisms demonstrated — a trade fair of impossible artifacts with an audience of one. McKenna's machine elves 'come pounding toward you' and make 'objects with their voices, singing structures into existence.' Michael 2021 coded a distinct 'presenter' entity role. In Strassman's notes, volunteer Chris met three reptilian creatures who opened up their bodies to show him their reproductive processes — a show in the most literal sense.",
+      "typical_actors": ["Self-transforming machine elves", "The Jester / Trickster / Clown", "The generic 'Other' — guides, spirits & helpers"],
+      "typical_phase": 7,
+      "interpretations": "Experiencers describe a deliberate performance staged for their benefit; researchers read it as the mind narrating its own torrential imagery as if someone were exhibiting it.",
+      "frequency_note": "Michael 2021 identified a 'presenter' role in roughly 28% of its field sample; no large survey isolates 'the show' as a category, but presentation language saturates McKenna, the Meyer corpus, and community reports.",
+      "sources": [
+        {"source_key": "mckenna", "detail": "Elves 'making objects with their voices, singing structures into existence' and displaying them."},
+        {"source_key": "michael2021", "detail": "'Presenter' entity role coded in ~28% of the 36-person naturalistic field sample."},
+        {"source_key": "strassman", "detail": "Volunteer Chris: three reptilian creatures opened their bodies to show him their reproductive processes."},
+        {"source_key": "meyer", "detail": "Meyer's compiled trip-report corpus repeatedly features beings demonstrating or showing off objects and scenes."}
+      ]
+    },
+    {
+      "name": "The Gift — an object handed over",
+      "description": "A being extends something to the traveler: a jeweled orb, a glyph-covered egg, a toy, a 'sculpture.' The DMT-Nexus Hyperspace Lexicon has a standing 'Gifts' entry — 'sculptures,' 'orbs,' 'Fabergé eggs from mars,' 'glyphs.' McKenna described the elves' offerings as 'celestial toys' urged upon the visitor. The object usually cannot be carried back; the handing-over, not the possession, is the event. Overlaps with but is narrower than the theme 'Being shown a teaching or object' — here the object changes hands.",
+      "typical_actors": ["Self-transforming machine elves", "The Divine Feminine", "The generic 'Other' — guides, spirits & helpers"],
+      "typical_phase": 8,
+      "interpretations": "Experiencers often treat the gift as a token of relationship or a seed of later insight; researchers note gift-giving is one of the oldest social scripts and folklore motifs (fairy gifts) available for the mind to stage.",
+      "frequency_note": "No survey percentage isolates object-giving; it is a recurrent minority report across McKenna, the Nexus lexicon (which canonized the term 'gifts'), and Erowid vault accounts.",
+      "sources": [
+        {"source_key": "nexus", "detail": "Hyperspace Lexicon 'Gifts' entry: entities present 'sculptures', 'orbs', 'Fabergé eggs from mars', 'glyphs'."},
+        {"source_key": "mckenna", "detail": "Elves proffer 'celestial toys' — hyperdimensional objects urged upon the visitor."},
+        {"source_key": "erowid", "detail": "Vault reports describe entities handing over orbs, tokens, and objects that cannot be brought back."}
+      ]
+    },
+    {
+      "name": "The Examination — being scanned",
+      "description": "The experiencer becomes the specimen: beings crowd around, probe with instruments or attention, run what feels like a scan, a reading, an inventory of the body or mind. Strassman's volunteer Dmitri reported being 'tested, probed, and examined' by alien beings in a high-technology setting; volunteer Ben found himself on an examination table. Lawrence 2022 coded a whole medical-interaction category, most often 'an entity examining, observing, scanning, or analyzing' the author. Strassman himself noted the resemblance to alien-abduction narratives summarized by John Mack.",
+      "typical_actors": ["Alien & 'Grey' forms", "Mantis & insectoid beings", "Impersonal geometric intelligences — 'the machine'"],
+      "typical_phase": 7,
+      "interpretations": "Experiencers frequently report a felt reversal — the research subject becomes the entities' research subject. Researchers point to the clinical setting (IVs, monitors, observing staff in Strassman's trials) as ready material, though the motif also appears in non-clinical reports.",
+      "frequency_note": "Lawrence 2022: medical-type interactions in 9.0% of entity encounters (n=154), with examining/observing/scanning/analyzing in 8.2% (n=141). A well-attested minority motif.",
+      "sources": [
+        {"source_key": "lawrence2022", "detail": "Medical-type interaction in 154 encounters (9.0%); examining/observing/scanning/analyzing in 141 (8.2%)."},
+        {"source_key": "strassman", "detail": "Dmitri 'tested, probed, and examined' by aliens in a high-tech lab; Ben on an examination table."},
+        {"source_key": "mack", "detail": "Strassman explicitly compared these session reports to Mack's abduction-narrative summaries."}
+      ]
+    },
+    {
+      "name": "The Insertion — implant, probe, procedure",
+      "description": "A step past examination: something is put INTO the experiencer, or an operation is performed. Strassman's volunteer Ben reported saguaro-cactus-like beings, one of whom implanted a probe under his skin; other volunteers described procedures, injections, and 'experiments.' Lawrence 2022 coded device implantation in 3.4% of entity encounters and surgery/procedure/operation/injection/experimentation in 3.3%. Reports split between violation ('they did something to me') and repair ('they were fixing me').",
+      "typical_actors": ["Alien & 'Grey' forms", "Mantis & insectoid beings", "Reptilian beings"],
+      "typical_phase": 7,
+      "interpretations": "Some experiencers read it as surgery or upgrade, others as trespass; researchers note the striking overlap with abduction-lore surgery scenes (Mack, Clancy) and treat shared cultural scripts as one candidate explanation — the reports themselves are the data.",
+      "frequency_note": "Rarer than the scan: Lawrence 2022 found implantation in 3.4% (n=59) and surgery/procedure/experimentation in 3.3% (n=56) of entity encounters. Vivid but firmly a minority report.",
+      "sources": [
+        {"source_key": "lawrence2022", "detail": "Implantation of a device in 59 encounters (3.4%); surgery, procedure, operation, injection, or experimentation in 56 (3.3%)."},
+        {"source_key": "strassman", "detail": "Ben: cactus-like beings on an examination table, one implanting a probe under his skin."},
+        {"source_key": "clancy", "detail": "Abduction research documents the same implant/procedure script in non-drug contexts, marking it as a circulating cultural motif."}
+      ]
+    },
+    {
+      "name": "The Tour — being guided through",
+      "description": "A being takes the lead and the experiencer is walked, flown, or pulled through the place — corridors, cities, machinery halls, nurseries — with the unmistakable structure of a guided visit: 'this is where we...', 'and over here...'. Lawrence 2022's companion/pedagogical/guide interactions (32.4% of encounters) house this beat; Shanon documents closely parallel guide-led passages through palaces and celestial cities in the ayahuasca corpus. The tour implies an itinerary — someone else already knows the route.",
+      "typical_actors": ["The generic 'Other' — guides, spirits & helpers", "Self-transforming machine elves", "The Divine Feminine"],
+      "typical_phase": 7,
+      "interpretations": "Experiencers infer a host with intentions and an infrastructure worth showing; researchers see narrative sequencing imposed on rapidly shifting scene content — a guide personifies the transition between scenes.",
+      "frequency_note": "Guide-type interaction is one of the most common interaction classes: 32.4% of entity encounters in Lawrence 2022 (n=557). The explicit 'tour' framing within that class is common in community reports but not separately quantified.",
+      "sources": [
+        {"source_key": "lawrence2022", "detail": "Companion, pedagogical, or guide-type interaction in 557 encounters (32.4%)."},
+        {"source_key": "shanon", "detail": "The Antipodes of the Mind records guide-led passages through palaces and celestial cities as a standing ayahuasca category."},
+        {"source_key": "nexus", "detail": "Community reports routinely describe being 'shown around' hyperspace by an escort."}
+      ]
+    },
+    {
+      "name": "The Console — demonstration at the controls",
+      "description": "Beings are found working — at panels, dials, looms, keyboards — and the machinery is somehow about YOU or about reality itself. One Strassman volunteer reported his brain being 'reprogrammed' by a 'master technician' sitting at a computer console. Community reports describe control rooms, mixing desks, and reality-engines being operated with casual expertise, sometimes with a being pausing to demonstrate. It is the teaching motif in its technological costume: the blackboard becomes a console.",
+      "typical_actors": ["Impersonal geometric intelligences — 'the machine'", "Alien & 'Grey' forms", "Mantis & insectoid beings"],
+      "typical_phase": 8,
+      "interpretations": "Experiencers often conclude reality has a back office and they saw it; researchers like Gallimore use the reports to discuss computational metaphors of consciousness without endorsing a literal control room. The costume tracks the experiencer's era — looms and workshops in older lore, consoles now.",
+      "frequency_note": "Not isolated in any survey; a recurring scene in Strassman's session notes and a stock trope on DMT-Nexus and r/DMT. Frequency honestly unknown beyond 'recurrent minority.'",
+      "sources": [
+        {"source_key": "strassman", "detail": "A volunteer's brain 'reprogrammed' by a 'master technician' sitting at a computer console."},
+        {"source_key": "nexus", "detail": "Control-room and reality-machinery scenes are a stock community trope."},
+        {"source_key": "gallimore", "detail": "Uses machine/console reports in computational framings of the DMT state, explicitly as models rather than claims."}
+      ]
+    },
+    {
+      "name": "The Warning — admonition and prophecy",
+      "description": "The tone turns grave: the experiencer is warned — about their habits, their heart, their species, their planet. Ecological admonition is the classic form (McKenna's Logos spoke of the biosphere; Shanon records visions of environmental destruction in the ayahuasca corpus), but personal versions ('stop what you are doing to yourself') are at least as common in community reports. Davis 2020 found 19% of encounter respondents received 'a prediction about the future.'",
+      "typical_actors": ["The Logos — the Voice", "The generic 'Other' — guides, spirits & helpers", "The Cosmic Serpent"],
+      "typical_phase": 8,
+      "interpretations": "Experiencers frequently act on the warning afterward, which is why it matters clinically; researchers read it as the experiencer's own suppressed appraisals returning with the authority of an external voice. The Atlas takes no position on the sender.",
+      "frequency_note": "Davis 2020: 19% of 2,561 entity-encounter respondents reported receiving a prediction about the future; warning/admonition content per se is unquantified but persistent across corpora from Amaringo's paintings to r/DMT.",
+      "sources": [
+        {"source_key": "davis2020", "detail": "19% of respondents reported receiving a prediction about the future from the encounter."},
+        {"source_key": "mckenna", "detail": "The Logos' ecological admonitions run through True Hallucinations and the lectures."},
+        {"source_key": "shanon", "detail": "Records admonitory and ecological-destruction visions in the ayahuasca corpus."},
+        {"source_key": "amaringo", "detail": "Vision paintings repeatedly encode warnings delivered by plant spirits."}
+      ]
+    },
+    {
+      "name": "The Mockery — being laughed at",
+      "description": "The visitor is the punchline. Jesters point, elves giggle, a crowd of beings finds the newcomer's confusion hilarious — sometimes warmly, sometimes with an edge that reports describe as humiliating. Lawrence 2022 coded a jester/joker/clown in 6.5% of entity encounters; Michael 2021 found mischievous/playful conduct in ~14% of its sample and manipulating/trickster conduct in 17%. Distinct from the theme 'The cosmic joke': there the universe is the joke and you finally get it — here YOU are the joke and they got there first.",
+      "typical_actors": ["The Jester / Trickster / Clown", "Self-transforming machine elves", "Dark entities & demons"],
+      "typical_phase": 7,
+      "interpretations": "Experiencers alternately report the laughter as affectionate deflation of self-importance or as genuine menace; researchers note trickster figures are a cross-cultural constant (Jung's archetype) and that appraisal — teasing vs. taunting — often tracks the experiencer's anxiety in the moment.",
+      "frequency_note": "Jester figures in 6.5% of entity encounters (Lawrence 2022, n=112); mischievous/playful interaction in ~14% and manipulating/trickster in 17% of Michael 2021's field sample. Negative/difficult interactions overall were 11.4% in Lawrence 2022.",
+      "sources": [
+        {"source_key": "lawrence2022", "detail": "Jester, joker, or clown in 112 encounters (6.5%); negative/difficult interactions 11.4%."},
+        {"source_key": "michael2021", "detail": "Mischievous/playful ('laughing,' 'jestful') conduct ~14%; manipulating/controlling incl. trickster 17%."},
+        {"source_key": "jung", "detail": "The trickster as a cross-cultural archetype supplies the comparative frame, not an explanation."}
+      ]
+    },
+    {
+      "name": "The Test — challenge at the threshold",
+      "description": "Passage is conditional. A guardian blocks the way, a question is posed, fear itself seems to be the examination — 'they wanted to see how I would react.' Community lore is dense with gatekeeper challenges ('the bouncer' won't let you through unprepared); Strassman's Dmitri felt 'tested'; initiation-ordeal parallels run straight through Eliade's shamanism corpus. The test usually resolves on surrender: resistance fails it, letting go passes it.",
+      "typical_actors": ["Guardians & gatekeepers — 'the bouncer'", "Dark entities & demons", "The Jester / Trickster / Clown"],
+      "typical_phase": 4,
+      "interpretations": "Experiencers describe earned passage and sometimes real pride at having passed; researchers observe that surrender-vs-resistance genuinely predicts how difficult experiences resolve, so the 'test' may be the felt shape of that psychological fork.",
+      "frequency_note": "No survey isolates 'tests'; gatekeeper-challenge reports are a persistent community and field-report motif, and Lawrence 2022's 11.4% negative/difficult interactions include confrontational scenes. Honestly: recurrent, unquantified.",
+      "sources": [
+        {"source_key": "strassman", "detail": "Dmitri's session read to him as being deliberately tested by the beings."},
+        {"source_key": "nexus", "detail": "Gatekeeper/'bouncer' challenge lore is a standing community teaching about difficult entries."},
+        {"source_key": "eliade", "detail": "Initiation ordeals guarding access to other worlds are a core shamanic pattern, offered as comparison only."}
+      ]
+    },
+    {
+      "name": "The Love-Flood — the healing touch",
+      "description": "A discrete event, not just an ambient glow: a being embraces, touches, or pours love into the experiencer, often with felt physical force — 'she held me and poured light through me,' 'a wave of love hit me like water.' Lawrence 2022 coded loving/embracing interactions in 8.1% of entity encounters; Michael 2021's 'soother' role covers the same beat. Distinct from the theme 'Overwhelming love & interconnection': the theme is the weather, this is the moment someone turns the hose on you.",
+      "typical_actors": ["The Divine Feminine", "Light beings & angels", "Deceased loved ones & ancestors"],
+      "typical_phase": 7,
+      "interpretations": "Experiencers overwhelmingly frame it as healing and many date lasting relief to that instant; researchers can confirm the affect and the aftereffects without adjudicating the toucher.",
+      "frequency_note": "Loving/embracing interactions in 8.1% of entity encounters (Lawrence 2022, n=139); Davis 2020 found the encounters' emotional palette dominated by joy, trust, and love even though 41% also reported fear.",
+      "sources": [
+        {"source_key": "lawrence2022", "detail": "Loving or embracing interactions coded in 139 encounters (8.1%)."},
+        {"source_key": "davis2020", "detail": "Predominantly positive emotional responses (joy, trust, love, kindness) despite 41% reporting fear."},
+        {"source_key": "michael2021", "detail": "'Soother' and 'guardian' entity functions within the helping/nurturing theme (~53% of sample)."}
+      ]
+    },
+    {
+      "name": "'LOOK! PAY ATTENTION!' — the command to attend",
+      "description": "The most repeated line of dialogue in the literature. McKenna's elves say it verbatim — 'Look at this! Look at this!' — as they thrust objects forward; Meyer-corpus reports and community accounts echo the same imperative, sometimes as pure pressure without words: attention is grabbed, aimed, and held. The command often precedes the download or the demonstration, as if attention itself were the channel being opened.",
+      "typical_actors": ["Self-transforming machine elves", "The Logos — the Voice", "The generic 'Other' — guides, spirits & helpers"],
+      "typical_phase": 8,
+      "interpretations": "Experiencers report it as urgency from the other side; researchers note that hyper-salience — everything demanding attention — is a signature of the state, and a personified 'LOOK!' is what hyper-salience sounds like.",
+      "frequency_note": "Unquantified in surveys but among the most verbatim-stable lines across four decades of reports, from McKenna's lectures to the Meyer corpus to r/DMT.",
+      "sources": [
+        {"source_key": "mckenna", "detail": "'Look at this! Look at this!' — the elves' cry as they present sung objects (Tryptamine Hallucinogens and Consciousness)."},
+        {"source_key": "meyer", "detail": "Compiled reports repeat imperative attention-commands from entities."},
+        {"source_key": "erowid", "detail": "Vault accounts recurrently quote entities demanding 'look' / 'pay attention.'"}
+      ]
+    },
+    {
+      "name": "The Offer — exchange, consent, bargain",
+      "description": "The being proposes: 'Do you want to see more?' 'Will you come with us?' 'Give us that, and we will show you this.' Consent is solicited — an oddly contractual beat in an otherwise overwhelming experience. Reports range from gentle offers of further vision to uncomfortable bargains that experiencers refuse and later puzzle over. Shanon's ayahuasca corpus contains parallel offering scenes; community archives supply most DMT instances.",
+      "typical_actors": ["The generic 'Other' — guides, spirits & helpers", "The Jester / Trickster / Clown", "Dark entities & demons"],
+      "typical_phase": 7,
+      "interpretations": "Experiencers treat the asking as evidence of the beings' independent agency and ethics; researchers note that felt agency and choice fluctuate through the state, and an 'offer' cleanly dramatizes a fork the experiencer already feels.",
+      "frequency_note": "One of the least common motifs in this set: no survey percentage exists, and it surfaces as scattered but recurrent first-person reports on Erowid and DMT-Nexus rather than as a coded category anywhere.",
+      "sources": [
+        {"source_key": "nexus", "detail": "Scattered but recurrent reports of entities asking permission or proposing exchanges."},
+        {"source_key": "erowid", "detail": "Vault reports include offers to 'see more' or to accompany the beings, sometimes declined."},
+        {"source_key": "shanon", "detail": "Offering and exchange scenes appear in the parallel ayahuasca corpus."}
+      ]
+    },
+    {
+      "name": "The Serenade — being sung to",
+      "description": "Music is performed AT the experiencer: a choir swells on arrival, a being sings directly into them, the whole place turns out to be mid-concert. Lawrence 2022 coded dancing, singing, or partying entities in 7.1% of encounters; Strassman's session notes include otherworldly, choir-like music; in McKenna's telling song is the local technology — objects are sung into existence. The ayahuasca parallel is exact: icaros are songs as instruments of the encounter.",
+      "typical_actors": ["The Divine Feminine", "Light beings & angels", "Self-transforming machine elves"],
+      "typical_phase": 7,
+      "interpretations": "Experiencers describe being tuned or healed by the sound; researchers point to strong auditory-visual synesthesia in the state (Davis 2020: 54% auditory involvement) without settling who, if anyone, is singing.",
+      "frequency_note": "Dancing/singing/partying entities in 7.1% of encounters (Lawrence 2022, n=122); auditory phenomena involved in 54% of Davis 2020 encounters. Choir-on-arrival reports are a recognizable minority strand.",
+      "sources": [
+        {"source_key": "lawrence2022", "detail": "Dancing, singing, or partying interactions coded in 122 encounters (7.1%)."},
+        {"source_key": "davis2020", "detail": "Auditory sense involved in 54% of encounters (after visual 92% and telepathic 85%)."},
+        {"source_key": "mckenna", "detail": "Objects 'sung into existence' — song as the realm's working medium."},
+        {"source_key": "harner", "detail": "Icaros: the shamanic use of song to conduct the encounter, offered as comparison."}
+      ]
+    },
+    {
+      "name": "The Unveiling — the curtain pulled back",
+      "description": "A membrane, veil, or curtain that was always there is drawn aside, and what was behind it was apparently running the whole time — 'the show that's always on.' Strassman titled his contact chapters 'Contact Through the Veil'; Lawrence 2022 literally coded 'a perceptual veil or curtain lifting/falling' (0.7% of reports). The felt structure is theatrical: reality as stage set, and the experiencer briefly taken backstage.",
+      "typical_actors": [],
+      "typical_phase": 5,
+      "interpretations": "Experiencers take the unveiling as disclosure — the real thing was behind the fake thing; researchers note the veil is also the experience's best metaphor for its own onset, the moment ordinary perception visibly decomposes.",
+      "frequency_note": "As a literally coded event it is rare — 0.7% (n=26) in Lawrence 2022 — but as the organizing metaphor of retellings it is everywhere, from Strassman's chapter titles to community idiom ('behind the veil').",
+      "sources": [
+        {"source_key": "lawrence2022", "detail": "'A perceptual veil or curtain lifting/falling' coded in 26 reports (0.7%)."},
+        {"source_key": "strassman", "detail": "'Contact Through the Veil' — the veil as his organizing image for the entity-contact sessions."},
+        {"source_key": "nexus", "detail": "'Behind the veil' is standing community idiom for the breakthrough disclosure."}
+      ]
+    },
+    {
+      "name": "The Recognition — 'I've been here before'",
+      "description": "Arrival lands not as discovery but as return: the place is impossibly familiar, sometimes felt as 'home.' Lawrence 2022 found a sense of familiarity in 12.8% of reports, with 1.5% explicitly reporting 'home' or belonging; Cott & Rock's early thematic analysis surfaced 'familiarity' as one of nine core themes. Distinct from the theme 'Remember — you already knew this': that is recognition of KNOWLEDGE; this is recognition of PLACE — the déjà vu of the doorstep.",
+      "typical_actors": [],
+      "typical_phase": 6,
+      "interpretations": "Experiencers read it as evidence of prior visits — in dreams, before birth, at death; researchers read it as the familiarity signal (the déjà vu mechanism) firing at full amplitude in a novel scene. Both agree the feeling itself is data.",
+      "frequency_note": "Familiarity in 12.8% of 3,778 reports (Lawrence 2022; 'home'/belonging 1.5%); an independent core theme in Cott & Rock 2008's 19-user analysis.",
+      "sources": [
+        {"source_key": "lawrence2022", "detail": "Sense of familiarity in 482 reports (12.8%); 'home' or belonging in 55 (1.5%)."},
+        {"source_key": "cott2008", "detail": "'Familiarity' was one of nine constituent themes in the first qualitative thematic analysis of DMT use."},
+        {"source_key": "mckenna", "detail": "Described arrival as recognition — a place known but not rememberable from outside."}
+      ]
+    },
+    {
+      "name": "The Send-Back — 'it's not your time'",
+      "description": "The visit is terminated from the other side: a being announces you cannot stay, it is not your time, you must go back — the signature closing beat of near-death narratives. In NDE corpora this is common (Moody listed 'coming back' among his core elements; 56% of the matched NDE narratives in Michael 2025 involved explicit return). In DMT reports it exists mainly as scattered anecdote: Michael 2025's field sample contained ZERO border/point-of-no-return or send-back events. One of the sharpest documented DMT/NDE divergences.",
+      "typical_actors": ["Deities & god-like presences", "Light beings & angels", "Deceased loved ones & ancestors"],
+      "typical_phase": 10,
+      "interpretations": "Experiencers who do report it often inherit its NDE meaning — unfinished business, a life returned to on purpose; researchers treat its rarity in DMT versus NDEs as a genuine phenomenological difference between the states, not a rounding error.",
+      "frequency_note": "Michael 2025: 0% of the DMT field sample reported a point-of-no-return or being sent back, versus 27% (threshold) and 56% (explicit return) in matched NDE narratives. DMT instances survive as community-report anecdotes only.",
+      "sources": [
+        {"source_key": "michael2025", "detail": "No DMT participant reported a border/point-of-no-return or send-back; 27%/56% in the NDE comparison set."},
+        {"source_key": "moody", "detail": "'Coming back,' often on instruction that it is not one's time, is a core catalogued NDE element."},
+        {"source_key": "greyson", "detail": "The NDE Scale's border/return items anchor the comparison DMT reports are measured against."},
+        {"source_key": "erowid", "detail": "Occasional vault reports of entities announcing the visit is over or 'not your time' — anecdotal, not systematic."}
+      ]
+    },
+    {
+      "name": "The Escort Back — accompanied re-entry",
+      "description": "A being walks you out. Reports describe a guide staying alongside as the space collapses, waving from the far side, or 'handing you back' into the body — the Nexus lexicon's waiting-room 'ushers' working the exit as well as the entrance. Notably, formal psychopomp figures — ferrymen of the dead — were entirely absent (0%) from Michael 2025's DMT sample even though they are stock figures in mythology and some NDE accounts, so the DMT escort reads as courtesy, not ferrying.",
+      "typical_actors": ["The generic 'Other' — guides, spirits & helpers", "Light beings & angels", "Self-transforming machine elves"],
+      "typical_phase": 10,
+      "interpretations": "Experiencers describe the escort as care — proof the relationship persisted to the door; researchers note the return is the most predictable segment of the timeline, and an escort personifies its gradient back to the room.",
+      "frequency_note": "Unquantified; a recurrent minority beat in community reports. Michael 2025 found 0% ferryman/psychopomp figures in DMT, so the formal death-escort of myth is precisely what these reports are NOT.",
+      "sources": [
+        {"source_key": "nexus", "detail": "Waiting-room 'ushers' and accompanied exits recur in community reports."},
+        {"source_key": "michael2025", "detail": "Ferrymen/psychopomps: 0% in the DMT field sample — the mythic death-escort is absent."},
+        {"source_key": "eliade", "detail": "Psychopomp escorts in shamanic cosmology supply the comparative frame the DMT data mostly fail to match."}
+      ]
+    },
+    {
+      "name": "The Merge — union with entity or God",
+      "description": "The boundary fails in the best way: the experiencer flows into the being, the light, or 'everything,' and for a stretch there is no separate someone to report back. Michael 2025 found unitive experiences in 25% of its DMT sample — nearly three times the rate in matched NDE narratives (9%). Strassman's sessions include volunteers merging into light and presence; mystical-literature parallels are the oldest in this Atlas. The merge is the event-form of the themes 'Overwhelming love' and 'Death-rehearsal': not feeling close to it — becoming it.",
+      "typical_actors": ["Deities & god-like presences", "Light beings & angels", "The Divine Feminine", "The Logos — the Voice"],
+      "typical_phase": 9,
+      "interpretations": "Experiencers use the grammar of mysticism — union, dissolution, homecoming; researchers measure it as ego dissolution and note it is among the strongest predictors of enduring effects. The Atlas records both vocabularies without choosing.",
+      "frequency_note": "Unitive experience in 25% of Michael 2025's DMT field sample (vs 9% of matched NDEs); ego-dissolution items also load heavily in Timmermann 2018's controlled comparisons.",
+      "sources": [
+        {"source_key": "michael2025", "detail": "Unitive experience in 25% of the DMT sample — ~3x the matched NDE rate (9%)."},
+        {"source_key": "strassman", "detail": "Session reports of volunteers merging into light and encompassing presence."},
+        {"source_key": "timmermann2018", "detail": "Ego-dissolution/unity items feature strongly in controlled DMT-NDE scale comparisons."}
+      ]
+    },
+    {
+      "name": "The Download — compressed information transfer",
+      "description": "Knowledge arrives all at once, not sentence by sentence: 'years of information in seconds,' 'a block of understanding,' 'it was installed.' Davis 2020 found about 80% of entity-encounter respondents reported two-way communication and 69% came away with a message, task, mission, purpose, or insight; Lawrence 2022 coded a message or insight in 46.1% of entity encounters. Distinct from the theme 'Information, language & the Logos': the theme is the medium; the download is the discrete delivery event — the file lands.",
+      "typical_actors": ["The Logos — the Voice", "Impersonal geometric intelligences — 'the machine'", "The generic 'Other' — guides, spirits & helpers"],
+      "typical_phase": 8,
+      "interpretations": "Experiencers describe received content with a sender; researchers can verify the conviction of insight and its durability, but not the payload — much of which (see 'Losing the Message') never survives re-entry intact.",
+      "frequency_note": "Among the most common motifs in this set: 69% of Davis 2020's 2,561 respondents reported a message/task/mission/purpose/insight (~80% reported communication); 46.1% of Lawrence 2022's entity encounters included a message or insight.",
+      "sources": [
+        {"source_key": "davis2020", "detail": "~80% reported two-way communication; 69% ascertained a message, task, mission, purpose, or insight."},
+        {"source_key": "lawrence2022", "detail": "Message, task, mission, or insight ascertained in 792 entity encounters (46.1%)."},
+        {"source_key": "mckenna", "detail": "The Logos as informational torrent — transfer experienced as language beyond language."},
+        {"source_key": "cott2008", "detail": "'Spirituality and learning about truths' emerged as a core theme in the earliest thematic analysis."}
+      ]
+    },
+    {
+      "name": "Losing the Message — the amnesia on return",
+      "description": "The cruelest beat: the download was total, the certainty absolute — and it evaporates on the way back like a dream at the bathroom sink. 'I had it. I HAD it.' Lawrence 2022 coded partial amnesia in 13.6% of reports and full amnesia in 1.8%, alongside ineffability in 14.4%; Cott & Rock listed ineffability among their nine core themes. McKenna made the untranslatability itself the teaching. Some experiencers keep one fragment — a single word or image — and build the rest of their integration around it.",
+      "typical_actors": [],
+      "typical_phase": 11,
+      "interpretations": "Experiencers often frame the loss as intentional ('you're not allowed to keep it') or as a translation failure between worlds; researchers point to state-dependent memory — content encoded in a radically altered state is poorly retrievable outside it.",
+      "frequency_note": "Partial amnesia 13.6% and full amnesia 1.8% of 3,778 reports, with ineffability at 14.4% (Lawrence 2022); ineffability replicated as a core theme in Cott & Rock 2008. A well-quantified, common ending.",
+      "sources": [
+        {"source_key": "lawrence2022", "detail": "Partial amnesia 13.6% (n=513), full amnesia 1.8% (n=69), ineffability 14.4% (n=543)."},
+        {"source_key": "cott2008", "detail": "Ineffability identified as one of nine constituent themes of the DMT state."},
+        {"source_key": "mckenna", "detail": "Repeatedly described the content as untranslatable — the loss built into the transfer."}
+      ]
+    },
+    {
+      "name": "The Life-Review Flash",
+      "description": "Scenes of one's own life surface mid-experience — moments re-seen, sometimes re-felt, occasionally with a sensed evaluator present. In NDE literature this is a canonical element (24% of matched NDE narratives in Michael 2025; a Moody/Greyson staple). In DMT it is rare and different in kind: only 6% of Michael 2025's DMT sample reported anything life-review-like, and those were conceptual and emotional rather than the vivid scene-by-scene replay of NDE accounts. Included here precisely because its rarity is informative.",
+      "typical_actors": ["Light beings & angels", "Deities & god-like presences", "Deceased loved ones & ancestors"],
+      "typical_phase": 9,
+      "interpretations": "Experiencers who get it often describe moral stocktaking; researchers treat the DMT/NDE gap on this motif as evidence the two states overlap without being identical — the review seems to belong to the dying brain's narrative more than to the DMT state.",
+      "frequency_note": "Rare in DMT: 6% of Michael 2025's field sample (vs 24% of matched NDE narratives), and more conceptual than scenic when present. A canonical NDE element that mostly does NOT carry over.",
+      "sources": [
+        {"source_key": "michael2025", "detail": "Life-review-like content in 6% of DMT participants vs 24% of NDE narratives; DMT versions conceptual/emotional rather than scenic."},
+        {"source_key": "moody", "detail": "The panoramic life review as a core catalogued NDE element."},
+        {"source_key": "greyson", "detail": "Life-review items on the NDE Scale anchor the comparison."},
+        {"source_key": "timmermann2018", "detail": "Controlled DMT-NDE scale comparison frames which NDE features DMT does and does not reproduce."}
+      ]
+    }
+  ],
+  "sources_new": [
+    {
+      "key": "cott2008",
+      "author": "Christopher Cott & Adam Rock",
+      "work": "Phenomenology of N,N-Dimethyltryptamine Use: A Thematic Analysis (Journal of Scientific Exploration 22:3)",
+      "year": "2008",
+      "type": "study",
+      "note": "The first published qualitative thematic analysis of DMT use: 19 users, nine constituent themes including entity contact, familiarity, ineffability, and 'spirituality and learning about truths.' Small self-selected sample; foundational rather than representative."
+    },
+    {
+      "key": "michael2023",
+      "author": "Pascal Michael, David Luke & Oliver Robinson",
+      "work": "An Encounter with the Self: A Thematic and Content Analysis of the DMT Experience from a Naturalistic Field Study (Frontiers in Psychology)",
+      "year": "2023",
+      "type": "study",
+      "note": "Companion paper to Michael 2021 ('the Other') and Michael 2025 ('death') from the same naturalistic field study of experienced users — covers self-directed phenomenology: embodiment, emotion, and ego dissolution. Cited here as series context for the field-study interaction counts."
+    }
+  ]
+}

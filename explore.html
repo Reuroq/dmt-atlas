@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
+<title>Explore the Atlas — constellation, map & journey · The DMT Atlas</title>
+<link rel="canonical" href="https://dmtatlas.com/explore.html"/>
+<meta name="description" content="An interactive, source-grounded map of the collective DMT experience: the recurring entities, realms, geometry, journey, and themes people report — every entry cited to who reported it." />
+<meta property="og:title" content="The DMT Atlas" />
+<meta property="og:description" content="A cartography of the collective experience — mapped from the reports. Every entry cited." />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BKTCYLB89C"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-BKTCYLB89C');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css?v=2" />
+</head>
+<body>
+  <div id="cosmos" aria-hidden="true"></div>
+
+  <header id="topbar">
+    <div class="brand">
+      <span class="mark">✦</span>
+      <div class="titles">
+        <h1>The DMT Atlas</h1>
+        <p class="tagline" id="tagline">A cartography of the collective experience</p>
+      </div>
+    </div>
+    <nav class="tabs" id="tabs">
+      <button data-view="constellation" class="active">Constellation</button>
+      <button data-view="map">Atlas Map</button>
+      <button data-view="journey">The Journey</button>
+    </nav>
+    <a href="/" class="ghost" style="text-decoration:none">⌂ Atlas</a>
+    <button id="aboutBtn" class="ghost" aria-label="About">About</button>
+  </header>
+
+  <main id="stage">
+    <canvas id="canvas"></canvas>
+    <section id="journey" class="hidden" aria-label="The Journey"></section>
+    <div id="hint" class="hint"></div>
+    <div id="legend" class="legend"></div>
+  </main>
+
+  <aside id="dossier" class="dossier closed" aria-live="polite">
+    <button id="dossierClose" class="dossier-close" aria-label="Close">×</button>
+    <div id="dossierBody"></div>
+  </aside>
+
+  <!-- Intro splash: the chrysanthemum gateway -->
+  <div id="intro">
+    <div class="intro-glow" aria-hidden="true"></div>
+    <img id="introFlower" src="assets/img/chrysanthemum.png" alt="" aria-hidden="true" />
+    <div class="intro-content">
+      <p class="intro-kicker">✦ &nbsp;Enter the chrysanthemum&nbsp; ✦</p>
+      <h2 class="intro-title">The DMT Atlas</h2>
+      <p class="intro-tag">A cartography of the collective experience — mapped from the reports.</p>
+      <p class="intro-note">A map of what people <em>report</em> — every entry cited. Not a claim it is a literal place or beings, and not a guide to making or taking anything.</p>
+      <button id="enterBtn" class="enter">Descend into the Atlas</button>
+      <p class="intro-links"><a href="identify.html">What did <em>you</em> meet?</a> &nbsp;·&nbsp; <a href="questions.html">Questions</a> &nbsp;·&nbsp; <a href="grounding.html">After the experience</a></p>
+      <p class="intro-stats" id="introStats"></p>
+    </div>
+  </div>
+
+  <div id="aboutModal" class="modal hidden">
+    <div class="modal-card">
+      <button id="aboutClose" class="dossier-close" aria-label="Close">×</button>
+      <h2>What this is — and what it isn't</h2>
+      <p id="charterText"></p>
+      <ul class="charter-list" id="charterList"></ul>
+    </div>
+  </div>
+
+  <script src="app.js?v=2"></script>
+</body>
+</html>

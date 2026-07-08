@@ -1,0 +1,215 @@
+{
+  "themes": [
+    {
+      "name": "Time runs deep here (massive time dilation)",
+      "description": "The single most repeated 'law' of hyperspace: subjective time and clock time decouple radically. A journey that lasts 5-15 minutes by the clock is reported as hours, days, 'a thousand years,' 'eternities,' or 'a whole lifetime lived and forgotten.' Common phrasings: 'I was gone for what felt like centuries,' 'time didn't just slow, it stopped meaning anything,' 'I lived an entire life and came back to find no time had passed.' The DMT-Nexus lexicon formalizes the extreme end with the term 'Planck Time' ('when you feel time compressing into smaller and smaller units, you are approaching Planck Time'). The folk framing treats duration in hyperspace as elastic and sometimes irrelevant, a place 'outside of time' rather than merely a fast subjective clock. Note the honest split: mild-to-strong dilation is near-ubiquitous in reports, but the extreme 'lifetimes in minutes' claims are the anecdotal tail, not a measured regularity.",
+      "epistemic_status": "contested",
+      "science_note": "Time distortion is a well-documented psychedelic effect and DMT reliably produces it, but no controlled study has quantified the extreme 'eternity / whole lifetime' reports; those remain uncorroborated first-person claims. The Imperial extended-state (DMTx) work (Luan et al. 2023/2024) held the state ~30 min and found intensity plateaued after ~minute 20, giving researchers a longer window but not validating claims of experienced lifetimes.",
+      "sources": [
+        {"source_key": "nexus", "detail": "'Planck Time' lexicon entry frames time compressing toward the smallest describable unit as travelers go deeper."},
+        {"source_key": "erowid", "detail": "Trip reports frequently describe minutes feeling like hours, years, or timeless eternity."},
+        {"source_key": "mckenna", "detail": "McKenna repeatedly described hyperspace time as elastic and the experience as 'outside' ordinary duration."},
+        {"source_key": "luan2024", "detail": "Extended-state IV DMT stabilized the state ~30 min; subjective intensity plateaued after ~min 20 rather than confirming lived 'eternities.'"},
+        {"source_key": "timmermann2018", "detail": "Intensity and immersion measures scale steeply, consistent with the reported dilation of experienced time."}
+      ]
+    },
+    {
+      "name": "The space answers where you point (intent- and attention-responsiveness)",
+      "description": "A widely shared folk-mechanic: hyperspace is not a passive movie but responds to the traveler's attention, intent, and inner stance. Reported phrasings: 'wherever I looked, more detail bloomed,' 'the moment I wanted to see them, they were there,' 'if you reach for it, it recedes; if you relax, it comes to you.' The community advice built on this is behavioral: 'don't grab,' 'don't chase,' 'let it show you' - because grasping or forcing is said to make scenery collapse or entities withdraw. The Nexus lexicon's 'Superposition' term captures a cousin of this ('the object seems to move and shift position when it is not observed'), and 'Shut-out' names the case where willful pushing fails ('don't push if this happens'). Shanon's ayahuasca cartography independently records visions that respond to and narrate with the viewer's thoughts, giving the belief a cross-substance echo.",
+      "epistemic_status": "community folk-knowledge",
+      "science_note": "There is no controlled test of 'intent-responsiveness.' It is plausibly re-describable as ordinary attentional and expectancy effects (set/setting) rather than a property of an external space, but the community consistently reports it as a law of the terrain.",
+      "sources": [
+        {"source_key": "nexus", "detail": "'Superposition' (objects shift when unobserved) and 'Shut-out' ('don't push') encode attention/intent contingency."},
+        {"source_key": "shanon", "detail": "Antipodes of the Mind records visions that interact with and respond to the viewer's thoughts and volition."},
+        {"source_key": "erowid", "detail": "Reports repeatedly frame 'reach and it recedes, relax and it approaches' as reliable behavior."},
+        {"source_key": "mckenna", "detail": "McKenna framed the elves as responsive to attention and eager to 'show' rather than be seized."}
+      ]
+    },
+    {
+      "name": "Hyperspace mirrors and magnifies your state",
+      "description": "The reported rule that whatever you bring - calm, fear, love, resistance - is reflected back and amplified. Folk phrasings: 'it's a mirror,' 'the space runs on your emotions,' 'fear feeds it,' 'if you fight it, it fights back; if you surrender, it turns beautiful.' The Nexus lexicon operationalizes both poles: 'Witness Consciousness' ('pure perception, without thought, expectation or judgement... Even Hell might be beautiful if perceived from this vantage') and the punitive 'Hyperslap' ('the often traumatic and extremely dark trip... designed to teach you a lesson in respect'), often attributed to arrogance, resistance, or a bad headspace at launch. The practical community lore - surrender, don't resist, fix your set - follows directly from the belief that the space amplifies the observer's emotional tone.",
+      "epistemic_status": "community folk-knowledge",
+      "science_note": "The broader claim that mindset and emotional state shape a psychedelic experience (set and setting) is well supported across psychedelic research; the specific 'hyperspace as an amplifying mirror' framing is the folk overlay on that established principle.",
+      "sources": [
+        {"source_key": "nexus", "detail": "'Witness Consciousness' and 'Hyperslap' bracket the calm and punitive poles of emotional mirroring."},
+        {"source_key": "erowid", "detail": "Surrender-vs-resist framing recurs: fighting the state amplifies terror, letting go transforms it."},
+        {"source_key": "davis2020", "detail": "Large survey shows encounters range from ecstatic to terrifying, consistent with state-dependent tone."},
+        {"source_key": "michael2021", "detail": "Naturalistic interviews describe emotional intensity and the value of surrender at onset."}
+      ]
+    },
+    {
+      "name": "The signal metaphor and 'tuning in' (a folk brain-as-receiver model)",
+      "description": "A dominant folk-MODEL, not an observation: the brain is a radio/TV receiver and DMT retunes it to a different 'channel' or 'frequency' that is always broadcasting. Phrasings: 'you're not hallucinating, you're tuning in,' 'DMT changes the station,' 'the signal was always there, the molecule just lets you receive it.' Gallimore is the articulate proponent, describing DMT as 'switching the brain's reality channel' - overriding the finely tuned cortical patterns that lock the world-model to sensory input so the brain receives from 'orthogonal dimensions.' McKenna's older 'transceiver'/Logos language seeds the same intuition. The Atlas labels this explicitly as a folk/interpretive model: it is a metaphor and a hypothesis about what the experience means, not a demonstrated mechanism.",
+      "epistemic_status": "contested",
+      "science_note": "Gallimore's reality-channel account (from Alien Information Theory and later essays) is a theoretical, philosophically loaded interpretation, not an established finding. The mainstream neuroscientific description is endogenously-driven cortical activity, not reception of an external signal; the 'receiver' framing is a hypothesis many researchers do not endorse.",
+      "sources": [
+        {"source_key": "gallimore", "detail": "'Switching the Reality Channel' / Alien Information Theory: DMT retunes cortical columns to receive from orthogonal dimensions."},
+        {"source_key": "mckenna", "detail": "McKenna's transceiver/Logos and 'contact with an Other' framing prefigures the tuning metaphor."},
+        {"source_key": "nexus", "detail": "Community discourse routinely adopts 'tuning' and 'frequency/vibration' language for entering hyperspace."},
+        {"source_key": "strassman", "detail": "Strassman raised (without asserting) the brain-as-receiver possibility to explain the felt objectivity of the realms."}
+      ]
+    },
+    {
+      "name": "The carrier tone as vehicle",
+      "description": "One of the most specific and reproducible-sounding folk-mechanics: at launch and re-entry, travelers report a rising ringing/whine/vibration - the 'carrier wave' or 'carrier tone' - and treat it as the VEHICLE that dissolves this world and delivers you to the next. Nexus lexicon: 'just after a launch, travelers often hear a ringing tone or vibration somewhat resembling a carrier wave... the frequency of the tone often seems to cause (or be caused by) the dissolution of the current environment.' Folk phrasings: 'ride the tone,' 'the sound tears the room open,' 'when the buzzing hits its pitch, you're through.' Some couple it to the tuning/signal model - the tone is the 'carrier' being modulated. It functions in community lore as a landmark: hearing it means the threshold is opening.",
+      "epistemic_status": "community folk-knowledge",
+      "science_note": "The auditory 'carrier wave' is a very commonly reported perceptual feature at DMT onset, but its causal role as a 'vehicle' is a folk interpretation. No study has isolated or characterized the tone as a mechanism of transit.",
+      "sources": [
+        {"source_key": "nexus", "detail": "'Carrier Wave' lexicon entry: a ringing tone/vibration whose frequency accompanies dissolution of the environment."},
+        {"source_key": "erowid", "detail": "Onset reports frequently describe a rising whine/ringing immediately before breakthrough."},
+        {"source_key": "gallimore", "detail": "The 'carrier' framing dovetails with the reality-channel/signal model as the wave being tuned."}
+      ]
+    },
+    {
+      "name": "Entity etiquette: show respect, don't grab, accept the gift",
+      "description": "A codified body of REPORTED BELIEF about how to behave toward the beings, treated by the community almost as manners for a foreign court. Recurring rules: show respect and humility; do not grab, chase, or demand; do not try to 'take' anything; receive gifts graciously; don't panic or flail; approach as a guest, not a conqueror. The beings are said to present gifts - 'sculptures, orbs, Faberge eggs from Mars, glyphs, extra-terrestrial notions' (Nexus) - whose meaning is 'often impossible to grasp,' and refusing or grabbing is discouraged. The disciplinary flip side is the 'Hyperslap,' 'a full-on beatdown designed to teach you a lesson in respect,' and 'classroom'-themed entities that model what befalls disrespectful 'students.' Presented strictly as community folk-etiquette, not as verified fact about real agents.",
+      "epistemic_status": "community folk-knowledge",
+      "science_note": "The Johns Hopkins survey (Davis et al. 2020) found encounters predominantly benevolent and many respondents reported receiving a 'message,' 'insight,' or 'gift,' which grounds the gift lore in reported content - but the etiquette 'rules' themselves are prescriptive community norms, not studied facts about entity behavior.",
+      "sources": [
+        {"source_key": "nexus", "detail": "Lexicon documents entity gifts and the 'Hyperslap' as a lesson in respect; 'classroom' entities discipline foolish students."},
+        {"source_key": "davis2020", "detail": "N=2,561: encounters largely benevolent; messages/gifts/insights commonly reported."},
+        {"source_key": "mckenna", "detail": "McKenna's elves urged him 'not to give way to astonishment' and offered objects to 'behold,' modeling comportment."},
+        {"source_key": "erowid", "detail": "Trip reports repeatedly advise humility, non-grasping, and graciously receiving what is shown."}
+      ]
+    },
+    {
+      "name": "Recognition and repeat visitation (the same place twice)",
+      "description": "Travelers report returning to a specific, recognizable locale or being - 'I've been here before,' 'the same waiting room,' 'they said welcome back, where have you been?' - and describe hyperspace as having stable, revisitable regions rather than random scenery. This overlaps with the pervasive 'they were expecting me' welcome. The claim shades from ordinary re-visit familiarity into the stranger 'familiarity without memory': recognizing a place or entity you have no recollection of ever visiting, a deja-vu-like homecoming.",
+      "epistemic_status": "contested",
+      "science_note": "Directly studied: Lawrence, DiBattista & Timmermann (2023, Journal of Psychoactive Drugs) mined ~3,778 DMT experiences and found 227 mentioning familiarity; notably 24.7% of familiarity reports came from FIRST-TIME users and none attributed it to prior DMT use - i.e., 'familiarity without recollection,' consistent with a deja-vu-type mechanism rather than proof of an objectively persistent, re-visited place. Meyer's corpus found 67% said their most memorable entity encounter was their first.",
+      "sources": [
+        {"source_key": "lawrence2023", "detail": "SOF-Q study: 227/3,778 reports cite familiarity; 24.7% from first-timers; 'familiarity without recollection.'"},
+        {"source_key": "meyer", "detail": "340 trip-report corpus: reports treat the DMT world as a place that can be re-entered; 67% found the first encounter most memorable."},
+        {"source_key": "strassman", "detail": "Volunteers reached 'rooms' where beings said 'welcome back' as if the place and the visitor persisted."},
+        {"source_key": "erowid", "detail": "'Same waiting room / same beings' recognition recurs across independent reports."}
+      ]
+    },
+    {
+      "name": "Shared and mutual-sighting claims (two people, one entity)",
+      "description": "A striking but honestly-flagged claim: two or more people report seeing the 'same' entity or place - sometimes in the same room, sometimes independently converging on near-identical beings ('mantis,' 'the jester,' 'the goddess'). Community members cite these as evidence the space is objectively real and 'intersubjectively verifiable.' Meyer's compilation argues the consistency across 226 independent entity reports implies 'objective existence' of the DMT world. The Atlas records this exactly as it stands: anecdotal and unverified. No account survives controlled scrutiny; convergence on archetypal forms is fully explicable by shared neurobiology, shared cultural priming, and post-hoc comparison, and no study has ever demonstrated two subjects perceiving the same specific entity under controlled conditions.",
+      "epistemic_status": "anecdotal, unverified",
+      "science_note": "Meyer's 'intersubjectively verifiable' argument is philosophically contested and not experimental evidence. Cross-report convergence on entity TYPES (documented in Davis 2020 and Lyke 2019 typologies) is expected from common neural and cultural substrates; it does not establish a literally shared external perception.",
+      "sources": [
+        {"source_key": "meyer", "detail": "Argues 226 consistent independent entity reports point to an objectively existing, shared DMT world."},
+        {"source_key": "erowid", "detail": "Occasional anecdotes of two people describing the 'same' being; uncorroborated."},
+        {"source_key": "lyke2019", "detail": "Entity typologies show recurring archetypal forms, explaining convergence without shared external perception."},
+        {"source_key": "davis2020", "detail": "Large survey documents recurrent entity descriptors, i.e., common forms rather than verified shared sightings."}
+      ]
+    },
+    {
+      "name": "Re-entry amnesia and the fading",
+      "description": "A structural regularity that shapes ALL of hyperspace cartography: the memory dissolves on return. Reports 'melt like a dream,' leaving the conviction that something enormous happened with little retrievable content. McKenna's canonical line: 'the way a dream melts away is the way a DMT trip melts away... there is a self-erasing mechanism in it.' The community treats this as a property of the terrain, not just the mind - some aspects are said to be not merely indescribable but 'unrememberable' (hyper-ineffable). This is offered as the honest reason trip reports feel incomplete, contradictory, or thin: the map is drawn from a signal that erases itself as the traveler crosses back.",
+      "epistemic_status": "community folk-knowledge",
+      "science_note": "The dream parallel has a neural correlate: Timmermann et al.'s EEG work shows DMT collapses alpha/beta and boosts theta/delta rhythmicity resembling REM-sleep dreaming, and dream-like states are notoriously poorly consolidated into memory - a plausible substrate for the reported fading, though 'self-erasing' remains a folk gloss.",
+      "sources": [
+        {"source_key": "mckenna", "detail": "'The way a dream melts away is the way a DMT trip melts away'; a 'self-erasing mechanism.'"},
+        {"source_key": "timmermann2019", "detail": "Multivariate EEG shows REM/dream-like rhythmic signatures under DMT, consistent with poor memory consolidation."},
+        {"source_key": "nexus", "detail": "Community treats certain content as 'unrememberable,' not just indescribable."},
+        {"source_key": "erowid", "detail": "Reports routinely note rapid post-trip fading and inability to recall the bulk of the breakthrough."}
+      ]
+    },
+    {
+      "name": "Language breakdown: ineffability as a structural feature",
+      "description": "Ineffability is treated not as a shortfall of the writer but as a built-in law of the space. Travelers report that language, and sometimes thought itself, cannot get traction there - 'there are no words, and the words there aren't were on fire,' 'I saw a language you could see,' 'it means something in a category we don't have.' McKenna's 'visible language' / syntax-driving-light and 'beings made of syntax' express the paradox: hyperspace overflows ordinary reference and offers a hyper-linguistic mode instead. The folk claim: the terrain is intrinsically 'more real than can be said,' so every report is a lossy projection. This is central to the Atlas's honesty charter - the map is admittedly incomplete by the nature of the territory being mapped.",
+      "epistemic_status": "community folk-knowledge",
+      "science_note": "Ineffability is a formally scored dimension in mystical-experience research and appears strongly in DMT phenomenology (e.g., Lawrence 2022's descriptor analysis and mystical-experience measures), so the FEELING of ineffability is measurable; the claim that it is a property of an external space is the folk overlay.",
+      "sources": [
+        {"source_key": "mckenna", "detail": "'Visible language,' 'syntax-driving light,' beings 'made of syntax' - language exceeded and transfigured."},
+        {"source_key": "lawrence2022", "detail": "Descriptor and mystical-experience analysis captures pervasive ineffability in DMT reports."},
+        {"source_key": "shanon", "detail": "Antipodes documents recurrent failure of language to hold the visionary content."},
+        {"source_key": "davis2020", "detail": "Respondents describe encounters as beyond words yet more real than reality."}
+      ]
+    },
+    {
+      "name": "The observer/participant switch",
+      "description": "A reported toggle between two stances: WATCHING hyperspace unfold versus being IN it, acted upon, addressed, and moved through it. Community lore names both poles and a technique for choosing. Nexus 'Witness Consciousness' is the detached observer pole ('pure perception, without thought, expectation or judgement'); 'Mental Backflip' is the deliberate move to 'detach from thought streams... becoming an observer rather than experiencing content as happening TO you.' Travelers report the switch flips on its own too - one moment a spectator before a display, the next a participant the entities turn to greet and instruct. The folk guidance: cultivating the witness pole reduces panic and 'hyperslaps,' while surrendering to the participant pole yields contact and 'teaching.'",
+      "epistemic_status": "community folk-knowledge",
+      "science_note": "The observer/participant distinction mirrors constructs in meditation and depersonalization research (witnessing awareness vs immersive agency), but the specific DMT 'switch' is described experientially and has not been isolated experimentally.",
+      "sources": [
+        {"source_key": "nexus", "detail": "'Witness Consciousness' (detached observer) and 'Mental Backflip' (deliberately becoming the observer) name both poles and the toggle."},
+        {"source_key": "shanon", "detail": "Distinguishes passively viewed visions from interactive, narrated, participatory episodes."},
+        {"source_key": "erowid", "detail": "Reports oscillate between 'watching a display' and 'being addressed and moved by' the beings."}
+      ]
+    },
+    {
+      "name": "Dose-independence of content vs dose-dependence of intensity (an honest tension)",
+      "description": "A genuine friction between folk belief and study data. The community often holds that hyperspace CONTENT is qualitatively fixed and gated - 'you either break through or you don't; below the threshold you get pretty colors, above it you're THERE, and there is the same THERE for everyone.' The implication: dose sets whether you arrive, not what you find. The data tell a more graded story: probability of breakthrough, immersion, ego-dissolution, and entity contact scale with dose and plasma level. The Atlas keeps this tension explicit rather than resolving it: the felt 'binary threshold' is real as experience, but measured intensity is a dose-dependent continuum.",
+      "epistemic_status": "contested",
+      "science_note": "Strassman's dose-response arm showed higher IV doses reliably produced the fully immersive, entity-populated states while lower doses did not; Timmermann et al. (2018) show intensity/immersion scaling with dose; Luan et al. (2023/2024) found short-term tolerance (rising plasma DMT with plateauing subjective intensity). Together these support dose-graded intensity - complicating the folk claim that content is dose-independent once 'through.'",
+      "sources": [
+        {"source_key": "strassman", "detail": "Dose-response arm: full breakthrough/entity states emerged reliably only at higher IV doses."},
+        {"source_key": "timmermann2018", "detail": "Subjective intensity and immersion scale with dose rather than snapping to a single fixed content."},
+        {"source_key": "nexus", "detail": "Community 'breakthrough threshold' framing treats arrival as binary and content as shared/fixed."},
+        {"source_key": "luan2024", "detail": "Extended-state study found short-term psychological tolerance, undercutting a clean dose-independent-content model."}
+      ]
+    },
+    {
+      "name": "They're always there; you visit (hyperspace as a persistent place)",
+      "description": "A core metaphysical folk-belief that organizes the whole community's language: hyperspace is a PLACE that exists whether or not anyone is dosed, and the beings are its permanent residents. Phrasings: 'they're always there, you're the one who comes and goes,' 'DMT doesn't create it, it opens the door,' 'the elves are doing their thing 24/7 and you drop in.' The Nexus lexicon's 'Local Entities' even posits beings 'that exist here in this place... without actually going into Hyperspace at all.' McKenna's stance that the elves are an autonomous 'Other,' and Meyer's argument for their 'objective existence,' are the intellectual anchors. The Atlas marks this clearly as a contested metaphysical belief, not a finding - it is precisely the claim science cannot adjudicate.",
+      "epistemic_status": "contested",
+      "science_note": "This is a metaphysical/ontological claim outside the reach of current methods. Strassman explicitly left the entities' 'ontological foundation' undetermined; researchers can document that the state FEELS like visiting a persistent place (hyper-reality) without endorsing that it is one.",
+      "sources": [
+        {"source_key": "mckenna", "detail": "Framed the elves as an autonomous, ongoing 'Other' one visits, not a self-generated image."},
+        {"source_key": "meyer", "detail": "Argues report-consistency implies the DMT world and its entities objectively exist independent of the visitor."},
+        {"source_key": "nexus", "detail": "'Local Entities' posits beings persistently present in this place; community treats hyperspace as always 'on.'"},
+        {"source_key": "strassman", "detail": "Beings felt 'more real than real' with ontological status left undetermined - the door the belief walks through."}
+      ]
+    },
+    {
+      "name": "Mapping the map: the hyperspace cartography projects",
+      "description": "A self-aware meta-mechanic: the community's belief that hyperspace has stable enough regularities to be CHARTED, and the actual projects that try. These include the DMT-Nexus 'Hyperspace Lexicon' and wiki (a shared vocabulary for recurring features - carrier wave, hyperslap, shut-out, folding rooms); Peter Meyer's 340-report corpus arguing for consistent, mappable structure; Graham St John's 'Mystery School in Hyperspace' historicizing the very idea of 'hyperspace' as a mappable realm; QRI's attempt to model DMT space geometrically (hyperbolic curvature); Shanon's ayahuasca 'cartography'; and DMTx / extended-state research pitched explicitly as staying long enough to map the terrain and its inhabitants. The existence and popularity of these projects is itself a documented regularity of the culture, whatever their ontological status.",
+      "epistemic_status": "community folk-knowledge",
+      "science_note": "QRI's hyperbolic-geometry model (Gomez-Emilsson) is a speculative phenomenological framework, not validated neuroscience; the Imperial DMTx program (Luan et al. 2023/2024) was designed partly to hold the state long enough for structured observation/'mapping.' The cartographic impulse is real and studied as culture; the resulting 'maps' are interpretive.",
+      "sources": [
+        {"source_key": "nexus", "detail": "The Hyperspace Lexicon/wiki is the community's canonical attempt to standardize and map recurring features."},
+        {"source_key": "meyer", "detail": "340 Trip Reports assembled explicitly to demonstrate consistent, mappable structure across reporters."},
+        {"source_key": "stjohn", "detail": "Mystery School in Hyperspace traces the cultural construction of 'hyperspace' as a charted realm."},
+        {"source_key": "qri", "detail": "QRI models DMT space via hyperbolic geometry and dynamic-systems curvature as a mapping attempt."},
+        {"source_key": "luan2024", "detail": "Extended-state DMT framed as holding the state long enough to observe/map its structure and inhabitants."}
+      ]
+    },
+    {
+      "name": "Does the space adapt to you? (personalization vs universality)",
+      "description": "An unresolved tension the community argues about constantly. The UNIVERSALIST pole: everyone meets the 'same' furniture of hyperspace - machine elves, the mantis, jeweled rooms, the waiting nursery - implying a shared external realm indifferent to who visits. The PERSONALIZATION pole: hyperspace is tailored, 'it gives you what you need,' 'my hyperspace is mine,' entities appear in forms keyed to the individual's psyche, culture, and emotional state. Reports supply both: uncanny cross-person convergence on archetypes AND deeply idiosyncratic, seemingly bespoke encounters. The Atlas holds the tension open: the recurrence of entity TYPES is real, and so is the felt bespokeness; whether that means one adaptive space, many private spaces, or a shared substrate rendered through personal filters is unsettled.",
+      "epistemic_status": "contested",
+      "science_note": "Typology studies (Lyke 2019; Davis 2020) document recurrent entity CATEGORIES across thousands of people (favoring some shared structure), while the same datasets show wide idiosyncratic variation in specifics. Neither settles whether the space 'adapts' - both are consistent with a common neuro-cultural generator rendering personalized content.",
+      "sources": [
+        {"source_key": "davis2020", "detail": "N=2,561 shows recurrent entity descriptors (shared forms) alongside highly individual encounters."},
+        {"source_key": "lyke2019", "detail": "Entity typology captures a stable set of recurring TYPES across many reporters."},
+        {"source_key": "mckenna", "detail": "The 'everyone meets the machine elves' claim anchors the universalist pole."},
+        {"source_key": "shanon", "detail": "Documents both cross-person recurrent motifs and strongly personalized, biography-keyed visions."}
+      ]
+    },
+    {
+      "name": "Veterans vs first-timers",
+      "description": "The community believes hyperspace treats novices and veterans differently, and that skill is transferable. Reported veteran advantages: less fear, faster orientation, the ability to 'surrender on cue,' stay in the witness stance, avoid the 'hyperslap,' 'hold the breakthrough,' and even attempt navigation ('turn toward,' 'ask,' 'go deeper'). First-timers are said to get flung, panic, or 'shut out.' Yet the data complicate a clean skill story: the profound sense of familiarity/homecoming shows up strongly in FIRST-time users, and many report their very first encounter as the most memorable and intense. So the folk belief in earned navigation skill coexists with evidence that some of hyperspace's signature phenomena hit hardest with no prior experience at all.",
+      "epistemic_status": "contested",
+      "science_note": "Lawrence, DiBattista & Timmermann (2023) found 24.7% of familiarity reports came from first-time users (none attributing familiarity to prior use), and Meyer's corpus (users averaging ~14.5 uses) still had 67% naming their FIRST encounter most memorable - both cutting against a simple 'experience breeds mastery/familiarity' model. Reduced fear with experience is reported but not rigorously quantified in DMT-specific controlled studies.",
+      "sources": [
+        {"source_key": "nexus", "detail": "Lexicon technique-terms (Witness Consciousness, Mental Backflip, avoiding the Hyperslap) frame navigation as a learnable skill."},
+        {"source_key": "lawrence2023", "detail": "Familiarity/homecoming appears prominently in first-time users, not only veterans."},
+        {"source_key": "meyer", "detail": "Despite ~14.5 average uses, 67% cited their first encounter as most memorable - novices are not merely 'flung.'"},
+        {"source_key": "michael2021", "detail": "Interviews with experienced users emphasize surrender and orientation strategies developed over repeated journeys."},
+        {"source_key": "erowid", "detail": "Community reports contrast novice panic/'shut-out' with veteran composure and attempts at navigation."}
+      ]
+    }
+  ],
+  "sources_new": [
+    {
+      "key": "lawrence2023",
+      "author": "David Wyndham Lawrence, Alex P. DiBattista & Christopher Timmermann",
+      "work": "N,N-Dimethyltryptamine (DMT)-Occasioned Familiarity and the Sense of Familiarity Questionnaire (SOF-Q)",
+      "year": "2023",
+      "type": "paper",
+      "note": "Journal of Psychoactive Drugs. Mined ~30,000 online posts down to 3,778 unique DMT experiences; 227 mentioned familiarity. Key finding: 24.7% of familiarity reports came from FIRST-TIME DMT users and none attributed the feeling to prior DMT use - i.e., 'familiarity without recollection' (a deja-vu-like phenomenon). Grounds the recognition/repeat-visitation and veteran-vs-first-timer themes. Reddit-derived corpus, self-report; not a controlled clinical measure."
+    },
+    {
+      "key": "luan2024",
+      "author": "Lisa X. Luan, C. Timmermann, R. Carhart-Harris, D. Nutt et al. (Imperial College Centre for Psychedelic Research)",
+      "work": "Psychological and physiological effects of extended DMT (DMTx pilot)",
+      "year": "2023",
+      "type": "paper",
+      "note": "Journal of Psychopharmacology (published Oct 2023; Jan 2024 issue). World-first extended-state IV DMT: 11 healthy volunteers, target-controlled infusion holding the state ~30 min across up to four dose regimens. Subjective effects stabilized after an initial peak; intensity plateaued ~min 20 while plasma DMT kept rising, indicating short-term psychological tolerance. Anxiety stayed low. Designed partly to hold the state long enough to observe/'map' its structure - directly relevant to the time-dilation, dose-tension, and cartography themes."
+    }
+  ]
+}

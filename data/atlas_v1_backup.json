@@ -1,0 +1,1750 @@
+{
+ "meta": {
+  "title": "The DMT Atlas",
+  "tagline": "A cartography of the collective experience — mapped from the reports.",
+  "charter": "This is a map of what people report and write about the DMT experience, synthesized from published books, peer-reviewed studies, and community archives. Every entry is cited. It is a cartography of a shared phenomenology and mythology — not a claim that these are literally real places or beings, and not a guide to obtaining, making, or taking any substance.",
+  "honesty": [
+   "Map of reports, not metaphysics. Recurring entities/realms are what strangers consistently describe — that the descriptions converge is the interesting, documented fact; it is not proof of an external dimension.",
+   "The famous image is not the common one. 'Machine elves' are iconic (McKenna) but a minority percept (~2.9% of one report set; ~10% by one researcher's estimate). The single most-reported figure is a feminine/Goddess presence (~24%).",
+   "Numbers come only from named studies. Where a frequency is given, the study is named. 'More real than real' is felt near-universally but stated in those exact words by only ~0.6% (Lawrence 2022) — the feeling is pervasive, the literal phrase rare.",
+   "The journey order is a common scaffold, not a law. Every account differs; the waiting-room↔breakthrough line is largely dose-driven. Many people skip stages or land straight in the void.",
+   "It is not all love and safety. The benevolent majority (~78%) coexists with a fear/menace minority (~8% malicious; 41% felt fear at some point) and a 'you're not supposed to be here' current.",
+   "Some labels are cultural imports. 'Reptilian' and 'Grey' map onto pre-existing conspiracy/UFO scripts; researchers note the brain reliably foregrounds an agent, but 'the specific make-up of the agent is culturally determined' (Timmermann).",
+   "Source tiers: peer-reviewed surveys/field studies (Davis 2020, Lawrence 2022, Michael 2021, Timmermann 2018/2019) > clinical narrative (Strassman) & cross-substance scholarship (Shanon) > community lexicon (DMT-Nexus) & popular syntheses. McKenna is one vivid primary account, not a representative sample."
+  ]
+ },
+ "sources": [
+  {
+   "key": "mckenna",
+   "author": "Terence McKenna",
+   "work": "True Hallucinations / The Archaic Revival / lectures",
+   "year": "1991–1993",
+   "type": "lecture",
+   "note": "Coined 'self-transforming machine elves,' 'tykes,' 'jeweled self-dribbling basketballs,' 'syntax-driving light,' and the visible-language / Logos themes. A vivid individual account, not a representative sample."
+  },
+  {
+   "key": "strassman",
+   "author": "Rick Strassman, M.D.",
+   "work": "DMT: The Spirit Molecule",
+   "year": "2001",
+   "type": "book",
+   "note": "Univ. of New Mexico clinical study, ~60 volunteers / ~400 doses (1990–1995). Source of 'they were waiting for me,' the high-tech nursery/lab realms, and the abduction-overlap observation. Clinical narrative, not a controlled frequency study."
+  },
+  {
+   "key": "davis2020",
+   "author": "Davis, Clifton, Weaver, Hurwitz, Johnson & Griffiths (Johns Hopkins)",
+   "work": "Survey of entity encounter experiences occasioned by inhaled N,N-DMT",
+   "year": "2020",
+   "type": "paper",
+   "note": "Journal of Psychopharmacology. N=2,561 — the largest DMT entity survey. Descriptor %, benevolence, fear, reality-alteration and belief-change figures. Some figures here drawn from the abstract + reputable secondary summaries where the full text was paywalled; treat exact decimals as approximate."
+  },
+  {
+   "key": "lawrence2022",
+   "author": "Lawrence, Carhart-Harris, Griffiths & Timmermann",
+   "work": "Phenomenology and content of the inhaled N,N-DMT experience",
+   "year": "2022",
+   "type": "paper",
+   "note": "Scientific Reports. Content analysis of 3,778 r/DMT reports — the source of the entity-phenotype and realm/geometry percentages. Samples people who self-select to post, so rates reflect that population."
+  },
+  {
+   "key": "michael2021",
+   "author": "Michael, Luke & Robinson",
+   "work": "An Encounter With the Other: a thematic & content analysis of DMT experiences from a naturalistic field study",
+   "year": "2021",
+   "type": "paper",
+   "note": "Frontiers in Psychology. n=36 breakthrough-dose field study — beings 94%, other-space 100%, the role/appearance/demeanor breakdowns, the realm taxonomy (lattice/circus/machine worlds)."
+  },
+  {
+   "key": "timmermann2018",
+   "author": "Timmermann, Roseman, Williams, Carhart-Harris et al. (Imperial College)",
+   "work": "DMT Models the Near-Death Experience",
+   "year": "2018",
+   "type": "paper",
+   "note": "Frontiers in Psychology. Placebo-controlled comparison: DMT reproduces much of the Greyson NDE-scale profile; authors caution the contexts differ."
+  },
+  {
+   "key": "timmermann2019",
+   "author": "Timmermann, Roseman, Schartner, Carhart-Harris et al. (Imperial College)",
+   "work": "Neural correlates of the DMT experience assessed with multivariate EEG",
+   "year": "2019",
+   "type": "paper",
+   "note": "Scientific Reports. N=13. Peak subjective effect 2–3 min after IV dose, elevated ~17 min; alpha-power drop and rising signal diversity."
+  },
+  {
+   "key": "michael2025",
+   "author": "Michael, Luke et al.",
+   "work": "An Encounter With Death: comparative analysis of naturalistic DMT experiences and the NDE",
+   "year": "2025",
+   "type": "paper",
+   "note": "Frontiers in Psychology. Quantifies the DMT↔NDE overlap AND divergence — life-review and deceased relatives are rare in DMT (~1–6%) yet central to NDEs."
+  },
+  {
+   "key": "luke2011",
+   "author": "David Luke",
+   "work": "Discarnate entities and dimethyltryptamine (DMT): psychopharmacology, phenomenology and ontology",
+   "year": "2011",
+   "type": "paper",
+   "note": "J. Society for Psychical Research. Foundational typology of recurrent entity types (elves, mantis 'surgeons,' jewel-encrusted reptilians) across independent reporters."
+  },
+  {
+   "key": "shanon",
+   "author": "Benny Shanon",
+   "work": "The Antipodes of the Mind: charting the phenomenology of the ayahuasca experience",
+   "year": "2002",
+   "type": "book",
+   "note": "Oxford University Press. The most thorough systematic phenomenology of the closely related (same-molecule) ayahuasca state — serpents, royalty/palaces, temples, death/rebirth."
+  },
+  {
+   "key": "gallimore",
+   "author": "Andrew R. Gallimore",
+   "work": "Alien Information Theory: psychedelic drug technologies and the cosmic game",
+   "year": "2019",
+   "type": "book",
+   "note": "Reframes hyperspace as a real, orthogonal, higher-dimensional informational reality and the entities as genuine intelligences. An explicit ontological hypothesis, not established fact."
+  },
+  {
+   "key": "hancock",
+   "author": "Graham Hancock",
+   "work": "Supernatural: meetings with the ancient teachers of mankind",
+   "year": "2005",
+   "type": "book",
+   "note": "Argues DMT/ayahuasca animal-human hybrids are continuous with cave-art therianthropes and folkloric faeries — the 'ancient teachers.' Speculative thesis."
+  },
+  {
+   "key": "meyer",
+   "author": "Peter Meyer",
+   "work": "340 DMT Trip Reports (and 'Concerning the Nature of the DMT Entities')",
+   "year": "2005",
+   "type": "report-archive",
+   "note": "Canonical early archive: 226 of 340 reports (~66%) mention apparently independent entities; argues their cross-report consistency makes them 'intersubjectively verifiable.'"
+  },
+  {
+   "key": "lyke2019",
+   "author": "Jennifer A. Lyke (Stockton University)",
+   "work": "DMT Entities: not everyone gets machine elves (analysis of 149 Erowid reports)",
+   "year": "2019",
+   "type": "paper",
+   "note": "Quantifies how the folk vocabulary maps to actual report frequencies — the corrective that 'machine elves' (~2.9%) is rarer than 'feminine' (~24%) or even 'robot/machine entity' (~6.7%)."
+  },
+  {
+   "key": "nexus",
+   "author": "DMT-Nexus community",
+   "work": "The Hyperspace Lexicon",
+   "year": "n.d.",
+   "type": "community",
+   "note": "Crowd-authored glossary that names the territory (Hyperspace, Breakthrough, Waiting Room, Chrysanthemum, Carrier Wave, the Void, Hyperslap, Machine Elves/Tykes). Folk-phenomenology; some entries are one contributor's idiosyncratic coinages."
+  },
+  {
+   "key": "erowid",
+   "author": "Erowid",
+   "work": "Experience Vaults (DMT)",
+   "year": "n.d.",
+   "type": "report-archive",
+   "note": "Large archive of first-person reports underlying many of the secondary analyses."
+  },
+  {
+   "key": "qri",
+   "author": "Andrés Gómez Emilsson (Qualia Research Institute)",
+   "work": "The Hyperbolic Geometry of DMT Experiences",
+   "year": "2016",
+   "type": "report-archive",
+   "note": "A six-level model (Threshold, Chrysanthemum, Magic Eye, Waiting Room, Breakthrough, Amnesia) and the argument that the geometry is hyperbolic, which explains its un-rememberability. An interpretive theory, not established fact."
+  },
+  {
+   "key": "brown",
+   "author": "David Jay Brown & Sara Phinn Huntley",
+   "work": "The Illustrated Field Guide to DMT Entities",
+   "year": "2024",
+   "type": "book",
+   "note": "A 25-entity taxonomy synthesizing the popular literature; provides structured entity categories (qualitative, not frequency-measured)."
+  },
+  {
+   "key": "narby",
+   "author": "Jeremy Narby",
+   "work": "The Cosmic Serpent: DNA and the origins of knowledge",
+   "year": "1998",
+   "type": "book",
+   "note": "Proposes the cosmic-serpent = DNA hypothesis after Asháninka fieldwork. Evocative but untestable and criticized for confusing enthusiasm with evidence — flagged as speculation."
+  },
+  {
+   "key": "jung",
+   "author": "Carl G. Jung",
+   "work": "The Archetypes and the Collective Unconscious",
+   "year": "1959",
+   "type": "book",
+   "note": "Supplies the standard naturalistic framing for why unrelated strangers report similar figures (Mother, Trickster, Shadow). An interpretive lens; inherited archetypes are not empirically established."
+  },
+  {
+   "key": "eliade",
+   "author": "Mircea Eliade",
+   "work": "Shamanism: archaic techniques of ecstasy",
+   "year": "1964",
+   "type": "book",
+   "note": "The three-worlds / axis-mundi cosmology reached by ecstatic technique. Standard reference, but criticized (Kehoe, Hutton) for over-universalizing distinct traditions."
+  },
+  {
+   "key": "harner",
+   "author": "Michael Harner",
+   "work": "The Way of the Shaman",
+   "year": "1980",
+   "type": "book",
+   "note": "'Core shamanism' tunnel-journey to a Lowerworld 'teeming with beings,' built on Conibo/Jívaro ayahuasca apprenticeship. Criticized for decontextualizing diverse traditions."
+  },
+  {
+   "key": "moody",
+   "author": "Raymond Moody",
+   "work": "Life After Life",
+   "year": "1975",
+   "type": "book",
+   "note": "Coined 'near-death experience' and defined its canonical elements (OBE, tunnel, light, deceased, life-review, the border). Foundational but anecdotal by design."
+  },
+  {
+   "key": "greyson",
+   "author": "Bruce Greyson, M.D.",
+   "work": "After / the Greyson NDE Scale",
+   "year": "2021",
+   "type": "book",
+   "note": "Fifty years of NDE research; source of 'realer than real,' memory stability, and the scale DMT is measured against. Empirically cautious."
+  },
+  {
+   "key": "mack",
+   "author": "John E. Mack, M.D.",
+   "work": "Abduction: human encounters with aliens",
+   "year": "1994",
+   "type": "book",
+   "note": "Harvard psychiatrist who documented the abduction 'examination' script. Heavily criticized for hypnosis/suggestion methodology; presented alongside the skeptical counter-explanation."
+  },
+  {
+   "key": "clancy",
+   "author": "Susan A. Clancy",
+   "work": "Abducted: how people come to believe they were kidnapped by aliens",
+   "year": "2005",
+   "type": "book",
+   "note": "The skeptical counterweight: sleep paralysis + cultural script + false-memory proneness + suggestive hypnosis explain abduction belief without aliens."
+  },
+  {
+   "key": "stjohn",
+   "author": "Graham St John",
+   "work": "The Breakthrough Experience: DMT hyperspace and its liminal aesthetics",
+   "year": "2018",
+   "type": "paper",
+   "note": "Anthropology of Consciousness. Liminality framing; hyperspace as infinite cathedrals/machine-scapes/geometric abstraction; the 'Universal/Gaian Mind' perceived as God."
+  },
+  {
+   "key": "amaringo",
+   "author": "Pablo Amaringo & Luis Eduardo Luna",
+   "work": "Ayahuasca Visions: the religious iconography of a Peruvian shaman",
+   "year": "1991",
+   "type": "book",
+   "note": "Primary visual record of mestizo ayahuasca cosmology — anaconda and jaguar spirits, plant/forest spirits, the 'plant teacher' doctrine."
+  }
+ ],
+ "entities": [
+  {
+   "name": "Self-transforming machine elves",
+   "type": "machine-elf",
+   "phase": 7,
+   "aka": [
+    "machine elves",
+    "tykes",
+    "fractal elves",
+    "self-dribbling basketballs",
+    "syntactical homunculi",
+    "clockwork elves"
+   ],
+   "appearance": "Small, hyperactive, jeweled and fractal beings in constant shape-shifting transformation; McKenna's 'jeweled self-dribbling basketballs' and 'self-dribbling Fabergé eggs,' made 'not of matter' but of 'syntax-driving light.'",
+   "behavior": "Greet the visitor with exuberant delight ('we're so glad to see you'), crowd forward, leap in and out of the chest to reassure, and frantically sing impossible objects into existence — urging the visitor to do the same.",
+   "communication": "A visible language: 'it is sound, but you see it.' Objects condensed out of colored speech; a telepathic 'upload.'",
+   "emotional_tone": "Joyful, comic, frantic, overwhelming — bordering on McKenna's 'death by astonishment.'",
+   "message_or_purpose": "'Behold — do what we are doing.' To teach that language/imagination can be externalized and beheld.",
+   "frequency": "Iconic but a MINORITY percept — only ~2.9% of one report set used the literal term (Lyke), and one researcher estimates ~10% see the specific beings (Timmermann). Its fame is McKenna's doing, not its rate.",
+   "sources": [
+    {
+     "source_key": "mckenna",
+     "detail": "Coined the term; 'making objects come into existence by singing them into existence'; 'use your voice to make an object.'"
+    },
+    {
+     "source_key": "lyke2019",
+     "detail": "'Machine elves' appears as a specific description in only ~2.9% of analyzed reports — the iconic term is statistically rare."
+    },
+    {
+     "source_key": "lawrence2022",
+     "detail": "Mythological beings (incl. machine elves) ≈ 8.4% of entity encounters."
+    },
+    {
+     "source_key": "strassman",
+     "detail": "'Not that many people in our study saw elves.'"
+    }
+   ]
+  },
+  {
+   "name": "The Divine Feminine",
+   "type": "divine-feminine",
+   "phase": 9,
+   "aka": [
+    "the Goddess",
+    "Mother Goddess",
+    "Cosmic Mother",
+    "Mother Ayahuasca",
+    "the feminine phenotype",
+    "She"
+   ],
+   "appearance": "A huge, intensely bright feminine presence of light — maternal, nurturing, sometimes erotic; in ayahuasca personified as 'Mother Ayahuasca,' the sentient spirit of the vine. Often felt more than seen.",
+   "behavior": "Enfolds, reassures, heals; 'caresses away all pain and tears,' shows the visitor their wounds and holds them so the pain can dissolve.",
+   "communication": "Wordless transmission of love, knowing, and acceptance.",
+   "emotional_tone": "Overwhelming love, tenderness, awe, homecoming; sometimes stern correction.",
+   "message_or_purpose": "'You are loved / you are home / you already know.' Healing of emotional and maternal wounds.",
+   "frequency": "The SINGLE MOST COMMON entity phenotype — ~24.2% of entity encounters (Lawrence 2022), echoed by Lyke's ~24% and near-universal in ayahuasca framing. The real 'face' of hyperspace, far more than the elves.",
+   "sources": [
+    {
+     "source_key": "lawrence2022",
+     "detail": "Feminine phenotype ≈ 24.2% — the most common entity type coded."
+    },
+    {
+     "source_key": "lyke2019",
+     "detail": "'Feminine' (Goddess/Mother) the single most predominant description (~24%, almost 1 in 4)."
+    },
+    {
+     "source_key": "nexus",
+     "detail": "'Mother Goddess — a huge, bright, feminine Goddess... caring, loving'; the 'Machine Elves' Queen' revealed as the source behind all the patterns."
+    },
+    {
+     "source_key": "michael2021",
+     "detail": "Feminine presence among the most common phenotypes; nurturing/healing role."
+    }
+   ]
+  },
+  {
+   "name": "Deities & god-like presences",
+   "type": "deity",
+   "phase": 9,
+   "aka": [
+    "gods and goddesses",
+    "the Godhead",
+    "the Source",
+    "Supreme Being",
+    "the Logos (as God)"
+   ],
+   "appearance": "Vast god-like presences — a supreme being, the Godhead, archetypal cultural deities (Egyptian, Hindu, Mayan), or a formless 'Universal/Gaian Mind' perceived through the visitor's own framework.",
+   "behavior": "Radiate authority and cosmic knowledge; may take keen interest or remain transcendent and aloof; range from infinitely compassionate to judging.",
+   "communication": "Telepathic, archetypal, revelatory; direct knowing 'through presence.'",
+   "emotional_tone": "Awe, reverence, smallness before vastness.",
+   "message_or_purpose": "Revelation of ultimate reality; disclosure of 'the nature of things'; sometimes moral reckoning.",
+   "frequency": "≈ 17% of entity encounters (Lawrence 2022). The encounter frequently rewrites metaphysics — ~80% said it altered their fundamental conception of reality (Davis 2020).",
+   "sources": [
+    {
+     "source_key": "lawrence2022",
+     "detail": "Deities ≈ 17.0% of entity encounters."
+    },
+    {
+     "source_key": "davis2020",
+     "detail": "~80% said the encounter altered their fundamental conception of reality; many former atheists came to believe in a higher power."
+    },
+    {
+     "source_key": "stjohn",
+     "detail": "The 'Universal Mind / Gaian Mind' perceived or interpreted as God or any ultimate being from the visitor's framework."
+    },
+    {
+     "source_key": "nexus",
+     "detail": "'Gods & Goddesses' resembling cultural archetypal godheads; 'The Logos' as the Universal/Gaian Mind."
+    }
+   ]
+  },
+  {
+   "name": "The generic 'Other' — guides, spirits & helpers",
+   "type": "other",
+   "phase": 7,
+   "aka": [
+    "the Other",
+    "beings",
+    "guides",
+    "spirits",
+    "helpers",
+    "the presence"
+   ],
+   "appearance": "Often a sensed presence as much as a seen creature — sometimes humanoid, sometimes form-light. The catch-all gestalt the literature calls 'the Other.'",
+   "behavior": "Welcome, guide, help, watch, and present objects/scenes for the visitor to attend to; the visitor often feels recognized ('they knew me').",
+   "communication": "Predominantly intuitive/telepathic — 'not language, just a knowing, a complete knowing' (~39%).",
+   "emotional_tone": "Charming and inviting (~56%); love, trust, kindness, joy; familiarity and homecoming.",
+   "message_or_purpose": "Reassurance, love, guidance, and 'downloads' of insight (interconnection, 'let go,' 'it's all a cosmic game — just enjoy').",
+   "frequency": "The DEFAULT encounter. 'Guide' (43%), 'spirit' (39%), 'alien' (39%), 'helper' (34%) were the top descriptors (Davis 2020); 'otherly creatures' 72% in the field study (Michael 2021).",
+   "sources": [
+    {
+     "source_key": "davis2020",
+     "detail": "Top descriptors being/guide (43%) / spirit (39%) / alien (39%) / helper (34%); dominant emotions love, kindness, joy; >75% benevolent."
+    },
+    {
+     "source_key": "michael2021",
+     "detail": "'Otherly creatures' 72%; charming/inviting 56%; helping/nurturing 53%; telepathic 'complete knowing' 39%."
+    },
+    {
+     "source_key": "strassman",
+     "detail": "'The function of the beings is to communicate, and what they communicate is information.'"
+    }
+   ]
+  },
+  {
+   "name": "Alien & 'Grey' forms",
+   "type": "alien-grey",
+   "phase": 7,
+   "aka": [
+    "the Greys",
+    "aliens",
+    "extraterrestrials",
+    "the visitors"
+   ],
+   "appearance": "Classic sci-fi aliens — Greys with large black eyes, or silvery, towering, slender beings whose faces are 'jumbled, abstracted, and leaking colored light,' often in technological settings.",
+   "behavior": "Investigative and clinical — observe, examine, 'process,' or conduct experiments/probes; can be neutral-curious or unsettling.",
+   "communication": "Telepathic or 'technologically mediated'; sometimes speech as cartoon-like captions.",
+   "emotional_tone": "Clinical, uncanny; awe at the technological otherness; occasional fear.",
+   "message_or_purpose": "To study, examine, or convey that humanity is being observed; sometimes information downloads. The core of the DMT↔abduction overlap.",
+   "frequency": "'Alien' was a top descriptor at ~39% (Davis 2020); the alien phenotype ~16.3% (Lawrence 2022). Strassman noted the resemblance to abduction reports is 'stunning.'",
+   "sources": [
+    {
+     "source_key": "davis2020",
+     "detail": "'Alien' chosen by ~39% as a descriptor; senses primarily visual + telepathic."
+    },
+    {
+     "source_key": "lawrence2022",
+     "detail": "Aliens ≈ 16.3% of entity phenotypes."
+    },
+    {
+     "source_key": "strassman",
+     "detail": "'The overlap of many DMT experiences with those reported by alien abductees is stunning.'"
+    },
+    {
+     "source_key": "mack",
+     "detail": "Documented the grey-being 'examination' script in non-drug abduction experiencers (method later heavily criticized)."
+    }
+   ]
+  },
+  {
+   "name": "Mantis & insectoid beings",
+   "type": "insectoid",
+   "phase": 7,
+   "aka": [
+    "the praying mantis being",
+    "insectoids",
+    "mantis surgeons",
+    "alien brain surgeons"
+   ],
+   "appearance": "Towering (often 6–9 ft) insect-proportioned beings — triangular heads, large black eyes, multi-jointed limbs; mantis, moth, or grasshopper-like.",
+   "behavior": "Clinical and surgeon-like — 'leaning over you doing some weird operation on your brain,' performing examinations or procedures, sometimes 'harvesting emotions.'",
+   "communication": "Telepathic and businesslike — can 'telepathically reassure everything will be alright' even mid-procedure.",
+   "emotional_tone": "Cool, detached; awe shaded with apprehension — not warm, but often not hostile.",
+   "message_or_purpose": "To examine, operate on, or 'fix' the visitor — the strongest single overlap with the abduction 'medical examination' script.",
+   "frequency": "Occasional but strikingly cross-reported — Strassman's and Luke's canonical 'baffling predictability' type; ~6–11% of the field study's creature categories.",
+   "sources": [
+    {
+     "source_key": "luke2011",
+     "detail": "'Preying mantis alien brain surgeons' appearing 'with baffling predictability.'"
+    },
+    {
+     "source_key": "strassman",
+     "detail": "Volunteers reported insectoid/mantis examiners; encounters resembled alien abduction."
+    },
+    {
+     "source_key": "michael2021",
+     "detail": "Insectoid proportions ~11%; grey/mantis-like ~6%."
+    },
+    {
+     "source_key": "brown",
+     "detail": "'Human-sized praying mantises... perform surgical/medical experiments; often cold-hearted.'"
+    }
+   ]
+  },
+  {
+   "name": "Reptilian beings",
+   "type": "reptilian",
+   "phase": 7,
+   "aka": [
+    "reptilians",
+    "lizard beings",
+    "jewel-encrusted reptilians",
+    "saurians"
+   ],
+   "appearance": "Reptilian/saurian humanoids and serpents, sometimes 'jewel-encrusted'; green scaled skin, snout-like faces, large oval eyes.",
+   "behavior": "Ambiguous to unsettling — often cold and observing, occasionally framed as malevolent; less interactive than elves or mantises.",
+   "communication": "Non-verbal, through presence and action; telepathic when engaged.",
+   "emotional_tone": "Neutral-curious to fearsome; a cold, alien quality.",
+   "message_or_purpose": "Often opaque — observation, intimidation, or testing more than clear teaching.",
+   "frequency": "Occasional and canonical (Strassman/Luke), but among the most culturally LOADED labels — likely shaped by conspiracy/UFO 'reptilian' mythology as much as by the raw percept.",
+   "sources": [
+    {
+     "source_key": "luke2011",
+     "detail": "'Jewel-encrusted reptilian beings' as a recurring 'baffling predictability' type."
+    },
+    {
+     "source_key": "strassman",
+     "detail": "Volunteers reported reptiles/lizards among the recurring forms."
+    },
+    {
+     "source_key": "brown",
+     "detail": "'Larger than humans; green scaly skin; variable intentions — sometimes nefarious, occasionally offering wisdom.'"
+    }
+   ]
+  },
+  {
+   "name": "The Jester / Trickster / Clown",
+   "type": "trickster",
+   "phase": 7,
+   "aka": [
+    "the jester",
+    "harlequin",
+    "clown",
+    "the joker",
+    "circus ringleader",
+    "imps"
+   ],
+   "appearance": "Clowns, jesters and harlequins in medieval-jester garb; sometimes mechanical clowns or top-hatted 'circus ringleaders' with coats, tails and a baton.",
+   "behavior": "Playful, mischievous, performative — pull the visitor into a shared 'show,' flash information-dense cards/objects, direct attention; can tip from liberating fun into mockery or cruelty.",
+   "communication": "Telepathy plus visual metaphor — flashing 'hyperspace tarot cards' and objects that carry information.",
+   "emotional_tone": "Mischief, hilarity, occasional unease; humor that can liberate or humble.",
+   "message_or_purpose": "To play, to subvert the visitor's seriousness, and to deliver the 'it's all a game — just enjoy' message.",
+   "frequency": "Occasional — jesters ≈ 6.5% of phenotypes (Lawrence 2022); 'mischievous/jestful' demeanor ~14% (Michael 2021). A canonical Strassman category.",
+   "sources": [
+    {
+     "source_key": "lawrence2022",
+     "detail": "Jesters ≈ 6.5% of entity encounters."
+    },
+    {
+     "source_key": "michael2021",
+     "detail": "Mischievous/jestful demeanor ~14%; the 'it's a game, come and play' message."
+    },
+    {
+     "source_key": "nexus",
+     "detail": "'Jesters... clowns,' 'Hyperspace Jesters/Harlequins' flashing cards, 'Circus Ringleaders,' 'the Imps' (playful surface, darker core)."
+    },
+    {
+     "source_key": "strassman",
+     "detail": "'Clowns, jokers and jesters' a distinct recurring class."
+    }
+   ]
+  },
+  {
+   "name": "Guardians & gatekeepers — 'the bouncer'",
+   "type": "guardian",
+   "phase": 4,
+   "aka": [
+    "the gatekeeper",
+    "threshold guardian",
+    "the bouncer",
+    "the doorman",
+    "ushers"
+   ],
+   "appearance": "Often a sensed presence or imposing figure at a threshold / 'waiting room' rather than a fixed form — felt more than seen.",
+   "behavior": "Guard and gate access to deeper hyperspace — prepare, 'vet,' or block the visitor; people report being shown where they want to go but 'not allowed to enter,' or being 'banned' for disrespect.",
+   "communication": "Telepathic permission or denial; a strong felt 'rule' or boundary.",
+   "emotional_tone": "Threshold anxiety, being judged or appraised; occasional reassurance once 'cleared.'",
+   "message_or_purpose": "To control access — you must be ready or permitted. Marks hyperspace as a rule-governed place with permissions.",
+   "frequency": "A distinct, repeatedly reported role — ~11% 'guardian' in the field study (Michael 2021); prominent in community 'locked out of hyperspace' lore.",
+   "sources": [
+    {
+     "source_key": "michael2021",
+     "detail": "'Guardian' role ~11% (4/36)."
+    },
+    {
+     "source_key": "nexus",
+     "detail": "The 'Shut-out' — 'sometimes you aren't let into the club by the bouncers'; the waiting room populated with telepathic 'ushers.'"
+    },
+    {
+     "source_key": "brown",
+     "detail": "Gatekeepers who 'control entrance to spirit realms; test worthiness.'"
+    }
+   ]
+  },
+  {
+   "name": "Impersonal geometric intelligences — 'the machine'",
+   "type": "impersonal-intelligence",
+   "phase": 5,
+   "aka": [
+    "the machine",
+    "living geometry",
+    "sentient structures",
+    "tapestries",
+    "mathematical intelligence",
+    "robot entities"
+   ],
+   "appearance": "Not personified — animated sacred-geometric forms, lattices and structures that rotate, breathe, collapse and reform: a 'living mathematical intelligence.' Also discrete robot/machine beings.",
+   "behavior": "Largely indifferent to the visitor; carry structure and meaning rather than relating; perform routine higher-dimensional 'competence' that looks miraculous from below.",
+   "communication": "Minimal — meaning is embedded in the structure itself, apprehended directly rather than transmitted.",
+   "emotional_tone": "Awe, the numinous, cosmic vastness; sublime or coldly alien rather than warm.",
+   "message_or_purpose": "To reveal the fundamental structure of reality/consciousness — often with no 'wants' at all; an intelligence that simply IS.",
+   "frequency": "Among the MOST consistent features of the state — 'sentient structures' ~25% (Michael 2021). Discrete 'robot/machine' entities ~6.7% — notably more common than literal 'machine elves' (Lyke).",
+   "sources": [
+    {
+     "source_key": "michael2021",
+     "detail": "Sentient structures (animated geometric forms) ~25%; hyperdimensional structures ~17% (mostly tesseracts)."
+    },
+    {
+     "source_key": "lyke2019",
+     "detail": "'Robot/machine entity' ~6.7% — more common than literal 'machine elves' (~2.9%)."
+    },
+    {
+     "source_key": "nexus",
+     "detail": "'Tapestries — incomprehensible beings of peculiar dimensional properties... largely indifferent.'"
+    }
+   ]
+  },
+  {
+   "name": "Light beings & angels",
+   "type": "deity",
+   "phase": 7,
+   "aka": [
+    "beings of light",
+    "angels",
+    "archangels"
+   ],
+   "appearance": "Beings made entirely of light, so radiant that facial features are washed out; winged/angelic guardians.",
+   "behavior": "Watch over, guard, uplift, initiate; protective and benevolent; in the lexicon 'Archangels' rule a hierarchy of light beings by their depth of access.",
+   "communication": "Radiance and benign presence; authoritative transmission.",
+   "emotional_tone": "Benevolence, peace, transcendence.",
+   "message_or_purpose": "Protection, blessing, spiritual elevation.",
+   "frequency": "A recurring benevolent class; the dominant tone of DMT overall is benevolent (>75%, Davis 2020).",
+   "sources": [
+    {
+     "source_key": "nexus",
+     "detail": "'Light Beings... strong radiance, always benign'; 'Archangels' ruling the hierarchy of light beings."
+    },
+    {
+     "source_key": "brown",
+     "detail": "'Angels — radiant light beings,' comforting."
+    }
+   ]
+  },
+  {
+   "name": "Dark entities & demons",
+   "type": "other",
+   "phase": 7,
+   "aka": [
+    "dark entities",
+    "the Tormentor",
+    "cosmic horrors",
+    "demons"
+   ],
+   "appearance": "Malignant, hostile, or shadowy forms — 'The Tormentor,' a tall, domineering figure shrouded in darkness; 'Cosmic Horrors'; or coolly amoral 'stylish, sexy demons' beyond good and evil.",
+   "behavior": "Chase, intimidate, torment, or attract negative attention; the community advises NOT to study, dwell on, or seek them.",
+   "communication": "Threat and oppression conveyed directly to the felt sense.",
+   "emotional_tone": "Dread, oppression — the most fearsome disposition (though the rarest overall).",
+   "message_or_purpose": "Punishment or confrontation with one's fear; sometimes simple indifference framed by the visitor as 'evil.'",
+   "frequency": "A minority — only ~8% perceived entities as malicious vs ~78% benevolent (Davis 2020), though 41% felt fear at some point. The community frames love/forgiveness as the 'true protection.'",
+   "sources": [
+    {
+     "source_key": "nexus",
+     "detail": "'Dark Entities' (don't study or seek them); 'The Tormentor,' 'Cosmic Horrors'; Love & Forgiveness as protection."
+    },
+    {
+     "source_key": "davis2020",
+     "detail": "~8% malicious vs ~78% benevolent; 41% reported fear during the encounter."
+    },
+    {
+     "source_key": "michael2021",
+     "detail": "'Fearsome or menacing' the least common disposition (~8%); one report of 'hooded dark creatures' warning 'Do not go there!'"
+    }
+   ]
+  },
+  {
+   "name": "Deceased loved ones & ancestors",
+   "type": "deceased",
+   "phase": 7,
+   "aka": [
+    "the dead",
+    "departed loved ones",
+    "ancestors"
+   ],
+   "appearance": "Recognizable deceased people; in the field study humans appeared only as the deceased (no living humans).",
+   "behavior": "Greet, reassure, or deliver a terse message ('There is nothing here for you, kid!') before the scene shifts.",
+   "communication": "Telepathic recognition and reassurance; short verbal-feeling messages.",
+   "emotional_tone": "Reunion, comfort, bittersweetness, familiarity.",
+   "message_or_purpose": "Reassurance about continuity; guidance or redirection.",
+   "frequency": "RARE on DMT (~2%) — and a key DISANALOGY with near-death experiences, where deceased-relative reunions are central. The difference is likely shaped by expectation and context.",
+   "sources": [
+    {
+     "source_key": "michael2021",
+     "detail": "Humans ~17% of encounters and ONLY as deceased persons."
+    },
+    {
+     "source_key": "michael2025",
+     "detail": "'Deceased family' (~2%), 'deceased friends' (~1%), 'life-review' (~6%) are LEAST common in DMT but quintessential in NDEs."
+    },
+    {
+     "source_key": "moody",
+     "detail": "Meeting deceased loved ones is one of the canonical NDE elements — the contrast that makes its DMT rarity notable."
+    }
+   ]
+  },
+  {
+   "name": "The Cosmic Serpent",
+   "type": "reptilian",
+   "phase": 7,
+   "aka": [
+    "the anaconda",
+    "Mother of ayahuasca",
+    "yacumama",
+    "the twin serpents",
+    "the rainbow serpent"
+   ],
+   "appearance": "An enormous, often iridescent snake — sometimes paired 'twin' serpents or a coiled double-helix; felt as the indwelling 'mother' spirit of the ayahuasca vine.",
+   "behavior": "Encircles, swallows, or unwinds before the drinker; presented as a teacher and guardian rather than a threat once trust is established.",
+   "communication": "Wordless transmission of knowledge, songs (icaros), and bodily 'downloads.'",
+   "emotional_tone": "Primordial awe and fear giving way to reverence and trust.",
+   "message_or_purpose": "Source of healing knowledge and the 'origin of knowledge' — in Narby's reading, a possible symbol of DNA itself.",
+   "frequency": "The single most common ANIMAL motif across ayahuasca/DMT visions, and serpents top cross-cultural creation myths — invoked as Jungian archetype and, more speculatively, as Narby's DNA symbol.",
+   "sources": [
+    {
+     "source_key": "narby",
+     "detail": "Narby's own vision of two intertwined snakes; a cross-cultural twin/creator-serpent survey across unrelated cultures."
+    },
+    {
+     "source_key": "shanon",
+     "detail": "Serpents among the most frequently reported beings across his large ayahuasca corpus."
+    },
+    {
+     "source_key": "amaringo",
+     "detail": "The anaconda as a principal spirit ally in mestizo ayahuasca iconography."
+    }
+   ]
+  },
+  {
+   "name": "The Logos — the Voice",
+   "type": "impersonal-intelligence",
+   "phase": 8,
+   "aka": [
+    "the Voice",
+    "the Other",
+    "the interior voice",
+    "the Gaian mind",
+    "the planetary mind"
+   ],
+   "appearance": "Disembodied — a voice rather than a seen form; distinct from the seen elves. McKenna distinguished the heard Logos from the visible elf-language.",
+   "behavior": "Speaks 'through' the visitor, steady and articulate; dispenses teaching and prophecy.",
+   "communication": "An interior auditory voice — 'steady, unhesitating, and articulate' — that works 'directly on the language centers.'",
+   "emotional_tone": "Authoritative, oracular, uncanny.",
+   "message_or_purpose": "To inform; the planetary/Gaian mind made audible; a guiding higher intelligence.",
+   "frequency": "Central to McKenna's framing; reframed by Gallimore as 'the code' underlying reality.",
+   "sources": [
+    {
+     "source_key": "mckenna",
+     "detail": "'Speaking through me was the voice of another, a voice that was steady, unhesitating, and articulate.'"
+    },
+    {
+     "source_key": "gallimore",
+     "detail": "'At the ground of our reality there is a code running' — the informational substrate the entities reveal."
+    }
+   ]
+  }
+ ],
+ "realms": [
+  {
+   "name": "Hyperspace",
+   "aka": [
+    "the DMT world",
+    "the other side",
+    "the breakthrough realm"
+   ],
+   "description": "The community's central name for the place reached after breakthrough — 'any place and time imaginable,' a 'Wonderland meets Alien Spacecraft' of kaleidoscopic halls, impossible geometry and folding rooms; a 'nexus of dimensions' inhabited by entities and felt as fully, autonomously real.",
+   "what_happens_there": "Entity contact and the 'performance' — objects sung into being, visible language, downloads. 100% of one field-study sample emerged into a qualitatively other space.",
+   "map_x": 0.5,
+   "map_y": 0.42,
+   "sources": [
+    {
+     "source_key": "nexus",
+     "detail": "'Hyperspace' = the place after breakthrough; geometric explosions of color, sound, emotion, information."
+    },
+    {
+     "source_key": "lawrence2022",
+     "detail": "An alternate/higher dimension reported in ~25.2% of experiences (hyperspace specifically ~17.1%)."
+    },
+    {
+     "source_key": "michael2021",
+     "detail": "100% (36/36) emerged into a qualitatively different space/reality."
+    },
+    {
+     "source_key": "mckenna",
+     "detail": "DMT as the 'doorway to hyperspace' — 'another place,' not a state of mind."
+    }
+   ]
+  },
+  {
+   "name": "The Waiting Room",
+   "aka": [
+    "the reception",
+    "the nursery",
+    "the antechamber",
+    "the lobby"
+   ],
+   "description": "A liminal, architectural threshold space reached just after onset and before (or at the edge of) full breakthrough — an enclosed, impossibly geometric chamber compared to a doctor's waiting room, a games lobby 'outside of the game,' or a Day-Glo Victorian hall with living walls. The visitor often feels expected.",
+   "what_happens_there": "Immersion becomes total (opening the eyes no longer changes the scene); entities become autonomous and able to interact, often turning to welcome the visitor ('welcome back, where have you been?'). From here one breaks through deeper or returns.",
+   "map_x": 0.4,
+   "map_y": 0.58,
+   "sources": [
+    {
+     "source_key": "strassman",
+     "detail": "Volunteers landed in 'high-tech nurseries' and 'alien laboratories' where beings seemed to be waiting."
+    },
+    {
+     "source_key": "nexus",
+     "detail": "'A holographic virtual landscape... analogous to a games lobby, a place outside of the game,' populated with telepathic 'ushers.'"
+    },
+    {
+     "source_key": "lawrence2022",
+     "detail": "Room-like spaces in 15.4% of reports; the 'waiting room' specifically in only ~2.8% — robust as a category, but more prominent in lore than in raw frequency."
+    }
+   ]
+  },
+  {
+   "name": "The Domed Cathedral",
+   "aka": [
+    "the temple",
+    "the cosmic opera house",
+    "the vault",
+    "the infinite cathedral"
+   ],
+   "description": "A vast, often domed or vaulted interior of impossible scale — cathedral, temple, opera house, or palace. McKenna's canonical breakthrough scene: 'tastefully soffited indirect lighting, and the crawling geometric hallucinations along the domed walls.'",
+   "what_happens_there": "The stage for entity contact and the 'performance,' with an atmosphere of sacredness, grandeur, and ceremony — the sense of having arrived somewhere built for a purpose.",
+   "map_x": 0.66,
+   "map_y": 0.3,
+   "sources": [
+    {
+     "source_key": "mckenna",
+     "detail": "'the tastefully soffited indirect lighting, and the crawling geometric hallucinations along the domed walls.'"
+    },
+    {
+     "source_key": "stjohn",
+     "detail": "Hyperspace 'contains massive or even infinitely large cathedrals, machine-scapes or abstract spaces made of geometric patterns.'"
+    },
+    {
+     "source_key": "shanon",
+     "detail": "Cross-substance ayahuasca phenomenology repeatedly yields celestial and temple-like architecture."
+    }
+   ]
+  },
+  {
+   "name": "The Throne Room",
+   "aka": [
+    "the audience chamber",
+    "the court of the entity"
+   ],
+   "description": "A reported sub-realm in which the visitor is brought before a single central, elevated, sovereign presence — God/Goddess, King, Queen, or Cosmic Mother. The WEAKEST-attested location: not a formal lexicon entry, but inferred from deity encounters and cross-cultural 'palaces and royalty.'",
+   "what_happens_there": "An audience or reckoning — the being is experienced as ancient, wise, and authoritative, delivering a teaching, judgment, or reassurance.",
+   "map_x": 0.8,
+   "map_y": 0.22,
+   "sources": [
+    {
+     "source_key": "lawrence2022",
+     "detail": "Deities/divine beings in 17.0% of encounters (the population from which 'throne' scenes arise)."
+    },
+    {
+     "source_key": "shanon",
+     "detail": "Ayahuasca drinkers from disparate cultures recurrently see 'palaces and royalty.'"
+    },
+    {
+     "source_key": "stjohn",
+     "detail": "The 'Universal/Gaian Mind' perceived as God or an ultimate being."
+    }
+   ]
+  },
+  {
+   "name": "The Void",
+   "aka": [
+    "the white light",
+    "the abyss",
+    "the white-out",
+    "nothingness"
+   ],
+   "description": "The inverse of the content-rich realms: a dissolution into undifferentiated awareness with little or no imagery — 'a state, or place of nothingness, without time, matter or significance.' White, golden, or black.",
+   "what_happens_there": "Ego-dissolution and death-rehearsal — loss of the inner narrative, body-ownership, and subject-object distinction; merging with a featureless ground of being or pure light.",
+   "map_x": 0.18,
+   "map_y": 0.24,
+   "sources": [
+    {
+     "source_key": "nexus",
+     "detail": "The Void: 'a state, or place of nothingness, without time, matter or significance. A state of non-existence.'"
+    },
+    {
+     "source_key": "lawrence2022",
+     "detail": "A void (white/golden/black) in ~6.2% of reports."
+    },
+    {
+     "source_key": "timmermann2018",
+     "detail": "'The Void' and 'Bright Light(s)' among canonical NDE themes shared with DMT."
+    }
+   ]
+  },
+  {
+   "name": "The Workshop / Factory / Market",
+   "aka": [
+    "the factory",
+    "machine-scapes",
+    "the meme market",
+    "conveyor belts"
+   ],
+   "description": "Industrial, fabricative realms experienced as the 'innards of a machine' — conveyor belts, assembly lines, workshops where objects, language, or 'memes' are manufactured and traded. McKenna nicknamed the elves 'meme traders.'",
+   "what_happens_there": "Beings fabricate impossible objects (self-assembling Fabergé-like things), show or hand them over, and appear to be running some vast process — factory and marketplace of forms.",
+   "map_x": 0.82,
+   "map_y": 0.62,
+   "sources": [
+    {
+     "source_key": "michael2021",
+     "detail": "'Mechanical conveyor belts of psychedelic energy' within the 'innards of a machine'; technological objects in ~22%."
+    },
+    {
+     "source_key": "mckenna",
+     "detail": "The entities as 'meme traders' and 'art collectors' crafting intricate, self-assembling objects."
+    }
+   ]
+  },
+  {
+   "name": "Geometric Palaces & the Lattice",
+   "aka": [
+    "the gridwork",
+    "the blueprint of the universe",
+    "the jeweled palace",
+    "crystal architecture"
+   ],
+   "description": "Realms made entirely of structured geometry — jeweled, crystalline, or lattice/grid architecture experienced as the 'blueprint' or scaffolding of reality ('an empty blueprint of the universe... simple grid... infinite').",
+   "what_happens_there": "The visitor perceives an underlying geometric order to existence; structures tessellate, fractalate, rotate and fold; hyper-dimensional objects appear.",
+   "map_x": 0.6,
+   "map_y": 0.74,
+   "sources": [
+    {
+     "source_key": "michael2021",
+     "detail": "Gridwork/lattice 'nebulous worlds' ~36%; geometric objects 44% (hyperdimensional cubes that 'fractalate')."
+    },
+    {
+     "source_key": "stjohn",
+     "detail": "Hyperspace as 'abstract spaces made of geometric patterns,' infinitely large geometric architecture."
+    }
+   ]
+  },
+  {
+   "name": "The Circus / Playroom",
+   "aka": [
+    "the carnival",
+    "children's world",
+    "the cartoon realm"
+   ],
+   "description": "A playful, whimsical, often childlike or cartoonish realm — circuses, carnivals, nurseries full of toys and capering entities, reality 'folding and unfolding.'",
+   "what_happens_there": "Trickster/jester entities cavort and invite the visitor to 'come and play'; the mood is mischievous and comedic — closely tied to the 'cosmic joke' and 'it's all a game' messages.",
+   "map_x": 0.3,
+   "map_y": 0.78,
+   "sources": [
+    {
+     "source_key": "michael2021",
+     "detail": "'Children's worlds' ~8%: a 'playroom' with 'toys and entities and kids'; a world 'like a circus.'"
+    },
+    {
+     "source_key": "lawrence2022",
+     "detail": "Jesters/clowns as the entity phenotype in ~6.5% of encounters."
+    }
+   ]
+  },
+  {
+   "name": "Tunnels & Corridors",
+   "aka": [
+    "the tunnel",
+    "the corridor",
+    "the chute",
+    "the wormhole"
+   ],
+   "description": "A transit structure rather than a destination — geometric tunnels or corridors that dominate the field during the rush, conveying fast or accelerating movement toward 'somewhere else.'",
+   "what_happens_there": "Translocation — the felt sense of being pulled or launched through a passage at speed, on the way to the waiting room or breakthrough.",
+   "map_x": 0.32,
+   "map_y": 0.4,
+   "sources": [
+    {
+     "source_key": "lawrence2022",
+     "detail": "A tunnel-type structure in ~10.3% of reports."
+    },
+    {
+     "source_key": "timmermann2018",
+     "detail": "'Tunnel-like structures' among canonical NDE themes shared with DMT."
+    }
+   ]
+  },
+  {
+   "name": "The Membrane / Veil",
+   "aka": [
+    "the veil",
+    "the threshold",
+    "the doorway",
+    "the chrysanthemum-as-door"
+   ],
+   "description": "The boundary surface one passes through to break through — often the chrysanthemum itself, 'a permeable membrane of initial hyperspace that either must be passed through or will be a wall locking you out.'",
+   "what_happens_there": "The pivotal transition — a felt rupture or push 'through' a surface, after which the perceptual world changes wholesale. McKenna: 'I was pushed from behind and I fell through the chrysanthemum into another place.'",
+   "map_x": 0.5,
+   "map_y": 0.6,
+   "sources": [
+    {
+     "source_key": "michael2021",
+     "detail": "22% reported the distinct sensation of breaking through a veil/membrane; 58% a distinct arrival into a different environment."
+    },
+    {
+     "source_key": "mckenna",
+     "detail": "'pushed from behind and I fell through the chrysanthemum into another place.'"
+    },
+    {
+     "source_key": "nexus",
+     "detail": "The chrysanthemum/waiting-room boundary as 'a permeable membrane... pass through or be walled out.'"
+    }
+   ]
+  },
+  {
+   "name": "The In-Between",
+   "aka": [
+    "the transit",
+    "the solitary zone"
+   ],
+   "description": "'The world where you arrive before you break into Hyperspace — a world where you are on your own, already left this plane, but not yet reached the other.'",
+   "what_happens_there": "A solitary transitional zone between consensus reality and hyperspace — alone, in transit.",
+   "map_x": 0.3,
+   "map_y": 0.5,
+   "sources": [
+    {
+     "source_key": "nexus",
+     "detail": "Verbatim: arrive before breaking into Hyperspace, on your own, left this plane but not yet reached the other."
+    }
+   ]
+  },
+  {
+   "name": "The Deeper Realms",
+   "aka": [
+    "the realms of the gods",
+    "culturally-themed realms",
+    "Dreamtime",
+    "the Astral"
+   ],
+   "description": "Community-acknowledged realms BEYOND the initial hyperspace entry — often culturally themed (Egyptian, Mayan, Hindu) and framed as 'not Hyperspace, but the realms of those gods'; a gradient, not strictly numbered levels.",
+   "what_happens_there": "Encounters with culture-specific deities and worlds. Notably, the community reports dark entities MORE in these 'other dimensional spaces' than in hyperspace proper — one offered marker of 'genuine' hyperspace is the absence of dark entities.",
+   "map_x": 0.86,
+   "map_y": 0.44,
+   "sources": [
+    {
+     "source_key": "nexus",
+     "detail": "Culturally-themed realms = 'realms of those gods'; Dreamtime realms; 'the Astral'; a gradient, not discrete levels; dark entities more frequent here."
+    },
+    {
+     "source_key": "shanon",
+     "detail": "Cross-cultural visions of distinct 'higher' realms in the closely related ayahuasca state."
+    }
+   ]
+  }
+ ],
+ "geometries": [
+  {
+   "name": "The Chrysanthemum",
+   "phase": 2,
+   "description": "The classic onset mandala — a gigantic, often spinning, kaleidoscopic fractal flower with a domelike appearance that turns into a doorway, welcoming or blocking access to breakthrough. McKenna: 'a flower, like a chrysanthemum in orange and yellow that was sort of spinning, spinning.'",
+   "sources": [
+    {
+     "source_key": "nexus",
+     "detail": "'A gigantic, often spinning, kaleidoscopic fractal flower... that turns into a doorway, either welcoming or blocking access to breakthrough Hyperspace.'"
+    },
+    {
+     "source_key": "mckenna",
+     "detail": "'a chrysanthemum in orange and yellow that was sort of spinning, spinning.'"
+    },
+    {
+     "source_key": "qri",
+     "detail": "A textured surface of 'intricate symmetrical relationships, bright colors, shifting edges and shimmering pulsing superposition patterns.'"
+    }
+   ]
+  },
+  {
+   "name": "Fractal lattices & jeweled tilings",
+   "phase": 3,
+   "description": "Nested, self-similar fractal patterning and tessellating tilings saturating every surface — jeweled, crystalline, gridwork lattices that fractalate and split. QRI argues these are hyperbolic tilings of negative curvature.",
+   "sources": [
+    {
+     "source_key": "lawrence2022",
+     "detail": "'Fractals, geometric shapes, and patterns' (incl. kaleidoscopes, mandalas) in ~32.6% of reports."
+    },
+    {
+     "source_key": "qri",
+     "detail": "Surfaces 'saturated with nested 2-dimensional symmetry groups,' composed of hyperbolic tilings with negative curvature."
+    },
+    {
+     "source_key": "mckenna",
+     "detail": "Jeweled, self-transforming, language-like geometry."
+    }
+   ]
+  },
+  {
+   "name": "The Carrier Wave",
+   "phase": 1,
+   "description": "An auditory-vibrational phenomenon at onset — a high-pitched ringing tone, droning frequency, or buzzing 'carrier wave' that resonates 'in every cell of the body,' often paired with a perceptual 'wobble' as the visual field destabilizes. McKenna heard 'a sound like the crumpling of a plastic bread wrapper... and a tone. A hummmm.'",
+   "sources": [
+    {
+     "source_key": "nexus",
+     "detail": "'After a launch, travelers often hear a ringing tone or vibration somewhat resembling a carrier wave... resonating in every cell of the body.'"
+    },
+    {
+     "source_key": "mckenna",
+     "detail": "'a sound like the crumpling of a plastic bread wrapper... and a tone. A hummmmmm.'"
+    },
+    {
+     "source_key": "lawrence2022",
+     "detail": "An auditory ringing-type sound reported in ~15.4% of reports."
+    }
+   ]
+  },
+  {
+   "name": "Hyper-dimensional objects",
+   "phase": 5,
+   "description": "Impossible solids that exceed 3D — rotating hypercubes (tesseracts), self-assembling jeweled objects ('Fabergé eggs from Mars'), cubes that 'slip' between dimensions and fractalate. QRI ties their un-rememberability to geometry that cannot be embedded in ordinary space.",
+   "sources": [
+    {
+     "source_key": "michael2021",
+     "detail": "Hyperdimensional structures in 6 participants (5 cubes); a cube that 'slipped... fractalated... multiple dimensions.'"
+    },
+    {
+     "source_key": "mckenna",
+     "detail": "Entities sang into existence 'objects which looked like Fabergé eggs from Mars.'"
+    },
+    {
+     "source_key": "qri",
+     "detail": "Memories bias toward forms representable in ordinary 3D space; true hyperbolic objects resist recall."
+    }
+   ]
+  },
+  {
+   "name": "Living language / visible sound",
+   "phase": 8,
+   "description": "Synesthetic geometry in which heard sound becomes seen object — 'things heard become things seen.' McKenna's elves 'spoke in some kind of colored language which condensed into rotating machines'; survey participants saw hieroglyphs and ancient scripts.",
+   "sources": [
+    {
+     "source_key": "mckenna",
+     "detail": "Elves 'making objects come into existence by singing them into existence'; 'use your voice to make an object.'"
+    },
+    {
+     "source_key": "michael2021",
+     "detail": "Symbolic objects in ~17%: 'Egyptian hieroglyphical writings,' ancient language/hieroglyphics."
+    }
+   ]
+  },
+  {
+   "name": "Mandalas & symmetry fields",
+   "phase": 2,
+   "description": "Radially symmetric, concentric closed-eye geometric forms — the chrysanthemum is the canonical instance, but mandalic patterning recurs throughout the early phases with intense color and complex overlay.",
+   "sources": [
+    {
+     "source_key": "qri",
+     "detail": "Mandalic, symmetry-rich closed-eye visuals at the chrysanthemum level; connected to all 17 wallpaper symmetry groups."
+    },
+    {
+     "source_key": "lawrence2022",
+     "detail": "Mandalas included within the ~32.6% reporting fractals/geometry/patterns."
+    }
+   ]
+  },
+  {
+   "name": "Static Pattern Overlay & filigree",
+   "phase": 3,
+   "description": "Uniform or random surfaces taking on a clearly visible pattern — arabesques, hieroglyphs, plants, animals and faces — plus spirals, ornamentation and filigree that decorate hyperspace 'as if being designed in real-time.' (Several of the finer lexicon names here are idiosyncratic community coinages.)",
+   "sources": [
+    {
+     "source_key": "nexus",
+     "detail": "'Static Pattern Overlay' — surfaces taking on arabesques/hieroglyphs/faces; 'Schnörkel' filigree decorating hyperspace in real-time."
+    }
+   ]
+  }
+ ],
+ "phases": [
+  {
+   "order": 1,
+   "name": "Inhalation / Onset",
+   "description": "Within ~3–30 seconds, before clear sensory change, a shift in the 'ambiance' — a sudden sharpening and brightening of the senses, things acquiring 'great significance,' often with a body vibration and the onset of the carrier-wave ringing.",
+   "sources": [
+    {
+     "source_key": "qri",
+     "detail": "Threshold (3–30s): change in ambiance, 'sudden sharpening of all the senses.'"
+    },
+    {
+     "source_key": "timmermann2019",
+     "detail": "Peak subjective effect 2–3 min after IV dose; alpha-power drop tracks intensity."
+    }
+   ]
+  },
+  {
+   "order": 2,
+   "name": "The Chrysanthemum",
+   "description": "Closed-eye mandalic geometry blooms — the spinning orange/yellow chrysanthemum, dense fractal overlay, intense color, an organic hum. A threshold marker and doorway: break through it to go deeper, or stay at its surface.",
+   "sources": [
+    {
+     "source_key": "nexus",
+     "detail": "The chrysanthemum as the doorway welcoming or blocking access to breakthrough."
+    },
+    {
+     "source_key": "mckenna",
+     "detail": "The spinning orange-and-yellow chrysanthemum at the threshold."
+    }
+   ]
+  },
+  {
+   "order": 3,
+   "name": "The Rush",
+   "description": "An overwhelming acceleration — fast movement along geometric tunnels, an ascending or intensifying sound (the carrier wave crescendoing) that 'suddenly switches to a new environment.' Often felt as being launched at great speed.",
+   "sources": [
+    {
+     "source_key": "lawrence2022",
+     "detail": "Tunnel-type structures ~10.3%; ascending auditory ringing ~15.4%."
+    },
+    {
+     "source_key": "erowid",
+     "detail": "'Freight train' rush descriptions across reports."
+    }
+   ]
+  },
+  {
+   "order": 4,
+   "name": "Through the Membrane",
+   "description": "The pivotal rupture — a felt push 'through' a surface (often the chrysanthemum-as-door), after which the perceptual world changes wholesale. ~22% explicitly report breaking through a veil or membrane.",
+   "sources": [
+    {
+     "source_key": "michael2021",
+     "detail": "22% reported breaking through a veil/membrane."
+    },
+    {
+     "source_key": "mckenna",
+     "detail": "'pushed from behind and I fell through the chrysanthemum into another place.'"
+    }
+   ]
+  },
+  {
+   "order": 5,
+   "name": "Breakthrough",
+   "description": "Full immersion into hyperspace — 'so immersive you won't be questioning whether you made it.' The structure of perception and consciousness shifts; geometry becomes 'non-simply connected,' endlessly morphing; the realm feels hyper-real. For some this opens into the Void instead of a furnished scene.",
+   "sources": [
+    {
+     "source_key": "nexus",
+     "detail": "Breakthrough: 'a singularity beyond life or death... endlessly morphing and fractalizing detail.'"
+    },
+    {
+     "source_key": "qri",
+     "detail": "Topological bifurcations; space 'non-simply connected'; entities feel 'transpersonal.'"
+    }
+   ]
+  },
+  {
+   "order": 6,
+   "name": "Arrival — The Waiting Room",
+   "description": "The visitor finds themselves in a structured location (waiting room / reception / nursery). Immersion is total; opening the eyes no longer changes the scene; entities become present, autonomous, and seemingly expectant.",
+   "sources": [
+    {
+     "source_key": "strassman",
+     "detail": "Arrival in a 'room' where entities were 'waiting' and 'excited to see' the volunteer."
+    },
+    {
+     "source_key": "nexus",
+     "detail": "The waiting room as a 'games lobby' populated with telepathic 'ushers.'"
+    }
+   ]
+  },
+  {
+   "order": 7,
+   "name": "Entity Contact",
+   "description": "Encounter with seemingly autonomous, sentient beings — guides, helpers, spirits, deities, aliens, jesters, machine elves. Reported by the large majority at breakthrough; the beings appear curious, welcoming, and aware of the visitor.",
+   "sources": [
+    {
+     "source_key": "michael2021",
+     "detail": "34/36 (94%) encountered sentient beings; 56% charming/inviting, 53% helping/nurturing."
+    },
+    {
+     "source_key": "lawrence2022",
+     "detail": "Entity encounters in 45.5% of the broad report set."
+    },
+    {
+     "source_key": "davis2020",
+     "detail": "Most common labels being/guide/spirit/alien/helper; encounters evoke 'profound love, surprise, and trust.'"
+    }
+   ]
+  },
+  {
+   "order": 8,
+   "name": "The Download / Lesson",
+   "description": "Information transfer — usually telepathic/intuitive ('not language, just a knowing, a complete knowing'), or via visible language, gesture, or presented objects. Messages cluster on love, 'let go,' 'it's all a game,' and the nature of reality.",
+   "sources": [
+    {
+     "source_key": "michael2021",
+     "detail": "Telepathic 'complete knowing' (~39%); messages of love, 'let go,' 'it's a game... come and play.'"
+    },
+    {
+     "source_key": "mckenna",
+     "detail": "The visible Logos — being shown and taught."
+    },
+    {
+     "source_key": "strassman",
+     "detail": "Volunteers reported telepathic 'downloads' from the beings."
+    }
+   ]
+  },
+  {
+   "order": 9,
+   "name": "The Peak / Throne / Apex",
+   "description": "The deepest reach for some — an audience with a central sovereign/divine presence, or conversely a peak of ego-dissolution, mystical union, or the Void. Strongly tied to mystical-experience and death-acceptance content. Highly variable; not everyone reaches it.",
+   "sources": [
+    {
+     "source_key": "lawrence2022",
+     "detail": "Mystical-type experiences in ~71.4%; deities in ~17% of encounters."
+    },
+    {
+     "source_key": "stjohn",
+     "detail": "The 'Universal/Gaian Mind' perceived as God or an ultimate being."
+    }
+   ]
+  },
+  {
+   "order": 10,
+   "name": "The Return",
+   "description": "The short-acting molecule wears off (minutes for inhaled DMT); the visitor is pulled back through the layers — geometry recedes, the waiting room dissolves — and rematerializes into ordinary space, often abruptly. Entities may bid farewell ('come back').",
+   "sources": [
+    {
+     "source_key": "qri",
+     "detail": "On return, only forms embeddable in ordinary 3D space are easily 'brought back.'"
+    },
+    {
+     "source_key": "timmermann2019",
+     "detail": "Subjective intensity elevated ~17 min, then declines."
+    }
+   ]
+  },
+  {
+   "order": 11,
+   "name": "Afterglow / Integration",
+   "description": "Post-experience wonder, emotional openness, and a struggle to verbalize — often a frustrating amnesia, the sense of having known something profound that can't be recalled. Enduring worldview shifts (even atheists coming to believe the entity/God is real) are common.",
+   "sources": [
+    {
+     "source_key": "davis2020",
+     "detail": "Lasting changes in worldview; many former atheists came to believe in God; 72% believed the entity continued to exist afterward."
+    },
+    {
+     "source_key": "qri",
+     "detail": "The 'amnesia' problem: hyperbolic content resists ordinary recall."
+    }
+   ]
+  }
+ ],
+ "themes": [
+  {
+   "name": "More real than real",
+   "phase": 5,
+   "description": "The realm and its beings feel more vivid, solid, and authentic than waking life. Strassman: the entities 'feel more real than real, but their ontological foundation cannot be determined.' Felt near-universally — yet stated in those exact words by only ~0.6% (Lawrence 2022); the FEELING is pervasive, the literal phrase rare.",
+   "sources": [
+    {
+     "source_key": "strassman",
+     "detail": "Entities 'feel more real than real, but their ontological foundation cannot be determined.'"
+    },
+    {
+     "source_key": "lawrence2022",
+     "detail": "Only ~0.6% used the literal phrase, though hyper-vividness is pervasive."
+    },
+    {
+     "source_key": "davis2020",
+     "detail": "A hyper-real quality reported by survey respondents."
+    }
+   ]
+  },
+  {
+   "name": "They were expecting me",
+   "phase": 6,
+   "description": "A pervasive sense of being anticipated, recognized, and welcomed — entities 'excited to see' the visitor, saying 'welcome back, where have you been?' McKenna's elves 'assured me that they loved me and told me not to be amazed.'",
+   "sources": [
+    {
+     "source_key": "strassman",
+     "detail": "Volunteers reached a 'room' where entities were 'waiting' and 'excited to see' them."
+    },
+    {
+     "source_key": "mckenna",
+     "detail": "'they assured me that they loved me and told me not to give way to astonishment.'"
+    }
+   ]
+  },
+  {
+   "name": "You're not supposed to be here",
+   "phase": 4,
+   "description": "A counter-current to the welcome — a sense of intruding on a domain not meant for the living, of having 'broken in.' Some entities warn the visitor off; the lexicon casts breakthrough as 'a singularity beyond life or death' and the waiting room as a threshold for the recently deceased.",
+   "sources": [
+    {
+     "source_key": "michael2021",
+     "detail": "'Hooded dark creatures' warning 'Do not go there!'; 8% found entities fearsome/menacing."
+    },
+    {
+     "source_key": "nexus",
+     "detail": "Breakthrough 'a singularity beyond life or death'; the waiting room a portal point for the recently deceased."
+    }
+   ]
+  },
+  {
+   "name": "Remember — you already knew this",
+   "phase": 7,
+   "description": "Overwhelming déjà-vu and a sense of returning home / remembering something forgotten — 'intense familiarity combined with absolute amazement,' entities like 'my sisters.' The punchline of the cosmic joke: you went to all this effort to find out what you already knew.",
+   "sources": [
+    {
+     "source_key": "michael2021",
+     "detail": "47% felt 'one with' the beings; entities 'like my sisters'; 'we knew each other so well.'"
+    },
+    {
+     "source_key": "qri",
+     "detail": "The familiarity ties to the un-rememberability — 'if only you could remember.'"
+    }
+   ]
+  },
+  {
+   "name": "The cosmic joke",
+   "phase": 7,
+   "description": "An atmosphere of intense hilarity and the punchline that 'it's all a game' — visitors feel let in on a cosmic joke. The confrontation with the mind's inability to make sense of existence resolves into laughter; the jester embodies it.",
+   "sources": [
+    {
+     "source_key": "mckenna",
+     "detail": "The 'cosmic giggle' and the comic register of the elves."
+    },
+    {
+     "source_key": "michael2021",
+     "detail": "Beings: 'it's a game, it's all a game,' 'come and play.'"
+    }
+   ]
+  },
+  {
+   "name": "Overwhelming love & interconnection",
+   "phase": 7,
+   "description": "Profound, often unconditional love radiating from the beings and the realm, with feelings of unity and oneness. The most commonly transmitted message is love — for self and others.",
+   "sources": [
+    {
+     "source_key": "davis2020",
+     "detail": "Encounters 'frequently evoke profound love, surprise, and trust'; >75% benevolent."
+    },
+    {
+     "source_key": "michael2021",
+     "detail": "The most common message: 'love for others and self.'"
+    }
+   ]
+  },
+  {
+   "name": "Death-rehearsal & ego dissolution",
+   "phase": 9,
+   "description": "A confrontation with dying and the dissolution of the self — loss of inner narrative, body-ownership, and subject-object distinction. DMT reproduces much of the NDE profile, and many report acceptance / loss of fear of death afterward.",
+   "sources": [
+    {
+     "source_key": "timmermann2018",
+     "detail": "DMT reproduces much of the Greyson NDE-scale profile (translocation, bright light, sense of dying, the void, disembodiment)."
+    },
+    {
+     "source_key": "lawrence2022",
+     "detail": "Ego-dissolution items ~6.9%; 25% of death-theme experiences endorsed acceptance / removal of fear of death."
+    }
+   ]
+  },
+  {
+   "name": "Information, language & the Logos",
+   "phase": 8,
+   "description": "The experience is saturated with meaning conveyed as information, symbol, and language — McKenna's thesis that the entities are 'made of language' and that one can 'use your voice to make an object.' Telepathic knowing, hieroglyphs, and downloads recur.",
+   "sources": [
+    {
+     "source_key": "mckenna",
+     "detail": "Entities 'made not of matter, but of language,' who 'sang syntax into being.'"
+    },
+    {
+     "source_key": "michael2021",
+     "detail": "Symbolic objects/hieroglyphics ~17%; telepathic 'complete knowing.'"
+    }
+   ]
+  },
+  {
+   "name": "Being shown a teaching or object",
+   "phase": 8,
+   "description": "Entities act as 'presenter' — proffering an object, tablet, or self-assembling artifact, or directing attention to something to be learned. McKenna's elves 'proffered strange little tablets'; ~47% of field-study entities were 'showing or communing.'",
+   "sources": [
+    {
+     "source_key": "michael2021",
+     "detail": "47% 'showing or communing'; entities as 'presenter' of objects (10/36)."
+    },
+    {
+     "source_key": "mckenna",
+     "detail": "'insect elf machines proffering strange little tablets'; Fabergé-egg objects."
+    }
+   ]
+  },
+  {
+   "name": "Benevolence over malevolence",
+   "phase": 7,
+   "description": "Entities are far more often experienced as benevolent and loving than hostile — but the realm is not uniformly safe: a fear/menace minority and the 'transgression' current coexist with the love.",
+   "sources": [
+    {
+     "source_key": "davis2020",
+     "detail": "Benevolent ~78%; malicious/judgmental <15%; yet 41% felt fear at some point."
+    },
+    {
+     "source_key": "michael2021",
+     "detail": "Charming/inviting 56% vs fearsome/menacing only 8%."
+    }
+   ]
+  },
+  {
+   "name": "Ontological shock & belief change",
+   "phase": 11,
+   "description": "The encounter commonly rewrites the visitor's conception of reality and of whether the entity was 'real' — a durable shift, including away from atheism toward belief in a higher power.",
+   "sources": [
+    {
+     "source_key": "davis2020",
+     "detail": "~80% said it altered their fundamental conception of reality; ~72% believed the entity continued to exist; >50% of former atheists changed."
+    }
+   ]
+  },
+  {
+   "name": "Telepathy is the norm",
+   "phase": 8,
+   "description": "Communication with the 'Other' is characteristically wordless — telepathy, gesture, sung/objectified language, or direct 'knowing' — a consistent formal feature across DMT, ayahuasca, NDE, and abduction reports.",
+   "sources": [
+    {
+     "source_key": "davis2020",
+     "detail": "Majority reported telepathic/gestural communication; senses primarily visual + extrasensory."
+    },
+    {
+     "source_key": "michael2021",
+     "detail": "Telepathic/intuitive 'complete knowing' the dominant mode (~39%)."
+    }
+   ]
+  },
+  {
+   "name": "Convergence across traditions",
+   "phase": 9,
+   "description": "The DMT universe rhymes with humanity's wider visionary record — ayahuasca (the SAME molecule), the shamanic three-worlds/tunnel-journey, the NDE (tunnel, light, hyper-reality), and the alien-abduction 'examination.' The convergence is real at the level of phenomenology and (for DMT/ayahuasca) chemistry — but it does NOT by itself prove a shared external reality, and the parallels are partial: life-review and deceased relatives are central to NDEs yet rare in DMT.",
+   "sources": [
+    {
+     "source_key": "timmermann2018",
+     "detail": "DMT reproduces much of the Greyson NDE profile — but the authors caution the contexts differ."
+    },
+    {
+     "source_key": "michael2025",
+     "detail": "Quantifies the overlap AND the disanalogy: life-review/deceased rare in DMT."
+    },
+    {
+     "source_key": "narby",
+     "detail": "The serpent as a near-universal motif across ayahuasca visions and world creation myths (the DNA reading is speculative)."
+    },
+    {
+     "source_key": "eliade",
+     "detail": "The shamanic three-worlds / tunnel-journey to an inhabited realm prefigures the DMT report."
+    },
+    {
+     "source_key": "harner",
+     "detail": "'Core shamanism': a drum-induced tunnel-journey to a Lowerworld 'teeming with beings.'"
+    },
+    {
+     "source_key": "jung",
+     "detail": "The collective unconscious as the standard naturalistic framing for why strangers report similar figures."
+    },
+    {
+     "source_key": "hancock",
+     "detail": "The DMT/ayahuasca animal-human hybrids as continuous with cave-art therianthropes and folkloric faeries — the 'ancient teachers.'"
+    },
+    {
+     "source_key": "greyson",
+     "detail": "NDEs rated 'realer than real' with memories that stay vivid for decades — the same hyper-reality DMT reports."
+    },
+    {
+     "source_key": "mack",
+     "detail": "The alien-abduction 'examination by greys' script overlaps the DMT mantis/grey encounter."
+    },
+    {
+     "source_key": "clancy",
+     "detail": "The skeptical counter-explanation: sleep paralysis + cultural script + false memory can produce abduction belief without aliens — a reminder that convergence isn't proof."
+    }
+   ]
+  }
+ ],
+ "data_points": [
+  {
+   "claim": "Largest survey of DMT entity encounters",
+   "stat_or_value": "N = 2,561 respondents (mean age ~32; ~77% male)",
+   "source_key": "davis2020",
+   "detail": "Johns Hopkins online survey of the single most memorable inhaled-DMT entity encounter."
+  },
+  {
+   "claim": "Top entity descriptors chosen",
+   "stat_or_value": "guide 43% · spirit 39% · alien 39% · helper 34% (also 'being')",
+   "source_key": "davis2020",
+   "detail": "Most-selected labels for the entity."
+  },
+  {
+   "claim": "Entity rated benevolent",
+   "stat_or_value": "~78% (vs <15% malicious)",
+   "source_key": "davis2020",
+   "detail": "Dominant emotions love, kindness, joy; ~70% rated the entity 'sacred.'"
+  },
+  {
+   "claim": "Felt fear at some point during the encounter",
+   "stat_or_value": "41%",
+   "source_key": "davis2020",
+   "detail": "Despite the benevolent majority — the realm is not uniformly safe."
+  },
+  {
+   "claim": "Said the encounter altered their fundamental conception of reality",
+   "stat_or_value": "~80%",
+   "source_key": "davis2020",
+   "detail": "And ~72% believed the entity continued to exist after the experience."
+  },
+  {
+   "claim": "Prior atheists who no longer identified as atheist afterward",
+   "stat_or_value": ">50%",
+   "source_key": "davis2020",
+   "detail": "A durable shift toward belief in a higher power."
+  },
+  {
+   "claim": "Content analysis corpus (the percentage backbone)",
+   "stat_or_value": "3,778 experiences from 3,305 r/DMT posts (2009–2018)",
+   "source_key": "lawrence2022",
+   "detail": "Lawrence et al., Scientific Reports."
+  },
+  {
+   "claim": "Entity encounters across all inhaled-DMT reports",
+   "stat_or_value": "45.5%",
+   "source_key": "lawrence2022",
+   "detail": "Of 3,778 experiences."
+  },
+  {
+   "claim": "Most common entity phenotype — the feminine/Goddess",
+   "stat_or_value": "24.2%",
+   "source_key": "lawrence2022",
+   "detail": "More common than any other type — and far more than 'machine elves.'"
+  },
+  {
+   "claim": "Deities",
+   "stat_or_value": "17.0%",
+   "source_key": "lawrence2022",
+   "detail": "Second most common entity phenotype."
+  },
+  {
+   "claim": "Aliens",
+   "stat_or_value": "16.3%",
+   "source_key": "lawrence2022",
+   "detail": "Entity phenotype."
+  },
+  {
+   "claim": "Creature-based entities (reptilian + insectoid)",
+   "stat_or_value": "9.2%",
+   "source_key": "lawrence2022",
+   "detail": "Entity phenotype."
+  },
+  {
+   "claim": "Mythological beings (incl. machine elves)",
+   "stat_or_value": "8.4%",
+   "source_key": "lawrence2022",
+   "detail": "The 'machine elf' category is a minority — its fame outruns its rate."
+  },
+  {
+   "claim": "Jesters",
+   "stat_or_value": "6.5%",
+   "source_key": "lawrence2022",
+   "detail": "Entity phenotype."
+  },
+  {
+   "claim": "An alternate / higher dimension ('hyperspace')",
+   "stat_or_value": "25.2% (hyperspace specifically ~17.1%)",
+   "source_key": "lawrence2022",
+   "detail": "Realm content."
+  },
+  {
+   "claim": "A room-like space (the 'waiting room' specifically)",
+   "stat_or_value": "15.4% rooms; 2.8% 'waiting room'",
+   "source_key": "lawrence2022",
+   "detail": "Robust as a category, far rarer by the exact label."
+  },
+  {
+   "claim": "A void",
+   "stat_or_value": "6.2%",
+   "source_key": "lawrence2022",
+   "detail": "White, golden, or black."
+  },
+  {
+   "claim": "A tunnel-type structure",
+   "stat_or_value": "10.3%",
+   "source_key": "lawrence2022",
+   "detail": "Realm/transit content."
+  },
+  {
+   "claim": "Fractals, geometric shapes & patterns",
+   "stat_or_value": "32.6%",
+   "source_key": "lawrence2022",
+   "detail": "Including kaleidoscopes and mandalas."
+  },
+  {
+   "claim": "An auditory ringing ('carrier wave')",
+   "stat_or_value": "15.4%",
+   "source_key": "lawrence2022",
+   "detail": "Buzzing/humming/high-pitched tone."
+  },
+  {
+   "claim": "Used the literal phrase 'more real than everyday reality'",
+   "stat_or_value": "0.6%",
+   "source_key": "lawrence2022",
+   "detail": "The FEELING is near-universal; the exact wording is rare — don't over-read the number."
+  },
+  {
+   "claim": "Mystical-type experience",
+   "stat_or_value": "71.4%",
+   "source_key": "lawrence2022",
+   "detail": "Of the report set."
+  },
+  {
+   "claim": "Naturalistic field study — encountered sentient beings",
+   "stat_or_value": "94% (34 of 36)",
+   "source_key": "michael2021",
+   "detail": "Breakthrough-dose inhaled DMT (mean 54.5 mg)."
+  },
+  {
+   "claim": "Field study — emerged into a qualitatively different space",
+   "stat_or_value": "100% (36 of 36)",
+   "source_key": "michael2021",
+   "detail": "Every participant."
+  },
+  {
+   "claim": "Field study — broke through a veil/membrane",
+   "stat_or_value": "22%",
+   "source_key": "michael2021",
+   "detail": "A distinct arrival into a different environment in 58%."
+  },
+  {
+   "claim": "Field study — entity demeanor charming/inviting vs fearsome",
+   "stat_or_value": "56% charming vs 8% fearsome",
+   "source_key": "michael2021",
+   "detail": "Benevolence dominates, menace is the minority."
+  },
+  {
+   "claim": "'Machine elves' as a specific description",
+   "stat_or_value": "~2.9% (149 Erowid reports)",
+   "source_key": "lyke2019",
+   "detail": "The iconic term is statistically rare; 'robot/machine entity' (~6.7%) is actually more common."
+  },
+  {
+   "claim": "Estimated share who see the specific McKenna-style beings",
+   "stat_or_value": "~10%",
+   "source_key": "michael2021",
+   "detail": "Timmermann's estimate; the recurrence is 'overstated' by McKenna's fame."
+  },
+  {
+   "claim": "DMT reproduces the near-death-experience profile",
+   "stat_or_value": "significant overlap on the Greyson NDE scale",
+   "source_key": "timmermann2018",
+   "detail": "Placebo-controlled comparison vs matched real-NDE reports."
+  },
+  {
+   "claim": "But the signature NDE content is rare in DMT",
+   "stat_or_value": "deceased family ~2% · deceased friends ~1% · life-review ~6%",
+   "source_key": "michael2025",
+   "detail": "The honest disanalogy — quintessential in NDEs, least common in DMT."
+  },
+  {
+   "claim": "Strassman's clinical study scale",
+   "stat_or_value": "~60 volunteers, ~400 doses (UNM, 1990–1995)",
+   "source_key": "strassman",
+   "detail": "About half of high-dose sessions involved being-contact."
+  },
+  {
+   "claim": "Early archive of internet trip reports mentioning entities",
+   "stat_or_value": "226 of 340 (~66%)",
+   "source_key": "meyer",
+   "detail": "Peter Meyer; argued the cross-report consistency makes them 'intersubjectively verifiable.'"
+  }
+ ]
+}

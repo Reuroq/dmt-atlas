@@ -148,7 +148,7 @@
       ${e.frequency ? `<p class="match-freq"><strong>How often reported:</strong> ${esc(clean(e.frequency))}</p>` : ""}
       <div class="match-foot">
         ${srcLine(e) ? `<span class="match-src">${esc(srcLine(e))}</span>` : "<span></span>"}
-        <a class="match-link" href="index.html#${esc(id)}">Open in the Atlas →</a>
+        <a class="match-link" href="explore.html#${esc(id)}">Open in the Atlas →</a>
       </div>
     </article>`;
   }

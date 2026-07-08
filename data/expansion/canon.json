@@ -1,0 +1,375 @@
+{
+  "sources_new": [
+    {
+      "key": "meyer340",
+      "author": "Peter Meyer (compiler); source reports compiled by 'Pup'",
+      "work": "340 DMT Trip Reports (attesting to contact with apparently independently-existing intelligent entities)",
+      "year": "2010",
+      "type": "archive",
+      "note": "Meyer's curated corpus, assembled from anonymous DMT accounts 'Pup' posted to dmt.tribe.net (2005-2006); this is the 'Meyer & Pup' collaboration and the empirical backbone of Meyer's discarnate-entity thesis. Reliability class: community archive of self-reported anonymous accounts, not peer-reviewed; useful for base rates, not for ontology.",
+      "url": "https://archive.org/details/340-dmt-trip-reports"
+    },
+    {
+      "key": "gallimore_ait",
+      "author": "Andrew R. Gallimore",
+      "work": "Alien Information Theory: Psychedelic Drug Technologies and the Cosmic Game",
+      "year": "2019",
+      "type": "theory",
+      "note": "A computational neuroscientist's book-length speculative framework arguing the DMT breakthrough is perceptual contact with a higher-dimensional, information-encoded reality rather than hallucination. Reliability class: individual theoretical synthesis (grounded in real pharmacology but its cosmological claims are unfalsifiable and explicitly non-consensus).",
+      "url": "https://www.goodreads.com/book/show/43999264-alien-information-theory"
+    },
+    {
+      "key": "gallimore_rst",
+      "author": "Andrew R. Gallimore",
+      "work": "Reality Switch Technologies: Psychedelics as Tools for the Discovery and Exploration of New Worlds",
+      "year": "2022",
+      "type": "book",
+      "note": "Gallimore's follow-up detailing how psychedelics interface with cortical dynamics to 'switch' the experienced world; strongest as an accessible account of receptor/brain mechanisms, weaker where it extends to 'genuine other worlds.' Reliability class: individual synthesis mixing peer-reviewed neuroscience with interpretive theory.",
+      "url": "https://www.amazon.com/Reality-Switch-Technologies-Psychedelics-Exploration/dp/1739110102"
+    },
+    {
+      "key": "gallimore2016",
+      "author": "Andrew R. Gallimore & Rick J. Strassman",
+      "work": "A Model for the Application of Target-Controlled Intravenous Infusion for a Prolonged Immersive DMT Psychedelic Experience",
+      "year": "2016",
+      "type": "paper",
+      "note": "Frontiers in Pharmacology proposal (the intellectual seed of DMTx) arguing DMT's rapid onset and lack of acute tolerance make it amenable to anesthesiology-style target-controlled infusion to sustain the state beyond its ~20 min bolus duration. Reliability class: peer-reviewed pharmacokinetic modeling paper.",
+      "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2016.00211/full"
+    },
+    {
+      "key": "luan2023",
+      "author": "Lisa X. Luan, Emma Eckernäs, Michael Ashton, Christopher Timmermann, David Nutt, Robin Carhart-Harris et al. (Imperial College)",
+      "work": "Psychological and physiological effects of extended DMT (DMTx pilot)",
+      "year": "2023",
+      "type": "paper",
+      "note": "First empirical realization of the Gallimore-Strassman infusion model: continuous IV DMT sustained peak effects across ~30 min in healthy volunteers with heart rate habituating within ~15 min and low anxiety, establishing basic safety/tolerability. Reliability class: peer-reviewed clinical pilot (small N, placebo-controlled).",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10851633/"
+    },
+    {
+      "key": "strassman_prophecy",
+      "author": "Rick Strassman",
+      "work": "DMT and the Soul of Prophecy: A New Science of Spiritual Revelation in the Hebrew Bible",
+      "year": "2014",
+      "type": "book",
+      "note": "Strassman argues that his DMT volunteers' visions closely parallel Hebrew prophetic experience, proposing 'theoneurology' (the divine communicating via endogenous DMT). Reliability class: individual scholarly/theological interpretation by the original clinical DMT researcher; the comparative phenomenology is data, the theological model is interpretive.",
+      "url": "https://www.innertraditions.com/books/dmt-and-the-soul-of-prophecy"
+    },
+    {
+      "key": "strassman_innerpaths",
+      "author": "Rick Strassman, Slawek Wojtowicz, Luis Eduardo Luna, Ede Frecska",
+      "work": "Inner Paths to Outer Space: Journeys to Alien Worlds through Psychedelics and Other Spiritual Technologies",
+      "year": "2008",
+      "type": "book",
+      "note": "Multi-author sequel to The Spirit Molecule framing DMT 'alien' worlds as inner-space phenomenology; Frecska contributes a serious (if speculative) quantum/biophysics chapter on non-local consciousness. Reliability class: mixed individual accounts + speculative theory from credentialed researchers.",
+      "url": "https://www.innertraditions.com/books/inner-paths-to-outer-space"
+    },
+    {
+      "key": "stjohn2018",
+      "author": "Graham St John",
+      "work": "The Breakthrough Experience: DMT Hyperspace and Its Liminal Aesthetics",
+      "year": "2018",
+      "type": "paper",
+      "note": "Peer-reviewed cultural-anthropology companion to St John's cultural history (Mystery School in Hyperspace), analyzing the 'breakthrough' as a liminal aesthetic and social ritual rather than a pharmacological fact. Reliability class: peer-reviewed humanities/anthropology (Anthropology of Consciousness).",
+      "url": "https://anthrosource.onlinelibrary.wiley.com/doi/abs/10.1111/anoc.12089"
+    },
+    {
+      "key": "dmtdialogues",
+      "author": "David Luke & Rory Spowers (eds.); Anton Bilton, contributors incl. Strassman, Dennis McKenna, Hancock, Narby, Sheldrake, Metzner",
+      "work": "DMT Dialogues: Encounters with the Spirit Molecule",
+      "year": "2018",
+      "type": "book",
+      "note": "Proceedings of the 2017 Tyringham Hall symposium where 20 researchers debated entity encounters, plant sentience, and DMT ontology; the fullest single collection of David Luke's entity-encounter framing. Reliability class: edited scholarly-but-speculative dialogue (mixes peer-reviewed researchers with frankly metaphysical positions).",
+      "url": "https://www.simonandschuster.com/books/DMT-Dialogues/David-Luke/9781620557471"
+    },
+    {
+      "key": "dennismckenna",
+      "author": "Dennis McKenna",
+      "work": "The Brotherhood of the Screaming Abyss: My Life with Terence McKenna",
+      "year": "2012",
+      "type": "book",
+      "note": "Memoir/ethnopharmacology by the scientifically-trained McKenna brother (later of the Hoasca ayahuasca study), documenting the 1971 La Chorrera experiment and the origins of the tryptamine mythos; the sober counterpoint to Terence's mythmaking. Reliability class: individual memoir by a credentialed ethnopharmacologist.",
+      "url": "https://www.goodreads.com/book/show/13584225-the-brotherhood-of-the-screaming-abyss"
+    },
+    {
+      "key": "invisible_landscape",
+      "author": "Terence McKenna & Dennis McKenna",
+      "work": "The Invisible Landscape: Mind, Hallucinogens, and the I Ching",
+      "year": "1975",
+      "type": "book",
+      "note": "The McKenna brothers' foundational theoretical text linking tryptamine states, shamanism, and their 'Timewave' I Ching model; historically important as origin of the hyperspace/self-transforming-machine-elf lexicon. Reliability class: individual speculative theory (the Timewave is not scientifically supported), primary-source for the DMT subculture's vocabulary.",
+      "url": "https://www.goodreads.com/book/show/336639.The_Invisible_Landscape"
+    },
+    {
+      "key": "mckenna_food",
+      "author": "Terence McKenna",
+      "work": "Food of the Gods: The Search for the Original Tree of Knowledge",
+      "year": "1992",
+      "type": "book",
+      "note": "McKenna's cultural/ethnobotanical history of psychoactive plants and the 'Stoned Ape' origin-of-consciousness hypothesis; influential on the DMT mythos. Reliability class: individual speculative synthesis (Stoned Ape hypothesis is unproven and widely disputed), valuable as cultural primary source.",
+      "url": "https://www.goodreads.com/book/show/93188.Food_of_the_Gods"
+    },
+    {
+      "key": "luna_amaringo1991",
+      "author": "Luis Eduardo Luna & Pablo Amaringo",
+      "work": "Ayahuasca Visions: The Religious Iconography of a Peruvian Shaman",
+      "year": "1991",
+      "type": "book",
+      "note": "Ethnographic catalogue pairing Amaringo's painted ayahuasca visions with Luna's anthropological commentary; a primary iconographic record of vegetalista visionary content (entities, cities, serpents). Reliability class: scholarly ethnography + individual visionary art.",
+      "url": "https://www.goodreads.com/book/show/598754.Ayahuasca_Visions"
+    },
+    {
+      "key": "luna_vegetalismo",
+      "author": "Luis Eduardo Luna",
+      "work": "Vegetalismo: Shamanism among the Mestizo Population of the Peruvian Amazon",
+      "year": "1986",
+      "type": "book",
+      "note": "Luna's academic doctoral ethnography documenting mestizo ayahuasquero practice and the concept of 'plant teachers' (doctores); foundational anthropological grounding for entity/teacher motifs. Reliability class: peer-adjacent academic ethnography.",
+      "url": "https://www.worldcat.org/title/vegetalismo-shamanism-among-the-mestizo-population-of-the-peruvian-amazon/oclc/13947720"
+    },
+    {
+      "key": "metzner_vine",
+      "author": "Ralph Metzner (ed.)",
+      "work": "Sacred Vine of Spirits: Ayahuasca (rev. ed. of Ayahuasca: Human Consciousness and the Spirits of Nature)",
+      "year": "2006",
+      "type": "book",
+      "note": "Metzner's edited anthology of ayahuasca science, phenomenology, and first-person accounts, with attention to recurring visionary content; bridges DMT pharmacology and ceremonial context. Reliability class: edited scholarly + experiential accounts.",
+      "url": "https://www.innertraditions.com/books/sacred-vine-of-spirits"
+    },
+    {
+      "key": "shanon2002",
+      "author": "Benny Shanon",
+      "work": "Ayahuasca Visualizations: A Structural Typology",
+      "year": "2002",
+      "type": "paper",
+      "note": "Shanon's peer-reviewed structural typology of ayahuasca visual content (Journal of Consciousness Studies), a rigorous phenomenological taxonomy predating and complementing his book The Antipodes of the Mind. Reliability class: peer-reviewed first-person phenomenology (large personal + informant corpus).",
+      "url": "https://www.ingentaconnect.com/content/imp/jcs/2002/00000009/00000002/1244"
+    },
+    {
+      "key": "sanz2018",
+      "author": "Camila Sanz, Federico Zamberlan, Earth & Fire Erowid, Enzo Tagliazucchi",
+      "work": "The Experience Elicited by Hallucinogens Presents the Highest Similarity to Dreaming within a Large Database of Psychoactive Substance Reports",
+      "year": "2018",
+      "type": "paper",
+      "note": "NLP analysis of ~15,000 Erowid Experience Vault reports finding hallucinogen (incl. DMT/ayahuasca) narratives are semantically closest to dream reports. Reliability class: peer-reviewed computational corpus study (self-report data, but quantitative and reproducible).",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2018.00007/full"
+    },
+    {
+      "key": "zamberlan2018",
+      "author": "Federico Zamberlan, Camila Sanz, R. Martínez Vivot, C. Pallavicini, F. Erowid, E. Erowid, E. Tagliazucchi",
+      "work": "The Varieties of the Psychedelic Experience: A Study of the Association Between Subjective Effects and Binding Affinity Profiles of Tryptamines and Phenethylamines",
+      "year": "2018",
+      "type": "paper",
+      "note": "Latent-semantic-analysis of Erowid reports mapping subjective-effect language onto receptor binding-affinity profiles; quantifies which DMT-family effects track 5-HT2A vs other receptors. Reliability class: peer-reviewed computational corpus study.",
+      "url": "https://www.frontiersin.org/journals/integrative-neuroscience/articles/10.3389/fnint.2018.00054/full"
+    },
+    {
+      "key": "alamia2020",
+      "author": "Andrea Alamia, Christopher Timmermann, David Nutt, Rufin VanRullen, Robin Carhart-Harris",
+      "work": "DMT Alters Cortical Travelling Waves",
+      "year": "2020",
+      "type": "paper",
+      "note": "eLife EEG study (task brief dated it 2023; actual publication is 2020) showing DMT suppresses top-down alpha travelling waves and boosts bottom-up forward waves plus signal diversity, supporting the 'reduced precision of priors' model of the DMT world-building. Reliability class: peer-reviewed neuroimaging.",
+      "url": "https://elifesciences.org/articles/59784"
+    },
+    {
+      "key": "michael2023",
+      "author": "Pascal Michael, David Luke, Oliver Robinson",
+      "work": "An Encounter with the Self: A Thematic and Content Analysis of the DMT Experience from a Naturalistic Field Study",
+      "year": "2023",
+      "type": "paper",
+      "note": "The 'middle' Michael/Luke/Robinson field-study paper (companion to 'An Encounter with the Other', 2021), analyzing self- and emotion-related themes in observed real-world DMT sessions (vaporized 40-75 mg). Reliability class: peer-reviewed qualitative field study (naturalistic, non-blinded).",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1083356/full"
+    },
+    {
+      "key": "effectindex",
+      "author": "Josie Kins (and contributors)",
+      "work": "Effect Index / Subjective Effect Index (incl. Autonomous Entity, geometry & DMT effect taxonomy)",
+      "year": "2011",
+      "type": "archive",
+      "note": "A community-built granular taxonomy of 200+ subjective psychedelic effects with definitions, subcomponents, and visual replications, including formal 'autonomous entity' and geometry classifications applied to DMT. Reliability class: structured community archive/taxonomy (systematic but not peer-reviewed).",
+      "url": "https://www.effectindex.com/"
+    },
+    {
+      "key": "nexus_lexicon",
+      "author": "DMT-Nexus community",
+      "work": "Hyperspace Lexicon (DMT-Nexus Wiki)",
+      "year": "2010",
+      "type": "community",
+      "note": "Crowd-built glossary formalizing the shared vocabulary and entity classifications of the DMT subculture (Chrysanthemum, Waiting Room, the entity taxonomy); distinct from the DMT-Nexus forum itself as a curated reference wiki. Reliability class: community lexicon (documents folk-phenomenological consensus, not evidence for it).",
+      "url": "https://wiki.dmt-nexus.me/Hyperspace_lexicon"
+    },
+    {
+      "key": "kent_pit",
+      "author": "James L. Kent",
+      "work": "Psychedelic Information Theory: Shamanism in the Age of Reason",
+      "year": "2010",
+      "type": "theory",
+      "note": "The essential skeptical counterweight: Kent argues DMT 'entities' are concrete, fully-immersive hallucinations generated by destabilized/oscillating perceptual control systems, NOT contact with autonomous beings. Reliability class: individual skeptical/neurological synthesis (20+ years, 200+ references; interpretive, not experimental).",
+      "url": "https://www.psychedelic-information-theory.com/"
+    },
+    {
+      "key": "sjostedt",
+      "author": "Peter Sjöstedt-Hughes",
+      "work": "Noumenautics: Metaphysics – Meta-ethics – Psychedelics (and co-ed., Philosophy and Psychedelics, 2022)",
+      "year": "2015",
+      "type": "book",
+      "note": "Academic philosopher (Whitehead/Spinoza/panpsychism) supplying rigorous ontological frameworks for interpreting psychedelic and 5-MeO-DMT unitive states without collapsing into literalism. Reliability class: peer-adjacent academic philosophy (argues about what the experiences could mean, makes no empirical claims).",
+      "url": "https://philpapers.org/rec/SJSNM"
+    },
+    {
+      "key": "bache",
+      "author": "Christopher M. Bache",
+      "work": "LSD and the Mind of the Universe: Diamonds from Heaven",
+      "year": "2019",
+      "type": "book",
+      "note": "ADJACENT (high-dose LSD, not DMT): a religious-studies professor's systematic first-person record of 73 high-dose (500-600 µg) LSD sessions over 20 years, included for comparative cosmological/entity phenomenology. Reliability class: single detailed individual account, explicitly cautionary.",
+      "url": "https://www.simonandschuster.com/books/LSD-and-the-Mind-of-the-Universe/Christopher-M-Bache/9781620559703"
+    },
+    {
+      "key": "evanswentz",
+      "author": "W. Y. Evans-Wentz",
+      "work": "The Fairy-Faith in Celtic Countries",
+      "year": "1911",
+      "type": "book",
+      "note": "Classic folklore ethnography of Celtic fairy belief (changelings, abductions, the 'good people'); a pre-psychedelic cultural precedent for the entity-encounter/abduction motif, cited as parallel by Luke, Hancock, and Vallee. Reliability class: historical folklore ethnography (cultural comparison, not evidence).",
+      "url": "https://www.sacred-texts.com/neu/celt/ffcc/"
+    },
+    {
+      "key": "vallee",
+      "author": "Jacques Vallee",
+      "work": "Passport to Magonia: From Folklore to Flying Saucers",
+      "year": "1969",
+      "type": "book",
+      "note": "Argues fairy lore, religious apparitions, and UFO/abduction reports share a common structure across cultures and eras; the standard reference for the 'entity encounters recur trans-culturally' comparison in DMT discourse. Reliability class: individual comparative folklore/anomalistics (pattern-finding, not causal claims).",
+      "url": "https://www.goodreads.com/book/show/927072.Passport_to_Magonia"
+    },
+    {
+      "key": "barker2018",
+      "author": "Steven A. Barker",
+      "work": "N,N-Dimethyltryptamine (DMT), an Endogenous Hallucinogen: Past, Present, and Future Research / 'facts and myths'",
+      "year": "2018",
+      "type": "paper",
+      "note": "The authoritative sober review of endogenous DMT: confirms DMT is naturally synthesized in mammals (INMT + AADC) and present in body fluids, but debunks the 'pineal-only / massive endogenous dose' folklore. Reliability class: peer-reviewed pharmacology review by the leading endogenous-DMT analytical chemist.",
+      "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2018.00536/full"
+    },
+    {
+      "key": "dean2019",
+      "author": "Jon G. Dean, Jimo Borjigin et al.",
+      "work": "Biosynthesis and Extracellular Concentrations of N,N-Dimethyltryptamine (DMT) in Mammalian Brain",
+      "year": "2019",
+      "type": "paper",
+      "note": "Scientific Reports study showing rat cerebral cortex releases DMT at extracellular concentrations comparable to serotonin and other monoamines, with a further rise after experimental cardiac arrest. Reliability class: peer-reviewed neuroscience (rodent; human relevance and function remain open).",
+      "url": "https://www.nature.com/articles/s41598-019-45812-w"
+    },
+    {
+      "key": "griffiths2019",
+      "author": "Roland R. Griffiths, Ethan S. Hurwitz, Alan K. Davis, Matthew W. Johnson, Robert Jesse",
+      "work": "Survey of Subjective 'God Encounter Experiences': Comparisons Among Naturally Occurring Experiences and Those Occasioned by Psilocybin, LSD, Ayahuasca, or DMT",
+      "year": "2019",
+      "type": "survey",
+      "note": "Johns Hopkins PLOS ONE survey (4,285 respondents across 5 groups) comparing non-drug vs psychedelic 'encounter with God/Ultimate Reality' experiences; the key comparison anchor for DMT entity-encounter surveys. Reliability class: peer-reviewed large retrospective survey (self-selected, retrospective).",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0214377"
+    },
+    {
+      "key": "wittmann",
+      "author": "Marc Wittmann",
+      "work": "Altered States of Consciousness: Experiences Out of Time and Self",
+      "year": "2018",
+      "type": "book",
+      "note": "MIT Press synthesis by a leading time-perception researcher explaining the 'timelessness' and ego-dissolution common to intense DMT/psychedelic states via insular-cortex mechanisms of time and body perception. Reliability class: peer-reviewed-adjacent scholarly synthesis grounded in experimental psychophysics.",
+      "url": "https://mitpress.mit.edu/9780262038317/altered-states-of-consciousness/"
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "In the Meyer/Pup corpus, roughly two-thirds of DMT accounts explicitly report interacting entities",
+      "stat_or_value": "226 of 340 reports (66%) marked 'entities'",
+      "source_key": "meyer340",
+      "detail": "A report was tagged 'entities' only if it described one or more apparently independently-existing beings interacting intelligently/intentionally with the observer; near-universal mention of intense color and fractal geometry across the set."
+    },
+    {
+      "claim": "Naturalistic-observation DMT reports almost universally describe emerging into 'other worlds' and very frequently 'beings'",
+      "stat_or_value": "94% contained encounters with beings; 100% described emerging into other worlds",
+      "source_key": "michael2021",
+      "detail": "Michael, Luke & Robinson 'An Encounter With the Other' (2021), thematic/content analysis of observed real-world DMT sessions."
+    },
+    {
+      "claim": "Vaporized DMT doses used in the Michael/Luke/Robinson naturalistic field study",
+      "stat_or_value": "40-75 mg vaporized, mean 54.5 mg",
+      "source_key": "michael2023",
+      "detail": "Doses self-administered by participants in settings of their choice; 'An Encounter with the Self' analyzed self- and emotion-related themes."
+    },
+    {
+      "claim": "Content analysis of online DMT trip reports for entity descriptions",
+      "stat_or_value": "149 reports (90% male, mean age 25), 180 total entity encounters, 2009-2019",
+      "source_key": "lyke2019",
+      "detail": "Lyke's descriptive taxonomy of entity appearance/behavior drawn from published online accounts."
+    },
+    {
+      "claim": "Large international survey of DMT breakthrough entity encounters",
+      "stat_or_value": "2,561 respondents reporting an 'encounter' after a breakthrough inhaled DMT dose",
+      "source_key": "davis2020",
+      "detail": "Davis et al. (2020) — most respondents rated the encounter among the most meaningful experiences of their lives and many believed the entity continued to exist after."
+    },
+    {
+      "claim": "Following a subjective 'God encounter' experience, self-reported atheism dropped sharply",
+      "stat_or_value": "atheism fell from 21% to 8% of the sample after the experience",
+      "source_key": "griffiths2019",
+      "detail": "4,285 respondents across 5 groups (non-drug 809, psilocybin 1,184, LSD 1,251, ayahuasca 435, DMT 606); non-drug group picked 'God' as best descriptor while psychedelic groups picked 'Ultimate Reality'."
+    },
+    {
+      "claim": "A single bolus of DMT produces effects too short to study or work with therapeutically, motivating infusion",
+      "stat_or_value": "peak/total effects last under ~20 minutes",
+      "source_key": "gallimore2016",
+      "detail": "Gallimore & Strassman proposed target-controlled IV infusion (borrowed from anesthesiology) to hold brain DMT steady and prolong the immersive state."
+    },
+    {
+      "claim": "Extended-state DMT (DMTx) infusion was safe and physiologically stable in the first pilot",
+      "stat_or_value": "28 healthy volunteers; ~30 min continuous IV; heart rate habituated within ~15 min; anxiety stayed low",
+      "source_key": "luan2023",
+      "detail": "Imperial College pilot (single-blind, placebo-controlled, five dose levels), 256-channel EEG + plasma DMT measured; peak effects sustained across the infusion."
+    },
+    {
+      "claim": "DMT reshapes the brain's dominant travelling-wave direction",
+      "stat_or_value": "decreased alpha/beta (13-30 Hz) power; top-down alpha waves down, bottom-up forward waves up; increased signal diversity",
+      "source_key": "alamia2020",
+      "detail": "First EEG study of pure DMT on ongoing activity; supports 'reduced precision-weighting of priors' as a mechanism for the vividness of the DMT world."
+    },
+    {
+      "claim": "Endogenous DMT is released in mammalian brain at neurotransmitter-scale concentrations",
+      "stat_or_value": "rat cortical extracellular DMT comparable to serotonin/monoamines; rises further after cardiac arrest",
+      "source_key": "dean2019",
+      "detail": "Present with or without the pineal gland, undercutting 'pineal-only' claims; function in humans remains unestablished."
+    },
+    {
+      "claim": "The 'pineal gland floods you with DMT' story is folklore; DMT synthesis is real but modest and not pineal-exclusive",
+      "stat_or_value": "INMT + AADC required; INMT transcripts found in cortex, pineal, and choroid plexus",
+      "source_key": "barker2018",
+      "detail": "Barker confirms DMT is a genuine endogenous compound detectable in blood/urine/CSF but rebuts the myth of large pineal DMT surges at birth/death."
+    },
+    {
+      "claim": "The leading skeptical position holds DMT entities are hallucinations, not autonomous beings",
+      "stat_or_value": "framed as 'concrete', fully-immersive hallucinations from destabilized perceptual control",
+      "source_key": "kent_pit",
+      "detail": "Kent's Psychedelic Information Theory (20+ years, 200+ references) explicitly denies DMT is a gateway to alternate dimensions or contact with independent elves/aliens — the honesty-charter counterweight."
+    },
+    {
+      "claim": "A granular community taxonomy formalizes 'autonomous entity' as a defined subjective effect",
+      "stat_or_value": "200+ catalogued subjective effects, indexed since 2011",
+      "source_key": "effectindex",
+      "detail": "Josie Kins' Subjective Effect Index lists autonomous entities among high-level internal hallucinations alongside sceneries, landscapes, and all-encompassing geometry for DMT."
+    },
+    {
+      "claim": "Hallucinogen experience narratives are, linguistically, closest to dream reports",
+      "stat_or_value": "highest semantic similarity to dreaming across a large multi-substance report database",
+      "source_key": "sanz2018",
+      "detail": "NLP/latent-semantic analysis of thousands of Erowid Experience Vault reports (DMT/ayahuasca among the hallucinogens compared)."
+    },
+    {
+      "claim": "Comparative (non-DMT) benchmark for sustained high-dose visionary cosmology",
+      "stat_or_value": "73 high-dose LSD sessions (500-600 µg) over 20 years (1979-1999)",
+      "source_key": "bache",
+      "detail": "Bache's single-subject record is adjacent (LSD, not DMT) but offered as a comparison case for recurrent entity/cosmic-consciousness phenomenology; author cautions strongly against replication."
+    }
+  ]
+}
