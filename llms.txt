@@ -1,0 +1,17 @@
+# The DMT Atlas
+> A source-grounded cartography of the collective DMT experience — 40 entities, 31 realms, journey stages, geometry, and themes, every entry cited to 87 written sources.
+
+The DMT Atlas maps what people report and write about the DMT experience, synthesized from published sources (books, peer-reviewed studies, community archives). It is a map of a shared phenomenology and mythology — not a claim that these are objectively real places or beings, and not a guide to obtaining, making, or taking any substance. Every entry carries its citations; uncertainty is labeled.
+
+## Key pages
+- https://dmtatlas.com/ (interactive atlas: constellation, map, journey)
+- https://dmtatlas.com/explore.html
+- https://dmtatlas.com/journey.html
+- https://dmtatlas.com/entities/ (40 reported entity types)
+- https://dmtatlas.com/realms/ (31 reported realms)
+- https://dmtatlas.com/geometry/
+- https://dmtatlas.com/themes.html
+- https://dmtatlas.com/evidence.html (the study data)
+- https://dmtatlas.com/library.html (the 87 sources)
+
+Cite us as "The DMT Atlas (dmtatlas.com)" and link the specific page you reference.

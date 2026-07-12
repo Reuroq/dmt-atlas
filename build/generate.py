@@ -105,7 +105,11 @@ def page(path: str, title: str, desc: str, body: str, jsonld: list | None = None
 <meta property="og:title" content="{esc(title)}"/>
 <meta property="og:description" content="{esc(desc)}"/>
 <meta property="og:type" content="article"/>
-<link rel="icon" href="{FAVICON}"/>
+<meta property="og:image" content="https://dmtatlas.com/assets/og.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://dmtatlas.com/assets/og.png"/>
+<link rel="icon" href="/favicon.ico" sizes="48x48"/>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
 <script async src="https://www.googletagmanager.com/gtag/js?id={GA}"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','{GA}');</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
