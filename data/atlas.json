@@ -828,6 +828,46 @@
    "year": "1945",
    "type": "book",
    "note": "Ethnography of Aboriginal Australian initiation, including the insertion of quartz (mabain/maban) by beings to transform the initiate 'from physical to psychic levels'."
+  },
+  {
+   "key": "psychalpha",
+   "author": "Psychedelic Alpha",
+   "work": "DMT Patent Tracker & quarterly psychedelic patent updates",
+   "year": "2026",
+   "type": "tracker",
+   "note": "Independent tracker of psychedelic patent filings, grants, and status changes. Primary running record for the DMT/5-MeO-DMT landscape."
+  },
+  {
+   "key": "portasophia",
+   "author": "Porta Sophia",
+   "work": "The Psychedelic Prior Art Library",
+   "year": "2026",
+   "type": "nonprofit",
+   "note": "Nonprofit curating prior art on 50+ psychedelic compounds and filing third-party pre-issuance submissions so examiners see the public-domain record before granting."
+  },
+  {
+   "key": "fto",
+   "author": "Freedom to Operate (Carey Turnbull)",
+   "work": "Post-grant challenges to psychedelic patents",
+   "year": "2022",
+   "type": "nonprofit",
+   "note": "Nonprofit that files formal patent challenges; its petitions against Compass Pathways' psilocybin patents were not upheld by the PTAB but narrowed claim construction."
+  },
+  {
+   "key": "ciel_ayahuasca",
+   "author": "CIEL / COICA",
+   "work": "Challenge to US Plant Patent PP5,751 ('Da Vine', Banisteriopsis caapi)",
+   "year": "1999",
+   "type": "legal",
+   "note": "Amazonian Indigenous coalition (COICA) and CIEL challenged Loren Miller's ayahuasca-vine plant patent — the canonical biopiracy / sacred-plant-ownership case. Patent stood until natural expiry in 2003."
+  },
+  {
+   "key": "usona_openscience",
+   "author": "Usona Institute",
+   "work": "Open-science publication of 5-MeO-DMT / psilocybin processes",
+   "year": "2020",
+   "type": "nonprofit",
+   "note": "Nonprofit that deliberately does not patent and publishes its processes openly to seed prior art and keep the field open."
   }
  ],
  "entities": [

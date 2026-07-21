@@ -55,7 +55,8 @@ def pct_of(freq: str):
 NAV = [
     ("Entities", "/entities/"), ("Realms", "/realms/"), ("Geometry", "/geometry/"),
     ("Motifs", "/motifs/"), ("Crossings", "/crossings/"), ("Journey", "/journey.html"),
-    ("Themes", "/themes.html"), ("Evidence", "/evidence.html"), ("Library", "/library.html"),
+    ("Themes", "/themes.html"), ("Evidence", "/evidence.html"), ("Ownership", "/who-owns-dmt.html"),
+    ("Library", "/library.html"),
 ]
 
 
@@ -74,6 +75,7 @@ FOOTER = f"""<footer class="site-foot"><div class="foot-inner">
     <a href="/geometry/">Geometry &amp; phenomena</a><a href="/journey.html">The Journey</a>
     <a href="/themes.html">Themes &amp; mechanics</a>{'<a href="/motifs/">Motifs &amp; events</a>' if DATA.get('motifs') else ''}</div>
   <div><h4>Grounding</h4><a href="/evidence.html">The evidence — by the numbers</a>
+    <a href="/who-owns-dmt.html">Who owns the molecule?</a>
     <a href="/library.html">The library — every source</a><a href="/explore.html">Interactive explorer</a></div>
   <div><h4>Tools</h4><a href="/identify.html">What did I meet?</a>
     <a href="/questions.html">Questions from hyperspace</a><a href="/grounding.html">After the experience</a></div>
@@ -557,6 +559,111 @@ def crossings_index() -> None:
          body, active="Crossings", jsonld=[crumb_ld([("Atlas", "/"), ("Crossings", "/crossings/")])])
 
 
+# ══════════════════════════════════════════ ownership (the DMT patent landscape)
+# IP/legal literacy only. Claim TYPE and status — never enabling chemistry.
+# The molecule is public domain; what gets patented is the periphery.
+
+PATENTS = [
+    {"owner": "Cybin (via Small Pharma)", "num": "US 11,406,619", "url": "https://patents.google.com/patent/US11406619B2",
+     "claim": "Injectable formulation", "indication": "Major depression", "status": "Granted", "cls": "epi-study", "era": "~2020"},
+    {"owner": "Cybin", "num": "US 11,771,681", "url": "https://patents.google.com/patent/US11771681B2",
+     "claim": "Deuterated-DMT composition-of-matter", "indication": "Depression", "status": "Granted", "cls": "epi-study", "era": "~2020–21"},
+    {"owner": "Cybin", "num": "US 11,773,062", "url": "https://patents.google.com/patent/US11773062B2",
+     "claim": "Medical-use (+ process claim)", "indication": "Depression", "status": "Granted", "cls": "epi-study", "era": "~2020–21"},
+    {"owner": "Cybin / Small Pharma estate", "num": "32 granted + 170+ pending", "url": "",
+     "claim": "Formulation · dosing · deuterated analog · method-of-treatment", "indication": "Depression · DMT-assisted therapy", "status": "Portfolio", "cls": "epi-folk", "era": "2019–"},
+    {"owner": "atai Life Sciences", "num": "VLS-01 (applications)", "url": "",
+     "claim": "Oral transmucosal film formulation", "indication": "Treatment-resistant depression", "status": "Pending", "cls": "epi-folk", "era": "~2021"},
+    {"owner": "Beckley Psytech → Eli Lilly (Jul 2026)", "num": "BPL-003 (applications)", "url": "",
+     "claim": "Intranasal 5-MeO-DMT formulation", "indication": "Treatment-resistant depression", "status": "Pending", "cls": "epi-folk", "era": "~2021"},
+    {"owner": "Algernon Pharmaceuticals", "num": "AP-188 (applications)", "url": "",
+     "claim": "Salt/polymorph · dosing · combination", "indication": "Stroke · TBI", "status": "Pending", "cls": "epi-folk", "era": "~2021–22"},
+    {"owner": "GH Research (United States)", "num": "US 18/675,614", "url": "",
+     "claim": "Method-of-treatment (5-MeO-DMT)", "indication": "Depression", "status": "All claims rejected", "cls": "epi-contested", "era": "~2019–20"},
+    {"owner": "GH Research (Europe)", "num": "EP counterpart", "url": "",
+     "claim": "Method / product-use (broad)", "indication": "Depression", "status": "Granted", "cls": "epi-study", "era": "~2019–20"},
+    {"owner": "Biomind Labs", "num": "US 18/697,499", "url": "",
+     "claim": "Nano / encapsulated formulation", "indication": "Neuropsychiatric", "status": "Pending", "cls": "epi-folk", "era": "2024"},
+    {"owner": "SW Holdings", "num": "US 17/624,377", "url": "",
+     "claim": "Metered-dosing formulation", "indication": "Broad psychedelics", "status": "Pending", "cls": "epi-folk", "era": "~2020"},
+    {"owner": "Gregory Ellis (individual)", "num": "US 17/555,763", "url": "",
+     "claim": "Delivery device (vaporizer)", "indication": "Delivery", "status": "21 / 22 claims challenged", "cls": "epi-contested", "era": "~2021"},
+    {"owner": "Loren Miller (foundational precedent)", "num": "US PP5,751 “Da Vine”", "url": "https://patents.google.com/patent/USPP5751P",
+     "claim": "Plant patent — B. caapi (ayahuasca vine)", "indication": "—", "status": "Expired 2003 · challenged 1999", "cls": "phase", "era": "1984"},
+]
+
+OWNERSHIP_SECTIONS = [
+    ("The paradox: you cannot patent DMT, so they patent everything around it",
+     "<p>N,N-DMT is old, natural, and exhaustively documented — it cannot be owned. What <em>can</em> be owned is the periphery: a particular <strong>formulation</strong>, a <strong>salt or crystal form</strong>, a <strong>deuterated analog</strong>, a <strong>dosing regimen</strong>, a <strong>delivery device</strong>, or a claim to use the molecule <strong>to treat a specific condition</strong>. This is the single most misunderstood point in the whole debate. When you read that a company has 'patented DMT,' it has almost always patented one of these peripheral things — not the molecule, which stays in the public domain.</p>"),
+    ("Who holds what",
+     "<p>The table below is a high-level map — assignee, patent or application number, the <em>type</em> of claim, the indication, and status. It records who is <em>trying</em> to own a slice, and how those attempts are faring. It is deliberately claim-type only: no chemistry, no methods. Numbers link to the public patent record so you can verify rather than trust. This landscape changes monthly; the date below is when it was last checked.</p>"),  # table injected in builder on this heading
+    ("The prior-art war",
+     "<p>Because the molecule is ancient, many early filings were <strong>broad</strong> — claiming, in effect, obvious or already-known practice. Two watchdogs push back. <strong>Porta Sophia</strong>, a psychedelic prior-art library, files third-party submissions so examiners see the public record before granting; its work helped get <em>all</em> pending US claims rejected on GH Research's 5-MeO-DMT-for-depression application, and challenged 21 of 22 claims on a DMT-vape device. <strong>Freedom to Operate</strong> mounts formal post-grant challenges. And <strong>Usona Institute</strong> takes the opposite tack entirely — it refuses to patent and publishes openly, deliberately seeding prior art to keep the field open. A telling detail: GH Research's US claims were rejected while its <em>European</em> counterpart granted broadly — the same idea, opposite outcomes, one border apart.</p>"),
+    ("Who can own a sacred plant?",
+     "<p>The moral anchor of the whole debate predates the biotech rush. In 1986 an American, Loren Miller, was granted a US plant patent (PP5,751) on an ayahuasca vine cultivar he called 'Da Vine.' In 1999 a coalition of Amazonian Indigenous peoples (COICA) and the Center for International Environmental Law challenged it as biopiracy — the appropriation of a plant sacred to hundreds of communities. The patent office first rejected it, then reinstated it on technical grounds; it stood until it expired in 2003. The case remains the reference point for every question the current DMT rush raises about traditional knowledge, consent, and benefit-sharing.</p>"),
+    ("Not everyone is enclosing",
+     "<p>Three correctives worth holding. <strong>Compass Pathways</strong>, the name most associated with 'psychedelic patents,' has <em>no DMT program</em> — its patents are synthetic psilocybin. <strong>Philip Morris</strong> is, by some counts, the single largest holder of patents that merely <em>mention</em> DMT — a tobacco-chemistry artifact, not a medicine play; 'discloses DMT' is not 'owns DMT medicine.' And patents are not purely villainous: they are also how the very expensive clinical trials that could bring these into supervised care get funded. The honest frame is a contested territory, not a heist.</p>"),
+]
+
+OWNERSHIP_FAQS = [
+    ("Can you patent DMT?", "Not the molecule itself — N,N-DMT is public domain. Companies patent the periphery: a formulation, salt, deuterated analog, dose regimen, delivery device, or a use-to-treat-a-condition claim. That is why 'they patented DMT' is almost always inaccurate as stated."),
+    ("Who owns the DMT patents?", "The largest DMT-specific estate is Cybin's (which absorbed Small Pharma) — dozens granted and well over a hundred pending, including deuterated-DMT and injectable-formulation patents. Others include atai, Algernon, Biomind, and — on the related 5-MeO-DMT side — Beckley Psytech, acquired by Eli Lilly in July 2026. Compass Pathways holds psilocybin patents, not DMT."),
+    ("Is it possible to own ayahuasca?", "This was tested directly: a 1986 US plant patent on an ayahuasca vine ('Da Vine') was challenged by Amazonian Indigenous groups as biopiracy. It was reinstated on technical grounds and expired in 2003. The molecule and the plant are public domain; specific cultivars, formulations, and uses are where ownership claims are made."),
+    ("Does patenting mean the medicine works?", "No. A granted patent is a legal claim of novelty, not proof of safety or efficacy — that is what clinical trials decide. Many of these are early-stage, and grants are regularly rejected, narrowed, or challenged after the fact."),
+]
+
+
+def who_owns_dmt() -> None:
+    secs = ""
+    for h2, bodyhtml in OWNERSHIP_SECTIONS:
+        secs += f'<div class="section"><h2><span class="h-mark">✦</span>{esc(h2)}</h2>{bodyhtml}'
+        if h2 == "Who holds what":
+            rows = ""
+            for r in PATENTS:
+                num = (f'<a href="{r["url"]}" rel="nofollow noopener" target="_blank">{esc(r["num"])}</a>'
+                       if r["url"] else esc(r["num"]))
+                rows += (f'<tr><td>{esc(r["owner"])}</td><td>{num}</td><td>{esc(r["claim"])}</td>'
+                         f'<td>{esc(r["indication"])}</td><td><span class="badge {r["cls"]}">{esc(r["status"])}</span></td>'
+                         f'<td>{esc(r["era"])}</td></tr>')
+            secs += (f'<div class="tablewrap"><table class="evidence">'
+                     f'<thead><tr><th>Owner</th><th>Patent / application</th><th>Claim type</th>'
+                     f'<th>Indication</th><th>Status</th><th>Filed</th></tr></thead><tbody>{rows}</tbody></table></div>'
+                     f'<p class="src">Landscape last checked {TODAY}. Sources: '
+                     f'<a href="/library.html#src-psychalpha">Psychedelic Alpha — DMT Patent Tracker</a>, '
+                     f'<a href="/library.html#src-portasophia">Porta Sophia</a>, and the public patent record '
+                     f'(Google Patents / Espacenet). Status changes often — verify against the linked records.</p>')
+        secs += "</div>"
+    cites = cite_html([
+        {"source_key": "psychalpha", "detail": "Running tracker of DMT/5-MeO-DMT patent filings, grants, and status changes."},
+        {"source_key": "portasophia", "detail": "Prior-art submissions that got GH Research's US 5-MeO-DMT claims rejected and challenged a DMT-vape patent."},
+        {"source_key": "fto", "detail": "Formal post-grant challenges to psychedelic patents."},
+        {"source_key": "usona_openscience", "detail": "The open-science counter-model: publish, do not patent."},
+        {"source_key": "ciel_ayahuasca", "detail": "The 'Da Vine' ayahuasca plant-patent challenge — the sacred-plant-ownership precedent."},
+    ])
+    secs += f'<div class="section"><h2><span class="h-mark">✦</span>What the sources say</h2>{cites}</div>'
+    secs += ('<div class="skeptic"><b>What this is:</b> IP literacy, not legal advice, and never a guide to '
+             'obtaining, making, or taking anything. Claim <em>types</em> and statuses only — no chemistry. '
+             'This field moves monthly; treat every status as of the date above and verify against the primary record.</div>')
+    body = f"""<main class="wrap">
+{crumbs(("Who owns DMT?", ""))}
+<p class="kicker">OWNERSHIP · THE DMT ATLAS</p>
+<h1 class="page-title">Who Owns the Molecule?</h1>
+<p class="lede">DMT is ancient and public-domain — so no one can own it. Yet a wave of companies is racing to patent everything <em>around</em> it: formulations, salts, deuterated analogs, dose regimens, devices, and the right to use it against a named illness. Here is who is trying, how they are faring, and the older question underneath it all — whether a sacred molecule can be owned at all.</p>
+<div class="dossier-grid">
+<article class="dossier-main">{secs}{faq_block(OWNERSHIP_FAQS)}</article>
+<aside class="rail">
+<div class="rail-box"><h4>The one thing to know</h4><div class="kv">You cannot patent DMT. You can patent a <b>formulation, salt, analog, dose, device, or use</b> — the periphery, not the molecule.</div></div>
+<div class="rail-box"><h4>Biggest DMT estate</h4><div class="kv"><b>Cybin</b> (absorbed Small Pharma): dozens granted, 170+ pending.</div></div>
+<div class="rail-box"><h4>The counter-model</h4><div class="kv"><b>Usona</b> refuses to patent and publishes openly to keep the field free.</div></div>
+<div class="rail-box"><h4>Related</h4><div class="chiprow"><a class="chip" href="/questions.html">Questions from hyperspace</a><a class="chip" href="/library.html">The library</a></div></div>
+</aside>
+</div></main>"""
+    ld = [crumb_ld([("Atlas", "/"), ("Who owns DMT?", "/who-owns-dmt.html")]), faq_ld(OWNERSHIP_FAQS)]
+    page("who-owns-dmt.html", "Who Owns the Molecule? — The DMT Patent Landscape · The DMT Atlas",
+         "Who is trying to patent DMT — and why you cannot own the molecule itself. A neutral, cited map of the DMT/5-MeO-DMT patent landscape, the prior-art fights, and the sacred-plant-ownership debate. IP literacy, no how-to.",
+         body, jsonld=ld, active="Ownership")
+
+
 # ══════════════════════════════════════════ build everything
 def build():
     counts = {k: len(DATA.get(k, [])) for k in
@@ -791,10 +898,14 @@ if(location.hash && /^#(entity|realm|geometry|theme|phase|source|about)/.test(lo
         crossing_page(c)
     crossings_index()
 
+    # ---------- ownership ----------
+    who_owns_dmt()
+
     # ---------- sitemap ----------
     urls = [f"{BASE}/", f"{BASE}/explore.html", f"{BASE}/journey.html", f"{BASE}/themes.html",
             f"{BASE}/evidence.html", f"{BASE}/library.html", f"{BASE}/entities/", f"{BASE}/realms/",
-            f"{BASE}/geometry/", f"{BASE}/identify.html", f"{BASE}/questions.html", f"{BASE}/grounding.html"]
+            f"{BASE}/geometry/", f"{BASE}/identify.html", f"{BASE}/questions.html", f"{BASE}/grounding.html",
+            f"{BASE}/who-owns-dmt.html"]
     if DATA.get("motifs"):
         urls.append(f"{BASE}/motifs/")
     if CROSSINGS:
