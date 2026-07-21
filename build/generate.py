@@ -379,24 +379,123 @@ CROSSINGS = [
         ],
         "honesty": "That a percept has a known mechanism explains its form and its reliability, not its ultimate status. Guthrie's anthropomorphism theory and Barrett's HADD are well-developed but not the last word in the cognitive science of religion. This page offers them as an explanatory lens for a common and frightening experience — not as proof that nothing is there.",
     },
+    {
+        "slug": "the-false-familiar",
+        "title": "The False Familiar",
+        "subtitle": "The Mimic, the doppelgänger, and why a loved one's face is the most frightening mask",
+        "blurb": "The dread of the Mimic isn't monstrous — it's the specific horror of a near-perfect familiar that is subtly wrong. Freud, Mori, and a thousand years of folklore already named it.",
+        "desc": "The DMT 'Mimic' — a being wearing a familiar face — mapped onto Freud's uncanny, Mori's uncanny valley, and the doppelgänger and changeling of folklore. One cognitive signature, four instances. Cited and neutral.",
+        "lede": "Some DMT beings frighten because they are monstrous. The <a href=\"/entities/the-mimic-wearer-of-familiar-faces.html\">Mimic</a> frightens for the opposite reason: it wears a face you know — a friend, a parent, your own — and something about it is fractionally, unplaceably wrong. That precise dread has a name in three separate literatures that rarely cite one another.",
+        "related_entities": ["The Mimic — wearer of familiar faces", "Deceased loved ones & ancestors"],
+        "related_motifs": [],
+        "sections": [
+            ("The recognition test",
+             "<p>Recognising a person runs as a fast, largely automatic pass: a face resolves, a familiarity signal fires, and you feel — before any reasoning — that you know who this is. The Mimic's horror is mechanical. It <em>passes</em> that first pass: the face reads as familiar. Then a finer check fails — the eyes are wrong, the warmth is missing, the timing is off. What is left is a category error the body registers as dread: <em>this is someone I know, and it is not.</em> The threat is not ugliness; it is the collapse of recognition itself.</p>"),
+            ("Freud to Mori",
+             "<p>Freud named this in 1919. The <em>unheimlich</em> — literally 'un-home-like' — is the familiar turned strange, and his central case is the <strong>double</strong>: the doppelgänger, the face that is yours and not yours. Half a century later the roboticist Masahiro Mori drew the <strong>uncanny valley</strong>: as a figure approaches human likeness our warmth rises, then plunges into revulsion at <em>almost</em>-human, before recovering at fully human. Mori named the valley after Freud's <em>unheimlich</em> directly. Two fields, one curve — and the Mimic sits at its lowest point.</p>"),
+            ("The face that shouldn't be here",
+             "<p>Folklore ritualised the false familiar long before either. The <strong>doppelgänger / fetch</strong>: to see your own double, or a living relative's, was an omen of death. The <strong>changeling</strong>: the child returned that looks right and is not, the substitute that fails the finer test. The <strong>revenant</strong> that comes home wearing a dead relative's face. Across the tale-type indexes these are one recurring structure — the token that passes recognition then fails it. The Mimic is a fourth instance of a very old cognitive alarm, met this time as an entity.</p>"),
+        ],
+        "faqs": [
+            ("Why did the DMT being look like someone I know?",
+             "The 'wearing a familiar face' encounter is a recurring report. It engages the recognition system — the being reads as known, then registers as subtly wrong. The Atlas documents the pattern; it makes no claim about what the being is."),
+            ("Why is the Mimic so frightening if it looks familiar?",
+             "Because familiarity is exactly the trap. Monstrous things trip an obvious threat response; the false familiar passes the first recognition check and fails a finer one, producing a category-error dread — 'someone I know, and not' — which is the uncanny in its purest form."),
+            ("What is the uncanny valley?",
+             "A 1970 observation by roboticist Masahiro Mori: as something looks more human, our affinity rises, then drops sharply into revulsion at near-but-not-quite human likeness. Mori named it after Freud's concept of the uncanny."),
+        ],
+        "sources": [
+            {"source_key": "freud_uncanny", "detail": "The uncanny as the familiar made strange; the double/doppelganger as its central case."},
+            {"source_key": "mori_uncanny", "detail": "Revulsion peaks at almost-but-not-quite human likeness; named after Freud's unheimlich."},
+            {"source_key": "uther_atu", "detail": "Changeling and doppelganger tale-types: the substitute that looks right and is not."},
+            {"source_key": "davis2020", "detail": "Deceased/familiar figures appear among recurring encounter types."},
+        ],
+        "honesty": "The false familiar is a cognitive signature shared by a percept (uncanny valley), a psychoanalytic idea (the double), and a folklore motif (changeling/revenant). Naming that shared structure explains why the Mimic is frightening; it says nothing about whether the Mimic is anything more than a face the mind assembled.",
+    },
+    {
+        "slug": "why-you-cant-bring-it-back",
+        "title": "Why You Can't Bring It Back",
+        "subtitle": "State-dependent memory and the gift that turns to leaves",
+        "blurb": "The revelation feels un-losable in the space and evaporates on return — then waits for you next time. That asymmetry is a documented property of memory, and folklore wrote it down as law.",
+        "desc": "The re-entry amnesia of DMT ('losing the message') mapped onto state-dependent memory and the folklore of the fairy-gift that turns worthless at the threshold. Cited; the ineffability question is deliberately kept separate.",
+        "lede": "A near-universal complaint: inside the space the insight is total and obviously un-losable, and within seconds of return it is gone — yet on the next journey it is waiting again. The Atlas calls this <a href=\"/motifs/losing-the-message-the-amnesia-on-return.html\">Losing the Message</a>, and it behaves far more like a specific property of memory than like ordinary forgetting.",
+        "related_entities": [],
+        "related_motifs": ["Losing the Message — the amnesia on return", "The Download — compressed information transfer"],
+        "sections": [
+            ("Encoded in a state you can't get back to",
+             "<p>Memory is cued by the state it was formed in. In the classic experiments, material learned in one physiological state is recalled best in that same state (Overton, 1964); divers who learn a word list underwater recall it better underwater than on land (Godden &amp; Baddeley, 1975). This is <strong>state-dependent memory</strong>, and it predicts the DMT pattern exactly. The insight is encoded in a state ordinary waking consciousness cannot reach — so it is not merely forgotten, it is <em>inaccessible from here</em>. The tell is the return of the same content on re-dosing: recovery-on-re-entry is the signature of a retrieval-cue failure, not of erasure.</p>"),
+            ("Not the same as ineffability",
+             "<p>One honest distinction has to be drawn, because the two are constantly conflated. <em>Ineffability</em> is 'I remember it vividly but cannot put it into words' — a translation problem. <em>Re-entry amnesia</em> is 'I cannot retrieve it at all' — an access problem. They are different phenomena with different mechanisms, and this page is about the second. Chaining them together produces a tidy story and a wrong one; the Atlas keeps them apart.</p>"),
+            ("The gift that turns to leaves",
+             "<p>Folklore encoded the same asymmetry as narrative law. Fairy gold that becomes dead leaves or coal once carried across the threshold; the Sibyl's prophecies written on leaves and scattered by the wind; the dream-revelation gone on waking. The recurring rule is that value and knowledge are real <em>inside their own world</em> and do not survive the crossing back. It is the pre-scientific observation of exactly what state-dependent memory describes — the boundary, not the mind, is where the gift is lost.</p>"),
+        ],
+        "faqs": [
+            ("Why can't I remember my DMT insights?",
+             "The likely mechanism is state-dependent memory: material encoded in the DMT state is cued by that state and is hard to retrieve from ordinary consciousness. That fits the reports better than simple forgetting — especially the way the same content returns on the next experience."),
+            ("Why does the same realization come back each time?",
+             "Return-on-re-entry is the giveaway. If the memory were erased it would not come back; that it reappears when you re-enter the state points to a retrieval-cue effect — the state is the key that unlocks the content."),
+            ("Is the message real, or is it nonsense?",
+             "The Atlas takes no position on the content's worth. The memory framing explains why it is hard to carry back; it does not rule on whether the insight was profound or noise. Both happen, and integration work is where people sort them out."),
+        ],
+        "sources": [
+            {"source_key": "overton1964", "detail": "State-dependent learning: material encoded in a state is best retrieved in that state."},
+            {"source_key": "goddenbaddeley1975", "detail": "Context-dependent memory (the divers study): retrieval is cued by the encoding context."},
+            {"source_key": "uther_atu", "detail": "Fairy-gift-reversal motifs: value that turns worthless once carried across the threshold."},
+            {"source_key": "mckenna", "detail": "'It melts away like a dream' — the folk-observation of the return-trip amnesia."},
+        ],
+        "honesty": "State-dependent memory is a real and well-evidenced phenomenon, and it fits the re-entry amnesia reports closely. That is an explanation of the pattern, not a measurement of any specific person's experience, and it says nothing about the value of what was 'lost'. The folklore parallel is illustrative, not evidentiary.",
+    },
+    {
+        "slug": "the-implant",
+        "title": "The Implant",
+        "subtitle": "Quartz, abduction, and the Download — when beings put something inside you",
+        "blurb": "A distinct motif hides inside the DMT surgery reports: not being probed, but being given an implant that permanently changes you. Aboriginal initiation and abduction lore share the exact grammar.",
+        "desc": "The DMT 'Download' / 'Gift' / insertion motif — beings implanting something transformative — mapped onto Aboriginal mabain quartz-insertion initiation and abduction-implant lore. Cited; kept distinct from the dismemberment and examination motifs.",
+        "lede": "The Atlas already maps the examination-table overlap between DMT surgery and alien abduction. Buried inside the <a href=\"/motifs/the-download-compressed-information-transfer.html\">Download</a> and <a href=\"/motifs/the-gift-an-object-handed-over.html\">Gift</a> motifs is a different, less-noticed act: not being inspected, but being <em>implanted</em> — an external intelligence installs something inside you that leaves you permanently altered.",
+        "related_entities": ["The Surgeons — hyperspace medical team"],
+        "related_motifs": ["The Gift — an object handed over", "The Download — compressed information transfer", "The Insertion — implant, probe, procedure"],
+        "sections": [
+            ("The oldest version: quartz in the body",
+             "<p>Across Aboriginal Australia the most consistent act of initiation is not instruction but <em>installation</em>. In Elkin's ethnography, beings of the Dreamtime insert <strong>quartz crystals — mabain / maban</strong> — into the candidate's body, and it is this insertion that converts him 'from physical to psychic levels.' The transformative object is placed <em>inside</em>; the initiate is remade by what he now carries. This is a distinct grammar from the trials and dismemberment that surround it — it is implantation.</p>"),
+            ("The modern version: implants",
+             "<p>The twentieth-century abduction narrative independently fixates on the same act. Alongside the examination table, its most persistent motif is the <strong>implant</strong> — an object the visitors leave in the body, the procedure that installs rather than merely inspects (catalogued, controversially, by Mack). Whatever one makes of the accounts as events, as <em>folklore</em> they repeat the initiatory structure precisely: beings open the body and leave something transformative behind.</p>"),
+            ("The DMT version: the Download",
+             "<p>The DMT <a href=\"/motifs/the-download-compressed-information-transfer.html\">Download</a> and <a href=\"/motifs/the-gift-an-object-handed-over.html\">Gift</a> are the same grammar abstracted one step — from object to information. Something is <em>placed into you</em>: a compressed transmission, a bestowed knowing, occasionally a felt object, and you return marked or upgraded. It is worth separating this cleanly from the two neighbouring motifs the Atlas already tracks: it is not the reassembly of <em>dismemberment</em>, and not the inspection of the <em>examination</em> — it is installation. The object-to-information seam is where the parallel is loosest, and it is stated, not smuggled.</p>"),
+        ],
+        "faqs": [
+            ("Why do DMT beings insert something into me?",
+             "The 'something placed inside that transforms you' motif is old and cross-cultural — from quartz-insertion in Aboriginal initiation to abduction implants — and on DMT it tends to arrive as information (the 'Download') rather than an object. The Atlas maps the shared structure and takes no view on whether anything is literally installed."),
+            ("How is this different from the abduction examination?",
+             "The examination inspects; the implant installs. The Atlas already covers the exam-table overlap separately. This crossing is specifically about the second act — the being leaving something transformative behind — which is a distinct motif with its own long lineage."),
+            ("Did the beings give me something real?",
+             "The Atlas doesn't adjudicate that. What it can say is that the 'implantation-as-transformation' motif recurs across initiation myth, abduction lore, and DMT reports as a narrative structure — which explains its familiarity without settling its status."),
+        ],
+        "sources": [
+            {"source_key": "elkin", "detail": "Aboriginal initiation: beings insert quartz (mabain) into the initiate to remake him 'from physical to psychic levels'."},
+            {"source_key": "mack", "detail": "The abduction implant motif: an object installed in the body, distinct from mere examination."},
+            {"source_key": "eliade", "detail": "Initiatory insertion/substitution motifs across shamanic traditions."},
+            {"source_key": "strassman", "detail": "Clinical DMT reports of information 'downloads' and being remade by hyperspace technicians."},
+        ],
+        "honesty": "Implantation-as-transformation is a shared narrative structure across three bodies of lore, with one honest seam: the older versions install an object, the DMT version usually installs information. The parallel is about the grammar of the motif, not a claim that the same literal event occurs. Elkin, Eliade, and Mack are all, in their different ways, contested sources.",
+    },
 ]
 
-CROSSING_BY_ENTITY: dict[str, list] = {}
+CROSSING_BY_NODE: dict[str, list] = {}
 for _c in CROSSINGS:
-    for _e in _c.get("related_entities", []):
-        CROSSING_BY_ENTITY.setdefault(slug(_e), []).append(_c)
+    for _e in _c.get("related_entities", []) + _c.get("related_motifs", []):
+        CROSSING_BY_NODE.setdefault(slug(_e), []).append(_c)
 
 
-def crossing_card(entity_name: str) -> str:
-    """Reciprocal link injected into an entity page that features in a crossing."""
-    cs = CROSSING_BY_ENTITY.get(slug(entity_name))
+def crossing_card(node_name: str, noun: str = "being") -> str:
+    """Reciprocal link injected into an entity/motif page that features in a crossing."""
+    cs = CROSSING_BY_NODE.get(slug(node_name))
     if not cs:
         return ""
     links = "".join(
         f'<p><a href="/crossings/{c["slug"]}.html"><b>{esc(c["title"])}</b></a> — {esc(c["subtitle"])}</p>'
         for c in cs)
     return ('<div class="section"><h2><span class="h-mark">✦</span>'
-            'Crossings — where this being meets the older record</h2>' + links + '</div>')
+            f'Crossings — where this {noun} meets the older record</h2>' + links + '</div>')
 
 
 def crossing_page(c: dict) -> None:
@@ -417,6 +516,10 @@ def crossing_page(c: dict) -> None:
                           for r in c.get("related_realms", []))
     if realm_chips:
         rail += f'<div class="rail-box"><h4>Realms</h4><div class="chiprow">{realm_chips}</div></div>'
+    motif_chips = "".join(f'<a class="chip" href="/motifs/{slug(m)}.html">{esc(m)}</a>'
+                          for m in c.get("related_motifs", []))
+    if motif_chips:
+        rail += f'<div class="rail-box"><h4>Motifs</h4><div class="chiprow">{motif_chips}</div></div>'
     nsrc = len(c.get("sources") or [])
     rail += (f'<div class="rail-box"><h4>Citations</h4><div class="kv"><b>{nsrc}</b> sources'
              f' — see <a href="/library.html">the library</a>.</div></div>')
@@ -506,7 +609,7 @@ def build():
             qas = [(f"What is '{nm}' in DMT reports?", (m.get("description") or "")[:400]),
                    (f"Is '{nm}' commonly reported?",
                     m.get("frequency_note") or "It recurs across independent report sets; see the cited sources.")]
-            node_page("motifs", "motifs", m, "motif", qas=qas)
+            node_page("motifs", "motifs", m, "motif", extra_sections=crossing_card(m["name"], "motif"), qas=qas)
         index_page("motifs", "motifs", DATA["motifs"], "motif", "var(--c-motif)",
                    "Motifs & Events", "The recurring narrative beats of the reports — the greeting, the presentation, "
                    "the download, the send-back. What repeatedly happens, told across independent accounts.",

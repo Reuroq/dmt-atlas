@@ -780,6 +780,54 @@
    "year": "2000",
    "type": "paper",
    "note": "Names the HADD: an evolved, hair-trigger tendency to infer agents behind ambiguous events. Cognitive-science-of-religion framing; a hypothesis about mechanism."
+  },
+  {
+   "key": "freud_uncanny",
+   "author": "Sigmund Freud",
+   "work": "The Uncanny (Das Unheimliche)",
+   "year": "1919",
+   "type": "essay",
+   "note": "Theorises the double/doppelganger and the dread of the familiar made strange (un-heimlich, 'un-home-like'). The source of the modern concept of the uncanny."
+  },
+  {
+   "key": "mori_uncanny",
+   "author": "Masahiro Mori",
+   "work": "The Uncanny Valley (Bukimi no Tani; trans. IEEE Robotics & Automation)",
+   "year": "1970",
+   "type": "paper",
+   "note": "A near-human figure that registers as subtly wrong provokes revulsion — the 'uncanny valley'. Mori named the effect after Freud's unheimlich."
+  },
+  {
+   "key": "uther_atu",
+   "author": "Hans-Jorg Uther",
+   "work": "The Types of International Folktales (the ATU index)",
+   "year": "2004",
+   "type": "reference",
+   "note": "Standard catalogue of folktale types and motifs, including changelings (the substitute that looks right) and fairy-gifts that turn worthless once carried across the threshold."
+  },
+  {
+   "key": "overton1964",
+   "author": "Donald A. Overton",
+   "work": "State-dependent (dissociated) learning",
+   "year": "1964",
+   "type": "paper",
+   "note": "Foundational demonstration that material encoded in a given physiological state is best retrieved in that same state."
+  },
+  {
+   "key": "goddenbaddeley1975",
+   "author": "D. R. Godden & A. D. Baddeley",
+   "work": "Context-dependent memory in two natural environments (the divers study)",
+   "year": "1975",
+   "type": "paper",
+   "note": "Classic demonstration that retrieval is cued by the encoding context: material learned underwater is recalled better underwater."
+  },
+  {
+   "key": "elkin",
+   "author": "A. P. Elkin",
+   "work": "Aboriginal Men of High Degree",
+   "year": "1945",
+   "type": "book",
+   "note": "Ethnography of Aboriginal Australian initiation, including the insertion of quartz (mabain/maban) by beings to transform the initiate 'from physical to psychic levels'."
   }
  ],
  "entities": [
