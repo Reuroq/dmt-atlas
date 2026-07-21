@@ -740,6 +740,46 @@
    "year": "2009-present",
    "type": "community archive",
    "note": "Primary community archive for recurring-location reports: hives, councils, libraries, underwater realms, judgment spaces, familiar-room experiences."
+  },
+  {
+   "key": "lewiswilliams",
+   "author": "J. David Lewis-Williams",
+   "work": "The Mind in the Cave: Consciousness and the Origins of Art",
+   "year": "2002",
+   "type": "book",
+   "note": "Argues Upper Palaeolithic cave art derives substantially from altered-state (entoptic) imagery; the foundational statement of the neuropsychological model of prehistoric art. Framework, not proof."
+  },
+  {
+   "key": "lewiswilliams_dowson",
+   "author": "J. D. Lewis-Williams & T. A. Dowson",
+   "work": "The Signs of All Times: Entoptic Phenomena in Upper Palaeolithic Art (Current Anthropology 29:2)",
+   "year": "1988",
+   "type": "paper",
+   "note": "Proposes that geometric percepts generated in altered states recur cross-culturally in rock art. Influential and contested; a model of why trance content enters sacred imagery."
+  },
+  {
+   "key": "bleeklloyd",
+   "author": "Wilhelm Bleek & Lucy Lloyd",
+   "work": "Specimens of Bushman Folklore (the Bleek-Lloyd |Xam archive)",
+   "year": "1911",
+   "type": "archive",
+   "note": "Primary 19th-century record of |Xam San testimony, including |Kaggen, the Mantis trickster-creator. Ethnographic source; |Kaggen is a mythic narrative figure, not described as a trance encounter."
+  },
+  {
+   "key": "guthrie",
+   "author": "Stewart Elliott Guthrie",
+   "work": "Faces in the Clouds: A New Theory of Religion",
+   "year": "1993",
+   "type": "book",
+   "note": "Argues religion originates in systematic anthropomorphism — the human default to over-detect faces and intentional agents. A theory among several, not a settled finding."
+  },
+  {
+   "key": "barrett_hadd",
+   "author": "Justin L. Barrett",
+   "work": "Exploring the Natural Foundations of Religion (Trends in Cognitive Sciences) — the Hyperactive Agency Detection Device",
+   "year": "2000",
+   "type": "paper",
+   "note": "Names the HADD: an evolved, hair-trigger tendency to infer agents behind ambiguous events. Cognitive-science-of-religion framing; a hypothesis about mechanism."
   }
  ],
  "entities": [

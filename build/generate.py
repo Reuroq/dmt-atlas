@@ -54,8 +54,8 @@ def pct_of(freq: str):
 
 NAV = [
     ("Entities", "/entities/"), ("Realms", "/realms/"), ("Geometry", "/geometry/"),
-    ("Motifs", "/motifs/"), ("Journey", "/journey.html"), ("Themes", "/themes.html"),
-    ("Evidence", "/evidence.html"), ("Library", "/library.html"),
+    ("Motifs", "/motifs/"), ("Crossings", "/crossings/"), ("Journey", "/journey.html"),
+    ("Themes", "/themes.html"), ("Evidence", "/evidence.html"), ("Library", "/library.html"),
 ]
 
 
@@ -306,6 +306,154 @@ def index_page(kind: str, folder: str, nodes: list, badge: str, accent: str,
          jsonld=[crumb_ld([("Atlas", "/"), (title, f"/{folder}/")])])
 
 
+# ══════════════════════════════════════════ crossings (cross-tradition hubs)
+# Each crossing links a reported DMT figure to the same figure in the older
+# record (myth, folklore, the cognitive science of perception), cited and
+# ontologically neutral. Section bodies are trusted HTML authored here.
+
+CROSSINGS = [
+    {
+        "slug": "the-mantis-older-than-religion",
+        "title": "The Mantis Older Than Religion",
+        "subtitle": "|Kaggen, trance cosmology, and the insectoid beings of DMT",
+        "blurb": "A mantis-headed intelligence sits at the centre of two altered-state worlds ten thousand years and a hemisphere apart. What the convergence does — and does not — show.",
+        "desc": "The praying-mantis being reported on DMT meets |Kaggen, the Mantis trickster-creator of the |Xam San — bridged by the entoptic model of the world's oldest art. Cited, and careful about what convergence proves.",
+        "lede": "One of the more disquieting regularities in the DMT literature is the <a href=\"/entities/mantis-insectoid-beings.html\">praying-mantis being</a> — a towering, triangular-headed, clinical intelligence. Ten thousand years and a hemisphere away, the oldest continuously recorded religion on earth put a mantis at the centre of creation. This page maps that convergence, names the bridge that connects the two, and is deliberate about the difference between a pattern and a proof.",
+        "related_entities": ["Mantis & insectoid beings", "The Surgeons — hyperspace medical team"],
+        "related_realms": ["The Hive"],
+        "sections": [
+            ("The being people meet",
+             "<p>Across the largest report sets, insectoid and specifically mantis-like beings recur as a distinct class: investigative, telepathic, emotionally cool, often encountered in a clinical or technological setting. Michael and colleagues coded grey- or mantis-like forms in roughly 6% of encounters; the insectoid category appears throughout the Johns Hopkins and Lawrence corpora. What marks the mantis is less its frequency than its <em>consistency</em> — strangers converge on the same triangular head, the same appraising stance. The Atlas documents that convergence as phenomenology; it makes no claim about what, if anything, is on the other side.</p>"),
+            ("The oldest trickster",
+             "<p>Among the |Xam San (Bushmen) of southern Africa, <strong>|Kaggen</strong> — the Mantis — is the trickster-creator: shape-shifter, maker and unmaker, dying and reviving. He is recorded first-hand in the nineteenth-century Bleek-Lloyd archive, one of the deepest primary records of any hunter-gatherer cosmology. An honest caveat belongs here up front: |Kaggen is a <em>mythic narrative figure</em> — he has a wife and family, he acts in stories — not a being someone reports meeting in trance. The link to DMT does not run through the myth directly. It runs through what the San did with altered states, and through what those states did to the oldest human art.</p>"),
+            ("The bridge — entoptic imagery and the first art",
+             "<p>This is the load-bearing connection. In the neuropsychological model of rock art (Lewis-Williams &amp; Dowson's <em>The Signs of All Times</em>, 1988; Lewis-Williams's <em>The Mind in the Cave</em>, 2002), the geometric and figurative content of humanity's earliest images derives substantially from altered states of consciousness — the same class of visionary experience the San entered in the trance dance, now argued to underlie Upper Palaeolithic cave art. The model is influential and genuinely contested. But it supplies the one thing the DMT literature lacks: a mechanism for why altered states might generate <em>shared content</em> that then settles into a culture's sacred imagery. If trance reliably produces certain figures, those figures can become gods — and a mantis is one of them, in two places, without contact between them.</p>"),
+        ],
+        "faqs": [
+            ("Did the San take DMT?",
+             "There is no evidence the |Xam used DMT or any tryptamine. The connection is not a shared drug. It is a shared class of experience — altered states — plus the entoptic model that ties San trance cosmology to their rock art. Treat the parallel as convergence, not lineage."),
+            ("Is the mantis a real being, then?",
+             "The Atlas does not adjudicate that. Convergence across cultures is compatible with several readings: a shared neurobiology of the visual and agency systems; an archetype in the Jungian sense; or, for those who hold it, genuine contact. The page maps the pattern and labels the uncertainty; it does not resolve it."),
+            ("Why a mantis specifically?",
+             "Open question. Hypotheses range from the mantis's uncanny, front-facing, quasi-human gaze and alien articulation, to the general human tendency to read predatory insect forms as intelligences. None is established. The honest answer is that the recurrence is documented and the cause is not."),
+        ],
+        "sources": [
+            {"source_key": "michael2021", "detail": "Coded grey- or mantis-like forms in roughly 6% of DMT entity encounters."},
+            {"source_key": "davis2020", "detail": "Large survey establishing insectoid/'alien' beings as a recurring encounter class."},
+            {"source_key": "bleeklloyd", "detail": "Primary |Xam San testimony recording |Kaggen, the Mantis trickster-creator."},
+            {"source_key": "lewiswilliams_dowson", "detail": "The entoptic model: altered-state percepts recur cross-culturally in rock art."},
+            {"source_key": "lewiswilliams", "detail": "Argues the oldest human art derives substantially from altered states of consciousness."},
+        ],
+        "honesty": "A mantis at the centre of two trance worlds is a real and striking convergence. It is not, by itself, evidence that the mantis is a being that exists independently of the mind that meets it. Cultural diffusion is ruled out by distance; a shared human neurobiology of vision and agency, and the entoptic bridge, remain the most parsimonious frames — with genuine contact held open, not endorsed.",
+    },
+    {
+        "slug": "why-the-walls-have-faces",
+        "title": "Why the Walls Have Faces",
+        "subtitle": "Pareidolia, agent detection, and the machinery that may have built the gods",
+        "blurb": "On DMT the walls fill with faces and the space feels watched. A 1993 theory of religion says that exact reflex is where gods came from.",
+        "desc": "The faces-in-the-walls and the felt sense of being watched on DMT, mapped onto face pareidolia, hyperactive agency detection, and Guthrie's theory that religion begins in over-detecting faces. Cited and neutral.",
+        "lede": "Two of the most common things people report on DMT are <a href=\"/entities/embedded-faces-faces-in-the-walls.html\">faces embedded in every surface</a> and the sense of being <a href=\"/entities/the-scanners-entry-examiners.html\">watched and appraised</a> by a populated space. Neither is exotic. They are the ceiling of a bias you use every waking second — and one influential theory says that same bias is where religion itself began.",
+        "related_entities": ["Embedded faces — faces in the walls", "The Scanners — entry examiners"],
+        "related_realms": [],
+        "sections": [
+            ("The over-detecting brain",
+             "<p>Human vision runs a fast, coarse, permanently-on face detector: three dots in a triangle, a pattern of shadow and socket, the front of a car — and you see a face before you can stop yourself. The system is tuned to <em>miss nothing</em>, so it fires on noise. Agency works the same way. Barrett's <strong>Hyperactive Agency Detection Device</strong> describes an evolved, hair-trigger tendency to infer an <em>agent</em> behind ambiguous events — because mistaking the wind for a stalker is cheap, and mistaking a stalker for the wind is fatal. Both systems are biased, by design, toward false positives.</p>"),
+            ("Faces in the clouds",
+             "<p>In <em>Faces in the Clouds</em> (1993), Stewart Guthrie argues that religion originates in exactly this over-detection, scaled up: systematic anthropomorphism — reading faces, minds, and intentions into a world that has none — yields a cosmos that is watched, animate, and addressed. On this account the gods are not added to perception; they fall out of its default settings. DMT is interesting here because it does not <em>introduce</em> the reflex. It saturates it. The walls-made-of-faces, the felt tribunal, the sense that the space is attending to you — this is the standing bias driven to its maximum, which is why the percept feels less like imagination than like something switched on.</p>"),
+            ("What changes when you know this",
+             "<p>Naming the mechanism does two useful things and one thing it cannot do. It explains the <em>form</em>: why faces and watchers, specifically, rather than arbitrary shapes. And it reframes the fear — the sense of being judged is, at minimum, your most ancient perceptual safeguard at full volume, which is worth knowing at 3 a.m. What it cannot do is settle the ontology. That a percept has a mechanism does not prove there is nothing there; it proves the brain is shaped to find someone. Guthrie's is one theory among several, and the Atlas presents it as a lens, not a verdict.</p>"),
+        ],
+        "faqs": [
+            ("Why do I see faces in the walls on DMT?",
+             "Your visual system carries an always-on, over-sensitive face detector — the same one that finds faces in clouds and outlets. DMT appears to drive that detector far past its normal threshold, so nearly every surface resolves into faces. It is a saturation of an ordinary bias, not a new faculty."),
+            ("Is something really watching me?",
+             "The felt sense of being watched is produced by an evolved agency-detection bias tuned toward false positives. That accounts for the feeling regardless of whether an agent is present. The Atlas does not claim to know whether anything is there; it explains why the sense of a watcher is so reliably generated."),
+            ("What is pareidolia?",
+             "Pareidolia is the perception of meaningful patterns — most often faces — in random or ambiguous stimuli. It is universal and non-pathological. On DMT it is one of the most consistently reported features of the visual field."),
+        ],
+        "sources": [
+            {"source_key": "guthrie", "detail": "Religion as systematic anthropomorphism: over-detecting faces and agents in a mindless world."},
+            {"source_key": "barrett_hadd", "detail": "The Hyperactive Agency Detection Device — a hair-trigger tendency to infer agents."},
+            {"source_key": "davis2020", "detail": "Documents 'presence'/being-watched and face phenomena among recurring encounter features."},
+            {"source_key": "strassman", "detail": "Clinical reports of populated, attending spaces and the sense of being expected."},
+        ],
+        "honesty": "That a percept has a known mechanism explains its form and its reliability, not its ultimate status. Guthrie's anthropomorphism theory and Barrett's HADD are well-developed but not the last word in the cognitive science of religion. This page offers them as an explanatory lens for a common and frightening experience — not as proof that nothing is there.",
+    },
+]
+
+CROSSING_BY_ENTITY: dict[str, list] = {}
+for _c in CROSSINGS:
+    for _e in _c.get("related_entities", []):
+        CROSSING_BY_ENTITY.setdefault(slug(_e), []).append(_c)
+
+
+def crossing_card(entity_name: str) -> str:
+    """Reciprocal link injected into an entity page that features in a crossing."""
+    cs = CROSSING_BY_ENTITY.get(slug(entity_name))
+    if not cs:
+        return ""
+    links = "".join(
+        f'<p><a href="/crossings/{c["slug"]}.html"><b>{esc(c["title"])}</b></a> — {esc(c["subtitle"])}</p>'
+        for c in cs)
+    return ('<div class="section"><h2><span class="h-mark">✦</span>'
+            'Crossings — where this being meets the older record</h2>' + links + '</div>')
+
+
+def crossing_page(c: dict) -> None:
+    secs = ""
+    for h2, bodyhtml in c["sections"]:
+        secs += f'<div class="section"><h2><span class="h-mark">✦</span>{esc(h2)}</h2>{bodyhtml}</div>'
+    cites = cite_html(c.get("sources"))
+    if cites:
+        secs += f'<div class="section"><h2><span class="h-mark">✦</span>What the sources say</h2>{cites}</div>'
+    if c.get("honesty"):
+        secs += f'<div class="skeptic"><b>What this does and does not mean:</b> {esc(c["honesty"])}</div>'
+    rail = ""
+    ent_chips = "".join(f'<a class="chip" href="/entities/{slug(e)}.html">{esc(e)}</a>'
+                        for e in c.get("related_entities", []))
+    if ent_chips:
+        rail += f'<div class="rail-box"><h4>Beings in this crossing</h4><div class="chiprow">{ent_chips}</div></div>'
+    realm_chips = "".join(f'<a class="chip" href="/realms/{slug(r)}.html">{esc(r)}</a>'
+                          for r in c.get("related_realms", []))
+    if realm_chips:
+        rail += f'<div class="rail-box"><h4>Realms</h4><div class="chiprow">{realm_chips}</div></div>'
+    nsrc = len(c.get("sources") or [])
+    rail += (f'<div class="rail-box"><h4>Citations</h4><div class="kv"><b>{nsrc}</b> sources'
+             f' — see <a href="/library.html">the library</a>.</div></div>')
+    body = f"""<main class="wrap">
+{crumbs(("Crossings", "/crossings/"), (c["title"], ""))}
+<p class="kicker">CROSSINGS · THE DMT ATLAS</p>
+<h1 class="page-title">{esc(c["title"])}</h1>
+<p class="aka">{esc(c["subtitle"])}</p>
+<p class="lede">{c["lede"]}</p>
+<div class="dossier-grid">
+<article class="dossier-main">{secs}{faq_block(c.get("faqs"))}</article>
+<aside class="rail">{rail}</aside>
+</div></main>"""
+    ld = [crumb_ld([("Atlas", "/"), ("Crossings", "/crossings/"), (c["title"], f"/crossings/{c['slug']}.html")])]
+    if c.get("faqs"):
+        ld.append(faq_ld(c["faqs"]))
+    page(f"crossings/{c['slug']}.html", f"{c['title']} — Crossings · The DMT Atlas",
+         c["desc"], body, jsonld=ld, active="Crossings")
+
+
+def crossings_index() -> None:
+    cards = ""
+    for c in CROSSINGS:
+        cards += (f'<a class="card" href="/crossings/{c["slug"]}.html">'
+                  f'<h3>{esc(c["title"])}</h3><p>{esc(c["subtitle"])}</p>'
+                  f'<div class="meta"><span>{esc(c["blurb"])}</span></div></a>')
+    body = f"""<main class="wrap">
+{crumbs(("Crossings", ""))}
+<p class="kicker">THE DMT ATLAS</p>
+<h1 class="page-title">Crossings</h1>
+<p class="lede">Where a being, realm, or motif reported on DMT meets the same figure in the older record — myth, folklore, and the cognitive science of perception. Each crossing states the connection, cites it to published sources, and stays careful about the difference between a pattern and a proof.</p>
+<div class="grid">{cards}</div></main>"""
+    page("crossings/index.html", "Crossings — cross-tradition connections · The DMT Atlas",
+         "Where the reported DMT experience meets myth, folklore, and the cognitive science of perception — cited, and careful about what convergence proves.",
+         body, active="Crossings", jsonld=[crumb_ld([("Atlas", "/"), ("Crossings", "/crossings/")])])
+
+
 # ══════════════════════════════════════════ build everything
 def build():
     counts = {k: len(DATA.get(k, [])) for k in
@@ -321,7 +469,7 @@ def build():
         if ph and PHASE_BY_NUM.get(ph):
             qas.append((f"When in the experience are {nm} encountered?",
                         f"Most reports place them around phase {ph} — {PHASE_BY_NUM[ph]['name']} — of the commonly-reported journey arc."))
-        node_page("entities", "entities", e, "entity", qas=qas)
+        node_page("entities", "entities", e, "entity", extra_sections=crossing_card(nm), qas=qas)
     index_page("entities", "entities", DATA["entities"], "entity", "var(--c-entity)",
                "The Entities", "Every recurring being reported in the DMT literature — who appears, how they behave, "
                "how often, and exactly who reported them. A field guide to the reported inhabitants of hyperspace.",
@@ -535,12 +683,20 @@ if(location.hash && /^#(entity|realm|geometry|theme|phase|source|about)/.test(lo
          jsonld=[{"@context": "https://schema.org", "@type": "WebSite", "name": "The DMT Atlas",
                   "url": BASE + "/", "description": "A source-grounded cartography of the reported DMT experience."}])
 
+    # ---------- crossings ----------
+    for c in CROSSINGS:
+        crossing_page(c)
+    crossings_index()
+
     # ---------- sitemap ----------
     urls = [f"{BASE}/", f"{BASE}/explore.html", f"{BASE}/journey.html", f"{BASE}/themes.html",
             f"{BASE}/evidence.html", f"{BASE}/library.html", f"{BASE}/entities/", f"{BASE}/realms/",
             f"{BASE}/geometry/", f"{BASE}/identify.html", f"{BASE}/questions.html", f"{BASE}/grounding.html"]
     if DATA.get("motifs"):
         urls.append(f"{BASE}/motifs/")
+    if CROSSINGS:
+        urls.append(f"{BASE}/crossings/")
+        urls += [f"{BASE}/crossings/{c['slug']}.html" for c in CROSSINGS]
     for folder, cat in (("entities", "entities"), ("realms", "realms"),
                         ("geometry", "geometries"), ("motifs", "motifs")):
         for n in DATA.get(cat, []):
