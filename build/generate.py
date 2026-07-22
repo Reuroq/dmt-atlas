@@ -877,6 +877,15 @@ Each note says what the source contributes and how much weight it can carry.</p>
   archives — then cross-linked, so every entity knows its realm, its phase, and its sources.</p>
   <div class="grid">{cards}</div>
 </section>
+<section class="home-section section-cards">
+  <h2>Start here — the questions people ask</h2>
+  <p class="sub">New to the subject, or trying to make sense of an experience? These honest, cited explainers
+  answer what people most often ask — and take no verdict where the science is genuinely unresolved.</p>
+  <div class="grid"><a class="card" style="--card-accent:var(--c-theme)" href="/questions.html">
+<h3>Questions from hyperspace</h3><p>Are the entities real? Why do strangers see the same beings? Is it like a near-death experience? Cited answers, no verdict.</p><div class="meta"><span class="count-pill">7 questions</span></div></a><a class="card" style="--card-accent:var(--c-entity)" href="/identify.html">
+<h3>What did I meet?</h3><p>Describe your encounter and mirror it to the archetypes others most commonly report — with how often, and who documented it.</p><div class="meta"><span class="count-pill">encounter matcher</span></div></a><a class="card" style="--card-accent:var(--c-realm)" href="/grounding.html">
+<h3>After the experience</h3><p>If a trip left you shaken or changed — what's commonly reported, and real peer-support and crisis resources.</p><div class="meta"><span class="count-pill">support &amp; resources</span></div></a></div>
+</section>
 <section class="charter"><div class="charter-card">
   <h2>What this is — and what it isn't</h2>
   <p>{esc(META.get('charter', ''))}</p>
