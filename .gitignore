@@ -1,7 +1,11 @@
 build/shots/
 data/raw/
+data/research/raw/
 __pycache__/
 *.pyc
 .DS_Store
 Thumbs.db
 build/shots_v2/
+
+*.log
+fetch.log

@@ -1,0 +1,2822 @@
+{
+  "generated_utc": "2026-07-24T22:00:37Z",
+  "source_notes": "Dropped 20 CTG false-positives (matched a search term via psilocybin/psilocin chemical naming, no actual DMT/5-MeO-DMT/ayahuasca): NCT05516823, NCT02163707, NCT06258031, NCT00302744, NCT00957359, NCT05301608, NCT05351541, NCT07610369, NCT06455293, NCT00465595, NCT02950467, NCT05548075, NCT04932434, NCT05180149, NCT01943994, NCT05065294, NCT04620759, NCT02145091, NCT03417661, NCT02223806. | WHO ICTRP: no usable JSON endpoint (HTTP 404); skipped. Portal requires interactive session/export. | Europe PMC preprints (SRC:PPR): 164 records.",
+  "counts": {
+    "total_trials": 52,
+    "by_status": {
+      "COMPLETED": 29,
+      "RECRUITING": 11,
+      "ACTIVE_NOT_RECRUITING": 4,
+      "TERMINATED": 3,
+      "UNKNOWN": 2,
+      "NOT_YET_RECRUITING": 2,
+      "WITHDRAWN": 1
+    },
+    "by_phase": {
+      "PHASE1": 26,
+      "PHASE2": 13,
+      "N/A": 6,
+      "PHASE1, PHASE2": 5,
+      "EARLY_PHASE1": 2
+    },
+    "by_molecule_tag": {
+      "N,N-DMT": 23,
+      "5-MeO-DMT": 20,
+      "ayahuasca": 9
+    },
+    "by_sponsor_top15": {
+      "GH Research Ireland Limited": 9,
+      "University Hospital, Basel, Switzerland": 6,
+      "Beckley Psytech Limited": 5,
+      "Universidade Federal do Rio Grande do Norte": 4,
+      "University of Sao Paulo": 4,
+      "Small Pharma Ltd": 3,
+      "Yale University": 3,
+      "Biomind Labs Inc.": 3,
+      "Johns Hopkins University": 2,
+      "Psychiatric University Hospital, Zurich": 1,
+      "Vireo Health": 1,
+      "Beckley Med Foundation": 1,
+      "Axial Therapeutic Research": 1,
+      "Usona Institute": 1,
+      "Algernon Pharmaceuticals": 1
+    },
+    "total_preprints": 164
+  },
+  "trials": [
+    {
+      "nct_id": "NCT02914769",
+      "title": "Antidepressant Effects of Ayahuasca: a Randomized Placebo Controlled Trial in Treatment Resistant Depression",
+      "status": "COMPLETED",
+      "phase": "PHASE1, PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Major Depression"
+      ],
+      "interventions": [
+        "DRUG: Ayahuasca",
+        "DRUG: placebo"
+      ],
+      "sponsor": "Universidade Federal do Rio Grande do Norte",
+      "collaborators": [
+        "University of Sao Paulo"
+      ],
+      "enrollment": 35,
+      "start_date": "2014-02",
+      "completion_date": "2016-12",
+      "countries": [
+        "Brazil"
+      ],
+      "has_results": true,
+      "molecule_tag": "ayahuasca",
+      "summary": "The purpose of the present trial is to test the efficacy of Ayahuasca in treatment-resistant depression. Ayahuasca is a decoction of two plants, long used by Amazonian Amerindians. Traditionally, it is prepared by decoction of a bush (Psychotria viridis) with a liana (Banisteriopsis caapi). P. viridis is a rich source of N,N-dimethyltryptamine (DMT), a serotonergic agonist, and B. caapi contains potent monoamine oxidase-A inhibitors (MAOi-A), such as harmine, harmaline. The study is designed as a randomized placebo controlled trial with two parallel arms, and it will also evaluate changes of different biomarkers of depression including anatomical and functional Magnetic Resonance Imaging (MRI), serum levels of BDNF, TNF-a, cortisol, IL-6, and IL-10, polysomnography, neuropsychological, psychiatric scales and questionnaires.",
+      "url": "https://clinicaltrials.gov/study/NCT02914769"
+    },
+    {
+      "nct_id": "NCT04640831",
+      "title": "Safety of GH001 in Healthy Volunteers",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Healthy Volunteers"
+      ],
+      "interventions": [
+        "DRUG: 5 Methoxy N,N Dimethyltryptamine"
+      ],
+      "sponsor": "GH Research Ireland Limited",
+      "collaborators": [],
+      "enrollment": 22,
+      "start_date": "2019-03-13",
+      "completion_date": "2019-10-04",
+      "countries": [
+        "Netherlands"
+      ],
+      "has_results": false,
+      "molecule_tag": "5-MeO-DMT",
+      "summary": "The aim of the study is to investigate the safety of GH001 (containing 5-methoxy-dimethyltryptamine; 5-MeO-DMT), and its dose-related psychoactive effects in healthy volunteers.\n\nThe study will evaluate single, ascending doses of GH001 in Part A and an individualized dosing regimen of GH001 in Part B.",
+      "url": "https://clinicaltrials.gov/study/NCT04640831"
+    },
+    {
+      "nct_id": "NCT04698603",
+      "title": "Clinical Study of GH001 in Depression",
+      "status": "COMPLETED",
+      "phase": "PHASE1, PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Treatment Resistant Depression",
+        "Major Depressive Disorder",
+        "Depression"
+      ],
+      "interventions": [
+        "DRUG: 5 Methoxy N,N Dimethyltryptamine"
+      ],
+      "sponsor": "GH Research Ireland Limited",
+      "collaborators": [],
+      "enrollment": 16,
+      "start_date": "2019-11-12",
+      "completion_date": "2021-11-06",
+      "countries": [
+        "Netherlands"
+      ],
+      "has_results": false,
+      "molecule_tag": "5-MeO-DMT",
+      "summary": "The aim of the study is to investigate the safety of GH001 (containing 5-methoxy-dimethyltryptamine; 5-MeO-DMT), and to investigate its effects on severity of depressive symptoms, and its dose-related psychoactive effects in patients with Treatment-Resistant Depression (TRD).\n\nThe study is comprised of two open-label, single-arm study parts where Part A evaluates single doses of GH001 at two dose levels and Part B evaluates a specific individualized dosing regimen of GH001.",
+      "url": "https://clinicaltrials.gov/study/NCT04698603"
+    },
+    {
+      "nct_id": "NCT04716335",
+      "title": "Neurodynamics of Prosocial Emotional Processing Following Serotonergic Stimulation With N,N-Dimethyltryptamine (DMT) and Harmine in Healthy Subjects",
+      "status": "COMPLETED",
+      "phase": "EARLY_PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Emotions",
+        "Mood",
+        "Cognitive Function 1, Social",
+        "Empathy"
+      ],
+      "interventions": [
+        "DRUG: DMT",
+        "DRUG: Harmine",
+        "DRUG: Placebo (Harmine)",
+        "DRUG: Placebo (DMT)"
+      ],
+      "sponsor": "Psychiatric University Hospital, Zurich",
+      "collaborators": [
+        "University of Basel"
+      ],
+      "enrollment": 34,
+      "start_date": "2020-12-01",
+      "completion_date": "2022-01-10",
+      "countries": [
+        "Switzerland"
+      ],
+      "has_results": false,
+      "molecule_tag": "N,N-DMT",
+      "summary": "The aim of the project is to assess brain network dynamics, self-referential information processing and prosociality and learning following the modulation of the serotonin-system by serotonergic-psychoactive compounds.",
+      "url": "https://clinicaltrials.gov/study/NCT04716335"
+    },
+    {
+      "nct_id": "NCT04673383",
+      "title": "SPL026 (DMT Fumarate) in Healthy Subjects and MDD Patients",
+      "status": "COMPLETED",
+      "phase": "PHASE1, PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Major Depressive Disorder"
+      ],
+      "interventions": [
+        "DRUG: SPL026",
+        "DRUG: Placebo"
+      ],
+      "sponsor": "Small Pharma Ltd",
+      "collaborators": [],
+      "enrollment": 66,
+      "start_date": "2021-02-04",
+      "completion_date": "2022-12-22",
+      "countries": [
+        "United Kingdom"
+      ],
+      "has_results": false,
+      "molecule_tag": "N,N-DMT",
+      "summary": "SPL026 (N,N-dimethyltryptamine \\[DMT\\] fumarate) is a psychedelic tryptamine being developed as a therapy for patients with major depressive disorder (MDD).",
+      "url": "https://clinicaltrials.gov/study/NCT04673383"
+    },
+    {
+      "nct_id": "NCT04711915",
+      "title": "Fixed Order, Open-Label, Dose-Escalation Study of DMT in Humans",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Major Depressive Disorder",
+        "Depression"
+      ],
+      "interventions": [
+        "DRUG: 0.1 mg/kg Dimethyltryptamine (DMT)",
+        "DRUG: 0.3 mg/kg Dimethyltryptamine (DMT)"
+      ],
+      "sponsor": "Yale University",
+      "collaborators": [],
+      "enrollment": 30,
+      "start_date": "2021-03-17",
+      "completion_date": "2026-12-01",
+      "countries": [
+        "United States"
+      ],
+      "has_results": false,
+      "molecule_tag": "N,N-DMT",
+      "summary": "The goal of this fixed order, open-label, dose-escalation study is to investigate the safety and efficacy of specific doses of dimethyltryptamine (DMT) in humans.",
+      "url": "https://clinicaltrials.gov/study/NCT04711915"
+    },
+    {
+      "nct_id": "NCT04353024",
+      "title": "Effects of Dimethyltryptamine in Healthy Subjects",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Healthy"
+      ],
+      "interventions": [
+        "DRUG: Dimethyltryptamine (DMT)",
+        "DRUG: Saline"
+      ],
+      "sponsor": "University Hospital, Basel, Switzerland",
+      "collaborators": [],
+      "enrollment": 31,
+      "start_date": "2021-06-18",
+      "completion_date": "2022-09-22",
+      "countries": [
+        "Switzerland"
+      ],
+      "has_results": false,
+      "molecule_tag": "N,N-DMT",
+      "summary": "N,N-dimethyltryptamine (DMT) is a naturally-occurring psychedelic substance widely used in recreational and spiritual settings. DMT can be used as a tool to induce an altered state of consciousness of interest in psychological and psychiatric research. DMT is rapidly metabolized by monoamine oxidase (MAO) A. Therefore, it is inactive when administered orally and has a very short duration of action when administered parenterally (\\<20 min).Therefore, an intravenous administration regime including a bolus and maintenance perfusion has been proposed to induce a stable and prolonged DMT experience allowing to study the psychological and autonomic acute effects of DMT. This administration allows to induce and end an altered state safely and quickly. The goal of the present study is to experimentally test different intravenous DMT administration schedules to investigate the subjective and autonomic effects of DMT in healthy subjects.",
+      "url": "https://clinicaltrials.gov/study/NCT04353024"
+    },
+    {
+      "nct_id": "NCT05163691",
+      "title": "Pharmacokinetics of GH001 in Healthy Volunteers",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Healthy Volunteers"
+      ],
+      "interventions": [
+        "DRUG: 5 Methoxy N,N Dimethyltryptamine",
+        "DRUG: Placebo"
+      ],
+      "sponsor": "GH Research Ireland Limited",
+      "collaborators": [],
+      "enrollment": 46,
+      "start_date": "2021-06-21",
+      "completion_date": "2021-11-22",
+      "countries": [
+        "Netherlands"
+      ],
+      "has_results": false,
+      "molecule_tag": "5-MeO-DMT",
+      "summary": "The primary objective of this study is to investigate the serum pharmacokinetics of 5-MeO-DMT and its metabolite, bufotenine in healthy volunteers in a double-blind, placebo-controlled, randomized study design with single, inhaled doses of GH001 and in an open-label, non-randomized study design with intra-subject dose-escalation of GH001. As a secondary objective, the safety and tolerability of GH001, the mental health and well-being of the subjects after GH001 dosing(s), the pharmacodynamic profile of GH001 as evaluated by its psychoactive effects, and cognitive measures are also assessed.",
+      "url": "https://clinicaltrials.gov/study/NCT05163691"
+    },
+    {
+      "nct_id": "NCT05042765",
+      "title": "Entheogen Resurgence",
+      "status": "COMPLETED",
+      "phase": "N/A",
+      "study_type": "OBSERVATIONAL",
+      "conditions": [
+        "Psychedelic Experiences"
+      ],
+      "interventions": [
+        "OTHER: self-reported entheogen use"
+      ],
+      "sponsor": "Vireo Health",
+      "collaborators": [],
+      "enrollment": 102,
+      "start_date": "2021-09-16",
+      "completion_date": "2022-01-12",
+      "countries": [
+        "United States"
+      ],
+      "has_results": false,
+      "molecule_tag": "ayahuasca",
+      "summary": "For the purpose of this anonymous, observational pilot survey, the investigators will define \"entheogens\" as substances, generally derived from plants, that are ingested in order to impact one's consciousness for therapeutic, religious, or spiritual purposes. This survey will focus on the naturalistic use of entheogens and other substances including kambo, ayahuasca, hapé, bufo, and sananga typically used in specific cultural and spiritual contexts for healing. There are substantial limitations to what the healthcare community knows about the intentions, motivations, experiences, health behaviors, and demographics of people who decide to participate in entheogen therapy centers or retreats and their willingness to participate in future research studies.\n\nThe primary goal of this observational pilot survey is to collect self-reported, anonymous data from people who have opted to participate in entheogen therapy centers and retreats during the last five (5) years on the topics of their initial intentions, motivations, experiences, demographics, and willingness to participate in future entheogen research.\n\nWith the support of established therapy and retreat centers, the research team will aim to collect 100 survey responses from unique, unidentified individuals who have participated in some form of entheogen therapy or treatment during the last five (5) years. Those who choose to fill out the survey will be at least 18 years of age, fluent in English, and self-reporting participation in therapy or a retreat which utilized entheogens in a naturalistic setting in the past five (5) years.",
+      "url": "https://clinicaltrials.gov/study/NCT05042765"
+    },
+    {
+      "nct_id": "NCT05032833",
+      "title": "Single Ascending Dose Study With 5-MeO-DMT in Healthy Subjects",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Pharmacokinetics in Healthy Adults"
+      ],
+      "interventions": [
+        "DRUG: 5-MeO-DMT",
+        "OTHER: Placebo"
+      ],
+      "sponsor": "Beckley Psytech Limited",
+      "collaborators": [],
+      "enrollment": 36,
+      "start_date": "2021-09-22",
+      "completion_date": "2022-07-07",
+      "countries": [
+        "United Kingdom"
+      ],
+      "has_results": false,
+      "molecule_tag": "5-MeO-DMT",
+      "summary": "The study will evaluate safety, tolerability and PK profile of 5-MeO-DMT in healthy subjects",
+      "url": "https://clinicaltrials.gov/study/NCT05032833"
+    },
+    {
+      "nct_id": "NCT06150859",
+      "title": "Ayahuasca Assisted Psychotherapy for Grief",
+      "status": "UNKNOWN",
+      "phase": "PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Bereavement"
+      ],
+      "interventions": [
+        "DRUG: Ayahausca-Assisted psychotherapy",
+        "BEHAVIORAL: Constructivist Psychotherapy",
+        "OTHER: No treatment"
+      ],
+      "sponsor": "Beckley Med Foundation",
+      "collaborators": [],
+      "enrollment": 84,
+      "start_date": "2021-10-15",
+      "completion_date": "2024-06-15",
+      "countries": [
+        "Spain"
+      ],
+      "has_results": false,
+      "molecule_tag": "ayahuasca",
+      "summary": "The aim of this study is to compare the effectiveness of an ayahuasca-assisted constructivist therapy with constructivist therapy and no treatment to decrease the severity of grief. A secondary purpose is to assess the effectiveness to prevent Persistent Complex Bereavement Disorder and Prolonged Grief Disorder, and to assess potential changes in avoidance, meaning-making and self-clarity. Subjective effects and Acceptance promoting effects of psychedelic drug are assessed after ayahuasca administration. A non-randomized controlled trial is proposed with three arms involving an experimental group (ayahuasca in concert with psychotherapy) and two control groups (psychotherapy and no treatment) with pretest, posttest and 3 months follow-up.",
+      "url": "https://clinicaltrials.gov/study/NCT06150859"
+    },
+    {
+      "nct_id": "NCT05347849",
+      "title": "Single Ascending Dose Study With BPL-003 in Healthy Subjects",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Pharmacokinetics in Healthy Adults"
+      ],
+      "interventions": [
+        "DRUG: BPL-003",
+        "OTHER: Placebo"
+      ],
+      "sponsor": "Beckley Psytech Limited",
+      "collaborators": [],
+      "enrollment": 62,
+      "start_date": "2022-02-14",
+      "completion_date": "2024-01-19",
+      "countries": [
+        "United Kingdom"
+      ],
+      "has_results": false,
+      "molecule_tag": "5-MeO-DMT",
+      "summary": "The study will evaluate safety, tolerability and PK profile of BPL-003 in healthy subjects",
+      "url": "https://clinicaltrials.gov/study/NCT05347849"
+    },
+    {
+      "nct_id": "NCT05573568",
+      "title": "Clinical Study of DMT in Healthy Adults",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Healthy Volunteers"
+      ],
+      "interventions": [
+        "DRUG: N,N-Dimethyltryptamine"
+      ],
+      "sponsor": "Biomind Labs Inc.",
+      "collaborators": [
+        "Universidade Federal do Rio Grande do Norte"
+      ],
+      "enrollment": 27,
+      "start_date": "2022-06-01",
+      "completion_date": "2022-11-14",
+      "countries": [
+        "Brazil"
+      ],
+      "has_results": false,
+      "molecule_tag": "N,N-DMT",
+      "summary": "This study aims to evaluate the acute and subacute effects of an inhaled N, N-Dimethyltryptamine in healthy individuals.",
+      "url": "https://clinicaltrials.gov/study/NCT05573568"
+    },
+    {
+      "nct_id": "NCT07717866",
+      "title": "Trifecta Research Study",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "N/A",
+      "study_type": "OBSERVATIONAL",
+      "conditions": [
+        "PTSD - Post Traumatic Stress Disorder",
+        "Cognitive Dysfunction",
+        "Brain Injury",
+        "Depression - Major Depressive Disorder",
+        "Suicidal Ideation"
+      ],
+      "interventions": [
+        "DEVICE: Magnetic e-Resonance Therapy (MeRT)",
+        "DRUG: Ibogaine Hydrochloride with Magnesium Sulfate",
+        "DRUG: 5-methoxy-N,N-dimethyltryptamine",
+        "DRUG: Physiological Supplementation"
+      ],
+      "sponsor": "Axial Therapeutic Research",
+      "collaborators": [],
+      "enrollment": 52,
+      "start_date": "2022-08-01",
+      "completion_date": "2026-11",
+      "countries": [
+        "United States"
+      ],
+      "has_results": false,
+      "molecule_tag": "5-MeO-DMT",
+      "summary": "This observational study evaluates the impact of Ibogaine-Magnesium (IM), 5-methoxy-N,N-dimethyltryptamine (5-MeO-DMT), Magnetic e-Resonance Therapy (MeRT), and Physiological Supplementation (PS) on posttraumatic stress disorder (PTSD) and traumatic brain injury-related cognitive symptoms among Special Operations Forces (SOF) combat veterans.",
+      "url": "https://clinicaltrials.gov/study/NCT07717866"
+    },
+    {
+      "nct_id": "NCT07212946",
+      "title": "Ayahuasca and Esketamine for Major Depression",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Major Depression Severe"
+      ],
+      "interventions": [
+        "DRUG: Ayahuasca",
+        "DRUG: Esketamine"
+      ],
+      "sponsor": "University of Sao Paulo",
+      "collaborators": [],
+      "enrollment": 22,
+      "start_date": "2022-10-30",
+      "completion_date": "2025-10-01",
+      "countries": [
+        "Brazil"
+      ],
+      "has_results": false,
+      "molecule_tag": "ayahuasca",
+      "summary": "Double-blind, randomized trial comparing 4 weekly doses of oral ayahuasca and esketamine in patients with major depression.",
+      "url": "https://clinicaltrials.gov/study/NCT07212946"
+    },
+    {
+      "nct_id": "NCT05384678",
+      "title": "Acute Dose-dependent Effects of DMT in Healthy Subjects",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Healthy"
+      ],
+      "interventions": [
+        "DRUG: N,N-Dimethyltryptamine (54 mg)",
+        "DRUG: N,N-Dimethyltryptamine (108 mg)",
+        "DRUG: N,N-Dimethyltryptamine (162 mg)",
+        "DRUG: N,N-Dimethyltryptamine (216 mg)",
+        "DRUG: Placebo",
+        "DRUG: N,N-Dimethyltryptamine (108 mg) + dose titration"
+      ],
+      "sponsor": "University Hospital, Basel, Switzerland",
+      "collaborators": [],
+      "enrollment": 24,
+      "start_date": "2022-11-15",
+      "completion_date": "2024-03-13",
+      "countries": [
+        "Switzerland"
+      ],
+      "has_results": false,
+      "molecule_tag": "N,N-DMT",
+      "summary": "N,N-dimethyltryptamine (DMT) is a psychoactive substance with similar effects such as LSD or psilocybin. However, DMT is less well characterized than the latter substances. The present study is a modern randomized cross-over trial, investigating different continuous intravenous DMT dose rates over a broad dose range. Thus, different doses will be tested and related to subjective and autonomic effects.",
+      "url": "https://clinicaltrials.gov/study/NCT05384678"
+    },
+    {
+      "nct_id": "NCT05553691",
+      "title": "SPL026 With or Without SSRIs in Participants With MDD",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Major Depressive Disorder"
+      ],
+      "interventions": [
+        "DRUG: SPL026"
+      ],
+      "sponsor": "Small Pharma Ltd",
+      "collaborators": [],
+      "enrollment": 18,
+      "start_date": "2022-12-13",
+      "completion_date": "2023-08-03",
+      "countries": [
+        "United Kingdom"
+      ],
+      "has_results": false,
+      "molecule_tag": "N,N-DMT",
+      "summary": "The main aim of the study is to test the safety and tolerability of single doses of SPL026 (N,N-dimethyltryptamine \\[DMT\\] fumarate, a psychedelic tryptamine) in patients currently taking a selective serotonin reuptake inhibitor (SSRI) for their depression, but for whom the SSRI is not fully relieving their depression.",
+      "url": "https://clinicaltrials.gov/study/NCT05553691"
+    },
+    {
+      "nct_id": "NCT05753956",
+      "title": "Safety and Pharmacokinetics of GH002 in Healthy Volunteers",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Healthy Volunteers"
+      ],
+      "interventions": [
+        "DRUG: 5 Methoxy N,N Dimethyltryptamine",
+        "DRUG: Placebo"
+      ],
+      "sponsor": "GH Research Ireland Limited",
+      "collaborators": [],
+      "enrollment": 64,
+      "start_date": "2022-12-22",
+      "completion_date": "2023-11-29",
+      "countries": [
+        "Netherlands"
+      ],
+      "has_results": false,
+      "molecule_tag": "5-MeO-DMT",
+      "summary": "The primary objectives of this study are to investigate the safety and serum pharmacokinetics of 5-MeO-DMT in healthy volunteers in a double-blind, placebo-controlled, randomized study design with single, injected doses of GH002 and in an open-label, non-randomized study design with intra-subject dose-escalation of GH002. As secondary objectives, the PK/ pharmacodynamic relationship, PD profile of GH002 as evaluated by its psychoactive effects and impact on cognitive performance, and the serum PK of the metabolite bufotenine are also assessed.",
+      "url": "https://clinicaltrials.gov/study/NCT05753956"
+    },
+    {
+      "nct_id": "NCT05698095",
+      "title": "Pharmacokinetics, Safety, and Tolerability of Intramuscular 5-MeO-DMT in Healthy Volunteers",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Pharmacokinetics",
+        "Safety",
+        "Tolerability"
+      ],
+      "interventions": [
+        "DRUG: 5-methoxy-N,N-dimethyltryptamine succinate salt",
+        "DRUG: Placebo"
+      ],
+      "sponsor": "Usona Institute",
+      "collaborators": [],
+      "enrollment": 54,
+      "start_date": "2022-12-27",
+      "completion_date": "2023-09-07",
+      "countries": [
+        "United States"
+      ],
+      "has_results": false,
+      "molecule_tag": "5-MeO-DMT",
+      "summary": "The primary objective of the study is to assess the pharmacokinetics, safety, and tolerability of a single-dose and multiple-doses of 5-MeO-DMT administered by intramuscular (IM) injections in healthy subjects.",
+      "url": "https://clinicaltrials.gov/study/NCT05698095"
+    },
+    {
+      "nct_id": "NCT05644093",
+      "title": "IM and IV SPL026 Drug Product in Healthy Participants",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Major Depressive Disorder"
+      ],
+      "interventions": [
+        "DRUG: SPL026 IV",
+        "DRUG: SPL026 IM"
+      ],
+      "sponsor": "Small Pharma Ltd",
+      "collaborators": [],
+      "enrollment": 14,
+      "start_date": "2023-01-03",
+      "completion_date": "2023-04-05",
+      "countries": [
+        "United Kingdom"
+      ],
+      "has_results": false,
+      "molecule_tag": "N,N-DMT",
+      "summary": "The goal of this clinical trial is to test SPL026 given via injection into a muscle in healthy volunteers.",
+      "url": "https://clinicaltrials.gov/study/NCT05644093"
+    },
+    {
+      "nct_id": "NCT05559931",
+      "title": "Single and Repeat Doses of DMT in Healthy Subjects",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Stroke"
+      ],
+      "interventions": [
+        "DRUG: N,N-Dimethyltryptamine",
+        "DRUG: Placebo"
+      ],
+      "sponsor": "Algernon Pharmaceuticals",
+      "collaborators": [
+        "Centre for Human Drug Research, Netherlands"
+      ],
+      "enrollment": 60,
+      "start_date": "2023-01-13",
+      "completion_date": "2026-03",
+      "countries": [
+        "Netherlands"
+      ],
+      "has_results": false,
+      "molecule_tag": "N,N-DMT",
+      "summary": "This study aims to assess the safety and tolerability of single ascending, and fixed repeated doses of N,N-Dimethyltryptamine (DMT) in healthy subjects, when given by intravenous (IV) infusion.",
+      "url": "https://clinicaltrials.gov/study/NCT05559931"
+    },
+    {
+      "nct_id": "NCT05660642",
+      "title": "An Open-Label Study to Evaluate the Safety, Tolerability and Pharmacodynamics of BPL-003 in Patients With Treatment Resistant Depression",
+      "status": "RECRUITING",
+      "phase": "PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Treatment Resistant Depression"
+      ],
+      "interventions": [
+        "DRUG: BPL-003"
+      ],
+      "sponsor": "Beckley Psytech Limited",
+      "collaborators": [],
+      "enrollment": 72,
+      "start_date": "2023-02-10",
+      "completion_date": "2026-11",
+      "countries": [
+        "United Kingdom"
+      ],
+      "has_results": false,
+      "molecule_tag": "5-MeO-DMT",
+      "summary": "An open-label, multi-centre, Phase 2a study to evaluate the safety, tolerability, and pharmacodynamics of one and two doses of intranasal BPL-003 combined with psychological support, in patients with treatment resistant depression when administered as monotherapy or as adjunctive therapy with defined SSRIs (citalopram, escitalopram, sertraline or fluoxetine).",
+      "url": "https://clinicaltrials.gov/study/NCT05660642"
+    },
+    {
+      "nct_id": "NCT05780216",
+      "title": "Mindfulness and Psychedelics",
+      "status": "COMPLETED",
+      "phase": "EARLY_PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Healthy Participants"
+      ],
+      "interventions": [
+        "DRUG: DMT + harmine",
+        "DRUG: Placebo"
+      ],
+      "sponsor": "Milan Scheidegger",
+      "collaborators": [
+        "University Medical Center Freiburg"
+      ],
+      "enrollment": 40,
+      "start_date": "2023-02-20",
+      "completion_date": "2023-09-15",
+      "countries": [
+        "Switzerland"
+      ],
+      "has_results": false,
+      "molecule_tag": "N,N-DMT",
+      "summary": "The investigators are doing this project to investigate potential neurophysiological synergy effects between mindfulness meditation and psychedelics. Previous studies have found that both mindfulness and psychedelics like psilocybin modulate neural activity and connectivity of the same brain network. However, little is known about the potential interactions between mindfulness meditation and psychedelics. The indigenous plant preparation \"Ayahuasca\" is particularly interesting for the combination with mindfulness meditation. It contains two components, N,N-dimethyltryptamine (DMT) and harmine, which are very similar to the body's own messenger substance serotonin and increase its effect in the body. The investigators would now like to find out how these corresponding networks change in experienced meditators after DMT/Harmine-enhanced mindfulness meditation and how this affects their subjective experience. For this functional MRI imaging will be performed, as well as psychometric assessments and detailed experiential interviews before and after a three-day meditation retreat. Participants will be randomly assigned to one of two groups. One group receives DMT and harmine during the sitting meditation on the second day, the other group receives a corresponding placebo. Neither the participants nor the investigator know who will receive a placebo or the combination of DMT/harmine on the day of the experiment. The pre- and post-measurements of the MRI imaging and psychometric questionnaires of the DMT/Harmine group are compared with those of the placebo control group. By examining the synergistic effects of mindfulness meditation and DMT/harmine, the aim of this study is to contribute to a comprehensive understanding of the neurophenomenology of rare and inaccessible phenomena of consciousness.",
+      "url": "https://clinicaltrials.gov/study/NCT05780216"
+    },
+    {
+      "nct_id": "NCT05804708",
+      "title": "Phase 2 Clinical Trial of GH001 in Postpartum Depression",
+      "status": "TERMINATED",
+      "phase": "PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Postpartum Depression",
+        "Postnatal Depression"
+      ],
+      "interventions": [
+        "DRUG: GH001"
+      ],
+      "sponsor": "GH Research Ireland Limited",
+      "collaborators": [],
+      "enrollment": 10,
+      "start_date": "2023-03-02",
+      "completion_date": "2024-11-15",
+      "countries": [
+        "Netherlands",
+        "United Kingdom"
+      ],
+      "has_results": false,
+      "molecule_tag": "5-MeO-DMT",
+      "summary": "This study is a multicenter, open-label, single-arm Phase 2 clinical trial. Approximately 15 female participants with clinically diagnosed postpartum depression (PPD) will be included in this study. The participants will receive an individualized dosing regimen (IDR) with at least one and up to three doses of GH001 administered within a single day.",
+      "url": "https://clinicaltrials.gov/study/NCT05804708"
+    },
+    {
+      "nct_id": "NCT05839509",
+      "title": "Phase 2 Clinical Trial of GH001 in Bipolar II Disorder",
+      "status": "TERMINATED",
+      "phase": "PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Bipolar II Disorder"
+      ],
+      "interventions": [
+        "DRUG: GH001"
+      ],
+      "sponsor": "GH Research Ireland Limited",
+      "collaborators": [],
+      "enrollment": 6,
+      "start_date": "2023-04-06",
+      "completion_date": "2024-12-05",
+      "countries": [
+        "Germany",
+        "Netherlands",
+        "United Kingdom"
+      ],
+      "has_results": false,
+      "molecule_tag": "5-MeO-DMT",
+      "summary": "This study is a multicenter, open-label, single-arm Phase 2 clinical trial. Approximately 15 participants with clinically diagnosed bipolar disorder (BD) type II and experiencing a current episode of depression will be included in this study. The participants will receive an individualized dosing regimen (IDR) with at least one and up to three doses of GH001 administered within a single day.",
+      "url": "https://clinicaltrials.gov/study/NCT05839509"
+    },
+    {
+      "nct_id": "NCT05901012",
+      "title": "Safety and Tolerability of DMT in Healthy Adults",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Safety Issues",
+        "Healthy Volunteers"
+      ],
+      "interventions": [
+        "DRUG: N,N-Dimethyltryptamine",
+        "DRUG: Placebo"
+      ],
+      "sponsor": "Universidade Federal do Rio Grande do Norte",
+      "collaborators": [],
+      "enrollment": 25,
+      "start_date": "2023-04-26",
+      "completion_date": "2023-07-17",
+      "countries": [
+        "Brazil"
+      ],
+      "has_results": false,
+      "molecule_tag": "N,N-DMT",
+      "summary": "This study aims to evaluate the acute and subacute effects of an inhaled N, N-Dimethyltryptamine (DMT) in healthy individuals.",
+      "url": "https://clinicaltrials.gov/study/NCT05901012"
+    },
+    {
+      "nct_id": "NCT05829603",
+      "title": "Dose-finding Study for the Combination of DMT and Harmine in Healthy Subjects",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Healthy"
+      ],
+      "interventions": [
+        "DRUG: Dimethyltryptamin (DMT) & Harmine"
+      ],
+      "sponsor": "Reconnect Labs",
+      "collaborators": [],
+      "enrollment": 16,
+      "start_date": "2023-05-05",
+      "completion_date": "2023-10-17",
+      "countries": [
+        "Switzerland"
+      ],
+      "has_results": false,
+      "molecule_tag": "N,N-DMT",
+      "summary": "The goal of this clinical trial is to compare corresponding inter- and intraindividual pharmacokinetic and pharmacodynamic profiles including assessments of safety \\& tolerability.",
+      "url": "https://clinicaltrials.gov/study/NCT05829603"
+    },
+    {
+      "nct_id": "NCT05800860",
+      "title": "A Trial of GH001 in Patients With Treatment-resistant Depression",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Treatment-resistant Depression"
+      ],
+      "interventions": [
+        "DRUG: GH001",
+        "DRUG: Placebo"
+      ],
+      "sponsor": "GH Research Ireland Limited",
+      "collaborators": [],
+      "enrollment": 81,
+      "start_date": "2023-05-24",
+      "completion_date": "2025-03-11",
+      "countries": [
+        "Czechia",
+        "Germany",
+        "Ireland",
+        "Netherlands",
+        "Poland",
+        "Spain"
+      ],
+      "has_results": false,
+      "molecule_tag": "5-MeO-DMT",
+      "summary": "The aim of this randomized, double-blind, placebo-controlled, phase 2b clinical trial is to investigate the safety and efficacy of GH001 (containing mebufotenin \\[5-methoxy-N,N-dimethyltryptamine; 5-MeO-DMT\\]) in patients with treatment-resistant depression (TRD). The study is comprised of a 7-day double-blind (DB) part (Part 1) and a 6-month open-label extension (OLE) part (Part 2). Patients will be randomized to receive GH001 or placebo in a 1:1 ratio. The primary endpoint is the mean change in the Montgomery-Åsberg Depression Rating Scale (MADRS) from baseline to Day 7.",
+      "url": "https://clinicaltrials.gov/study/NCT05800860"
+    },
+    {
+      "nct_id": "NCT05674929",
+      "title": "An Open-Label, Single Dose Study in Patients With Alcohol Use Disorder",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Alcohol Use Disorder"
+      ],
+      "interventions": [
+        "DRUG: BPL-003"
+      ],
+      "sponsor": "Beckley Psytech Limited",
+      "collaborators": [],
+      "enrollment": 13,
+      "start_date": "2023-05-30",
+      "completion_date": "2024-10-02",
+      "countries": [
+        "United Kingdom"
+      ],
+      "has_results": true,
+      "molecule_tag": "5-MeO-DMT",
+      "summary": "An open-label, Phase 2a study to evaluate the safety, tolerability, and pharmacodynamic effects of a single intranasal dose of BPL-003 combined with relapse prevention psychological support, to explore the potential effects on alcohol use and related symptoms in patients with Alcohol Use Disorder.",
+      "url": "https://clinicaltrials.gov/study/NCT05674929"
+    },
+    {
+      "nct_id": "NCT05870540",
+      "title": "BPL-003 Efficacy and Safety in Treatment Resistant Depression",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Treatment Resistant Depression"
+      ],
+      "interventions": [
+        "DRUG: BPL-003",
+        "DRUG: BPL-003"
+      ],
+      "sponsor": "Beckley Psytech Limited",
+      "collaborators": [],
+      "enrollment": 196,
+      "start_date": "2023-09-14",
+      "completion_date": "2025-07-03",
+      "countries": [
+        "Australia",
+        "Germany",
+        "Poland",
+        "Spain",
+        "United Kingdom",
+        "United States"
+      ],
+      "has_results": false,
+      "molecule_tag": "5-MeO-DMT",
+      "summary": "This is a Phase 2 study randomized, quadruple masked, multi-center study , with a Open Label Extension, designed to investigate the efficacy and safety of BPL-003 combined with psychological support in patients with treatment resistant depression (TRD).",
+      "url": "https://clinicaltrials.gov/study/NCT05870540"
+    },
+    {
+      "nct_id": "NCT05894902",
+      "title": "Open-Label Dose-Ranging Study of Oral SM-001 in Healthy Adults",
+      "status": "UNKNOWN",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Major Depression",
+        "Post Traumatic Stress Disorder"
+      ],
+      "interventions": [
+        "DRUG: SM-001"
+      ],
+      "sponsor": "Advanced Integrative Medical Science Institute",
+      "collaborators": [],
+      "enrollment": 12,
+      "start_date": "2023-10-01",
+      "completion_date": "2024-06-30",
+      "countries": [
+        "United States"
+      ],
+      "has_results": false,
+      "molecule_tag": "ayahuasca",
+      "summary": "Phase I safety and dose finding study of a standardized Ayahuasca analog (SM-001) in healthy adult volunteers",
+      "url": "https://clinicaltrials.gov/study/NCT05894902"
+    },
+    {
+      "nct_id": "NCT06094907",
+      "title": "Safety, Tolerability and Antidepressant Effects of DMT in Patients With Depression",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Depressive Disorder",
+        "Depression, Unipolar"
+      ],
+      "interventions": [
+        "DRUG: N,N-Dimethyltryptamine"
+      ],
+      "sponsor": "Universidade Federal do Rio Grande do Norte",
+      "collaborators": [],
+      "enrollment": 14,
+      "start_date": "2023-10-09",
+      "completion_date": "2024-03-30",
+      "countries": [
+        "Brazil"
+      ],
+      "has_results": false,
+      "molecule_tag": "N,N-DMT",
+      "summary": "This study aims to evaluate the acute and subacute effects of an inhaled N, N-Dimethyltryptamine (DMT) in patients with partial response in depression.",
+      "url": "https://clinicaltrials.gov/study/NCT06094907"
+    },
+    {
+      "nct_id": "NCT06252506",
+      "title": "Molecular Imaging Study of Harmine/DMT: a Basic Research Approach",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Neuropharmacological Investigation of Ayahuasca Constituents DMT and Harmine"
+      ],
+      "interventions": [
+        "DRUG: N,N-dimethyltryptamine (DMT) + harmine",
+        "DRUG: Placebo"
+      ],
+      "sponsor": "Insel Gruppe AG, University Hospital Bern",
+      "collaborators": [
+        "Psychiatric University Hospital, Zurich"
+      ],
+      "enrollment": 17,
+      "start_date": "2024-01-22",
+      "completion_date": "2025-03-05",
+      "countries": [
+        "Switzerland"
+      ],
+      "has_results": false,
+      "molecule_tag": "ayahuasca",
+      "summary": "The few reports on effects of psychedelic substances on cerebral metabolic rate (CMRglc) indicate increases (psilocybin; human FDG-PET) or decreases (LSD, rat autoradiography; 5-MeO-DMT rat autoradiography). There are no reports of effects of DMT and/or harmine on cerebral energy metabolism. The primary objective of this study is thus to assess acute cerebrometabolic effects of harmine/DMT in healthy volunteers using quantitative FDG-PET, that is, to measure CMRglc before and after simultaneous treatment with an oral harmine and DMT formulation developed (and already applied) by the investigators' project partners at the University of Zurich. As a secondary objective, the researchers aim to correlate the time-dependent effects on CMRglc as assessed in the PET images with the time-dependent self-reported intensity of participants' psychedelic experience.",
+      "url": "https://clinicaltrials.gov/study/NCT06252506"
+    },
+    {
+      "nct_id": "NCT06051721",
+      "title": "A Study of a N, N-dimethyltryptamine (DMT) Analog (CYB004) in Participants With Generalized Anxiety Disorder (GAD)",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Generalized Anxiety Disorder"
+      ],
+      "interventions": [
+        "DRUG: CYB004",
+        "BEHAVIORAL: Psychotherapy"
+      ],
+      "sponsor": "Cybin IRL Limited",
+      "collaborators": [
+        "Worldwide Clinical Trials"
+      ],
+      "enrollment": 36,
+      "start_date": "2024-05-10",
+      "completion_date": "2026-09",
+      "countries": [
+        "United States"
+      ],
+      "has_results": false,
+      "molecule_tag": "N,N-DMT",
+      "summary": "The purpose of this proof-of-concept trial is to examine the safety, tolerability, and pharmacokinetics (PK), and preliminary clinical efficacy of CYB004 participants with GAD.",
+      "url": "https://clinicaltrials.gov/study/NCT06051721"
+    },
+    {
+      "nct_id": "NCT05695495",
+      "title": "Acute Dose-dependent Effects of DMT-bolus Applications in Healthy Subjects (DMT BDR-Study)",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Healthy"
+      ],
+      "interventions": [
+        "DRUG: N,N-Dimethyltryptamine (5mg)",
+        "DRUG: N,N-Dimethyltryptamine (10mg)",
+        "DRUG: N,N-Dimethyltryptamine (15mg)",
+        "DRUG: N,N-Dimethyltryptamine (20mg)",
+        "DRUG: N,N-Dimethyltryptamine (25mg)",
+        "DRUG: Placebo (saline)"
+      ],
+      "sponsor": "University Hospital, Basel, Switzerland",
+      "collaborators": [],
+      "enrollment": 36,
+      "start_date": "2024-06-12",
+      "completion_date": "2025-03-04",
+      "countries": [
+        "Switzerland"
+      ],
+      "has_results": false,
+      "molecule_tag": "N,N-DMT",
+      "summary": "N,N-dimethyltryptamine (DMT) is a psychoactive substance with similar effects such as LSD or psilocybin. However, DMT is less well characterized than the latter substances. The present study is a modern randomized cross-over trial, investigating different intravenous DMT boluses over a broad dose range. Thus, different doses will be tested and related to subjective and autonomic effects.",
+      "url": "https://clinicaltrials.gov/study/NCT05695495"
+    },
+    {
+      "nct_id": "NCT06511947",
+      "title": "Pharmacokinetics of GH001 Delivered Via a Proprietary Aerosol Delivery Device in Healthy Subjects",
+      "status": "RECRUITING",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Healthy Volunteers"
+      ],
+      "interventions": [
+        "DRUG: 5 Methoxy N,N Dimethyltryptamine"
+      ],
+      "sponsor": "GH Research Ireland Limited",
+      "collaborators": [],
+      "enrollment": 52,
+      "start_date": "2024-08-01",
+      "completion_date": "2025-02",
+      "countries": [
+        "United Kingdom"
+      ],
+      "has_results": false,
+      "molecule_tag": "5-MeO-DMT",
+      "summary": "The primary objectives of this trial are to determine the pharmacokinetic (PK) profile and the safety and tolerability of GH001 delivered via a proprietary aerosol delivery device in healthy subjects after single-dose administration and a single-day individualized dosing regimen (IDR). As secondary objectives, the mebufotenin PK/ pharmacodynamic (PD) relationship, the PD profile of GH001 as evaluated by its psychoactive effects (PsE), the impact on cognitive performance, and the TCmax/2 and TCmax/10 (time taken for Cmax to decrease by 50 and 90%, respectively) are also assessed.",
+      "url": "https://clinicaltrials.gov/study/NCT06511947"
+    },
+    {
+      "nct_id": "NCT06816667",
+      "title": "Safety, Tolerability, and Efficacy of Sublingual Microdoses of 5-MeO-DMT for Depression and Anxiety",
+      "status": "COMPLETED",
+      "phase": "PHASE1, PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Healthy Volunteers"
+      ],
+      "interventions": [
+        "DRUG: BMND08",
+        "PROCEDURE: Brain electrical activity monitor",
+        "DIAGNOSTIC_TEST: Pharmacokinetic Study of Sublingually Administered Psychoactive Substance",
+        "DIAGNOSTIC_TEST: Biochemical determinations",
+        "DIAGNOSTIC_TEST: Acute Subjective Ratings of Psychedelic Effects",
+        "DIAGNOSTIC_TEST: vital signs",
+        "DIAGNOSTIC_TEST: Cognitive Assessments",
+        "DIAGNOSTIC_TEST: Psychiatric Assessments"
+      ],
+      "sponsor": "Biomind Labs Inc.",
+      "collaborators": [
+        "Hospital Descentralizado Dr. Marcial V. Quiroga",
+        "Universidad Católica de Cuyo"
+      ],
+      "enrollment": 40,
+      "start_date": "2024-10-21",
+      "completion_date": "2025-03-01",
+      "countries": [
+        "Argentina"
+      ],
+      "has_results": false,
+      "molecule_tag": "5-MeO-DMT",
+      "summary": "This Phase I/II clinical trial investigates the safety, tolerability, and potential therapeutic benefits of a novel sublingual formulation of 5-MeO-DMT. The study uses a randomized, double-blind, placebo-controlled design to evaluate the compound's effects on mood and overall well-being, focusing on participants with elevated symptoms of anxiety and depression.\n\nStudy Design and Objectives:\n\nParticipants are divided into four groups: one receiving a placebo and three receiving different doses of 5-MeO-DMT (6 mg, 9 mg, or 12 mg). Each group comprises 10 participants, totaling 40 individuals. The study administers one dose weekly for four weeks, with comprehensive monitoring at baseline and throughout the trial to track changes in emotional, cognitive, and physical well-being.\n\nObjectives:\n\nAssessing 5-MeO-DMT's impact on anxiety, depression, and emotional well-being. Understanding its pharmacokinetics (absorption, distribution, metabolism, and excretion).\n\nEvaluating its safety profile and identifying potential side effects, both mild and severe.\n\nMonitoring and Safety Participant safety is prioritized, with medical professionals conducting regular evaluations of vital signs, such as heart rate and blood pressure. Detailed tracking of mood, perception, and physical responses ensures any adverse reactions are documented and analyzed.\n\nSublingual Administration The sublingual route is being studied for its rapid absorption into the bloodstream. Researchers will determine how efficiently the body processes 5-MeO-DMT, its duration in the bloodstream, and its influence on daily life. These findings will inform the practicality of this administration method in clinical settings.\n\nSignificance of the Study This trial aims to establish a robust safety and tolerability profile for 5-MeO-DMT while exploring its effects on anxiety and depression. The results will also provide essential data to guide future studies into its therapeutic potential for improving mental health and overall quality of life.\n\nBy addressing both the compound's safety and potential benefits, this research lays the groundwork for developing innovative mental health treatments.",
+      "url": "https://clinicaltrials.gov/study/NCT06816667"
+    },
+    {
+      "nct_id": "NCT06624137",
+      "title": "Computer Game, Qualitative, and MEG/EEG Assessment of Serotonergic Psychedelics",
+      "status": "TERMINATED",
+      "phase": "N/A",
+      "study_type": "OBSERVATIONAL",
+      "conditions": [
+        "OCD",
+        "Major Depressive Disorder (MDD)",
+        "Alcohol Use Disorder (AUD)",
+        "Healthy Volunteer",
+        "Migraine",
+        "PTSD",
+        "PTSD - Post Traumatic Stress Disorder",
+        "Addiction",
+        "Tobacco Use Disorder",
+        "Obsessive Compulsive Disorder (OCD)",
+        "Opioid Use Disorder"
+      ],
+      "interventions": [
+        "DRUG: Serotonergic Psychedelic",
+        "DRUG: Placebo"
+      ],
+      "sponsor": "Yale University",
+      "collaborators": [
+        "Burroughs Wellcome",
+        "National Institutes of Health (NIH)"
+      ],
+      "enrollment": 5,
+      "start_date": "2024-12-12",
+      "completion_date": "2026-06-14",
+      "countries": [
+        "United States"
+      ],
+      "has_results": false,
+      "molecule_tag": "N,N-DMT",
+      "summary": "This is an observational study which does NOT directly administer a psychedelic substance but rather recruits participants who are already participating in another clinical trial in which they may receive a serotonergic psychedelic. The goal of this observational study is to learn how the brain's information processing changes during and following administration of serotonergic psychedelics (psilocybin, N,N-Dimethyltryptamine/DMT, Lystergic Acid Diethylamide/LSD, etc.) for people with and without mental illness receiving serotonergic psychedelics through any clinical trial at Yale University. The main questions it aims to answer are:\n\n1. Do serotonergic psychedelics cause the brain to rely on new information more than previously learned information while under the influence? What about 1 day, 5-14 days, and 4-6 weeks after use?\n2. Do serotonergic psychedelics cause long-lasting side-effects in how people perceive (see, hear, feel, etc.) the world and how easily people change their beliefs?\n3. How does the brain's electrical activity change after using serotonergic psychedelics? How does the balance between excitation and inhibition change while under their effect?\n4. Can changes in how the brain uses information predict who will benefit from a psychedelic and who will have side effects from psychedelics?\n\nResearchers will compare with people given placebos to see what changes in brain processing are unique to serotonergic psychedelics.\n\nParticipants will have the opportunity to do some combination of the following:\n\n1. Online computer assessments consisting of games and questionnaires that probe how participants think.\n2. Magnetoencephalography (MEG) or electroencephalography (EEG) with eyes closed and with repeated clicks, images, or sensations delivered.\n3. A magnetic resonance imaging (MRI) scan.\n4. Semi-structured qualitative interviews about their experience after taking a serotonergic psychedelic recorded via Zoom.",
+      "url": "https://clinicaltrials.gov/study/NCT06624137"
+    },
+    {
+      "nct_id": "NCT06812221",
+      "title": "Efficacy of Sublingual 5-MeO-DMT for Reducing Anxiety and Depression in MCI",
+      "status": "COMPLETED",
+      "phase": "PHASE1, PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Mild Cognitive Impairment",
+        "Anxiety State",
+        "Depression Anxiety Disorder"
+      ],
+      "interventions": [
+        "DRUG: Sublingual administration",
+        "PROCEDURE: Electroencephalography",
+        "DIAGNOSTIC_TEST: Biochemical mesurements",
+        "DIAGNOSTIC_TEST: Acute Subjective Ratings of Psychedelic Effects",
+        "DIAGNOSTIC_TEST: Vital signs",
+        "DIAGNOSTIC_TEST: Cognitive Assessments",
+        "DIAGNOSTIC_TEST: Psychiatric Assessments"
+      ],
+      "sponsor": "Biomind Labs Inc.",
+      "collaborators": [
+        "Hospital Descentralizado Dr. Marcial V. Quiroga",
+        "Universidad Católica de Cuyo"
+      ],
+      "enrollment": 20,
+      "start_date": "2024-12-15",
+      "completion_date": "2025-03-15",
+      "countries": [
+        "Argentina"
+      ],
+      "has_results": false,
+      "molecule_tag": "5-MeO-DMT",
+      "summary": "This Phase I/II clinical trial aims to test the effectiveness of a new sublingual formulation of 5-MeO-DMT in reducing symptoms of anxiety, depression, and cognitive decline in individuals with mild to moderate Alzheimer's disease. The study will include participants who have a Clinical Dementia Rating (CDR) score between 0.5 and 1, indicating mild to moderate cognitive impairment, and who meet specific educational and cognitive criteria. Participants must have an ACE-III score of ≤86 for individuals with a high level of education (≥12 years) or \\<62 for those with a low educational level (≤12 years). Additionally, participants must show moderate to high levels of anxiety, as indicated by the State-Trait Anxiety Inventory (STAI), with STAI-S (State) scores ≥20 for men and ≥23 for women, and STAI-T (Trait) scores ≥20 for men and ≥26 for women. Participants also need to exhibit moderate to severe depressive symptoms, as indicated by a Beck Depression Inventory (BDI) score of ≥21.\n\nTo ensure that participants are cognitively functional but showing signs of impairment, they are assessed with the CDR and ADLQ scales to confirm they can maintain independence in daily activities. All participants must have scores above the threshold on cognitive screening tests like the ACE III and IFS, ensuring no significant cognitive impairment at the baseline.\n\nThe study will measure the effects of 5-MeO-DMT through a range of cognitive and psychiatric assessments:\n\nCognitive Assessments: These include the Rey Auditory Verbal Learning Test (RAVLT) for episodic memory, the Trail Making Test (TMT) for attention and cognitive flexibility, the Semantic and Phonological Fluency Test (SFT-FAS) for verbal fluency, the Paced Auditory Serial Addition Test (PASAT) for processing speed, and the Digit Span Subtests (DSS) for attention and working memory. These tests will provide valuable insights into how 5-MeO-DMT affects cognitive functions.\n\nPsychiatric Assessments: These will assess symptoms of suicidal ideation (SSI), mood (BDI II), anxiety (STAI), and mindfulness (FFMQ), as well as self-reported cognitive complaints (CQC). These evaluations will help determine the psychological and emotional impact of 5-MeO-DMT on participants.\n\nIn addition, the study will include biochemical assessments such as microalbuminuria, blood glucose levels, liver and kidney function, cholesterol, and several biomarkers of inflammation. Cardiovascular evaluations will also be conducted during the trial, ensuring comprehensive monitoring of potential side effects.\n\nThis structured approach will help researchers assess the cognitive and psychological effects of 5-MeO-DMT in individuals with mild to moderate Alzheimer's disease. By focusing on participants with elevated anxiety, depression, and early cognitive decline, this trial aims to provide insights into the therapeutic potential of 5-MeO-DMT for neurodegenerative conditions.",
+      "url": "https://clinicaltrials.gov/study/NCT06812221"
+    },
+    {
+      "nct_id": "NCT06180759",
+      "title": "Acute Analgesic Effects of DMT on Experimentally Induced Pain in Healthy Participants",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Healthy"
+      ],
+      "interventions": [
+        "DRUG: Intravenous infusion of DMT",
+        "DRUG: Intravenous infusion of ketamine",
+        "DRUG: Intravenous infusion of placebo"
+      ],
+      "sponsor": "University Hospital, Basel, Switzerland",
+      "collaborators": [],
+      "enrollment": 17,
+      "start_date": "2025-01-23",
+      "completion_date": "2025-11-06",
+      "countries": [
+        "Switzerland"
+      ],
+      "has_results": false,
+      "molecule_tag": "N,N-DMT",
+      "summary": "N,N-dimethyltryptamine (DMT) is a classical psychedelic with similar effects like LSD or psilocybin. Preliminary evidence from case series and small open-label trials suggests that psychedelics may be promising candidates for the treatment of several pain-related diseases such as chronic pain, migraine, cluster headache or phantom limb pain. However, data from rigorously conducted and randomized clinical trials are lacking. Additionally, the potential acute analgesic properties of psychedelics remain poorly characterized. Therefore, the investigators will evaluate the efficacy of DMT on different pain qualities within a model of electrically induced pain in healthy participants. The analgesic effects will be compared to racemic ketamine (active control) and placebo within a cross-over design.",
+      "url": "https://clinicaltrials.gov/study/NCT06180759"
+    },
+    {
+      "nct_id": "NCT06772753",
+      "title": "Investigation of Psychedelic Effects in Psychoactive Substances",
+      "status": "RECRUITING",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Psychedelic Effects in Healthy Volunteers"
+      ],
+      "interventions": [
+        "DRUG: Placebo",
+        "DRUG: Psilocybin",
+        "DRUG: Ketamine",
+        "DRUG: Dextromethorphan (DXM)",
+        "DRUG: Dimethyltryptamine (DMT)",
+        "DRUG: Methylenedioxymethamphetamine (MDMA)",
+        "DRUG: Tetrahydrocannabinol (THC)"
+      ],
+      "sponsor": "Johns Hopkins University",
+      "collaborators": [],
+      "enrollment": 50,
+      "start_date": "2025-02-05",
+      "completion_date": "2027-12",
+      "countries": [
+        "United States"
+      ],
+      "has_results": false,
+      "molecule_tag": "N,N-DMT",
+      "summary": "The aim of this double-blind, placebo-controlled, within-subjects study is to determine whether other psychoactive substances can produce experiences akin to those seen with classic psychedelics. Screening involves a medical and psychiatric examination, including blood draw, history and physical, interviews, and questionnaires. Eligible participants will then be asked to complete up to 6 experimental drug administration session during which the participants will potentially receive and report on the subjective effects of 6 different psychoactive substances or inactive placebo. Drug assignment for some sessions will be randomized (like flipping a count or rolling a pair of dice), and both participants and study staff will be blind to the drug condition on any given day. Participants will also complete 2 preparation sessions (4 hours total) before the first experimental session, and follow-up visits after each session to discuss and debrief on the participants subjective experience.",
+      "url": "https://clinicaltrials.gov/study/NCT06772753"
+    },
+    {
+      "nct_id": "NCT06671977",
+      "title": "Study of the Safety, Tolerability, Electrophysiological Effects and Efficacy of DMT in Humans",
+      "status": "RECRUITING",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Major Depression Disorder",
+        "Depression"
+      ],
+      "interventions": [
+        "DRUG: DMT-Medium Dose",
+        "DRUG: DMT-Low Dose",
+        "DRUG: THC-Medium Dose",
+        "DRUG: THC-Low Dose"
+      ],
+      "sponsor": "Deepak C. D'Souza",
+      "collaborators": [],
+      "enrollment": 60,
+      "start_date": "2025-03-14",
+      "completion_date": "2027-12-01",
+      "countries": [
+        "United States"
+      ],
+      "has_results": false,
+      "molecule_tag": "N,N-DMT",
+      "summary": "The goal of this phase 1 study is to investigate the safety and efficacy of dimethyltryptamine (DMT) in individuals with depression and healthy controls. We hypothesize that administration of DMT will result in decreases in depression, associated symptoms, and neuroplastic changes in depressed subjects. We expect that DMT will induce changes in neuroplasticity as indexed using electroencephalographic (EEG) measures and tasks in both depressed individuals and healthy volunteers, though to different degrees. These neuronal changes may in parallel cause changes in mood measured both in healthy and depressed subjects, which will be captured using appropriate psychometric measures of mood.",
+      "url": "https://clinicaltrials.gov/study/NCT06671977"
+    },
+    {
+      "nct_id": "NCT06070649",
+      "title": "The Potential Therapeutic Effects of Psychedelic, N, N-dimethyltryptamine (DMT), on Alcohol Use Disorder (AUD)",
+      "status": "RECRUITING",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Alcohol Use Disorder (AUD)",
+        "Alcohol-Related Disorders",
+        "Alcohol Use"
+      ],
+      "interventions": [
+        "DRUG: 0.3mg/kg/min Dimethyltryptamine + Normal Saline infusion",
+        "DRUG: 0.2 mg/kg/min + Dimethyltryptamine 0.01mg/kg/min infusion",
+        "DRUG: 25 mg Diphenhydramine (5 min) + Normal Saline"
+      ],
+      "sponsor": "Yale University",
+      "collaborators": [
+        "National Institute on Alcohol Abuse and Alcoholism (NIAAA)"
+      ],
+      "enrollment": 63,
+      "start_date": "2025-08-04",
+      "completion_date": "2026-08-01",
+      "countries": [
+        "United States"
+      ],
+      "has_results": false,
+      "molecule_tag": "N,N-DMT",
+      "summary": "This proposed study is a double-blind, randomized, placebo-controlled, parallel-group, laboratory study to determine the effects of DMT, plus psychotherapy, on Alcohol Use Disorder.",
+      "url": "https://clinicaltrials.gov/study/NCT06070649"
+    },
+    {
+      "nct_id": "NCT06927076",
+      "title": "Antidepressant Response of DMT Masked With Propofol",
+      "status": "RECRUITING",
+      "phase": "N/A",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Major Depressive Disorder",
+        "Psychedelic Experiences"
+      ],
+      "interventions": [
+        "DRUG: N,N-Dimethyltryptamine",
+        "DRUG: Placebo",
+        "PROCEDURE: Propofol",
+        "PROCEDURE: no sedation"
+      ],
+      "sponsor": "University Hospital, Basel, Switzerland",
+      "collaborators": [],
+      "enrollment": 112,
+      "start_date": "2025-08-05",
+      "completion_date": "2029-03",
+      "countries": [
+        "Switzerland"
+      ],
+      "has_results": false,
+      "molecule_tag": "N,N-DMT",
+      "summary": "The aim of this study is to elucidate if the anti-depressive effect of N,N-dimethyltryptamine (DMT) is based on a biological mechanisms including neuroplasticity and anti-inflammatory effect or due to the subjective psychedelic experience.",
+      "url": "https://clinicaltrials.gov/study/NCT06927076"
+    },
+    {
+      "nct_id": "NCT06810765",
+      "title": "Trifecta Research Study",
+      "status": "WITHDRAWN",
+      "phase": "PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "PTSD - Post Traumatic Stress Disorder",
+        "Cognitive Dysfunction",
+        "Brain Trauma",
+        "Brain Injuries"
+      ],
+      "interventions": [
+        "OTHER: Hormone Replacement Therapy (HRT)",
+        "OTHER: Magnetic Resonance Therapy (MeRT)",
+        "DRUG: ibogaine with magnesium treatment",
+        "DRUG: 5-MeO-DMT"
+      ],
+      "sponsor": "Johns Hopkins University",
+      "collaborators": [
+        "Special Operators Care Fund"
+      ],
+      "enrollment": 0,
+      "start_date": "2025-09",
+      "completion_date": "2027-12",
+      "countries": [
+        "United States"
+      ],
+      "has_results": false,
+      "molecule_tag": "5-MeO-DMT",
+      "summary": "The Special Operations Care-Fund (SOC-F) will sponsor the application of four treatments - hormone replacement, magnetic resonance brain stimulation, ibogaine, and 5-Meo-DMT - to Special Operations Forces veterans with a history of combat deployments, traumatic brain injury, and problems with mental health and cognitive functioning. An observational study will be conducted in parallel by the Johns Hopkins Center for Psychedelic and Consciousness Research to determine the effectiveness and safety of each treatment, primarily through measuring post-treatment changes in PTSD symptoms and cognitive functioning.",
+      "url": "https://clinicaltrials.gov/study/NCT06810765"
+    },
+    {
+      "nct_id": "NCT07317206",
+      "title": "Ayahuasca, Esketamine and PTSD",
+      "status": "RECRUITING",
+      "phase": "PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Posttraumatic Stress Disorder (PTSD)"
+      ],
+      "interventions": [
+        "DRUG: Ayahuasca",
+        "DRUG: Esketamine"
+      ],
+      "sponsor": "University of Sao Paulo",
+      "collaborators": [],
+      "enrollment": 10,
+      "start_date": "2025-12-20",
+      "completion_date": "2026-07",
+      "countries": [
+        "Brazil"
+      ],
+      "has_results": false,
+      "molecule_tag": "ayahuasca",
+      "summary": "Double-blind, randomized trial comparing a single dose of oral ayahuasca or esketamine in patients with posttraumatic stress disorder.",
+      "url": "https://clinicaltrials.gov/study/NCT07317206"
+    },
+    {
+      "nct_id": "NCT07317232",
+      "title": "Ayahuasca, Esketamine and Premenstrual Symptoms",
+      "status": "RECRUITING",
+      "phase": "N/A",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Healthy Women Volunteers"
+      ],
+      "interventions": [
+        "DRUG: Ayahuasca",
+        "DRUG: Esketamine"
+      ],
+      "sponsor": "University of Sao Paulo",
+      "collaborators": [],
+      "enrollment": 20,
+      "start_date": "2025-12-20",
+      "completion_date": "2026-07",
+      "countries": [
+        "Brazil"
+      ],
+      "has_results": false,
+      "molecule_tag": "ayahuasca",
+      "summary": "Double-blind, randomized trial comparing a single dose of oral ayahuasca or esketamine on premenstrual symptoms.",
+      "url": "https://clinicaltrials.gov/study/NCT07317232"
+    },
+    {
+      "nct_id": "NCT07317219",
+      "title": "Ayahuasca, Esketamine and Body Image Perception",
+      "status": "RECRUITING",
+      "phase": "N/A",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Healthy Women Volunteers"
+      ],
+      "interventions": [
+        "DRUG: Ayahuasca",
+        "DRUG: Esketamine"
+      ],
+      "sponsor": "University of Sao Paulo",
+      "collaborators": [],
+      "enrollment": 20,
+      "start_date": "2025-12-20",
+      "completion_date": "2026-07",
+      "countries": [
+        "Brazil"
+      ],
+      "has_results": false,
+      "molecule_tag": "ayahuasca",
+      "summary": "Double-blind, randomized trial comparing a single dose of oral ayahuasca or esketamine on women body perception.",
+      "url": "https://clinicaltrials.gov/study/NCT07317219"
+    },
+    {
+      "nct_id": "NCT07444788",
+      "title": "Acute Effects of Intravenous 5-MeO-DMT in Healthy Participants",
+      "status": "RECRUITING",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "5-methoxy-dimethyltryptamine (5-MeO-DMT)"
+      ],
+      "interventions": [
+        "DRUG: 0.2 mg/min 5-MeO-DMT",
+        "DRUG: 0.4 mg/min 5-MeO-DMT",
+        "DRUG: 0.6 mg/min 5-MeO-DMT",
+        "DRUG: 0.8 mg/min 5-MeO-DMT",
+        "DRUG: Placebo"
+      ],
+      "sponsor": "University Hospital, Basel, Switzerland",
+      "collaborators": [],
+      "enrollment": 40,
+      "start_date": "2026-03-31",
+      "completion_date": "2028-03-01",
+      "countries": [
+        "Switzerland"
+      ],
+      "has_results": false,
+      "molecule_tag": "5-MeO-DMT",
+      "summary": "Participation in this study lasts approximately two weeks and includes three on-site study visits: a screening visit (approximately 2 hours), a study drug administration visit (approximately 4 hours), and a follow-up visit approximately one week later (approximately 2 hours).\n\nIf participants decide to take part in the study and meet the inclusion and exclusion criteria, they will be randomly assigned to one of two groups: an experimental group or a control group. Participants will not be informed of your group assignment. Participants in the experimental group will receive the investigational substance 5-MeO-DMT at a dose of 0.2, 0.4, 0.6, or 0.8 mg/min for a total infusion duration of 30 min. Participants in the control group will receive a placebo that is indistinguishable in appearance from the investigational substance. Following substance administration, participants will be repeatedly asked to describe their subjective experiences. Blood pressure and heart rate will be monitored regularly, and blood samples will be collected via an intravenous catheter.",
+      "url": "https://clinicaltrials.gov/study/NCT07444788"
+    },
+    {
+      "nct_id": "NCT07540494",
+      "title": "Pharmacokinetics and Safety of GH001 Delivered Via a GH001 Aerosol Delivery System in Healthy Subjects",
+      "status": "NOT_YET_RECRUITING",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Healthy Adult"
+      ],
+      "interventions": [
+        "DRUG: 5 Methoxy N,N Dimethyltryptamine",
+        "DEVICE: GH001 Aerosol Delivery System"
+      ],
+      "sponsor": "GH Research Ireland Limited",
+      "collaborators": [],
+      "enrollment": 12,
+      "start_date": "2026-04",
+      "completion_date": "2026-05",
+      "countries": [
+        "United States"
+      ],
+      "has_results": false,
+      "molecule_tag": "5-MeO-DMT",
+      "summary": "The primary objectives of this trial are to determine the pharmacokinetic (PK) profile and the safety and tolerability of GH001 delivered via a proprietary aerosol delivery device in healthy subjects after single-dose administration.",
+      "url": "https://clinicaltrials.gov/study/NCT07540494"
+    },
+    {
+      "nct_id": "NCT07562191",
+      "title": "Inhaled DMT for Major Depressive Disorder",
+      "status": "RECRUITING",
+      "phase": "PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "MDD",
+        "Major Depressive Disorder (MDD)",
+        "Major Depression",
+        "Suicidal Ideation",
+        "Suicide"
+      ],
+      "interventions": [
+        "DRUG: N,N-Dimethyltryptamine (15 mg + 60 mg)",
+        "DRUG: N,N-Dimethyltryptamine (1 mg + 4 mg)"
+      ],
+      "sponsor": "Universidade Federal do Rio Grande do Norte",
+      "collaborators": [
+        "Financiadora de Estudos e Projetos"
+      ],
+      "enrollment": 140,
+      "start_date": "2026-08-01",
+      "completion_date": "2027-08-01",
+      "countries": [
+        "Brazil"
+      ],
+      "has_results": false,
+      "molecule_tag": "N,N-DMT",
+      "summary": "This Phase 2b, randomized, double-blind, active-controlled clinical trial will evaluate the efficacy and safety of inhaled N,N-dimethyltryptamine (DMT) in adults with Major Depressive Disorder (MDD).\n\nThe study will test whether inhaled DMT can rapidly reduce depressive symptoms and suicide risk compared with a low-dose active comparator. A total of 140 participants will be randomized 1:1 to receive either 15 mg followed 1 hour later by 60 mg of inhaled DMT, or 1 mg followed 1 hour later by 4 mg of inhaled DMT.\n\nParticipants who do not achieve remission at Day 7 will enter an open-label extension and receive a high-dose DMT session on Day 14 (±3 days). All participants will be followed for up to 12 months to evaluate the durability of response, safety, functioning, and quality of life.",
+      "url": "https://clinicaltrials.gov/study/NCT07562191"
+    },
+    {
+      "nct_id": "NCT07693257",
+      "title": "Neural Effects of Intravenous N,N-dimethyltryptamine (DMT)",
+      "status": "NOT_YET_RECRUITING",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Healthy Participants Study"
+      ],
+      "interventions": [
+        "DRUG: N,N-Dimethyltryptamine (15 mg)",
+        "DRUG: N,N-Dimethyltryptamine (17.5 mg)"
+      ],
+      "sponsor": "Jon Dean",
+      "collaborators": [],
+      "enrollment": 20,
+      "start_date": "2026-09-01",
+      "completion_date": "2029-09-01",
+      "countries": [
+        "United States"
+      ],
+      "has_results": false,
+      "molecule_tag": "N,N-DMT",
+      "summary": "This study examines how the psychedelic substance DMT affects the human brain when administered by the intravenous (IV) route. DMT is a naturally occurring chemical in the body that is thought to help improve mood when ingested in a continuously monitored medical setting. Previous research has shown that a single IV injection of DMT can be given safely, but its effects, which include changes in perception, emotions, and thinking, usually wear off within 15-20 minutes.\n\nTo better understand what happens when DMT's effects last longer, researchers have developed a method to give DMT slowly and continuously through an IV, which safely extends its effects for up to an hour or more. In this study, healthy volunteers who have prior experience using DMT will receive low and medium doses of DMT in this extended manner through an IV for 1 hour while undergoing a brain scanning technique known as functional magnetic resonance imaging (fMRI). These scans allow researchers to see changes in brain activity and blood flow in real time.\n\nParticipants will complete psychological assessments before and after receiving DMT, and additional brain scans without DMT will be used for comparison. The researchers will also use advanced computer techniques to help identify brain patterns linked to the visual experiences people report during DMT.\n\nOverall, the goal of the study is to better understand how DMT affects the brain during an extended experience and to learn more about the biological processes behind its psychological effects.",
+      "url": "https://clinicaltrials.gov/study/NCT07693257"
+    }
+  ],
+  "preprints": [
+    {
+      "title": "Vaporizable Formulation of 5-MeO-DMT and THCV as Prophylactic or Therapeutic Agent for Treatment-Resistant Depression (TRD) and Anxiety Disorders",
+      "authors": "Henry P.",
+      "year": "2026",
+      "server": "Preprints.org",
+      "doi": "10.20944/preprints202602.0590.v1",
+      "url": "https://doi.org/10.20944/preprints202602.0590.v1"
+    },
+    {
+      "title": "Psychedelic Therapy: A Primer for Primary Care Clinicians—5-Methoxy-N,N-Dimethyltryptamine (5-MeO-DMT)",
+      "authors": "Tabaac BJ, Shinozuka K, Weisman A, Chaudhry S, Seynaeve M, Muir OS.",
+      "year": "2025",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/9gbkt_v1",
+      "url": "https://doi.org/10.31234/osf.io/9gbkt_v1"
+    },
+    {
+      "title": "Global Increases in Brain Glucose Metabolism Following Acute N,N-Dimethyltryptamine and Harmine Administration in Healthy Volunteers: An [¹⁸F]FDG-PET Study",
+      "authors": "Egger K, Bozsak R, Aicher H, Sari H, Poetzsch S, Rominger A, Martin-Soelch C, Dornbierer D, Quednow B, Scheidegger M, Cumming P.",
+      "year": "2025",
+      "server": "Research Square",
+      "doi": "10.21203/rs.3.rs-7099164/v1",
+      "url": "https://www.researchsquare.com/article/rs-7099164/latest.pdf"
+    },
+    {
+      "title": "Vigilance state dissociation induced by 5-MeO DMT in mice",
+      "authors": "Bréant B, PRIUS-MENGUAL J, Andrews A, Hoerder-Suabedissen A, Patel J, Bannerman D, Sharp T, Vyazovskiy V.",
+      "year": "2025",
+      "server": "Research Square",
+      "doi": "10.21203/rs.3.rs-6377546/v1",
+      "url": "https://www.researchsquare.com/article/rs-6377546/latest.pdf"
+    },
+    {
+      "title": "5-MeO-DMT Use in Humans: A Scoping Review of Peer-Reviewed Research",
+      "authors": "Esposito M, Bernal AMO, Davis AK, Lancelotta RL.",
+      "year": "2026",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/g8phu_v1",
+      "url": "https://doi.org/10.31234/osf.io/g8phu_v1"
+    },
+    {
+      "title": "N, N-Dimethyltryptamine and harmine formulation shifts metastable topography sequences in the cortex",
+      "authors": "Niedernhuber M, Suay D, Mueller M, Scheidegger M, Dornbierer D, Aicher H.",
+      "year": "2025",
+      "server": "bioRxiv",
+      "doi": "10.64898/2025.12.04.692302",
+      "url": "https://doi.org/10.64898/2025.12.04.692302"
+    },
+    {
+      "title": "The induction of dissociative states: A meta-analysis",
+      "authors": "Brake B, Wieder L, Hughes N, Lalinde IS, Marr D, Geagea D, Pick S, Reinders AATS, Kamboj SK, Thompson T, Terhune DB.",
+      "year": "2024",
+      "server": "medRxiv",
+      "doi": "10.1101/2024.09.09.24313338",
+      "url": "https://doi.org/10.1101/2024.09.09.24313338"
+    },
+    {
+      "title": "Complex slow waves radically reorganise human brain dynamics under 5-MeO-DMT",
+      "authors": "Blackburne G, McAlpine RG, Fabus M, Liardi A, Kamboj SK, Mediano PAM, Skipper JI.",
+      "year": "2024",
+      "server": "bioRxiv",
+      "doi": "10.1101/2024.10.04.616717",
+      "url": "https://doi.org/10.1101/2024.10.04.616717"
+    },
+    {
+      "title": "Neural effects and phenomenology of nondual meditation and 5-MeO-DMT in an expert meditation practitioner",
+      "authors": "Timmermann C, Barba T, Sanders J, Offort S, Dunne J, Erritzoe D, Lutz A.",
+      "year": "2025",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/whqdp_v1",
+      "url": "https://doi.org/10.31234/osf.io/whqdp_v1"
+    },
+    {
+      "title": "Neural effects and phenomenology of nondual meditation and 5-MeO-DMT in an expert meditation practitioner",
+      "authors": "Timmermann C, Barba T, Sanders J, Offort S, Dunne J, Erritzoe D, Lutz A.",
+      "year": "2025",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/whqdp_v2",
+      "url": "https://doi.org/10.31234/osf.io/whqdp_v2"
+    },
+    {
+      "title": "5-MeO-DMT in the complete resolution of the consequences of chronic, severe sexual abuse in early childhood—a retrospective case study",
+      "authors": "Turkia M.",
+      "year": "2024",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/bvk2f",
+      "url": "https://doi.org/10.31234/osf.io/bvk2f"
+    },
+    {
+      "title": "Distinct Modulatory Effects on Affective Biases by Different Serotonergic Psychedelics and MDMA in Male Rats: Possible Implications for Antidepressant Effects",
+      "authors": "Hinchcliffe JK, Bartlett J, Thomas CW, Golden CT, Gilmour G, Bortolotto ZA, Robinson ES.",
+      "year": "2026",
+      "server": "bioRxiv",
+      "doi": "10.64898/2026.04.20.719483",
+      "url": "https://doi.org/10.64898/2026.04.20.719483"
+    },
+    {
+      "title": "Speech markers of psychedelic-induced psychological change",
+      "authors": "Kuc J, McAlpine RG, Sellers A, Blackburne G, Lametti DR, Skipper JI.",
+      "year": "2025",
+      "server": "bioRxiv",
+      "doi": "10.1101/2025.04.16.649217",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2025/04/21/2025.04.16.649217.1.full.pdf"
+    },
+    {
+      "title": "Meditation, Psychedelics, and Brain Connectivity: A Randomised Controlled Resting-State fMRI Study of <i>N,N</i>-Dimethyltryptamine and Harmine in a Meditation Retreat",
+      "authors": "Egger K, Meling D, Polat F, Seifritz E, Avram M, Scheidegger M.",
+      "year": "2025",
+      "server": "medRxiv",
+      "doi": "10.1101/2025.07.30.25332422",
+      "url": "https://www.medrxiv.org/content/medrxiv/early/2025/07/30/2025.07.30.25332422.full.pdf"
+    },
+    {
+      "title": "Blunted psychedelic drug effects in older adults",
+      "authors": "Aday JS, Carhart-Harris R, Boehnke KF.",
+      "year": "2025",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/yz4cd_v2",
+      "url": "https://doi.org/10.31234/osf.io/yz4cd_v2"
+    },
+    {
+      "title": "Electrodynamics of the Psychedelic Experience",
+      "authors": "Hunt T.",
+      "year": "2025",
+      "server": "Preprints.org",
+      "doi": "10.20944/preprints202509.1813.v1",
+      "url": "https://doi.org/10.20944/preprints202509.1813.v1"
+    },
+    {
+      "title": "Blunted psychedelic drug effects in older adults",
+      "authors": "Aday JS, Carhart-Harris R, Boehnke KF.",
+      "year": "2025",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/yz4cd_v1",
+      "url": "https://doi.org/10.31234/osf.io/yz4cd_v1"
+    },
+    {
+      "title": "Koshering Psychedelics: Ayahuasca in the Ultra-Orthodox (Haredi) Jewish World",
+      "authors": "David J, Berkovich-Ohana A, Dor-Ziderman Y, Fine M, Bonny-Noach H, Roseman L.",
+      "year": "2026",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/sf3uq_v1",
+      "url": "https://doi.org/10.31234/osf.io/sf3uq_v1"
+    },
+    {
+      "title": "Koshering Psychedelics: Ayahuasca in the Ultra-Orthodox (Haredi) Jewish World",
+      "authors": "David J, Berkovich-Ohana A, Dor-Ziderman Y, Fine M, Bonny-Noach H, Roseman L.",
+      "year": "2026",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/sf3uq_v2",
+      "url": "https://doi.org/10.31234/osf.io/sf3uq_v2"
+    },
+    {
+      "title": "Gestational LSD exposure in mouse rapidly reaches embryonic CSF and is associated with altered choroid plexus signaling, cerebral cortical development, and offspring behavior",
+      "authors": "Courtney Y, Anderson JM, Lagares-Linares C, Wenthur CJ, Lehtinen MK.",
+      "year": "2025",
+      "server": "bioRxiv",
+      "doi": "10.1101/2025.09.30.677638",
+      "url": "https://doi.org/10.1101/2025.09.30.677638"
+    },
+    {
+      "title": "Serotonergic psychedelic 5-MeO-DMT alters plasticity-related gene expression and generates anxiolytic effects in stressed mice",
+      "authors": "Nogueira M, Golbert DF, Menezes R, Almeida R, Coelho NG, Siroky A, Lima T, Maia H, Leao K, Leao R.",
+      "year": "2023",
+      "server": "Research Square",
+      "doi": "10.21203/rs.3.rs-3787978/v1",
+      "url": "https://www.researchsquare.com/article/rs-3787978/latest.pdf"
+    },
+    {
+      "title": "The Entropy–Content Paradox in Minimal Phenomenal Experience",
+      "authors": "Mago J, Chandaria S.",
+      "year": "2025",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/kqb32_v1",
+      "url": "https://doi.org/10.31234/osf.io/kqb32_v1"
+    },
+    {
+      "title": "Beliefs in and experiences of sorcery, black magic and brujería among psychedelic users: a quantitative and qualitative survey",
+      "authors": "Evans J, Jurlando C, Luke D, Kohek M, Majer M, van oorsouw k.",
+      "year": "2026",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/kbqr3_v2",
+      "url": "https://doi.org/10.31234/osf.io/kbqr3_v2"
+    },
+    {
+      "title": "The effect of psychedelics on associative learning: a systematic review",
+      "authors": "Caulfield A, Li L, Askari F, Belessiotis-Richards C, Young AH, Mehta M.",
+      "year": "2025",
+      "server": "bioRxiv",
+      "doi": "10.1101/2025.07.21.665870",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2025/07/22/2025.07.21.665870.full.pdf"
+    },
+    {
+      "title": "5-MeO-DMT induces sleep-like LFP spectral signatures in the hippocampus and prefrontal cortex of awake rats",
+      "authors": "Souza AdC, Souza BdC, França A, Moradi M, Souza NdC, Leão K, Tort ABL, Leão R, Lopes-dos-Santos V, Ribeiro S.",
+      "year": "2023",
+      "server": "bioRxiv",
+      "doi": "10.1101/2023.06.01.543303",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2023/06/05/2023.06.01.543303.full.pdf"
+    },
+    {
+      "title": "Sociodemographic and mental-health characteristics of psychedelic-assisted therapy participants: Latent class analysis of a cross-sectional, purposive online sample",
+      "authors": "Petrovitch D, Hosford S, Littlefield AK, Austin-Robillard H.",
+      "year": "2025",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/26tz7_v1",
+      "url": "https://doi.org/10.31234/osf.io/26tz7_v1"
+    },
+    {
+      "title": "Sleep-like state during wakefulness induced by psychedelic 5-MeO-DMT in mice",
+      "authors": "Bréant BJB, Mengual JP, Hoerder-Suabedissen A, Patel J, Bannerman DM, Sharp T, Vyazovskiy VV.",
+      "year": "2022",
+      "server": "bioRxiv",
+      "doi": "10.1101/2022.12.11.519886",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2022/12/11/2022.12.11.519886.full.pdf"
+    },
+    {
+      "title": "Bibliometric Analysis of Academic Journal Articles Reporting Results of Psychedelic Clinical Studies",
+      "authors": "Weleff J, Akiki TJ, Barnett BS.",
+      "year": "2021",
+      "server": "medRxiv",
+      "doi": "10.1101/2021.11.22.21266718",
+      "url": "https://www.medrxiv.org/content/medrxiv/early/2021/11/24/2021.11.22.21266718.full.pdf"
+    },
+    {
+      "title": "Psychedelic Therapy: A Primer for Primary Care Clinicians – Part III. N,N-dimethyltryptamine (DMT) and Ayahuasca",
+      "authors": "Shinozuka K, Tabaac BJ, Arenas A, Beutler BD, Cherian K, Evans VD, Fasano C, Muir OS.",
+      "year": "2023",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/2cteb",
+      "url": "https://doi.org/10.31234/osf.io/2cteb"
+    },
+    {
+      "title": "Multidimensional Ego-Dissolution Assessment (MEDA): Scale Development and Substance-Specific Comparisons",
+      "authors": "Senānāyaka R.",
+      "year": "2026",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/9c6xg_v1",
+      "url": "https://doi.org/10.31234/osf.io/9c6xg_v1"
+    },
+    {
+      "title": "Psychedelic Therapy: A Primer for Primary Care Clinicians – Part V. Ibogaine",
+      "authors": "Cherian K, Shinozuka K, Tabaac BJ, Arenas A, Beutler BD, Evans VD, Fasano C, Muir OS.",
+      "year": "2023",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/v3f4w",
+      "url": "https://doi.org/10.31234/osf.io/v3f4w"
+    },
+    {
+      "title": "Serotonergic Polypharmacology of 2-Halogenated Tryptamines",
+      "authors": "Yacoub J, Bray E, Bayyat J, Glatfelter GC, Leake A, Buitrago EM, Maitland AD, Partilla J, Cavalco NG, Schalk SS, Lammers JC, Baumann MH, McCorvy J, Leahy JW, Gulick D, Witowski CG, von Salm JL.",
+      "year": "2026",
+      "server": "bioRxiv",
+      "doi": "10.64898/2026.04.16.718915",
+      "url": "https://doi.org/10.64898/2026.04.16.718915"
+    },
+    {
+      "title": "Network Rerouting Under Ayahuasca: Temporally and Hemisphere-Resolved EEG Connectomics",
+      "authors": "Alves CL, Palhano-Fontes F, Toutain TGLdO, Sallum LF, Thielemann C, de Araujo DB.",
+      "year": "2025",
+      "server": "bioRxiv",
+      "doi": "10.64898/2025.12.08.693032",
+      "url": "https://doi.org/10.64898/2025.12.08.693032"
+    },
+    {
+      "title": "Can LLMs Get High? A Dual-Metric Framework for Evaluating Psychedelic Simulation and Safety in Large Language Models",
+      "authors": "Ben-Zion Z, Simon G, Lazebnik T.",
+      "year": "2026",
+      "server": "Research Square",
+      "doi": "10.21203/rs.3.rs-8682370/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-8682370/v1"
+    },
+    {
+      "title": "In Silico Characterization of Desmodium gangeticum Compounds as Dual Modulators of MAO-B and 5- HT2A in Parkinson’s Disease: An Integrated Approach Combining Molecular Docking, ADMET Profiling, MM-GBSA, QSAR Modeling, and Molecular Dynamics Simulation",
+      "authors": "Akinma OE, Akinola OA, Ojo ID, Olopoda AI, Akerele ID, Akinyemi BB, Ayodeji FO, Elekofehinti OO.",
+      "year": "2026",
+      "server": "Research Square",
+      "doi": "10.21203/rs.3.rs-10242302/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-10242302/v1"
+    },
+    {
+      "title": "<i>Incilius alvarius</i>  cell-based synthesis of 5-MeO-DMT",
+      "authors": "Lerer L, Reynolds E, Varia J, Blakolmer K, Lerer B.",
+      "year": "2022",
+      "server": "bioRxiv",
+      "doi": "10.1101/2022.05.20.492789",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2022/06/14/2022.05.20.492789.full.pdf"
+    },
+    {
+      "title": "Traces of the Other – Are DMT Entities Real? DMT Phenomenology in the Framework of Conscious Realism",
+      "authors": "Gallimore AR, Hermansson N, Hoffman DD.",
+      "year": "2026",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/8qvgy_v2",
+      "url": "https://doi.org/10.31234/osf.io/8qvgy_v2"
+    },
+    {
+      "title": "The Ecstasy of Gold in Neurodiversity: Focus on the Use of Psychedelics in Autism Spectrum Disorder",
+      "authors": "Marini S, De Berardis D.",
+      "year": "2026",
+      "server": "Preprints.org",
+      "doi": "10.20944/preprints202604.1998.v1",
+      "url": "https://doi.org/10.20944/preprints202604.1998.v1"
+    },
+    {
+      "title": "Age moderates the relationship between psychedelics use and mental health in naturalistic settings",
+      "authors": "Gregorio GD, Basset S, Manmohan H, Nixon WC, Pogaku A, Zhou J, Sanderson DJ, Lengieza ML, Bocchio M.",
+      "year": "2026",
+      "server": "Research Square",
+      "doi": "10.21203/rs.3.rs-9022170/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-9022170/v1"
+    },
+    {
+      "title": "Ayahuasca prevents the reinstatement of cocaine-induced rewarding effects in C57Bl/6 mice",
+      "authors": "Bruno V, Spelta LEW, Pereira ML, Dörr F, Paranhos BAPB, Santos FP, Yonamine M, Garcia RCT, Torres LH, Pasquale R, Camarini R, Marcourakis T.",
+      "year": "2025",
+      "server": "Research Square",
+      "doi": "10.21203/rs.3.rs-7140966/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-7140966/v1"
+    },
+    {
+      "title": "Characterizing Resting-State Brain Dynamics with Frequency-Resolved EEG Microstates: Parallel Analyses of Psilocybin Microdosing and Acute Inhaled DMT",
+      "authors": "Tarailis P, Griskova-Bulanova I.",
+      "year": "2026",
+      "server": "bioRxiv",
+      "doi": "10.64898/2026.05.05.723034",
+      "url": "https://doi.org/10.64898/2026.05.05.723034"
+    },
+    {
+      "title": "Reorganization of Human Brain Waves Across Diverse States of Consciousness",
+      "authors": "Fotiadis P, Jang H, Dai R, Li D, Cofré R, Timmermann C, Mashour GA, Hudetz AG, Huang Z.",
+      "year": "2026",
+      "server": "bioRxiv",
+      "doi": "10.64898/2026.05.27.728182",
+      "url": "https://doi.org/10.64898/2026.05.27.728182"
+    },
+    {
+      "title": "DMT, Madness, and Healing: Psychosis Model, Therapy Model, and Their Relations to Mystical Experiences and Positive Emotionality",
+      "authors": "Wießner I, Falchi-Carvalho M, Laborde S, Barros H, Bolcont R, Medina M, Mograbi D, Coelho NG, Palhano-Fontes F, Araujo D.",
+      "year": "2026",
+      "server": "Research Square",
+      "doi": "10.21203/rs.3.rs-9640916/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-9640916/v1"
+    },
+    {
+      "title": "Multimodal autonomic arousal tracks dose-dependent affective dynamics during the acute effects of DMT",
+      "authors": "D’Amelio TA, Garbagnoli TG, Cuello JR, Lewis-Healey E, Pallavicini C, Cavanna F, Bruno NM, De La Fuente LA, Müller S, Copa D, Bekinschtein T, Vidaurre D, Tagliazucchi E.",
+      "year": "2026",
+      "server": "bioRxiv",
+      "doi": "10.64898/2026.04.30.721872",
+      "url": "https://doi.org/10.64898/2026.04.30.721872"
+    },
+    {
+      "title": "Classification of psychedelics and psychoactive drugs based on brain-wide imaging of cellular c-Fos expression",
+      "authors": "Aboharb F, Davoudian PA, Shao L, Liao C, Rzepka GN, Wojtasiewicz C, Indajang J, Dibbs M, Rondeau J, Sherwood AM, Kaye AP, Kwan AC.",
+      "year": "2024",
+      "server": "bioRxiv",
+      "doi": "10.1101/2024.05.23.590306",
+      "url": "https://doi.org/10.1101/2024.05.23.590306"
+    },
+    {
+      "title": "The antidepressant effects of vaporized N,N-Dimethyltryptamine: a preliminary report in treatment-resistant depression",
+      "authors": "Falchi-Carvalho M, Barros H, Bolcont R, Laborde S, Wießner I, Silva SRB, Montanini D, Barbosa DC, Teixeira E, Florence-Vilela R, Almeida R, de Macedo RKA, Arichelle F, Pantrigo ÉJ, Arcoverde E, Galvão-Coelho N, Araujo DB, Palhano-Fontes F.",
+      "year": "2024",
+      "server": "medRxiv",
+      "doi": "10.1101/2024.01.03.23300610",
+      "url": "https://www.medrxiv.org/content/medrxiv/early/2024/01/04/2024.01.03.23300610.full.pdf"
+    },
+    {
+      "title": "Ayahuasca revisited. Case studies &amp; observations",
+      "authors": "Turkia M.",
+      "year": "2025",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/pefct_v1",
+      "url": "https://osf.io/pefct_v1/download"
+    },
+    {
+      "title": "LGBTQ+ Ayahuasca Retreat Experience is Associated with Benefits to Mental Health, Quality of Life, and Spiritual Well-being: A Prospective, Naturalistic Study",
+      "authors": "Lowe MX, Darby QA, Kalcheff-Korn S, Jackson H.",
+      "year": "2025",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/sfpqa_v3",
+      "url": "https://osf.io/sfpqa_v3/download"
+    },
+    {
+      "title": "Diet and chemical defenses of the Sonoran Desert toads",
+      "authors": "Luccioni MD, Wyman JT, Espinoza EO, O’Connell LA.",
+      "year": "2023",
+      "server": "bioRxiv",
+      "doi": "10.1101/2023.10.06.561297",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2023/10/09/2023.10.06.561297.full.pdf"
+    },
+    {
+      "title": "Criticality supports cross-frequency cortical-thalamic information transfer during conscious states",
+      "authors": "Toker D, Müller E, Miyamoto H, Riga MS, Lladó-Pelfort L, Yamakawa K, Artigas F, Shine JM, Hudson AE, Pouratian N, Monti MM.",
+      "year": "2023",
+      "server": "bioRxiv",
+      "doi": "10.1101/2023.02.22.529544",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2023/02/24/2023.02.22.529544.full.pdf"
+    },
+    {
+      "title": "Ayahuasca-Inspired DMT/HAR Formulation Reduces Brain Differentiation Between Self and Other Faces",
+      "authors": "Suay D, Aicher HD, Kometer M, Mueller MJ, Caflisch L, Hempe A, Steinhart CP, Elsner C, Wicki IA, Müller J, Meling D, Dornbierer DA, Scheidegger M, Bottari D.",
+      "year": "2024",
+      "server": "medRxiv",
+      "doi": "10.1101/2024.10.28.24316308",
+      "url": "https://doi.org/10.1101/2024.10.28.24316308"
+    },
+    {
+      "title": "Altered States of Consciousness and the Subconscious Mind: A Comprehensive Comparative Review of Disciplines, Neurobiological Mechanisms, Clinical Applications, and Philosophical Frameworks — Including Life Between Lives and Transpersonal Hypnotherapy",
+      "authors": "Gallardo LM.",
+      "year": "2026",
+      "server": "Preprints.org",
+      "doi": "10.20944/preprints202604.0415.v1",
+      "url": "https://doi.org/10.20944/preprints202604.0415.v1"
+    },
+    {
+      "title": "SSRIs, Psilocybin, MDMA, and Disease Modeling: Strategies to Advance PTSD Treatment",
+      "authors": "Ishii M, Zervas M.",
+      "year": "2026",
+      "server": "ScienceOpen Preprints",
+      "doi": "10.14293/pr2199.003034.v1",
+      "url": "https://doi.org/10.14293/pr2199.003034.v1"
+    },
+    {
+      "title": "Prolonged Grief Symptom Outcomes During At-Home Ketamine-Assisted Therapy: A Real-World Retrospective Analysis of 503 Adults",
+      "authors": "Carter D, Reardon I, Swain J, Vando L.",
+      "year": "2026",
+      "server": "Research Square",
+      "doi": "10.21203/rs.3.rs-9839240/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-9839240/v1"
+    },
+    {
+      "title": "Inhaled N,N-Dimethyltryptamine Diminishes Connectivity between the Ventral Tegmental Area and the Nucleus Accumbens : relevance to pathologies of mesolimbic and mesocortical pathways",
+      "authors": "Lima G, Soares C, Teixeira M, Pais M, Cabral C, Rijo P, Castelo-Branco M.",
+      "year": "2025",
+      "server": "Research Square",
+      "doi": "10.21203/rs.3.rs-7141119/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-7141119/v1"
+    },
+    {
+      "title": "Neuroimaging in psychedelic drug development: Past, present, and future",
+      "authors": "Wall M, Harding R, Zafar R, Rabiner EA, Nutt D, Erritzoe D.",
+      "year": "2022",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/xwu4j",
+      "url": "https://psyarxiv.com/xwu4j/download"
+    },
+    {
+      "title": "LGBTQ+ Ayahuasca Retreat Experience is Associated with Benefits to Mental Health, Quality of Life, and Spiritual Well-being: A Prospective, Naturalistic Study",
+      "authors": "Lowe MX, Darby QA, Kalcheff-Korn S, Jackson H.",
+      "year": "2025",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/sfpqa_v1",
+      "url": "https://doi.org/10.31234/osf.io/sfpqa_v1"
+    },
+    {
+      "title": "LGBTQ+ Ayahuasca Retreat Experience is Associated with Benefits to Mental Health, Quality of Life, and Spiritual Well-being: A Prospective, Naturalistic Study",
+      "authors": "Lowe MX, Darby QA, Kalcheff-Korn S, Jackson H.",
+      "year": "2025",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/sfpqa_v2",
+      "url": "https://osf.io/sfpqa_v2/download"
+    },
+    {
+      "title": "POTENCIAL TERAPÊUTICO DA AYAHUASCA COMO INTERVENÇÃO NOS TRANSTORNOS PSIQUIÁTRICOS: UMA REVISÃO SISTEMÁTICA",
+      "authors": "Jurdi Jasserand Y, Vieira de Oliveira AB, De Queiroz A, Antony Lavor LC, Silva de Mendonça R, Nascimento Silva TG, Fajardo L.",
+      "year": "2025",
+      "server": "SciELO Preprints",
+      "doi": "10.1590/scielopreprints.11613",
+      "url": "https://preprints.scielo.org/index.php/scielo/preprint/download/11613/21175/21786"
+    },
+    {
+      "title": "Ayahuasca Shifts Brain Dynamics Toward Higher Entropy: Persistent Elevation of Ising Temperature Correlates with Acute Subjective Effects",
+      "authors": "Cabral-Carvalho RM, Palhano-Fontes F, Araujo DB, Sato JR.",
+      "year": "2025",
+      "server": "bioRxiv",
+      "doi": "10.1101/2025.04.25.650509",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2025/04/28/2025.04.25.650509.full.pdf"
+    },
+    {
+      "title": "Ayahuasca in the treatment of bipolar disorder with psychotic features–A retrospective case study",
+      "authors": "Turkia M.",
+      "year": "2023",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/65se9",
+      "url": "https://psyarxiv.com/65se9/download"
+    },
+    {
+      "title": "Psilocybin and the Evolutionary Significance of Altered Neural States: Interaction-Based Perspectives Beyond Deterrence Models",
+      "authors": "Rebensburg P.",
+      "year": "2026",
+      "server": "EcoEvoRxiv",
+      "doi": "10.32942/x2v66q",
+      "url": "https://doi.org/10.32942/x2v66q"
+    },
+    {
+      "title": "Ayahuasca – a review of historical, pharmacological, and therapeutic aspects",
+      "authors": "Ruffell S, Netzband N, Tsang W, Gandy S, Perkins D, Cowley-Court T, Halman A, McHerron D, Kennedy T, White E, Terhune DB, Sarris J.",
+      "year": "2023",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/7h48b",
+      "url": "https://doi.org/10.31234/osf.io/7h48b"
+    },
+    {
+      "title": "Psychedelic Therapy: A Primer for Primary Care Clinicians – Part I. Historical Perspective and Overview",
+      "authors": "Tabaac BJ, Shinozuka K, Arenas A, Beutler BD, Cherian K, Evans VD, Fasano C, Muir OS.",
+      "year": "2023",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/byms6",
+      "url": "https://doi.org/10.31234/osf.io/byms6"
+    },
+    {
+      "title": "Ayahuasca Mitigates Morphological Cortical Alterations in Juvenile Non-human Primates Following Chronic Stress Exposure",
+      "authors": "Júnior EdN, Pereira L, Lira-Bandeira W, Bandeira AM, de Mendonça LC, Ladd FL, Grilo MPdM, Cavalcante J, Coelho NG.",
+      "year": "2025",
+      "server": "Research Square",
+      "doi": "10.21203/rs.3.rs-5960718/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-5960718/v1"
+    },
+    {
+      "title": "A dual-receptor model of serotonergic psychedelics",
+      "authors": "Juliani A, Chelu V, Graesser L, Safron A.",
+      "year": "2024",
+      "server": "bioRxiv",
+      "doi": "10.1101/2024.04.12.589282",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2024/04/15/2024.04.12.589282.full.pdf"
+    },
+    {
+      "title": "Self-Transcendent Perceptual Dynamics and the Effects of Dispositional Mindfulness on Altered States of Consciousness: A Prospective Longitudinal Observational Study of a Naturalistic Psychedelic Retreat",
+      "authors": "Ehmann S, Mosahvili N, White A, Cuzzupe J, Tompkins B, McKibben J, Allen JJ, Gawrysiak M.",
+      "year": "2025",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/6jf49_v1",
+      "url": "https://doi.org/10.31234/osf.io/6jf49_v1"
+    },
+    {
+      "title": "Ayahuasca in the treatment of the consequences of chronic childhood sexual abuse in a religious community",
+      "authors": "Turkia M.",
+      "year": "2025",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/mzkyv_v1",
+      "url": "https://doi.org/10.31234/osf.io/mzkyv_v1"
+    },
+    {
+      "title": "Increased 5-HT  <sub>2A</sub>  receptor signalling efficacy differentiates serotonergic psychedelics from non-psychedelics",
+      "authors": "Ippolito A, Vasudevan S, Hurley S, Gilmour G, Westhorpe F, Churchill G, Sharp T.",
+      "year": "2024",
+      "server": "bioRxiv",
+      "doi": "10.1101/2024.06.13.594677",
+      "url": "https://doi.org/10.1101/2024.06.13.594677"
+    },
+    {
+      "title": "Ketamine in severe, highly treatment-resistant depression—a retrospective case study and a perspective",
+      "authors": "Turkia M.",
+      "year": "2024",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/63su5",
+      "url": "https://doi.org/10.31234/osf.io/63su5"
+    },
+    {
+      "title": "Psychedelics relax predictive processing in the post-acute period by remodeling cortico-cortical feedback circuits",
+      "authors": "West CL, Imai F, Bastos G, Hornick MA, Rachmany L, Duran A, Nadeem S, Ricci D, Rader Groves AM, Wargo JA, Van Leeuwen N, Sershen H, Yaragudri Vinod K, Peterka DS, Hamm JP.",
+      "year": "2024",
+      "server": "bioRxiv",
+      "doi": "10.1101/2024.07.03.601959",
+      "url": "https://doi.org/10.1101/2024.07.03.601959"
+    },
+    {
+      "title": "A Mesoscale Framework for Psychedelic Drug Action in the Human Brain",
+      "authors": "Dai R, Cofre R, Timmermann C, Carhart-Harris RL, Hudetz AG, Huang Z, Mashour GA.",
+      "year": "2025",
+      "server": "bioRxiv",
+      "doi": "10.1101/2025.11.23.690016",
+      "url": "https://doi.org/10.1101/2025.11.23.690016"
+    },
+    {
+      "title": "5-MeO-DMT modifies innate behaviors and promotes structural neural plasticity in mice",
+      "authors": "Jefferson SJ, Gregg I, Dibbs M, Liao C, Wu H, Davoudian PA, Sprouse JS, Sherwood AM, Kaye AP, Pittenger C, Kwan AC.",
+      "year": "2022",
+      "server": "bioRxiv",
+      "doi": "10.1101/2022.11.03.515044",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2022/11/03/2022.11.03.515044.full.pdf"
+    },
+    {
+      "title": "Drug-drug interactions between classic psychedelics and psychoactive drugs: a systematic review",
+      "authors": "Halman A, Kong G, Sarris J, Perkins D.",
+      "year": "2023",
+      "server": "medRxiv",
+      "doi": "10.1101/2023.06.01.23290811",
+      "url": "https://www.medrxiv.org/content/medrxiv/early/2023/06/13/2023.06.01.23290811.full.pdf"
+    },
+    {
+      "title": "The selective 5-HT  <sub>2A</sub>  receptor agonist LPH-5 induces persistent and robust antidepressant-like effects in rodents",
+      "authors": "Jensen AA, Cecchi CR, Hibicke M, Bach AH, Kaadt E, Märcher-Rørsted E, Nichols CD, Elfving B, Kristensen JL.",
+      "year": "2024",
+      "server": "bioRxiv",
+      "doi": "10.1101/2024.04.19.590212",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2024/04/22/2024.04.19.590212.full.pdf"
+    },
+    {
+      "title": "Intravenous Administration of Serotonergic Psychedelics Produce Short-lasting Changes in Sleep-Wake Behavior and High Gamma Functional Connectivity in Rats",
+      "authors": "Kolbman N, Huels ER, Nelson A, Summerfield R, Byraju K, Groenhout T, Liu T, Hudetz AG, Vanini G, Pal D.",
+      "year": "2025",
+      "server": "bioRxiv",
+      "doi": "10.1101/2025.10.12.681880",
+      "url": "https://doi.org/10.1101/2025.10.12.681880"
+    },
+    {
+      "title": "Complexity as a Potential Neurophysiological Correlate of Awe",
+      "authors": "Chen JC, Mace G, Ostrand A, Valtierra C, Griffith S, Campusano R, Li A, Vinson E, Schlomberg JT, Eshel M, Suntay JM, Rahim S, Anguera-Singla R, Nandi B, Hartley I, Brown DA, Swann NC, Mazzucato L, Hu X, Zhang D, Timmermann C, Bijanzadeh M, Abbasi-Asl R, Carhart-Harris RL, Zanto T, Ziegler DA, Gazzaley A, Pasquini L.",
+      "year": "2025",
+      "server": "bioRxiv",
+      "doi": "10.1101/2025.11.20.689403",
+      "url": "https://doi.org/10.1101/2025.11.20.689403"
+    },
+    {
+      "title": "Embracing Change: Impermanence Acceptance Mediates Differences in Death Processing Between Ayahuasca Users and Non-users",
+      "authors": "david J, Berkovich-Ohana A, Dor-Ziderman Y.",
+      "year": "2024",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/tmeb3",
+      "url": "https://doi.org/10.31234/osf.io/tmeb3"
+    },
+    {
+      "title": "Effects of Ayahuasca on Ethanol-Conditioned Place Preference and ΔFosB Expression in the Nucleus Accumbens in Mice",
+      "authors": "Distefano Wiltenburg V, Morales-Lima G, Sousa Santos AV, Echeverry Bermúdez M, Cruz FC, de Oliveira Silveira G, Yonamine M, Ayako Tiba P, Rieli Mendes F.",
+      "year": "2024",
+      "server": "bioRxiv",
+      "doi": "10.1101/2024.05.07.592962",
+      "url": "https://doi.org/10.1101/2024.05.07.592962"
+    },
+    {
+      "title": "Short term changes in the proteome of human cerebral organoids induced by 5-methoxy-N,N-dimethyltryptamine",
+      "authors": "Dakic V, Nascimento JM, Sartore RC, de Moraes Maciel R, de Araujo DB, Ribeiro S, Martins-de-Souza D, Rehen S.",
+      "year": "2017",
+      "server": "bioRxiv",
+      "doi": "10.1101/108159",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2017/03/03/108159.full.pdf"
+    },
+    {
+      "title": "Exploring Public Sentiments of Psychedelics Versus Other Substances: A Reddit-Based Natural Language Processing Study",
+      "authors": "Biba B, O'Shea B.",
+      "year": "2025",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/6xgu8_v2",
+      "url": "https://doi.org/10.31234/osf.io/6xgu8_v2"
+    },
+    {
+      "title": "Rapid and prolonged antidepressant and antianxiety effects of psilocybin, lysergic acid diethylamide, ayahuasca, and 3, 4-methylenedioxy-methamphetamine. A systematic review and meta-analysis of randomized controlled trials",
+      "authors": "Fluyau D, Kailasam VK, Revadigar N.",
+      "year": "2024",
+      "server": "medRxiv",
+      "doi": "10.1101/2024.06.17.24308787",
+      "url": "https://doi.org/10.1101/2024.06.17.24308787"
+    },
+    {
+      "title": "Exploring Public Sentiments of Psychedelics Versus Other Substances: A Reddit-Based Natural Language Processing Study",
+      "authors": "Biba B, O'Shea B.",
+      "year": "2025",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/6xgu8_v1",
+      "url": "https://doi.org/10.31234/osf.io/6xgu8_v1"
+    },
+    {
+      "title": "5-methoxy-N,N-dimethyltryptamine: An ego-dissolving endogenous neurochemical catalyst of creativity",
+      "authors": "Germann CB.",
+      "year": "2019",
+      "server": "bioRxiv",
+      "doi": "10.1101/578435",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2019/03/17/578435.full.pdf"
+    },
+    {
+      "title": "Micro-phenomenology of immersion and perceived presences under DMT",
+      "authors": "Sanders JW, Millière R, Demšar E, Daily ZG, Carhart-Harris R, Timmermann C.",
+      "year": "2025",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/2m9d4_v2",
+      "url": "https://osf.io/2m9d4_v2/download"
+    },
+    {
+      "title": "Single-dose DMT reverses anhedonia and cognitive deficits via restoration of neurogenesis in a stress-induced depression model",
+      "authors": "da Cruz RVL, de Miranda Costa RBG, de Queiroz GM, Stojanovic T, Moulin TC, Leão RN.",
+      "year": "2025",
+      "server": "bioRxiv",
+      "doi": "10.1101/2025.04.26.650765",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2025/04/30/2025.04.26.650765.full.pdf"
+    },
+    {
+      "title": "Epigenome-wide Association Study of Psilocybin-Induced Methylome Changes in Alcohol Use Disorder",
+      "authors": "Urban MM, Zillich L, Rieser NM, Herdener M, Vollenweider FX, Spanagel R, Preller KH, Meinhardt MW.",
+      "year": "2025",
+      "server": "bioRxiv",
+      "doi": "10.1101/2025.07.18.664368",
+      "url": "https://doi.org/10.1101/2025.07.18.664368"
+    },
+    {
+      "title": "Genotoxic and mutagenic evaluation of Ayahuasca in peripheral blood and bone marrow of Mus musculus.",
+      "authors": "Feitosa P, Viana M, Figueredo-Silva J, Ferreira D, Oliveira Md, Oliveira A, Leite L, Santos M, Silva M, AMARAL Md, AMARAL Fd.",
+      "year": "2024",
+      "server": "Authorea Preprints",
+      "doi": "10.22541/au.170665785.51975039/v1",
+      "url": "https://www.authorea.com/doi/pdf/10.22541/au.170665785.51975039"
+    },
+    {
+      "title": "Neurochemical and Neurophysiological Effects of Intravenous Administration of  <i>N,N</i>  -Dimethyltryptamine in Rats",
+      "authors": "Glynos NG, Huels ER, Nelson A, Kim Y, Kennedy RT, Mashour GA, Pal D.",
+      "year": "2024",
+      "server": "bioRxiv",
+      "doi": "10.1101/2024.04.19.589047",
+      "url": "https://doi.org/10.1101/2024.04.19.589047"
+    },
+    {
+      "title": "Language Models Learn Sentiment and Substance from 11,000 Psychoactive Experiences",
+      "authors": "Friedman SF, Ballentine G.",
+      "year": "2022",
+      "server": "Research Square",
+      "doi": "10.21203/rs.3.rs-1942143/v2",
+      "url": "https://www.researchsquare.com/article/rs-1942143/latest.pdf"
+    },
+    {
+      "title": "Effects of serotonergic psychedelics on synaptogenesis and immediate early genes expression - comparison with ketamine, fluoxetine and lithium",
+      "authors": "Vella Y, Syrova K, Petruskova A, Koutrouli I, Kutna V, Pala J, Nikolic M, Sichova K, Mazoch V, Jurok R, Kuchar M, Bendova Z, Palenicek T.",
+      "year": "2024",
+      "server": "bioRxiv",
+      "doi": "10.1101/2024.08.07.606965",
+      "url": "https://doi.org/10.1101/2024.08.07.606965"
+    },
+    {
+      "title": "Examining Changes in Personality Following Shamanic Ceremonial Use of Ayahuasca",
+      "authors": "Weiss B, Miller J, Carter N, Campbell WK.",
+      "year": "2020",
+      "server": "Research Square",
+      "doi": "10.21203/rs.3.rs-111130/v1",
+      "url": "https://www.researchsquare.com/article/rs-111130/v1.pdf?c=1631876812000"
+    },
+    {
+      "title": "Therapeutic Potential of Psychedelic Compounds for Substance Use Disorders",
+      "authors": "Valdez T, Patel V, Senesombath D, Hatahet-Donovan Z, Hornick MG.",
+      "year": "2024",
+      "server": "Preprints.org",
+      "doi": "10.20944/preprints202410.1406.v1",
+      "url": "https://doi.org/10.20944/preprints202410.1406.v1"
+    },
+    {
+      "title": "A quantitative textual analysis of the subjective effects of ayahuasca in naive users with and without depression",
+      "authors": "Cruz L, Favero BB, Palhano-Fontes F, Tófoli LF, Araújo uB, Mograbi DC.",
+      "year": "2023",
+      "server": "Research Square",
+      "doi": "10.21203/rs.3.rs-3170538/v1",
+      "url": "https://www.researchsquare.com/article/rs-3170538/latest.pdf"
+    },
+    {
+      "title": "Time-resolved neural and experience dynamics of medium- and high-dose DMT",
+      "authors": "Lewis-Healey E, Pallavicini C, Cavanna F, D'Amelio T, De La Fuente LA, Copa D, Muller S, Bruno N, Tagliazucchi E, Bekinschtein T.",
+      "year": "2024",
+      "server": "bioRxiv",
+      "doi": "10.1101/2024.12.19.629418",
+      "url": "https://doi.org/10.1101/2024.12.19.629418"
+    },
+    {
+      "title": "Language Models Learn Sentiment and Substance from 11,000 Psychoactive Experiences",
+      "authors": "Friedman SF, Ballentine G.",
+      "year": "2022",
+      "server": "bioRxiv",
+      "doi": "10.1101/2022.06.02.494544",
+      "url": "https://doi.org/10.1101/2022.06.02.494544"
+    },
+    {
+      "title": "Ritualistic use of ayahuasca enhances a shared functional connectome identity with others",
+      "authors": "Mallaroni P, Mason NL, Kloft L, Reckweg JT, van Oorsouw K, Toennes SW, Tolle HM, Amico E, Ramaekers JG.",
+      "year": "2022",
+      "server": "bioRxiv",
+      "doi": "10.1101/2022.10.07.511268",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2022/10/12/2022.10.07.511268.full.pdf"
+    },
+    {
+      "title": "Effects of ayahuasca on gratitude and relationships with nature: An open-label, naturalistic study",
+      "authors": "Aday J, Bloesch E, Davis AK, Domoff S, Scherr KC, Woolley J, Davoli CC.",
+      "year": "2023",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/t32qp",
+      "url": "https://psyarxiv.com/t32qp/download"
+    },
+    {
+      "title": "Accurate and Interpretable Prediction of Antidepressant Treatment Response from Receptor-informed Neuroimaging",
+      "authors": "Tolle HM, Luppi AI, Lawn T, Roseman L, Nutt D, Carhart-Harris RL, Mediano PAM.",
+      "year": "2025",
+      "server": "bioRxiv",
+      "doi": "10.1101/2025.07.02.662710",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2025/07/03/2025.07.02.662710.full.pdf"
+    },
+    {
+      "title": "Effects of Classical Psychedelics on Implicit and Explicit Emotional Empathy and Cognitive Empathy: A Meta-analysis of MET task",
+      "authors": "Olami A, Peled-Avron L.",
+      "year": "2024",
+      "server": "bioRxiv",
+      "doi": "10.1101/2024.05.02.592231",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2024/05/05/2024.05.02.592231.full.pdf"
+    },
+    {
+      "title": "A Practical Optimisation of Golgi Staining for Cortical Neuronal Morphology",
+      "authors": "Allen-Ross D, Tamagnini F, Maiarú M.",
+      "year": "2026",
+      "server": "bioRxiv",
+      "doi": "10.64898/2026.03.11.711075",
+      "url": "https://doi.org/10.64898/2026.03.11.711075"
+    },
+    {
+      "title": "Psychedelics Use and the Risk of Reduced Formal Mental Health Care",
+      "authors": "Viña S.",
+      "year": "2024",
+      "server": "Research Square",
+      "doi": "10.21203/rs.3.rs-4378944/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-4378944/v1"
+    },
+    {
+      "title": "Touch and play—'spiritual attacks' in ayahuasca ceremonies",
+      "authors": "Turkia M.",
+      "year": "2023",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/uqxft",
+      "url": "https://psyarxiv.com/uqxft/download"
+    },
+    {
+      "title": "Increases in aesthetic experience following ayahuasca use: An open-label, naturalistic study",
+      "authors": "Aday J, Bloesch E, Davis AK, Domoff S, Scherr KC, Woolley J, Davoli CC.",
+      "year": "2023",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/gd8h2",
+      "url": "https://psyarxiv.com/gd8h2/download"
+    },
+    {
+      "title": "Can Psychedelic Use Benefit Meditation Practice? Examining Individual, Psychedelic, and Meditation-Related Factors",
+      "authors": "Jiwani Z, Goldberg SB, Stroud J, Young J, Curtin J, Dunne JD, Simonsson O, Webb CA, Carhart-Harris R, Schlosser M.",
+      "year": "2024",
+      "server": "medRxiv",
+      "doi": "10.1101/2024.08.27.24312677",
+      "url": "https://doi.org/10.1101/2024.08.27.24312677"
+    },
+    {
+      "title": "On serotonin, psychedelics, entactogens and psychoplastogens in depression, anxiety, post-traumatic stress, and related disorders.",
+      "authors": "Hoyer D.",
+      "year": "2024",
+      "server": "Authorea Preprints",
+      "doi": "10.22541/au.171648613.31141136/v1",
+      "url": "https://doi.org/10.22541/au.171648613.31141136/v1"
+    },
+    {
+      "title": "New study investigates the impact of Amazonian ayahuasca retreats on veterans, assessing its effect on brainwaves, the genome, gut microbiome and mental health",
+      "authors": "Ruffell S.",
+      "year": "2023",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/ngpvs",
+      "url": "https://doi.org/10.31234/osf.io/ngpvs"
+    },
+    {
+      "title": "Ayahuasca Self Consciousness and Mysticism",
+      "authors": "Savoldi R, Roazzi A.",
+      "year": "2022",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/ygtd9",
+      "url": "https://doi.org/10.31234/osf.io/ygtd9"
+    },
+    {
+      "title": "Harmonic decomposition of spacetime (HADES) framework characterises the spacetime hierarchy of the DMT brain state",
+      "authors": "Vohryzek J, Cabral J, Timmermann C, Atasoy S, Roseman L, Nutt DJ, Carhart-Harris RL, Deco G, Kringelbach ML.",
+      "year": "2023",
+      "server": "bioRxiv",
+      "doi": "10.1101/2023.08.20.554019",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2023/08/21/2023.08.20.554019.full.pdf"
+    },
+    {
+      "title": "A Meta-Analysis of Placebo-Controlled Trials of Psychedelic-Assisted Therapy",
+      "authors": "Luoma JB, Chwyl C, Bathje G, Davis AK, Lancelotta RL.",
+      "year": "2020",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/nhbjk",
+      "url": "https://psyarxiv.com/nhbjk/download"
+    },
+    {
+      "title": "Mental health, personality and lifetime psychedelic use during the COVID-19 pandemic",
+      "authors": "Cavanna F, Pallavicini C, Milano V, Cuiule J, Di Tella R, González P, Tagliazucchi E.",
+      "year": "2020",
+      "server": "medRxiv",
+      "doi": "10.1101/2020.12.24.20248519",
+      "url": "https://www.medrxiv.org/content/medrxiv/early/2020/12/26/2020.12.24.20248519.full.pdf"
+    },
+    {
+      "title": "A Meta-Analysis of Placebo-Controlled Trials of Psychedelic-Assisted Therapy",
+      "authors": "Luoma JB.",
+      "year": "2020",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/sgujx",
+      "url": "https://doi.org/10.31234/osf.io/sgujx"
+    },
+    {
+      "title": "Network medicine informed multi-omics integration identifies drug targets and repurposable medicines for Amyotrophic Lateral Sclerosis",
+      "authors": "Cheng F, Yu M, Xu J, Dutta R, Trapp B, Pieper A.",
+      "year": "2024",
+      "server": "Research Square",
+      "doi": "10.21203/rs.3.rs-4271755/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-4271755/v1"
+    },
+    {
+      "title": "Network medicine informed multi-omics integration identifies drug targets and repurposable medicines for Amyotrophic Lateral Sclerosis",
+      "authors": "Yu M, Xu J, Dutta R, Trapp B, Pieper AA, Cheng F.",
+      "year": "2024",
+      "server": "bioRxiv",
+      "doi": "10.1101/2024.03.27.586949",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2024/03/30/2024.03.27.586949.full.pdf"
+    },
+    {
+      "title": "The current state of ayahuasca research in animal models: A systematic review",
+      "authors": "Daldegan-Bueno D, Simionato NM, Favaro VM, Maia LO.",
+      "year": "2022",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/7s3b8",
+      "url": "https://psyarxiv.com/7s3b8/download"
+    },
+    {
+      "title": "Synergistic, Multi-level Understanding of Psychedelics: Three Systematic Reviews and Meta-analyses of Their Pharmacology, Neuroimaging and Phenomenology",
+      "authors": "Shinozuka K, Jerotic K, Mediano P, Zhao AT, Preller KH, Carhart-Harris R, Kringelbach ML.",
+      "year": "2023",
+      "server": "bioRxiv",
+      "doi": "10.1101/2023.10.06.561183",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2023/10/07/2023.10.06.561183.full.pdf"
+    },
+    {
+      "title": "Transient destabilization of whole brain dynamics induced by DMT",
+      "authors": "Piccinini JI, Perl YS, Pallavicini C, Deco G, Kringelbach M, Nutt D, Carhart-Harris R, Timmermann C, Tagliazucchi E.",
+      "year": "2024",
+      "server": "bioRxiv",
+      "doi": "10.1101/2024.01.26.577435",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2024/03/09/2024.01.26.577435.full.pdf"
+    },
+    {
+      "title": "Autonomic Nervous System activity correlates with peak experiences induced by DMT and predicts increases in wellbeing",
+      "authors": "Bonnelle V, Feilding A, Rosas FE, Nutt DJ, Carhart-Harris RL, Timmermann C.",
+      "year": "2024",
+      "server": "bioRxiv",
+      "doi": "10.1101/2024.03.19.585567",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2024/03/20/2024.03.19.585567.full.pdf"
+    },
+    {
+      "title": "Dynamic medial parietal and hippocampal deactivations under DMT relate to sympathetic output and altered sense of time, space, and the self",
+      "authors": "Pasquini L, Simon AJ, Gallen CL, Kettner H, Roseman L, Gazzaley A, Carhart-Harris RL, Timmermann C.",
+      "year": "2024",
+      "server": "bioRxiv",
+      "doi": "10.1101/2024.02.14.580356",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2024/02/19/2024.02.14.580356.full.pdf"
+    },
+    {
+      "title": "Application of machine learning and complex network measures to an EEG dataset from ayahuasca experiments",
+      "authors": "Alves CL, Cury RG, Roster K, Pineda AM, Rodrigues FA, Thielemann C, Ciba M.",
+      "year": "2022",
+      "server": "medRxiv",
+      "doi": "10.1101/2022.05.31.22275817",
+      "url": "https://www.medrxiv.org/content/medrxiv/early/2022/06/01/2022.05.31.22275817.full.pdf"
+    },
+    {
+      "title": "Participation in an indigenous Amazonian led ayahuasca retreat associated with increases in nature relatedness – a pilot study",
+      "authors": "Ruffell S, Gandy S, Tsang W, Netzband N, Hollingdale J.",
+      "year": "2022",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/mytnf",
+      "url": "https://doi.org/10.31234/osf.io/mytnf"
+    },
+    {
+      "title": "Dorsal-ventral precuneus gradients organise large-scale networks and track consciousness level",
+      "authors": "Lu D, Ram A, Carhart-Harris R, Roseman L, Owen A, Naci L, Menon D, Stamatakis E.",
+      "year": "2026",
+      "server": "Research Square",
+      "doi": "10.21203/rs.3.rs-8883514/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-8883514/v1"
+    },
+    {
+      "title": "A Systematic Review of Reporting Practices in Psychedelic Clinical Trials: Psychological Support, Therapy, and Psychosocial Interventions",
+      "authors": "Brennan B, Kelman A, Belser AB.",
+      "year": "2023",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/2ab59",
+      "url": "https://doi.org/10.31234/osf.io/2ab59"
+    },
+    {
+      "title": "First DNA barcode efficiency assessment for an important ingredient in the Amazonian ayahuasca tea: mariri/jagube, Banisteriopsis (Malpighiaceae)",
+      "authors": "Luz TZ, Cunha-Machado AS, Batista JSdS.",
+      "year": "2022",
+      "server": "Research Square",
+      "doi": "10.21203/rs.3.rs-1424893/v1",
+      "url": "https://www.researchsquare.com/article/rs-1424893/latest.pdf"
+    },
+    {
+      "title": "Mapping Pharmacologically-induced Functional Reorganisation onto the Brain’s Neurotransmitter Landscape",
+      "authors": "Luppi AI, Hansen JY, Adapa R, Carhart-Harris RL, Roseman L, Timmermann C, Golkowski D, Golkowski D, Ranft A, Ilg R, Jordan D, Bonhomme V, Vanhaudenhuyse A, Demertzi A, Jaquet O, Bahri MA, Alnagger NL, Cardone P, Peattie ARD, Manktelow AE, de Araujo DB, Sensi SL, Owen AM, Naci L, Menon DK, Misic B, Stamatakis EA.",
+      "year": "2022",
+      "server": "bioRxiv",
+      "doi": "10.1101/2022.07.12.499688",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2022/07/13/2022.07.12.499688.full.pdf"
+    },
+    {
+      "title": "PHARMACOKINETICS OF N,N-DIMETHYLTRYPTAMINE FUMARATE IN HUMANS",
+      "authors": "Good M, Benway T, Joel Z, Routledge C, Timmermann C, Erritzoe D, Weaver R, Allen G, Hughes C, Topping H, UK) AB(, James E.",
+      "year": "2022",
+      "server": "Authorea Preprints",
+      "doi": "10.22541/au.165237523.39763980/v1",
+      "url": "https://www.authorea.com/doi/pdf/10.22541/au.165237523.39763980"
+    },
+    {
+      "title": "Phenomenology and Content of the Inhaled N, N-Dimethyltryptamine (N, N-DMT) Experience",
+      "authors": "Lawrence DW, Carhart-Harris R, Griffiths R, Timmermann C.",
+      "year": "2022",
+      "server": "Research Square",
+      "doi": "10.21203/rs.3.rs-1559063/v1",
+      "url": "https://www.researchsquare.com/article/rs-1559063/latest.pdf"
+    },
+    {
+      "title": "Time-resolved network control analysis links reduced control energy under DMT with the serotonin 2a receptor, signal diversity, and subjective experience",
+      "authors": "Singleton SP, Timmermann C, Luppi AI, Eckernäs E, Roseman L, Carhart-Harris RL, Kuceyeski A.",
+      "year": "2023",
+      "server": "bioRxiv",
+      "doi": "10.1101/2023.05.11.540409",
+      "url": "https://doi.org/10.1101/2023.05.11.540409"
+    },
+    {
+      "title": "Brain dynamics of classical psychedelics show paradoxical hierarchical flattening with increased complexity",
+      "authors": "Vohryzek J, Garcia Guzman E, Kringelbach ML, Lopez-Sola E, Timmermann C, Roseman L, Tagliazucchi E, Ruffini G, Carhart-Harris R, Deco G, Sanz Perl Y.",
+      "year": "2024",
+      "server": "bioRxiv",
+      "doi": "10.1101/2024.12.21.629922",
+      "url": "https://doi.org/10.1101/2024.12.21.629922"
+    },
+    {
+      "title": "Psychological and physiological effects of extended DMT",
+      "authors": "Luan LX, Eckernäs E, Ashton M, Rosas F, Uthaug M, Bartha A, Jagger S, Gascon-Perai K, Gomes L, Nutt D, Erritzoe D, Carhart-Harris R, Timmermann C.",
+      "year": "2023",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/vg4dp",
+      "url": "https://osf.io/vg4dp/download"
+    },
+    {
+      "title": "Bioproduction platform using a novel cane toad (Rhinella marina) N-methyltransferase for psychedelic-inspired drug discovery",
+      "authors": "Chen X, Li J, Yu L, Dhananjaya D, Maule F, Cook S, Chang L, Gallant J, Press D, Bains JS, Raithatha S, Hagel J, Facchini P.",
+      "year": "2023",
+      "server": "Research Square",
+      "doi": "10.21203/rs.3.rs-2667175/v1",
+      "url": "https://www.researchsquare.com/article/rs-2667175/latest.pdf"
+    },
+    {
+      "title": "Proteomic changes induced by harmine in human brain organoids reveal signaling pathways related to neuroprotection",
+      "authors": "Karmirian K, Goto-Silva L, Nascimento JM, Costa MN, Salerno JA, Ornelas IM, Vanderborght B, Martins-de-Souza D, Rehen S.",
+      "year": "2021",
+      "server": "bioRxiv",
+      "doi": "10.1101/2021.06.16.448740",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2021/06/17/2021.06.16.448740.full.pdf"
+    },
+    {
+      "title": "Psychedelics and Mindfulness: A Systematic Review and Meta-Analysis",
+      "authors": "Radakovic C, Radakovic R, Peryer G, Geere J.",
+      "year": "2021",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/yu7jf",
+      "url": "https://psyarxiv.com/yu7jf/download"
+    },
+    {
+      "title": "The entropic heart: Tracking the psychedelic state via heart rate dynamics",
+      "authors": "Rosas FE, Mediano PA, Timmermann C, Luppi AI, Candia-Rivera D, Abbasi-Asl R, Gazzaley A, Kringelbach ML, Muthukumaraswamy S, Bor D, Garfinkel S, Carhart-Harris RL.",
+      "year": "2023",
+      "server": "bioRxiv",
+      "doi": "10.1101/2023.11.07.566008",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2023/11/09/2023.11.07.566008.full.pdf"
+    },
+    {
+      "title": "5-HT 2A and 5-HT 2C receptor antagonism differentially modulates reinforcement learning and cognitive flexibility: behavioral and computational evidence",
+      "authors": "Hervig ME, Zühlsdorff K, Olesen SF, Phillips B, Božič T, Dalley JW, Cardinal RN, Alsiö J, Robbins TW.",
+      "year": "2023",
+      "server": "bioRxiv",
+      "doi": "10.1101/2023.08.09.545287",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2023/08/09/2023.08.09.545287.full.pdf"
+    },
+    {
+      "title": "Evaluation of the replicability of systematic reviews with meta-analyses of the effects of health interventions",
+      "authors": "Hamilton DG, McKenzie JE, Nguyen P, Rethlefsen ML, McDonald S, Brennan SE, Fidler FM, Higgins JPT, Kanukula R, Karunananthan S, Maxwell LJ, Moher D, Nakagawa S, Nunan D, Tugwell P, Welch VA, Page MJ.",
+      "year": "2025",
+      "server": "medRxiv",
+      "doi": "10.1101/2025.07.17.25331623",
+      "url": "https://doi.org/10.1101/2025.07.17.25331623"
+    },
+    {
+      "title": "Application of machine learning and complex network measures to an EEG dataset from DMT experiments",
+      "authors": "Alves CL, Toutain TGLdO, Porto JAM, Pineda AM, de Sena EP, Rodrigues FA, Thielemann C, Ciba M.",
+      "year": "2022",
+      "server": "medRxiv",
+      "doi": "10.1101/2022.06.14.22276410",
+      "url": "https://www.medrxiv.org/content/medrxiv/early/2022/06/16/2022.06.14.22276410.full.pdf"
+    },
+    {
+      "title": "Subacute effects of the psychedelic ayahuasca on the salience and default mode networks",
+      "authors": "Pasquini L, Palhano-Fontes F, Araujo DB.",
+      "year": "2019",
+      "server": "medRxiv",
+      "doi": "10.1101/19007542",
+      "url": "https://www.medrxiv.org/content/medrxiv/early/2020/02/21/19007542.full.pdf"
+    },
+    {
+      "title": "Molecular, haemodynamic and functional effects of LSD in the human brain",
+      "authors": "McCulloch DE, Larsen K, Johansen A, Reveles Jensen KH, Nykjaer CH, Holze F, Falck N, Neufeld VAB, Steenstrup E, Skov-Andersen PM, Spangaard A, Geisler M, Randrup PP, Jensen PS, Shulganov V, Johansen SS, Nielsen MKK, Andersen TL, Stenbaek DS, Svarer C, Fisher PM, Knudsen GM.",
+      "year": "2025",
+      "server": "medRxiv",
+      "doi": "10.1101/2025.06.17.25329677",
+      "url": "https://www.medrxiv.org/content/medrxiv/early/2025/06/18/2025.06.17.25329677.full.pdf"
+    },
+    {
+      "title": "Membrane Permeability Drives the Extreme Potency of Fentanyl but not Isotonitazene",
+      "authors": "Clayton J, Farmer GJ, Glenn J, Mistry SN, Lane JR, Shi L, Stavitskaya L, Canals M, Shen J.",
+      "year": "2025",
+      "server": "bioRxiv",
+      "doi": "10.1101/2025.07.22.666146",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2025/07/26/2025.07.22.666146.full.pdf"
+    },
+    {
+      "title": "Diminished functional gradient of the precuneus during altered states of consciousness",
+      "authors": "Lyu D, Adapa R, Carhart-Harris RL, Roseman L, Owen AM, Naci L, Menon DK, Stamatakis EA.",
+      "year": "2024",
+      "server": "bioRxiv",
+      "doi": "10.1101/2024.12.17.628862",
+      "url": "https://doi.org/10.1101/2024.12.17.628862"
+    },
+    {
+      "title": "Psychedelic resting-state neuroimaging: a review and perspective on balancing replication and novel analyses",
+      "authors": "McCulloch DE, Knudsen GM, Barrett FS, Doss M, Deco G, Carhart-Harris R, Rosas F, Preller K, Ramaekers J, Mason N, Müller F, Fisher PM.",
+      "year": "2021",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/64kyg",
+      "url": "https://psyarxiv.com/64kyg/download"
+    },
+    {
+      "title": "Pharmahuasca Reduces ROS Production and inflammatory Gene Expression in the Brain in a Model of PTSD: Exploration by RNA Sequencing",
+      "authors": "Kelley DP, Venable K, Billac G, Destouni A, Ebenezer P, Stadler K, Nichols C, Barker S, Francis J.",
+      "year": "2021",
+      "server": "Research Square",
+      "doi": "10.21203/rs.3.rs-602961/v1",
+      "url": "https://www.researchsquare.com/article/rs-602961/latest.pdf"
+    },
+    {
+      "title": "An Encounter with the Other: A Thematic Analysis of Accounts of DMT Experiences from a Naturalistic Field Study",
+      "authors": "Michael P, Luke D, Robinson O.",
+      "year": "2021",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/8cdgs",
+      "url": "https://psyarxiv.com/8cdgs/"
+    },
+    {
+      "title": "Neurocomputational evidence of sustained Self-Other mergence after psychedelics",
+      "authors": "Mallaroni P, Mason NL, Preller KH, Razi A, Ereira S, Ramaekers JG.",
+      "year": "2025",
+      "server": "medRxiv",
+      "doi": "10.1101/2025.10.07.25337510",
+      "url": "https://doi.org/10.1101/2025.10.07.25337510"
+    },
+    {
+      "title": "Baseline power of theta oscillations predicts mystical-type experiences induced by DMT",
+      "authors": "Tagliazucchi E, Zamberlan F, Cavanna F, de la Fuente L, Romero C, Perl YS, Pallavicini C.",
+      "year": "2021",
+      "server": "bioRxiv",
+      "doi": "10.1101/2021.03.11.434994",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2021/03/12/2021.03.11.434994.full.pdf"
+    },
+    {
+      "title": "Assessment of the acute effects of 2C-B vs psilocybin on subjective experience, mood and cognition",
+      "authors": "Mallaroni P, Mason NL, Reckweg JT, Paci R, Ritscher S, Toennes SW, Theunissen EL, Kuypers KP, Ramaekers JG.",
+      "year": "2023",
+      "server": "bioRxiv",
+      "doi": "10.1101/2023.02.16.528808",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2023/02/17/2023.02.16.528808.full.pdf"
+    },
+    {
+      "title": "Confirmatory factor analysis of Mystical Experience in Freediving as a recreative way to higher efficiency in sport performance and planet saving and money making",
+      "authors": "Mitina O, Mirsaidov M, Molchanova N, Tutrin A.",
+      "year": "2020",
+      "server": "PsyArXiv",
+      "doi": "10.31234/osf.io/b7mnz",
+      "url": "https://psyarxiv.com/b7mnz/download"
+    },
+    {
+      "title": "Psilocin acutely disrupts sleep and affects local but not global sleep homeostasis in laboratory mice",
+      "authors": "Thomas CW, Blanco-Duque C, Bréant B, Goodwin GM, Sharp T, Bannerman DM, Vyazovskiy VV.",
+      "year": "2021",
+      "server": "bioRxiv",
+      "doi": "10.1101/2021.02.16.431276",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2021/02/17/2021.02.16.431276.full.pdf"
+    },
+    {
+      "title": "Is Kambô psychoactive? Acute and subacute effects of the secretion of the Giant Maki Frog (Phyllomedusa bicolor) on human consciousness",
+      "authors": "Schmidt TT, Reiche S, Hage CLC, Bermpohl F, Majić T.",
+      "year": "2020",
+      "server": "bioRxiv",
+      "doi": "10.1101/2020.07.22.208223",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2020/07/24/2020.07.22.208223.full.pdf"
+    },
+    {
+      "title": "Acute antidepressant effect of ayahuasca in juvenile non-human primate model of depression",
+      "authors": "Santos da Silva F, Silva EAdS, de Sousa Junior GM, Maia-de-Oliveira JP, Rachetti VdPS, Barros de Araujo D, Cordeiro de Sousa MB, Lobão Soares B, Leite Galvão-Coelho N.",
+      "year": "2018",
+      "server": "bioRxiv",
+      "doi": "10.1101/254268",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2018/01/25/254268.full.pdf"
+    },
+    {
+      "title": "A Single Dose Of Ayahuasca Modulates Salivary Cortisol In Treatment-Resistant Depression",
+      "authors": "de Menezes Galvão AC, de Almeida RN, dos Santos Silva EA, de Morais Freire FA, Palhano-Fontes F, Onias H, Arcoverdee E, Maia-de-Oliveira JP, Araújo DB, Lobão-Soares B, Galvão-Coelho NL.",
+      "year": "2018",
+      "server": "bioRxiv",
+      "doi": "10.1101/257238",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2018/01/31/257238.full.pdf"
+    },
+    {
+      "title": "DMT alters cortical travelling waves",
+      "authors": "Alamia A, Timmermann C, VanRullen R, Carhart-Harris RL.",
+      "year": "2020",
+      "server": "bioRxiv",
+      "doi": "10.1101/2020.05.06.080937",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2020/05/08/2020.05.06.080937.full.pdf"
+    },
+    {
+      "title": "Neural and subjective effects of inhaled DMT in natural settings",
+      "authors": "Pallavicini C, Cavanna F, Zamberlan F, de la Fuente LA, Perl YS, Arias M, Romero C, Carhart-Harris R, Timmermann C, Tagliazucchi E.",
+      "year": "2020",
+      "server": "bioRxiv",
+      "doi": "10.1101/2020.08.19.258145",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2020/08/22/2020.08.19.258145.full.pdf"
+    },
+    {
+      "title": "A randomized placebo-controlled trial on the antidepressant effects of the psychedelic ayahuasca in treatment-resistant depression",
+      "authors": "Palhano-Fontes F, Barreto D, Onias H, Andrade KC, Novaes M, Pessoa JA, Mota-Rolim SA, Osório F, Sanches R, dos Santos RG, Tófoli LF, Oliveira Silveira Gd, Yonamine M, Riba J, Santos FR, Silva-Junior AA, Alchieri J, Galvão-Coelho NL, Lobão-Soares B, Hallak J, Arcoverde E, Maia-de-Oliveira JP, Araújo DB.",
+      "year": "2017",
+      "server": "bioRxiv",
+      "doi": "10.1101/103531",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2017/08/15/103531.full.pdf"
+    },
+    {
+      "title": "Restoring Oscillatory Dynamics in Alzheimer’s Disease: A Laminar Whole-Brain Model of Serotonergic Psychedelic Effects",
+      "authors": "Gendra JC, Lopez-Sola E, Castaldo F, Lleal-Custey È, Sanchez-Todo R, Vohryzek J, Salvador R, Andrzejak RG, Ruffini G, the Alzheimer’s Disease Neuroimaging Initiative.",
+      "year": "2024",
+      "server": "bioRxiv",
+      "doi": "10.1101/2024.12.15.628565",
+      "url": "https://doi.org/10.1101/2024.12.15.628565"
+    },
+    {
+      "title": "Co-existence of Quorum Sensing and Quorum Sensing Inhibitory Compounds in Marine Sponge <em>Sarcotragus spinosulus</em>",
+      "authors": "Saurav K, Borbone N, Burgsdorf I, Teta R, Caso A, Bar-Shalom R, Esposito G, Britstein M, Steindler L, Costantino V.",
+      "year": "2019",
+      "server": "Preprints.org",
+      "doi": "10.20944/preprints201912.0184.v1",
+      "url": "https://www.preprints.org/manuscript/201912.0184/v1/download"
+    },
+    {
+      "title": "UK medical students’ self-reported knowledge and harm assessment of psychedelics and their application in clinical research: a cross-sectional study",
+      "authors": "Song-Smith C, Jacobs E, Rucker J, Saint M, Cooke J, Schlosser M.",
+      "year": "2023",
+      "server": "medRxiv",
+      "doi": "10.1101/2023.12.21.23300364",
+      "url": "https://www.medrxiv.org/content/medrxiv/early/2023/12/24/2023.12.21.23300364.full.pdf"
+    },
+    {
+      "title": "Neural correlates of the DMT experience as assessed via multivariate EEG",
+      "authors": "Timmermann C, Roseman L, Schartner M, Milliere R, Williams L, Erritzoe D, Muthukumaraswamy S, Ashton M, Bendrioua A, Kaur O, Turton S, Nour MM, Day CM, Leech R, Nutt D, Carhart-Harris R.",
+      "year": "2019",
+      "server": "bioRxiv",
+      "doi": "10.1101/706283",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2019/07/18/706283.full.pdf"
+    },
+    {
+      "title": "Oscillatory traveling waves reveal predictive coding abnormalities in schizophrenia",
+      "authors": "Alamia A, Gordillo D, Chkonia E, Roinishvili M, Cappe C, Herzog MH.",
+      "year": "2023",
+      "server": "bioRxiv",
+      "doi": "10.1101/2023.10.09.561490",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2023/10/10/2023.10.09.561490.full.pdf"
+    },
+    {
+      "title": "Harmine stimulates neurogenesis of human neural cells  <i>in vitro</i>",
+      "authors": "Dakic V, de Moraes Maciel R, Drummond H, Nascimento JM, Trindade P, Rehen SK.",
+      "year": "2016",
+      "server": "PeerJ Preprints",
+      "doi": "10.7287/peerj.preprints.1957v1",
+      "url": "https://doi.org/10.7287/peerj.preprints.1957v1"
+    },
+    {
+      "title": "A mechanistic model of the neural entropy increase elicited by psychedelic drugs",
+      "authors": "Herzog R, Mediano PA, Rosas FE, Lodder P, Carhart-Harris R, Sanz-Perl Y, Tagliazucchi E, Cofré R.",
+      "year": "2022",
+      "server": "Research Square",
+      "doi": "10.21203/rs.3.rs-2187775/v1",
+      "url": "https://www.researchsquare.com/article/rs-2187775/latest.pdf"
+    },
+    {
+      "title": "Exploring the Insilico Properties and Docking Studies of Sudarshan Churna for Anti-Sars-CoV-2 Activity",
+      "authors": "S BP, N D, Sunitha.P.G, Suresh J, Nargis R.",
+      "year": "2020",
+      "server": "SSRN",
+      "doi": "10.2139/ssrn.3697539",
+      "url": "https://doi.org/10.2139/ssrn.3697539"
+    },
+    {
+      "title": "Distributed harmonic patterns of structure-function dependence orchestrate human consciousness",
+      "authors": "Luppi AI, Vohryzek J, Kringelbach ML, Mediano PA, Craig MM, Adapa R, Carhart-Harris RL, Roseman L, Pappas I, Peattie AR, Manktelow AE, Sahakian BJ, Finoia P, Williams GB, Allanson J, Pickard JD, Menon DK, Atasoy S, Stamatakis EA.",
+      "year": "2020",
+      "server": "bioRxiv",
+      "doi": "10.1101/2020.08.10.244459",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2020/08/10/2020.08.10.244459.full.pdf"
+    }
+  ]
+}

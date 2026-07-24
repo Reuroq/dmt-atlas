@@ -55,8 +55,8 @@ def pct_of(freq: str):
 NAV = [
     ("Entities", "/entities/"), ("Realms", "/realms/"), ("Geometry", "/geometry/"),
     ("Motifs", "/motifs/"), ("Crossings", "/crossings/"), ("Journey", "/journey.html"),
-    ("Themes", "/themes.html"), ("Evidence", "/evidence.html"), ("Ownership", "/who-owns-dmt.html"),
-    ("Library", "/library.html"),
+    ("Themes", "/themes.html"), ("Research", "/research/"), ("Evidence", "/evidence.html"),
+    ("Ownership", "/who-owns-dmt.html"), ("Library", "/library.html"),
 ]
 
 
@@ -74,7 +74,8 @@ FOOTER = f"""<footer class="site-foot"><div class="foot-inner">
   <div><h4>The Atlas</h4><a href="/entities/">Entities</a><a href="/realms/">Realms</a>
     <a href="/geometry/">Geometry &amp; phenomena</a><a href="/journey.html">The Journey</a>
     <a href="/themes.html">Themes &amp; mechanics</a>{'<a href="/motifs/">Motifs &amp; events</a>' if DATA.get('motifs') else ''}</div>
-  <div><h4>Grounding</h4><a href="/evidence.html">The evidence — by the numbers</a>
+  <div><h4>Grounding</h4><a href="/research/">The research layer</a>
+    <a href="/evidence.html">The evidence — by the numbers</a>
     <a href="/who-owns-dmt.html">Who owns the molecule?</a>
     <a href="/library.html">The library — every source</a><a href="/explore.html">Interactive explorer</a></div>
   <div><h4>Tools</h4><a href="/identify.html">What did I meet?</a>
@@ -655,6 +656,7 @@ def who_owns_dmt() -> None:
 <div class="rail-box"><h4>The one thing to know</h4><div class="kv">You cannot patent DMT. You can patent a <b>formulation, salt, analog, dose, device, or use</b> — the periphery, not the molecule.</div></div>
 <div class="rail-box"><h4>Biggest DMT estate</h4><div class="kv"><b>Cybin</b> (absorbed Small Pharma): dozens granted, 170+ pending.</div></div>
 <div class="rail-box"><h4>The counter-model</h4><div class="kv"><b>Usona</b> refuses to patent and publishes openly to keep the field free.</div></div>
+<div class="rail-box"><h4>The full record</h4><div class="kv">See every filing in the <a href="/research/patents.html">DMT patent landscape</a> — part of the <a href="/research/">research layer</a>.</div></div>
 <div class="rail-box"><h4>Related</h4><div class="chiprow"><a class="chip" href="/questions.html">Questions from hyperspace</a><a class="chip" href="/library.html">The library</a></div></div>
 </aside>
 </div></main>"""
@@ -856,6 +858,44 @@ Each note says what the source contributes and how much weight it can carry.</p>
                                    ("sources", "sources")) if counts.get(k))
     honesty = META.get("honesty") or []
     charter_lis = "".join(f"<li>{esc(h)}</li>" for h in honesty)
+
+    # research-layer counts for the landing promo (corpora written by the harvest agents)
+    def _rcount(fname, key, sub=None):
+        try:
+            j = json.loads((ROOT / "data" / "research" / fname).read_text(encoding="utf-8"))
+            v = j.get(key, [])
+            return len(v.get(sub, [])) if sub else len(v)
+        except Exception:
+            return None
+    def _studies_core():  # honest DMT/ayahuasca-family count (matches /research/studies.html)
+        try:
+            import research
+            j = json.loads((ROOT / "data" / "research" / "literature.json").read_text(encoding="utf-8"))
+            return sum(1 for r in j.get("records", []) if research._dmt_family(r))
+        except Exception:
+            return _rcount("literature.json", "records")
+    r_studies = _studies_core()
+    r_trials = _rcount("trials.json", "trials")
+    r_patents = _rcount("patents.json", "records")
+    research_promo = ""
+    if r_studies or r_trials or r_patents:
+        bits = []
+        if r_studies:
+            bits.append(f"<b>{r_studies:,}</b> peer-reviewed studies")
+        if r_trials:
+            bits.append(f"<b>{r_trials}</b> clinical trials")
+        if r_patents:
+            bits.append(f"<b>{r_patents}</b> patents")
+        research_promo = f"""<section class="home-section section-cards">
+  <h2>The research layer</h2>
+  <p class="sub">Beneath the map of what people <em>report</em> is the record of what has been <em>studied</em>.
+  The full scientific and legal footprint of the molecule — {', '.join(bits)}, and a cited history from 1931 to today —
+  aggregated from public databases and linked to the primary source.</p>
+  <div class="grid"><a class="card" style="--card-accent:var(--c-source)" href="/research/">
+<h3>Enter the research layer</h3><p>Every DMT &amp; ayahuasca study, every registered clinical trial, the patent
+landscape, and the cited history of the science — searchable and linked to the source.</p>
+<div class="meta"><span class="count-pill">studies · trials · patents · history</span></div></a></div>
+</section>"""
     body = f"""<main>
 <section class="hero"><div class="hero-inner">
   <img class="flower" src="/assets/img/chrysanthemum.png" alt="" aria-hidden="true"/>
@@ -877,6 +917,7 @@ Each note says what the source contributes and how much weight it can carry.</p>
   archives — then cross-linked, so every entity knows its realm, its phase, and its sources.</p>
   <div class="grid">{cards}</div>
 </section>
+{research_promo}
 <section class="home-section section-cards">
   <h2>Start here — the questions people ask</h2>
   <p class="sub">New to the subject, or trying to make sense of an experience? These honest, cited explainers
@@ -910,11 +951,19 @@ if(location.hash && /^#(entity|realm|geometry|theme|phase|source|about)/.test(lo
     # ---------- ownership ----------
     who_owns_dmt()
 
+    # ---------- research layer (studies / trials / patents / history) ----------
+    research_urls = []
+    try:
+        import research  # deferred: research imports this module's helpers
+        research_urls = research.build_research()
+    except Exception as e:
+        print(f"  (research layer skipped: {e})")
+
     # ---------- sitemap ----------
     urls = [f"{BASE}/", f"{BASE}/explore.html", f"{BASE}/journey.html", f"{BASE}/themes.html",
             f"{BASE}/evidence.html", f"{BASE}/library.html", f"{BASE}/entities/", f"{BASE}/realms/",
             f"{BASE}/geometry/", f"{BASE}/identify.html", f"{BASE}/questions.html", f"{BASE}/grounding.html",
-            f"{BASE}/who-owns-dmt.html"]
+            f"{BASE}/who-owns-dmt.html"] + research_urls
     if DATA.get("motifs"):
         urls.append(f"{BASE}/motifs/")
     if CROSSINGS:

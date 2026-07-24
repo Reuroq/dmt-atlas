@@ -1,0 +1,471 @@
+{
+  "generated_utc": "PLACEHOLDER",
+  "schema_note": "History-of-science spine for the DMT Atlas. Every milestone names a real, verifiable source. 'proven_status' labels the epistemic standing of the milestone's CENTRAL CLAIM: historical=a documented past event; established=well-supported by replicated evidence; contested=evidence exists but is disputed/qualified; unproven=asserted but not demonstrated. Ontologically neutral: this archive reports what published sources say, and does not adjudicate metaphysical claims. No synthesis, dosing, or how-to content.",
+  "milestones": [
+    {
+      "year": 1851,
+      "title": "Richard Spruce documents ayahuasca/caapi in the Amazon",
+      "who": "Richard Spruce",
+      "institution": "Royal Botanic Gardens, Kew (field expedition, Rio Uaupes / Rio Negro, Brazil)",
+      "what_happened": "British botanist Richard Spruce observed Tukano people of the Rio Uaupes preparing a psychoactive beverage from a vine he named Banisteria caapi (later reclassified Banisteriopsis caapi in 1931). He collected specimens and recorded preparation and effects; his account was published posthumously in 'Notes of a Botanist on the Amazon and Andes' (1908). This is the first scientific/ethnobotanical documentation of the ayahuasca complex, the traditional vehicle through which orally-active DMT reaches the brain (later understood via MAO inhibition by harmala alkaloids).",
+      "significance": "Establishes the ethnobotanical prehistory of DMT science: the plant admixtures Western chemistry would only decode a century later. Predates the identification of DMT itself by 80 years.",
+      "proven_status": "historical",
+      "citation": {
+        "author": "Richard Spruce (ed. Alfred Russel Wallace)",
+        "work": "Notes of a Botanist on the Amazon and Andes (observations 1851; published 1908, Macmillan, London)",
+        "year": 1908,
+        "doi_or_url": "https://en.wikipedia.org/wiki/Banisteriopsis_caapi"
+      },
+      "related_pmids_or_dois": []
+    },
+    {
+      "year": 1931,
+      "title": "First chemical synthesis of DMT (Richard Manske)",
+      "who": "Richard Helmuth Fredrick Manske",
+      "institution": "National Research Council of Canada / University of Manitoba",
+      "what_happened": "German-Canadian chemist Richard Manske first synthesized N,N-dimethyltryptamine as one of several methyltryptamines, reported in 'A synthesis of the methyltryptamines and some derivatives,' Canadian Journal of Research 5(5):592-600. At the time DMT's psychoactivity, and its later-discovered natural occurrence in plants and animals, were entirely unknown; it was a routine synthetic-chemistry result.",
+      "significance": "The molecular origin point of DMT science. DMT existed as a defined synthetic compound for 25 years before anyone knew it was psychoactive, and for 15 years before it was found in nature.",
+      "proven_status": "historical",
+      "citation": {
+        "author": "R. H. F. Manske",
+        "work": "A synthesis of the methyltryptamines and some derivatives, Canadian Journal of Research 5(5):592-600",
+        "year": 1931,
+        "doi_or_url": "https://doi.org/10.1139/cjr31-097"
+      },
+      "related_pmids_or_dois": ["10.1139/cjr31-097"]
+    },
+    {
+      "year": 1946,
+      "title": "First isolation of DMT from a plant (nigerine, from Mimosa)",
+      "who": "Oswaldo Gonçalves de Lima",
+      "institution": "Instituto de Pesquisas Agronomicas de Pernambuco, Brazil",
+      "what_happened": "Brazilian chemist and microbiologist Oswaldo Gonçalves de Lima isolated an alkaloid he named 'nigerina' (nigerine) from the root bark of jurema preta (Mimosa tenuiflora, syn. Mimosa hostilis), the plant basis of the traditional 'vinho da jurema.' The compound's identity was only unequivocally resolved later: in 1959 American chemists (working from a Mimosa sample) identified N,N-DMT, and nigerine is now generally regarded as having been an impure DMT extract, making this the first detection of DMT in any plant.",
+      "significance": "First natural occurrence of DMT ever found, connecting the 1931 lab curiosity to real botany and to indigenous jurema/ayahuasca practice. The delayed confirmation is itself an honesty point: 'nigerine' was named before its structure was proven.",
+      "proven_status": "historical",
+      "citation": {
+        "author": "O. Gonçalves de Lima",
+        "work": "Observacoes sobre o 'vinho da Jurema' utilizado pelos indios Pancaru de Tacaratu (Pernambuco), Arquivos do Instituto de Pesquisas Agronomicas 4:45-80",
+        "year": 1946,
+        "doi_or_url": "https://en.wikipedia.org/wiki/Oswaldo_Gon%C3%A7alves_de_Lima"
+      },
+      "related_pmids_or_dois": []
+    },
+    {
+      "year": 1952,
+      "title": "Transmethylation / 'endogenous psychotogen' hypothesis of schizophrenia proposed",
+      "who": "Humphry Osmond and John Smythies",
+      "institution": "St George's Hospital, London (later Weyburn, Saskatchewan)",
+      "what_happened": "Osmond and Smythies proposed that schizophrenia might arise from an aberrant endogenous methylation producing a mescaline-like hallucinogen in the body ('Schizophrenia: a new approach,' Journal of Mental Science 98:309-315). This 'transmethylation hypothesis,' and the related adrenochrome hypothesis, framed decades of search for an internally-made psychotogen — a search that would soon focus on DMT once it was found in human fluids.",
+      "significance": "The intellectual engine behind the 1960s endogenous-DMT/schizophrenia program. Historically pivotal for launching biochemical psychiatry, but the specific claim that DMT causes schizophrenia was never substantiated and is now largely abandoned.",
+      "proven_status": "unproven",
+      "citation": {
+        "author": "H. Osmond, J. Smythies",
+        "work": "Schizophrenia: a new approach, Journal of Mental Science 98:309-315",
+        "year": 1952,
+        "doi_or_url": "https://doi.org/10.1192/bjp.98.411.309"
+      },
+      "related_pmids_or_dois": ["10.1002/dta.422"]
+    },
+    {
+      "year": 1956,
+      "title": "First human psychopharmacology of DMT (Szara self-experiments, Budapest)",
+      "who": "Stephen (Istvan) Szara",
+      "institution": "National Institute for Nervous and Mental Diseases (Lipotmezo), Budapest, Hungary",
+      "what_happened": "After oral DMT produced no effect, Hungarian chemist-psychiatrist Stephen Szara synthesized DMT and self-administered it by intramuscular injection, discovering intense, short-lived (about one hour) hallucinogenic effects; he then studied it in about 20 volunteers. Published as 'Dimethyltryptamin: its metabolism in man; the relation of its psychotic effect to the serotonin metabolism,' Experientia 12(11):441-442. Szara is often called the 'father of DMT.'",
+      "significance": "The first demonstration that DMT is psychoactive in humans, and the first that it is inactive orally but active parenterally — the pharmacokinetic fact that explains both injection studies and why ayahuasca needs an MAO inhibitor.",
+      "proven_status": "established",
+      "citation": {
+        "author": "S. Szara",
+        "work": "Dimethyltryptamin: its metabolism in man; the relation of its psychotic effect to the serotonin metabolism, Experientia 12(11):441-442",
+        "year": 1956,
+        "doi_or_url": "https://doi.org/10.1007/BF02157378"
+      },
+      "related_pmids_or_dois": ["13384414", "10.1007/BF02157378"]
+    },
+    {
+      "year": 1961,
+      "title": "An enzyme that can make DMT identified in mammalian tissue (Axelrod)",
+      "who": "Julius Axelrod",
+      "institution": "National Institute of Mental Health (NIMH), USA",
+      "what_happened": "Nobel laureate Julius Axelrod reported an N-methyltransferase activity in rabbit lung that could methylate tryptamine to N-methyltryptamine and DMT using S-adenosylmethionine ('Enzymatic formation of psychotomimetic metabolites from normally occurring compounds,' Science 134:343). This showed the body possesses biochemical machinery capable, in principle, of producing DMT endogenously.",
+      "significance": "Gave the transmethylation hypothesis a concrete enzymatic candidate and launched the endogenous-DMT enzymology later associated with INMT. That an enzyme CAN make DMT in vitro does not establish that meaningful amounts are made in the living human brain — a distinction still unresolved.",
+      "proven_status": "established",
+      "citation": {
+        "author": "J. Axelrod",
+        "work": "Enzymatic formation of psychotomimetic metabolites from normally occurring compounds, Science 134(3475):343",
+        "year": 1961,
+        "doi_or_url": "https://doi.org/10.1126/science.134.3475.343"
+      },
+      "related_pmids_or_dois": ["10.1126/science.134.3475.343"]
+    },
+    {
+      "year": 1965,
+      "title": "DMT detected in human blood and urine (Franzen & Gross)",
+      "who": "Franz Franzen and Heinz Gross",
+      "institution": "Germany",
+      "what_happened": "Franzen and Gross reported the detection of tryptamine, N,N-dimethyltryptamine, bufotenine (5-OH-DMT) and 5-methoxytryptamine in human blood and urine ('Tryptamine, N,N-dimethyltryptamine, N,N-dimethyl-5-hydroxytryptamine and 5-methoxytryptamine in human blood and urine,' Nature 206:1052). This was among the first claims that DMT is an endogenous human compound.",
+      "significance": "Turned DMT into a putative endogenous human molecule and fueled the schizophrenia-transmethylation research wave. Caveat: a later systematic review (Barker et al. 2012) concluded that many early quantitative detections, including high reported levels, were likely analytical errors — so the FACT of endogenous DMT is now better supported by modern LC-MS/MS work than by these 1960s assays.",
+      "proven_status": "contested",
+      "citation": {
+        "author": "F. Franzen, H. Gross",
+        "work": "Tryptamine, N,N-dimethyltryptamine, N,N-dimethyl-5-hydroxytryptamine and 5-methoxytryptamine in human blood and urine, Nature 206(985):1052",
+        "year": 1965,
+        "doi_or_url": "https://doi.org/10.1038/2061052a0"
+      },
+      "related_pmids_or_dois": ["5839067", "10.1038/2061052a0", "10.1002/dta.422"]
+    },
+    {
+      "year": 1971,
+      "title": "DMT scheduled: US Controlled Substances Act & UN Convention on Psychotropic Substances",
+      "who": "United States Congress; United Nations",
+      "institution": "US federal government; United Nations Office at Vienna",
+      "what_happened": "DMT was placed in the most restrictive control category: Schedule I under the US Controlled Substances Act (a status it has held since the law took effect), and included in the UN Convention on Psychotropic Substances, signed in Vienna on 21 February 1971. Schedule I / Schedule I designations assert high abuse potential and no accepted medical use, imposing the legal framework that would make later human research require special DEA/regulatory approval.",
+      "significance": "The regulatory event that effectively froze legal human DMT research for roughly two decades and shaped why Strassman's 1990s trials were landmark 'firsts since scheduling.' Also created the legal ambiguity around plant ayahuasca that courts and treaties still navigate.",
+      "proven_status": "historical",
+      "citation": {
+        "author": "United Nations",
+        "work": "Convention on Psychotropic Substances, 1971 (Vienna); and US Controlled Substances Act (Pub. L. 91-513), Schedule I",
+        "year": 1971,
+        "doi_or_url": "https://www.unodc.org/pdf/convention_1971_en.pdf"
+      },
+      "related_pmids_or_dois": []
+    },
+    {
+      "year": 1994,
+      "title": "First new-era DEA-approved human DMT trials (Rick Strassman, UNM)",
+      "who": "Rick J. Strassman",
+      "institution": "University of New Mexico School of Medicine, Albuquerque",
+      "what_happened": "From 1990-1995 Strassman ran the first US government-approved (DEA/FDA) human psychedelic trials in a generation, administering roughly 400 doses of intravenous DMT to about 60 volunteers. The dose-response and tolerance work was published in peer-reviewed psychiatry journals ('Dose-response study of N,N-dimethyltryptamine in humans,' Archives of General Psychiatry 51(2):85-97, 1994) and later popularized in the book 'DMT: The Spirit Molecule' (2001), which advanced the (explicitly speculative) hypothesis that the pineal gland releases DMT at birth, death, and mystical states.",
+      "significance": "Reopened legal clinical psychedelic research in the US and produced the first modern controlled human DMT pharmacology. Load-bearing distinction: the peer-reviewed dose-response data are established science; the 'spirit molecule' pineal narrative is Strassman's hypothesis and remains unproven.",
+      "proven_status": "established",
+      "citation": {
+        "author": "R. J. Strassman, C. R. Qualls",
+        "work": "Dose-response study of N,N-dimethyltryptamine in humans, Archives of General Psychiatry 51(2):85-97",
+        "year": 1994,
+        "doi_or_url": "https://doi.org/10.1001/archpsyc.1994.03950020009001"
+      },
+      "related_pmids_or_dois": ["8290681", "10.1001/archpsyc.1994.03950020009001"]
+    },
+    {
+      "year": 2001,
+      "title": "First placebo-controlled human pharmacology of ayahuasca (Jordi Riba)",
+      "who": "Jordi Riba (with Manel Barbanoj)",
+      "institution": "Autonomous University of Barcelona / Hospital de Sant Pau, Spain",
+      "what_happened": "Riba conducted the first double-blind, placebo-controlled clinical trials of ayahuasca in healthy volunteers, characterizing subjective effects, tolerability, cardiovascular effects, pharmacokinetics and neurophysiology using standardized freeze-dried ayahuasca ('Subjective effects and tolerability of the South American psychoactive beverage ayahuasca in healthy volunteers,' Psychopharmacology 154:85-95, 2001; PhD thesis 'Human Pharmacology of Ayahuasca,' 2003).",
+      "significance": "Brought the orally-active, MAOI-potentiated route of DMT into rigorous clinical pharmacology and demonstrated it could be given safely under controlled conditions — the scientific foundation of modern ayahuasca research. Riba (1968-2020) is the field's central figure for ayahuasca.",
+      "proven_status": "established",
+      "citation": {
+        "author": "J. Riba, A. Rodriguez-Fornells, G. Urbano, et al.",
+        "work": "Subjective effects and tolerability of the South American psychoactive beverage ayahuasca in healthy volunteers, Psychopharmacology 154(1):85-95",
+        "year": 2001,
+        "doi_or_url": "https://doi.org/10.1007/s002130000606"
+      },
+      "related_pmids_or_dois": ["11292011"]
+    },
+    {
+      "year": 2012,
+      "title": "Critical review re-examines all claims of endogenous DMT in humans (1955-2010)",
+      "who": "Steven A. Barker, Ethan H. McIlhenny, Rick Strassman",
+      "institution": "Louisiana State University; University of New Mexico; Cottonwood Research Foundation",
+      "what_happened": "Barker and colleagues systematically reviewed 69 studies reporting DMT, bufotenine and 5-MeO-DMT in human blood, urine and CSF from 1955-2010, assessing methods and reliability. They concluded that many early studies reporting relatively high concentrations were probably in error, that correlations built on them were likely incorrect, and that rigorous modern analytical methods were needed to settle whether and where DMT is made in the human body ('A critical review of reports of endogenous psychedelic N,N-dimethyltryptamines in humans: 1955-2010,' Drug Testing and Analysis 4:617-635).",
+      "significance": "The honesty anchor for the whole endogenous-DMT question: it separates the credible signal from decades of unreliable measurement and reframed the 'DMT is in us' claim as needing modern proof rather than assumed fact.",
+      "proven_status": "established",
+      "citation": {
+        "author": "S. A. Barker, E. H. McIlhenny, R. Strassman",
+        "work": "A critical review of reports of endogenous psychedelic N,N-dimethyltryptamines in humans: 1955-2010, Drug Testing and Analysis 4(7-8):617-635",
+        "year": 2012,
+        "doi_or_url": "https://doi.org/10.1002/dta.422"
+      },
+      "related_pmids_or_dois": ["22371425", "10.1002/dta.422"]
+    },
+    {
+      "year": 2013,
+      "title": "DMT and precursors detected in rat pineal gland microdialysate (Cottonwood/Strassman group)",
+      "who": "Steven A. Barker, Jimo Borjigin, Izabela Lomnicka, Rick Strassman",
+      "institution": "Louisiana State University; University of Michigan; Cottonwood Research Foundation / University of New Mexico",
+      "what_happened": "Using LC-MS/MS on microdialysate sampled from the pineal gland of living rats, the group detected DMT alongside its precursors and metabolites and melatonin-pathway compounds ('LC/MS/MS analysis of the endogenous dimethyltryptamine hallucinogens, their precursors, and major metabolites in rat pineal gland microdialysate,' Biomedical Chromatography 27:1690-1700).",
+      "significance": "First modern, analytically rigorous evidence that DMT is present in the pineal region of a living mammal — partially vindicating the pineal-DMT idea for rats, while NOT demonstrating psychoactive-level release, a role in consciousness, or that the human pineal does the same.",
+      "proven_status": "established",
+      "citation": {
+        "author": "S. A. Barker, J. Borjigin, I. Lomnicka, R. Strassman",
+        "work": "LC/MS/MS analysis of the endogenous dimethyltryptamine hallucinogens, their precursors, and major metabolites in rat pineal gland microdialysate, Biomedical Chromatography 27(12):1690-1700",
+        "year": 2013,
+        "doi_or_url": "https://doi.org/10.1002/bmc.2981"
+      },
+      "related_pmids_or_dois": ["23881860", "10.1002/bmc.2981"]
+    },
+    {
+      "year": 2016,
+      "title": "Nichols' definitive 'Psychedelics' pharmacology review",
+      "who": "David E. Nichols",
+      "institution": "University of North Carolina / Purdue University",
+      "what_happened": "David Nichols published 'Psychedelics' in Pharmacological Reviews (68:264-355), a comprehensive, heavily-cited synthesis of the medicinal chemistry, receptor pharmacology (notably 5-HT2A agonism), and neuroscience of serotonergic hallucinogens including DMT.",
+      "significance": "Became the canonical modern reference framing DMT within classic-psychedelic pharmacology and the 5-HT2A mechanism, and set the rigorous, skeptical tone that distinguishes the scientific literature from popular mythology.",
+      "proven_status": "established",
+      "citation": {
+        "author": "D. E. Nichols",
+        "work": "Psychedelics, Pharmacological Reviews 68(2):264-355",
+        "year": 2016,
+        "doi_or_url": "https://doi.org/10.1124/pr.115.011478"
+      },
+      "related_pmids_or_dois": ["26841800", "10.1124/pr.115.011478"]
+    },
+    {
+      "year": 2018,
+      "title": "'DMT and the pineal gland: separating fact from myth' (Nichols)",
+      "who": "David E. Nichols",
+      "institution": "University of North Carolina",
+      "what_happened": "Nichols directly critiqued the popular claim that the pineal gland secretes psychoactive amounts of DMT at birth, in dreams, and at death ('N,N-dimethyltryptamine and the pineal gland: separating fact from myth,' Journal of Psychopharmacology 32(1):30-36). He noted the pineal weighs under 0.2 g and produces only ~30 micrograms/day of melatonin, making it implausible that it could generate psychedelic quantities of DMT.",
+      "significance": "The field's clearest published rebuttal of the 'pineal spirit molecule' folklore. Essential for an honesty charter: it marks exactly where evidence stops and speculation begins.",
+      "proven_status": "established",
+      "citation": {
+        "author": "D. E. Nichols",
+        "work": "N,N-dimethyltryptamine and the pineal gland: separating fact from myth, Journal of Psychopharmacology 32(1):30-36",
+        "year": 2018,
+        "doi_or_url": "https://doi.org/10.1177/0269881117736919"
+      },
+      "related_pmids_or_dois": ["29095071", "10.1177/0269881117736919"]
+    },
+    {
+      "year": 2019,
+      "title": "Neural correlates of the DMT experience mapped with EEG (Imperial College)",
+      "who": "Christopher Timmermann, Robin Carhart-Harris, and colleagues",
+      "institution": "Centre for Psychedelic Research, Imperial College London",
+      "what_happened": "In a placebo-controlled study of intravenous DMT, the Imperial group recorded multivariate EEG and linked brain-activity changes to subjective experience over time ('Neural correlates of the DMT experience assessed with multivariate EEG,' Scientific Reports 9:16324). DMT reduced alpha/beta oscillatory power and increased spontaneous signal diversity, with delta/theta emergence tracking the peak of the experience.",
+      "significance": "First detailed human neuroimaging signature of the DMT state, launching the modern Imperial DMT neuroscience program and grounding subjective reports in measurable brain dynamics.",
+      "proven_status": "established",
+      "citation": {
+        "author": "C. Timmermann, L. Roseman, ... R. L. Carhart-Harris",
+        "work": "Neural correlates of the DMT experience assessed with multivariate EEG, Scientific Reports 9:16324",
+        "year": 2019,
+        "doi_or_url": "https://doi.org/10.1038/s41598-019-51974-4"
+      },
+      "related_pmids_or_dois": ["31745107", "10.1038/s41598-019-51974-4"]
+    },
+    {
+      "year": 2019,
+      "title": "DMT shown to be biosynthesized and released in rat brain at neurotransmitter-like levels",
+      "who": "Jon G. Dean, Jimo Borjigin, Steven Barker, Rick Strassman, and colleagues",
+      "institution": "University of Michigan (Borjigin lab); LSU; Cottonwood/UNM",
+      "what_happened": "The group showed INMT and AADC transcripts co-localize in rat and human brain regions (cortex, pineal, choroid plexus), and measured extracellular DMT in the cortex of normal behaving rats at concentrations comparable to serotonin and dopamine ('Biosynthesis and Extracellular Concentrations of N,N-dimethyltryptamine (DMT) in Mammalian Brain,' Scientific Reports 9:9333). DMT persisted even after pinealectomy, indicating non-pineal brain sources.",
+      "significance": "Strongest modern evidence that the mammalian brain can synthesize and release DMT endogenously — but in RATS. Whether the human brain does the same, and what function it serves, remains open; the paper raises rather than settles the human question.",
+      "proven_status": "contested",
+      "citation": {
+        "author": "J. G. Dean, T. Liu, ... J. Borjigin",
+        "work": "Biosynthesis and Extracellular Concentrations of N,N-dimethyltryptamine (DMT) in Mammalian Brain, Scientific Reports 9:9333",
+        "year": 2019,
+        "doi_or_url": "https://doi.org/10.1038/s41598-019-45812-w"
+      },
+      "related_pmids_or_dois": ["31249368", "10.1038/s41598-019-45812-w"]
+    },
+    {
+      "year": 2023,
+      "title": "Human brain effects of DMT via simultaneous EEG-fMRI",
+      "who": "Christopher Timmermann, Robin Carhart-Harris, and colleagues",
+      "institution": "Centre for Psychedelic Research, Imperial College London",
+      "what_happened": "Combining EEG and fMRI during intravenous DMT, the team showed DMT flattens the brain's functional hierarchy and increases global connectivity, especially in association cortex, correlating with the intensity and immersive quality of the experience ('Human brain effects of DMT assessed via EEG-fMRI,' PNAS 120(13):e2218949120).",
+      "significance": "Highest-resolution account to date of how DMT reorganizes human brain activity, advancing mechanistic models (e.g., relaxed high-level priors / hierarchy collapse) of the psychedelic state.",
+      "proven_status": "established",
+      "citation": {
+        "author": "C. Timmermann, ... R. L. Carhart-Harris",
+        "work": "Human brain effects of DMT assessed via EEG-fMRI, PNAS 120(13):e2218949120",
+        "year": 2023,
+        "doi_or_url": "https://doi.org/10.1073/pnas.2218949120"
+      },
+      "related_pmids_or_dois": ["36940333", "10.1073/pnas.2218949120"]
+    },
+    {
+      "year": 2023,
+      "title": "Extended-state DMT: continuous target-controlled infusion ('DMTx')",
+      "who": "Emma Eckernas, Christopher Timmermann, Lisa X. Luan, and colleagues",
+      "institution": "Imperial College London; University of Gothenburg",
+      "what_happened": "Researchers modeled and then implemented a bolus-plus-constant-infusion protocol to hold DMT at a chosen psychedelic intensity, overcoming its very short half-life to prolong the state ('Optimized infusion rates for N,N-dimethyltryptamine...,' British Journal of Clinical Pharmacology, 2023; and the extended-DMT trial reported in Journal of Psychopharmacology, 2024). Volunteers sustained the DMT state for extended periods across escalating target levels.",
+      "significance": "Turns a ~10-minute experience into a controllable, extendable state — enabling steady-state neuroscience and, potentially, therapeutic 'dose-duration' control. This 'DMTx' capability is a genuine methodological milestone of the current renaissance.",
+      "proven_status": "established",
+      "citation": {
+        "author": "E. Eckernas, C. Timmermann, ... M. Ashton",
+        "work": "Optimized infusion rates for N,N-dimethyltryptamine to achieve a target psychedelic intensity based on a modeling and simulation framework, British Journal of Clinical Pharmacology",
+        "year": 2023,
+        "doi_or_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10583250/"
+      },
+      "related_pmids_or_dois": ["37675853", "10.1177/02698811231196877"]
+    },
+    {
+      "year": 2023,
+      "title": "Therapeutic pivot: SPL026 (DMT) Phase IIa for major depressive disorder (Small Pharma)",
+      "who": "Small Pharma (Carol Routledge and colleagues); investigators incl. David Erritzoe",
+      "institution": "Small Pharma Ltd; Imperial College / clinical sites",
+      "what_happened": "Small Pharma reported positive topline results from the first placebo-controlled Phase IIa trial of a short-duration psychedelic — intravenous SPL026 (DMT) with supportive therapy — in patients with moderate/severe major depressive disorder, meeting its primary endpoint with a rapid and durable reduction in depressive symptoms and no drug-related serious adverse events (announced Jan/Mar 2023; full trial later published in Nature Medicine, 2025).",
+      "significance": "Marks DMT's transition from consciousness-science curiosity to clinical antidepressant candidate, and the first controlled evidence that a very short psychedelic can produce meaningful antidepressant effects. Early-stage: efficacy claims await larger Phase IIb/III confirmation.",
+      "proven_status": "contested",
+      "citation": {
+        "author": "Small Pharma / trial investigators (published: D. Erritzoe et al.)",
+        "work": "A short-acting psychedelic intervention for major depressive disorder: a phase IIa randomized placebo-controlled trial, Nature Medicine (2025); topline results announced 2023",
+        "year": 2023,
+        "doi_or_url": "https://doi.org/10.1038/s41591-025-04154-z"
+      },
+      "related_pmids_or_dois": ["10.1038/s41591-025-04154-z"]
+    },
+    {
+      "year": 2023,
+      "title": "DMT beyond psychiatry: Phase 1 trials for stroke and anxiety (Algernon; Cybin)",
+      "who": "Algernon Pharmaceuticals / Algernon NeuroScience; Cybin (and Entheon Biomedical)",
+      "institution": "Centre for Human Drug Research, Leiden, Netherlands (both programs)",
+      "what_happened": "Algernon NeuroScience dosed the first subject in a Phase 1 trial of intravenous AP-188 (DMT) for ischemic stroke, invoking DMT's sigma-1 receptor activity and proposed neuroplasticity/neuroprotection. In parallel, Cybin advanced CYB004, a deuterated DMT, into first-in-human then Phase 2 trials for generalized anxiety disorder (building on a DMT study acquired from Entheon Biomedical).",
+      "significance": "Extends the therapeutic hypothesis for DMT beyond depression into neurology (stroke/neuroprotection) and other anxiety indications, and shows the commercialization wave (novel salts, deuterated analogs, patents). Efficacy for these indications is unproven; these are early safety/exploratory studies.",
+      "proven_status": "unproven",
+      "citation": {
+        "author": "Algernon Pharmaceuticals Inc.",
+        "work": "Algernon NeuroScience Doses First Subject in Phase 1 DMT Clinical Stroke Study (press release); Cybin CYB004 deuterated-DMT program announcements",
+        "year": 2023,
+        "doi_or_url": "https://www.globenewswire.com/en/news-release/2023/01/17/2589795/0/en/Algernon-NeuroScience-Doses-First-Subject-in-Phase-1-DMT-Clinical-Stroke-Study.html"
+      },
+      "related_pmids_or_dois": []
+    }
+  ],
+  "key_researchers": [
+    {
+      "name": "Richard Spruce",
+      "era": "1850s-1900s",
+      "contribution": "First scientific/ethnobotanical documentation of ayahuasca and the caapi vine (Banisteriopsis), the traditional oral-DMT complex.",
+      "institution": "Royal Botanic Gardens, Kew (Amazon field expeditions)"
+    },
+    {
+      "name": "Richard H. F. Manske",
+      "era": "1930s",
+      "contribution": "First chemical synthesis of DMT (1931).",
+      "institution": "National Research Council of Canada / University of Manitoba"
+    },
+    {
+      "name": "Oswaldo Goncalves de Lima",
+      "era": "1940s-1950s",
+      "contribution": "First isolation of DMT ('nigerine') from a plant, Mimosa tenuiflora/hostilis (1946).",
+      "institution": "Instituto de Pesquisas Agronomicas de Pernambuco, Brazil"
+    },
+    {
+      "name": "Humphry Osmond & John Smythies",
+      "era": "1950s-1960s",
+      "contribution": "Proposed the transmethylation / endogenous-psychotogen hypothesis of schizophrenia that motivated the search for endogenous DMT (later unsubstantiated).",
+      "institution": "St George's Hospital London; Weyburn, Saskatchewan"
+    },
+    {
+      "name": "Stephen (Istvan) Szara",
+      "era": "1950s-2000s",
+      "contribution": "Discovered DMT's hallucinogenic effects in humans via self-experiment (1956); established oral inactivity vs. parenteral activity. 'Father of DMT.'",
+      "institution": "National Institute for Nervous and Mental Diseases, Budapest; later NIMH/NIDA, USA"
+    },
+    {
+      "name": "Julius Axelrod",
+      "era": "1960s",
+      "contribution": "Identified a mammalian N-methyltransferase capable of forming DMT from tryptamine (1961), seeding endogenous-DMT enzymology (INMT).",
+      "institution": "National Institute of Mental Health, USA"
+    },
+    {
+      "name": "Rick J. Strassman",
+      "era": "1990s-present",
+      "contribution": "First DEA/FDA-approved modern human DMT trials (UNM, 1990-1995); dose-response pharmacology; author of 'DMT: The Spirit Molecule' and proponent (as hypothesis) of the pineal-DMT idea.",
+      "institution": "University of New Mexico; Cottonwood Research Foundation"
+    },
+    {
+      "name": "Jordi Riba",
+      "era": "2000s-2020",
+      "contribution": "First placebo-controlled human pharmacology of ayahuasca; defined its safety, pharmacokinetics and neurophysiology.",
+      "institution": "Autonomous University of Barcelona / Hospital de Sant Pau"
+    },
+    {
+      "name": "Steven A. Barker",
+      "era": "2010s-present",
+      "contribution": "Analytical chemist behind the critical review of endogenous DMT claims (2012) and modern LC-MS/MS detection of DMT in rat brain/pineal (2013).",
+      "institution": "Louisiana State University; Cottonwood Research Foundation"
+    },
+    {
+      "name": "Jimo Borjigin",
+      "era": "2010s-present",
+      "contribution": "Led work showing biosynthesis and neurotransmitter-level extracellular DMT in rat brain (2019).",
+      "institution": "University of Michigan"
+    },
+    {
+      "name": "David E. Nichols",
+      "era": "1970s-present",
+      "contribution": "Authoritative pharmacology of psychedelics (2016 review) and the definitive published rebuttal of the pineal 'spirit molecule' myth (2018).",
+      "institution": "Purdue University / University of North Carolina"
+    },
+    {
+      "name": "Robin Carhart-Harris",
+      "era": "2010s-present",
+      "contribution": "Co-led the modern Imperial College human DMT neuroimaging program (EEG, EEG-fMRI); brain-hierarchy/entropy models of the psychedelic state.",
+      "institution": "Imperial College London; UC San Francisco"
+    },
+    {
+      "name": "Christopher Timmermann",
+      "era": "2010s-present",
+      "contribution": "Lead investigator on DMT EEG (2019), EEG-fMRI (2023), and extended-state DMT infusion ('DMTx').",
+      "institution": "Centre for Psychedelic Research, Imperial College London"
+    }
+  ],
+  "myths_vs_evidence": [
+    {
+      "claim": "The pineal gland releases a flood of DMT at death to produce near-death and out-of-body experiences.",
+      "popular_form": "'The Spirit Molecule' / DMT is secreted at death so the soul can leave the body.",
+      "status": "unproven",
+      "reality": "No evidence that large amounts of DMT are released near death in humans. This is a hypothesis popularized by Strassman, explicitly critiqued by Nichols (2018), who noted the human pineal is too small (<0.2 g, ~30 ug/day melatonin) to plausibly make psychedelic quantities of DMT. Where DMT is made in humans and what it does remain unknown.",
+      "citation": "Nichols DE, J Psychopharmacol 32(1):30-36, 2018, doi:10.1177/0269881117736919"
+    },
+    {
+      "claim": "The human pineal gland is proven to produce DMT.",
+      "popular_form": "DMT is made by your pineal gland.",
+      "status": "unproven",
+      "reality": "DMT has been detected in RAT pineal microdialysate (Barker 2013) and rat brain shows biosynthesis at neurotransmitter-like levels (Dean/Borjigin 2019), and INMT/AADC transcripts occur in human brain regions. But direct demonstration of DMT synthesis by the living HUMAN pineal, at meaningful levels, has not been shown. Rat findings do not equal human proof.",
+      "citation": "Dean et al., Sci Rep 9:9333, 2019, doi:10.1038/s41598-019-45812-w; Barker et al., Biomed Chromatogr 27:1690, 2013, doi:10.1002/bmc.2981"
+    },
+    {
+      "claim": "Endogenous DMT causes schizophrenia (transmethylation hypothesis).",
+      "popular_form": "Schizophrenia is your brain overdosing on its own DMT.",
+      "status": "unproven",
+      "reality": "The 1950s-60s transmethylation hypothesis (Osmond & Smythies) drove decades of research but was never substantiated. Barker et al. (2012) found many early studies reporting high DMT levels in patients were likely analytical errors. No reliable correlation between endogenous DMT and schizophrenia has been established.",
+      "citation": "Barker SA et al., Drug Test Anal 4:617-635, 2012, doi:10.1002/dta.422"
+    },
+    {
+      "claim": "DMT levels are far higher in schizophrenic patients' blood and urine.",
+      "popular_form": "Early studies proved DMT is elevated in psychosis.",
+      "status": "contested",
+      "reality": "The historical positive findings (from the 1960s-70s 'pink spot' era) were mostly produced with insufficiently specific methods. A systematic modern re-evaluation concluded most early high-concentration reports were probably in error. The question is not settled by those data.",
+      "citation": "Barker SA, McIlhenny EH, Strassman R, Drug Test Anal 4:617-635, 2012, doi:10.1002/dta.422"
+    },
+    {
+      "claim": "The brain releases DMT during REM sleep / dreaming.",
+      "popular_form": "DMT is why you dream.",
+      "status": "unproven",
+      "reality": "No human study has demonstrated DMT release tied to REM/dreaming. This is speculation extrapolated from the pineal hypothesis; it has not been shown experimentally.",
+      "citation": "No supporting evidence; see Nichols DE, J Psychopharmacol 32(1):30-36, 2018 (critique of pineal-DMT claims), doi:10.1177/0269881117736919"
+    },
+    {
+      "claim": "Everyone meets the same 'entities' on DMT because those beings/realms exist independently of the brain.",
+      "popular_form": "The machine elves are real; it's a place you go, not a hallucination.",
+      "status": "untestable / ontologically neutral",
+      "reality": "Recurring entity encounters and shared phenomenological features are documented in surveys and neurophenomenology, but whether these entities have mind-independent existence is not a scientifically testable claim. The archive reports the experiences as reported and takes no metaphysical position. Neural correlates of the DMT state are measurable (Timmermann 2019, 2023); the ontological status of its contents is not adjudicable by those data.",
+      "citation": "Timmermann C et al., Sci Rep 9:16324, 2019 (neural correlates), doi:10.1038/s41598-019-51974-4; entity-encounter surveys exist but establish prevalence, not ontology."
+    },
+    {
+      "claim": "'The Spirit Molecule' names a proven biological/spiritual function of DMT.",
+      "popular_form": "DMT is literally the molecule of the spirit / consciousness.",
+      "status": "unproven",
+      "reality": "'The Spirit Molecule' is the title/framing of Strassman's 2001 popular book and an evocative hypothesis, not an established scientific function. DMT's receptor pharmacology (5-HT2A agonism, sigma-1 activity) is well characterized; a 'spiritual function' is interpretation, not demonstrated biology.",
+      "citation": "Strassman R, 'DMT: The Spirit Molecule', 2001 (popular book, hypothesis); pharmacology per Nichols DE, Pharmacol Rev 68:264-355, 2016, doi:10.1124/pr.115.011478"
+    },
+    {
+      "claim": "Goncalves de Lima proved in 1946 that jurema's active alkaloid was DMT.",
+      "popular_form": "DMT was isolated from a plant in 1946.",
+      "status": "contested",
+      "reality": "He isolated and named 'nigerine' in 1946, but its identity as N,N-DMT was not unequivocally confirmed until later work (circa 1959) on Mimosa samples. Nigerine is now generally regarded as an impure DMT extract; the 1946 event is best described as the first plant detection of what was later confirmed to be DMT, not a 1946 proof.",
+      "citation": "See milestone (1946); identity confirmed later, per historical reviews summarized at https://en.wikipedia.org/wiki/N,N-Dimethyltryptamine"
+    },
+    {
+      "claim": "DMT is a proven, approved treatment for depression / stroke / anxiety.",
+      "popular_form": "DMT cures depression.",
+      "status": "unproven",
+      "reality": "As of 2025 no DMT product has regulatory approval. SPL026 met a Phase IIa endpoint for major depression (promising but early), and stroke (Algernon AP-188) and anxiety (Cybin CYB004) programs are in early-phase safety/exploratory trials. Efficacy for any indication awaits larger confirmatory trials.",
+      "citation": "Small Pharma SPL026 Phase IIa (Nature Medicine 2025, doi:10.1038/s41591-025-04154-z); Algernon AP-188 and Cybin CYB004 Phase 1/2 program announcements, 2023"
+    }
+  ]
+}
