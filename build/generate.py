@@ -575,7 +575,7 @@ PATENTS = [
      "claim": "Formulation · dosing · deuterated analog · method-of-treatment", "indication": "Depression · DMT-assisted therapy", "status": "Portfolio", "cls": "epi-folk", "era": "2019–"},
     {"owner": "atai Life Sciences", "num": "VLS-01 (applications)", "url": "",
      "claim": "Oral transmucosal film formulation", "indication": "Treatment-resistant depression", "status": "Pending", "cls": "epi-folk", "era": "~2021"},
-    {"owner": "Beckley Psytech → Eli Lilly (Jul 2026)", "num": "BPL-003 (applications)", "url": "",
+    {"owner": "AtaiBeckley → Eli Lilly (announced Jul 2026, pending)", "num": "BPL-003 (applications)", "url": "",
      "claim": "Intranasal 5-MeO-DMT formulation", "indication": "Treatment-resistant depression", "status": "Pending", "cls": "epi-folk", "era": "~2021"},
     {"owner": "Algernon Pharmaceuticals", "num": "AP-188 (applications)", "url": "",
      "claim": "Salt/polymorph · dosing · combination", "indication": "Stroke · TBI", "status": "Pending", "cls": "epi-folk", "era": "~2021–22"},
@@ -608,7 +608,7 @@ OWNERSHIP_SECTIONS = [
 
 OWNERSHIP_FAQS = [
     ("Can you patent DMT?", "Not the molecule itself — N,N-DMT is public domain. Companies patent the periphery: a formulation, salt, deuterated analog, dose regimen, delivery device, or a use-to-treat-a-condition claim. That is why 'they patented DMT' is almost always inaccurate as stated."),
-    ("Who owns the DMT patents?", "The largest DMT-specific estate is Cybin's (which absorbed Small Pharma) — dozens granted and well over a hundred pending, including deuterated-DMT and injectable-formulation patents. Others include atai, Algernon, Biomind, and — on the related 5-MeO-DMT side — Beckley Psytech, acquired by Eli Lilly in July 2026. Compass Pathways holds psilocybin patents, not DMT."),
+    ("Who owns the DMT patents?", "The largest DMT-specific estate is Cybin's (which absorbed Small Pharma) — dozens granted and well over a hundred pending, including deuterated-DMT and injectable-formulation patents. Others include atai, Algernon, Biomind, and — on the related 5-MeO-DMT side — Beckley Psytech, whose AtaiBeckley parent Eli Lilly agreed to acquire in July 2026 (~$2.8–3.8B, pending). Compass Pathways holds psilocybin patents, not DMT."),
     ("Is it possible to own ayahuasca?", "This was tested directly: a 1986 US plant patent on an ayahuasca vine ('Da Vine') was challenged by Amazonian Indigenous groups as biopiracy. It was reinstated on technical grounds and expired in 2003. The molecule and the plant are public domain; specific cultivars, formulations, and uses are where ownership claims are made."),
     ("Does patenting mean the medicine works?", "No. A granted patent is a legal claim of novelty, not proof of safety or efficacy — that is what clinical trials decide. Many of these are early-stage, and grants are regularly rejected, narrowed, or challenged after the fact."),
 ]

@@ -325,14 +325,24 @@ def main():
     def ordered(counter, keyfn=None):
         return dict(sorted(counter.items(), key=keyfn or (lambda kv: (-kv[1], kv[0]))))
 
-    method_note = ("METHOD: OpenAlex is authoritative source (CORE down w/ 504 gateway timeout at harvest time; "
-                   "BASE served an anti-bot HTML shell, no structured records). OpenAlex has no 'thesis' work-type "
-                   "and stores no degree level, so degree (PhD/MSc/MA) and discipline are HEURISTIC inferences from "
-                   "title/abstract/venue/topic text; 'dissertation'-typed records with no 'master' cue default to PhD "
-                   "(hence PhD-heavy). Thesis-likeness gated by work-type=='dissertation' or word-boundary thesis/"
-                   "dissertation/doctoral markers (drops ~130 chemistry 'synthesis' journal articles). Abstracts "
-                   "reconstructed from OpenAlex inverted index.")
-    all_notes = (source_notes if isinstance(source_notes, list) else [str(source_notes)]) + [method_note]
+    n_oa = sum(1 for r in final if "openalex" in r["source_db"])
+    n_core = sum(1 for r in final if "core" in r["source_db"])
+    src_lines = [
+        "OpenAlex (workhorse): OK — 7 search terms x dissertation-type + broad thesis-like sweep; %d of the final records. "
+        "OpenAlex has no 'thesis' work-type (that filter returns empty) and stores no degree level." % n_oa,
+        ("CORE: OK without an API key on retry (earlier attempts hit transient 504/read-timeouts); "
+         "queried thesis/dissertation phrasings, kept only thesis-typed hits; contributes to %d records after dedup." % n_core)
+            if core_raw else
+        "CORE: attempted; no records merged (transient 504 gateway timeout / read-timeout at harvest).",
+        "BASE: HTTP 200 but results render client-side (anti-bot HTML shell) — no structured records extractable; skipped.",
+        ("METHOD: degree (PhD/MSc/MA/other) and discipline are HEURISTIC inferences from title/abstract/venue/topic text; "
+         "'dissertation'-typed records with no explicit 'master' cue default to PhD (hence PhD-heavy). Thesis-likeness "
+         "gated by work-type=='dissertation'/'thesis' or word-boundary thesis/dissertation/doctoral markers, which drops "
+         "~130 chemistry 'synthesis' journal articles mis-typed as dissertations. Topic filter is word-boundary "
+         "(avoids DMT acronym collisions and 'voyage'->'yage'); abstracts reconstructed from OpenAlex inverted index; "
+         "dedup by DOI then normalized title, merging source_db tags."),
+    ]
+    all_notes = src_lines
     out = {
         "generated_utc": "PLACEHOLDER",
         "source_notes": " | ".join(all_notes),

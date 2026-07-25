@@ -1,152 +1,162 @@
 {
-  "generated_utc": "PLACEHOLDER",
-  "source_notes": "Federal Register API (federalregister.gov/api/v1) worked unauthenticated: term=dimethyltryptamine returned 625 matches, term=N,N-dimethyltryptamine 286; these surfaced the DEA 5-MeO-DMT and AMT/5-MeO-DIPT scheduling rulemakings used below. NOTE: FedReg term=ayahuasca and term=hoasca each returned 0 results (the FR full-text term index does not match those words in titles/abstracts) -- ayahuasca does not appear in FR rulemaking titles because DEA regulates the DMT it contains, not the brew by name. The original N,N-DMT Schedule I placement (1970/1971 CSA) and the 1971 UN Convention predate the FR API's digital coverage (begins ~1994) and were sourced/curated from DEA and treaty references. CourtListener API v4 (search endpoint, type=o) worked unauthenticated with no rate-limiting: the full O Centro / UDV litigation chain (D.N.M. -> 10th Cir. panel -> 10th Cir. en banc -> SCOTUS) and Church of the Holy Light of the Queen (Santo Daime) were returned with citations and opinion URLs. The Soul Quest DEA-exemption appeal was confirmed via Justia (CourtListener returned only a related state wrongful-death case). Drug-development milestones were verified via company IR / GlobeNewswire press releases and peer-reviewed publication; only designations with a confirming primary source are labeled as granted. CYB003 (Cybin) was deliberately EXCLUDED from the regulatory strand: it is a deuterated PSILOCYBIN analog, not a DMT molecule, despite appearing in DMT-adjacent searches.",
-  "regulatory": [
-    {
-      "type": "FDA designation",
-      "program": "BPL-003 (intranasal mebufotenin benzoate) for treatment-resistant depression",
-      "sponsor": "atai Life Sciences / Beckley Psytech (AtaiBeckley)",
-      "molecule": "5-MeO-DMT (mebufotenin)",
-      "status": "FDA Breakthrough Therapy Designation GRANTED; Phase 3 planned for 2026",
-      "date": "2025-10-16",
-      "summary": "The U.S. FDA granted Breakthrough Therapy Designation to BPL-003, an intranasal 5-MeO-DMT (mebufotenin benzoate) product, for treatment-resistant depression. The designation followed positive Phase 2b topline results (announced 2025-07-01) in which a single 12 mg dose produced a statistically significant 11.1-point reduction in depressive symptoms at Day 29 versus a low-dose comparator. This is the confirmed FDA designation among the DMT-class programs.",
-      "url": "https://www.globenewswire.com/news-release/2025/10/16/3168328/0/en/atai-Life-Sciences-and-Beckley-Psytech-Announce-U-S-FDA-Breakthrough-Therapy-Designation-Granted-to-BPL-003-Underscoring-its-Potential-in-Treatment-Resistant-Depression.html"
-    },
-    {
-      "type": "IND",
-      "program": "GH001 (inhaled mebufotenin) for treatment-resistant depression",
-      "sponsor": "GH Research PLC",
-      "molecule": "5-MeO-DMT (mebufotenin)",
-      "status": "Phase 2b completed (positive); FDA clinical hold on the IND lifted Jan 2026; Phase 3 planned. No FDA Breakthrough/Fast Track designation confirmed.",
-      "date": "2026-01",
-      "summary": "GH Research's GH001 is an inhaled 5-MeO-DMT formulation. Phase 2b in TRD reported a 15.5-point placebo-adjusted reduction and 57.5% remission by Day 8. The FDA had placed a clinical hold on the GH001 IND; the company announced the hold was lifted in January 2026, clearing a path toward Phase 3. No FDA expedited-program designation (Breakthrough/Fast Track) has been confirmed for GH001, so none is claimed here.",
-      "url": "https://www.oindpnews.com/2026/01/fda-lifts-clinical-hold-on-ind-for-gh-researchs-gh001-inhaled-mebufotenin/"
-    },
-    {
-      "type": "IND",
-      "program": "VLS-01 (buccal transmucosal film DMT), 'Elumina' Phase 2 for treatment-resistant depression",
-      "sponsor": "atai Life Sciences (Viridia Life Sciences)",
-      "molecule": "N,N-DMT",
-      "status": "Phase 2 (Elumina) underway; first patient dosed 2025-03-11; Phase 2b last-patient reported; Phase 3 in MDD planned. No FDA designation claimed.",
-      "date": "2025-03-11",
-      "summary": "VLS-01 is an oral transmucosal (buccal) film formulation of N,N-DMT engineered to fit the two-hour interventional-psychiatry paradigm (peak plasma 30-45 min; effects resolving in 90-120 min). The Phase 2 'Elumina' trial in TRD dosed its first patient on 2025-03-11 with topline results anticipated Q1 2026. Program later advanced to a Phase 2b readout and a planned Phase 3 in major depressive disorder.",
-      "url": "https://ir.atai.com/news-releases/news-release-details/atai-life-sciences-announces-first-patient-dosed-elumina-phase-2"
-    },
-    {
-      "type": "IND",
-      "program": "SPL026 (intravenous DMT) for major depressive disorder",
-      "sponsor": "Small Pharma (acquired by Cybin Inc., 2024)",
-      "molecule": "N,N-DMT",
-      "status": "Phase 2a completed and positive; program subsequently restructured following the Cybin acquisition. No FDA designation confirmed for SPL026.",
-      "date": "2023-09",
-      "summary": "SPL026 is an intravenous N,N-DMT formulation. A randomized, placebo-controlled Phase 2a trial met its primary endpoint in moderate-to-severe MDD, showing a statistically significant reduction in depressive symptoms at 2 weeks with effects sustained up to 3 months (results published in Nature Medicine, 2025). Small Pharma was acquired by Cybin in 2024, after which the IV-DMT program's forward development was restructured. No FDA Breakthrough/Fast Track designation is confirmed for SPL026, so none is claimed.",
-      "url": "https://www.nature.com/articles/s41591-025-04154-z",
-      "uncertain": true
-    }
-  ],
-  "scheduling": [
-    {
-      "jurisdiction": "US",
-      "action": "N,N-DMT placed in Schedule I of the Controlled Substances Act",
-      "date": "1971",
-      "citation": "21 U.S.C. sec. 812, Schedule I(c); Comprehensive Drug Abuse Prevention and Control Act of 1970, Pub. L. 91-513 (effective May 1, 1971)",
-      "summary": "N,N-dimethyltryptamine (DMT) was placed in Schedule I of the federal Controlled Substances Act, enacted as Title II of the Comprehensive Drug Abuse Prevention and Control Act of 1970 and taking effect in 1971. Schedule I reflects a finding of high abuse potential, no currently accepted medical use, and lack of accepted safety under medical supervision. Because ayahuasca contains DMT, the brew's DMT content is what brings it within CSA control -- ayahuasca is not separately named in the statute.",
-      "url": "https://www.deadiversion.usdoj.gov/drug_chem_info/dmt.pdf"
-    },
-    {
-      "jurisdiction": "UN",
-      "action": "DMT listed in Schedule I of the UN Convention on Psychotropic Substances",
-      "date": "1971",
-      "citation": "Convention on Psychotropic Substances, 1971 (opened for signature 21 Feb 1971, Vienna), Schedule I",
-      "summary": "The 1971 United Nations Convention on Psychotropic Substances placed DMT in Schedule I, the treaty's most restrictive category, obligating parties to limit its use to scientific and very limited medical purposes and to closely monitor international trade. The INCB has separately noted that plant preparations such as ayahuasca are not themselves listed under the Convention, even though the DMT they contain is.",
-      "url": "https://www.unodc.org/unodc/en/commissions/CND/conventions.html"
-    },
-    {
-      "jurisdiction": "US",
-      "action": "DEA final rule: 5-MeO-DMT placed in Schedule I of the CSA",
-      "date": "2010-12-20",
-      "citation": "75 FR 79296; DEA final rule, document 2010-31854",
-      "summary": "The DEA issued a final rule placing 5-methoxy-N,N-dimethyltryptamine (5-MeO-DMT), including its salts and isomers, into Schedule I of the Controlled Substances Act, based on an HHS scheduling recommendation and DEA's own review. This followed a notice of proposed rulemaking published 2009-08-21 (74 FR 42217) with a comment period reopened 2009-10-28 (74 FR 55502). 5-MeO-DMT is the molecule now used in the GH001 and BPL-003 clinical programs.",
-      "url": "https://www.federalregister.gov/documents/2010/12/20/2010-31854/schedules-of-controlled-substances-placement-of-5-methoxy-nn-dimethyltryptamine-into-schedule-i-of"
-    },
-    {
-      "jurisdiction": "US",
-      "action": "DEA notice of proposed rulemaking to schedule 5-MeO-DMT (Schedule I)",
-      "date": "2009-08-21",
-      "citation": "74 FR 42217; DEA NPRM, document E9-20204 (comment period reopened 2009-10-28, 74 FR 55502)",
-      "summary": "DEA's notice of proposed rulemaking proposing to place 5-MeO-DMT and its salts into Schedule I of the CSA, on a recommendation from the Acting Assistant Secretary for Health (HHS). This is the proposal stage of the rulemaking finalized in 2010 (75 FR 79296).",
-      "url": "https://www.federalregister.gov/documents/2009/08/21/E9-20204/schedules-of-controlled-substances-placement-of-5-methoxy-nn-dimethyltryptamine-into-schedule-i-of"
-    },
-    {
-      "jurisdiction": "US",
-      "action": "DEA final rule: AMT and 5-MeO-DIPT placed in Schedule I (related tryptamine analogs)",
-      "date": "2004-09-29",
-      "citation": "69 FR 58050; DEA final rule, document 04-21755",
-      "summary": "DEA final rule placing alpha-methyltryptamine (AMT) and 5-methoxy-N,N-diisopropyltryptamine (5-MeO-DIPT) into Schedule I, following an emergency/temporary placement in 2003 (68 FR 4127). These are tryptamine-class hallucinogens (not DMT or 5-MeO-DMT themselves); included as context showing DEA's approach to scheduling the tryptamine family. Molecule labeled accordingly.",
-      "url": "https://www.federalregister.gov/documents/2004/09/29/04-21755/schedules-of-controlled-substances-placement-of-alpha-methyltryptamine-and",
-      "molecule_note": "AMT and 5-MeO-DIPT -- related tryptamine analogs, NOT N,N-DMT or 5-MeO-DMT"
-    }
-  ],
-  "case_law": [
-    {
-      "case_name": "Gonzales v. O Centro Espirita Beneficente Uniao do Vegetal",
-      "court": "U.S. Supreme Court",
-      "year": 2006,
-      "citation": "546 U.S. 418 (2006); 126 S. Ct. 1211 (decided Feb. 21, 2006)",
-      "holding": "Under the Religious Freedom Restoration Act (RFRA), the federal government failed to demonstrate a compelling interest in barring the UDV church's sacramental use of hoasca (ayahuasca) tea containing DMT; a unanimous Court affirmed the preliminary injunction protecting the church's religious use.",
-      "significance": "THE landmark decision. Establishes that RFRA can compel a case-by-case, sect-specific exemption from the Controlled Substances Act for sincere religious use of a Schedule I substance, rejecting the government's argument that Schedule I's uniform prohibition and treaty (1971 UN Convention) obligations were per se compelling. Every subsequent ayahuasca-church exemption case is measured against it.",
-      "molecule": "N,N-DMT (in ayahuasca / hoasca)",
-      "url": "https://www.courtlistener.com/opinion/145684/gonzales-v-o-centro-espirita-beneficente-uniao-do-vegetal/"
-    },
-    {
-      "case_name": "O Centro Espirita Beneficente Uniao do Vegetal v. Ashcroft (en banc)",
-      "court": "U.S. Court of Appeals for the Tenth Circuit (en banc)",
-      "year": 2004,
-      "citation": "389 F.3d 973 (10th Cir. 2004) (en banc)",
-      "holding": "The en banc Tenth Circuit affirmed the district court's preliminary injunction, holding the government had not shown a compelling interest under RFRA sufficient to override the UDV's sacramental ayahuasca use pending trial.",
-      "significance": "The appellate ruling the Supreme Court reviewed and affirmed. Followed a divided 2003 panel decision (342 F.3d 1170) and rehearing en banc; framed the RFRA compelling-interest/least-restrictive-means analysis the Supreme Court adopted.",
-      "molecule": "N,N-DMT (in ayahuasca / hoasca)",
-      "url": "https://www.courtlistener.com/opinion/788429/o-centro-espirita-beneficiente-uniao-do-vegetal-v-john-ashcroft/"
-    },
-    {
-      "case_name": "O Centro Espirita Beneficente Uniao do Vegetal v. Ashcroft (preliminary injunction)",
-      "court": "U.S. District Court for the District of New Mexico",
-      "year": 2002,
-      "citation": "282 F. Supp. 2d 1236 (D.N.M. 2002); No. CIV 00-1647 JP/RLP",
-      "holding": "The district court granted a preliminary injunction under RFRA barring the government from prohibiting the UDV's importation and sacramental use of hoasca, finding the government's evidence of harm and diversion in equipoise and thus insufficient to meet its compelling-interest burden.",
-      "significance": "The trial-court order that began the litigation chain, entered after a 2001 DEA/Customs seizure of a UDV hoasca shipment. Its factual findings on safety and RFRA burden-shifting carried through the entire appellate process to the Supreme Court.",
-      "molecule": "N,N-DMT (in ayahuasca / hoasca)",
-      "url": "https://www.courtlistener.com/opinion/2480162/o-centro-espirita-beneficiente-uniao-do-vegetal-v-ashcroft/"
-    },
-    {
-      "case_name": "Church of the Holy Light of the Queen v. Mukasey",
-      "court": "U.S. District Court for the District of Oregon",
-      "year": 2009,
-      "citation": "615 F. Supp. 2d 1210 (D. Or. 2009); No. CV 08-3095-PA",
-      "holding": "Applying O Centro and RFRA, the court held that Oregon Santo Daime (CEFLURIS) congregations were entitled to import and drink Daime tea (ayahuasca) for religious ceremonies, subject to reasonable DEA regulatory conditions, and entered a permanent injunction against prohibition of that use.",
-      "significance": "The first post-O Centro extension of the sacramental-ayahuasca exemption to a second church tradition (Santo Daime, distinct from the UDV). On appeal the Ninth Circuit (Church of the Holy Light of the Queen v. Holder, No. 13-35058) later modified the specific DEA-compliance conditions but left the core RFRA protection intact.",
-      "molecule": "N,N-DMT (in ayahuasca / Daime tea)",
-      "url": "https://www.courtlistener.com/opinion/2482682/church-of-the-holy-light-of-the-queen-v-mukasey/"
-    },
-    {
-      "case_name": "O Centro Espirita Beneficente Uniao do Vegetal v. Duke",
-      "court": "U.S. District Court for the District of New Mexico",
-      "year": 2018,
-      "citation": "343 F. Supp. 3d 1050 (D.N.M. 2018) (see also 286 F. Supp. 3d 1239 (D.N.M. 2017)); No. CIV 17-1137 JB/KK",
-      "holding": "Follow-on litigation in which the UDV challenged specific DEA conditions/guidance governing its now-recognized exemption; the court addressed the scope of permissible regulatory controls DEA may impose on the church's sacramental ayahuasca.",
-      "significance": "Shows that the O Centro exemption did not end the dispute -- the operational terms (import permits, inventory tracking, membership rules) DEA may attach to a RFRA exemption remained contested more than a decade after the Supreme Court ruling. Relevant to how any future church exemption is administered.",
-      "molecule": "N,N-DMT (in ayahuasca / hoasca)",
-      "url": "https://www.courtlistener.com/opinion/7332896/o-centro-espirita-beneficente-uniao-do-vegs-in-us-v-duke/"
-    },
-    {
-      "case_name": "Soul Quest Church of Mother Earth, Inc. v. Attorney General of the United States",
-      "court": "U.S. Court of Appeals for the Eleventh Circuit",
-      "year": 2023,
-      "citation": "No. 22-11072 (11th Cir. Dec. 18, 2023)",
-      "holding": "The Eleventh Circuit held that the district court lacked subject-matter jurisdiction to review the DEA's denial of Soul Quest's petition for a RFRA/CSA religious exemption to use ayahuasca; because the denial was a final CSA determination reviewable only in the court of appeals (21 U.S.C. sec. 877), and the church's constitutional and procedural claims were 'inescapably intertwined' with that decision, the suit was dismissed on jurisdictional grounds rather than on the merits.",
-      "significance": "A cautionary counterpoint to O Centro: an ayahuasca church that pursued (and was denied) DEA's administrative exemption process found the courthouse doors procedurally closed. Underscores that DEA had by this point instituted a formal exemption-petition process, and that the CSA's channeling of review into the appellate courts is a significant procedural hurdle for new churches. DEA had concluded Soul Quest failed to show a sincerely held religious exercise.",
-      "molecule": "N,N-DMT (in ayahuasca)",
-      "url": "https://law.justia.com/cases/federal/appellate-courts/ca11/22-11072/22-11072-2023-12-18.html"
-    }
-  ]
+ "generated_utc": "PLACEHOLDER",
+ "source_notes": "Federal Register API (federalregister.gov/api/v1) worked unauthenticated: term=dimethyltryptamine returned 625 matches, term=N,N-dimethyltryptamine 286; these surfaced the DEA 5-MeO-DMT and AMT/5-MeO-DIPT scheduling rulemakings used below. NOTE: FedReg term=ayahuasca and term=hoasca each returned 0 results (the FR full-text term index does not match those words in titles/abstracts) -- ayahuasca does not appear in FR rulemaking titles because DEA regulates the DMT it contains, not the brew by name. The original N,N-DMT Schedule I placement (1970/1971 CSA) and the 1971 UN Convention predate the FR API's digital coverage (begins ~1994) and were sourced/curated from DEA and treaty references. CourtListener API v4 (search endpoint, type=o) worked unauthenticated with no rate-limiting: the full O Centro / UDV litigation chain (D.N.M. -> 10th Cir. panel -> 10th Cir. en banc -> SCOTUS) and Church of the Holy Light of the Queen (Santo Daime) were returned with citations and opinion URLs. The Soul Quest DEA-exemption appeal was confirmed via Justia (CourtListener returned only a related state wrongful-death case). Drug-development milestones were verified via company IR / GlobeNewswire press releases and peer-reviewed publication; only designations with a confirming primary source are labeled as granted. CYB003 (Cybin) was deliberately EXCLUDED from the regulatory strand: it is a deuterated PSILOCYBIN analog, not a DMT molecule, despite appearing in DMT-adjacent searches.",
+ "regulatory": [
+  {
+   "type": "FDA designation",
+   "program": "BPL-003 (intranasal mebufotenin benzoate) for treatment-resistant depression",
+   "sponsor": "atai Life Sciences / Beckley Psytech (AtaiBeckley)",
+   "molecule": "5-MeO-DMT (mebufotenin)",
+   "status": "FDA Breakthrough Therapy Designation GRANTED; Phase 3 planned for 2026",
+   "date": "2025-10-16",
+   "summary": "The U.S. FDA granted Breakthrough Therapy Designation to BPL-003, an intranasal 5-MeO-DMT (mebufotenin benzoate) product, for treatment-resistant depression. The designation followed positive Phase 2b topline results (announced 2025-07-01) in which a single 12 mg dose produced a statistically significant 11.1-point reduction in depressive symptoms at Day 29 versus a low-dose comparator. This is the confirmed FDA designation among the DMT-class programs.",
+   "url": "https://www.globenewswire.com/news-release/2025/10/16/3168328/0/en/atai-Life-Sciences-and-Beckley-Psytech-Announce-U-S-FDA-Breakthrough-Therapy-Designation-Granted-to-BPL-003-Underscoring-its-Potential-in-Treatment-Resistant-Depression.html"
+  },
+  {
+   "type": "IND",
+   "program": "GH001 (inhaled mebufotenin) for treatment-resistant depression",
+   "sponsor": "GH Research PLC",
+   "molecule": "5-MeO-DMT (mebufotenin)",
+   "status": "Phase 2b completed (positive); FDA clinical hold on the IND lifted Jan 2026; Phase 3 planned. No FDA Breakthrough/Fast Track designation confirmed.",
+   "date": "2026-01",
+   "summary": "GH Research's GH001 is an inhaled 5-MeO-DMT formulation. Phase 2b in TRD reported a 15.5-point placebo-adjusted reduction and 57.5% remission by Day 8. The FDA had placed a clinical hold on the GH001 IND; the company announced the hold was lifted in January 2026, clearing a path toward Phase 3. No FDA expedited-program designation (Breakthrough/Fast Track) has been confirmed for GH001, so none is claimed here.",
+   "url": "https://www.oindpnews.com/2026/01/fda-lifts-clinical-hold-on-ind-for-gh-researchs-gh001-inhaled-mebufotenin/"
+  },
+  {
+   "type": "IND",
+   "program": "VLS-01 (buccal transmucosal film DMT), 'Elumina' Phase 2 for treatment-resistant depression",
+   "sponsor": "atai Life Sciences (Viridia Life Sciences)",
+   "molecule": "N,N-DMT",
+   "status": "Phase 2 (Elumina) underway; first patient dosed 2025-03-11; Phase 2b last-patient reported; Phase 3 in MDD planned. No FDA designation claimed.",
+   "date": "2025-03-11",
+   "summary": "VLS-01 is an oral transmucosal (buccal) film formulation of N,N-DMT engineered to fit the two-hour interventional-psychiatry paradigm (peak plasma 30-45 min; effects resolving in 90-120 min). The Phase 2 'Elumina' trial in TRD dosed its first patient on 2025-03-11 with topline results anticipated Q1 2026. Program later advanced to a Phase 2b readout and a planned Phase 3 in major depressive disorder.",
+   "url": "https://ir.atai.com/news-releases/news-release-details/atai-life-sciences-announces-first-patient-dosed-elumina-phase-2"
+  },
+  {
+   "type": "IND",
+   "program": "SPL026 (intravenous DMT) for major depressive disorder",
+   "sponsor": "Small Pharma (acquired by Cybin Inc., 2024)",
+   "molecule": "N,N-DMT",
+   "status": "Phase 2a completed and positive; program subsequently restructured following the Cybin acquisition. No FDA designation confirmed for SPL026.",
+   "date": "2023-09",
+   "summary": "SPL026 is an intravenous N,N-DMT formulation. A randomized, placebo-controlled Phase 2a trial met its primary endpoint in moderate-to-severe MDD, showing a statistically significant reduction in depressive symptoms at 2 weeks with effects sustained up to 3 months (results published in Nature Medicine, 2025). Small Pharma was acquired by Cybin in 2024, after which the IV-DMT program's forward development was restructured. No FDA Breakthrough/Fast Track designation is confirmed for SPL026, so none is claimed.",
+   "url": "https://www.nature.com/articles/s41591-025-04154-z",
+   "uncertain": true
+  },
+  {
+   "type": "Acquisition (pending)",
+   "program": "Eli Lilly to acquire AtaiBeckley — 5-MeO-DMT (BPL-003) & DMT (VLS-01) depression programs",
+   "sponsor": "Eli Lilly & Company ← AtaiBeckley",
+   "molecule": "5-MeO-DMT / N,N-DMT",
+   "status": "Announced 2026-07-16; up to ~$3.8B (~$2.8B upfront + contingent value right); expected to close Q3 2026",
+   "date": "2026-07-16",
+   "summary": "The largest pharmaceutical entry into psychedelic medicine to date: Eli Lilly agreed to acquire AtaiBeckley (the atai Life Sciences / Beckley Psytech combination) for its lead 5-MeO-DMT candidate BPL-003 and DMT buccal-film candidate VLS-01.",
+   "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-acquire-ataibeckley-advance-therapies-treatment-resistant"
+  }
+ ],
+ "scheduling": [
+  {
+   "jurisdiction": "US",
+   "action": "N,N-DMT placed in Schedule I of the Controlled Substances Act",
+   "date": "1971",
+   "citation": "21 U.S.C. sec. 812, Schedule I(c); Comprehensive Drug Abuse Prevention and Control Act of 1970, Pub. L. 91-513 (effective May 1, 1971)",
+   "summary": "N,N-dimethyltryptamine (DMT) was placed in Schedule I of the federal Controlled Substances Act, enacted as Title II of the Comprehensive Drug Abuse Prevention and Control Act of 1970 and taking effect in 1971. Schedule I reflects a finding of high abuse potential, no currently accepted medical use, and lack of accepted safety under medical supervision. Because ayahuasca contains DMT, the brew's DMT content is what brings it within CSA control -- ayahuasca is not separately named in the statute.",
+   "url": "https://www.deadiversion.usdoj.gov/drug_chem_info/dmt.pdf"
+  },
+  {
+   "jurisdiction": "UN",
+   "action": "DMT listed in Schedule I of the UN Convention on Psychotropic Substances",
+   "date": "1971",
+   "citation": "Convention on Psychotropic Substances, 1971 (opened for signature 21 Feb 1971, Vienna), Schedule I",
+   "summary": "The 1971 United Nations Convention on Psychotropic Substances placed DMT in Schedule I, the treaty's most restrictive category, obligating parties to limit its use to scientific and very limited medical purposes and to closely monitor international trade. The INCB has separately noted that plant preparations such as ayahuasca are not themselves listed under the Convention, even though the DMT they contain is.",
+   "url": "https://www.unodc.org/unodc/en/commissions/CND/conventions.html"
+  },
+  {
+   "jurisdiction": "US",
+   "action": "DEA final rule: 5-MeO-DMT placed in Schedule I of the CSA",
+   "date": "2010-12-20",
+   "citation": "75 FR 79296; DEA final rule, document 2010-31854",
+   "summary": "The DEA issued a final rule placing 5-methoxy-N,N-dimethyltryptamine (5-MeO-DMT), including its salts and isomers, into Schedule I of the Controlled Substances Act, based on an HHS scheduling recommendation and DEA's own review. This followed a notice of proposed rulemaking published 2009-08-21 (74 FR 42217) with a comment period reopened 2009-10-28 (74 FR 55502). 5-MeO-DMT is the molecule now used in the GH001 and BPL-003 clinical programs.",
+   "url": "https://www.federalregister.gov/documents/2010/12/20/2010-31854/schedules-of-controlled-substances-placement-of-5-methoxy-nn-dimethyltryptamine-into-schedule-i-of"
+  },
+  {
+   "jurisdiction": "US",
+   "action": "DEA notice of proposed rulemaking to schedule 5-MeO-DMT (Schedule I)",
+   "date": "2009-08-21",
+   "citation": "74 FR 42217; DEA NPRM, document E9-20204 (comment period reopened 2009-10-28, 74 FR 55502)",
+   "summary": "DEA's notice of proposed rulemaking proposing to place 5-MeO-DMT and its salts into Schedule I of the CSA, on a recommendation from the Acting Assistant Secretary for Health (HHS). This is the proposal stage of the rulemaking finalized in 2010 (75 FR 79296).",
+   "url": "https://www.federalregister.gov/documents/2009/08/21/E9-20204/schedules-of-controlled-substances-placement-of-5-methoxy-nn-dimethyltryptamine-into-schedule-i-of"
+  },
+  {
+   "jurisdiction": "US",
+   "action": "DEA final rule: AMT and 5-MeO-DIPT placed in Schedule I (related tryptamine analogs)",
+   "date": "2004-09-29",
+   "citation": "69 FR 58050; DEA final rule, document 04-21755",
+   "summary": "DEA final rule placing alpha-methyltryptamine (AMT) and 5-methoxy-N,N-diisopropyltryptamine (5-MeO-DIPT) into Schedule I, following an emergency/temporary placement in 2003 (68 FR 4127). These are tryptamine-class hallucinogens (not DMT or 5-MeO-DMT themselves); included as context showing DEA's approach to scheduling the tryptamine family. Molecule labeled accordingly.",
+   "url": "https://www.federalregister.gov/documents/2004/09/29/04-21755/schedules-of-controlled-substances-placement-of-alpha-methyltryptamine-and",
+   "molecule_note": "AMT and 5-MeO-DIPT -- related tryptamine analogs, NOT N,N-DMT or 5-MeO-DMT"
+  }
+ ],
+ "case_law": [
+  {
+   "case_name": "Gonzales v. O Centro Espirita Beneficente Uniao do Vegetal",
+   "court": "U.S. Supreme Court",
+   "year": 2006,
+   "citation": "546 U.S. 418 (2006); 126 S. Ct. 1211 (decided Feb. 21, 2006)",
+   "holding": "Under the Religious Freedom Restoration Act (RFRA), the federal government failed to demonstrate a compelling interest in barring the UDV church's sacramental use of hoasca (ayahuasca) tea containing DMT; a unanimous Court affirmed the preliminary injunction protecting the church's religious use.",
+   "significance": "THE landmark decision. Establishes that RFRA can compel a case-by-case, sect-specific exemption from the Controlled Substances Act for sincere religious use of a Schedule I substance, rejecting the government's argument that Schedule I's uniform prohibition and treaty (1971 UN Convention) obligations were per se compelling. Every subsequent ayahuasca-church exemption case is measured against it.",
+   "molecule": "N,N-DMT (in ayahuasca / hoasca)",
+   "url": "https://www.courtlistener.com/opinion/145684/gonzales-v-o-centro-espirita-beneficente-uniao-do-vegetal/"
+  },
+  {
+   "case_name": "O Centro Espirita Beneficente Uniao do Vegetal v. Ashcroft (en banc)",
+   "court": "U.S. Court of Appeals for the Tenth Circuit (en banc)",
+   "year": 2004,
+   "citation": "389 F.3d 973 (10th Cir. 2004) (en banc)",
+   "holding": "The en banc Tenth Circuit affirmed the district court's preliminary injunction, holding the government had not shown a compelling interest under RFRA sufficient to override the UDV's sacramental ayahuasca use pending trial.",
+   "significance": "The appellate ruling the Supreme Court reviewed and affirmed. Followed a divided 2003 panel decision (342 F.3d 1170) and rehearing en banc; framed the RFRA compelling-interest/least-restrictive-means analysis the Supreme Court adopted.",
+   "molecule": "N,N-DMT (in ayahuasca / hoasca)",
+   "url": "https://www.courtlistener.com/opinion/788429/o-centro-espirita-beneficiente-uniao-do-vegetal-v-john-ashcroft/"
+  },
+  {
+   "case_name": "O Centro Espirita Beneficente Uniao do Vegetal v. Ashcroft (preliminary injunction)",
+   "court": "U.S. District Court for the District of New Mexico",
+   "year": 2002,
+   "citation": "282 F. Supp. 2d 1236 (D.N.M. 2002); No. CIV 00-1647 JP/RLP",
+   "holding": "The district court granted a preliminary injunction under RFRA barring the government from prohibiting the UDV's importation and sacramental use of hoasca, finding the government's evidence of harm and diversion in equipoise and thus insufficient to meet its compelling-interest burden.",
+   "significance": "The trial-court order that began the litigation chain, entered after a 2001 DEA/Customs seizure of a UDV hoasca shipment. Its factual findings on safety and RFRA burden-shifting carried through the entire appellate process to the Supreme Court.",
+   "molecule": "N,N-DMT (in ayahuasca / hoasca)",
+   "url": "https://www.courtlistener.com/opinion/2480162/o-centro-espirita-beneficiente-uniao-do-vegetal-v-ashcroft/"
+  },
+  {
+   "case_name": "Church of the Holy Light of the Queen v. Mukasey",
+   "court": "U.S. District Court for the District of Oregon",
+   "year": 2009,
+   "citation": "615 F. Supp. 2d 1210 (D. Or. 2009); No. CV 08-3095-PA",
+   "holding": "Applying O Centro and RFRA, the court held that Oregon Santo Daime (CEFLURIS) congregations were entitled to import and drink Daime tea (ayahuasca) for religious ceremonies, subject to reasonable DEA regulatory conditions, and entered a permanent injunction against prohibition of that use.",
+   "significance": "The first post-O Centro extension of the sacramental-ayahuasca exemption to a second church tradition (Santo Daime, distinct from the UDV). On appeal the Ninth Circuit (Church of the Holy Light of the Queen v. Holder, No. 13-35058) later modified the specific DEA-compliance conditions but left the core RFRA protection intact.",
+   "molecule": "N,N-DMT (in ayahuasca / Daime tea)",
+   "url": "https://www.courtlistener.com/opinion/2482682/church-of-the-holy-light-of-the-queen-v-mukasey/"
+  },
+  {
+   "case_name": "O Centro Espirita Beneficente Uniao do Vegetal v. Duke",
+   "court": "U.S. District Court for the District of New Mexico",
+   "year": 2018,
+   "citation": "343 F. Supp. 3d 1050 (D.N.M. 2018) (see also 286 F. Supp. 3d 1239 (D.N.M. 2017)); No. CIV 17-1137 JB/KK",
+   "holding": "Follow-on litigation in which the UDV challenged specific DEA conditions/guidance governing its now-recognized exemption; the court addressed the scope of permissible regulatory controls DEA may impose on the church's sacramental ayahuasca.",
+   "significance": "Shows that the O Centro exemption did not end the dispute -- the operational terms (import permits, inventory tracking, membership rules) DEA may attach to a RFRA exemption remained contested more than a decade after the Supreme Court ruling. Relevant to how any future church exemption is administered.",
+   "molecule": "N,N-DMT (in ayahuasca / hoasca)",
+   "url": "https://www.courtlistener.com/opinion/7332896/o-centro-espirita-beneficente-uniao-do-vegs-in-us-v-duke/"
+  },
+  {
+   "case_name": "Soul Quest Church of Mother Earth, Inc. v. Attorney General of the United States",
+   "court": "U.S. Court of Appeals for the Eleventh Circuit",
+   "year": 2023,
+   "citation": "No. 22-11072 (11th Cir. Dec. 18, 2023)",
+   "holding": "The Eleventh Circuit held that the district court lacked subject-matter jurisdiction to review the DEA's denial of Soul Quest's petition for a RFRA/CSA religious exemption to use ayahuasca; because the denial was a final CSA determination reviewable only in the court of appeals (21 U.S.C. sec. 877), and the church's constitutional and procedural claims were 'inescapably intertwined' with that decision, the suit was dismissed on jurisdictional grounds rather than on the merits.",
+   "significance": "A cautionary counterpoint to O Centro: an ayahuasca church that pursued (and was denied) DEA's administrative exemption process found the courthouse doors procedurally closed. Underscores that DEA had by this point instituted a formal exemption-petition process, and that the CSA's channeling of review into the appellate courts is a significant procedural hurdle for new churches. DEA had concluded Soul Quest failed to show a sincerely held religious exercise.",
+   "molecule": "N,N-DMT (in ayahuasca)",
+   "url": "https://law.justia.com/cases/federal/appellate-courts/ca11/22-11072/22-11072-2023-12-18.html"
+  }
+ ]
 }
