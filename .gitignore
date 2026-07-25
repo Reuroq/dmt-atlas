@@ -9,3 +9,8 @@ build/shots_v2/
 
 *.log
 fetch.log
+
+/raw/
+data/research/_raw_*.json
+data/research/*_raw.json
+data/research/raw/

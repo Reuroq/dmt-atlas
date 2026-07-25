@@ -1,0 +1,3559 @@
+{
+ "generated_utc": "PLACEHOLDER",
+ "source_notes": "Aggregated from Google Books API and Open Library Search API (no auth keys). Queries covered DMT/N,N-dimethyltryptamine, ayahuasca/yage, psychedelic tryptamines, Amazonian shamanism/ethnobotany, and entheogen studies. Records deduplicated by ISBN-13 then normalized title. 15 canonical seed works were verified and enriched by hand and marked seminal. Acronym-collision 'DMT' hits (dot-matrix, diffusion-MRI, materials science, music therapy, business/finance, etc.) were filtered out; genuinely ambiguous items are flagged uncertain_topic rather than dropped. Metadata + publisher descriptions only — no dosing, synthesis, or how-to content.",
+ "counts": {
+  "total": 246,
+  "by_decade": {
+   "unknown": 1,
+   "1910s": 1,
+   "1920s": 1,
+   "1930s": 1,
+   "1940s": 1,
+   "1950s": 1,
+   "1960s": 13,
+   "1970s": 7,
+   "1980s": 7,
+   "1990s": 27,
+   "2000s": 59,
+   "2010s": 90,
+   "2020s": 37
+  },
+  "by_type": {
+   "book": 241,
+   "monograph": 3,
+   "edited-volume": 2
+  }
+ },
+ "api_failures": [
+  "GoogleBooks: daily anonymous quota exhausted (HTTP 429 'Queries per day') — skipped entirely this run. Retry next UTC day for supplemental coverage."
+ ],
+ "records": [
+  {
+   "title": "[Yage shu]",
+   "authors": [],
+   "year": 1916,
+   "publisher": "British and Foreign Bible Society",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL19731819M"
+  },
+  {
+   "title": "Estudio sobre el principio activo del yagé",
+   "authors": [
+    "Guillermo Fischer Cardenas"
+   ],
+   "year": 1923,
+   "publisher": null,
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL43661547W"
+  },
+  {
+   "title": "Notes on yagé, a drug plant of south-eastern Colombia",
+   "authors": [
+    "C. V. Morton"
+   ],
+   "year": 1931,
+   "publisher": null,
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL43472249W"
+  },
+  {
+   "title": "Ayahuasca: mitos y leyendas del Amazonas.",
+   "authors": [
+    "Arturo Burga Freitas"
+   ],
+   "year": 1941,
+   "publisher": "publisher not identified",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL5931855W"
+  },
+  {
+   "title": "Capi, Caapi, Cabl, Cayahuasca e Yagé",
+   "authors": [
+    "A. Ducke"
+   ],
+   "year": 1957,
+   "publisher": null,
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL44424277W"
+  },
+  {
+   "title": "DMT report",
+   "authors": [
+    "Timothy Leary"
+   ],
+   "year": 1962,
+   "publisher": "[publisher not identified]",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "N,N-DMT",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL31443968W"
+  },
+  {
+   "title": "Cuatro reprensentaciones de las imagenes alucinatorias originadas por La toma del yage",
+   "authors": [
+    "Maria Rosa Mallol de Recasens"
+   ],
+   "year": 1963,
+   "publisher": "Revista Colombianade folclav.",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL44925468W"
+  },
+  {
+   "title": "Notas varias sobre nuestro ilusiogeno yage",
+   "authors": [
+    "Guillermo Abadía"
+   ],
+   "year": 1963,
+   "publisher": "Sine nomine",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL44975156W"
+  },
+  {
+   "title": "The Yage Letters",
+   "authors": [
+    "William S. Burroughs"
+   ],
+   "year": 1963,
+   "publisher": "City Lights Books",
+   "isbn13": "9780872860049",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL483562W"
+  },
+  {
+   "title": "Auf der Suche nach yage",
+   "authors": [
+    "William S. Burroughs",
+    "Allen Ginsberg",
+    "Katharina Behrens",
+    "Peter Behrens",
+    "Fitz Hugh Ludlow Memorial Library"
+   ],
+   "year": 1964,
+   "publisher": "Limes",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL43886151W"
+  },
+  {
+   "title": "麻薬書簡",
+   "authors": [
+    "William S. Burroughs",
+    "飯田隆昭",
+    "諏訪優",
+    "Allen Ginsberg",
+    "Fitz Hugh Ludlow Memorial Library"
+   ],
+   "year": 1966,
+   "publisher": "Shichōsha",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL44335460W"
+  },
+  {
+   "title": "Synthèse d'analogues, à noyau naphtyle, de la N diméthyltryptamine et de l'acide lysergique",
+   "authors": [
+    "René Gaigé"
+   ],
+   "year": 1966,
+   "publisher": null,
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "psychedelics-general",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL42163670W"
+  },
+  {
+   "title": "Le lettere dello yage",
+   "authors": [
+    "William S. Burroughs",
+    "Allen Ginsberg"
+   ],
+   "year": 1967,
+   "publisher": "Sugar Editore",
+   "isbn13": "9788845924699",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "Lungo un decennio, dal 1953 al 1963 – nel pieno della loro amicizia –, William Burroughs e Allen Ginsberg intrattengono un epistolario «lisergico» tra i più immaginifici e radicali di tutto il movimento Beat, di cui rappresenta una vera sintesi estetica e cognitiva. Ma se il contributo di Ginsberg è concentrato in sostanza in una lunga lettera-poema da Pucallpa (Perù) dove gli effetti dell'ayahuasca si traducono in una visionaria tragicità cosmologica, i molti referti di Burroughs coniugano alle visioni dell'alterazione psicofisiologica lo sguardo acuto e mimetico dell'antropologo sul campo, fino a rendere i due piani intercambiabili. Burroughs si abbandona infatti alle tante droghe cercate e provate lungo un percorso che oltre al Perù comprende anche Panama e la Colombia – dalla liana dello yoka al mitico yage, estratto di una pianta che spalanca nella mente sterminati territori…",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL31605498W"
+  },
+  {
+   "title": "Les lettres du yage",
+   "authors": [
+    "William S. Burroughs"
+   ],
+   "year": 1967,
+   "publisher": "L'Herne",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL31605388W"
+  },
+  {
+   "title": "Yage in the valley of fire",
+   "authors": [
+    "Peter G. Stafford",
+    "Julio Mario Santo Domingo Collection"
+   ],
+   "year": 1967,
+   "publisher": "Triplopedia Unlimited",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL44755072W"
+  },
+  {
+   "title": "Native use and occurence of N, N-Dimethyltryptamine in the leaves of Banisteriopsis rusbyana",
+   "authors": [
+    "Ara Harold Der Marderosian"
+   ],
+   "year": 1968,
+   "publisher": null,
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL45552513W"
+  },
+  {
+   "title": "El contexto cultural de un allucinogeno aborigen",
+   "authors": [
+    "Gerardo Reichel-Dolmatoff",
+    "Físicas y Naturales Academia Colombiana de Ciencias Exactas"
+   ],
+   "year": 1969,
+   "publisher": "Academia Colombiana de Ciencias Exactas, Fisicas y Naturales",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL43873365W"
+  },
+  {
+   "title": "Yagé y la religion de los indios Cofanes",
+   "authors": [
+    "Scott Robinson"
+   ],
+   "year": 1969,
+   "publisher": null,
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL44531209W"
+  },
+  {
+   "title": "Cartas del yage",
+   "authors": [
+    "William S. Burroughs"
+   ],
+   "year": 1971,
+   "publisher": "Producciones Editoriales",
+   "isbn13": "9788436510676",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL31605453W"
+  },
+  {
+   "title": "In the land of Yagé",
+   "authors": [
+    "Andrew T. Weil",
+    "Institute of Current World Affairs"
+   ],
+   "year": 1972,
+   "publisher": null,
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL43651291W"
+  },
+  {
+   "title": "The use of hallucinogenic substances in Peruvian Amazonian folk healing",
+   "authors": [
+    "Marlene Dobkin de Rios"
+   ],
+   "year": 1972,
+   "publisher": null,
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL42307103W"
+  },
+  {
+   "title": "Visionary vine",
+   "authors": [
+    "Marlene Dobkin De Rios"
+   ],
+   "year": 1972,
+   "publisher": "Waveland Press",
+   "isbn13": "9780881330939",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL8576526W"
+  },
+  {
+   "title": "Common themes in South American Indian yagé experiences",
+   "authors": [
+    "Michael J. Harner"
+   ],
+   "year": 1973,
+   "publisher": null,
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL43677978W"
+  },
+  {
+   "title": "The invisible landscape",
+   "authors": [
+    "Terence McKenna"
+   ],
+   "year": 1975,
+   "publisher": "HarperCollins",
+   "isbn13": "9780062506351",
+   "type": "book",
+   "topic_tag": "ethnobotany",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL3360489W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "William S. Burroughs I: Junkie / Auf der Suche nach Yage / Naked Lunch / Nova Express",
+   "authors": [
+    "William S. Burroughs"
+   ],
+   "year": 1978,
+   "publisher": "Zweitausendeins",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL34531510W"
+  },
+  {
+   "title": "Ayahuasca: etnomedicina y mitología",
+   "authors": [
+    "Plutarco Naranjo"
+   ],
+   "year": 1983,
+   "publisher": "Ediciones Libri Mundi",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL4040644W"
+  },
+  {
+   "title": "Rio Tigre and Beyond",
+   "authors": [
+    "F. Bruce Lamb"
+   ],
+   "year": 1985,
+   "publisher": "North Atlantic Books",
+   "isbn13": "9780938190615",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL3956671W"
+  },
+  {
+   "title": "História do povo Juramidam",
+   "authors": [
+    "Vera Fróes"
+   ],
+   "year": 1986,
+   "publisher": "Superintendência da Zona Franca de Manaus",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL3869833W"
+  },
+  {
+   "title": "Santo Daime, cultura amazônica",
+   "authors": [
+    "Vera Fróes"
+   ],
+   "year": 1986,
+   "publisher": "SUFRAMA",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL42688701W"
+  },
+  {
+   "title": "Vegetalismo: Shamanism Among the Mestizo Population of the Peruvian Amazon",
+   "authors": [
+    "Luis Eduardo Luna"
+   ],
+   "year": 1986,
+   "publisher": "Almqvist & Wiksell International",
+   "isbn13": "9789122008194",
+   "type": "monograph",
+   "topic_tag": "ayahuasca",
+   "description": "Luna's foundational ethnographic monograph on vegetalismo, the plant-based shamanic tradition of the mestizo population of the Peruvian Amazon, including detailed treatment of ayahuasca practice.",
+   "seminal": true,
+   "url": "https://openlibrary.org/works/OL4127495W"
+  },
+  {
+   "title": "Shamanism and art of the eastern Tukanoan Indians: Colombian northwest Amazon",
+   "authors": [
+    "Gerardo Reichel-Dolmatoff"
+   ],
+   "year": 1987,
+   "publisher": "E.J. Brill",
+   "isbn13": "9789004081109",
+   "type": "book",
+   "topic_tag": "ethnobotany",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL726468W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "A crown of yage",
+   "authors": [
+    "Tod Dillon Swanson"
+   ],
+   "year": 1989,
+   "publisher": null,
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL4417088W"
+  },
+  {
+   "title": "The four winds",
+   "authors": [
+    "Alberto Villoldo"
+   ],
+   "year": 1990,
+   "publisher": "Harper & Row",
+   "isbn13": "9780062509116",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL3508282W"
+  },
+  {
+   "title": "Ayahuasca Visions: The Religious Iconography of a Peruvian Shaman",
+   "authors": [
+    "Pablo Amaringo",
+    "Luis Luna",
+    "Luis Eduardo Luna"
+   ],
+   "year": 1991,
+   "publisher": "North Atlantic Books",
+   "isbn13": "9781556430626",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "A collaboration between anthropologist Luis Eduardo Luna and vegetalista painter Pablo Amaringo, reproducing and interpreting Amaringo's visionary ayahuasca paintings as a window into Amazonian mestizo shamanism.",
+   "seminal": true,
+   "url": "https://openlibrary.org/works/OL19698139W"
+  },
+  {
+   "title": "The Archaic Revival",
+   "authors": [
+    "Terence McKenna",
+    "Terence McKenna"
+   ],
+   "year": 1991,
+   "publisher": "Editora Record",
+   "isbn13": "9780062506139",
+   "type": "book",
+   "topic_tag": "ethnobotany",
+   "description": "In these essays, interviews, and narrative adventures, McKenna takes us on a mesmerizing journey deep into the Amazon as well as into the hidden recesses of the human psyche and the outer limits of our culture, giving us startling visions of the past and future.",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL278783W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "Food of the Gods: The Search for the Original Tree of Knowledge",
+   "authors": [
+    "Terence McKenna"
+   ],
+   "year": 1992,
+   "publisher": "Bantam Books",
+   "isbn13": "9780553371307",
+   "type": "book",
+   "topic_tag": "psychedelics-general",
+   "description": "McKenna's cultural and evolutionary history of humanity's relationship with psychoactive plants, including DMT-containing preparations and ayahuasca, advancing his 'Stoned Ape' hypothesis.",
+   "seminal": true,
+   "url": "https://openlibrary.org/works/OL3360488W"
+  },
+  {
+   "title": "Guiado pela lua",
+   "authors": [
+    "Edward John Baptista das Neves Macrae"
+   ],
+   "year": 1992,
+   "publisher": "Ediciones Abya-Yala",
+   "isbn13": "9789978044391",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL749589W"
+  },
+  {
+   "title": "Tales of a Shaman's Apprentice",
+   "authors": [
+    "Mark J. Plotkin"
+   ],
+   "year": 1993,
+   "publisher": "Peter Smith Pub Inc",
+   "isbn13": "9780140129915",
+   "type": "book",
+   "topic_tag": "ethnobotany",
+   "description": "\"Fascinating and highly readable account of an ethnobotanist's research on medicinal plants and hallucinogens among the Trio and Oyana of Suriname/Brazil and the Yanomamo of Venezuela. In view of the declining importance of shamanism and loss of plant knowledge due to rapid cultural change, author encourages research promoting the patenting of indigenous knowledge of medicinal plants, which may also serve as an important revenue source for indigenous-based cultural survival programs\"--Handbook of Latin American Studies, v. 57.",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL477418W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "True Hallucinations: Being an Account of the Author's Extraordinary Adventures in the Devil's Paradise",
+   "authors": [
+    "Terence McKenna"
+   ],
+   "year": 1993,
+   "publisher": "HarperSanFrancisco",
+   "isbn13": "9780062506528",
+   "type": "book",
+   "topic_tag": "psychedelics-general",
+   "description": "Terence McKenna's memoir of the 1971 'Experiment at La Chorrera' in the Colombian Amazon, involving psilocybin and ayahuasca and the genesis of his ideas about psychedelics, time, and reality.",
+   "seminal": true,
+   "url": null
+  },
+  {
+   "title": "Ayahuasca Analogs",
+   "authors": [
+    "Jonathan Ott"
+   ],
+   "year": 1994,
+   "publisher": "Jonathan Ott Books",
+   "isbn13": "9780961423452",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL2178440W"
+  },
+  {
+   "title": "Ayahuasca analogues",
+   "authors": [
+    "Jonathan Ott"
+   ],
+   "year": 1994,
+   "publisher": "Natural Products Co.",
+   "isbn13": "9780961423445",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL2178433W"
+  },
+  {
+   "title": "El bejuco del alma",
+   "authors": [
+    "Richard Evans Schultes"
+   ],
+   "year": 1994,
+   "publisher": "Ediciones Uniandes",
+   "isbn13": "9789589057452",
+   "type": "monograph",
+   "topic_tag": "ayahuasca",
+   "description": "\"This companion volume to Schultes' previous work is a superb collection of photos taken during 20 years of research in the Colombian Amazon. Thematically organized around the 'visionary vines' (banisteriopsis, ayahuasca), hallucinogenic plants and snuffs among native peoples, volume ranges widely over ethnobotany, shamanism, art, ritual, and natural phenomena in western Amazonia. Minimal text is accompanied by citations from other ethnographies\"--Handbook of Latin American Studies, v. 57.",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL19228758W"
+  },
+  {
+   "title": "Global Perspectives and Psychedelic Poets",
+   "authors": [
+    "Terence McKenna"
+   ],
+   "year": 1994,
+   "publisher": "Sound Horizons Audio-Video",
+   "isbn13": "9781879323261",
+   "type": "book",
+   "topic_tag": "psychedelics-general",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL8353424W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "The world is as you dream it: shamanic teachings from the Amazon and Andes",
+   "authors": [
+    "Perkins, John"
+   ],
+   "year": 1994,
+   "publisher": "Distributed by American International Distribution Corporation (AIDC)",
+   "isbn13": "9780892814596",
+   "type": "book",
+   "topic_tag": "ethnobotany",
+   "description": "Through their music, myth, herbal medicine, and the sacred ceremony of the hallucinogenic plant ayahuasca, the Shuar invite us into a dream that they have made reality--one that is nourishing and life-sustaining and in which the great privilege of being human is in embracing our role as caretakers of Mother Earth. --Publisher's description.",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL2693770W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "Dance of the four winds",
+   "authors": [
+    "Alberto Villoldo"
+   ],
+   "year": 1995,
+   "publisher": "Destiny Books",
+   "isbn13": "9780892815142",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL3508270W"
+  },
+  {
+   "title": "Santo Daime",
+   "authors": [
+    "Alicia Castilla"
+   ],
+   "year": 1995,
+   "publisher": "Imago",
+   "isbn13": "9788531204739",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL3203400W"
+  },
+  {
+   "title": "Al trasluz de la ayahuasca",
+   "authors": [
+    "J. M. Fericgla"
+   ],
+   "year": 1996,
+   "publisher": "Abya Yala",
+   "isbn13": "9789978042458",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL38943722W"
+  },
+  {
+   "title": "One River: Explorations and Discoveries in the Amazon Rain Forest",
+   "authors": [
+    "Wade Davis"
+   ],
+   "year": 1996,
+   "publisher": "Simon & Schuster",
+   "isbn13": "9780684808864",
+   "type": "book",
+   "topic_tag": "ethnobotany",
+   "description": "Ethnobotanist Wade Davis's account of Richard Evans Schultes and his students' explorations of Amazonian plants, including extensive treatment of ayahuasca and other psychoactive preparations.",
+   "seminal": true,
+   "url": null
+  },
+  {
+   "title": "Lettres du yage",
+   "authors": [
+    "William S. Burroughs"
+   ],
+   "year": 1997,
+   "publisher": "Mille et une nuits",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL39580944W"
+  },
+  {
+   "title": "TiHKAL: The Continuation",
+   "authors": [
+    "Alexander T. Shulgin",
+    "Ann Shulgin"
+   ],
+   "year": 1997,
+   "publisher": "Transform Press",
+   "isbn13": "9780963009647",
+   "type": "book",
+   "topic_tag": "psychedelics-general",
+   "description": "By Alexander Shulgin and Ann Shulgin. This is the continuation of the love story from PIHKAL: A Chemical Love Story with a blend of travel, botanical facts, scientific speculation, psychological and political commentary.",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL17788727W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "Daime",
+   "authors": [
+    "Ulrich Meyerratken"
+   ],
+   "year": 1998,
+   "publisher": "Knaur",
+   "isbn13": "9783426761656",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL12770362W"
+  },
+  {
+   "title": "Mistérios e encantos da oaska",
+   "authors": [
+    "Joaquim José de Andrade Neto"
+   ],
+   "year": 1998,
+   "publisher": "Sama Editora",
+   "isbn13": "9788586705014",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL11695767W"
+  },
+  {
+   "title": "The Cosmic Serpent: DNA and the Origins of Knowledge",
+   "authors": [
+    "Jeremy Narby"
+   ],
+   "year": 1998,
+   "publisher": "Jeremy P. Tarcher/Putnam",
+   "isbn13": "9780874779646",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "Anthropologist Jeremy Narby's controversial thesis that Amazonian shamans, through ayahuasca, access molecular-level biological information; a widely read work bridging ethnobotany and biology.",
+   "seminal": true,
+   "url": "https://openlibrary.org/works/OL2717586W"
+  },
+  {
+   "title": "Ayahuasca",
+   "authors": [
+    "Alex Mantovani",
+    "Alessio Prefumo"
+   ],
+   "year": 1999,
+   "publisher": "Thunder's Mouth Press",
+   "isbn13": "9781560251606",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL18615242W"
+  },
+  {
+   "title": "Ayahuasca: Human Consciousness and the Spirits of Nature",
+   "authors": [
+    "Ralph Metzner"
+   ],
+   "year": 1999,
+   "publisher": "Thunder's Mouth Press",
+   "isbn13": "9781560252603",
+   "type": "edited-volume",
+   "topic_tag": "ayahuasca",
+   "description": "Edited by psychologist Ralph Metzner, an anthology of scientific, experiential, and cultural essays on ayahuasca, one of the first English-language collections devoted to the brew.",
+   "seminal": true,
+   "url": null
+  },
+  {
+   "title": "Eu venho da floresta",
+   "authors": [
+    "Alberto Groisman"
+   ],
+   "year": 1999,
+   "publisher": "Editora da UFSC",
+   "isbn13": "9788532801517",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL6226941W"
+  },
+  {
+   "title": "Forest of visions",
+   "authors": [
+    "Alex Polari de Alverga"
+   ],
+   "year": 1999,
+   "publisher": "Park Street Press",
+   "isbn13": "9780892817160",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL1990455W"
+  },
+  {
+   "title": "In search of yage",
+   "authors": [
+    "William S. Burroughs"
+   ],
+   "year": 1999,
+   "publisher": "James P. Musser, Skyline Books",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL31588464W"
+  },
+  {
+   "title": "Navegando sobre as ondas do Daime",
+   "authors": [
+    "Wladimyr Sena Araújo"
+   ],
+   "year": 1999,
+   "publisher": "CMU-Publicações",
+   "isbn13": "9788526804487",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL6229004W"
+  },
+  {
+   "title": "Amazon magic",
+   "authors": [
+    "Jaya Bear"
+   ],
+   "year": 2000,
+   "publisher": "Colibri Pub.",
+   "isbn13": "9780967425504",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL542787W"
+  },
+  {
+   "title": "Ayahuasca reader",
+   "authors": [
+    "Luis Eduardo Luna",
+    "Steven F. White"
+   ],
+   "year": 2000,
+   "publisher": "Synergetic Press",
+   "isbn13": "9780907791591",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL18469595W"
+  },
+  {
+   "title": "El Santo Daime y la espiritualidad brasileña",
+   "authors": [
+    "Edward John Baptista das Neves Macrae"
+   ],
+   "year": 2000,
+   "publisher": "Abya-Yala",
+   "isbn13": "9789978045824",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL749586W"
+  },
+  {
+   "title": "Il maestro della foresta",
+   "authors": [
+    "Adriana Verlangieri"
+   ],
+   "year": 2000,
+   "publisher": "Ellin Selae",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL11896286W"
+  },
+  {
+   "title": "Le breuvage sacré des chamans d'Amazonie",
+   "authors": [
+    "Pascal Lacombe"
+   ],
+   "year": 2000,
+   "publisher": "L'Harmattan",
+   "isbn13": "9782738496072",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL13584106W"
+  },
+  {
+   "title": "Maiz y Coca-Cola",
+   "authors": [
+    "Diane Terezakis"
+   ],
+   "year": 2000,
+   "publisher": "Xlibris Corp",
+   "isbn13": "9780738817699",
+   "type": "book",
+   "topic_tag": "ethnobotany",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL9443967W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "Voces de la ayahuasca",
+   "authors": [
+    "Cayo Vásquez"
+   ],
+   "year": 2000,
+   "publisher": "Edición Independiente",
+   "isbn13": "9789972928703",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL42319486W"
+  },
+  {
+   "title": "Changes in open field behavior following brief exposures to chaos-patterned magnetic fields and the psychedelic drug 5-methoxy-n, n-dimethyltryptamine",
+   "authors": [
+    "Mary-Ann Harrison"
+   ],
+   "year": 2001,
+   "publisher": "Laurentian University, Behavioural Neuroscience Program",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "N,N-DMT",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL13222266W"
+  },
+  {
+   "title": "DMT: The Spirit Molecule",
+   "authors": [
+    "Rick Strassman MD",
+    "Arthur Morey"
+   ],
+   "year": 2001,
+   "publisher": "Park Street Press",
+   "isbn13": "9780892819270",
+   "type": "book",
+   "topic_tag": "N,N-DMT",
+   "description": "Clinical psychiatrist Rick Strassman's account of his DEA-approved 1990s human research injecting DMT into volunteers at the University of New Mexico; a landmark scientific and philosophical study of the compound's effects on consciousness.",
+   "seminal": true,
+   "url": "https://openlibrary.org/works/OL8624266W"
+  },
+  {
+   "title": "Naturaleza silvestre",
+   "authors": [
+    "Ana María Pérez"
+   ],
+   "year": 2001,
+   "publisher": "Editorial Colmillo Blanco",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL13324147W"
+  },
+  {
+   "title": "Shamans through time",
+   "authors": [
+    "Jeremy Narby",
+    "Francis Huxley"
+   ],
+   "year": 2001,
+   "publisher": "Gardners Books",
+   "isbn13": "9780500510704",
+   "type": "book",
+   "topic_tag": "ethnobotany",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL18902538W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "Ayahuasca and Shamanism",
+   "authors": [
+    "Michael Taussig",
+    "Peter Lamborn Wilson"
+   ],
+   "year": 2002,
+   "publisher": "Autonomedia",
+   "isbn13": "9781570271311",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL12197159M"
+  },
+  {
+   "title": "Comunicação e exclusão: a leitura dos xamãs",
+   "authors": [
+    "Jussara Rezende Araújo"
+   ],
+   "year": 2002,
+   "publisher": "Arte & Ciência Editora",
+   "isbn13": "9788588452107",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL13846806W"
+  },
+  {
+   "title": "El yajé como sistema emergente",
+   "authors": [
+    "Carlos A. Uribe"
+   ],
+   "year": 2002,
+   "publisher": "Centro de Estudios Socioculturales e Internacionales, Facultad de Ciencias Sociales, Universidad de los Andes",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL39311246W"
+  },
+  {
+   "title": "O lúdico e o cósmico",
+   "authors": [
+    "Alberto Groisman"
+   ],
+   "year": 2002,
+   "publisher": "Universidade Federal de Santa Catarina, Programa de Pós Graduação em Antropologia Social",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL42065530W"
+  },
+  {
+   "title": "O uso ritual da ayahuasca",
+   "authors": [
+    "Congresso sobre o Uso Ritual da Ayahuasca (1st 1997 Campinas)"
+   ],
+   "year": 2002,
+   "publisher": "Mercado de Letras",
+   "isbn13": "9788585725914",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL13595931W"
+  },
+  {
+   "title": "The Antipodes of the Mind: Charting the Phenomenology of the Ayahuasca Experience",
+   "authors": [
+    "Benny Shanon"
+   ],
+   "year": 2002,
+   "publisher": "Oxford University Press",
+   "isbn13": "9780199252923",
+   "type": "monograph",
+   "topic_tag": "ayahuasca",
+   "description": "A cognitive psychologist's systematic phenomenological survey of the ayahuasca experience, based on the author's own hundreds of sessions and a large body of informant reports; a foundational academic study of ayahuasca visions.",
+   "seminal": true,
+   "url": "https://openlibrary.org/works/OL8016740W"
+  },
+  {
+   "title": "Contos da lua branca",
+   "authors": [],
+   "year": 2003,
+   "publisher": "Sine nomine",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL24070037W"
+  },
+  {
+   "title": "Fu Yage zhuan",
+   "authors": [
+    "Cartwright, Frank Thomas"
+   ],
+   "year": 2003,
+   "publisher": "Malaixiya Jidu jiao wen li gong hui",
+   "isbn13": "9789832136415",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL23912446W"
+  },
+  {
+   "title": "I am Tsunki",
+   "authors": [
+    "Marie Perruchon"
+   ],
+   "year": 2003,
+   "publisher": "Acta Universitatis Upsaliensis",
+   "isbn13": "9789155456467",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL5787669W"
+  },
+  {
+   "title": "The green labyrinth: exploring the mysteries of the Amazon",
+   "authors": [
+    "Sylvia Fraser"
+   ],
+   "year": 2003,
+   "publisher": "Dundurn Press",
+   "isbn13": "9780887621239",
+   "type": "book",
+   "topic_tag": "ethnobotany",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL1680624W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "Wege zum Heil",
+   "authors": [
+    "Carsten Balzer"
+   ],
+   "year": 2003,
+   "publisher": "Brasilienkunde-Verlag",
+   "isbn13": "9783885590835",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL33506863W"
+  },
+  {
+   "title": "A reinvenção do uso da ayahuasca nos centros urbanos",
+   "authors": [
+    "Beatriz Caiuby Labate"
+   ],
+   "year": 2004,
+   "publisher": "Mercado de Letras",
+   "isbn13": "9788575910375",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL12283260W"
+  },
+  {
+   "title": "Heavenly highs",
+   "authors": [
+    "Peter G. Stafford"
+   ],
+   "year": 2004,
+   "publisher": "Airlift",
+   "isbn13": "9781579510695",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL868237W"
+  },
+  {
+   "title": "Pharmako/gnosis: plant teachers and the poison path",
+   "authors": [
+    "Dale Pendell"
+   ],
+   "year": 2004,
+   "publisher": "North Atlantic Books",
+   "isbn13": "9781556438899",
+   "type": "book",
+   "topic_tag": "ethnobotany",
+   "description": "\"Pharmako/Gnosis: Plant Teachers and the Poison Path focuses on plant-based and derivative psychedelic \"teachers\" (including ayahuasca, peyote, LSD, and DMT) and on the \"poison path\" of substances such as belladonna, ketamine, and ibogaine\"--Provided by publisher.",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL3528544W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "Trajetos, fronteiras e reparações",
+   "authors": [
+    "Alberto Groisman"
+   ],
+   "year": 2004,
+   "publisher": "Universidade Federal de Santa Catarina, Programa de Pós Graduação em Antropologia Social",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL42504227W"
+  },
+  {
+   "title": "Vine of the Soul",
+   "authors": [
+    "Richard Evans Schultes",
+    "Robert F. Raffauf"
+   ],
+   "year": 2004,
+   "publisher": "Synergetic Press",
+   "isbn13": "9780907791317",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "\"Professors Schultes and Raffauf, in this re-issue of their classic book, take us on a journey to a place where healing with plants is the norm, and where ritual and magic play an essential role in everyday life. This book is the story of a time that was - when the Amazon Indians, living in their verdant and expansive rainforest, had a minimum of contact with cultures of the outside world. Thus, we have a firsthand picture of traditional life in this region. In Vie of the Soul - a companion book to Where the Gods Reign - Drs. Schultes and Raffauf collaborate to produce an exceptional photographic essay accompanied by detailed descriptions of the Amazon Indian's use of medicinal and other sacred plant substances. Included are over 160 of the most significant photographs ever taken on this subject\" -- Back cover.",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL21222493W"
+  },
+  {
+   "title": "DMT, la molécule de l'esprit",
+   "authors": [
+    "Rick Strassman"
+   ],
+   "year": 2005,
+   "publisher": "Éd. Exergue",
+   "isbn13": "9782911525612",
+   "type": "book",
+   "topic_tag": "N,N-DMT",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL19843840W"
+  },
+  {
+   "title": "La clara vision. Chamanismo y ayahuasca",
+   "authors": [
+    "Manuel Cebrian"
+   ],
+   "year": 2005,
+   "publisher": "Libros en Red",
+   "isbn13": "9781597540971",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL9958075W"
+  },
+  {
+   "title": "Sacred Vine of Spirits: Ayahuasca",
+   "authors": [
+    "Ralph Metzner"
+   ],
+   "year": 2005,
+   "publisher": "Park Street Press",
+   "isbn13": "9781594770531",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL2674570W"
+  },
+  {
+   "title": "The Andean Codex",
+   "authors": [
+    "J. E. Williams"
+   ],
+   "year": 2005,
+   "publisher": "Hampton Roads Publishing Company",
+   "isbn13": "9781612830292",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL6286676W"
+  },
+  {
+   "title": "Yajé",
+   "authors": [
+    "Jimmy Weiskopf"
+   ],
+   "year": 2005,
+   "publisher": "Villegas Editores",
+   "isbn13": "9789588160856",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL9128187W"
+  },
+  {
+   "title": "Dreamflesh Vol. 1: A Journal of Ecological Crisis & Archaeologies of Consciousness",
+   "authors": [
+    "Gyrus"
+   ],
+   "year": 2006,
+   "publisher": "Dreamflesh",
+   "isbn13": "9780955419607",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "From the back cover: \"Apocalyptic dreams and racial healing... The myths that cluster around intensive breathwork... French cuisine as a holy sacrament... Egyptian death rites to heal the living... An Irish film maker initiated as an ayahuasquero in the Peruvian jungle... The impending challenge of perpetually dwindling oil supplies... Ancestral communion in theory and practice... Multi-faceted speculations on our origins in prehistory... A florid and protean collection of ideas, investigations and experiments, brought to you by the creator of *Towards 2012*.\"",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL14985630W"
+  },
+  {
+   "title": "Las Cartas de La Ayahuasca",
+   "authors": [
+    "William S. Burroughs"
+   ],
+   "year": 2006,
+   "publisher": "Anagrama",
+   "isbn13": "9788433971067",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL14960453W"
+  },
+  {
+   "title": "Shifting landscapes, selling tradition",
+   "authors": [
+    "Rosemary Latter",
+    "Nezar AlSayyad"
+   ],
+   "year": 2006,
+   "publisher": "Center for Environmental Design Research, University of California at Berkeley",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL33159044W"
+  },
+  {
+   "title": "The Amazon, Shamans, God and Ayahuasca",
+   "authors": [
+    "Patricio Fernandez-Salvador"
+   ],
+   "year": 2006,
+   "publisher": "Unknown",
+   "isbn13": "9789978450581",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL31220260W"
+  },
+  {
+   "title": "The Yage Letters Redux",
+   "authors": [
+    "William S. Burroughs"
+   ],
+   "year": 2006,
+   "publisher": "City Lights Books",
+   "isbn13": "9780872864481",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "This book is a series of correspondences between William Burroughs and Allen Ginsberg in their ongoing hunt for the elusive drug Yage. The search takes both of them deep into the South American jungles resulting in many bizarre and interesting adventures.",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL14950680W"
+  },
+  {
+   "title": "ABC do Santo Daime",
+   "authors": [
+    "Maria Betânia Barbosa Albuquerque"
+   ],
+   "year": 2007,
+   "publisher": "EDUEPA",
+   "isbn13": "9788588375185",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL16635097W"
+  },
+  {
+   "title": "Morality as practice",
+   "authors": [
+    "Titti Kristina Schmidt"
+   ],
+   "year": 2007,
+   "publisher": "Uppsala Universitet",
+   "isbn13": "9789155469399",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL35612694W"
+  },
+  {
+   "title": "Santo Daime revelado",
+   "authors": [
+    "Gideon dos Lakotas"
+   ],
+   "year": 2007,
+   "publisher": "Editora Corpo Mente",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL18797765W"
+  },
+  {
+   "title": "Tawantinsuyo 5.0",
+   "authors": [
+    "Alonso del Río"
+   ],
+   "year": 2007,
+   "publisher": "Sine nomine",
+   "isbn13": "9789972336102",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL13649784W"
+  },
+  {
+   "title": "A hallucinogenic tea, laced with controversy: ayahuasca in the Amazon and the United States",
+   "authors": [
+    "Marlene Dobkin de Rios"
+   ],
+   "year": 2008,
+   "publisher": "Praeger Publishers",
+   "isbn13": "9780313345432",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "\"One country's sacrament is another's illicit drug, as officials in South America and the United States are well aware. For centuries, a hallucinogenic tea made from a giant vine native to the Amazonian rainforest has been taken as a religious sacrament across several cultures in South America.\" \"In this book, de Rios and Rumrrill take us inside the history and realm of, as well as the raging arguments about, the substance that seems a sacrament to some and a scourge to others. Opponents fight its use, even as U.S. scientists and psychologists continue investigations of whether ayahuasca has healing properties that might be put to conventional use for physical and mental health. This book includes text from the United Nations Convention on Psychotropic Substances and interviews with shamans in the Amazon.\"--Jacket.",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL1704780W"
+  },
+  {
+   "title": "Ayahuasca religions",
+   "authors": [
+    "Beatriz Caiuby Labate"
+   ],
+   "year": 2008,
+   "publisher": "MAPS, Multidisciplinary Association for Psychedelic Studies",
+   "isbn13": "9780979862212",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL33269680W"
+  },
+  {
+   "title": "Black smoke",
+   "authors": [
+    "Margaret De Wys"
+   ],
+   "year": 2008,
+   "publisher": "Sterling",
+   "isbn13": "9781620551325",
+   "type": "book",
+   "topic_tag": "ethnobotany",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL11967468W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "Plantes et chamanisme",
+   "authors": [
+    "Jan Kounen"
+   ],
+   "year": 2008,
+   "publisher": "Mama éditions",
+   "isbn13": "9782845940208",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL31413819W"
+  },
+  {
+   "title": "Religiões ayahuasqueiras",
+   "authors": [
+    "Beatriz Caiuby Labate"
+   ],
+   "year": 2008,
+   "publisher": "FAPESP",
+   "isbn13": "9788575910887",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL18697038W"
+  },
+  {
+   "title": "The jaguar that roams the mind",
+   "authors": [
+    "Robert Tindall"
+   ],
+   "year": 2008,
+   "publisher": "Inner Traditions International, Limited",
+   "isbn13": "9781594772542",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "\"A journey into the deeper workings of indigenous healing in the Amazon\"--Provided by publisher.",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL11989044W"
+  },
+  {
+   "title": "Yage Letters",
+   "authors": [
+    "William S. Burroughs",
+    "Allen Ginsberg",
+    "Oliver Harris"
+   ],
+   "year": 2008,
+   "publisher": "Penguin Books, Limited",
+   "isbn13": "9780141903286",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL21013275W"
+  },
+  {
+   "title": "Alucinógenos y chamanismo",
+   "authors": [
+    "Luis Millones"
+   ],
+   "year": 2009,
+   "publisher": "SIDEA",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL33027882W"
+  },
+  {
+   "title": "Chamanismo andino-amazónico",
+   "authors": [
+    "Yanaanka Tasorinki"
+   ],
+   "year": 2009,
+   "publisher": "Editorial Piki",
+   "isbn13": "9786124548086",
+   "type": "book",
+   "topic_tag": "ethnobotany",
+   "description": "Este libro profundiza sobre las milenarias prácticas chamánicas andio-amazónicas del Perú, desde una perspectiva de búsqueda espiritual en el confuso mundo que hoy vivimos.",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL22403652W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "Los mil ojos de la ayahuasca",
+   "authors": [
+    "Welmer Cárdenas Díaz"
+   ],
+   "year": 2009,
+   "publisher": "Grupo Editorial Arteidea",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "Short stories.",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL22375436W"
+  },
+  {
+   "title": "Música brasileira de Ayahuasca",
+   "authors": [
+    "Beatriz Caiuby Labate"
+   ],
+   "year": 2009,
+   "publisher": "Mercado de Letras",
+   "isbn13": "9788575911259",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL23327950W"
+  },
+  {
+   "title": "Ma Yage",
+   "authors": [
+    "Zhizhen Guo"
+   ],
+   "year": 2009,
+   "publisher": "Cai tuan fa ren gong gong dian shi wen hua shi ye ji jin hui",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL32134323W"
+  },
+  {
+   "title": "Singing to the plants",
+   "authors": [
+    "Beyer, Stephan V."
+   ],
+   "year": 2009,
+   "publisher": "University of New Mexico Press",
+   "isbn13": "9780826347299",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "In the Upper Amazon, mestizos are the Spanish-speaking descendants of Hispanic colonizers and the indigenous peoples of the jungle. Some mestizos have migrated to Amazon towns and cities, such as Iquitos and Pucallpa; most remain in small villages, their houses perched on stilts on the shores of the rivers that are their primary means of travel. Here in the jungle, they have retained features of the Hispanic tradition, including a folk Catholicism and traditional Hispanic medicine. And they have incorporated much of the religious tradition of the Amazon, especially its healing, sorcery, shamanism, and the use of potent plant hallucinogens, including ayahuasca. The result is a uniquely eclectic shamanist culture that continues not only to fascinate outsiders with its brilliant visionary art but also to attract thousands of seekers each year with the promise of visionary experiences of…",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL15468476W"
+  },
+  {
+   "title": "The ayahuasca diaries",
+   "authors": [
+    "Caspar Greeff"
+   ],
+   "year": 2009,
+   "publisher": "Jacana",
+   "isbn13": "9781431406326",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL15460370W"
+  },
+  {
+   "title": "The psychedelic journey of Marlene Dobkin de Rios",
+   "authors": [
+    "Marlene Dobkin de Rios"
+   ],
+   "year": 2009,
+   "publisher": "Park Street Press",
+   "isbn13": "9781594773136",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "\"A look inside almost half a century of pioneering research in the Amazon and Peru by a noted anthropologist studying hallucinogens, including ayahuasca\"--Provided by publisher.",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL18560764W"
+  },
+  {
+   "title": "Tres cuentos amazónicos de ayahuasca y muerte",
+   "authors": [
+    "J. Luis Lovecchio"
+   ],
+   "year": 2009,
+   "publisher": "Casa de la Cultura Ecuatoriana Benjamín Carrión",
+   "isbn13": "9789978627952",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "Short stories.",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL33044564W"
+  },
+  {
+   "title": "Tryptamine palace",
+   "authors": [
+    "James Oroc"
+   ],
+   "year": 2009,
+   "publisher": "Inner Traditions International, Limited",
+   "isbn13": "9781594772993",
+   "type": "book",
+   "topic_tag": "psychedelics-general",
+   "description": "\"A journey from Burning Man to the Akashic Field that suggests how 5-MeO-DMT triggers the human capacity for higher knowledge through direct contact with the zero-point field\"--Provided by publisher.",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL13765085W"
+  },
+  {
+   "title": "Yage shu Youda shu shi yi = James & Jude",
+   "authors": [
+    "William F. Brosend"
+   ],
+   "year": 2009,
+   "publisher": "Hua dong shi fan ta xue chu ban she",
+   "isbn13": "9787561764152",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL33308024W"
+  },
+  {
+   "title": "Ayahuasca in my blood",
+   "authors": [
+    "Peter Gorman"
+   ],
+   "year": 2010,
+   "publisher": "Gorman Bench Press",
+   "isbn13": "9781452882901",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL19829485W"
+  },
+  {
+   "title": "Ayahuasca, ritual and religion in Brazil",
+   "authors": [
+    "Beatriz Caiuby Labate",
+    "Edward John Baptista das Neves Macrae"
+   ],
+   "year": 2010,
+   "publisher": "Taylor & Francis Group",
+   "isbn13": "9781134961269",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL18549351W"
+  },
+  {
+   "title": "Fishers of men: the gospel of an ayahuasca vision quest",
+   "authors": [
+    "Adam Elenbaas"
+   ],
+   "year": 2010,
+   "publisher": "Jeremy P. Tarcher",
+   "isbn13": "9781585427918",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL15118433W"
+  },
+  {
+   "title": "Opening the Portals to Heaven",
+   "authors": [
+    "Labate, Beatriz Caiuby, Pacheco, Gustavo"
+   ],
+   "year": 2010,
+   "publisher": "LIT Verlag",
+   "isbn13": "9783643108029",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL31293516W"
+  },
+  {
+   "title": "The psychotropic mind",
+   "authors": [
+    "Jeremy Narby"
+   ],
+   "year": 2010,
+   "publisher": "Park Street Press",
+   "isbn13": "9781594773129",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "\"Conversations on shamanism and mind-altering plants by filmmaker Jan Kounen, anthropologist Jeremy Narby, and writer/filmmaker Vincent Ravalec\"--Provided by publisher.",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL15611752W"
+  },
+  {
+   "title": "The religion of Ayahuasca",
+   "authors": [
+    "Alex Polari de Alverga"
+   ],
+   "year": 2010,
+   "publisher": "Park Street Press",
+   "isbn13": "9781594773983",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "\"An insider's experience and personal transformation with ayahuasca and the religious philosophy surrounding it\"--Provided by publisher.",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL16460751W"
+  },
+  {
+   "title": "Carnets de voyages intérieurs",
+   "authors": [
+    "Jan Kounen"
+   ],
+   "year": 2011,
+   "publisher": "Mama",
+   "isbn13": "9782845940482",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL16497190W"
+  },
+  {
+   "title": "Eu venho de longe",
+   "authors": [
+    "Paulo Moreira"
+   ],
+   "year": 2011,
+   "publisher": "EDUFBA",
+   "isbn13": "9788523208004",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL22652570W"
+  },
+  {
+   "title": "Manifesto Ayahuasca",
+   "authors": [
+    "Julio Rivera"
+   ],
+   "year": 2011,
+   "publisher": "Independent Publisher",
+   "isbn13": "9781450760409",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL38283887W"
+  },
+  {
+   "title": "Psychedelic shamanism",
+   "authors": [
+    "Jim DeKorne"
+   ],
+   "year": 2011,
+   "publisher": "North Atlantic Books",
+   "isbn13": "9781556439995",
+   "type": "book",
+   "topic_tag": "ethnobotany",
+   "description": "\"Psychedelic Shamanism presents a useful guide to the cultivation of psychedelic plants and their use as catalysts for exploring the structure of human consciousness and imaginal realms of reality as described by Eastern and Western spiritual traditions, modern depth psychology, and indigenous cultures throughout the world\"--Provided by publisher.",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL15414963W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "The Ayahuasca Visions of Pablo Amaringo",
+   "authors": [
+    "Howard G. Charing"
+   ],
+   "year": 2011,
+   "publisher": "Inner Traditions",
+   "isbn13": "9781594773457",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL16132532W"
+  },
+  {
+   "title": "The Internationalization of Ayahuasca",
+   "authors": [
+    "Beatriz Caiuby Labate",
+    "Henrik Jungaberle"
+   ],
+   "year": 2011,
+   "publisher": "LIT Verlag",
+   "isbn13": "9783643901484",
+   "type": "edited-volume",
+   "topic_tag": "ayahuasca",
+   "description": "A scholarly edited volume documenting the global spread of ayahuasca use beyond the Amazon, covering religious, legal, therapeutic, and anthropological dimensions of its internationalization.",
+   "seminal": true,
+   "url": "https://openlibrary.org/works/OL19083479W"
+  },
+  {
+   "title": "The shaman & ayahuasca",
+   "authors": [
+    "Don José Campos"
+   ],
+   "year": 2011,
+   "publisher": "Divine Arts",
+   "isbn13": "9781611250039",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL16298046W"
+  },
+  {
+   "title": "Ayahuasca, medicina del alma",
+   "authors": [
+    "Diego R. Viegas"
+   ],
+   "year": 2012,
+   "publisher": "Editorial Biblos",
+   "isbn13": "9789507869846",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL23200469W"
+  },
+  {
+   "title": "Consciousness and Shamanism",
+   "authors": [
+    "Dr. Pierre F. Walter"
+   ],
+   "year": 2012,
+   "publisher": "Createspace Independent Publishing Platform",
+   "isbn13": "9781470085421",
+   "type": "book",
+   "topic_tag": "ethnobotany",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL24869749W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "Imagens de cura",
+   "authors": [
+    "Marcelo S. Mercante"
+   ],
+   "year": 2012,
+   "publisher": "Editora FIOCRUZ",
+   "isbn13": "9788575414125",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL23388044W"
+  },
+  {
+   "title": "The Brotherhood of the Screaming Abyss: My Life with Terence McKenna",
+   "authors": [
+    "Dennis McKenna"
+   ],
+   "year": 2012,
+   "publisher": "Polaris Publications",
+   "isbn13": "9780875161129",
+   "type": "book",
+   "topic_tag": "psychedelics-general",
+   "description": "Ethnopharmacologist Dennis McKenna's memoir of his life and research alongside his brother Terence, including their Amazon expeditions and decades of work on ayahuasca and tryptamines.",
+   "seminal": true,
+   "url": null
+  },
+  {
+   "title": "Aya Awakenings",
+   "authors": [
+    "Rak Razam",
+    "Dennis J. McKenna"
+   ],
+   "year": 2013,
+   "publisher": "North Atlantic Books",
+   "isbn13": "9781583948163",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL21063056W"
+  },
+  {
+   "title": "Ayahuasca, de la selva su espíritu",
+   "authors": [
+    "Alfredo Iturriaga San José"
+   ],
+   "year": 2013,
+   "publisher": "Graph Ediciones",
+   "isbn13": "9786124630767",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL23164205W"
+  },
+  {
+   "title": "Ayahuasca y sakud",
+   "authors": [
+    "Beatriz Caiuby Labate",
+    "Jose Carlos Bouso"
+   ],
+   "year": 2013,
+   "publisher": "La Liebre de Marzo S.L.",
+   "isbn13": "9788492470259",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL34774025W"
+  },
+  {
+   "title": "Experiencias medicinales con el yagé",
+   "authors": [
+    "Javier Darío Restrepo"
+   ],
+   "year": 2013,
+   "publisher": "Intermedio",
+   "isbn13": "9789587572551",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL23317245W"
+  },
+  {
+   "title": "Psychotropiques",
+   "authors": [
+    "Jean-Loup Amselle"
+   ],
+   "year": 2013,
+   "publisher": "Albin Michel",
+   "isbn13": "9782226246288",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL23297667W"
+  },
+  {
+   "title": "The Therapeutic Use of Ayahuasca",
+   "authors": [
+    "Beatriz Caiuby Labate",
+    "Clancy Cavnar"
+   ],
+   "year": 2013,
+   "publisher": "Springer",
+   "isbn13": "9783662513293",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL20775899W"
+  },
+  {
+   "title": "Yage",
+   "authors": [
+    "Juan Camilo Medina Gómez"
+   ],
+   "year": 2013,
+   "publisher": "Corporación Ecosana",
+   "isbn13": "9789584622112",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL23133884W"
+  },
+  {
+   "title": "Ayahuasca medicine",
+   "authors": [
+    "Alan Shoemaker"
+   ],
+   "year": 2014,
+   "publisher": "Inner Traditions International, Limited",
+   "isbn13": "9781620551943",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "\"An insider's account of the journey to become an ayahuasquero, a shaman who heals with the visionary vine ayahuasca Details the author's training and life as a curandero using ayahuasca medicine, San Pedro cactus, tobacco purges, psychedelic mushrooms, and other visionary plants Offers first-hand accounts of miraculous healing where ayahuasca revealed the cause of the illness, including how the author healed his mother from liver cancer Shows how \"ayahuasca tourism\" symbolizes the Western world's reawakening need to connect with the universal life force For more than 20 years American-born Alan Shoemaker has apprenticed and worked with shamans in Ecuador and Peru, learning the traditional methods of ayahuasca preparation, the ceremonial rituals for its use, and how to commune with the healing spirit of this sacred plant as well as the spirit of the San Pedro cactus and other sacred…",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL19984029W"
+  },
+  {
+   "title": "Ayahuasca Sessions",
+   "authors": [
+    "Rak Razam"
+   ],
+   "year": 2014,
+   "publisher": "North Atlantic Books",
+   "isbn13": "9781583948019",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL21067508W"
+  },
+  {
+   "title": "Ayahuasca shamanism in the Amazon and beyond",
+   "authors": [
+    "Beatriz Caiuby Labate",
+    "Clancy Cavnar"
+   ],
+   "year": 2014,
+   "publisher": "Oxford University Press",
+   "isbn13": "9780199341191",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "\"This book discusses how Amerindian epistemology and ontology related to certain indigenous shamanic rituals of the Amazon spread to Western societies, and how indigenous, mestizo, and cosmopolitan cultures have dialogued with and transformed these forest traditions. The collection also focuses on how shamanic rituals have been spreading and developing in post-traditional urban contexts throughout the world. Special attention is given to ayahuasca, a psychoactive drink usually composed of two plants, the vine Banisteriopsis caapi and leaves of the Psychotria viridis bush. Ayahuasca use has spread beyond its Amazonian origin and instigated a variety of legal and cultural responses in the countries it has spread to. The chapters in this book address some of the ways these responses have influenced ritual design and performance in traditional and non-traditional contexts. The book analyzes…",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL19992616W"
+  },
+  {
+   "title": "Ayahuasca Test Pilots Handbook",
+   "authors": [
+    "Christopher Kilham"
+   ],
+   "year": 2014,
+   "publisher": "North Atlantic Books",
+   "isbn13": "9781583947913",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL21078333W"
+  },
+  {
+   "title": "Ayahuasca The Vine Of Souls",
+   "authors": [
+    "Ross Heaven"
+   ],
+   "year": 2014,
+   "publisher": "John Hunt Publishing",
+   "isbn13": "9781782792499",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL17375508W"
+  },
+  {
+   "title": "Being Infinite : An Entheogenic Odyssey into the Limitless Eternal",
+   "authors": [
+    "Martin W. Ball Ph.D."
+   ],
+   "year": 2014,
+   "publisher": "Createspace Independent Publishing Platform",
+   "isbn13": "9781500108342",
+   "type": "book",
+   "topic_tag": "psychedelics-general",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL26416701W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "DMT and the Soul of Prophecy: A New Science of Spiritual Revelation in the Hebrew Bible",
+   "authors": [
+    "Rick Strassman MD",
+    "Mel Foster"
+   ],
+   "year": 2014,
+   "publisher": "Park Street Press",
+   "isbn13": "9781594774560",
+   "type": "book",
+   "topic_tag": "N,N-DMT",
+   "description": "Strassman proposes a 'theoneurology' model linking endogenous DMT to the prophetic states described in the Hebrew Bible, extending the arguments of The Spirit Molecule into theology and philosophy.",
+   "seminal": true,
+   "url": "https://openlibrary.org/works/OL24783157W"
+  },
+  {
+   "title": "Rendezvous Mit Ayahuasca",
+   "authors": [
+    "Helga Baureis"
+   ],
+   "year": 2014,
+   "publisher": "CreateSpace Independent Publishing Platform",
+   "isbn13": "9781500833022",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL41372580W"
+  },
+  {
+   "title": "Soul tribes and tambos",
+   "authors": [
+    "John P. Davidson"
+   ],
+   "year": 2014,
+   "publisher": "HeartWorks Publishing Company",
+   "isbn13": "9780988255746",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL27959302W"
+  },
+  {
+   "title": "The ayahuasca experience",
+   "authors": [
+    "Ralph Metzner"
+   ],
+   "year": 2014,
+   "publisher": "Park Street Press",
+   "isbn13": "9781620552636",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "\"An exploration of the chemical, biological, psychological, and experiential dimensions of ayahuasca\"--",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL23322209W"
+  },
+  {
+   "title": "The interrogation of Ashala Wolf",
+   "authors": [
+    "Ambelin Kwaymullina"
+   ],
+   "year": 2014,
+   "publisher": null,
+   "isbn13": "9780763669881",
+   "type": "book",
+   "topic_tag": "N,N-DMT",
+   "description": "Taking refuge among other teens who are in hiding from a government threatened by their supernatural powers, Ashala covertly practices her abilities only to be captured and interrogated for information about the location of her friends.",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL19980911W"
+  },
+  {
+   "title": "Yage Mektuplari",
+   "authors": [
+    "Allen Ginsberg"
+   ],
+   "year": 2014,
+   "publisher": "Altikirkbes Basin Yayin",
+   "isbn13": "9786055150686",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL26171037W"
+  },
+  {
+   "title": "Arte con ayahuasca",
+   "authors": [
+    "Ronald Rivera Cachique"
+   ],
+   "year": 2015,
+   "publisher": "La Nave",
+   "isbn13": "9786124669934",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL43814001W"
+  },
+  {
+   "title": "Awakening with Ayahuasca",
+   "authors": [
+    "Karl Meyer",
+    "Alicia Benova"
+   ],
+   "year": 2015,
+   "publisher": "CreateSpace Independent Publishing Platform",
+   "isbn13": "9781519537515",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL40802248W"
+  },
+  {
+   "title": "DMT : the Truth about Dimethyltryptamine",
+   "authors": [
+    "Colin Willis"
+   ],
+   "year": 2015,
+   "publisher": "CreateSpace Independent Publishing Platform",
+   "isbn13": "9781515374329",
+   "type": "book",
+   "topic_tag": "N,N-DMT",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL41303574W"
+  },
+  {
+   "title": "Frontiers of psychedelic consciousness",
+   "authors": [
+    "David Jay Brown"
+   ],
+   "year": 2015,
+   "publisher": "Inner Traditions International, Limited",
+   "isbn13": "9781620553923",
+   "type": "book",
+   "topic_tag": "psychedelics-general",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL20016467W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "Gift of Shamanism",
+   "authors": [
+    "Itzhak Beery",
+    "Perkins, John"
+   ],
+   "year": 2015,
+   "publisher": "Inner Traditions International, Limited",
+   "isbn13": "9781620553732",
+   "type": "book",
+   "topic_tag": "ethnobotany",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL21810040W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "Great Chant of Shamanism the Path of Ayahuasca and Tobacco",
+   "authors": [
+    "Arutam Ruyman"
+   ],
+   "year": 2015,
+   "publisher": "CreateSpace Independent Publishing Platform",
+   "isbn13": "9781508888123",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL41350419W"
+  },
+  {
+   "title": "La alteridad radical que cura",
+   "authors": [
+    "Alhena Caicedo-Fernández"
+   ],
+   "year": 2015,
+   "publisher": "Universidad de los Andes, Facultad de Ciencias Sociales, Departamento de Antropología",
+   "isbn13": "9789587741711",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL32641271W"
+  },
+  {
+   "title": "Mystery School in Hyperspace: A Cultural History of DMT",
+   "authors": [
+    "Graham St John"
+   ],
+   "year": 2015,
+   "publisher": "Evolver Editions / North Atlantic Books",
+   "isbn13": "9781583949221",
+   "type": "book",
+   "topic_tag": "N,N-DMT",
+   "description": "Cultural historian Graham St John's comprehensive cultural history of DMT, tracing its scientific discovery, countercultural adoption, and role in the visionary imagination.",
+   "seminal": true,
+   "url": "https://openlibrary.org/works/OL20035400W"
+  },
+  {
+   "title": "Psychedelics : the Truth about Psychedelic Drugs",
+   "authors": [
+    "Colin Willis"
+   ],
+   "year": 2015,
+   "publisher": "CreateSpace Independent Publishing Platform",
+   "isbn13": "9781515165675",
+   "type": "book",
+   "topic_tag": "psychedelics-general",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL40301534W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "The gift of Shamanism",
+   "authors": [
+    "Itzhak Beery"
+   ],
+   "year": 2015,
+   "publisher": null,
+   "isbn13": "9781620553725",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "\"Discover the shamanic powers within each of us\"--",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL20002813W"
+  },
+  {
+   "title": "Visionary Ayahuasca",
+   "authors": [
+    "Jan Kounen"
+   ],
+   "year": 2015,
+   "publisher": "Park Street Press",
+   "isbn13": "9781620553459",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "\"A \"what to expect\" guide for first-time ayahuasca users paired with accounts from the author's extensive shamanic experiences in the Amazon Describes how to prepare for the first ceremony, what to do in the days afterward, and how to maintain a shamanic healing diet Details some of the author's own ayahuasca experiences, including a trip in 2009 when he underwent 17 ceremonies in 25 days Explores the many other plants that are part of the ayahuasca healer's medicine cabinet as well as the icaros, healing songs, of the ayahuasca shaman Since 1999 Jan Kounen has regularly traveled to the Peruvian Amazon to participate in ayahuasca ceremonies. At first only a curious filmmaker, over multiple trips he transformed from explorer to apprentice to ayahuasquero and often found himself surrounded by other foreigners coming to the jungle for their first taste of ayahuasca medicine. Knowing how…",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL23187646W"
+  },
+  {
+   "title": "Ayahuasca 2",
+   "authors": [
+    "Maude G."
+   ],
+   "year": 2016,
+   "publisher": "CreateSpace Independent Publishing Platform",
+   "isbn13": "9781541357020",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL41740973W"
+  },
+  {
+   "title": "Ayahuasca Jungle Visions",
+   "authors": [
+    "Alexander George Ward"
+   ],
+   "year": 2016,
+   "publisher": "Divine Arts",
+   "isbn13": "9781611250534",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL34310824W"
+  },
+  {
+   "title": "Ayahuasca Unveiling",
+   "authors": [
+    "A. Darwish"
+   ],
+   "year": 2016,
+   "publisher": "CreateSpace Independent Publishing Platform",
+   "isbn13": "9781535556996",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL41669825W"
+  },
+  {
+   "title": "Cosmic Serpent (eBook)",
+   "authors": [
+    "Jeremy Narby"
+   ],
+   "year": 2016,
+   "publisher": "Orion Publishing Group, Limited",
+   "isbn13": "9781474603768",
+   "type": "book",
+   "topic_tag": "ethnobotany",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL35705221W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "Empathy As the Basis of Delusion, and Yage As a Potential Treatment",
+   "authors": [
+    "Brendan Bombaci"
+   ],
+   "year": 2016,
+   "publisher": "Lulu Press, Inc.",
+   "isbn13": "9781365088667",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL36796454W"
+  },
+  {
+   "title": "Psychedelic Marine",
+   "authors": [
+    "Alex Seymour"
+   ],
+   "year": 2016,
+   "publisher": "Inner Traditions International, Limited",
+   "isbn13": "9781620555804",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL21829285W"
+  },
+  {
+   "title": "The God molecule",
+   "authors": [
+    "Gerardo Ruben Sandoval Isaac"
+   ],
+   "year": 2016,
+   "publisher": "Divine Arts",
+   "isbn13": "9781611250497",
+   "type": "book",
+   "topic_tag": "N,N-DMT",
+   "description": "\" ... A tragic and reckless yet ecstatic story about personal transformation and the life-changing properties of 5-MeO-DMT, an astounding entheogenic substance. After an initiation into the world of entheogens at the age of 13, Dr. Gerry continues his divine investigations by experiencing LSD, psilocybin mushrooms, and Salvia divinorum, while simultaneously earning a degree in medicine. When events turn dark in his life, he turns to more destructive substances, and becomes addicted to crack cocaine. But after an experience with Sonoran desert toad medicine, which contains 5-MeO-DMT, Dr. Gerry turns his life around. That such a profound gift can come from the secretions of a Sonoran desert toad is one of the great cosmic curiosities of existence. Who would have guessed that a toad might hold the key to the ultimate transformation of human life?\"--",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL19715606W"
+  },
+  {
+   "title": "The toad of dawn",
+   "authors": [
+    "Octavio Rettig Hinojosa"
+   ],
+   "year": 2016,
+   "publisher": null,
+   "isbn13": "9781611250466",
+   "type": "book",
+   "topic_tag": "N,N-DMT",
+   "description": "\"The Toad of Dawn is the dramatic story of how Dr. Octavio Rettig Hinojosa - a Mexican doctor with a crack cocaine addiction - came to heal himself by employing an ancient \"treasure\" almost forgotten for centuries ;- Bufo alvarius (the Sonoran Desert toad). Under the auspices of the United Nations Venezuela Association, Dr. Rettig has traveled extensively throughout the world and shared 5-MeO-DMT, a secretion of the Sonoran Desert toad, with over 6000 people, eliminating chemical addictions, depression, anxiety disorders, insomnia, bronchitis, and trauma. Dr. Rettig's research has convinced him that the medicine of the Sonoran toad - which, under the guidance of an experienced shaman or medicine man, can be harnessed for healing, awakening, and raising consciousness - has been known and used by high priests of the Mayan, Aztec, Olmec, and other Mesoamerican civilizations. Part…",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL20035410W"
+  },
+  {
+   "title": "World Ayahuasca Diaspora",
+   "authors": [
+    "Beatriz Caiuby Labate",
+    "Clancy Cavnar",
+    "Alex K. Gearin"
+   ],
+   "year": 2016,
+   "publisher": "Taylor & Francis Group",
+   "isbn13": "9781317011590",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL21346068W"
+  },
+  {
+   "title": "World Ayahuasca Diaspora Reinventions and Controversies",
+   "authors": [
+    "Beatriz Labate",
+    "Clancy Cavnar A."
+   ],
+   "year": 2016,
+   "publisher": "Routledge",
+   "isbn13": "9781472466631",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL21288726W"
+  },
+  {
+   "title": "Al otro lado",
+   "authors": [
+    "Andrea Carrillo Andrade"
+   ],
+   "year": 2017,
+   "publisher": "Friedrich-Ebert-Stiftung (FES-ILDIS) Ecuador",
+   "isbn13": "9789978941782",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL32516782W"
+  },
+  {
+   "title": "Ayahuasca Magic",
+   "authors": [
+    "Scott Turner"
+   ],
+   "year": 2017,
+   "publisher": "CreateSpace Independent Publishing Platform",
+   "isbn13": "9781541211612",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL40456528W"
+  },
+  {
+   "title": "Ayahuasca! (or Not)",
+   "authors": [
+    "Russell Helms"
+   ],
+   "year": 2017,
+   "publisher": "47 Journals LLC",
+   "isbn13": "9781943661305",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL34286244W"
+  },
+  {
+   "title": "Chuan yue shi guang de Saman",
+   "authors": [
+    "Jeremy Narby",
+    "Francis Huxley",
+    "Jie Yuan"
+   ],
+   "year": 2017,
+   "publisher": "She hui ke xue wen xian chu ban she",
+   "isbn13": "9787520111515",
+   "type": "book",
+   "topic_tag": "ethnobotany",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL32597617W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "DMT & My Occult Mind",
+   "authors": [
+    "Dick Khan"
+   ],
+   "year": 2017,
+   "publisher": "CreateSpace Independent Publishing Platform",
+   "isbn13": "9781537524641",
+   "type": "book",
+   "topic_tag": "N,N-DMT",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL29161267W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "La medicina de ayahuasca",
+   "authors": [
+    "Alan Shoemaker"
+   ],
+   "year": 2017,
+   "publisher": null,
+   "isbn13": "9781620555439",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "\"Durante más de 20 años, el estadounidense, Alan Shoemaker ha sido aprendiz y colaborador de chamanes en Ecuador y Perú, donde se ha familiarizado con los métodos tradicionales de preparación de la ayahuasca, los rituales ceremoniales para su uso y la forma de hacer comunión con el espíritu sanador de esa planta sagrada y del cactus de San Pedro y otros aliados similares del mundo vegetal. En la actualidad, Shoemaker es un ayahuasquero reconocido y activo en Perú. Ofrece una crónica a nivel personal de la tradición de la ayahuasca y de su utilización para expandir la conciencia y lograr la sanación mediante el acceso a otras dimensiones del ser. Shoemaker detalla su formación y su propia práctica como curandero que utiliza la medicina de ayahuasca, las purgas de tabaco, los hongos sicodélicos y otras plantas visionarias. Describe las distintas tradiciones de sus dos maestros y mentores…",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL20054102W"
+  },
+  {
+   "title": "Las visiones y los mundos",
+   "authors": [
+    "Pedro Favaron"
+   ],
+   "year": 2017,
+   "publisher": "Universidad Nacional de Ucayali",
+   "isbn13": "9789972608315",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL32638999W"
+  },
+  {
+   "title": "Listening to Ayahuasca",
+   "authors": [
+    "Rachel Harris"
+   ],
+   "year": 2017,
+   "publisher": null,
+   "isbn13": "9781608684021",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "\"When National Geographic Adventure published an article in 2006 about the powerful antidepressant effects of ayahuasca, the piece received a phenomenal reader response. That article struck a chord with psychotherapist Rachel Harris, who had encountered many clients unresponsive to traditional therapy and antidepressant protocols. Used for more than 8,000 years in the Amazon rainforest, ayahuasca is a powerful - and illegal - psychedelic that has distressing gastrointestinal side effects. Yet Harris found many willing to try it, so deep was their suffering. Harris here shares her original research (the largest study of ayahuasca use in North America) into its effects on depression, anxiety, and PTSD, along with her own personal experiences. By detailing ayahuasca's risks and benefits, she aims to help those driven to investigate ayahuasca to do so safely and to give their psychological…",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL20048602W"
+  },
+  {
+   "title": "Psychedelic medicine",
+   "authors": [
+    "Richard Louis Miller"
+   ],
+   "year": 2017,
+   "publisher": "Inner Traditions International, Limited",
+   "isbn13": "9781620556979",
+   "type": "book",
+   "topic_tag": "psychedelics-general",
+   "description": "\"Explores the potential of psychedelics as medicine and the intersections of politics, science, and psychedelics\"--",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL19723710W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "The accidental shaman",
+   "authors": [
+    "Howard G. Charing"
+   ],
+   "year": 2017,
+   "publisher": "Inner Traditions International, Limited",
+   "isbn13": "9781620556108",
+   "type": "book",
+   "topic_tag": "ethnobotany",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL19710992W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "The Ayahuasca Test Pilot's Handbook",
+   "authors": [
+    "Chris Kilham"
+   ],
+   "year": 2017,
+   "publisher": "ReadHowYouWant",
+   "isbn13": "9781525243738",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL24405552W"
+  },
+  {
+   "title": "All the Yage in Reno",
+   "authors": [
+    "Robert Rahula"
+   ],
+   "year": 2018,
+   "publisher": "Alma-Gator",
+   "isbn13": "9780999473658",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL20589779W"
+  },
+  {
+   "title": "Şamanizm, Tasavvuf ve Ayahuasca",
+   "authors": [
+    "Yusuf Reha Alp"
+   ],
+   "year": 2018,
+   "publisher": "Altıkırkbeş Yayınları",
+   "isbn13": "9786052242032",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL26159888W"
+  },
+  {
+   "title": "Ayahuasca Teachings",
+   "authors": [
+    "Niko Chiesa"
+   ],
+   "year": 2018,
+   "publisher": "Independently Published",
+   "isbn13": "9781731011909",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL29847287W"
+  },
+  {
+   "title": "Ayahuasca Yag",
+   "authors": [
+    "Ts"
+   ],
+   "year": 2018,
+   "publisher": "Independently Published",
+   "isbn13": "9781718117303",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL29765671W"
+  },
+  {
+   "title": "DMT Dialogues",
+   "authors": [
+    "David Luke",
+    "Rory Spowers",
+    "Anton Bilton"
+   ],
+   "year": 2018,
+   "publisher": "Park Street Press",
+   "isbn13": "9781620557471",
+   "type": "book",
+   "topic_tag": "N,N-DMT",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL20574703W"
+  },
+  {
+   "title": "El laberinto de la ayahuasca",
+   "authors": [
+    "Manuel Almendro Almendro"
+   ],
+   "year": 2018,
+   "publisher": "KAIRÓS",
+   "isbn13": "9788499886312",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL34820523W"
+  },
+  {
+   "title": "Expanding World Ayahuasca Diaspora",
+   "authors": [
+    "Beatriz Caiuby Labate",
+    "Clancy Cavnar"
+   ],
+   "year": 2018,
+   "publisher": "Taylor & Francis Group",
+   "isbn13": "9781315227955",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL21320890W"
+  },
+  {
+   "title": "Oven",
+   "authors": [
+    "Ilan Stavans"
+   ],
+   "year": 2018,
+   "publisher": "University of Massachusetts Press",
+   "isbn13": "9781625343581",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "\"After a chance meeting with a shaman in Colombia, Ilan Stavans, the highly regarded literary scholar, found himself in the Amazon rainforest. He had reluctantly agreed to participate in a religious ceremony that involved taking the hallucinogen ayahuasca. Even though he considered himself a skeptic and a rational intellectual, as someone whose worldview was defined by his education and his heritage as a Mexican Jew, Stavans found that the ritual pushed him to reconsider many of his basic understandings, including his perceptions of indigenous cultures in Latin America, as well as his career as teacher, thinker, and artist. This one-act play is delivered in the form of a lecture that mimics the author's startling spiritual journey. The book includes twenty-five bold images, in color and black and white, which capture the author's performance of the play: --",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL25745655W"
+  },
+  {
+   "title": "Sh*t the Moon Said: A Story of Sex, Drugs, and Ayahuasca",
+   "authors": [
+    "Gerard Powell"
+   ],
+   "year": 2018,
+   "publisher": "Health Communications Inc",
+   "isbn13": "9780757320965",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "\"It was during my eighth or ninth plant medicine journey that I was finally getting a real sense of freedom. I was feeling so elated that I told the moon I had a special request. I explained that this life had been so full of pain for me that I didn't think I could do it all again. So I asked her if in my next life she could make sure that I found the plant medicine as soon as possible. Her reply floored me. She typed, ***‘Gerry, that's a request about next time, but it's the same one you used last time.'\"*** Plant medicine? The moon typing? It probably seems incomprehensible. Gerard Armond Powell was a rags-to-riches success story—a member of the 1 percent—but also an extremely unhappy person with multiple addictions. On a fast track to destroying every relationship that ever mattered to him and considering suicide, he was looking for a miracle, a way out. He found it in the form of…",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL20191183W"
+  },
+  {
+   "title": "The Healing Power Of Ayahuasca",
+   "authors": [
+    "Marc McLean"
+   ],
+   "year": 2018,
+   "publisher": "Marc McLean",
+   "isbn13": "9781527228849",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL34570136W"
+  },
+  {
+   "title": "Alien Information Theory: Psychedelic Drug Technologies and the Cosmic Game",
+   "authors": [
+    "Andrew R. Gallimore"
+   ],
+   "year": 2019,
+   "publisher": "Strange Worlds Press",
+   "isbn13": "9781916142503",
+   "type": "book",
+   "topic_tag": "N,N-DMT",
+   "description": "Neurobiologist Andrew Gallimore's synthesis of DMT pharmacology, information theory, and cosmology, exploring the hypothesis that DMT provides access to a genuine alternate reality.",
+   "seminal": true,
+   "url": null
+  },
+  {
+   "title": "Ayahuasca - 3rd Edition",
+   "authors": [
+    "Javier Regueiro"
+   ],
+   "year": 2019,
+   "publisher": "Krieger Publishing Group",
+   "isbn13": "9781950367023",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL28054837W"
+  },
+  {
+   "title": "Ayahuasca : 5 Books in 1",
+   "authors": [
+    "Naomi Harper"
+   ],
+   "year": 2019,
+   "publisher": "Independently Published",
+   "isbn13": "9781955617437",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL24840039W"
+  },
+  {
+   "title": "Ayahuasca Dialogues",
+   "authors": [
+    "Brian Francis Culkin",
+    "Ricardo Amaringo"
+   ],
+   "year": 2019,
+   "publisher": "Independently Published",
+   "isbn13": "9781097792436",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL29869859W"
+  },
+  {
+   "title": "Ayahuasca For Beginners",
+   "authors": [
+    "Naomi Harper"
+   ],
+   "year": 2019,
+   "publisher": "Kyle Andrew Robertson",
+   "isbn13": "9781955617475",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL25306202W"
+  },
+  {
+   "title": "Ayahuasca Guidebook",
+   "authors": [
+    "Sharon C Davis"
+   ],
+   "year": 2019,
+   "publisher": "Lulu Press, Inc.",
+   "isbn13": "9780359278138",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL29043888W"
+  },
+  {
+   "title": "DMT and My Occult Mind II",
+   "authors": [
+    "Dick Khan"
+   ],
+   "year": 2019,
+   "publisher": "Independently Published",
+   "isbn13": "9781072945581",
+   "type": "book",
+   "topic_tag": "N,N-DMT",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL35744578W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "DMT and My Occult Mind - LITE",
+   "authors": [
+    "Dick Khan"
+   ],
+   "year": 2019,
+   "publisher": "Independently Published",
+   "isbn13": "9781695399082",
+   "type": "book",
+   "topic_tag": "N,N-DMT",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL30360325W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "Shamans and Healers",
+   "authors": [
+    "Andrew Osta",
+    "Andrew Osta"
+   ],
+   "year": 2019,
+   "publisher": "Independently Published",
+   "isbn13": "9781078223096",
+   "type": "book",
+   "topic_tag": "ethnobotany",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL21881144W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "The Beginners Introductory Guide To DMT - Psychedelics And The Dimethyltryptamine Molecule",
+   "authors": [
+    "Alex Gibbons"
+   ],
+   "year": 2019,
+   "publisher": "Alex Gibbons",
+   "isbn13": "9781925992342",
+   "type": "book",
+   "topic_tag": "N,N-DMT",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL27279018W"
+  },
+  {
+   "title": "Yagé",
+   "authors": [
+    "John Wilmer Rodríguez M."
+   ],
+   "year": 2019,
+   "publisher": "Independently Published",
+   "isbn13": "9781798287200",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL30147430W"
+  },
+  {
+   "title": "Yo soy ayahuasca",
+   "authors": [
+    "Jorge González Ramírez",
+    "Leonidas Cevallos Mesones"
+   ],
+   "year": 2019,
+   "publisher": "Biblioteca Abraham Valdelomar",
+   "isbn13": "9786124761935",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "-Este es el lugar, este es el árbol, acá vivirás -Acá? -pregunté. Acá, -No, en la cima-respondió Tocsi. En la cima? Y cómo voy a subir? -Espérese, ya verá. Y entonces vi cómo subían con destreza increíble hasta llegar casi a la cima. Como nzaron a cortar palos reunir hojas de palmera, y a confeccionar con bejucos manera de sogas una especie de más o menos metro y medio de ancho por dos metros de largo, tamaño que pudiera instalarme sentado echado. Cubrieron ese camastro con hojas suaves, y colocaron otras que parecían gamuza. Sobre él, con hojàs de palmera hicieron una especie de techito de dos aguas germe de la lluvia. Haciendo una señal, el maestro que me iba a dirigir algo a Tocsi, y este me comunicó: -¡Ya está listo! El maestro quiere que suba y se siente en el lugar que él le indique. - Jorge González. Yo soy Ayahuasca --",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL45462576W"
+  },
+  {
+   "title": "Ayahuasca Chronicles",
+   "authors": [
+    "Fearghal O'Laigh"
+   ],
+   "year": 2020,
+   "publisher": "Book Guild Publishing, Limited",
+   "isbn13": "9781913551032",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL26520936W"
+  },
+  {
+   "title": "Ayahuasca Wisdom",
+   "authors": [
+    "Jules Henry Rivers"
+   ],
+   "year": 2020,
+   "publisher": "Quantum Books",
+   "isbn13": "9781735729305",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL26625270W"
+  },
+  {
+   "title": "Kos ha-teh shelah",
+   "authors": [
+    "Orna Oryan"
+   ],
+   "year": 2020,
+   "publisher": "Pardes",
+   "isbn13": "9781618385581",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL32335807W"
+  },
+  {
+   "title": "Sciamanesimo peruviano",
+   "authors": [
+    "Costanzo Allione",
+    "Montes, Francisco Shuna"
+   ],
+   "year": 2020,
+   "publisher": "Libraria Editrice Psiche",
+   "isbn13": "9788896093887",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL44376191W"
+  },
+  {
+   "title": "Ayahuasca and the Psychedelic Virgin",
+   "authors": [
+    "Guy Masters"
+   ],
+   "year": 2021,
+   "publisher": "Psychedelic Publishing LLC",
+   "isbn13": "9781737722366",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL25956693W"
+  },
+  {
+   "title": "Ayahuasca Healing and Science",
+   "authors": [
+    "Beatriz Caiuby Labate",
+    "Clancy Cavnar"
+   ],
+   "year": 2021,
+   "publisher": "Springer International Publishing AG",
+   "isbn13": "9783030556877",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL27402771W"
+  },
+  {
+   "title": "Cenizas Del Ayahuasca",
+   "authors": [
+    "Emeterio Valdivia Salazar",
+    "Flor de Fatima Valdivia Vilcahuaman",
+    "Lee Esperit Fort"
+   ],
+   "year": 2021,
+   "publisher": "Independently Published",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL26105220W"
+  },
+  {
+   "title": "Der Sohn des Schamanen",
+   "authors": [
+    "Thomas Fischermann",
+    "Dzuliferi Huhuteni"
+   ],
+   "year": 2021,
+   "publisher": "Wilhelm Heyne Verlag",
+   "isbn13": "9783453218239",
+   "type": "book",
+   "topic_tag": "ethnobotany",
+   "description": "Auf einer Expedition durch den Amazonaswald hat Thomas Fischermann den Schamanenlehrling Dzuliferi Huhuteni kennengelernt. Der Sohn eines der letzten Jaguarschamanen will das Erbe seiner geheimnisvollen Kultur antreten. Seit Jahrhunderten sind die Huhuteni für ihre unerklärlichen Heilungen schwerer Krankheiten bekannt, doch es heißt auch, dass sie nur durch Gedankenkraft ihre Feinde töten können. Dzuliferi erzählt in diesem Buch seine Geschichte und die seines Volkes, aber auch von der vorrückenden Moderne, bewaffneten Goldgräbern, Holzfällern und Drogenschmugglern, die zunehmend in diesem Teil des Waldes gesichtet werden. Die außergewöhnliche Stimme des Schamanenlehrlings gewährt erstmals tiefe Einblicke in eine ursprüngliche Welt voller Magie und altem Wissen – die so bedroht ist, dass es sie vielleicht schon bald nicht mehr gibt.",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL27053729W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "Dmt",
+   "authors": [
+    "Psychedelic Academy"
+   ],
+   "year": 2021,
+   "publisher": "Marco Munera",
+   "isbn13": "9781803609225",
+   "type": "book",
+   "topic_tag": "N,N-DMT",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL41895563W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "DMT Entity Encounters",
+   "authors": [
+    "David Luke",
+    "Rory Spowers"
+   ],
+   "year": 2021,
+   "publisher": "Inner Traditions International, Limited",
+   "isbn13": "9781644112335",
+   "type": "book",
+   "topic_tag": "N,N-DMT",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL25910352W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "Escapando Del Ayahuasca",
+   "authors": [
+    "Emeterio Valdivia Salazar",
+    "Flor de Fatima Valdivia Vilcahuaman",
+    "Lee Esperit fort"
+   ],
+   "year": 2021,
+   "publisher": "Independently Published",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL26676733W"
+  },
+  {
+   "title": "Grandmother Ayahuasca",
+   "authors": [
+    "Christian Funder"
+   ],
+   "year": 2021,
+   "publisher": "Inner Traditions International, Limited",
+   "isbn13": "9781644112366",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL25457703W"
+  },
+  {
+   "title": "Mediunidade e Ayahuasca",
+   "authors": [
+    "Vinicius Padilha Carr"
+   ],
+   "year": 2021,
+   "publisher": "Telha",
+   "isbn13": "9786589880219",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL32123886W"
+  },
+  {
+   "title": "Ayahuasca Anchor",
+   "authors": [
+    "Eleanora Duvivier"
+   ],
+   "year": 2022,
+   "publisher": "Pufferprint",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL36482251W"
+  },
+  {
+   "title": "Ayahuasca e DMT",
+   "authors": [
+    "Robert Maxwell"
+   ],
+   "year": 2022,
+   "publisher": "Independently Published",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL34146101W"
+  },
+  {
+   "title": "Ayahuasca Shaman Plant Medicine of Peru Brazil Rainforest",
+   "authors": [
+    "Matthew Lattier"
+   ],
+   "year": 2022,
+   "publisher": "Independently Published",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL27941037W"
+  },
+  {
+   "title": "Kambo Iboga Ayahuasca",
+   "authors": [
+    "Giovanni Lattanzi"
+   ],
+   "year": 2022,
+   "publisher": "Independently Published",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL27554212W"
+  },
+  {
+   "title": "Light of Ayahuasca",
+   "authors": [
+    "Annelise Schinzinger"
+   ],
+   "year": 2022,
+   "publisher": "Noble Books",
+   "isbn13": "9781732596221",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL28851429W"
+  },
+  {
+   "title": "Liquid Light - Ayahuasca Spirituality and the Santo Daime Tradition",
+   "authors": [
+    "G. William Barnard"
+   ],
+   "year": 2022,
+   "publisher": "Columbia University Press",
+   "isbn13": "9780231186612",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL26346389W"
+  },
+  {
+   "title": "On the Dark Side of Ayahuasca",
+   "authors": [
+    "Alison J. D. Adams"
+   ],
+   "year": 2022,
+   "publisher": "SilverWood Books",
+   "isbn13": "9781800422100",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL31161247W"
+  },
+  {
+   "title": "Psychedelic Handbook",
+   "authors": [
+    "Rick Strassman"
+   ],
+   "year": 2022,
+   "publisher": "Ulysses Press",
+   "isbn13": "9781646043811",
+   "type": "book",
+   "topic_tag": "psychedelics-general",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL26663577W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "Secrets of a Shaman",
+   "authors": [
+    "Jorge Hachumak",
+    "David Carroll"
+   ],
+   "year": 2022,
+   "publisher": "HarperCollins Publishers",
+   "isbn13": "9780063014923",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL25318076W"
+  },
+  {
+   "title": "Understanding and Extracting Dimethyltryptamine",
+   "authors": [
+    "Rylan Von"
+   ],
+   "year": 2022,
+   "publisher": "Independently Published",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "N,N-DMT",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL34432147W"
+  },
+  {
+   "title": "Alchemical Ayahuasca",
+   "authors": [
+    "alan waugh",
+    "dianna jerrybandhan"
+   ],
+   "year": 2023,
+   "publisher": "Sacred Valley Spiritual Retreat",
+   "isbn13": "9781962213011",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL36496622W"
+  },
+  {
+   "title": "Ayahuasca Apocalypse",
+   "authors": [
+    "Angelica Scaletta"
+   ],
+   "year": 2023,
+   "publisher": "Top Edge Press",
+   "isbn13": "9780954549589",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL37873528W"
+  },
+  {
+   "title": "Ayahuasca As Liquid Divinity",
+   "authors": [
+    "André van der Braak"
+   ],
+   "year": 2023,
+   "publisher": "Lexington Books/Fortress Academic",
+   "isbn13": "9781666906455",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL35715240W"
+  },
+  {
+   "title": "Ayahuasca Unveiled",
+   "authors": [
+    "Jules Rivers"
+   ],
+   "year": 2023,
+   "publisher": "Quantum Books",
+   "isbn13": "9781735729329",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL36718513W"
+  },
+  {
+   "title": "Encyclopedia of Ayahuasca and Amazonian Shamanism",
+   "authors": [
+    "Pavel Dmitriyev"
+   ],
+   "year": 2023,
+   "publisher": "Alligator Consult",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL36851072W"
+  },
+  {
+   "title": "Labyrinth of Ayahuasca",
+   "authors": [
+    "Manuel Almendro"
+   ],
+   "year": 2023,
+   "publisher": "Cambridge Scholars Publishing",
+   "isbn13": "9781527505001",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL35722204W"
+  },
+  {
+   "title": "Religious Freedom and the Global Regulation of Ayahuasca",
+   "authors": [
+    "Beatriz Caiuby Labate",
+    "Clancy Cavnar"
+   ],
+   "year": 2023,
+   "publisher": "Taylor & Francis Group",
+   "isbn13": "9780429670046",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL29189467W"
+  },
+  {
+   "title": "Ayahuasca, Opening to the Mysteries",
+   "authors": [
+    "Annelise Schinzinger",
+    "Dennis McKenna"
+   ],
+   "year": 2024,
+   "publisher": "Noble Editions",
+   "isbn13": "9781732596238",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL38375629W"
+  },
+  {
+   "title": "Global Ayahuasca",
+   "authors": [
+    "Alex K. Gearin"
+   ],
+   "year": 2024,
+   "publisher": "Stanford University Press",
+   "isbn13": "9781503639836",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL37568928W"
+  },
+  {
+   "title": "Shamanic Herbal",
+   "authors": [
+    "Matthew Wood"
+   ],
+   "year": 2024,
+   "publisher": "Inner Traditions International, Limited",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ethnobotany",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL37834645W",
+   "uncertain_topic": true
+  },
+  {
+   "title": "Abuela Ayahuasca",
+   "authors": [
+    "Christian Funder"
+   ],
+   "year": 2025,
+   "publisher": "Inner Traditions International, Limited",
+   "isbn13": null,
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL42398780W"
+  },
+  {
+   "title": "Ayahuasca Is",
+   "authors": [
+    "Eleonora Duvivier"
+   ],
+   "year": 2025,
+   "publisher": "Olympia Publishers",
+   "isbn13": "9781835430620",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL43499286W"
+  },
+  {
+   "title": "Ayahuasca Manifesto",
+   "authors": [
+    "Julio Rivera"
+   ],
+   "year": 2025,
+   "publisher": "Quantum Books",
+   "isbn13": "9781735729381",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL42459731W"
+  },
+  {
+   "title": "Death by Astonishment: Confronting the Mystery of the World's Strangest Drug",
+   "authors": [
+    "Andrew R. Gallimore"
+   ],
+   "year": 2025,
+   "publisher": "St. Martin's Press",
+   "isbn13": "9781250325228",
+   "type": "book",
+   "topic_tag": "N,N-DMT",
+   "description": "Gallimore's narrative history and scientific examination of DMT, taking its title from Terence McKenna's phrase and confronting the compound's uniquely bewildering phenomenology.",
+   "seminal": true,
+   "url": null
+  },
+  {
+   "title": "Relatos del Santo Daime",
+   "authors": [],
+   "year": null,
+   "publisher": "Manuscritos",
+   "isbn13": "9788495679581",
+   "type": "book",
+   "topic_tag": "ayahuasca",
+   "description": "",
+   "seminal": false,
+   "url": "https://openlibrary.org/works/OL35040955W"
+  }
+ ]
+}

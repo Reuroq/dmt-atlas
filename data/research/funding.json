@@ -1,0 +1,744 @@
+{
+ "generated_utc": "PLACEHOLDER",
+ "source_notes": "Public research-grant metadata for DMT (N,N-dimethyltryptamine) and ayahuasca science, aggregated for dmtatlas.com. Sources: NIH RePORTER API v2 (US federal, POST full-text search over projecttitle/abstracttext/terms), UKRI Gateway to Research (UK). Queries used at NIH: 'dimethyltryptamine', 'ayahuasca', and targeted AND-combos 'DMT psychedelic', 'DMT hallucinogen', 'DMT tryptamine', plus 'banisteriopsis', 'harmaline harmine'. The bare 'DMT'/'N,N-DMT'/'5-MeO-DMT' acronym searches were DELIBERATELY NOT used alone: they collide catastrophically at NIH (N,N-DMT matched 218,947 records; 5-MeO-DMT matched 461,543 -- diffusion MRI tensor, dendritic, etc.) and were auto-aborted by a 1,500-hit collision cap. DEDUP/AGGREGATION: NIH awards recur yearly (one appl_id per fiscal-year action); rows were deduped by appl_id, then COLLAPSED to the core project (core_project_num) with award_amount SUMMED across all fiscal years = total lifetime funding. amount_usd therefore reflects cumulative award per project; fiscal_year is the FIRST funded year and fiscal_year_range spans the project. total_funding_usd is the sum over collapsed projects (no year double-counted). FILTER: each project must carry a genuine dimethyltryptamine/ayahuasca/psychedelic/hallucinogen signal in title+abstract+terms; projects with only a moderate psychedelic-adjacent signal or where an ayahuasca alkaloid (harmine/harmaline) appears only as background to non-psychedelic research (diabetes, essential-tremor modeling) are tagged uncertain_topic=true. GtR amounts converted GBP->USD at 1.27 for the aggregate; amount_original preserves the GBP figure. NSF Awards API returned zero matches for 'ayahuasca'/'dimethyltryptamine' and is omitted.",
+ "counts": {
+  "total_grants": 37,
+  "nih_grants": 34,
+  "ukri_grants": 3,
+  "uncertain_topic_flagged": 4,
+  "by_funder": {
+   "NIH/NIDA": 22,
+   "NIH/NIMH": 4,
+   "NIH/NCCIH": 2,
+   "NIH/NIAAA": 2,
+   "NIH/NINDS": 2,
+   "NIH/NCRR": 1,
+   "AHRC": 1,
+   "BBSRC": 1,
+   "ESRC": 1,
+   "NIH/NIDDK": 1
+  },
+  "by_institution_top15": {
+   "UNIVERSITY OF CALIFORNIA, SAN DIEGO": 3,
+   "UNIVERSITY OF NEW MEXICO": 3,
+   "STATE UNIVERSITY OF NEW YORK AT BUFFALO": 3,
+   "JOHNS HOPKINS UNIVERSITY": 2,
+   "NATIONAL INSTITUTE ON DRUG ABUSE": 2,
+   "UNIVERSITY COLLEGE LONDON": 2,
+   "UNIVERSITY OF CALIFORNIA AT DAVIS": 2,
+   "ICAHN SCHOOL OF MEDICINE AT MOUNT SINAI": 2,
+   "ALLEGHENY UNIVERSITY OF HEALTH SCIENCES": 1,
+   "NEW YORK UNIVERSITY": 1,
+   "VANDERBILT UNIVERSITY": 1,
+   "UNIVERSITY OF NEW ENGLAND": 1,
+   "RESEARCH TRIANGLE INSTITUTE": 1,
+   "ORGANIX, INC.": 1,
+   "WEILL MEDICAL COLL OF CORNELL UNIV": 1
+  },
+  "by_fiscal_year": {
+   "1985": 3,
+   "1988": 1,
+   "1990": 1,
+   "1991": 1,
+   "1993": 2,
+   "1997": 1,
+   "2001": 1,
+   "2002": 1,
+   "2007": 4,
+   "2008": 1,
+   "2009": 2,
+   "2012": 1,
+   "2013": 1,
+   "2015": 1,
+   "2020": 1,
+   "2021": 1,
+   "2022": 5,
+   "2023": 1,
+   "2024": 3,
+   "2025": 4,
+   "2026": 1
+  },
+  "nih_unique_appl_ids_before_collapse": 114,
+  "nih_projects_dropped_no_signal": 0,
+  "acronym_collisions_aborted": {
+   "nih_5-MeO-DMT": 461543
+  }
+ },
+ "total_funding_usd": 27157615,
+ "records": [
+  {
+   "project_title": "Monoamine and Hallucinogen Effects on Rodent Behavior",
+   "pi_names": [
+    "Mark A Geyer"
+   ],
+   "institution": "UNIVERSITY OF CALIFORNIA, SAN DIEGO",
+   "funder": "NIH/NIDA",
+   "award_id": "R01DA002925",
+   "fiscal_year": 1985,
+   "fiscal_year_range": "1985-2015",
+   "n_fiscal_years": 13,
+   "amount_usd": 3287020,
+   "abstract": "DESCRIPTION (provided by applicant): This competitive renewal application seeks continued support for a long-standing and very productive project that uses rodent models to elucidate mechanisms underlying the behavioral effects of synthetic hallucinogenic drugs of abuse, including LSD and substituted amphetamines, and hallucinogenic natural products used in recreational, ritual, or religious contexts, including psilocybin mushrooms (psilocin), peyote cactus (mescaline), and Ayahuasca tea (DMT, 5MeODMT). Based on the profound effects of hallucinogens on responses to sensory and emotional stimuli in humans, hallucinogenic drug effects in rats and mice are assessed using two complementary behavioral paradigms that have direct counterparts in the study of human behavior. These translational paradigms are prepulse inhibition of the startle response, an operational measure of sensorimotor gating that is deficient in some psychiatric disorders, and rat and mouse Behavioral Pattern Monitors that provide a multivariate profile of exploratory and locomotor responses matching that used to assess psychiatric patients and psychostimulant abusers in the human Behavioral Pattern Monitor. These computerized systems assess activity, exploration, and behavioral organization - three major aspects of mammalian behavior in a novel environment. In addition, the hallucinogen-induced head-twitch response in rodents is used for specific questions. Selected drug studies are complemented by studies of mutant mice having specific deficits in serotonin or glutamate receptor subtypes. This combination of pharmacological and genetic manipulations provides converging approaches to hypothesis testing. The project has 3 specific aims. Aim 1 is to characterize and identify the mechanism by which synthetic equivalents of Ayahuasca tea (\"Pharmahuasca\") alter exploratory behavior in rats. Aim 2 tests specific hypotheses regarding the different serotonin receptor subtypes that mediate the behavioral effects of phenylalkylamine and indoleamine hallucinogens in mice. Given the important species differences in the effects of many serotonergic and dopaminergic drugs, these results will be compared with previous data from rats to better understand the relevance of the animal models to drug effects in humans. In light of the recent resumption of human studies with hallucinogens, and reports indicating that hallucinogens may possess clinical efficacy, a more complete understanding of the action of these drugs is urgently needed. Aim 3 is to test the hypothesis that metabotropic glutamatergic mGlu2/3 and mGlu5 receptors modulate the behavioral effects of serotonergic hallucinogens, extending recent findings suggesting that common pathways contribute to the effects of serotonergic and glutamatergic hallucinogens. These studies are responsive to PA-07-374 \"Psychopharmacology of Widely Available Psychoactive Natural Products\". This research uses behavioral measures that can be translated directly into parallel measures of human behavior to elucidate the neurobiological mechanisms responsible for the acute effects of hallucinogens, which presumably lead to the recreational use of these drugs of abuse.",
+   "url": "https://reporter.nih.gov/project-details/8814189",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "EFFECTS OF CHOLECYSTOKININ ON SEROTONIN 2 RECEPTORS",
+   "pi_names": [
+    "Kenny J Simansky"
+   ],
+   "institution": "ALLEGHENY UNIVERSITY OF HEALTH SCIENCES",
+   "funder": "NIH/NIMH",
+   "award_id": "R03MH040574",
+   "fiscal_year": 1985,
+   "fiscal_year_range": "1985",
+   "n_fiscal_years": 1,
+   "amount_usd": 24248,
+   "abstract": "The cholecystokinins (CCK) are a family of peptide amides that are produced\nby endocrine cells in the gut and by peripheral and central neurons.\nAlthough the physiological roles of neural CCK remain to be elucidated,\nadministration of CCK and the related peptide ceruletide causes numerous\nbehavioral effects in laboratory animals.  Clinically, these peptides\nreduced psychotic symptoms in schizophrenics.  The profound actions exerted\nby CCKs and ceruletide suggest that endogenous CCKergic neurons mediate a\nvariety of functions in central systems controlling behavior.  Nonetheless,\nthe mechanisms for the pharmacological actions of CCK in behavior remain\nunclear.  Recent interest has focused on the interactions of CCK with\ndopaminergic systems.  In preliminary studies, however, subcutaneously\nadministered CCK octapeptide (CCK-8) potentiated the number of head\ntwitches elicited by the serotonin (5-HT) precursor 5-hydroxy-L-tryptophan\n(L-5-HTP) in carbidopa-pretreated mice.  Current evidence suggests that\nthis motor stimulant action of L-5-HTP is mediated at the 5-HT-2 class of\nserotonergic receptors and is inhibited by 5-HT antagonists, some\nadrenergic antagonists and a restricted group of neuroleptic and\nantidepressant drugs.\n\nThe proposed studies explore the mechanisms by which peripheral CCK-8\nenhances head twitches produced by L-5-HTP in mice by:  1) determining the\ndose-response curve for this action of CCK-8; 2) assessing the behavioral\nselectivity of CCK-8 in altering the stimulation by L-5-HTP of head\ntwitches, locomotion and other motor activity; 3) comparing these effects\nof CCK-8 on motor behavior with those of CCK-4, desulfated CCK-8 and\nceruletide; 4) testing whether CCK-8 also enhances head twitches elicited\nby the 5-HT agonists quipazine and 5-methoxy-N,N-dimethyltryptamine; 5)\ndetermining the effects of antagonists of serotonin and CCK receptors on\nthese motor actions of CCK-8; and 6) comparing the effects of CCK-8 and\nCCK-4, in vitro and ex vivo, on the binding of [3-H]ketanserin, a ligand\nfor 5-HT-2 receptors, to cortical membranes from mice.\n\nIn concert, these experiments test the hypothesis that peripheral CCK-8\nenhances behaviors produced by serotonergic drugs by increasing the number\nof 5-HT-2 binding sites in the brain.  Thus, this investigation will\nprovide new information about mechanisms for the behavioral actions of CCK\nand may help to elucidate a functional role for the interaction of\nendogenous CCK with central monoaminergic receptors.",
+   "url": "https://reporter.nih.gov/project-details/3428169",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "NONPHARMACOLOGICAL STUDIES OF RECEPTOR SENSITIVITY",
+   "pi_names": [
+    "Arnold J Friedhoff"
+   ],
+   "institution": "NEW YORK UNIVERSITY",
+   "funder": "NIH/NIMH",
+   "award_id": "P01MH008618",
+   "fiscal_year": 1985,
+   "fiscal_year_range": "1985-1990",
+   "n_fiscal_years": 6,
+   "amount_usd": 0,
+   "abstract": null,
+   "url": "https://reporter.nih.gov/project-details/3881036",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "HALLUCINOGENS AND SEROTONIN SIGNAL TRANSDUCTION",
+   "pi_names": [
+    "Elaine Sanders Bush"
+   ],
+   "institution": "VANDERBILT UNIVERSITY",
+   "funder": "NIH/NIDA",
+   "award_id": "R01DA005181",
+   "fiscal_year": 1988,
+   "fiscal_year_range": "1988-1998",
+   "n_fiscal_years": 6,
+   "amount_usd": 1111165,
+   "abstract": "The long-term goal is to determine the mechanism of the profound changes        \nin affective state and cognitive functions that are produced by                 \nhallucinogenic drugs. This competing renewal application moves beyond           \nresearch in cells and isolated tissues - the primary focus of the first         \nfive years of this grant - to new research strategies involving the intact      \nbrain and whole animal. The experimental design combines molecular,             \npharmacological and behavioral approaches to achieve four specific aims.        \nFirst, the pattern of activation of 5-HT2A and 5-HT2C receptors will be         \nmapped in brains of rats treated with lysergic acid diethylamide (LSD),         \nN,N-dimethyltryptamine (DMT), and (-)- 1 -(4-bromo-2,5-dimethoxyphenyl)-2-      \naminopropane (DOB). Hallucinogen-induced expression of c-fos mRNA,              \ndetermined by solution and in situ hybridization in brains of rats, will        \nserve as an index of serotonin receptor activation. Contributions of 5-         \nHT2A and 5-HT2C receptors to the c-fos signal will be evaluated using           \nselective antagonists or antisense oligodeoxynucleotides to block               \nsynthesis of a single receptor subtype. Specific Aim 2 will probe the role      \nof 5-HT2A and 5-HT2C receptors in the discriminative stimulus effects of        \nthe three hallucinogenic drugs. Rats will be trained to discriminate LSD,       \nDMT or (-)DOB from saline as a model of the subjective effects of               \nhallucinogenic drugs. Treatments established in specific aim 1 for              \nselective inhibition of each of the receptors will be evaluated. Specific       \nAim 3 will localize the brain site(s) mediating the discriminative              \nstimulus effects of hallucinogens by intracerebral microinjection of            \nhallucinogens or of selective antagonists directly into specific brain          \nsites. The functional consequences of these localized injections will be        \ninvestigated using drug-discrimination and c-fos mRNA expression. The           \nfinal aim will determine if tolerance develops to activation of 5-HT2A          \nand/or 5-HT2C receptors and correspondingly to the subjective behavioral        \neffects of hallucinogens. These various investigations will elucidate the       \nin vivo actions of hallucinogenic drugs at brain 5-HT2A and 5-HT2C              \nreceptors and define the importance of these two receptors in the               \nsubjective effects of hallucinogens. Such studies may pave the way for          \nclinical investigations into the role of these receptors in the profound        \nbrain-altering properties of hallucinogenic drugs.",
+   "url": "https://reporter.nih.gov/project-details/2713067",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "HUMAN PSYCHOPHARMACOLOGY & NEUROENDOCRINOLOGY OF DMT",
+   "pi_names": [
+    "Rick J Strassman"
+   ],
+   "institution": "UNIVERSITY OF NEW MEXICO",
+   "funder": "NIH/NIDA",
+   "award_id": "R03DA006524",
+   "fiscal_year": 1990,
+   "fiscal_year_range": "1990-1991",
+   "n_fiscal_years": 2,
+   "amount_usd": 147724,
+   "abstract": "This project will begin a re-examination of the human psychobiology of the\ntryptamine hallucinogen of abuse, N,N-dimethyltryptamine (DMT).\nHallucinogens continue being abused, particularly by young adults.  Lack of\nhuman psychopharmacological studies prevent relevant interfaces from being\nmade with animal neuropharmacological data.  Recent developments in\nserotonin receptor physiology provide a context within which such human\nstudies may proceed.  Specific aims of this one-year grant are: 1)\ndevelopment of a sensitive, specific and reliable gc-ms assay for DMT; 2)\nrecruitment and assessment of a group of well-functioning experienced\nhallucinogen users for this study; 3) development and validation of a DMT\nrating scale; and 4)initiation of dose-response studies of the\nneuroendocrine and psychological effects of DMT.  This normative data will\nprovide the foundation for subsequent studies with relevance to drug abuse;\ne.g. investigating the effects of specific serotonergic subtype antagonists\non the psychoneuroendocrine effects of DMT, and attempting to develop\ntolerance to the acute effects of DMT.",
+   "url": "https://reporter.nih.gov/project-details/3424112",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "5 HYDROXTRYPTAMINE MECHANISMS OF HALLUCINOGENIC DRUGS",
+   "pi_names": [
+    "David James Mokler"
+   ],
+   "institution": "UNIVERSITY OF NEW ENGLAND",
+   "funder": "NIH/NIDA",
+   "award_id": "R03DA007316",
+   "fiscal_year": 1991,
+   "fiscal_year_range": "1991-1992",
+   "n_fiscal_years": 2,
+   "amount_usd": 126396,
+   "abstract": "Hallucinogenic drugs such as lysergic acid diethylamide (LSD) and\n(plus/minus)-3,4-methylene-dioxymethamphetamine (MDMA) are abused in our\nsociety.  The hallucinogenic indole-alkylamines LSD and 5-methoxy-N, N-\ndimethyltryptamine (5-MeODMT), and the phenalkylamines MDMA and\n(plus/minus)-2,5-dimethoxy-4-methylamphetamine (DOM) interact with the 5-\nhydroxytryptamine (5-HT) neuronal systems of the brain.  The interactions\nof these drugs with 5-HT systems have been under investigation for over 20\nyears and have provided new opportunities for advancing our understanding\nof the actions of the hallucinogens.  The method of in vivo microdialysis\nfor simultaneous measurement of the extracellular levels of 5-HT and its\nmetabolite 5-hydroxyindoleacetic acid (5-HIAA) in discrete areas of the\nforebrain will allow us to determine the effects of hallucinogenic drugs on\n5-HT neurons activated by electrical stimulation of the dorsal and median\nraphe nuclei.  Microdialysis probes will be implanted into medial\nprefrontal cortex, striatum, nucleus accumbens, hippocampus and habenular\nnuclei.  These forebrain sites are primary areas of termination for 5-HT\nneuronal pathways originating in the midbrain raphe.  Behavioral\ndiscrimination will be used to provide behavioral data to correlate with\nneurochemical data.  Animals will be trained to discriminate electrical\nstimulation of the dorsal or median raphe nucleus from non-stimulation.\nAgonists and antagonists at subtypes of 5-HT receptors will be examined for\ntheir effects on behavioral discrimination as well as brain neurochemistry\nfollowing electrical stimulation of the raphe nuclei. The effects of LSD,\n5-MeODMT, DOM and MDMA will be examined in these paradigms to determine the\ndifferential roles of the raphe nuclei and subtypes of 5-HT receptors in\nthe actions of these drugs.  Changes in the release of 5-HT in brain areas\nwill be correlated with the results of behavioral experiments.  These\nstudies will develop the experimental basis to examine the neurochemical\nand behavioral actions of hallucinogens on both electrical and drug-induced\nactivation of the major forebrain 5-HT nuclei, the dorsal and median raphe.\nThese studies will also allow important insight into the functional nature\nof the 5-hydroxytryptamine neuronal pathways in conscious animals and will\nlead to a better understanding of the mechanisms and sites of action of\nthese hallucinogenic drugs of abuse.",
+   "url": "https://reporter.nih.gov/project-details/3424214",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "TRYPTAMINE HALLUCINOGENS--NEUROPSYCHOPHARMACOLOGY",
+   "pi_names": [
+    "Nancy Morrison",
+    "Rick J Strassman"
+   ],
+   "institution": "UNIVERSITY OF NEW MEXICO",
+   "funder": "NIH/NIDA",
+   "award_id": "R01DA008096",
+   "fiscal_year": 1993,
+   "fiscal_year_range": "1993-1995",
+   "n_fiscal_years": 3,
+   "amount_usd": 366680,
+   "abstract": "Human psychopharmacological research with hallucinogenic drugs has lagged\n behind basic neuropharmacology, thus preventing the necessary interface\n between human and animal work.  Hallucinogenic drugs continued being\n abused, particularly by young adults; there has been a rise in use over\n the last several years.  This project will continue the human research\n on tryptamine hallucinogens made possible by a previous National\n Institute on Drug Abuse (NIDA) Small Grant:  Human Psychopharmacology and\n Neuroendocrinology of DMT.  The mechanisms by which N,N-\n dimethyltryptamine (DMT), an endogenous tryptamine hallucinogen and\n Schedule I drug of abuse, exerts its biological and psychological effects\n will be further characterized.  A systematic human study of the\n biological and psychological effects of 4-phosphoryloxy-N,N-\n dimethyltryptamine (psilocybin), a longer acting Schedule I tryptamine\n hallucinogen which is more widely abused, also will be initiated.\n \n Specifically, five studies will be performed over the four years of\n support requested in this application.  Ten to 12 subjects, all\n experienced hallucinogen users who are otherwise medically and\n psychiatrically healthy, will be recruited for each study.  Recent\n advances in basic neuropharmacology concerning hallucinogenic drugs'\n effects and mechanisms of action will be applied, by attempting to modify\n DMT's biological and psychological effects with selective blockade of\n serotonin (5-HT) receptors, in particular, the 5-HT1A and 5-HT2 subtypes.\n An attempt will be made to develop tolerance to the acute effects of DMT\n in humans, something that has never been demonstrated.  It will be\n determined if menstrual phase affects the response to DMT in women.\n Finally, a dose/concentration-response study of psilocybin's\n neuroendocrine, cardiovascular, autonomic and psychological effects in\n humans will be undertaken.",
+   "url": "https://reporter.nih.gov/project-details/2120576",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "SEROTONERGIC MEDIATION OF N,N-DIMETHYLTRYPTAMINE EFFECTS",
+   "pi_names": [
+    "Rick J Strassman"
+   ],
+   "institution": "UNIVERSITY OF NEW MEXICO",
+   "funder": "NIH/NCRR",
+   "award_id": "M01RR000997",
+   "fiscal_year": 1993,
+   "fiscal_year_range": "1993-1997",
+   "n_fiscal_years": 4,
+   "amount_usd": 66956,
+   "abstract": null,
+   "url": "https://reporter.nih.gov/project-details/2481946",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "BEHAVIORAL AND PHARMACOLOGIC ANALYSIS OF DRUG OF ABUSE",
+   "pi_names": [
+    "Jerrold Clyne Winter"
+   ],
+   "institution": "STATE UNIVERSITY OF NEW YORK AT BUFFALO",
+   "funder": "NIH/NIDA",
+   "award_id": "R01DA003385",
+   "fiscal_year": 1997,
+   "fiscal_year_range": "1997-2000",
+   "n_fiscal_years": 4,
+   "amount_usd": 898848,
+   "abstract": "DESCRIPTION:  (Applicant's Abstract)                                            \n                                                                                \nThe discovery by Albert Hoffmann more than fifty years ago of the               \nhallucinogenic effects of LSD irreversibly altered the course of both           \nbiological psychiatry and popular culture.  Part of Hofmann's legacy is         \nfound in the August 1996 Advance Report of the National Household Survey on     \nDrug Abuse which shows a dramatic increase in the use of hallucinogens among    \nchildren 12-17 years of age; without question, the hallucinogens are drugs      \nof abuse.  But among the drugs of abuse, hallucinogens are perhaps unique in    \nthat an understanding of their mechanisms of action will not only ameliorate    \nthe burdens of illicit use but may also provide a key to solving the puzzle     \nof psychosis, another major human affliction.                                   \n                                                                                \nThe present investigations seek to characterize and to distinguish              \nindoleamine hallucinogens such as LSD and phenethylamine hallucinogens as       \nexemplified by DOM in combined behavioral [drug-induced stimulus control]       \nand biochemical [radioligand binding and second messenger] studies.             \nSpecifically, the proposed experiments will identify the second messenger       \nsystems which mediate the discriminative stimulus effects of LSD and DOM and    \nwill, in addition, identify those serotonergic receptors which may modulate     \nthe effects of hallucinogens.  These studies will also be extended to           \ninclude the related indoleamine hallucinogens, 5-methoxy-DMT and ibogaine.      \nFinally, the potentiation of LSD and other hallucinogens by fluoxetine and      \nrelated selective serotonin reuptake inhibitors will be examined.  Taken        \ntogether, the use of powerful methods for the assessment of in vivo efficacy    \n[drug discrimination], of in vitro efficacy [stimulation or suppression of      \nsecond messenger formation], and of affinities for specific receptors           \n[radioligand binding] will provide new understanding of the mode of action      \nof hallucinogens.",
+   "url": "https://reporter.nih.gov/project-details/6175201",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "Trends in Club Drug Use",
+   "pi_names": [
+    "Christopher P Krebs"
+   ],
+   "institution": "RESEARCH TRIANGLE INSTITUTE",
+   "funder": "NIH/NIDA",
+   "award_id": "R03DA014812",
+   "fiscal_year": 2001,
+   "fiscal_year_range": "2001-2002",
+   "n_fiscal_years": 2,
+   "amount_usd": 155808,
+   "abstract": "DESCRIPTION (provided by the applicant): Recent evidence suggests that club        \n drugs, such as lysergic acid diethylamide (LSD),                                   \n methylene-dioxy-methamphetamine (MDMA or Ecstasy), gamma-hydroxybutyrate (GHB),    \n Ketamine, Rohypnol, methamphetamine, and psilocybin, are gaining in popularity,    \n users are getting younger, and serious consequences can result from using these    \n substances. These factors have caused alarm among many in the public health,       \n law enforcement, and policy-making communities. Much of this concern stems from    \n the fact that we know very little about the factors that affect club drug          \n trends, the people who use these substances, and the exact method in which they    \n are used. The proposed study involves interviewing a sample of 250 juvenile        \n offenders in Lane County (Eugene), Oregon, that is racially/ethnically diverse,    \n includes both genders, and reports high rates of club drug use. Additionally, a    \n sample 30 juveniles who have extensive experience with club drugs and the rave     \n scene will be administered a detailed, qualitative interview.                      \n                                                                                    \n The proposed investigation will (1) determine whether users of various club        \n drugs are \"different\" from non-club drug users or users of other drugs in terms    \n of demographic characteristics, life experiences, etc.; (2) identify how,          \n where, and from whom youth learn about and obtain various club drugs and how       \n much they spend on them; (3) ascertain where, when, how, and in what social        \n contexts youth use club drugs and what substances they mix with them; (4)          \n document youth attitudes and beliefs about various club drugs and reasons why      \n they use them; and (5) determine whether youth have experienced or witnessed       \n any consequences of using various club drugs.                                      \n                                                                                    \n Simple descriptive analyses, as well as multivariate binomial logistic,            \n multinomial logistic, mixed-effects ordinal regression, latent class, and          \n attributable risk models, will be employed to achieve the specific aims            \n outlined above. An effort will be made to test several etiological models of       \n club drug use, identify risk and protective factors, and understand the            \n subculture that embraces these substances. This information will help inform       \n subsequent research on club drugs and substance-specific education/prevention      \n and interdiction initiatives.",
+   "url": "https://reporter.nih.gov/project-details/6515956",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "Indole Analogs as Novel Treatments for OCD",
+   "pi_names": [
+    "Howard P Sard"
+   ],
+   "institution": "ORGANIX, INC.",
+   "funder": "NIH/NIMH",
+   "award_id": "R43MH063529",
+   "fiscal_year": 2002,
+   "fiscal_year_range": "2002",
+   "n_fiscal_years": 1,
+   "amount_usd": 109197,
+   "abstract": "DESCRIPTION (provided by applicant): Obsessive Compulsive Disorder (OCD) is a                  \n serious mental illness that affects millions of people throughout the world.       \n Existing therapies for OCD show limited efficacy, can possess troubling side       \n effects, and often require long-term treatment. Discovery of a new treatment       \n for OCD would have considerable scientific value and commercial value. The         \n hallucinogen psilocybin has shown preliminary efficacy against OCD, however        \n even if further research on this compound is positive, FDA approval for            \n psilocybin could be problematic. In Phase One we propose to synthesize             \n carefully selected psilocybin analogs. The pharmacology of these compounds will    \n be evaluated both in vitro and in vivo. From this project we specifically aim      \n to discover one or more psilocybin analogs showing efficacy in an animal model     \n for OCD comparable to that of the existing therapies. Such a result will           \n strongly support continuation in Phase Two. The long-term goal of this project     \n is to discover new, improved treatments for OCD.    \n\nPROPOSED COMMERCIAL APPLICATION:  Discovery of a novel, improved therapy for obsessive compulsive disorder could alleviate suffering for many people worldwide and would have very substantial commercial potential.",
+   "url": "https://reporter.nih.gov/project-details/6443024",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "Pharmacogenetics in indolealkylamine metabolism and drug interactions",
+   "pi_names": [
+    "Aiming Yu"
+   ],
+   "institution": "STATE UNIVERSITY OF NEW YORK AT BUFFALO",
+   "funder": "NIH/NIDA",
+   "award_id": "R01DA021172",
+   "fiscal_year": 2007,
+   "fiscal_year_range": "2007-2011",
+   "n_fiscal_years": 5,
+   "amount_usd": 1701468,
+   "abstract": "DESCRIPTION (provided by applicant): The overall objective of the proposed work is to delineate the pharmacogenetics of indolealkylamine (IAA) metabolism and drug-drug interactions. IAA xenobiotics represent a major class of psychoactive drugs that have seen widespread abuse. Currently, these substances are easily synthesized in clandestine laboratories and sold via the internet. Overdosing or concomitant use of IAA xenobiotics may cause severe or even fatal \"serotonin toxicity\". The pharmacological and toxicological effects of IAA drugs exhibit broad interindividual variations, but the underlying mechanisms remain elusive. Variation of IAA metabolism and disposition is likely one reason. Recently, we have shown that O-demethylation is a significant metabolic pathway for five IAA drugs. Cytochrome P450 2D6 (CYP2D6), which is known for its genetic polymorphism, mediates this reaction. We therefore hypothesize that CYP2D6 polymorphism may be an important determinant of the inter-individual responses toward IAA, and that this phenomenon will produce considerable variability in IAA metabolism, pharmacokinetics and pharmacodynamics, as well as the severity of IAA drug-drug interactions. In Aim #1, kinetic studies with genotyped hepatocytes are proposed to assess the variability of IAA intrinsic clearance and metabolite production in relation to CYP2D6 genotypes or phenotypes. Aim #2 will test the hypothesis that variations of IAA drug effects are related to CYP2D6 status. We propose to use the CYP2D6-trangenic mouse model for these studies, which will allow us to assess directly the impact of CYP2D6 on IAA metabolism, pharmacokinetics, and dynamics at the systemic level. Aim #3 will investigate IAA drug-drug interactions, which is reasoned to occur at both the pharmacodynamic and pharmacokinetic levels. We will employ the same mouse models to characterize their association with CYP2D6 status and IAA dose combinations. We will use kinetic, biochemical, physiological, and behavioral measurements as endpoints to assess IAA pharmacogenetics and complex drug-drug interactions. Based upon our intriguing preliminary data, we believe that the proposed work will advance the understanding of IAA pharmacology and toxicology. Characterization of the genetic factors that control IAA kinetics and drug effects on animal behavior, brain neurotransmitters, and body temperature is anticipated to provide important basic information and insights concerning IAA metabolic and toxicological determinants.",
+   "url": "https://reporter.nih.gov/project-details/8110558",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "DISTINCTIVE RECEPTOR ACTIONS IN HALLUCINOGEN MECHANISMS",
+   "pi_names": [
+    "Harel Weinstein"
+   ],
+   "institution": "WEILL MEDICAL COLL OF CORNELL UNIV",
+   "funder": "NIH/NIDA",
+   "award_id": "P01DA012923",
+   "fiscal_year": 2007,
+   "fiscal_year_range": "2007-2011",
+   "n_fiscal_years": 5,
+   "amount_usd": 1140489,
+   "abstract": "This component of the PPG is dedicated to quantitative, structural, and computational modeling\naspects of our collaborative effort to understand the mechanisms of hallucinogenic drugs in various\ntructural classes, triggered by their interactions with the subtypes of 5-HT GPCRs. The aim to\nunderstand the mechanisms that engender the complex behavioral effects in hallucinogenesis, is\nbased on the hypothesis that the hallucinogenic potential of certain compounds results from specific\nmodes of interaction with these receptors, that produce distinct molecular signaling mechanisms;\nthus, hallucinogens trigger structural and dynamic receptor responses (affecting protein-protein\ninteractions) that differ from those produced by other ligands. This hypothesis leads to proposed\ninvestigations of (i) the modes of receptor response (conformational rearrangements and\nstabilization of \"activated state(s)\") that trigger special protein-protein interactions ranging from\nreceptor oligomerization to interactions with various scaffolding proteins (e.g., PDZ- BAR-domains),\nand (ii) how such conformational rearrangements and resulting association/dissociation of protein-\nprotein interactions affect selectivity and efficiency in the signaling pathways of hallucinogens. We\ndevelop and apply computational methods, modeling and simulation approaches (from structural\nbiophysics, bioinformatics, predictive mathematical modeling) to study molecular and cellular\nsignaling systems involved in the mechanisms. The studies are closely coordinated with Projects 2\nand 3 of the PPG in which probing and validation of the models will be based on collaboratively\ndesigned experiments utilizing inferences, designs and protein constructs investigated in this\nproject. These collaborative studies will serve to incorporate the structural context of molecular\ninteractions in systems level models of the hallucinogen signaling mechanisms. The components of\na hallucinogen signaling map will be stored in an information management system (SigPath)\nultimately used to model quantitatively the pathways and learn about their characteristic properties,\nand their integration in the cellular machinery. We plan to start with modest, scientifically\nresponsible simulations of small pathway elements in order to support hypothesis testing and\ndesign of experiments in the PPG that explore such pathways.",
+   "url": "https://reporter.nih.gov/project-details/8279255",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "Standardization of Banisteriopsis caapi for Chemical and Biological Markers",
+   "pi_names": [
+    "Muhammad Ilias"
+   ],
+   "institution": "UNIVERSITY OF MISSISSIPPI",
+   "funder": "NIH/NCCIH",
+   "award_id": "R21AT003409",
+   "fiscal_year": 2007,
+   "fiscal_year_range": "2007-2008",
+   "n_fiscal_years": 2,
+   "amount_usd": 391680,
+   "abstract": "DESCRIPTION (provided by applicant): Banistriopsis caapi, a woody vine from Amazonian basin, is famous as an ingredient of a popular hallucinogenic drink ayahuasca. Usefulness of B. caapi extracts has been indicated in controlling symptoms of Parkinson's diseases (PD), a neurological disorder affecting approximately 1-5% population in the age groups of 65-80 years. The goal of this project is to develop a standardized aqueous extract of unique cultivars of B. caapi Da Vine for monoamino oxidase A and B inhibitory activity and the composition of its markers. The isolation of major marker compounds from the \"most active\" extract may be utilized to develop a reliable analytical method for quantification and fingerprinting. The following specific aims will be pursued to reach the goal: 1) Establish an efficient and reliable extraction method for B. caapi Da Vine that will guarantee maximum MAO inhibitory potency. This protocol will be developed based on the traditional method of preparation. The objective is to optimize the MAO inhibitory potency of the aqueous extract at various phases of extraction, and to gain knowledge for its preservation. 2) Perform MAO A and B inhibition assays initially on aqueous extracts of fresh and dried stems, and then on leaves, wood, twigs and roots. The potential biological activities will be followed until the most common active compound(s) and markers are isolated and characterized. Additional assays for acetylcholinestrase, catechol-O-methyltransfarese, dopamine release functions and cytotoxicity will be addressed. 3.) Characterize the major markers, active/ inactive, present in the extract which will be the candidate compounds for standardization. Emphasis will be placed isolating compounds from alkaloid, terpenoid and flavonoid classes of natural products, which will represent a broad phytochemical composition of the standardized extract. 4.) Structure elucidation of markers/ minor compounds using spectroscopic technology to acquire NMR (1H, C and N), UV-Vis, IR and HRMS data. 5) Developing analytical RP-HPLC method for quantification of markers and a library of HPLC chromatograms will be generated as a tool for fingerprinting. Standardization of the extracts of B caapi Da Vine for chemical and biological markers would be useful for future clinical evaluation of depressive disorders and PD. The usefulness of B. caapi aqueous extracts has been established in alleviating symptoms of Parkinson's disease, a neurological disorder affecting approximately 1-5% population in the age groups of 65-80 years. The presence of different psychotropic constituents in B. caapi designates the possibility of additional use of its standardized extracts as antidepressant, antiapoptotic, and ameliorator of Alzheimer's symptoms. Therefore, a standardized extracts of B. caapi Da Vine with known phytochemical compositions and biological markers will be useful for Parkinson's disease, as well as depressive and neurological disorders.",
+   "url": "https://reporter.nih.gov/project-details/7469560",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "Emerging Trends of Tryptamine Use: Contexts & Risks",
+   "pi_names": [
+    "Brian C Kelly"
+   ],
+   "institution": "PURDUE UNIVERSITY",
+   "funder": "NIH/NIDA",
+   "award_id": "R03DA021259",
+   "fiscal_year": 2007,
+   "fiscal_year_range": "2007-2008",
+   "n_fiscal_years": 2,
+   "amount_usd": 150975,
+   "abstract": "DESCRIPTION (provided by applicant): The National Institutes on Drug Abuse has prioritized research on \"club drugs,\" such as ecstasy, ketamine, and methamphetamine. On the heels of the recent wave of club drug use, other drug trends emerged including an increase in tryptamine use. Tryptamines include a broad range of naturally-occurring and synthetic compounds. Many of the tryptamines are of a hallucinogenic nature, including DMT, AMT, DIPT and their analogues 5-Meo-DMT, 5-Meo-AMT, and 5-Meo-DIPT. These substances have been used by indigenous tribes of the Amazon for centuries, commonly used for shamanic rituals. The most familiar tryptamine used for shamanic rituals is DMT, the active ingredient in ayahuasca. More recently, tryptamines - more specifically synthetic tryptamines - have become drugs of abuse among youth and young adults in the United States. The DEA requested emergency scheduling on several of these substances because the use of these drugs is viewed as \"an emerging problem\" (DEA, 2003). In recent years, the sale and distribution of these substances has resulted in arrests in various regions across the country. Though emergent throughout many states in the nation, basic social and behavioral research on these substances is lacking. It is clear that the use of these substances is occurring, but we know little about these substances beyond that fact. This grant application proposes an exploratory study of this class of substances on which there exists large gaps in the behavioral sciences literature. The proposed study will assist with the development of a behavioral research agenda in the United States on the emerging trend of tryptamine use. Our goal is to provide data useful for education and prevention efforts. The specific purpose of the proposed study is to conduct a descriptive ethnographic study of tryptamine use among young adults in youth subcultures around the New York metropolitan area. We intend to gather data on the patterns, practices, and contexts of initiation and subsequent episodes of use among 45 young adults in the New York City metropolitan area. The specific focus of this grant will be to target youth involved in subcultural scenes associated with tryptamine use such that we may understand these substances before they potentially diffuse to general patterns of youth consumption.",
+   "url": "https://reporter.nih.gov/project-details/7474029",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "Behavioral and Pharmacological Analysis of Drugs of Abuse",
+   "pi_names": [
+    "Jerrold Clyne Winter"
+   ],
+   "institution": "STATE UNIVERSITY OF NEW YORK AT BUFFALO",
+   "funder": "NIH/NIDA",
+   "award_id": "R56DA003385",
+   "fiscal_year": 2008,
+   "fiscal_year_range": "2008",
+   "n_fiscal_years": 1,
+   "amount_usd": 287550,
+   "abstract": "6. Project Summary/Abstract\nHallucinogens of all types are subject to widespread abuse especially by adolescents and\nyoung adults in this country. Perhaps equally important is the possibility that these drugs may\noffer clues to the etiology of the most serious forms of mental illness. The long-term objectives\nof the present proposal are to characterize hallucinogens behaviorally and pharmacologically\nwith the ultimate goal of establishing their mechanisms of action. Although they are united by a\ncommon term, hallucinogen, these drugs represent distinct pharmacological entities. Lysergic\nacid diethylamide [LSD] is chemically and pharmacologically quite different from the simpler\nindoleamines represented by DMT and psilocybin. Indeed, in terms of a presumed receptor\nmechanism of hallucinogenic action, LSD more closely resembles a phenethylamine such as\nmescaline. Nonetheless, all of these drugs are joined by prominent activity via serotonergic [5-\nhydroxytryptaminergic] mechanisms. Until recently, the same could not be said for\nphencyclidine [PCP, Angel Dust]. However, a unifying serotonergic-glutamatergic mechanism is\nbeginning to emerge with the hypothesis that glutamate release may represent a final common\npathway for hallucinogens. Nonetheless, to say that all of these drugs are somehow\nserotonergic in nature obscures the fact that 14 distinct serotonergic receptors are known, each\nwith a distinct neuroanatomic distribution and array of functions. The decision to focus in the\npresent proposal on, 5-HT2c, 5-HT7, 5-HT2~a,n d 5-HTqAr eceptors is based upon suggestive\npharmacological and behavioral evidence, which links these receptors to hallucinogenesis. The\nprimary behavioral index will continue to be the stimulus effects of hallucinogens in rodents,\neffects widely believed to have significant subjective correlates in humans. In addition,\nhallucinogens will be characterized using in vivo microdialysis to correlate glutamate release\nwith behavioral activity. It is expected that integration of the resulting data will provide new\nunderstanding of the mode of action of hallucinogens, especially those subject to abuse. In\naddition, these studies may contribute to our understanding of the most serious forms of mental\nillness including anxiety, depression, and psychosis. Finally, the role of the internet in\nexpanding interest in these and other club drugs such as MDMA [Ecstasy] especially among\nyouthful segments of society is inestimable but will almost certainly lead to increased illicit use.\nThis likelihood coupled with continued interest in the therapeutic use of agents such as\npsilocybin makes a detailed pharmacological assessment of these drugs of utmost importance.",
+   "url": "https://reporter.nih.gov/project-details/7640034",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": true
+  },
+  {
+   "project_title": "Mechanisms of hallucinogen effects on exploratory behavior in rats and mice",
+   "pi_names": [
+    "Adam L. Halberstadt"
+   ],
+   "institution": "UNIVERSITY OF CALIFORNIA, SAN DIEGO",
+   "funder": "NIH/NIDA",
+   "award_id": "F32DA025412",
+   "fiscal_year": 2009,
+   "fiscal_year_range": "2009-2011",
+   "n_fiscal_years": 3,
+   "amount_usd": 156942,
+   "abstract": "DESCRIPTION (provided by applicant): The goal of this project is to use rodent models to elucidate the mechanisms underlying the behavioral effects of hallucinogenic drugs of abuse, including LSD and DOI,as well as natural products used in recreational, ritual, or religious contexts, including SMeODMT and Ayahuasca tea. Based on the profound effects of hallucinogens on responses to sensory and emotional stimuli, behavioral effects will be measured using a multivariate profile of exploratory and investigatory behavior provided by rat and mouse Behavioral Pattern Monitor systems. These computerized systems assess activity, exploration, and behavioral organization - three major aspects of rodent behavior in an open field. The project has two specific aims. The first aim is to characterize and identify the specific mechanisms by which LSD and synthetic equivalents of Ayahuasca (\"Pharmahuasca\") alter exploratory behavior in rats. These studies will extend initial investigations into the nature of the biphasic, LSD-like profile of Pharmahuasca, in which exploratory behavior is initially suppressed and then increases as time progresses. We will test whether metabolic interactions between Pharmahuasca components contribute to the LSD-like behavioral profile, or whether specific neurochemical or receptor interactions are involved. The second aim is to assess the respective contributions of 5HT1A and 5HT2A serotonin receptors to the effects of hallucinogens on exploratory and investigatory behavior in mice. Both selective antagonists and knockouts of 5HTIA and 5HT2A receptors will be studied in order to develop converging evidence to test the hypothesis that both receptors contribute to the behavioral effects. This research is designed to elucidate the neurobiological mechanisms responsible for the acute effects of hallucinogens, which are presumably responsible for the recreational use of these drugs of abuse. These studies should also further our basic understanding of the behavioral functions of serotonergic systems. Collectively, this work is consistent with the stated mission of NIDA to bring \"thepower of science to bear on drug abuse and addiction.\" Additionally, the study of psychoactive properties of natural products has been identified by NIDA as a priority area for research. Relevance: The recreational use of hallucinogens is a concern from a public health standpoint. This work will further our understanding of the basic neural mechanisms mediating the behavioral effects of these drugs of abuse.",
+   "url": "https://reporter.nih.gov/project-details/8063888",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "Hallucinogen self-administration in baboons",
+   "pi_names": [
+    "Amy K Goodwin"
+   ],
+   "institution": "JOHNS HOPKINS UNIVERSITY",
+   "funder": "NIH/NIDA",
+   "award_id": "R03DA026905",
+   "fiscal_year": 2009,
+   "fiscal_year_range": "2009",
+   "n_fiscal_years": 1,
+   "amount_usd": 82000,
+   "abstract": "DESCRIPTION (provided by applicant): Although there has been a revived interest in the possible therapeutic effects of hallucinogens (Griffiths et al. 2006; Nichols 2004), such drugs are also popular drugs of abuse. Hallucinogens are generally considered to be physiologically safe (i.e., they do not result in physiological dependence nor do they cause disruption in cardiovascular, renal or hepatic functions) (Nichols 2004; O'Brien 2001). However, users of hallucinogens can experience hallucinogen persisting perception disorder (HPPD), fatal accidents resulting from distorted perceptions (e.g., attempting to fly), and psychoses-like side effects such as changes in cognitive functions and depersonalization (Abraham and Duffy 2001; Nichols 2004). In addition, use of hallucinogens may initiate the onset of psychosis or depression (Cohen 1960; Nichols 2004). The intravenous (IV) drug self-administration model has been used extensively to characterize the reinforcing effects of psychoactive compounds (Panlilio and Goldberg 2007). However, it has been generally accepted by the scientific community that while humans use LSD recreationally, laboratory animals do not self-administer it. The notion that laboratory animals don't self-administer LSD is likely based on data collected in the German lab of F. Hoffmeister in the 1970's, though the data was never published (Johanson and Balster 1978). Indeed, there are no peer-reviewed studies reporting the procedures used, nor the negative results of attempts to establish LSD as a reinforcer in laboratory animals. Accordingly, the conventional wisdom that hallucinogens do not function as reinforcers in laboratory animals is currently being reexamined. Fantegrossi and colleagues reported low levels of self-administration of the prototypical hallucinogens mescaline and psilocybin in rhesus monkeys (Fantegrossi et al. 2004). LSD also produces conditioned place preference in male rats (Meehan and Schechter 1998; Parker 1996). Thus, given that LSD is a popular drug of abuse, there are no published accounts of attempts to establish IV LSD as a reinforcer, LSD produces conditioned place preference in male rats (Meehan and Schechter 1998; Parker 1996), and other prototypical hallucinogens (i.e., mescaline and psilocybin) function as IV reinforcers in rhesus monkeys (Fantegrossi et al. 2004), we propose to examine the reinforcing effects of LSD using an IV self-administration model in baboons (a species with phylogenetic proximity to humans). PUBLIC HEALTH RELEVANCE: Although there has been a revived interest in the possible therapeutic effects of hallucinogens, such drugs are also popular drugs of abuse with the potential for adverse effects. An examination of the reinforcing effects of LSD in baboons is clinically relevant to the therapeutic use of these compounds, as well as the potential treatment for the abuse of these compounds.",
+   "url": "https://reporter.nih.gov/project-details/7706256",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "Santo Daime: A New World Religion",
+   "pi_names": [
+    "Andrew Dawson"
+   ],
+   "institution": "Lancaster University",
+   "funder": "AHRC",
+   "award_id": "BFFAA2B7-6D65-4BAF-A538-E618C9D298F3",
+   "fiscal_year": 2012,
+   "fiscal_year_range": "2012",
+   "n_fiscal_years": 1,
+   "amount_usd": 48665,
+   "amount_original": "GBP 38319",
+   "abstract": "The book to be written about Santo Daime will comprise 90,000 words shared between the substantive narrative (six chapters, totalling 73,000 words), Introduction and Conclusion (combining to 7,000 words), and bibliography and index (sharing 10,000 words).\\n\\nIntroduction: \\ni) the place of new religious movements within the contemporary religious landscape and the rise and consolidation of Santo Daime within it; ii) the contribution which this study of Santo Daime makes to broader academic understanding; iii) the relevance of social theorists of late-modernity (e.g. Bauman, Beck, Bourdieu, and Giddens); iv) the book's structure.\\n\\nChapter One (1930-Present): \\ni) emergence of Santo Daime to the death of its founder Irineu Serra (1892-1971), including the foundational strands of Santo Daime (e.g. afro-Amazonian religion, popular Catholicism and traditional European esotericism); ii) Sebasti&atilde;o Mota de Melo (1920-1990) and the breakaway movement of Cefluris, including the importance of Brazilian Spiritism, the progressive adoption of new age beliefs and practices and the movement's spread to the professional classes of urban Brazil; iii) 1990 to the present day, treating the growing influence of Afro-Brazilian religion (e.g. Umbanda and Candombl&eacute;) and the implications of a changing demographic profile and increasing internationalisation.\\n\\nChapter Two (Ritual Repertoire &amp; Use of Ritual Space): \\ni) rituals of Dance, Concentration, Feitio, and the Mass; ii) the distribution of ritual responsibilities, use of sacred space and importance of song-referencing Bell and Bourdieu; iii) the role of psychotropic substances (especially ayahuasca and marijuana) and the religious experiences they engender; iv) implications of variations in ritual practice and interpretation. \\n\\nChapter Three (Spirit Possession): \\ni) broader academic discussions in respect of spirit possession in the modern world; ii) three phases of spirit possession practices in Santo Daime (a) 1920-1971, afro-Amazonian spiritism gives way to traditional European esotericism, (b) 1971-1990, Brazilian Spiritism becomes the dominant paradigm, whilst new age beliefs and practices also grow popular, (c) 1990-present, Afro-Brazilian possession repertoires of Umbanda and Candombl&eacute; come to the fore but do not replace existing discourse and practice; iii) transformations of spirit possession repertoire (e.g. 'expressivization') indicative of movement's geographical spread and changing demographic profile. \\n\\nChapter Four (Millenarianism): \\ni) the use of end-world (millenarian) discourse; ii) the continuity between the traditional Brazilian millenarianism and the new era millenarianism of Santo Daime; iii) daimista millenarianism as expressive of the late-modern context.\\n\\nChapter Five (The Daimista Narrative): \\ni) the architectonic motifs of Santo Daime's religious worldview (e.g. reincarnation, holism, subjectivism, and pragmatism); ii) motifs engaged as typically modern tropes which express a range of values, hopes and preoccupations characteristic of the urban-industrial middle-classes; iii) Wallis' typology of new religious worldviews combined with social-theoretical late-modernist critiques of commoditisation to argue that despite its ostensibly counter-cultural (world-rejecting) rhetoric, the contemporary daimista worldview should be viewed as a form of religiosity which both affirms and accommodates typically late-modern dynamics (e.g. 'mystified consumption' and 'recreational religion').\\n\\nChapter Six (Implications): \\naforementioned strands combined and situated within contemporary debates in respect of the status, role and future of religion in modern society (e.g. religious hybridism, well-being culture, religious individualism, globalizing religion, fundamentalist belief systems, conversion dynamics, religious economy, and secularisation - sacralisation).\\n\\nCoConclusion: the future trajectory of Santo Daime and possible adventures of further study.",
+   "url": "https://gtr.ukri.org/projects?ref=AH/H033858/1",
+   "source": "UKRI Gateway to Research",
+   "country": "UK",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "Clinical Pharmacology/Mechanisms of Action of Emerging Abused Drugs (Club Drugs)",
+   "pi_names": [
+    "Roland R Griffiths"
+   ],
+   "institution": "JOHNS HOPKINS UNIVERSITY",
+   "funder": "NIH/NIDA",
+   "award_id": "R01DA003889",
+   "fiscal_year": 2013,
+   "fiscal_year_range": "2013-2017",
+   "n_fiscal_years": 5,
+   "amount_usd": 2241091,
+   "abstract": "DESCRIPTION (provided by applicant): Recreational abuse of newly emerging \"club drugs\" including atypical hallucinogens, which is exacerbated by internet websites, is a significant and growing national problem. Abuse of these drugs among adolescents and young adults is a particular concern. A series of studies in human volunteers will provide new information about the pharmacological mechanisms of action, comparative pharmacology, and abuse liability of three mechanistically different hallucinogen compounds that are of concern to national authorities and about which there are major gaps in our current understanding: salvinorin A (a κ opioid agonist), N,N-dimethyltryptamine (DMT, a 5-HT2A agonist), and dextromethorphan (an NMDA antagonist). For all three compounds, dose-effect studies using low to high doses in participants with histories of hallucinogen drug abuse will provide new information about subjective effects, psychiatric symptoms, behavioral/cognitive impairment, physiological effects, relative abuse liability, and possible persisting toxic consequences of use. Pharmacological mechanisms of action will be investigated by examining the effects of selective receptor antagonists and by systematically comparing pairs of drugs acting at different receptor sites. Specifically, the first three studies will focus on two short-acting, atypical hallucinogens: salvinorin A and DMT. The first study will use a double- blind, double-dummy design to compare the effects of inhaled vaporized salvinorin A and intravenous DMT across a wide range of doses and measures, characterizing both robust and subtle differences between the two compounds. The second and third studies will further explore mechanisms of action by examining interactions of both drugs with naltrexone (a selective opioid receptor antagonist) and ketanserin (a selective 5-HT2A antagonist). The subsequent three studies will focus on the relatively longer-acting compound dextromethorphan, which is a noncompetitive NMDA-antagonist found in over-the-counter cough and cold medications and abused at high doses as a hallucinogen. The fourth study will compare the dose-effects of oral dextromethorphan with oral psilocybin (a classic 5-HT2A-mediated hallucinogen with a duration of action similar to dextromethorphan) characterizing both robust and subtle differences between the two compounds. The fifth and sixth studies will further explore the mechanisms of action of dextromethorphan (vs. psilocybin) by examining interactions with naltrexone (opioid antagonists are used clinically to treat dextromethorphan overdose) and ketanserin. Overall, this research program exploring the comparative pharmacology and specific mechanisms of action of salvinorin A, DMT, and dextromethorphan will have relevance to the development of prevention and treatment strategies for the abuse of these emerging abused hallucinogen drugs. Regarding public health more generally, this research has potentially wide-ranging implications for understanding the neurobiological basis of psychiatric and neurological disorders that involve the κ opioid, 5- HT, and NMDA receptor pathways.",
+   "url": "https://reporter.nih.gov/project-details/9235269",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "Medicinal Chemistry of Drugs Acting on Biogenic Amine Receptors",
+   "pi_names": [
+    "Kenner Rice"
+   ],
+   "institution": "NATIONAL INSTITUTE ON DRUG ABUSE",
+   "funder": "NIH/NIDA",
+   "award_id": "ZIADA000532",
+   "fiscal_year": 2015,
+   "fiscal_year_range": "2015",
+   "n_fiscal_years": 1,
+   "amount_usd": 327859,
+   "abstract": "The abuse of psychomotor stimulants and hallucinogenic drugs that act on biogenic amine receptors is a very serious ongoing problem.  The recent introduction of methylenedioxypyrovalerone (MDPV) and flakka (&#945;-pyrrolidinopentiophenone) are glaring examples of such highly problematic drugs.  We have pursued the chemical synthesis and identification of biogenic amine agonists and their antagonists as research tools and potential medications.  In one example, we developed a practical nonchromatographic chemical synthesis of the 5-HT2A receptor antagonist MDL100,907 that is enabling numerous studies requiring this critical research tool. We have also studied the discriminative stimulus effects of MDL100,907 and several other drugs in order to gain further insight into their 5-HT receptor subtype(s) selectivity and the possible receptor role in certain neuropsychiatric disorders.  Among the serotonin-mediated drugs, the 5-HT2A and 5-HT2C receptors are thought to be the primary sites of action. Recently, metabotropic glutamate (mGluR2) receptors have been implicated as contributors to the mechanism of hallucinogens.  We assesses the role of these 5-HT and glutamate receptors as molecular targets for two tryptamine hallucinogens, N,N-dimethyltryptamine (DMT) and N,N-diisopropyltryptamine (DiPT). Drug discrimination, head twitch, and radioligand binding assays were used. A 5-HT2AR inverse agonist (MDL100907), 5-HT2CR antagonist (SB242084), and mGluR2/3 agonist (LY379268) were tested for their ability to attenuate the discriminative stimulus effects of DMT and DiPT; an mGluR2/3 antagonist (LY341495) was tested for potentiation. MDL100907 was used to attenuate head twitches induced by DMT and DiPT.  Radioligand binding studies and inosital-1-phosphate (IP-1) accumulation were performed at the 5-HT2CR for DiPT.  We found that MDL100907 fully blocked the discriminative stimulus effects of DMT, but only partially blocked DiPT. SB242084 partially attenuated the discriminative stimulus effects of DiPT, but produced minimal attenuation of DMT's effects. LY379268 produced potent, but only partial blockade of the discriminative stimulus effects of DMT. LY341495 facilitated DMT- and DiPT-like effects. Both compounds elicited head twitches (DiPT>DMT) which were blocked by MDL1000907. DiPT was a low-potency full agonist at 5-HT2CR in vitro.  We conclude that 5-HT2AR likely plays a major role in mediating the effects of both compounds. 5-HT2C and mGluR2 receptors likely modulate the discriminative stimulus effects of both compounds to some degree.",
+   "url": "https://reporter.nih.gov/project-details/9155757",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "Understanding Neuroplasticity Induced by TrYptamines (UNITY)",
+   "pi_names": [],
+   "institution": "UNIVERSITY COLLEGE LONDON",
+   "funder": "BBSRC",
+   "award_id": "718199B4-BB14-4AFF-BFC1-298CCB6E60BF",
+   "fiscal_year": 2020,
+   "fiscal_year_range": "2020",
+   "n_fiscal_years": 1,
+   "amount_usd": 0,
+   "amount_original": null,
+   "abstract": "Serotonergic psychedelics have broad therapeutic potential as a novel psychiatric\nintervention across a range of disorders. They also promote mental wellbeing in 'healthy'\npeople. Despite these demonstrations, we have little insight into the mechanisms of\ntherapeutic change following psychedelics. A likely candidate is neural plasticity though there\nhave been few direct tests. This project examines changes in the network organization of the\nhuman brain after a single administration of dimethyltryptamine (DMT) using functional\nmagnetic resonance imaging (fMRI). Network measures will be used to predict clinically\nrelevant benefits in heavy drinkers and improvements in well-being in typical populations.",
+   "url": "https://gtr.ukri.org/projects?ref=2396688",
+   "source": "UKRI Gateway to Research",
+   "country": "UK",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "Memory reconsolidation interference as a therapeutic mechanism of action of the serotonergic psychedelic N,N-Dimethyltryptamine",
+   "pi_names": [
+    "Marcus Glennon"
+   ],
+   "institution": "UNIVERSITY COLLEGE LONDON",
+   "funder": "ESRC",
+   "award_id": "32875849-6551-4932-BE4F-54644F353304",
+   "fiscal_year": 2021,
+   "fiscal_year_range": "2021",
+   "n_fiscal_years": 1,
+   "amount_usd": 0,
+   "amount_original": null,
+   "abstract": "Excessive drinking and alcohol use disorder (AUD) are major mental health problems worldwide (World Health Organisation, 2018), yet the effective treatments for these conditions are few and are of use in limited subpopulations (Mekonen et al., 2021). Memory reconsolidation interference interventions have been proposed as a potential novel treatment for addictive (Milton and Everitt, 2012) and other memory-based disorders such as PTSD and phobia (e.g. Saladin et al., 2013; Brunet et al., 2008; Soeter &amp; Kindt, 2015). Memory Reconsolidation interventions aim to weaken relapse-promoting maladaptive reward memory traces by reactivating and destabilizing these memories and interfering with their reconsolidation via pharmacological blockade or novel information (Dudai, 2006). Whilst meta-analyses have shown an overall effect size favoring memory reconsolidation interventions over control procedures (e.g. Walsh et al., 2018), both the methodology and results of individual trials are plagued by inconsistencies.\n\nRecently, psychiatry has seen an uptick in research into the therapeutic potential of psychedelic drugs, such as psilocybin, Dimethyltryptamine (DMT), and ketamine (e.g. Carhart-Harris et al., 2021; D'Souza et al., 2022; Das et al., 2019). Preliminary research shows that psychedelic-assisted interventions may be a promising treatment for addictive disorders, potentially offering both greater and longer-lasting efficacy than existing interventions (Morgan et al., 2017). However, this nascent area of research suffers from a lack of solid theoretical foundation and no well-controlled studies investigating the fundamental mechanisms of psychedelic drugs' therapeutic effects. Memory reconsolidation has been forwarded as one such mechanism (Fattore et al, 2018; Feduccia and Mithoefer, 2018; Daneluz et al, 2022), yet while superficially appealing, there has been no adequate test of this hypothetical mechanism with serotonergic psychedelics. If reconsolidation-update is indeed a key player in the therapeutic effect of psychedelics, this will have important implications for intervention design and optimization.\n\nThe purpose of my PhD is threefold: 1) To systematically quantify methodological variability in studies of putative memory reconsolidation interference to understand key sources of effect heterogeneity and offer guidance for harmonization of methods. 2) To understand 'neuroplastic' mechanisms of serotonergic psychedelics at human-measurable scales, using DMT as a model drug in the UNITy project (see below), the largest, richest, most rigorous DMT-fMRI trial ever conducted. 3) To investigate alcohol memory reconsolidation interference as a mechanism of action of DMT in hazardous drinkers; providing a framework for further work in addictive disorders.",
+   "url": "https://gtr.ukri.org/projects?ref=2559410",
+   "source": "UKRI Gateway to Research",
+   "country": "UK",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "Preclinical medication development for stimulant use disorder",
+   "pi_names": [
+    "Michael Baumann"
+   ],
+   "institution": "NATIONAL INSTITUTE ON DRUG ABUSE",
+   "funder": "NIH/NIDA",
+   "award_id": "ZIADA000522",
+   "fiscal_year": 2022,
+   "fiscal_year_range": "2022-2025",
+   "n_fiscal_years": 4,
+   "amount_usd": 2984088,
+   "abstract": "Significant progress was made on this project, which involves the preclinical development of candidate medications for stimulant use disorders. Four relevant manuscripts were published in peer-reviewed journals over the last year. Two articles characterize the pharmacology of novel 5-HT2A receptor agonists in mice, whereas two other articles describe methodological advances for determining the mechanism of drug action in vitro and in vivo. \n\nEmerging evidence suggests that psychedelic-assisted therapies could be useful for treating substance use disorders, but the intensity of acute 5-HT2A-mediated subjective effects can be problematic for some patients. In an original research publication, our team at NIDA IRP reported that serotonin-1A (5-HT1A) receptor activation by tryptamines, such as 5-methoxy-N,N-dimethyltryptamine (5-MeO-DMT), can markedly reduce their acute psychedelic-like effects in mice (Glatfelter et al., 2024). Our preclinical findings suggest that the balance between 5-HT1A and 5-HT2A agonism might be leveraged to develop psychedelic medications with less intense subjective effects. \n\n5-MeO-DMT analogs are used as recreational drugs, but they are also being developed as potential medicines, warranting further investigation into their pharmacology. We investigated in vitro receptor profiles and acute in vivo effects of 5-MeO-DMT and several of its N-alkyl analogs to examine the influence of 5-HT1A receptors on 5-HT2A-mediated psychedelic-like effects in the mouse head twitch response (HTR) model. In vitro binding and functional assays showed that all 5-MeO-DMT analogs bind to and activate multiple receptor targets, including potent effects at 5-HT1A and 5-HT2A receptors. In C57Bl/6J mice, subcutaneous injection of the analogs induced HTRs with varying potencies (ED50 range = 0.2 – 1.8 mg/kg) and maximal effects (Emax range = 20 – 60 HTRs/ 30 min), while also inducing hypothermia and hypolocomotion at higher doses (ED50 range = 3.2 – 20.6 mg/kg). 5-HT2A antagonist pretreatment blocked drug-induced HTRs, whereas 5-HT1A antagonist pretreatment enhanced HTRs. Interestingly, blockade of 5-HT1A receptors unmasked latent HTR activity for the N-ethyl homolog and markedly increased maximal responses for all other HTR-active analogs (40 – 90 HTRs/ 30 min), supporting the notion that 5-HT1A agonist activity suppresses 5-HT2A-induced HTRs.   \n\nOverall, our findings provide key information about the structure activity relationships for 5-MeO-DMT analogs to induce psychedelic-like effects, their overall target profiles, and suggest that increasing the degree of 5-HT1A receptor agonism may be a viable strategy to dampen acute psychoactive effects of 5-HT2A agonists.",
+   "url": "https://reporter.nih.gov/project-details/11414520",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": true
+  },
+  {
+   "project_title": "High-throughput Identification of Non-hallucinogenic Psychoplastogens for Treating Addiction",
+   "pi_names": [
+    "David E Olson"
+   ],
+   "institution": "UNIVERSITY OF CALIFORNIA AT DAVIS",
+   "funder": "NIH/NIDA",
+   "award_id": "R01DA056365",
+   "fiscal_year": 2022,
+   "fiscal_year_range": "2022-2026",
+   "n_fiscal_years": 5,
+   "amount_usd": 2713840,
+   "abstract": "PROJECT SUMMARY/ABSTRACT\nPathological changes in neural circuitry underly a variety of neuropsychiatric diseases including addiction and\ndepression. Accumulating evidence from human imaging, postmortem analysis, and animal models suggests\nthat atrophy of neurons in the prefrontal cortex (PFC)—including the retraction of dendritic arbors, loss of\ndendritic spines, and reduction in synapse density—plays a key role in the pathophysiology of substance use\ndisorders (SUDs). The PFC is well known to regulate limbic reward circuitry, modulate attention, and exert top-\ndown control over drug-seeking behavior, and thus, the atrophy of neurons in the PFC is believed to worsen\nSUD by reducing executive control, exacerbating impulsivity, and leading to deficits in the extinction of drug-cue\nmemories. Therapeutic strategies aimed at restoring PFC structure/function are hypothesized to have broad\ntherapeutic potential for SUDs. Psychoplastogens—small molecules that activate TrkB signaling and serve as\nbrain-derived neurotrophic factor (BDNF) mimetics—are able to rapidly restore functional connectivity in the PFC\nand produce long-lasting therapeutic effects after a single administration. However, the most prominent\npsychoplastogens—including serotonergic psychedelics—all produce hallucinations, which greatly limit their\ntherapeutic potential. Recently, evidence has emerged suggesting that the hallucinogenic effects of these drugs\nmay not be necessary for their therapeutic properties, and the first non-hallucinogenic psychoplastogens were\nintroduced by our group this past year. One such molecule, known as tabernanthalog (TBG), produces both\nrapid and sustained anti-addictive effects in rodent models of heroin self-administration, much like the known\nanti-addictive psychedelic ibogaine. The advent of TBG represents an exciting new direction for the treatment\nof addiction, but there is an urgent need to develop new assays enabling the rapid identification of TBG-like\nmolecules with optimized efficacy and safety profiles. Our overall objective is to develop high-throughput\nmethods for identifying non-hallucinogenic psychoplastogens that, like TBG, can produce long-lasting\ntherapeutic effects. To achieve this goal, we have developed psychLight—a genetically encoded, 5-HT2AR-\nbased biosensor capable of predicting both the hallucinogenic and psychoplastogenic properties of small\nmolecules. The proposed studies involve the use of this technology to rapidly identify new non-hallucinogenic\npsychoplastogens for treating addiction as well as probing potential 5-HT2AR interactions with dopamine, opioid,\nand cannabinoid receptors. We also propose studies to elucidate the molecular and circuit-level mechanisms of\nthe anti-addictive, non-hallucinogenic psychoplastogen TBG. Ultimately, the work described here will fill the gap\nin our knowledge about how best to rapidly screen for non-hallucinogenic psychoplastogens, which will enable\nthe rational design of safer, non-hallucinogenic alternatives to psychedelics for treating SUDs and related co-\nmorbid diseases such as depression.",
+   "url": "https://reporter.nih.gov/project-details/11292383",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "Target Specificity of Tabernanthalog Treatment in Opioid Use Disorder",
+   "pi_names": [
+    "Jamie Peters",
+    "Jasper Heinsbroek"
+   ],
+   "institution": "UNIVERSITY OF ALABAMA AT BIRMINGHAM",
+   "funder": "NIH/NIDA",
+   "award_id": "R01DA056660",
+   "fiscal_year": 2022,
+   "fiscal_year_range": "2022-2026",
+   "n_fiscal_years": 3,
+   "amount_usd": 2591494,
+   "abstract": "PROJECT SUMMARY\nOpioid use disorder (OUD) is characterized by persistent drug seeking often accompanied by a loss of interest\nin natural rewards. Current FDA-approved treatments for OUD target the endogenous opioid system directly,\neither as substitution therapies (e.g. buprenorphine, methadone) or antagonists that oppose opioid effects (e.g.\nnaltrexone, naloxone). Although these therapies have helped reduce overall harm, they are rarely a cure for\nOUD. As the seat of executive function, the PFC plays an integral role in decision-making, impulse control, and\nthe cognitive regulation of drug craving and relapse. Thus, novel compounds capable of promoting neural\nplasticity to augment or restore PFC function possess enormous therapeutic potential for treating substance use\ndisorders (SUDs). Structural plasticity in the PFC could produce long-lasting protective effects against relapse,\nand would reduce the need for chronic medication. Plasticity-promoting, psychoplastogenic compounds may\nalso have broad-spread restorative effects on downstream neural circuits, and may normalize aberrant plasticity\nand neural activity across addiction networks. Psychedelic compounds including 5-methoxy-N,N-\ndimethyltryptamine (5-MeO-DMT) and ibogaine potently induce spine growth in the PFC in a serotonin 5-HT2A\nreceptor-dependent manner. This class of drugs also elicits long-lasting anti-addictive properties across a wide\nvariety of SUDs, but their side effects including hallucinations and cardiotoxicity limit their therapeutic potential.\nTo overcome these barriers to therapeutic application, we engineered a safer psychoplastogenic 5-HT2A\nreceptor ligand called tabernanthalog (TBG), which chemically resembles ibogaine and 5-MeO-DMT, yet lacks\nhallucinogenic effects and cardiotoxicity and does not bind to opioid receptors. We demonstrated that TBG\ndecreases both alcohol and heroin consumption and reduces relapse rates long-term in a heroin self-\nadministration model after a single treatment. However, the pharmacological and brain-specific mechanisms that\nmediate these anti-addictive effects are currently unknown. The overarching objectives of this project are to\ndetermine the in vivo receptor targets mediating the anti-addictive effects of TBG, and whether TBG’s\npsychoplastogenic effects within addiction neural circuitry is a mechanism of action for TBG therapy. Establishing\nthe anti-addictive mechanism of TBG will aid continued drug discovery of more potent and selective compounds\nfor treating addiction and may help identify patient populations that are likely to respond to treatment. In addition\nto identifying the role of serotonin receptors and structural plasticity in the effect of TBG, this proposal will also\nscreen the therapeutic potential of TBG in a polydrug (opioid and alcohol) use model and determine the specificity\nof TBG therapy for opioids versus natural rewards. Information gained from this project will provide insight into\nTBG’s potential as an anti-OUD therapeutic and its mechanism of action, thus allowing us to further optimize\nTBG and related compounds for translation to the clinic.",
+   "url": "https://reporter.nih.gov/project-details/11393913",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "Phase 1 Translational Diabetes Research Using The DYRK1A inhibitor, Harmine",
+   "pi_names": [
+    "Andrew F. Stewart",
+    "James Warren Murrough"
+   ],
+   "institution": "ICAHN SCHOOL OF MEDICINE AT MOUNT SINAI",
+   "funder": "NIH/NIDDK",
+   "award_id": "R01DK128242",
+   "fiscal_year": 2022,
+   "fiscal_year_range": "2022-2023",
+   "n_fiscal_years": 2,
+   "amount_usd": 676000,
+   "abstract": "This revised application is responsive to FOA PAS-20-160 “Small R-01’s for Clinical Trials Targeting Diseases Within\nthe Mission of NIDDK”.\nBoth Type 1 diabetes (T1D) and Type 2 diabetes (T2D) ultimately result from inadequate numbers of normally\nfunctioning, insulin-producing beta cells, yet essentially everyone with T1D or T2D has residual beta cells. This beta\ncell deficiency underlies the use of pancreas and islet transplant in diabetes and the development of stem cell-derived\napproaches for beta cell replacement for diabetes. These approaches are effective or feasible, but not scalable to the\n463 million people globally with diabetes. Despite the well documented deficiency in beta cell numbers, and despite\na plethora of clinically-available diabetes drugs, there are no drugs in current clinical use that induce human beta cells\nto replicate or regenerate.\nWe and others have identified a novel class of orally available small molecules, the DYRK1A inhibitors, that are highly\neffective in stimulating human beta cells to proliferate, to increase in number in vitro and in vivo, to enhance human\nbeta cell differentiation, and to reverse diabetes in vivo in a marginal mass human islet transplant setting. In addition,\nthe human beta cell proliferation induced by DYRK1A inhibitors is markedly potentiated by GLP1 receptor agonists in\nclinical use such as exenatide, liraglutide, semaglutide, lixisenatide and others. Thus, regeneration of human beta\ncells in diabetes is now feasible, and it is appropriate to begin to analyze the safety of DYRK1A inhibitors.\nAmong the several known DYRK1A inhibitors, most are synthetic and are supported by little or no preclinical data. In\ncontrast, one, harmine, is a natural, plant-derived molecule that has been used in humans for centuries in a concoction\ncalled Ayahuasca. Ayahuasca contains a number of biologically and neuro-psychologically active compounds, in\naddition to harmine, including the likely psychoactive compound, 5-,5’-dimethyltryptamine (DMT). Most authors\nsuggest that the psychoactive component of Ayahuasca is DMT, and not harmine. Harmine - in therapeutic beta cell-\nregenerative doses in mice - caused no adverse effects in three-month studies. However, it is unknown whether orally\nadministered pure harmine leads to adverse effects in humans, and if so at what doses these might occur.\nSince harmine is very effective in inducing human beta cell regeneration in vitro and in vivo, since preclinical data\nsuggest that harmine is safe, and since Ayahuasca is not known to have chronic adverse effects in humans, we\npropose an open label, Phase 1, single dose escalation study of orally administered pure harmine. There is one\nSpecific Aim:\nSpecific Aim. To Perform A Single Rising Dose Human Phase 1 Clinical Trial with Pure Harmine.\nOur Primary Outcome Measure is the identification of the Maximally Tolerated Dose (MTD) of harmine in humans.\nSecondary outcome measures include defining the adverse effects of harmine in humans, if they exist, and generating\npilot data for subsequent studies in humans with diabetes.",
+   "url": "https://reporter.nih.gov/project-details/10665783",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": true
+  },
+  {
+   "project_title": "Structural studies of psychedelic activity at the serotonin receptor 5-HT1A",
+   "pi_names": [
+    "Audrey Louise Warren"
+   ],
+   "institution": "ICAHN SCHOOL OF MEDICINE AT MOUNT SINAI",
+   "funder": "NIH/NIMH",
+   "award_id": "F31MH132317",
+   "fiscal_year": 2022,
+   "fiscal_year_range": "2022-2023",
+   "n_fiscal_years": 2,
+   "amount_usd": 85426,
+   "abstract": "PROJECT SUMMARY\nThe rise of interest in psychedelic medicine calls for further exploration of the mechanisms underlying the\ntherapeutic nature of these drugs. Serotonin receptors are well-established regulators of behavioral and\ncognitive effects. In particular, the serotonin receptor 5-HT1A is a primary target of antidepressant, anxiolytic,\nand antipsychotic medications. 5-HT1A is also a high-affinity target of multiple psychedelic drugs, but its role in\nthe physiological effects of psychedelics has been overlooked as the serotonin receptor 5-HT2A is suggested\nto be the primary mediator of hallucinogenic effects. However, select psychedelics have equivalent or greater\naffinity for 5-HT1A over 5-HT2A. This project seeks to determine the unique molecular details of psychedelic\nbinding and activity at 5-HT1A with structural and functional studies. Structures of a 5-HT1A-G-protein complex\nbound to psychedelic and therapeutic drugs will be solved via cryo-electron microscopy, revealing ligand and\ntransducer binding interactions at near-atomic resolution. This project will also address the lack of receptor-\nlevel information on psychedelic activity with a series of in vitro functional studies. Distinct signaling pathways\nhave been associated with therapeutic or undesirable effects at other G-protein coupled receptors. As such,\nthe activity of existing psychedelics at 5-HT1A and 5-HT2A will be characterized across two major signaling\npathways—G-protein and b-arrestin. Additionally, the psychedelic 5-methoxy-dimethyltryptamine (5-MeO-\nDMT) is reportedly selective for 5-HT1A over 5-HT2A. This scaffold will be exploited. A series of 5-MeO-DMT\nderivatives will be synthesized and tested to identify the pharmacophores conferring selectivity for 5-HT1A over\n5-HT2A. This experiment will generate selective compounds useful for delineating the role of 5-HT1A in vivo. In\na parallel set of experiments, 5-HT1A will be mutagenized to identify individual residues that play a key role in\n5-HT1A activity and signaling. These experiments will confirm structural observations and identify important\nresidues outside of 5-HT1A’s ligand binding pocket. The complementary results of structural and functional\nexperiments will serve as an invaluable resource for future in vivo and drug-design efforts. In summary, the\nproposed studies will reveal the structural and chemical determinants of psychedelic activity at 5-HT1A and\ngenerate novel psychedelic compounds with defined activity, which can be used in future studies to delineate\nthe precise role of 5-HT1A in psychedelic physiology.",
+   "url": "https://reporter.nih.gov/project-details/10710525",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "The potential therapeutic effects of N, N-dimethyltryptamine (DMT) on alcohol use disorder (AUD)",
+   "pi_names": [
+    "Anahita Bassir Nia",
+    "Deepak Cyril D'Souza"
+   ],
+   "institution": "YALE UNIVERSITY",
+   "funder": "NIH/NIAAA",
+   "award_id": "R21AA030649",
+   "fiscal_year": 2023,
+   "fiscal_year_range": "2023-2024",
+   "n_fiscal_years": 2,
+   "amount_usd": 343613,
+   "abstract": "ABSTRACT\nThere is an urgent need to develop novel pharmacological treatment for alcohol use disorder (AUD). Recently,\npsychedelic compounds have attracted great attention in treatment of different psychiatric disorders following\ntheir reported fast-acting and long-lasting effects. Preliminary evidence from observational studies, supported\nby animal studies, is promising for the potential therapeutic effects of psychedelic N,N-dimethyltryptamine\n(DMT) for AUD. Here, we propose to investigate the therapeutic potential of a single dose of intravenous DMT\nplus a brief course of psychotherapy (including Motivational Enhancement Therapy (MET)) on alcohol\nconsumption in non-treatment seeking individuals with AUD, in a proof-of-concept, randomized (1:1), placebo-\ncontrolled, double-blind, parallel group, laboratory study and clinical trial.\nMethods: Otherwise healthy individuals with diagnosis of moderate to severe AUD (based on DSM5) will be\nrandomized to receive a single dose of intravenous DMT or active placebo (diphenhydramine). Vitals will be\nclosely monitored, tolerability will be measured using a Visual Analogue Scale (VAS), and DMT acute\npsychedelic effects will be assessed using the Mystical Experience Questionnaire (MEQ), at the end of the\ndosing day. Adverse events will be assessed using the Systematic Assessment for Treatment Emergent\nEffects (SAFTEE) interview on the dosing day and weekly follow up sessions (4 weeks). One day following\ndrug administration, participants will attend an experimental session using Alcohol Drinking Paradigm (ADP).\nAll participants will consume a priming dose of alcohol at the beginning of the experimental session, which will\nbe followed by two 1-hour self-administration drinking sessions, over which participants will have a choice of\nconsuming a total of 8 drinks or receiving $5 for each drink that is not consumed. The total number of\nconsumed drinks is the main primary outcome. All participants will receive a brief course of psychotherapy\n(including MET). We will explore the effects of DMT (plus brief psychotherapy) on participants' natural alcohol\nconsumption weekly for 4 weeks, using Timeline follow-back (TLFB), to measure the percentage of heavy\ndrinking days, abstinent days, and total amount of alcohol consumption and categorical outcomes of\nabstinence, no heavy drinking and a 2-level reduction in WHO drinking risk will be compared.\nHypotheses: Relative to control (diphenhydramine, IV, 25 mg plus MET), a single psychedelic dose of\nintravenous (IV) DMT (0.3 mg/kg) plus brief psychotherapy (including MET) in individuals with AUD will 1) be\nsafe and well-tolerated, 2) reduce alcohol consumption measured in the laboratory using Alcohol Drinking\nParadigm, the day after, and 3) reduce alcohol drinking over the following 4 weeks.",
+   "url": "https://reporter.nih.gov/project-details/10904027",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "Mechanistic insights into LSD actions at 5-HT2A serotonin receptors",
+   "pi_names": [
+    "Bryan L. Roth"
+   ],
+   "institution": "UNIV OF NORTH CAROLINA CHAPEL HILL",
+   "funder": "NIH/NIDA",
+   "award_id": "R37DA045657",
+   "fiscal_year": 2024,
+   "fiscal_year_range": "2024-2026",
+   "n_fiscal_years": 3,
+   "amount_usd": 1952268,
+   "abstract": "Psychedelic drugs continue to be used and abused by large numbers of individuals within the\n US and recently there has been a resurgence of interest in the actions of psychedelic drugs like\n lysergic acid diethylamide (LSD). It is currently unknown how LSD and related psychedelic drugs\n exert their actions at the molecular and atomic levels. In this MERIT extension we will elucidate the\n molecular mechanisms by which LSD and related drugs interact with multiple G protein coupled\n receptors. We will also determine the potential relevance of differences between human and rodent\n receptors for the actions of LSD and related drugs in vitro and in vivo. Finally we will examine the\n effects of LSD and related drugs on the gene transcriptional changes which occur specifically in\n neurons which express receptor essential for the actions of LSD. Taken together, these new findings\n will provide molecular and atomic details regading the actions of psychedelic drugs in vitro and in\nvivo.",
+   "url": "https://reporter.nih.gov/project-details/11285478",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "Cross platform analysis of drug targets and toxicity of bath salts",
+   "pi_names": [
+    "Isaac T Schiefer"
+   ],
+   "institution": "UNIVERSITY OF TOLEDO HEALTH SCI CAMPUS",
+   "funder": "NIH/NIDA",
+   "award_id": "U01DA054330",
+   "fiscal_year": 2024,
+   "fiscal_year_range": "2024",
+   "n_fiscal_years": 1,
+   "amount_usd": 389265,
+   "abstract": "PROJECT SUMMARY/ABSTRACT\nThe parent award is focused on studying the mechanisms of novel psychoactive agents, with an emphasis on\nphenethylamines. Some of these agents are hallucinogenic and induce pronounced long term changes in\ndendritic branching and synaptic plasticity (termed as psychoplastogens). Even acute treatments with\ndimethyltryptamine (DMT), an agent from a related class (an indole-alkylamine) results in long term synaptic\nrewiring. The mechanisms behind these effects are the focus of significant interest for neuropsychiatric disorders\nand may have applications for dementia and Alzheimer’s disease (AD). Recent evidence indicates they may\nwork via direct activation of TrkB, but most investigations have focused on traditional targets associated with\nthese agents, such as 5-HT1A/2A, and few studies have used AD models. We propose to study binding partners\nof psychoplastogens and effects of kinase signaling and gene expression in human AD patients derived iPSCs\nvia multi-omic analysis.",
+   "url": "https://reporter.nih.gov/project-details/10939799",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "Effects of Psychedelics on Brain Function and Neuroplasticity",
+   "pi_names": [
+    "Jonah Padawer-Curry"
+   ],
+   "institution": "WASHINGTON UNIVERSITY",
+   "funder": "NIH/NINDS",
+   "award_id": "F99NS139512",
+   "fiscal_year": 2024,
+   "fiscal_year_range": "2024-2025",
+   "n_fiscal_years": 2,
+   "amount_usd": 87712,
+   "abstract": "PROJECT SUMMARY\nPsychiatric disorders are the leading cause of disabilities worldwide, and cost over $300B in the U.S alone.\nDespite the rise in psychiatric medication prescriptions, approximately 30% of patients are treatment resistant.\nClinical trials indicate that psilocybin elicits rapid and sustained outcomes for mood and substance use disorders,\nsparking interest in the therapeutic potential of psychedelics. These effects are believed to be dependent on the\nserotonin-2A receptor subtype. However, serotonin exerts potent vasoactive effects, which becomes particularly\nrelevant when employing functional magnetic resonance imaging (fMRI) to study the influence of psychedelics\non neurophysiology. fMRI indirectly indexes neuronal activity via blood-oxygen-dependent signals which depend\non neurovascular coupling (NVC). If NVC is altered, hemodynamic measures of brain activity may inaccurately\nreflect neuronal activity. Accurate assessment of the neurophysiological effects of psychedelics requires\nsimultaneous mapping of neuronal and hemodynamic activity. That psychedelics alter brain structure and\nfunction is supported by molecular evidence demonstrating altered synaptic plasticity. Further, psychedelics can\nreactivate social critical periods in adult mice in a manner that aligns with the length of human-reported acute\nsubjective effects (intoxication). These observations imply that psychedelics having longer versus shorter\nintoxication duration may differentially affect neuroplasticity. However, the potential for psychedelics to reopen\ncritical periods beyond social reward circuitry is unknown, as is the impact of psychedelic duration on these\nprocesses. The central hypothesis of this proposal is that psychedelics give rise to differential reports of neuronal\nversus hemodynamic measures of neurophysiology and sensitize neuroplasticity in an intoxication-duration-\ndependent manner. I have been testing this hypothesis during my PhD research using wide-field optical imaging\nin awake mice under the influence of the psychedelic 2,5-Dimethoxy-4-iodoamphetamine (DOI). My preliminary\nresults (Aim 1a) reveal that DOI significantly alters NVC, and that calcium (neuronal) and hemodynamic signaling\ndifferentially report how DOI alters brain network organization. For the remainder of my PhD, I will determine\nwhether short- versus long-duration psychedelics differentially affect neurophysiology (Aims 1b, F99 Phase). For\nmy postdoctoral research, I will determine whether psilocybin and DMT affect neuroplasticity in the visual system\n(Aim 2, K00 Phase). Specifically, I will test the hypothesis that psychedelics accelerate functional brain\nreorganization induced by monocular deprivation in a psychedelic intoxication-duration manner. Results from the\nproposed experiments will establish network-level neuronal signatures of psychedelics and determine whether\npsychedelics broadly enhance neuroplasticity. To guide my training, I have assembled an interdisciplinary team\nof mentors and collaborators at Washington University in St. Louis with diverse, complementary expertise. The\noutlined research and training plan will allow me to achieve my career goal of becoming an independent\ninvestigator designing novel treatment strategies for patients resistant to existing psychiatric therapies.",
+   "url": "https://reporter.nih.gov/project-details/11127651",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "Optimization of New Drugs for the Treatment of Essential Tremor",
+   "pi_names": [
+    "Kevin Hodgetts"
+   ],
+   "institution": "BRIGHAM AND WOMEN'S HOSPITAL",
+   "funder": "NIH/NINDS",
+   "award_id": "R61NS138810",
+   "fiscal_year": 2025,
+   "fiscal_year_range": "2025",
+   "n_fiscal_years": 1,
+   "amount_usd": 864552,
+   "abstract": "PROJECT SUMMARY\nEssential tremor (ET) is one of the most common neurological diseases, with an estimated seven million\naffected persons in the USA. The disease is chronic and progressive. It is poorly served by currently available\nmedications that initially were approved for other indications. Here, we describe a new approach to discovering\nnovel compounds tailored explicitly toward the hypothesized underlying causes of ET.\nAlthough the etiology and pathophysiology of ET are not yet fully understood, human data strongly implicates:\ni) endogenous β-carbolines (e.g., harmane) in the etiology of ET and (ii) a disturbance of the GABAergic system\nin the pathophysiology of ET. Harmane is a negative allosteric modulator (NAM) that reduces the maximal\nfunctional response elicited by GABA and binds at an allosteric site different from the benzodiazepine site.\nIndeed, exogenous administration of harmine causes tremors in humans.\nWe have identified a mechanistically unique strategy to treat ET and restore GABAA functional tone to a normal\nstate while avoiding the side effects typically associated with excessive GABAA potentiation. Our preliminary\nstudies identified both (i) GABAA precision PAMs and (ii) dual GABAA precision PAM/β2-adrenergic receptor\nantagonists that were efficacious in the harmaline model of ET without sedation. With optimized PK and brain\nexposure, we believe that a GABAA precision PAM will restore proper motor function in brain regions affected\nin ET without the side effects of excessive GABAA potentiation (e.g., sedation). Our Aims are as follows:\nAIM 1: Medicinal chemistry optimization and in vitro characterization of novel β-carboline GABAA\nPAMs. ZK-95962 was a promising GABAA partial agonist, but high clearance, poor oral bioavailability, and\nsedation halted its clinical development. We propose that (i) the cause of the poor PK of ZK-95962 (e.g., ester\nhydrolysis) can be successfully addressed, and (ii) its excessive GABA potentiation can be fine-tuned by\nappropriate substitution. Therefore, this aim aims to identify novel β-carboline GABAA precision PAMs and\nsignificantly improve these compounds' metabolic stability and PK properties.\nAIM 2: In vivo evaluation of lead molecules in the harmaline model of ET. Three GABAA precision PAMs\nand three dual-acting compounds (e.g., β2-ADR antagonist/GABA precision PAM) that satisfy the stringent\ncriteria defined in Table 3 will be scaled up for evaluation in the harmaline model. Efficacious compounds will\nbe tested in three models (righting reflex, rotarod, and SLA) that can detect different indicators of sedation. For\na compound to advance, it must in all three safety models, demonstrate a NOAEL ≥30X above its ED50 in the\nharmaline ET efficacy model. Compounds with a NOAEL ≥100X will be preferred.\nA positive result will provide mechanistic support for the proposition that a precision GABAA PAM can eliminate\ntremors in the harmaline model of ET without sedative side effects and the identification of compounds suitable\nfor advancement into preclinical safety testing.",
+   "url": "https://reporter.nih.gov/project-details/11219873",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": true
+  },
+  {
+   "project_title": "Psilocybin effects on brainwide activity dynamics supporting accelerated task acquisition",
+   "pi_names": [
+    "Samuel Sheng-Hung Wang"
+   ],
+   "institution": "PRINCETON UNIVERSITY",
+   "funder": "NIH/NIDA",
+   "award_id": "R21DA062252",
+   "fiscal_year": 2025,
+   "fiscal_year_range": "2025-2026",
+   "n_fiscal_years": 2,
+   "amount_usd": 451000,
+   "abstract": "PROJECT SUMMARY / ABSTRACT\nThis proposal aims to investigate the systems-level brain mechanisms underlying the therapeutic potential of\npsilocybin, a psychoactive compound that has attracted recent attention for the treatment of anxiety,\ndepression, addiction, pain, and illness-associated distress. Despite promising outcomes in clinical trials, the\nspecific mechanisms governing psilocybin's medicinal effects remain poorly understood. Our preliminary data\nreveal a novel dissociation between two major effects of a single dose of psilocybin: serotonergic receptor\nactivation mediates acute behavioral changes, while BDNF/TrkB signaling drives improvements in learning and\nmotivated behavior lasting for weeks after a single dose of drug administration. We will explore these\npsilocybin-driven changes in behavioral states and motivated task acquisition and identify the cellular and\nbrainwide substrates, from dendritic spines to large-scale brain networks.\n Aim 1 examines the accelerated acquisition of motivated behavior components within an evidence\naccumulation task. In preliminary results, psilocybin specifically enhances stages requiring changes in action\ncontrol rather than working memory capacity. Pharmacological studies so far show that ketanserin blocks\nacute effects but preserves learning enhancement, while TrkB antagonist ANA-12 blocks learning\nenhancement but not acute effects. Using transgenic mice lacking the TrkB allosteric site, we will next test\nwhether psilocybin's learning effects require action upon the neurotrophin pathway. Trial-by-trial and within-trial\nanalyses will quantify attentional state, sensory integration, and learning rate. In freely moving mice, we will\nperform automated pose tracking to quantify social behavior and motivation.\n Aim 2 identifies cellular and brainwide substrates of psilocybin-induced functional change. Our\npreliminary data from mouse brain sections show that training combined with psilocybin leads to reduced\ndendritic spine density specifically in task-relevant cortical regions, suggesting enhanced circuit refinement.\nUsing AI-based spine detection and in vivo multiphoton imaging, we will track spine dynamics over extended\nperiods. These methods will be applied to wild-type and TrkB-allosteric-knockout mice to evaluate whether\ndendritic spine plasticity is co-regulated with learning acceleration. Using automated analysis of activity-\ndependent neuronal c-Fos expression with light-sheet microscopy, we will further perform a brainwide\nassociation study to identify regions and co-activated networks supporting enhanced task acquisition.\n The \"breakthrough therapy\" status granted to psilocybin underscores its therapeutic potential. This\nproposal seeks to advance our understanding of psilocybin's brain circuit-level mechanisms, with the goal of\ndeveloping interventions that preserve therapeutic benefits while minimizing unwanted effects. The results will\nguide future neurophysiological investigations and more effective psilocybin-based treatments for mental\nhealth concerns.",
+   "url": "https://reporter.nih.gov/project-details/11346058",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "Characterization of a novel non-hallucinogenic psilocybin derivative for alcohol use disorder",
+   "pi_names": [
+    "Christopher G Witowski",
+    "Danielle Gulick",
+    "Jacqueline Salm"
+   ],
+   "institution": "TERP LIFE, LLC",
+   "funder": "NIH/NIAAA",
+   "award_id": "R44AA031925",
+   "fiscal_year": 2025,
+   "fiscal_year_range": "2025",
+   "n_fiscal_years": 1,
+   "amount_usd": 320263,
+   "abstract": "Abstract\nThe use of psychedelic molecules in the treatment of alcohol/substance abuse and mental health disorders\nis one of the most controversial topics in modern society. This skepticism is due to its historic recreational\nuse for hallucinogenic effects and potential for abuse. However, recent investigations specifically around\npsilocybin and derivatives reveal increasing evidence for their therapeutic use in mental health,\nneurocognitive, and substance abuse disorders. Safe and effective treatments for each of the\naforementioned ailments require greater attention as we progress as a society.\nWe have performed detailed structure-activity relationship analyses of various tryptamine analogs to\nprobe their biological properties and develop effective treatments with reduced hallucinogenic properties.\nThis proposal provides a detailed plan to further develop a more selective serotonergic-targeting, non-\nhallucinogenic psilocybin derivative for alcohol use disorders with promising preliminary efficacy in\nalcohol preferring mice that surpass the activity of psilocin over a 60-day dosing period.",
+   "url": "https://reporter.nih.gov/project-details/11005333",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "Transcriptomic and Epigenomic Investigation of Antidepressant and Non-Hallucinogenic Serotonin Receptor Agonists",
+   "pi_names": [
+    "Ethan Marsh Fenton"
+   ],
+   "institution": "UNIVERSITY OF CALIFORNIA AT DAVIS",
+   "funder": "NIH/NIDA",
+   "award_id": "F31DA062491",
+   "fiscal_year": 2025,
+   "fiscal_year_range": "2025-2026",
+   "n_fiscal_years": 2,
+   "amount_usd": 86366,
+   "abstract": "PROJECT SUMMARY\nRoughly 15% and 8% of adults in the United States experience a substance use disorder or major\ndepressive disorder, respectively. The psychedelic class of medicines with agonism at the serotonin 2A\nreceptor has shown promise for treatment of each of these; however, the often concomitant hallucinatory\neffects diminish their clinical utility, regulatory approval, and widespread adoption. A major question in the\npsychedelic field is whether the hallucinations can be separated from the antidepressant effects, or if they\nthemselves confer therapeutic effects. The lab of Dr. Olson, a co-sponsor of this proposal, has developed a\nnon-hallucinogenic serotonin receptor agonist, tabernanthalog (TBG), that shows preclinical antidepressant\neffects. The mechanisms of action of this small molecule are not completely understood. TBG has affinity for\nmultiple receptors and pleiotropic actions within the brain. The availability of hallucinogenic and\nnon-hallucinogenic compounds with shared therapeutic effects enables studies that to address a major\nquestion in the field: what are the commonalities and differences in drug-induced cellular and molecular\nresponses between these classes of drugs. I will use paired snRNAseq and snATACseq as well as\ncomplementary histology and epignenomics assays to characterize the transcriptomic and epigenomic\nchanges mediated by TBG and a hallucinogenic psychedelic, 5-Methoxy-Dimethyltryptamine (5-MeO-DMT)\n24 hours after administration. I will test for cell type specific effects that are shared or differ between drugs\nand test if cellular responses are correlated with expression of the presumed relevant receptor protein, the\nserotonin 2a receptor. Specifically, I am focused on the synaptic and plasticity related genes that may drive\nthe persistent therapeutic effects. There have been no reported studies applying these methods to\nnon-hallucinogenic psychedelics, and most previous genetic studies focus on one or a limited set of genes.\nFinally, using paired snRNA and snATACseq will enable both cell-type specific resolution and linking\ntranscriptomic and epigenetic changes. I will focus on synaptic/plasticity gene loci and attempt to distinguish\nsignaling aspects that are common to both drugs (and thus potentially driving therapeutic effects).\nAdditionally, I will test spatial organization of the responsive cells using RNA-FISH and perform histone\nCUT&RUN to test for chromatin state changes associated with accessibility and transcriptional regulation.\nThis work will expand understanding of the mechanisms of action and the target cell types of these\npleiotropic small molecule psychedelic drugs, and do so with multiomic modalities and systems-biology level\nof comprehensive analysis not previously attained. This proposal represents a cross-disciplinary effort\nlinking pharmacology and genomics that brings powerful approaches to understanding basic cellular and\nmolecular activities underlying promising psychedelic compounds for the treatment of MDD and other\ndisorders, and these results will have further value towards development of next generation therapeutics.",
+   "url": "https://reporter.nih.gov/project-details/11322515",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  },
+  {
+   "project_title": "The effects and mechanisms supporting psilocybin induced pain relief",
+   "pi_names": [
+    "Adam L. Halberstadt",
+    "Fadel Zeidan"
+   ],
+   "institution": "UNIVERSITY OF CALIFORNIA, SAN DIEGO",
+   "funder": "NIH/NCCIH",
+   "award_id": "R01AT013263",
+   "fiscal_year": 2026,
+   "fiscal_year_range": "2026",
+   "n_fiscal_years": 1,
+   "amount_usd": 788967,
+   "abstract": "Chronic phantom limb pain (cPLP) is a debilitating chronic pain disorder that is experienced by up to 64% of\nthe 356 million people with amputations worldwide. The prevalence of cPLP is rapidly rising due to the\nincreased incidence of severe diabetes mellitus and vascular diseases. The primary symptom of cPLP is pain,\nwhich, in the majority of cases, is severe, treatment resistant and consequently signifies the importance of\ndeveloping fast acting cPLP treatments. Chronic pain severity and corresponding comorbidities are driven by\namplified sensory, self-referential, and negative affective interactions that intensify the transition of acute to\nchronic pain. Thus, pain therapies that reliably target nociceptive specific and affective mechanisms may\nproduce durable improvements in pain symptomology and well-being. The recent “psychedelic renaissance”\nhas generated wide-reaching interest into the potential efficacy of psilocybin as a pain therapeutic. Psilocybin\n(4-phosphoryloxy-N, N-dimethyltryptamine), a hallucinogenic drug that modifies self-referential processes, has\nshown promise at reducing cPLP. Mechanistic appreciation of if and how psilocybin modifies pain is needed.\nThe default mode network (DMN), a midline cortical neural network supporting egocentric and affective pain\nappraisals, has been revealed as a neural target for chronic pain and psilocybin. Yet, the analgesic effects and\nsupporting brain mechanisms through which psilocybin can modulate chronic pain are unknown. The proposed\nresearch activities will significantly expand our understanding of the impact of psilocybin on chronic pain and\nthe corresponding neural mechanisms. In a recently completed pilot clinical trial, 25mg of psilocybin (n = 5)\nwas found to be a safe and feasible treatment for cPLP as compared to niacin (100mg; n = 4). Importantly, four\nweeks after dosing, psilocybin was associated with reductions in weekly cPLP (- 43%). In contrast, the niacin\ngroup exhibited no change in cPLP four weeks after dosing as compared to baseline. Weaker resting state\nfunctional connectivity (rsFC) between the DMN and thalamus predicted greater psilocybin-based cPLP relief 4\nweeks after dosing. The proposed R01 application will expand on our pilot study and aims to identify the neural\nprocesses supporting the effects of psilocybin on cPLP. In the proposed mechanistic clinical trial, 60 patients\nwith lower limb amputations and cPLP will be recruited and randomized to receive double blind administration\nof 25mg psilocybin (n=30) or 50mg niacin (n=30) after completing baseline assessments. “Past week” cPLP\nwill be assessed at baseline and 1 day, 2-, 4- and 12-weeks post-dosing. Functional MRI will be acquired at\nbaseline, and 1 day and 4 weeks post-dose. We hypothesize that psilocybin induced cPLP relief will be\nassociated with weaker DMN–thalamic rsFC four weeks after dosing when compared to baseline. Exploratory\nanalyses will also test if psilocybin elicits greater cPLP relief when compared to niacin. The knowledge gained\nfrom the proposed work will provide novel mechanistic understanding of psilocybin-induced cPLP relief.",
+   "url": "https://reporter.nih.gov/project-details/11295725",
+   "source": "NIH RePORTER",
+   "country": "US",
+   "uncertain_topic": false
+  }
+ ]
+}

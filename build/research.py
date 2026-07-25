@@ -16,6 +16,7 @@ epistemic framing. NO how-to content — bibliographic metadata and abstracts on
 """
 from __future__ import annotations
 
+import html
 import json
 import re
 from pathlib import Path
@@ -23,7 +24,13 @@ from pathlib import Path
 import generate as G  # page(), esc, slug, crumbs, faq_ld, crumb_ld, faq_block, BASE, TODAY
 
 RES = G.ROOT / "data" / "research"
-esc, slug, BASE, TODAY = G.esc, G.slug, G.BASE, G.TODAY
+slug, BASE, TODAY = G.slug, G.BASE, G.TODAY
+
+
+def esc(s):
+    # unescape first: some source titles arrive pre-entity-encoded ("Ruiz &amp; Pavon"),
+    # and escaping those again would double-encode to "&amp;amp;". Idempotent for plain text.
+    return G.esc(html.unescape(str(s if s is not None else "")))
 
 
 # The DMT / tryptamine-psychedelic family. The literature aggregation deliberately cast a wide
@@ -49,6 +56,20 @@ def _pretty(s: str) -> str:
     if s.isupper() or "_" in s:
         s = s.replace("_", " ").capitalize()
     return s
+
+
+def _link(url, text, arrow=True):
+    t = esc(text)
+    if not url:
+        return t
+    return f'<a href="{esc(url)}" rel="noopener" target="_blank">{t}{" ↗" if arrow else ""}</a>'
+
+
+def _usd(v):
+    try:
+        return "${:,.0f}".format(float(v))
+    except (TypeError, ValueError):
+        return ""
 
 
 def load(name: str):
@@ -362,6 +383,223 @@ metadata only — claim types and status, never enabling chemistry. Verify each 
     return n
 
 
+# ══════════════════════════════════════════ books & long-form scholarship
+def books_page(bk):
+    if not bk:
+        return None
+    recs = bk.get("records", [])
+    ranked = sorted(recs, key=lambda r: (not r.get("seminal"), -(_year(r.get("year")) or 0)))
+    rows = ""
+    for r in ranked:
+        sem = ' <span class="badge epi-study">seminal</span>' if r.get("seminal") else ""
+        authors = esc(", ".join((r.get("authors") or [])[:3]))
+        rows += ("<tr><td>" + _link(r.get("url"), r.get("title", "(untitled)")) + sem + "</td><td>" +
+                 authors + '</td><td class="stat">' + esc(r.get("year", "")) + "</td><td>" +
+                 esc(r.get("publisher", "")) + "</td><td>" + esc(r.get("topic_tag", "")) + "</td></tr>")
+    n = len(recs)
+    body = f"""<main class="wrap">
+{G.crumbs(("Research", "/research/"), ("Books", ""))}
+<p class="kicker">RESEARCH · THE DMT ATLAS</p>
+<h1 class="page-title">DMT &amp; Ayahuasca Books</h1>
+<p class="lede">The long-form scholarship medical databases miss — <b>{n}</b> books, monographs and edited
+volumes on DMT and ayahuasca, from Strassman's <em>Spirit Molecule</em> and Shanon's <em>Antipodes of the
+Mind</em> to the ethnobotanical and anthropological record. Each links out to its catalog entry.</p>
+{FILTER_BOX.format(n=n)}
+<div class="tablewrap"><table class="evidence">
+<thead><tr><th>Title</th><th>Authors</th><th>Year</th><th>Publisher</th><th>Topic</th></tr></thead>
+<tbody>{rows}</tbody></table></div>
+<p class="src" style="margin-top:16px">Sources: Google Books &amp; Open Library. A reading map, not an endorsement of any single book's claims.</p>
+</main>{FILTER_JS}"""
+    faqs = [
+        ("What are the essential books about DMT?",
+         "The most-cited include Rick Strassman's 'DMT: The Spirit Molecule' (2001), Benny Shanon's "
+         "'The Antipodes of the Mind' (2002), and Andrew Gallimore's 'Alien Information Theory' (2019). "
+         "This page indexes the fuller scholarly and serious-popular literature."),
+        ("Is there academic literature on DMT beyond journal papers?",
+         "Yes — much of the deepest work is books and monographs (phenomenology, ethnobotany, anthropology, "
+         "religious studies) that never appear in a PubMed search. This page catalogs that layer."),
+    ]
+    ld = [G.crumb_ld([("Atlas", "/"), ("Research", "/research/"), ("Books", "/research/books.html")]),
+          G.faq_ld(faqs),
+          dataset_ld("DMT & ayahuasca books bibliography", "Books and monographs on DMT and ayahuasca.",
+                     BASE + "/research/books.html", n)]
+    G.page("research/books.html", f"DMT & Ayahuasca Books — {n} Titles, Indexed · The DMT Atlas",
+           f"A bibliography of {n} books and monographs on DMT and ayahuasca — the long-form scholarship, from "
+           "Strassman and Shanon to the ethnobotanical record — each linked to its catalog entry.", body,
+           jsonld=ld, active="Research")
+    return n
+
+
+# ══════════════════════════════════════════ dissertations & theses
+def theses_page(th):
+    if not th:
+        return None
+    recs = th.get("records", [])
+    ranked = sorted(recs, key=lambda r: -(_year(r.get("year")) or 0))
+    rows = ""
+    for r in ranked:
+        rows += ("<tr><td>" + _link(r.get("doi_or_url"), r.get("title", "(untitled)")) + "</td><td>" +
+                 esc(r.get("author", "")) + '</td><td class="stat">' + esc(r.get("year", "")) + "</td><td>" +
+                 esc(r.get("institution", "")) + "</td><td>" + esc(r.get("degree", "")) + "</td><td>" +
+                 esc(r.get("discipline", "")) + "</td></tr>")
+    n = len(recs)
+    body = f"""<main class="wrap">
+{G.crumbs(("Research", "/research/"), ("Dissertations", ""))}
+<p class="kicker">RESEARCH · THE DMT ATLAS</p>
+<h1 class="page-title">DMT &amp; Ayahuasca Dissertations</h1>
+<p class="lede">The doctoral and master's research PubMed doesn't index — <b>{n}</b> theses on DMT and ayahuasca
+across pharmacology, neuroscience, anthropology, psychology and religious studies. Each links to its repository record.</p>
+{FILTER_BOX.format(n=n)}
+<div class="tablewrap"><table class="evidence">
+<thead><tr><th>Title</th><th>Author</th><th>Year</th><th>Institution</th><th>Degree</th><th>Discipline</th></tr></thead>
+<tbody>{rows}</tbody></table></div>
+<p class="src" style="margin-top:16px">Sources: OpenAlex, CORE, BASE — open academic repositories. Verify each at its linked record.</p>
+</main>{FILTER_JS}"""
+    faqs = [
+        ("Are there PhD dissertations on DMT?",
+         f"Yes — this page indexes {n} dissertations and theses on DMT and ayahuasca across many disciplines, "
+         "a scholarly layer that medical databases like PubMed do not cover."),
+    ]
+    ld = [G.crumb_ld([("Atlas", "/"), ("Research", "/research/"), ("Dissertations", "/research/dissertations.html")]),
+          G.faq_ld(faqs),
+          dataset_ld("DMT & ayahuasca dissertations index", "Doctoral and master's theses on DMT and ayahuasca.",
+                     BASE + "/research/dissertations.html", n)]
+    G.page("research/dissertations.html", f"DMT & Ayahuasca Dissertations — {n} Theses · The DMT Atlas",
+           f"A searchable index of {n} PhD and master's theses on DMT and ayahuasca across disciplines — from "
+           "OpenAlex, CORE and BASE, each linked to its repository.", body, jsonld=ld, active="Research")
+    return n
+
+
+# ══════════════════════════════════════════ research funding / grants
+def funding_page(fn):
+    if not fn:
+        return None
+    recs = fn.get("records", [])
+    ranked = sorted(recs, key=lambda r: -(r.get("amount_usd") or 0))
+    total = fn.get("total_funding_usd") or sum((r.get("amount_usd") or 0) for r in recs)
+    rows = ""
+    for r in ranked:
+        pis = esc(", ".join((r.get("pi_names") or [])[:2]))
+        rows += ("<tr><td>" + _link(r.get("url"), r.get("project_title", "(untitled)")) + "</td><td>" +
+                 pis + "</td><td>" + esc(r.get("institution", "")) + "</td><td>" + esc(r.get("funder", "")) +
+                 '</td><td class="stat">' + esc(r.get("fiscal_year", "")) + '</td><td class="stat">' +
+                 _usd(r.get("amount_usd")) + "</td></tr>")
+    n = len(recs)
+    body = f"""<main class="wrap">
+{G.crumbs(("Research", "/research/"), ("Funding", ""))}
+<p class="kicker">RESEARCH · THE DMT ATLAS</p>
+<h1 class="page-title">Who Funds DMT Research</h1>
+<p class="lede">The public money behind the science — <b>{n}</b> government research grants for DMT and ayahuasca
+work{f', totaling <b>{_usd(total)}</b>' if total else ''}, with the institutions and investigators they fund.
+A picture almost nobody assembles, drawn straight from the grant registries.</p>
+{FILTER_BOX.format(n=n)}
+<div class="tablewrap"><table class="evidence">
+<thead><tr><th>Project</th><th>Investigator(s)</th><th>Institution</th><th>Funder</th><th>Year</th><th>Amount</th></tr></thead>
+<tbody>{rows}</tbody></table></div>
+<p class="src" style="margin-top:16px">Sources: NIH RePORTER, UKRI Gateway to Research, and other public grant registries.
+Amounts are as reported by the funder; recurring projects may appear per fiscal year.</p>
+</main>{FILTER_JS}"""
+    faqs = [
+        ("Is DMT research funded by the government?",
+         f"Yes. This page indexes {n} public research grants for DMT and ayahuasca science"
+         f"{f', totaling roughly {_usd(total)}' if total else ''}, from funders including the US NIH and UK UKRI."),
+        ("Which institutions get funding to study DMT?",
+         "The table lists the funded institutions and investigators directly — historically these include "
+         "Imperial College London, Johns Hopkins, and Brazilian universities, among others."),
+    ]
+    ld = [G.crumb_ld([("Atlas", "/"), ("Research", "/research/"), ("Funding", "/research/funding.html")]),
+          G.faq_ld(faqs),
+          dataset_ld("DMT research funding index", "Public research grants funding DMT and ayahuasca science.",
+                     BASE + "/research/funding.html", n)]
+    G.page("research/funding.html", f"Who Funds DMT Research — {n} Grants, Indexed · The DMT Atlas",
+           f"A searchable index of {n} public research grants funding DMT and ayahuasca science"
+           f"{f' (~{_usd(total)})' if total else ''} — the institutions, investigators and funders, from NIH RePORTER and UKRI.",
+           body, jsonld=ld, active="Research")
+    return n
+
+
+# ══════════════════════════════════════════ regulatory & legal record
+def regulatory_page(reg):
+    if not reg:
+        return None
+    regs = reg.get("regulatory", [])
+    sched = reg.get("scheduling", [])
+    cases = reg.get("case_law", [])
+
+    def _tbl(headers, body_rows):
+        th = "".join(f"<th>{h}</th>" for h in headers)
+        return (f'<div class="tablewrap"><table class="evidence"><thead><tr>{th}</tr></thead>'
+                f'<tbody>{body_rows}</tbody></table></div>')
+
+    reg_rows = ""
+    for r in sorted(regs, key=lambda x: str(x.get("date", ""))):
+        reg_rows += ("<tr><td>" + _link(r.get("url"), r.get("program") or r.get("type") or "") + "</td><td>" +
+                     esc(r.get("sponsor", "")) + "</td><td>" + esc(r.get("molecule", "")) + "</td><td>" +
+                     esc(r.get("type", "")) + "</td><td>" + esc(r.get("status", "")) +
+                     '</td><td class="stat">' + esc(str(r.get("date", ""))[:7]) + "</td></tr>")
+    sched_rows = ""
+    for s in sorted(sched, key=lambda x: str(x.get("date", ""))):
+        sched_rows += ("<tr><td>" + esc(s.get("jurisdiction", "")) + "</td><td>" +
+                       _link(s.get("url"), s.get("action") or "") + "</td><td>" + esc(s.get("citation", "")) +
+                       "</td><td>" + esc(s.get("summary", "")) + '</td><td class="stat">' +
+                       esc(str(s.get("date", ""))[:7]) + "</td></tr>")
+    case_cards = ""
+    for c in sorted(cases, key=lambda x: _year(x.get("year")) or 0):
+        sig = ("<p><b>Why it matters:</b> " + esc(c.get("significance", "")) + "</p>") if c.get("significance") else ""
+        case_cards += ('<div class="src-item"><h3>' + _link(c.get("url"), c.get("case_name") or "") + "</h3>"
+                       '<div class="who">' + esc(c.get("court", "")) + " · " + esc(str(c.get("year", ""))) +
+                       " · " + esc(c.get("citation", "")) + "</div>"
+                       "<p><b>Holding:</b> " + esc(c.get("holding", "")) + "</p>" + sig + "</div>")
+
+    sections = ""
+    if reg_rows:
+        sections += ('<div class="section"><h2><span class="h-mark">✦</span>Drug-development milestones</h2>'
+                     '<p>FDA/EMA designations and clinical filings for the DMT and 5-MeO-DMT therapeutic programs.</p>' +
+                     _tbl(["Program", "Sponsor", "Molecule", "Type", "Status", "Date"], reg_rows) + "</div>")
+    if sched_rows:
+        sections += ('<div class="section"><h2><span class="h-mark">✦</span>Scheduling &amp; drug law</h2>'
+                     '<p>How DMT is classified — the US Controlled Substances Act, the UN Convention, and the '
+                     'Federal Register notices that record every change.</p>' +
+                     _tbl(["Jurisdiction", "Action", "Citation", "Summary", "Date"], sched_rows) + "</div>")
+    if case_cards:
+        sections += ('<div class="section"><h2><span class="h-mark">✦</span>Case law — the ayahuasca religious-liberty cases</h2>'
+                     '<p>The courtroom record, led by <em>Gonzales v. O Centro</em> (2006), in which the US Supreme '
+                     'Court held that a church may use ayahuasca as a sacrament under religious-freedom law.</p>' +
+                     case_cards + "</div>")
+
+    n = len(regs) + len(sched) + len(cases)
+    body = f"""<main class="wrap">
+{G.crumbs(("Research", "/research/"), ("Regulation & law", ""))}
+<p class="kicker">RESEARCH · THE DMT ATLAS</p>
+<h1 class="page-title">DMT Regulation &amp; Law</h1>
+<p class="lede">The legal and regulatory record of the molecule — how it is scheduled, how the medicines built on
+it move through the FDA, and the religious-liberty cases that decided whether a church may drink ayahuasca.
+Cited to the primary government and court record. Legal literacy, not legal advice.</p>
+{sections}
+<p class="src" style="margin-top:16px">Sources: US Federal Register, CourtListener, and FDA/company filings. Verify each at its linked record; statuses change.</p>
+</main>"""
+    faqs = [
+        ("Is DMT legal?",
+         "In most countries N,N-DMT is a controlled substance (US Schedule I; UN Convention on Psychotropic "
+         "Substances). A narrow exception exists in the US for the sacramental ayahuasca use of specific "
+         "religious groups, established by Gonzales v. O Centro (2006)."),
+        ("What was the O Centro Supreme Court case?",
+         "Gonzales v. O Centro Espírita Beneficente União do Vegetal (2006) — a unanimous US Supreme Court ruling "
+         "that the Religious Freedom Restoration Act protects the UDV church's sacramental use of ayahuasca (which "
+         "contains DMT), barring the government from prohibiting it without a compelling justification."),
+        ("Is DMT being developed as a medicine?",
+         "Yes — several companies have FDA-cleared clinical programs for DMT and 5-MeO-DMT (depression and other "
+         "conditions). The drug-development milestones above track the designations and filings on the public record."),
+    ]
+    ld = [G.crumb_ld([("Atlas", "/"), ("Research", "/research/"), ("Regulation & law", "/research/regulatory.html")]),
+          G.faq_ld(faqs)]
+    G.page("research/regulatory.html", "DMT Regulation & Law — Scheduling, FDA & the O Centro Case · The DMT Atlas",
+           "How DMT is regulated: drug scheduling (US Schedule I, UN Convention), the FDA drug-development "
+           "milestones, and the ayahuasca religious-liberty case law led by Gonzales v. O Centro (2006). Cited, neutral.",
+           body, jsonld=ld, active="Research")
+    return n
+
+
 # ══════════════════════════════════════════ hub
 def research_hub(counts, earliest):
     tiles = [
@@ -373,6 +611,14 @@ def research_hub(counts, earliest):
          "Who is trying to own the periphery of a public-domain molecule — the full filing record."),
         ("History of the science", "/research/history.html", counts.get("history"),
          "1931 to today — the landmark discoveries, cited, with the popular myths labeled."),
+        ("Books & scholarship", "/research/books.html", counts.get("books"),
+         "The long-form literature PubMed misses — Strassman, Shanon, the ethnobotanical record."),
+        ("Dissertations & theses", "/research/dissertations.html", counts.get("theses"),
+         "The doctoral research layer — pharmacology to anthropology, across open repositories."),
+        ("Who funds the research", "/research/funding.html", counts.get("funding"),
+         "The public money behind the science — grants, institutions, and dollar amounts."),
+        ("Regulation & law", "/research/regulatory.html", counts.get("regulatory"),
+         "Scheduling, the FDA drug programs, and the O Centro ayahuasca religious-liberty case."),
     ]
     cards = "".join(
         f'<a class="card" style="--card-accent:var(--c-source)" href="{href}"><h3>{esc(t)}</h3><p>{esc(d)}</p>'
@@ -417,6 +663,10 @@ def build_research():
     tr = load("trials.json")
     pat = load("patents.json")
     hist = load("history.json")
+    bk = load("books.json")
+    th = load("theses.json")
+    fn = load("funding.json")
+    reg = load("regulatory.json")
     counts, earliest = {}, None
     if lit:
         core = [r for r in lit.get("records", []) if _dmt_family(r)]
@@ -428,16 +678,21 @@ def build_research():
         counts["patents"] = patents_page(pat)
     if hist:
         counts["history"] = history_page(hist)
+    if bk:
+        counts["books"] = books_page(bk)
+    if th:
+        counts["theses"] = theses_page(th)
+    if fn:
+        counts["funding"] = funding_page(fn)
+    if reg:
+        counts["regulatory"] = regulatory_page(reg)
     research_hub(counts, earliest)
     urls = ["/research/"]
-    if lit:
-        urls.append("/research/studies.html")
-    if tr:
-        urls.append("/research/trials.html")
-    if pat:
-        urls.append("/research/patents.html")
-    if hist:
-        urls.append("/research/history.html")
+    for data, path in ((lit, "studies.html"), (tr, "trials.html"), (pat, "patents.html"),
+                       (hist, "history.html"), (bk, "books.html"), (th, "dissertations.html"),
+                       (fn, "funding.html"), (reg, "regulatory.html")):
+        if data:
+            urls.append("/research/" + path)
     print(f"  research: {counts}")
     return [BASE + u for u in urls]
 
