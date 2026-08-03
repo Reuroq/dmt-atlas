@@ -203,6 +203,53 @@ PAGE = """<!DOCTYPE html>
     </div>
   </section>
 
+  <section class="prev-section" id="forum-corpus">
+    <h2>The table above is built from forum posts. That matters.</h2>
+    <p class="sub">Lawrence 2022 is the only rankable set on this page, and it is a
+    content analysis of <b>3,305 r/DMT posts</b>. It measures what people wrote down.
+    Whether that is the same thing as what people experienced is a real question, and
+    no other page asks it.</p>
+
+    <p>Here is why it is worth asking. We read the titles of <b>71,580 discussion
+    threads</b> from the largest public DMT forum and counted how often the community
+    actually names each kind of being. If forum writing tracked experience, the two
+    columns would agree. They do not:</p>
+
+    <table class="prev-table">
+      <thead><tr><th>Phenotype</th><th class="num">Reported</th><th class="num">Named in threads</th><th class="num">Mentions per point</th></tr></thead>
+      <tbody>
+        <tr><th>jester / clown</th><td class="num">6.5%</td><td class="num">52</td><td class="num"><b>8.0</b></td></tr>
+        <tr><th>creature (mantis, reptilian)</th><td class="num">9.2%</td><td class="num">25</td><td class="num">2.7</td></tr>
+        <tr><th>mythological (machine elves)</th><td class="num">8.4%</td><td class="num">21</td><td class="num">2.5</td></tr>
+        <tr><th>feminine / goddess</th><td class="num">24.2%</td><td class="num">46</td><td class="num">1.9</td></tr>
+        <tr><th>deities / divine beings</th><td class="num">17.0%</td><td class="num">29</td><td class="num">1.7</td></tr>
+        <tr><th>aliens</th><td class="num">16.3%</td><td class="num">21</td><td class="num"><b>1.3</b></td></tr>
+      </tbody>
+    </table>
+
+    <p>The rank correlation between the two is <b>+0.09</b> &mdash; effectively none. The
+    <em>rarest</em> phenotype is discussed about six times more, per unit of occurrence,
+    than one two and a half times more common. Across the forum&rsquo;s entire fifteen-year
+    life, entity talk holds flat at roughly <b>1.2%</b> of all threads.</p>
+
+    <p>The likeliest reason is mundane, and visible in the same corpus: the single
+    largest thing people post is a <b>request for help</b> &mdash; &ldquo;need help&rdquo;,
+    &ldquo;please help&rdquo; and &ldquo;need advice&rdquo; are the most common phrases in
+    the whole set. A forum does not collect experience. It collects <em>unresolved</em>
+    experience. A benevolent, coherent encounter gives you nothing to ask. A menacing
+    trickster you have no word for gives you a thread title.</p>
+
+    <p class="tiny-note"><strong>What we are not claiming.</strong> We tested whether
+    scraped corpora report more menace than surveys do, and they do not: the negative or
+    menacing share is <b>8%</b> in a supervised field study (Michael 2021, n=36),
+    <b>11.4%</b> in the scraped corpus (Lawrence 2022), and <b>&lt;15%</b> in a recruited
+    survey (Davis 2020, N=2,561). The scraped figure sits between the other two, so there
+    is no clean instrument effect in that direction and we do not assert one. What stands
+    is narrower: the ranking above comes from written posts, written posts demonstrably
+    over-represent the disturbing and the unnameable, and the size of that distortion is
+    unmeasured. Read the percentages as <em>the shape of what gets written down</em>.</p>
+  </section>
+
   <section class="prev-section">
     <h2>The archetypes no survey has ever counted</h2>
     <p class="sub">{uncounted_n} of the Atlas&rsquo;s {total_n} entries have no survey figure at
@@ -277,10 +324,10 @@ def build():
                        % (esc(href), esc(e["name"]), esc(first)))
 
     page = PAGE.format(
-        desc=esc("The DMT entity phenotypes ranked by how often they are actually reported "
-                 "(Lawrence 2022, 3,778 experiences) — plus why Davis 2020 and Michael 2021 "
-                 "give different figures for the same beings, and which archetypes no survey "
-                 "has ever counted."),
+        desc=esc("The DMT entity phenotypes ranked by how often they are reported (Lawrence 2022, "
+                 "3,778 experiences) — why Davis 2020 and Michael 2021 give different figures for "
+                 "the same beings, which archetypes no survey has counted, and what it means that "
+                 "the ranking itself is built from forum posts."),
         nav=NAV,
         corpus="Content analysis of 3,778 experiences drawn from 3,305 r/DMT posts (2009–2018)",
         summed=summed, rest=100 - summed,
