@@ -14,3 +14,6 @@ fetch.log
 data/research/_raw_*.json
 data/research/*_raw.json
 data/research/raw/
+
+# cached forum sitemaps (regenerable via demand_mine.py)
+data/demand/*.xml

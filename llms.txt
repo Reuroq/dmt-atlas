@@ -4,6 +4,7 @@
 The DMT Atlas maps what people report and write about the DMT experience, synthesized from published sources (books, peer-reviewed studies, community archives). It is a map of a shared phenomenology and mythology — not a claim that these are objectively real places or beings, and not a guide to obtaining, making, or taking any substance. Every entry carries its citations; uncertainty is labeled.
 
 ## Key pages — the experience map
+- https://dmtatlas.com/ask/ (the questions people actually bring, clustered from 71,580 real community discussion threads, each routed to the cited answer)
 - https://dmtatlas.com/ (interactive atlas: constellation, map, journey)
 - https://dmtatlas.com/explore.html
 - https://dmtatlas.com/journey.html

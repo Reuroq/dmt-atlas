@@ -330,3 +330,28 @@ body.page{overflow-y:auto;overflow-x:hidden;height:auto;min-height:100%}
   .page-nav{gap:3px}
 }
 
+/* --- atlas header (ported by nav_merge.py) --- */
+.site-head{
+  position:sticky;top:0;z-index:50;
+  background:linear-gradient(180deg,#070514f5 0%,#070514e8 70%,#07051400 100%);
+  border-bottom:1px solid #17122e;backdrop-filter:blur(8px);
+}
+.head-inner{max-width:1180px;margin:0 auto;padding:12px 20px;display:flex;
+  align-items:center;gap:16px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:11px;color:var(--ink);text-decoration:none}
+.brand:hover{text-decoration:none}
+.brand .mark{color:var(--gold);font-size:19px;filter:drop-shadow(0 0 10px #f3c96977)}
+.brand b{font-family:"Fraunces",serif;font-size:18px;font-weight:600;white-space:nowrap}
+nav.site-nav{display:flex;gap:2px;flex-wrap:wrap;margin-left:auto;align-items:center}
+nav.site-nav a{color:var(--muted);font-size:13px;padding:7px 11px;border-radius:9px;
+  transition:.15s;white-space:nowrap;text-decoration:none}
+nav.site-nav a:hover{color:var(--ink);background:#151038;text-decoration:none}
+nav.site-nav a.active{color:var(--ink);background:#1a1442;box-shadow:0 0 0 1px #2c2456 inset}
+nav.site-nav a.cta{color:#0c0716;background:linear-gradient(135deg,var(--gold),#e0b04f);
+  font-weight:600;margin-left:6px;box-shadow:0 0 22px -8px #f3c96988}
+nav.site-nav a.cta:hover{background:linear-gradient(135deg,#ffd97e,var(--gold))}
+/* #cosmos is position:fixed z-index:0 pointer-events:none — anything left at
+   z-index:auto paints UNDER it while still being clickable (hit-testable but
+   invisible). .tool escapes with z-index:5; the sub-nav must do the same. */
+.tool-subnav{position:relative;z-index:5;display:flex;justify-content:center;padding:16px 20px 0}
+@media(max-width:760px){nav.site-nav{gap:0}nav.site-nav a{font-size:12px;padding:6px 8px}}

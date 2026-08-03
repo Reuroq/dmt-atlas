@@ -253,3 +253,39 @@ table.evidence td .src{font-size:12px;color:var(--c-source)}
   .wrap{padding:24px 16px 70px}
   .hero{padding-top:46px}
 }
+
+/* ---------- most-asked deep links (added 2026-08-02) ----------
+   109 of ~190 live AI fetches landed on "/" and stopped: the homepage only
+   linked to section hubs. These give an answer engine a specific page to cite. */
+.deep-links{display:grid;grid-template-columns:repeat(auto-fit,minmax(268px,1fr));gap:26px;margin-top:8px}
+.deep-col h3{font-family:"Fraunces",serif;font-size:15px;font-weight:600;color:var(--gold);
+  margin:0 0 12px;letter-spacing:.2px}
+.deep-col ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:11px}
+.deep-col li{line-height:1.4}
+.deep-col li a{color:var(--ink);font-size:14.5px;text-decoration:none;border-bottom:1px solid #2c245699}
+.deep-col li a:hover{color:var(--gold);border-bottom-color:var(--gold);text-decoration:none}
+.deep-col li span{display:block;font-size:12.5px;color:var(--muted);margin-top:3px}
+
+/* ---------- /ask question board (added 2026-08-02) ---------- */
+.ask-list{display:grid;gap:18px;margin-top:6px}
+.ask-item{background:#0d0922;border:1px solid var(--line);border-radius:16px;padding:22px 24px}
+.ask-item h3{font-family:"Fraunces",serif;font-size:20px;font-weight:600;color:var(--ink);margin:0 0 6px}
+.ask-count{font-size:12.5px;color:var(--muted);margin:0 0 10px;letter-spacing:.2px}
+.ask-count b{color:var(--gold);font-size:14px}
+.ask-item p{color:#d8d3f4;line-height:1.65;font-size:14.5px;margin:0 0 14px}
+.ask-links{display:flex;flex-wrap:wrap;gap:9px}
+a.ask-link{font-size:13px;color:var(--ink);background:#151038;border:1px solid #2c2456;
+  border-radius:999px;padding:7px 14px;text-decoration:none;transition:.15s}
+a.ask-link:hover{background:#1a1442;color:var(--gold);border-color:var(--gold);text-decoration:none}
+.ask-form{max-width:680px;margin:6px auto 0;display:flex;flex-direction:column;gap:8px}
+.ask-form label{font-size:13px;color:var(--muted);margin-top:8px}
+.ask-form label .opt{color:var(--faint)}
+.ask-form textarea{width:100%;background:#0b0820;border:1px solid var(--line);border-radius:12px;
+  color:var(--ink);font:inherit;font-size:14.5px;padding:12px 14px;resize:vertical}
+.ask-form textarea:focus{outline:none;border-color:#3a316b;box-shadow:0 0 0 3px #2c245633}
+.ask-form button{align-self:flex-start;margin-top:12px;background:linear-gradient(135deg,var(--gold),#e0b04f);
+  color:#0c0716;font-weight:600;font-size:14px;border:0;border-radius:10px;padding:11px 22px;cursor:pointer}
+.ask-form button:disabled{opacity:.55;cursor:default}
+.ask-status{font-size:13.5px;line-height:1.6;margin:12px 0 0;min-height:1em}
+.ask-status.ok{color:#8fe0a8}
+.ask-status.warn{color:#f3c969}
