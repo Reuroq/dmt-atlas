@@ -69,7 +69,7 @@ EXCLUDE = re.compile(
     r"grow(ing|log)?|cultivat\w*|germinat\w*|seedling|propagat\w*|"
     r"solvent|evaporat\w*|filtration|decarb|ph[- ]?meter|"
     r"cactus|cacti|trichocereus|pachanoi|peruvianus|bridgesii|acacia|mimosa|caapi|chacruna|"
-    r"carbonate|bicarb|naphta|"
+    r"carbonate|bicarb|naphta|freeze[- ]?precip\w*|"
     r"bufo|alvarius|"
     r"san[- ]?pedro|syrian[- ]?rue|jurema|phalaris|desmanthus|anadenanthera|"
     r"dosage|dosing|potency|purity|"
@@ -99,7 +99,7 @@ MUST_DROP = [
     "mhrb vendor recommendations", "how to buy dmt", "san pedro grow log",
     "yield from 100g root bark", "sodium carbonate solution question",
     "milking a bufo alvarius toad", "best vaporizer for dmt",
-    "recrystallization help", "syrian rue dosage",
+    "recrystallization help", "syrian rue dosage", "freeze precip question",
 ]
 
 # Question shapes — a title that is genuinely someone asking something.

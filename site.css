@@ -289,3 +289,61 @@ a.ask-link:hover{background:#1a1442;color:var(--gold);border-color:var(--gold);t
 .ask-status{font-size:13.5px;line-height:1.6;margin:12px 0 0;min-height:1em}
 .ask-status.ok{color:#8fe0a8}
 .ask-status.warn{color:#f3c969}
+
+/* ---------- /prevalence.html (added 2026-08-02) ---------- */
+.prev-section{margin:42px 0 0}
+.prev-section h2{font-family:"Fraunces",serif;font-size:26px;font-weight:600;color:var(--ink);margin:0 0 6px}
+.prev-section .sub{color:var(--muted);font-size:14.5px;line-height:1.7;margin:0 0 20px;max-width:760px}
+.prev-table{width:100%;border-collapse:collapse;font-size:14.5px}
+.prev-table th,.prev-table td{text-align:left;padding:13px 12px;border-bottom:1px solid var(--line);vertical-align:middle}
+.prev-table thead th{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);font-weight:600}
+.prev-table tbody th{position:relative;color:var(--ink);font-weight:500;overflow:hidden}
+.prev-table tbody th .bar{position:absolute;left:0;top:50%;transform:translateY(-50%);height:26px;width:var(--w);
+  background:linear-gradient(90deg,#3a2f7a55,#1a144200);border-left:2px solid var(--gold);border-radius:3px;z-index:0}
+.prev-table tbody th{padding-left:14px}
+.prev-table .num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.prev-table .num b{color:var(--gold);font-size:15.5px}
+.prev-table .members{font-size:12.5px;color:var(--muted);line-height:1.5}
+.prev-table .members a{color:#b9b1e6}
+.prev-table .members .none{color:var(--faint)}
+.conflict-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
+.conflict{background:#0d0922;border:1px solid var(--line);border-radius:16px;padding:20px 22px}
+.conflict h3{font-family:"Fraunces",serif;font-size:18px;font-weight:600;color:var(--ink);margin:0 0 14px}
+.conflict .two{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.conflict .two>div{border-left:2px solid #2c2456;padding-left:11px}
+.conflict .two b{display:block;font-family:"Fraunces",serif;font-size:24px;color:var(--gold);line-height:1.1}
+.conflict .two span{display:block;font-size:11.5px;color:var(--muted);line-height:1.5;margin-top:5px}
+.conflict p{font-size:13.5px;color:#d8d3f4;line-height:1.65;margin:0}
+.uncounted{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:13px}
+.unc{border-left:2px solid #2c2456;padding:2px 0 2px 12px}
+.unc a{display:block;color:var(--ink);font-size:14px;text-decoration:none;border-bottom:1px solid #2c245699}
+.unc a:hover{color:var(--gold)}
+.unc span{display:block;font-size:12px;color:var(--muted);line-height:1.5;margin-top:4px}
+
+/* ---------- /geometry/levels.html ladder (added 2026-08-02) ---------- */
+.ladder{display:flex;flex-direction:column;gap:14px;margin:26px 0 0}
+.lvl{display:flex;gap:20px;background:#0d0922;border:1px solid var(--line);border-radius:16px;padding:20px 22px}
+.lvl.fork{border-color:#3a316b;background:linear-gradient(180deg,#120d2e,#0d0922)}
+.lvl-num{flex:0 0 54px;height:54px;border-radius:14px;display:flex;align-items:center;justify-content:center;
+  font-family:"Fraunces",serif;font-size:22px;font-weight:600;color:var(--gold);
+  background:#151038;border:1px solid #2c2456}
+.lvl.fork .lvl-num{font-size:18px;color:#0c0716;background:linear-gradient(135deg,var(--gold),#e0b04f);border:0}
+.lvl-body{flex:1;min-width:0}
+.lvl-body h3{font-family:"Fraunces",serif;font-size:19px;font-weight:600;color:var(--ink);margin:2px 0 8px}
+.lvl-mean{font-size:14.5px;color:#d8d3f4;line-height:1.65;margin:0 0 10px}
+.lvl-phase{font-size:12px;color:var(--muted);margin:0 0 12px;letter-spacing:.03em}
+.lvl-phase b{color:#b9b1e6}
+.lvl-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px}
+.lvl-list li{border-left:2px solid #2c2456;padding-left:11px}
+.lvl-list li a{color:var(--ink);font-size:14px;text-decoration:none;border-bottom:1px solid #2c245699}
+.lvl-list li a:hover{color:var(--gold);border-bottom-color:var(--gold)}
+.lvl-list li span{display:block;font-size:12px;color:var(--muted);line-height:1.5;margin-top:3px}
+.lvl-list li.none{color:var(--faint);font-size:13px;border-left-color:#1e1840}
+@media(max-width:640px){.lvl{flex-direction:column;gap:12px}.lvl-num{flex:0 0 auto;width:46px;height:46px;font-size:18px}}
+
+/* ---------- cross-page callout (added 2026-08-02) ---------- */
+a.callout{display:block;margin:20px 0 6px;padding:16px 20px;border-radius:14px;text-decoration:none;
+  background:linear-gradient(135deg,#151038,#0f0b28);border:1px solid #2c2456;transition:.15s}
+a.callout:hover{border-color:var(--gold);text-decoration:none;transform:translateY(-1px)}
+a.callout b{display:block;font-family:"Fraunces",serif;font-size:16.5px;color:var(--gold);margin-bottom:5px}
+a.callout span{display:block;font-size:13.5px;color:#cfc7f0;line-height:1.6}

@@ -13,6 +13,8 @@ The DMT Atlas maps what people report and write about the DMT experience, synthe
 - https://dmtatlas.com/geometry/
 - https://dmtatlas.com/themes.html
 - https://dmtatlas.com/evidence.html (the study data)
+- https://dmtatlas.com/prevalence.html (how often each being is reported, ranked — and why Davis 2020, Lawrence 2022 and Michael 2021 give different figures for the same beings)
+- https://dmtatlas.com/geometry/levels.html (the PsychonautWiki geometry levels 1-8B mapped onto the specific named phenomena; DMT forks to 8B)
 - https://dmtatlas.com/library.html (the source corpus)
 
 ## Key pages — the research layer (the scientific & legal record)

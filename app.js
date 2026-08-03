@@ -21,6 +21,7 @@
     drag: null, anim: 0,
   };
 
+  window.__atlas = App;
   const $ = (s) => document.querySelector(s);
   const slug = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
   const esc = (s) => String(s == null ? "" : s)
@@ -124,9 +125,16 @@
       });
     });
 
-    // radius by degree
+    // Radius by degree — but the SUBJECT outranks its evidence.
+    // Sources had both the larger base (7 vs 5) and far higher degree, so the
+    // orange evidence nodes were always the biggest and brightest things on
+    // screen and the graph read as a bibliography. The entities, realms,
+    // geometry and themes are what the page is about; sources are the
+    // connective tissue that proves them.
     App.nodes.forEach((n) => {
-      n.r = (n.cat === "source" ? 7 : 5) + Math.sqrt(n.deg) * 2.4;
+      n.r = n.cat === "source"
+        ? 3.4 + Math.sqrt(n.deg) * 1.35
+        : 6.5 + Math.sqrt(n.deg) * 2.7;
     });
   }
 
@@ -159,13 +167,34 @@
   function fitView(list) {
     const ns = list || visibleNodes();
     if (!ns.length) return;
-    let minx = 1e9, miny = 1e9, maxx = -1e9, maxy = -1e9;
-    ns.forEach((n) => { minx = Math.min(minx, n.x); miny = Math.min(miny, n.y); maxx = Math.max(maxx, n.x); maxy = Math.max(maxy, n.y); });
-    const pad = 90;
+    // Fit the CORE, not the extremes. A handful of single-citation sources
+    // drift far out and, on a true min/max fit, shrank the whole constellation
+    // to 45% to accommodate them — the interesting structure ended up a small
+    // ball in the middle of an empty frame. Outliers stay reachable by panning.
+    const q = (arr, p) => {
+      const s = arr.slice().sort((a, b) => a - b);
+      return s[Math.min(s.length - 1, Math.max(0, Math.floor(s.length * p)))];
+    };
+    const xs = ns.map((n) => n.x), ys = ns.map((n) => n.y);
+    let minx = q(xs, 0.04), maxx = q(xs, 0.96), miny = q(ys, 0.04), maxy = q(ys, 0.96);
+    if (!(maxx > minx)) { minx = Math.min(...xs); maxx = Math.max(...xs); }
+    if (!(maxy > miny)) { miny = Math.min(...ys); maxy = Math.max(...ys); }
+    // Tighter than it was: the constellation is the centrepiece, and at
+    // pad 90 / -120 it sat in the middle of the frame surrounded by dead
+    // space instead of filling it.
+    const pad = 46;
     const w = Math.max(maxx - minx, 50), h = Math.max(maxy - miny, 50);
     App.cam.x = (minx + maxx) / 2; App.cam.y = (miny + maxy) / 2;
-    App.cam.scale = Math.min((App.W - pad * 2) / w, (App.H - 120 - pad) / h, 1.6);
+    App.cam.scale = Math.min((App.W - pad * 2) / w, (App.H - 70 - pad) / h, 1.6);
     App.cam.scale = Math.max(App.cam.scale, 0.15);
+  }
+
+  /* fitView called at the moment of entry fits the layout as it was BEFORE
+     the force sim relaxed, so the camera ends up framing an extent the graph
+     no longer has. Re-fit a few times while it settles. */
+  function fitViewSettled(list) {
+    fitView(list);
+    [400, 1100, 2200].forEach((t) => setTimeout(() => fitView(list), t));
   }
 
   /* ---------------- interaction ---------------- */
@@ -265,36 +294,116 @@
     else if (App.view === "map") drawMap(ctx);
   }
 
-  function drawConstellation(ctx) {
-    ctx.lineWidth = 1;
-    App.edges.forEach((e) => {
-      const hot = App.selected && (e.a === App.selected || e.b === App.selected) ||
-        App.hovered && (e.a === App.hovered || e.b === App.hovered);
-      const a = w2s(e.a.x, e.a.y), b = w2s(e.b.x, e.b.y);
-      ctx.strokeStyle = hot ? "rgba(177,140,255,.55)" : "rgba(120,110,170,.13)";
-      ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke();
-    });
-    App.nodes.forEach((nd) => drawNode(ctx, nd));
+  /* The constellation is drawn in three passes rather than one node-at-a-time
+     loop. The old single pass labelled EVERY source unconditionally
+     (`nd.cat === "source"` in the showLabel test) — with ~103 sources that
+     produced a solid ring of colliding names around an unreadable core, and
+     gave a 3-citation source exactly the same visual weight as the most-
+     reported entity in the corpus. Passes: edges, then discs, then labels in
+     descending importance with collision rejection. */
+
+  function importance(nd) {
+    // entities/realms/geometry are the subject; sources are the evidence.
+    const kind = nd.cat === "source" ? 0.55 : 1;
+    return (nd.deg || 0) * kind;
   }
 
-  function drawNode(ctx, nd) {
+  function drawConstellation(ctx) {
+    const nodes = App.nodes;
+    const maxDeg = Math.max(1, ...nodes.map((n) => n.deg || 0));
+
+    // ---- pass 1: edges, brightness carried by the weaker endpoint ----------
+    ctx.lineWidth = 1;
+    App.edges.forEach((e) => {
+      const hot = (App.selected && (e.a === App.selected || e.b === App.selected)) ||
+        (App.hovered && (e.a === App.hovered || e.b === App.hovered));
+      const a = w2s(e.a.x, e.a.y), b = w2s(e.b.x, e.b.y);
+      if (hot) {
+        ctx.strokeStyle = "rgba(190,155,255,.62)"; ctx.lineWidth = 1.6;
+      } else {
+        const w = Math.min(e.a.deg || 0, e.b.deg || 0) / maxDeg;
+        ctx.strokeStyle = "rgba(139,126,214," + (0.07 + w * 0.30).toFixed(3) + ")";
+        ctx.lineWidth = 0.6 + w * 1.1;
+      }
+      ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke();
+    });
+    ctx.lineWidth = 1;
+
+    // ---- pass 2: discs, least important first so the hubs sit on top -------
+    const byImp = nodes.slice().sort((x, y) => importance(x) - importance(y));
+    byImp.forEach((nd) => drawDisc(ctx, nd, maxDeg));
+
+    // ---- pass 3: labels, most important first, skipping collisions ---------
+    ctx.textAlign = "center"; ctx.textBaseline = "top";
+    const placed = [];
+    // Narrow viewports get fewer, smaller labels: at phone widths the whole
+    // constellation is ~300px across, and 34 labels at a 10px floor buried it.
+    const narrow = App.W < 620;
+    const budget = App.cam.scale > 1.4 ? 999 : (narrow ? 12 : 34);
+    let drawn = 0;
+    // The page promises "the shape of the corpus" — entities, realms, geometry
+    // and themes ARE the subject; sources are the evidence for it. Sources have
+    // far higher degree, so on raw importance they took every label slot and the
+    // graph read as a bibliography. Subject nodes get first refusal.
+    const subject = byImp.slice().reverse().filter((n) => n.cat !== "source");
+    const sources = byImp.slice().reverse().filter((n) => n.cat === "source");
+    subject.concat(sources).forEach((nd) => {
+      const active = nd === App.selected || nd === App.hovered;
+      if (!active && drawn >= budget) return;
+      if (placeLabel(ctx, nd, placed, active, maxDeg)) drawn++;
+    });
+  }
+
+  function drawDisc(ctx, nd, maxDeg) {
     const p = w2s(nd.x, nd.y), r = nd.r * App.cam.scale;
+    if (p.x < -60 || p.y < -60 || p.x > App.W + 60 || p.y > App.H + 60) return;
     const col = CAT[nd.cat].color;
     const active = nd === App.selected || nd === App.hovered;
-    ctx.beginPath(); ctx.arc(p.x, p.y, r, 0, 6.2832);
-    ctx.fillStyle = col; ctx.globalAlpha = active ? 1 : 0.92; ctx.fill();
-    ctx.globalAlpha = 1;
-    if (active) { ctx.lineWidth = 2; ctx.strokeStyle = "#fff"; ctx.stroke(); }
-    // glow
-    ctx.shadowBlur = 0;
-    const showLabel = App.cam.scale > 0.5 || nd.cat === "source" || r > 9 || active;
-    if (showLabel) {
-      ctx.font = (nd.cat === "source" ? "600 " : "") + Math.max(10, Math.min(14, 11 * Math.max(.8, App.cam.scale))) + "px Inter, sans-serif";
-      ctx.fillStyle = active ? "#fff" : "rgba(220,214,255,.78)";
-      ctx.textAlign = "center"; ctx.textBaseline = "top";
-      const label = nd.cat === "source" ? (nd.label || nd.name) : nd.name;
-      ctx.fillText(label, p.x, p.y + r + 3);
+    const rel = (nd.deg || 0) / maxDeg;
+
+    // hubs glow; the long tail recedes, so the eye has somewhere to land
+    if (active || (rel > 0.15 && nd.cat !== "source")) {
+      ctx.shadowColor = col;
+      ctx.shadowBlur = active ? 26 : 8 + rel * 26;
     }
+    ctx.beginPath(); ctx.arc(p.x, p.y, r, 0, 6.2832);
+    ctx.fillStyle = col;
+    ctx.globalAlpha = active ? 1 : (nd.cat === "source" ? 0.34 + rel * 0.34 : 0.66 + rel * 0.34);
+    ctx.fill();
+    ctx.shadowBlur = 0; ctx.globalAlpha = 1;
+    if (active) { ctx.lineWidth = 2; ctx.strokeStyle = "#fff"; ctx.stroke(); ctx.lineWidth = 1; }
+  }
+
+  function placeLabel(ctx, nd, placed, active, maxDeg) {
+    const p = w2s(nd.x, nd.y), r = nd.r * App.cam.scale;
+    if (p.x < 0 || p.y < 0 || p.x > App.W || p.y > App.H) return false;
+    const rel = (nd.deg || 0) / maxDeg;
+    if (!active && rel < 0.06 && App.cam.scale < 1.4) return false;
+
+    const floor = App.W < 620 ? 8.5 : 10;
+    const size = Math.max(floor, Math.min(17, (10.5 + rel * 6) * Math.max(0.85, App.cam.scale)));
+    const weight = rel > 0.3 ? "600 " : "";
+    ctx.font = weight + size.toFixed(1) + "px Inter, sans-serif";
+    const label = nd.cat === "source" ? (nd.label || nd.name) : nd.name;
+    const w = ctx.measureText(label).width, h = size * 1.15;
+    const x0 = p.x - w / 2 - 3, y0 = p.y + r + 3, x1 = p.x + w / 2 + 3, y1 = y0 + h;
+
+    if (!active) {
+      for (let i = 0; i < placed.length; i++) {
+        const q = placed[i];
+        if (x0 < q.x1 && x1 > q.x0 && y0 < q.y1 && y1 > q.y0) return false;
+      }
+    }
+    placed.push({ x0, y0, x1, y1 });
+
+    // a dark plate keeps text legible over the nebula without a hard box
+    ctx.fillStyle = "rgba(7,5,20,.55)";
+    ctx.fillRect(x0, y0, x1 - x0, y1 - y0);
+    ctx.fillStyle = active ? "#fff"
+      : (nd.cat === "source" ? "rgba(200,193,240," + (0.55 + rel * 0.4).toFixed(2) + ")"
+                             : "rgba(238,234,255," + (0.7 + rel * 0.3).toFixed(2) + ")");
+    ctx.fillText(label, p.x, y0 + 1);
+    return true;
   }
 
   function drawMap(ctx) {
@@ -452,7 +561,7 @@
     } else {
       journey.classList.add("hidden"); canvas.classList.remove("hidden"); legend.classList.remove("hidden");
       if (v === "map") { App.nodes.forEach((n) => n._placed = false); drawMap(App.ctx); fitView(App.nodes.filter((n) => n.cat === "realm")); }
-      else fitView(App.nodes);
+      else fitViewSettled(App.nodes);
       hint.textContent = v === "constellation"
         ? "Drag to pan · scroll to zoom · drag a node · click for its sourced dossier"
         : "The terrain people describe · pan & zoom · click a region to enter it";
@@ -467,7 +576,7 @@
 
   function wireUI() {
     const enter = $("#enterBtn"), intro = $("#intro");
-    if (enter) enter.addEventListener("click", () => { intro.classList.add("gone"); fitView(App.nodes); });
+    if (enter) enter.addEventListener("click", () => { intro.classList.add("gone"); fitViewSettled(App.nodes); });
     $("#tabs").addEventListener("click", (e) => { const b = e.target.closest("button"); if (b) setView(b.dataset.view); });
     $("#dossierClose").addEventListener("click", closeDossier);
     $("#aboutBtn").addEventListener("click", () => $("#aboutModal").classList.remove("hidden"));
