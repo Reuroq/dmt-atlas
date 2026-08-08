@@ -347,3 +347,10 @@ a.callout{display:block;margin:20px 0 6px;padding:16px 20px;border-radius:14px;t
 a.callout:hover{border-color:var(--gold);text-decoration:none;transform:translateY(-1px)}
 a.callout b{display:block;font-family:"Fraunces",serif;font-size:16.5px;color:var(--gold);margin-bottom:5px}
 a.callout span{display:block;font-size:13.5px;color:#cfc7f0;line-height:1.6}
+
+/* /prevalence.html was reachable from 3 pages while /entities/ is the section both
+   Bing and the AI crawlers actually pull. The ranking belongs next to each being's
+   own frequency line, which is where a reader asks the comparison question. */
+.freq-more{display:inline-block;margin-top:10px;color:var(--gold);font-size:13px;
+  text-decoration:none;border-bottom:1px solid rgba(201,162,39,.45)}
+.freq-more:hover{border-bottom-color:var(--gold)}
