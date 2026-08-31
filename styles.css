@@ -41,7 +41,7 @@ h1,h2,h3{margin:0;font-weight:600}
   background:
     radial-gradient(1100px 760px at 72% -12%, rgba(60,38,120,.34), transparent 60%),
     radial-gradient(900px 700px at 12% 108%, rgba(20,90,96,.20), transparent 60%),
-    url("assets/img/void_bg.png") center/cover no-repeat,
+    url("assets/img/void_bg.jpg") center/cover no-repeat,
     var(--void);
   opacity:1;
 }

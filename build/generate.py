@@ -118,7 +118,7 @@ def page(path: str, title: str, desc: str, body: str, jsonld: list | None = None
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
-<link rel="stylesheet" href="/site.css?v=3"/>
+<link rel="stylesheet" href="/site.css?v=5"/>
 {ld}
 </head>
 <body>
@@ -282,7 +282,8 @@ def node_page(kind: str, folder: str, n: dict, badge: str, extra_sections: str =
 
 
 def index_page(kind: str, folder: str, nodes: list, badge: str, accent: str,
-               title: str, lede: str, active: str):
+               title: str, lede: str, active: str,
+               intro_extra: str = "", outro: str = "", extra_ld: list | None = None):
     cards = ""
     for n in sorted(nodes, key=lambda x: x["name"].lower()):
         d = (n.get("description") or n.get("appearance") or n.get("what_happens_there") or "")
@@ -302,11 +303,11 @@ def index_page(kind: str, folder: str, nodes: list, badge: str, accent: str,
 {crumbs((title, ""))}
 <p class="kicker">THE DMT ATLAS</p>
 <h1 class="page-title">{esc(title)}</h1>
-<p class="lede">{lede}</p>
-<div class="grid">{cards}</div></main>"""
+<p class="lede">{lede}</p>{intro_extra}
+<div class="grid">{cards}</div>{outro}</main>"""
     page(f"{folder}/index.html", f"{title} · The DMT Atlas",
          lede[:250], body, active=active,
-         jsonld=[crumb_ld([("Atlas", "/"), (title, f"/{folder}/")])])
+         jsonld=[crumb_ld([("Atlas", "/"), (title, f"/{folder}/")])] + (extra_ld or []))
 
 
 # ══════════════════════════════════════════ crossings (cross-tradition hubs)
@@ -682,10 +683,71 @@ def build():
             qas.append((f"When in the experience are {nm} encountered?",
                         f"Most reports place them around phase {ph} — {PHASE_BY_NUM[ph]['name']} — of the commonly-reported journey arc."))
         node_page("entities", "entities", e, "entity", extra_sections=crossing_card(nm), qas=qas)
+    # /entities is the most-fetched content section (AI crawlers + search); its hub
+    # carries an above-the-fold CTA row, the prevalence callout, a sourced depth
+    # section, an FAQ, and CollectionPage/FAQPage JSON-LD. Keep in sync with the
+    # deployed entities/index.html.
+    ent_intro = """
+<div class="cta-row" style="justify-content:flex-start;margin:14px 0 4px">
+  <a class="btn primary" href="/identify.html">✦ Start here: what did you meet?</a>
+  <a class="btn ghost" href="/explore.html">Explore the interactive map</a>
+</div>
+  <a class="callout" href="/prevalence.html"><b>How often is each being actually reported?</b><span>This list is alphabetical. The prevalence page ranks the phenotypes by share of encounters — and shows why Davis, Lawrence and Michael give different numbers for the same beings.</span></a>"""
+    ent_outro = """
+<section class="prev-section">
+<h2>How to read this field guide</h2>
+<p class="sub">Every card above opens a full dossier: appearance, behavior, how the being communicates, quoted reports, and the sources behind each claim. The cards carry three signals. <b>Phase</b> places the being on the commonly-reported <a href="/journey.html">journey arc</a> — threshold figures like <a href="/entities/guardians-gatekeepers-the-bouncer.html">the gatekeepers</a> cluster around phase 4, while deep-state figures like <a href="/entities/deities-god-like-presences.html">deities</a> appear at phases 7–9. <b>~% of reports</b> appears only where a named study supports it, and because the studies differ in method their percentages are not directly comparable — <a href="/prevalence.html">the prevalence page</a> ranks the field within a single corpus and explains why Davis, Lawrence and Michael give different numbers for the same beings. <b>Sources</b> counts the written works documenting the being, all catalogued in <a href="/library.html">the library</a>.</p>
+</section>
+<section class="prev-section">
+<h2>What the studies actually measure</h2>
+<p class="sub">Entity contact is one of the most-replicated findings in the DMT literature, measured across survey, corpus analysis, and field observation. In the largest survey — <a href="https://pubmed.ncbi.nlm.nih.gov/32345112/" target="_blank" rel="noopener">Davis et al. 2020</a> (Johns Hopkins, N&nbsp;=&nbsp;2,561) — 96% experienced the entity as conscious and intelligent, ~78% as benevolent, and 69% received a message, insight or directive. Across 3,778 written reports, <a href="https://www.nature.com/articles/s41598-022-11999-8" target="_blank" rel="noopener">Lawrence et al. 2022</a> (<em>Scientific Reports</em>) found entity encounters in 45.5% — led not by the famous elves but by <a href="/entities/the-divine-feminine.html">a feminine/Goddess presence</a> at 24.2%. And in Michael et al.&#x27;s 2021 naturalistic field study, 94% (34 of 36) of breakthrough reports involved sentient beings. Every number, with its study, is catalogued on <a href="/evidence.html">the evidence page</a>.</p>
+</section>
+<section class="prev-section">
+<h2>Frequently asked</h2>
+<div class="faq">
+<details><summary>Which entity is the most commonly reported?</summary><p>Not the machine elves. In the only study large enough to rank the field — <a href="https://www.nature.com/articles/s41598-022-11999-8" target="_blank" rel="noopener">Lawrence et al. 2022</a>, 3,778 written reports — the most common phenotype was a feminine or Goddess-like presence: 24.2% of the 1,719 entity encounters, ahead of <a href="/entities/deities-god-like-presences.html">deities</a> (17.0%) and <a href="/entities/alien-grey-forms.html">aliens</a> (16.3%). &#x27;Mythological beings&#x27;, the category containing McKenna&#x27;s <a href="/entities/self-transforming-machine-elves.html">machine elves</a>, is 8.4% — and the specific machine-elf description appears in only ~2.9% of one 149-report analysis (Lyke 2019). <a href="/prevalence.html">The full ranking →</a></p></details>
+<details><summary>How likely is an entity encounter at all?</summary><p>45.5% of the written reports analysed in Lawrence 2022 describe one. At breakthrough doses the share climbs: Strassman estimated at least half of his high-dose clinical volunteers reported contact with &#x27;beings&#x27;, and in Michael et al.&#x27;s 2021 naturalistic field study 94% (34 of 36) of reports involved sentient beings. Every figure sits with its study on <a href="/evidence.html">the evidence page</a>.</p></details>
+<details><summary>Are the encounters friendly or frightening?</summary><p>Mostly — but not universally — positive. In <a href="https://pubmed.ncbi.nlm.nih.gov/32345112/" target="_blank" rel="noopener">Davis et al.&#x27;s 2020 Johns Hopkins survey</a> of 2,561 people, ~78% rated the entity benevolent and 69% received a message, insight or directive; yet 41% still felt fear at some point. The dark minority is documented too: see <a href="/entities/dark-entities-demons.html">Dark entities &amp; demons</a> and <a href="/entities/the-mimic-wearer-of-familiar-faces.html">The Mimic</a>.</p></details>
+<details><summary>Is the Atlas claiming these beings are real?</summary><p>No. This is a map of what people <em>report</em> — a cartography of a shared phenomenology and mythology, with every entry cited. Whether the convergence reflects shared brain architecture, cultural templates, or something else is unresolved; <a href="/questions.html">Questions from hyperspace</a> lays out each position, cited, with no verdict.</p></details>
+</div>
+</section>"""
+    ent_faq_qas = [
+        ("Which DMT entity is the most commonly reported?",
+         "Not the machine elves. In the only study large enough to rank the field — Lawrence et al. 2022, an analysis of "
+         "3,778 written inhaled-DMT reports — the most common entity phenotype was a feminine or Goddess-like presence, "
+         "at 24.2% of the 1,719 entity encounters, followed by deities (17.0%) and aliens (16.3%). 'Mythological beings', "
+         "the category that contains McKenna's machine elves, accounted for 8.4%, and the specific machine-elf description "
+         "appears in only ~2.9% of one 149-report analysis (Lyke 2019)."),
+        ("How likely is an entity encounter on DMT?",
+         "Common at any dose and near-universal at breakthrough doses in some samples: 45.5% of the 3,778 written reports "
+         "in Lawrence et al. 2022 described an entity encounter, Strassman estimated at least half of his high-dose "
+         "clinical volunteers reported contact with 'beings', and in Michael et al.'s 2021 naturalistic field study 94% "
+         "(34 of 36) of reports involved sentient beings."),
+        ("Are DMT entity encounters friendly or frightening?",
+         "Mostly, but not universally, positive. In Davis et al.'s 2020 Johns Hopkins survey of 2,561 people, about 78% "
+         "rated the entity benevolent and 69% received a message, insight or directive — yet 41% still felt fear at some "
+         "point. In Michael et al.'s field study, 56% of entity demeanours were charming or inviting versus 8% fearsome."),
+        ("Is the Atlas claiming these beings are real?",
+         "No. The Atlas is a map of what people report and write — a cartography of a shared phenomenology and mythology, "
+         "with every entry cited. That strangers independently describe the same figures is documented and striking; "
+         "whether it reflects shared brain architecture, cultural templates, or something else is unresolved, and the "
+         "Atlas takes no verdict."),
+    ]
+    ent_sorted = sorted(DATA["entities"], key=lambda x: x["name"].lower())
+    ent_coll_ld = {"@context": "https://schema.org", "@type": "CollectionPage",
+                   "name": "The Entities · The DMT Atlas", "url": BASE + "/entities/",
+                   "description": "Every recurring being reported in the DMT literature — who appears, how they "
+                                  "behave, how often, and exactly who reported them.",
+                   "mainEntity": {"@type": "ItemList", "numberOfItems": len(ent_sorted),
+                                  "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": e["name"],
+                                                       "url": f"{BASE}/entities/{slug(e['name'])}.html"}
+                                                      for i, e in enumerate(ent_sorted)]}}
     index_page("entities", "entities", DATA["entities"], "entity", "var(--c-entity)",
                "The Entities", "Every recurring being reported in the DMT literature — who appears, how they behave, "
                "how often, and exactly who reported them. A field guide to the reported inhabitants of hyperspace.",
-               "Entities")
+               "Entities",
+               intro_extra=ent_intro, outro=ent_outro,
+               extra_ld=[ent_coll_ld, faq_ld(ent_faq_qas)])
 
     # ---------- realms ----------
     for r in DATA["realms"]:
@@ -697,7 +759,9 @@ def build():
     index_page("realms", "realms", DATA["realms"], "realm", "var(--c-realm)",
                "The Realms", "The recurring places of the reported DMT space — waiting rooms, cathedrals, control "
                "rooms, voids — mapped from thousands of written accounts, each with its reported architecture and inhabitants.",
-               "Realms")
+               "Realms",
+               intro_extra="""
+  <a class="callout" href="/entities/"><b>Who inhabits these places?</b><span>The field guide to all 40 recurring beings — who appears in which realm, how often each is reported, and exactly who documented them.</span></a>""")
 
     # ---------- geometry ----------
     for g in DATA["geometries"]:
@@ -907,6 +971,7 @@ landscape, and the cited history of the science — searchable and linked to the
   and never a guide to obtaining, making, or taking anything.</p>
   <div class="cta-row">
     <a class="btn primary" href="/explore.html">✦ Enter the interactive Atlas</a>
+    <a class="btn ghost" href="/entities/">Browse the 40 entities</a>
     <a class="btn ghost" href="/identify.html">What did <i>you</i> meet?</a>
   </div>
   <div class="stats-strip">{stats}</div>
