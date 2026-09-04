@@ -1,0 +1,1371 @@
+{
+ "_about": "Vernacular terms people actually write in reports, merged into vocab.json by build/corpus_tag.py. Keys match a node by case-insensitive substring of its name. 'add' terms are whole-word, case-insensitive; 'remove' drops atlas aka terms that fire on ordinary prose.",
+ "generic 'Other'": {
+  "add": [
+   "spirit guide",
+   "spirit guides",
+   "my guide",
+   "the guides",
+   "a guide",
+   "helpers",
+   "the others",
+   "the entities were guiding"
+  ],
+  "remove": [
+   "beings",
+   "spirits",
+   "the presence",
+   "the Other",
+   "guides"
+  ]
+ },
+ "The Logos": {
+  "add": [
+   "the voice",
+   "a voice",
+   "voice said",
+   "voice told",
+   "voice spoke",
+   "telepathic",
+   "telepathically",
+   "logos",
+   "spoke to me without words"
+  ],
+  "remove": [
+   "the Other"
+  ]
+ },
+ "Jester": {
+  "add": [
+   "jester",
+   "jesters",
+   "clown",
+   "clowns",
+   "trickster",
+   "tricksters",
+   "joker",
+   "court jester"
+  ]
+ },
+ "Mantis": {
+  "add": [
+   "mantis",
+   "praying mantis",
+   "insectoid",
+   "insect-like",
+   "insect like",
+   "bug-like",
+   "bug like",
+   "insect beings",
+   "grasshopper",
+   "insect entity",
+   "insect entities"
+  ]
+ },
+ "Alien &": {
+  "add": [
+   "aliens",
+   "alien",
+   "greys",
+   "grays",
+   "grey aliens",
+   "gray aliens",
+   "extraterrestrial",
+   "extraterrestrials",
+   "ufo"
+  ]
+ },
+ "Reptilian": {
+  "add": [
+   "reptilian",
+   "reptilians",
+   "lizard",
+   "lizards",
+   "lizard people",
+   "snake people",
+   "reptile"
+  ]
+ },
+ "cosmic serpent": {
+  "add": [
+   "serpent",
+   "serpents",
+   "snake",
+   "snakes",
+   "cobra",
+   "anaconda",
+   "the serpent"
+  ]
+ },
+ "Octopoid": {
+  "add": [
+   "octopus",
+   "tentacle",
+   "tentacles",
+   "squid",
+   "octopoid",
+   "cephalopod"
+  ]
+ },
+ "Light beings": {
+  "add": [
+   "angel",
+   "angels",
+   "angelic",
+   "beings of light",
+   "light beings",
+   "being of light",
+   "light being",
+   "beings made of light"
+  ]
+ },
+ "Deities": {
+  "add": [
+   "a god",
+   "the gods",
+   "deity",
+   "deities",
+   "the creator",
+   "godhead",
+   "god-like",
+   "godlike",
+   "the almighty"
+  ],
+  "remove": [
+   "the Source",
+   "She"
+  ]
+ },
+ "Divine Feminine": {
+  "add": [
+   "goddess",
+   "divine feminine",
+   "mother ayahuasca",
+   "feminine entity",
+   "female entity",
+   "female presence",
+   "feminine presence",
+   "the mother",
+   "great mother",
+   "mother figure"
+  ],
+  "remove": [
+   "She"
+  ]
+ },
+ "Deceased": {
+  "add": [
+   "my grandmother",
+   "my grandfather",
+   "my grandma",
+   "my grandpa",
+   "my dead",
+   "passed away",
+   "deceased",
+   "my late",
+   "who died",
+   "ancestors",
+   "ancestor"
+  ]
+ },
+ "Guardians": {
+  "add": [
+   "gatekeeper",
+   "gatekeepers",
+   "guardian",
+   "guardians",
+   "bouncer",
+   "wouldn't let me",
+   "would not let me",
+   "not allowed",
+   "turned me away",
+   "sent me back",
+   "denied entry",
+   "not ready"
+  ]
+ },
+ "Hooded": {
+  "add": [
+   "hooded",
+   "cloaked",
+   "robed figure",
+   "robed figures",
+   "hooded figure",
+   "hooded figures",
+   "cloak",
+   "robes",
+   "monk",
+   "monks"
+  ]
+ },
+ "Dark entities": {
+  "add": [
+   "demon",
+   "demons",
+   "demonic",
+   "dark entity",
+   "dark entities",
+   "evil entity",
+   "evil entities",
+   "evil presence",
+   "malevolent",
+   "shadow people",
+   "shadow figure",
+   "shadow figures",
+   "sinister",
+   "the devil"
+  ]
+ },
+ "Composite": {
+  "add": [
+   "hive mind",
+   "hivemind",
+   "collective consciousness",
+   "one being made of many",
+   "many beings as one",
+   "a collective"
+  ]
+ },
+ "Orbs": {
+  "add": [
+   "orb",
+   "orbs",
+   "balls of light",
+   "ball of light",
+   "points of light",
+   "sphere of light",
+   "spheres of light",
+   "glowing spheres",
+   "glowing orbs"
+  ]
+ },
+ "Plant spirits": {
+  "add": [
+   "plant spirit",
+   "plant spirits",
+   "spirit of the plant",
+   "plant teacher",
+   "the plant itself",
+   "the spirit of dmt",
+   "the spirit of the molecule",
+   "mother nature"
+  ]
+ },
+ "Robotic": {
+  "add": [
+   "robot",
+   "robots",
+   "robotic",
+   "android",
+   "androids",
+   "drone",
+   "drones",
+   "automaton",
+   "mechanical beings",
+   "mechanical being"
+  ]
+ },
+ "Impersonal geometric": {
+  "add": [
+   "the machine",
+   "a machine",
+   "machinery",
+   "machine-like",
+   "geometric intelligence",
+   "the mainframe",
+   "a computer",
+   "the computer",
+   "circuitry",
+   "the matrix",
+   "the program",
+   "a program",
+   "the simulation"
+  ]
+ },
+ "Fractal humanoids": {
+  "add": [
+   "fractal beings",
+   "fractal being",
+   "made of fractals",
+   "made of geometry",
+   "geometric beings",
+   "geometric being",
+   "made of the patterns",
+   "made out of the geometry"
+  ]
+ },
+ "Morphos": {
+  "add": [
+   "shapeshifting",
+   "shape-shifting",
+   "shapeshifter",
+   "shapeshifters",
+   "morphing",
+   "formless",
+   "amorphous",
+   "blob",
+   "blobs",
+   "constantly changing form"
+  ]
+ },
+ "Embedded faces": {
+  "add": [
+   "faces in the walls",
+   "faces in the wall",
+   "faces everywhere",
+   "wall of faces",
+   "faces in the patterns",
+   "faces in the geometry",
+   "made of faces",
+   "covered in faces",
+   "faces in everything",
+   "faces appearing",
+   "faces morphing"
+  ]
+ },
+ "The Mimic": {
+  "add": [
+   "impersonating",
+   "impersonate",
+   "pretending to be",
+   "pretended to be",
+   "looked like my",
+   "took the form of my",
+   "wearing the face",
+   "wasn't really my",
+   "disguised as"
+  ]
+ },
+ "Hive Queen": {
+  "add": [
+   "hive queen",
+   "the queen",
+   "queen of",
+   "matriarch",
+   "queen bee"
+  ]
+ },
+ "Silent Witness": {
+  "add": [
+   "felt presence",
+   "felt a presence",
+   "presence in the room",
+   "sensed a presence",
+   "being watched",
+   "watching me",
+   "the observer",
+   "the watcher",
+   "something was there",
+   "someone was there",
+   "a presence"
+  ],
+  "remove": [
+   "The Presence"
+  ]
+ },
+ "The choir": {
+  "add": [
+   "choir",
+   "singing",
+   "chorus",
+   "chanting",
+   "singing to me",
+   "they sang",
+   "harmonies",
+   "hymn"
+  ]
+ },
+ "Council": {
+  "add": [
+   "council",
+   "tribunal",
+   "elders",
+   "the elders",
+   "judges",
+   "panel of",
+   "committee",
+   "board of"
+  ]
+ },
+ "Dream Wizards": {
+  "add": [
+   "wizard",
+   "wizards",
+   "magician",
+   "magicians",
+   "mage",
+   "mages",
+   "sorcerer",
+   "sorcerers",
+   "magi",
+   "shaman",
+   "shamans"
+  ]
+ },
+ "Harlequin": {
+  "add": [
+   "harlequin",
+   "card dealer",
+   "dealing cards",
+   "tarot",
+   "playing cards",
+   "deck of cards"
+  ]
+ },
+ "Ringmaster": {
+  "add": [
+   "ringmaster",
+   "circus",
+   "carnival",
+   "showman",
+   "master of ceremonies",
+   "the show",
+   "putting on a show",
+   "performance for me"
+  ]
+ },
+ "Scanners": {
+  "add": [
+   "scanned",
+   "scanning",
+   "scanned me",
+   "probed",
+   "probing",
+   "examined me",
+   "examining me",
+   "inspected",
+   "inspecting me",
+   "checked me out"
+  ]
+ },
+ "Surgeons": {
+  "add": [
+   "surgeon",
+   "surgeons",
+   "surgery",
+   "operated on",
+   "operating on me",
+   "doctors",
+   "the doctors",
+   "medical",
+   "healing me",
+   "healers",
+   "healer",
+   "worked on my body",
+   "working on me"
+  ]
+ },
+ "The Operators": {
+  "add": [
+   "operators",
+   "the operator",
+   "technicians",
+   "running the show",
+   "behind the scenes",
+   "controllers",
+   "the crew",
+   "stagehands",
+   "engineers",
+   "the workers",
+   "busy working"
+  ]
+ },
+ "The Teacher": {
+  "add": [
+   "teacher",
+   "teachers",
+   "professor",
+   "instructor",
+   "teaching me",
+   "taught me",
+   "showing me how",
+   "explaining",
+   "a lesson"
+  ]
+ },
+ "Animal-headed": {
+  "add": [
+   "egyptian",
+   "anubis",
+   "pharaoh",
+   "egyptian gods",
+   "animal-headed",
+   "animal headed",
+   "jackal",
+   "ibis",
+   "sphinx",
+   "hieroglyph",
+   "hieroglyphs"
+  ]
+ },
+ "Aztec": {
+  "add": [
+   "aztec",
+   "mayan",
+   "mayans",
+   "maya",
+   "mesoamerican",
+   "quetzalcoatl",
+   "inca",
+   "incan",
+   "aztec-like",
+   "mayan-like",
+   "south american"
+  ]
+ },
+ "Fairies": {
+  "add": [
+   "fairy",
+   "fairies",
+   "faerie",
+   "faeries",
+   "siren",
+   "sirens",
+   "seductress",
+   "seductive",
+   "nymph",
+   "nymphs",
+   "pixie",
+   "pixies"
+  ]
+ },
+ "Hyperspace": {
+  "add": [
+   "hyperspace",
+   "other dimension",
+   "another dimension",
+   "other realm",
+   "another realm",
+   "different dimension",
+   "dmt realm",
+   "dmt world",
+   "dmt space",
+   "dmt land",
+   "the other side"
+  ]
+ },
+ "Waiting Room": {
+  "add": [
+   "waiting room",
+   "lobby",
+   "antechamber",
+   "reception",
+   "nursery",
+   "lounge",
+   "foyer",
+   "the lobby",
+   "the reception"
+  ]
+ },
+ "Domed Cathedral": {
+  "add": [
+   "dome",
+   "domed",
+   "cathedral",
+   "temple",
+   "opera house",
+   "vault",
+   "vaulted",
+   "chamber",
+   "great hall",
+   "palace",
+   "the temple",
+   "the vault"
+  ]
+ },
+ "The Void": {
+  "add": [
+   "the void",
+   "a void",
+   "nothingness",
+   "blackness",
+   "black void",
+   "empty space",
+   "infinite black",
+   "pure black",
+   "total darkness"
+  ]
+ },
+ "Tunnels": {
+  "add": [
+   "tunnel",
+   "tunnels",
+   "corridor",
+   "corridors",
+   "hallway",
+   "hallways",
+   "wormhole",
+   "passageway",
+   "the tunnel",
+   "the corridor",
+   "the hallway"
+  ]
+ },
+ "Membrane": {
+  "add": [
+   "membrane",
+   "the veil",
+   "barrier",
+   "curtain",
+   "through the veil",
+   "broke through",
+   "pushed through",
+   "punched through",
+   "portal",
+   "gateway",
+   "doorway",
+   "the door",
+   "the membrane"
+  ]
+ },
+ "Ocean": {
+  "add": [
+   "ocean",
+   "underwater",
+   "under water",
+   "the sea",
+   "aquatic",
+   "submerged",
+   "deep sea"
+  ]
+ },
+ "City of Lights": {
+  "add": [
+   "city",
+   "cities",
+   "metropolis",
+   "skyscrapers",
+   "buildings",
+   "futuristic city",
+   "alien city",
+   "crystal city",
+   "cityscape"
+  ]
+ },
+ "Chrysanthemum": {
+  "add": [
+   "chrysanthemum",
+   "mandala",
+   "flower opening",
+   "kaleidoscope",
+   "kaleidoscopic",
+   "the flower",
+   "a flower unfolding"
+  ]
+ },
+ "Inhalation": {
+  "add": [
+   "first hit",
+   "second hit",
+   "third hit",
+   "inhale",
+   "inhaled",
+   "held it in",
+   "hold it in",
+   "exhale",
+   "exhaled",
+   "took a hit",
+   "big hit",
+   "one hit",
+   "two hits",
+   "three hits"
+  ]
+ },
+ "The Rush": {
+  "add": [
+   "the rush",
+   "rush",
+   "blast off",
+   "blasted off",
+   "blast-off",
+   "launched",
+   "rocket",
+   "shot out",
+   "shot up",
+   "carrier wave",
+   "the sound",
+   "buzzing",
+   "high pitched"
+  ]
+ },
+ "Through the Membrane": {
+  "add": [
+   "broke through",
+   "breaking through",
+   "pushed through",
+   "punched through",
+   "went through",
+   "passed through",
+   "crossed over"
+  ]
+ },
+ "phase|Breakthrough": {
+  "add": [
+   "breakthrough",
+   "broke through",
+   "blasted through",
+   "fully through"
+  ]
+ },
+ "Arrival": {
+  "add": [
+   "arrived",
+   "landed",
+   "landing",
+   "i was there",
+   "found myself in",
+   "ended up in",
+   "brought me to"
+  ]
+ },
+ "Entity Contact": {
+  "add": [
+   "entity",
+   "entities",
+   "beings",
+   "creatures",
+   "presences",
+   "the being",
+   "a being",
+   "these beings",
+   "they were",
+   "greeted me",
+   "welcomed me",
+   "welcomed"
+  ]
+ },
+ "The Download": {
+  "add": [
+   "download",
+   "downloaded",
+   "downloading",
+   "showed me",
+   "taught me",
+   "the message",
+   "the lesson",
+   "told me",
+   "understood everything",
+   "information",
+   "knowledge"
+  ]
+ },
+ "The Peak": {
+  "add": [
+   "the peak",
+   "peaked",
+   "peaking",
+   "the apex",
+   "the throne",
+   "the climax",
+   "the top",
+   "the summit",
+   "the center of it all",
+   "the source"
+  ]
+ },
+ "The Return": {
+  "add": [
+   "coming back",
+   "came back",
+   "coming down",
+   "returned",
+   "returning",
+   "back in my body",
+   "back in the room",
+   "fading",
+   "faded",
+   "slowly came",
+   "pulled back",
+   "back to reality",
+   "wearing off"
+  ]
+ },
+ "Afterglow": {
+  "add": [
+   "afterglow",
+   "integration",
+   "days after",
+   "weeks after",
+   "since then",
+   "afterwards",
+   "the next day",
+   "still processing",
+   "changed my life",
+   "life changing"
+  ]
+ },
+ "Alien Glyphs": {
+  "add": [
+   "glyphs",
+   "hieroglyphs",
+   "hieroglyphics",
+   "writing",
+   "symbols",
+   "alien language",
+   "alien writing",
+   "unreadable",
+   "script",
+   "letters",
+   "characters"
+  ]
+ },
+ "Embedded Faces &": {
+  "add": [
+   "faces in the walls",
+   "faces in the patterns",
+   "faces everywhere",
+   "faces in the geometry"
+  ]
+ },
+ "Self-transforming machine elves": {
+  "add": [
+   "machine elf",
+   "elves",
+   "elfs",
+   "little people",
+   "gnomes",
+   "imps",
+   "tykes"
+  ]
+ },
+ "Child-sprites": {
+  "add": [
+   "children",
+   "child-like",
+   "childlike",
+   "little kids",
+   "kids",
+   "babies",
+   "a baby",
+   "infant",
+   "playful little"
+  ]
+ },
+ "Geometric Palaces": {
+  "add": [
+   "palace",
+   "palaces",
+   "lattice",
+   "latticework",
+   "scaffolding"
+  ]
+ },
+ "Testing Laboratory": {
+  "add": [
+   "laboratory",
+   "a lab",
+   "the lab",
+   "experiment on me",
+   "experimenting on me",
+   "being tested",
+   "testing me",
+   "test subject"
+  ]
+ },
+ "Nursery": {
+  "add": [
+   "nursery",
+   "incubator",
+   "incubation",
+   "womb",
+   "cocoon",
+   "hatchery"
+  ]
+ },
+ "Egyptian Hall": {
+  "add": [
+   "egyptian",
+   "pyramid",
+   "pyramids",
+   "egypt"
+  ]
+ },
+ "Grid Plain": {
+  "add": [
+   "the grid",
+   "gridlines",
+   "grid lines",
+   "infinite plane",
+   "infinite plain",
+   "checkerboard",
+   "checkered floor",
+   "flat plane"
+  ]
+ },
+ "Bardo": {
+  "add": [
+   "bardo",
+   "judgment",
+   "judgement",
+   "judged",
+   "afterlife",
+   "purgatory",
+   "limbo",
+   "the dead",
+   "death itself"
+  ]
+ },
+ "Fractal lattices": {
+  "add": [
+   "jeweled",
+   "jewelled",
+   "jewels",
+   "gems",
+   "gemstones",
+   "tiling",
+   "tiles",
+   "mosaic",
+   "stained glass",
+   "crystalline",
+   "crystals"
+  ]
+ },
+ "Hyper-dimensional": {
+  "add": [
+   "hypercube",
+   "tesseract",
+   "4d",
+   "4th dimension",
+   "fourth dimension",
+   "higher dimensional",
+   "higher dimensions",
+   "impossible shapes",
+   "impossible geometry",
+   "more than three dimensions"
+  ]
+ },
+ "Living language": {
+  "add": [
+   "visible sound",
+   "see the sound",
+   "seeing sound",
+   "synesthesia",
+   "synaesthesia",
+   "words became",
+   "language made of",
+   "living language",
+   "the words were"
+  ]
+ },
+ "Mandalas": {
+  "add": [
+   "mandala",
+   "mandalas",
+   "symmetrical",
+   "symmetry",
+   "sacred geometry"
+  ]
+ },
+ "Static Pattern": {
+  "add": [
+   "filigree",
+   "overlay",
+   "overlaid",
+   "lace",
+   "intricate patterns",
+   "intricate pattern"
+  ]
+ },
+ "Klüver": {
+  "add": [
+   "form constants",
+   "honeycomb",
+   "cobweb",
+   "cobwebs",
+   "spiral",
+   "spirals",
+   "funnel",
+   "concentric",
+   "tunnel of light"
+  ]
+ },
+ "Hyperbolic": {
+  "add": [
+   "hyperbolic",
+   "curved space",
+   "space curved",
+   "non-euclidean",
+   "non euclidean",
+   "space folded",
+   "space was folding"
+  ]
+ },
+ "Aperture": {
+  "add": [
+   "aperture",
+   "iris",
+   "an eye opened",
+   "giant eye",
+   "the eye",
+   "eye opening",
+   "pupil"
+  ]
+ },
+ "TV Static": {
+  "add": [
+   "static",
+   "tv static",
+   "white noise",
+   "signal",
+   "tuning in",
+   "tuned in",
+   "frequency",
+   "channel"
+  ]
+ },
+ "Dimensional Layering": {
+  "add": [
+   "layers",
+   "layered",
+   "folding",
+   "folded",
+   "unfolding",
+   "unfolded",
+   "stacked",
+   "layer upon layer",
+   "dimensions within dimensions"
+  ]
+ },
+ "Time Geometry": {
+  "add": [
+   "time stopped",
+   "time didn't exist",
+   "no time",
+   "eternity",
+   "timeless",
+   "time loop",
+   "loops",
+   "looping",
+   "forever",
+   "eternal",
+   "infinity",
+   "infinite"
+  ]
+ },
+ "Omnidirectional": {
+  "add": [
+   "360",
+   "all directions",
+   "every direction",
+   "all around me",
+   "omnidirectional",
+   "see everything at once",
+   "seeing in all directions"
+  ]
+ },
+ "Body Dissolution": {
+  "add": [
+   "dissolved",
+   "dissolving",
+   "ego death",
+   "ego loss",
+   "lost my body",
+   "no body",
+   "became one with",
+   "merged with",
+   "melted into",
+   "no longer had a body",
+   "left my body"
+  ]
+ },
+ "Entity Soundscapes": {
+  "add": [
+   "windup",
+   "wind up",
+   "wind-up",
+   "buzzing",
+   "high-pitched",
+   "high pitched",
+   "ringing",
+   "whirring",
+   "humming",
+   "crackling",
+   "vibrating sound"
+  ]
+ },
+ "Tactile Geometry": {
+  "add": [
+   "could feel the",
+   "felt the geometry",
+   "touched me",
+   "tactile",
+   "textures",
+   "feel the patterns",
+   "felt the patterns",
+   "touching"
+  ]
+ },
+ "Energy Conduits": {
+  "add": [
+   "circuitry",
+   "circuits",
+   "circuit board",
+   "wires",
+   "conduits",
+   "energy flowing",
+   "electricity",
+   "electric",
+   "electrical",
+   "plugged in"
+  ]
+ },
+ "Ultra-Detail": {
+  "add": [
+   "infinite detail",
+   "infinitely detailed",
+   "so much detail",
+   "impossible detail",
+   "high definition",
+   "crisper than reality",
+   "more real than real",
+   "realer than real",
+   "hyper real",
+   "hyperreal"
+  ]
+ },
+ "Breathing & Liquid": {
+  "add": [
+   "breathing",
+   "liquid",
+   "melting",
+   "flowing",
+   "undulating",
+   "rippling",
+   "walls breathing",
+   "fluid",
+   "morphing walls"
+  ]
+ },
+ "The Greeting": {
+  "add": [
+   "greeted",
+   "greeting",
+   "welcomed",
+   "welcome",
+   "hello",
+   "waiting for me",
+   "expecting me",
+   "glad to see me",
+   "happy to see me"
+  ]
+ },
+ "The Presentation": {
+  "add": [
+   "presented",
+   "presenting",
+   "putting on a show",
+   "look at this",
+   "showing me things",
+   "show me",
+   "showed me",
+   "a demonstration"
+  ]
+ },
+ "The Gift": {
+  "add": [
+   "gave me",
+   "handed me",
+   "a gift",
+   "gift",
+   "offered me",
+   "presented me with"
+  ]
+ },
+ "The Examination": {
+  "add": [
+   "scanned",
+   "scanning",
+   "examined",
+   "examining",
+   "probed",
+   "probing",
+   "checked me",
+   "inspected",
+   "analyzed me",
+   "analysed me"
+  ]
+ },
+ "The Tour": {
+  "add": [
+   "showed me around",
+   "took me to",
+   "led me",
+   "guided me",
+   "a tour",
+   "tour",
+   "flew me",
+   "brought me through",
+   "took me through"
+  ]
+ },
+ "The Console": {
+  "add": [
+   "controls",
+   "control panel",
+   "console",
+   "buttons",
+   "levers",
+   "dials",
+   "operating a machine",
+   "control room",
+   "at the controls"
+  ]
+ },
+ "The Warning": {
+  "add": [
+   "warned",
+   "warning",
+   "prophecy",
+   "told me not to",
+   "shouldn't",
+   "be careful",
+   "don't come back",
+   "you're not supposed"
+  ]
+ },
+ "The Mockery": {
+  "add": [
+   "laughed at me",
+   "laughing at me",
+   "mocked",
+   "mocking",
+   "made fun of",
+   "teasing",
+   "teased",
+   "ridicul"
+  ]
+ },
+ "The Test": {
+  "add": [
+   "tested",
+   "a test",
+   "the test",
+   "challenge",
+   "passed the test",
+   "failed the test",
+   "prove myself",
+   "testing"
+  ]
+ },
+ "The Love-Flood": {
+  "add": [
+   "unconditional love",
+   "pure love",
+   "overwhelming love",
+   "so much love",
+   "infinite love",
+   "loved me",
+   "love and acceptance",
+   "bathed in love"
+  ]
+ },
+ "'LOOK!": {
+  "add": [
+   "pay attention",
+   "look!",
+   "look at this",
+   "don't get distracted",
+   "focus",
+   "watch this",
+   "look here"
+  ]
+ },
+ "The Serenade": {
+  "add": [
+   "sang to me",
+   "singing to me",
+   "serenade",
+   "serenaded",
+   "sung to",
+   "a song"
+  ]
+ },
+ "The Unveiling": {
+  "add": [
+   "curtain",
+   "veil lifted",
+   "pulled back",
+   "revealed",
+   "behind the curtain",
+   "the truth",
+   "reveal",
+   "unveiled"
+  ]
+ },
+ "The Recognition": {
+  "add": [
+   "been here before",
+   "familiar",
+   "i remembered",
+   "remembered this place",
+   "recognized",
+   "recognised",
+   "deja vu",
+   "coming home",
+   "back home",
+   "like home"
+  ]
+ },
+ "The Send-Back": {
+  "add": [
+   "not your time",
+   "not ready",
+   "sent me back",
+   "go back",
+   "you have to go back",
+   "not yet",
+   "you must return",
+   "you can't stay"
+  ]
+ },
+ "The Escort Back": {
+  "add": [
+   "brought me back",
+   "guided me back",
+   "escorted",
+   "walked me back",
+   "carried me back",
+   "took me back",
+   "returned me"
+  ]
+ },
+ "The Merge": {
+  "add": [
+   "became one",
+   "merged",
+   "merging",
+   "union with",
+   "one with god",
+   "one with everything",
+   "oneness",
+   "became everything",
+   "i was everything"
+  ]
+ },
+ "Losing the Message": {
+  "add": [
+   "can't remember",
+   "couldn't remember",
+   "cannot remember",
+   "forgot",
+   "forgetting",
+   "slipped away",
+   "lost the message",
+   "can't put into words",
+   "ineffable",
+   "impossible to describe",
+   "words fail"
+  ]
+ },
+ "The Life-Review": {
+  "add": [
+   "life flashed",
+   "my whole life",
+   "life review",
+   "memories flashed",
+   "saw my life",
+   "my entire life",
+   "every memory"
+  ]
+ }
+}
