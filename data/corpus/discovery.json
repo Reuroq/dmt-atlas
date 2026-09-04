@@ -1,0 +1,486 @@
+{
+ "reports_scanned": 14557,
+ "candidates": [
+  {
+   "phrase": "living room",
+   "reports": 71,
+   "first_seen": 1359349278,
+   "examples": [
+    "17eup2",
+    "1raxjp",
+    "2ux1p5",
+    "2zthj8",
+    "3o0o7k"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "dark room",
+   "reports": 58,
+   "first_seen": 1364150901,
+   "examples": [
+    "1axbw0",
+    "32m7y1",
+    "362ijt",
+    "43cl93",
+    "4lu7vp"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "forest",
+   "reports": 56,
+   "first_seen": 1349727672,
+   "examples": [
+    "115lck",
+    "23t688",
+    "2iscs5",
+    "3o0o7k",
+    "4flx4h"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "hospital",
+   "reports": 49,
+   "first_seen": 1315454242,
+   "examples": [
+    "k8f9v",
+    "1rdwmk",
+    "2t3y38",
+    "43hoho",
+    "5727gg"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "machine",
+   "reports": 36,
+   "first_seen": 1400969587,
+   "examples": [
+    "26el5x",
+    "3h2osl",
+    "3qq7ie",
+    "48boh1",
+    "5fz8tx"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "field",
+   "reports": 33,
+   "first_seen": 1473698235,
+   "examples": [
+    "52f8vy",
+    "7lmwaq",
+    "86q1et",
+    "86z6rl",
+    "9thdg4"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "garden",
+   "reports": 30,
+   "first_seen": 1399411240,
+   "examples": [
+    "24wbnb",
+    "2webka",
+    "32mm2g",
+    "32sdie",
+    "3h6lzd"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "white room",
+   "reports": 30,
+   "first_seen": 1420476330,
+   "examples": [
+    "2rewtw",
+    "5ch4we",
+    "6hcslo",
+    "93k4zq",
+    "cruoc5"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "being",
+   "reports": 17,
+   "first_seen": 1445242221,
+   "examples": [
+    "3pbvad",
+    "85q3j5",
+    "asj275",
+    "b1ac4f",
+    "e8gpsm"
+   ],
+   "head_in_atlas": true
+  },
+  {
+   "phrase": "spirit world",
+   "reports": 14,
+   "first_seen": 1359349278,
+   "examples": [
+    "17eup2",
+    "3fpk7d",
+    "3fpmd2",
+    "3pbvad",
+    "aeitve"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "stage",
+   "reports": 14,
+   "first_seen": 1484416832,
+   "examples": [
+    "5nyqb4",
+    "5ocw8k",
+    "6dl880",
+    "99ox5g",
+    "ag8bfq"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "presence",
+   "reports": 13,
+   "first_seen": 1361403381,
+   "examples": [
+    "18x29j",
+    "39eehv",
+    "3akv8f",
+    "7bk7jd",
+    "hh8529"
+   ],
+   "head_in_atlas": true
+  },
+  {
+   "phrase": "building",
+   "reports": 13,
+   "first_seen": 1433997133,
+   "examples": [
+    "39eehv",
+    "3b9k8s",
+    "7b7vol",
+    "9tggmy",
+    "eu3s67"
+   ],
+   "head_in_atlas": true
+  },
+  {
+   "phrase": "black space",
+   "reports": 13,
+   "first_seen": 1483499891,
+   "examples": [
+    "5lwnip",
+    "5pqb66",
+    "agqsux",
+    "amnxod",
+    "assjz0"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "faces",
+   "reports": 12,
+   "first_seen": 1449828268,
+   "examples": [
+    "3wcvww",
+    "fe7mkg",
+    "fty120",
+    "gx2b6l",
+    "hrije3"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "white light",
+   "reports": 11,
+   "first_seen": 1369467741,
+   "examples": [
+    "1f0qxr",
+    "5qefvm",
+    "b8uzr7",
+    "nkwhk1",
+    "rp7z42"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "higher dimension",
+   "reports": 11,
+   "first_seen": 1401900598,
+   "examples": [
+    "27ay68",
+    "53xvoa",
+    "5x5jl0",
+    "6dm9m2",
+    "85zv1i"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "cartoon",
+   "reports": 11,
+   "first_seen": 1499936712,
+   "examples": [
+    "6n0ghd",
+    "6t0yfr",
+    "a3hzbb",
+    "hmmgsk",
+    "jz5y9r"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "dark space",
+   "reports": 11,
+   "first_seen": 1530703078,
+   "examples": [
+    "8w0vu2",
+    "9fbqsk",
+    "aroc9c",
+    "ck6a93",
+    "crzkws"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "structure",
+   "reports": 10,
+   "first_seen": 1424337699,
+   "examples": [
+    "2wexh0",
+    "48boh1",
+    "7mzlfs",
+    "b6l9lw",
+    "clptqm"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "of them",
+   "reports": 10,
+   "first_seen": 1453366751,
+   "examples": [
+    "41z4pv",
+    "5wtdze",
+    "f86k8x",
+    "hcb7wv",
+    "kp7i34"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "landscape",
+   "reports": 10,
+   "first_seen": 1465472724,
+   "examples": [
+    "4naf9g",
+    "8jgavy",
+    "c52rl5",
+    "cu9nn6",
+    "hcdb1x"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "bright white light",
+   "reports": 10,
+   "first_seen": 1483813258,
+   "examples": [
+    "5mluzg",
+    "6s1rqc",
+    "7qlvke",
+    "aroc9c",
+    "atxnfz"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "lab",
+   "reports": 10,
+   "first_seen": 1553792135,
+   "examples": [
+    "b6l9lw",
+    "c2nw3e",
+    "eo7noy",
+    "oo8pt9",
+    "vw1rae"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "door",
+   "reports": 9,
+   "first_seen": 1361274127,
+   "examples": [
+    "18tat7",
+    "2x5be9",
+    "7yaecs",
+    "95lqdp",
+    "as8iyh"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "fractals",
+   "reports": 9,
+   "first_seen": 1396213204,
+   "examples": [
+    "21rv3x",
+    "7860gq",
+    "cby82k",
+    "f9vxt5",
+    "k2tvk0"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "black room",
+   "reports": 9,
+   "first_seen": 1450554857,
+   "examples": [
+    "3xhxuh",
+    "54m7h4",
+    "a91pnk",
+    "10hdfas",
+    "11z59zn"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "cave",
+   "reports": 9,
+   "first_seen": 1525028666,
+   "examples": [
+    "8ftgqw",
+    "9vp2z0",
+    "t6819c",
+    "zs9cxd",
+    "zwcq62"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "bright light",
+   "reports": 9,
+   "first_seen": 1534890513,
+   "examples": [
+    "997q2k",
+    "dguj0b",
+    "e4dwwh",
+    "g870uh",
+    "hh3rma"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "spirit realm",
+   "reports": 9,
+   "first_seen": 1565016126,
+   "examples": [
+    "cmbtqx",
+    "ll88x1",
+    "lrg6uz",
+    "okdvv4",
+    "xe14pn"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "image",
+   "reports": 8,
+   "first_seen": 1359146370,
+   "examples": [
+    "179xlu",
+    "469j4y",
+    "5r4sus",
+    "6i8tsd",
+    "zk6ya7"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "pitch black room",
+   "reports": 8,
+   "first_seen": 1359349278,
+   "examples": [
+    "17eup2",
+    "4nhket",
+    "64hpww",
+    "8566n0",
+    "13f62fy"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "hall",
+   "reports": 8,
+   "first_seen": 1420831989,
+   "examples": [
+    "2rvybk",
+    "6pkr8p",
+    "j9m0vg",
+    "mwe1eb",
+    "n53e5m"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "people",
+   "reports": 8,
+   "first_seen": 1421508352,
+   "examples": [
+    "2sql3j",
+    "b3bmwj",
+    "jifaem",
+    "njg9em",
+    "v39hwg"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "of room",
+   "reports": 8,
+   "first_seen": 1467583382,
+   "examples": [
+    "4r422n",
+    "5o4fci",
+    "hui859",
+    "og4sbc",
+    "ue7mzc"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "dark void",
+   "reports": 8,
+   "first_seen": 1493584680,
+   "examples": [
+    "68hoy1",
+    "8voi9h",
+    "dq8xvu",
+    "fajdvr",
+    "gy6kzf"
+   ],
+   "head_in_atlas": false
+  },
+  {
+   "phrase": "normal world",
+   "reports": 8,
+   "first_seen": 1530703078,
+   "examples": [
+    "8w0vu2",
+    "jbpk9j",
+    "jv98h3",
+    "m53oyw",
+    "maig6l"
+   ],
+   "head_in_atlas": false
+  }
+ ]
+}

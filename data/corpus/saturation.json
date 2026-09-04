@@ -1,0 +1,2942 @@
+{
+ "n_reports": 14309,
+ "vocab_nodes": 128,
+ "nodes_seen": 128,
+ "curve": [
+  [
+   25,
+   61
+  ],
+  [
+   50,
+   84
+  ],
+  [
+   75,
+   88
+  ],
+  [
+   100,
+   92
+  ],
+  [
+   125,
+   96
+  ],
+  [
+   150,
+   96
+  ],
+  [
+   175,
+   97
+  ],
+  [
+   200,
+   97
+  ],
+  [
+   225,
+   98
+  ],
+  [
+   250,
+   99
+  ],
+  [
+   275,
+   102
+  ],
+  [
+   300,
+   102
+  ],
+  [
+   325,
+   103
+  ],
+  [
+   350,
+   104
+  ],
+  [
+   375,
+   104
+  ],
+  [
+   400,
+   105
+  ],
+  [
+   425,
+   105
+  ],
+  [
+   450,
+   106
+  ],
+  [
+   475,
+   106
+  ],
+  [
+   500,
+   108
+  ],
+  [
+   525,
+   109
+  ],
+  [
+   550,
+   109
+  ],
+  [
+   575,
+   109
+  ],
+  [
+   600,
+   109
+  ],
+  [
+   625,
+   110
+  ],
+  [
+   650,
+   111
+  ],
+  [
+   675,
+   111
+  ],
+  [
+   700,
+   112
+  ],
+  [
+   725,
+   112
+  ],
+  [
+   750,
+   112
+  ],
+  [
+   775,
+   113
+  ],
+  [
+   800,
+   114
+  ],
+  [
+   825,
+   114
+  ],
+  [
+   850,
+   116
+  ],
+  [
+   875,
+   116
+  ],
+  [
+   900,
+   116
+  ],
+  [
+   925,
+   116
+  ],
+  [
+   950,
+   116
+  ],
+  [
+   975,
+   116
+  ],
+  [
+   1000,
+   116
+  ],
+  [
+   1025,
+   116
+  ],
+  [
+   1050,
+   117
+  ],
+  [
+   1075,
+   117
+  ],
+  [
+   1100,
+   117
+  ],
+  [
+   1125,
+   117
+  ],
+  [
+   1150,
+   117
+  ],
+  [
+   1175,
+   117
+  ],
+  [
+   1200,
+   117
+  ],
+  [
+   1225,
+   117
+  ],
+  [
+   1250,
+   117
+  ],
+  [
+   1275,
+   117
+  ],
+  [
+   1300,
+   117
+  ],
+  [
+   1325,
+   117
+  ],
+  [
+   1350,
+   117
+  ],
+  [
+   1375,
+   117
+  ],
+  [
+   1400,
+   117
+  ],
+  [
+   1425,
+   117
+  ],
+  [
+   1450,
+   117
+  ],
+  [
+   1475,
+   117
+  ],
+  [
+   1500,
+   117
+  ],
+  [
+   1525,
+   117
+  ],
+  [
+   1550,
+   117
+  ],
+  [
+   1575,
+   117
+  ],
+  [
+   1600,
+   119
+  ],
+  [
+   1625,
+   119
+  ],
+  [
+   1650,
+   120
+  ],
+  [
+   1675,
+   120
+  ],
+  [
+   1700,
+   120
+  ],
+  [
+   1725,
+   120
+  ],
+  [
+   1750,
+   120
+  ],
+  [
+   1775,
+   120
+  ],
+  [
+   1800,
+   121
+  ],
+  [
+   1825,
+   122
+  ],
+  [
+   1850,
+   122
+  ],
+  [
+   1875,
+   122
+  ],
+  [
+   1900,
+   122
+  ],
+  [
+   1925,
+   122
+  ],
+  [
+   1950,
+   122
+  ],
+  [
+   1975,
+   122
+  ],
+  [
+   2000,
+   122
+  ],
+  [
+   2025,
+   122
+  ],
+  [
+   2050,
+   122
+  ],
+  [
+   2075,
+   122
+  ],
+  [
+   2100,
+   122
+  ],
+  [
+   2125,
+   122
+  ],
+  [
+   2150,
+   122
+  ],
+  [
+   2175,
+   122
+  ],
+  [
+   2200,
+   122
+  ],
+  [
+   2225,
+   122
+  ],
+  [
+   2250,
+   122
+  ],
+  [
+   2275,
+   122
+  ],
+  [
+   2300,
+   122
+  ],
+  [
+   2325,
+   122
+  ],
+  [
+   2350,
+   122
+  ],
+  [
+   2375,
+   122
+  ],
+  [
+   2400,
+   122
+  ],
+  [
+   2425,
+   122
+  ],
+  [
+   2450,
+   122
+  ],
+  [
+   2475,
+   122
+  ],
+  [
+   2500,
+   122
+  ],
+  [
+   2525,
+   122
+  ],
+  [
+   2550,
+   122
+  ],
+  [
+   2575,
+   122
+  ],
+  [
+   2600,
+   122
+  ],
+  [
+   2625,
+   122
+  ],
+  [
+   2650,
+   122
+  ],
+  [
+   2675,
+   122
+  ],
+  [
+   2700,
+   122
+  ],
+  [
+   2725,
+   122
+  ],
+  [
+   2750,
+   122
+  ],
+  [
+   2775,
+   122
+  ],
+  [
+   2800,
+   122
+  ],
+  [
+   2825,
+   122
+  ],
+  [
+   2850,
+   122
+  ],
+  [
+   2875,
+   122
+  ],
+  [
+   2900,
+   122
+  ],
+  [
+   2925,
+   122
+  ],
+  [
+   2950,
+   122
+  ],
+  [
+   2975,
+   122
+  ],
+  [
+   3000,
+   122
+  ],
+  [
+   3025,
+   122
+  ],
+  [
+   3050,
+   122
+  ],
+  [
+   3075,
+   122
+  ],
+  [
+   3100,
+   122
+  ],
+  [
+   3125,
+   122
+  ],
+  [
+   3150,
+   122
+  ],
+  [
+   3175,
+   122
+  ],
+  [
+   3200,
+   122
+  ],
+  [
+   3225,
+   122
+  ],
+  [
+   3250,
+   122
+  ],
+  [
+   3275,
+   122
+  ],
+  [
+   3300,
+   122
+  ],
+  [
+   3325,
+   122
+  ],
+  [
+   3350,
+   122
+  ],
+  [
+   3375,
+   123
+  ],
+  [
+   3400,
+   123
+  ],
+  [
+   3425,
+   123
+  ],
+  [
+   3450,
+   123
+  ],
+  [
+   3475,
+   123
+  ],
+  [
+   3500,
+   123
+  ],
+  [
+   3525,
+   123
+  ],
+  [
+   3550,
+   123
+  ],
+  [
+   3575,
+   123
+  ],
+  [
+   3600,
+   123
+  ],
+  [
+   3625,
+   123
+  ],
+  [
+   3650,
+   123
+  ],
+  [
+   3675,
+   123
+  ],
+  [
+   3700,
+   123
+  ],
+  [
+   3725,
+   124
+  ],
+  [
+   3750,
+   124
+  ],
+  [
+   3775,
+   124
+  ],
+  [
+   3800,
+   125
+  ],
+  [
+   3825,
+   125
+  ],
+  [
+   3850,
+   125
+  ],
+  [
+   3875,
+   125
+  ],
+  [
+   3900,
+   125
+  ],
+  [
+   3925,
+   125
+  ],
+  [
+   3950,
+   125
+  ],
+  [
+   3975,
+   125
+  ],
+  [
+   4000,
+   125
+  ],
+  [
+   4025,
+   125
+  ],
+  [
+   4050,
+   125
+  ],
+  [
+   4075,
+   125
+  ],
+  [
+   4100,
+   125
+  ],
+  [
+   4125,
+   125
+  ],
+  [
+   4150,
+   125
+  ],
+  [
+   4175,
+   125
+  ],
+  [
+   4200,
+   125
+  ],
+  [
+   4225,
+   125
+  ],
+  [
+   4250,
+   125
+  ],
+  [
+   4275,
+   125
+  ],
+  [
+   4300,
+   125
+  ],
+  [
+   4325,
+   125
+  ],
+  [
+   4350,
+   125
+  ],
+  [
+   4375,
+   125
+  ],
+  [
+   4400,
+   125
+  ],
+  [
+   4425,
+   125
+  ],
+  [
+   4450,
+   125
+  ],
+  [
+   4475,
+   125
+  ],
+  [
+   4500,
+   125
+  ],
+  [
+   4525,
+   125
+  ],
+  [
+   4550,
+   125
+  ],
+  [
+   4575,
+   125
+  ],
+  [
+   4600,
+   125
+  ],
+  [
+   4625,
+   125
+  ],
+  [
+   4650,
+   126
+  ],
+  [
+   4675,
+   126
+  ],
+  [
+   4700,
+   126
+  ],
+  [
+   4725,
+   126
+  ],
+  [
+   4750,
+   126
+  ],
+  [
+   4775,
+   126
+  ],
+  [
+   4800,
+   126
+  ],
+  [
+   4825,
+   126
+  ],
+  [
+   4850,
+   126
+  ],
+  [
+   4875,
+   126
+  ],
+  [
+   4900,
+   126
+  ],
+  [
+   4925,
+   126
+  ],
+  [
+   4950,
+   126
+  ],
+  [
+   4975,
+   126
+  ],
+  [
+   5000,
+   126
+  ],
+  [
+   5025,
+   126
+  ],
+  [
+   5050,
+   126
+  ],
+  [
+   5075,
+   126
+  ],
+  [
+   5100,
+   126
+  ],
+  [
+   5125,
+   126
+  ],
+  [
+   5150,
+   126
+  ],
+  [
+   5175,
+   126
+  ],
+  [
+   5200,
+   126
+  ],
+  [
+   5225,
+   126
+  ],
+  [
+   5250,
+   126
+  ],
+  [
+   5275,
+   126
+  ],
+  [
+   5300,
+   126
+  ],
+  [
+   5325,
+   126
+  ],
+  [
+   5350,
+   127
+  ],
+  [
+   5375,
+   127
+  ],
+  [
+   5400,
+   127
+  ],
+  [
+   5425,
+   127
+  ],
+  [
+   5450,
+   127
+  ],
+  [
+   5475,
+   127
+  ],
+  [
+   5500,
+   127
+  ],
+  [
+   5525,
+   127
+  ],
+  [
+   5550,
+   127
+  ],
+  [
+   5575,
+   127
+  ],
+  [
+   5600,
+   127
+  ],
+  [
+   5625,
+   127
+  ],
+  [
+   5650,
+   127
+  ],
+  [
+   5675,
+   127
+  ],
+  [
+   5700,
+   127
+  ],
+  [
+   5725,
+   127
+  ],
+  [
+   5750,
+   127
+  ],
+  [
+   5775,
+   127
+  ],
+  [
+   5800,
+   127
+  ],
+  [
+   5825,
+   127
+  ],
+  [
+   5850,
+   127
+  ],
+  [
+   5875,
+   127
+  ],
+  [
+   5900,
+   127
+  ],
+  [
+   5925,
+   127
+  ],
+  [
+   5950,
+   127
+  ],
+  [
+   5975,
+   127
+  ],
+  [
+   6000,
+   127
+  ],
+  [
+   6025,
+   128
+  ],
+  [
+   6050,
+   128
+  ],
+  [
+   6075,
+   128
+  ],
+  [
+   6100,
+   128
+  ],
+  [
+   6125,
+   128
+  ],
+  [
+   6150,
+   128
+  ],
+  [
+   6175,
+   128
+  ],
+  [
+   6200,
+   128
+  ],
+  [
+   6225,
+   128
+  ],
+  [
+   6250,
+   128
+  ],
+  [
+   6275,
+   128
+  ],
+  [
+   6300,
+   128
+  ],
+  [
+   6325,
+   128
+  ],
+  [
+   6350,
+   128
+  ],
+  [
+   6375,
+   128
+  ],
+  [
+   6400,
+   128
+  ],
+  [
+   6425,
+   128
+  ],
+  [
+   6450,
+   128
+  ],
+  [
+   6475,
+   128
+  ],
+  [
+   6500,
+   128
+  ],
+  [
+   6525,
+   128
+  ],
+  [
+   6550,
+   128
+  ],
+  [
+   6575,
+   128
+  ],
+  [
+   6600,
+   128
+  ],
+  [
+   6625,
+   128
+  ],
+  [
+   6650,
+   128
+  ],
+  [
+   6675,
+   128
+  ],
+  [
+   6700,
+   128
+  ],
+  [
+   6725,
+   128
+  ],
+  [
+   6750,
+   128
+  ],
+  [
+   6775,
+   128
+  ],
+  [
+   6800,
+   128
+  ],
+  [
+   6825,
+   128
+  ],
+  [
+   6850,
+   128
+  ],
+  [
+   6875,
+   128
+  ],
+  [
+   6900,
+   128
+  ],
+  [
+   6925,
+   128
+  ],
+  [
+   6950,
+   128
+  ],
+  [
+   6975,
+   128
+  ],
+  [
+   7000,
+   128
+  ],
+  [
+   7025,
+   128
+  ],
+  [
+   7050,
+   128
+  ],
+  [
+   7075,
+   128
+  ],
+  [
+   7100,
+   128
+  ],
+  [
+   7125,
+   128
+  ],
+  [
+   7150,
+   128
+  ],
+  [
+   7175,
+   128
+  ],
+  [
+   7200,
+   128
+  ],
+  [
+   7225,
+   128
+  ],
+  [
+   7250,
+   128
+  ],
+  [
+   7275,
+   128
+  ],
+  [
+   7300,
+   128
+  ],
+  [
+   7325,
+   128
+  ],
+  [
+   7350,
+   128
+  ],
+  [
+   7375,
+   128
+  ],
+  [
+   7400,
+   128
+  ],
+  [
+   7425,
+   128
+  ],
+  [
+   7450,
+   128
+  ],
+  [
+   7475,
+   128
+  ],
+  [
+   7500,
+   128
+  ],
+  [
+   7525,
+   128
+  ],
+  [
+   7550,
+   128
+  ],
+  [
+   7575,
+   128
+  ],
+  [
+   7600,
+   128
+  ],
+  [
+   7625,
+   128
+  ],
+  [
+   7650,
+   128
+  ],
+  [
+   7675,
+   128
+  ],
+  [
+   7700,
+   128
+  ],
+  [
+   7725,
+   128
+  ],
+  [
+   7750,
+   128
+  ],
+  [
+   7775,
+   128
+  ],
+  [
+   7800,
+   128
+  ],
+  [
+   7825,
+   128
+  ],
+  [
+   7850,
+   128
+  ],
+  [
+   7875,
+   128
+  ],
+  [
+   7900,
+   128
+  ],
+  [
+   7925,
+   128
+  ],
+  [
+   7950,
+   128
+  ],
+  [
+   7975,
+   128
+  ],
+  [
+   8000,
+   128
+  ],
+  [
+   8025,
+   128
+  ],
+  [
+   8050,
+   128
+  ],
+  [
+   8075,
+   128
+  ],
+  [
+   8100,
+   128
+  ],
+  [
+   8125,
+   128
+  ],
+  [
+   8150,
+   128
+  ],
+  [
+   8175,
+   128
+  ],
+  [
+   8200,
+   128
+  ],
+  [
+   8225,
+   128
+  ],
+  [
+   8250,
+   128
+  ],
+  [
+   8275,
+   128
+  ],
+  [
+   8300,
+   128
+  ],
+  [
+   8325,
+   128
+  ],
+  [
+   8350,
+   128
+  ],
+  [
+   8375,
+   128
+  ],
+  [
+   8400,
+   128
+  ],
+  [
+   8425,
+   128
+  ],
+  [
+   8450,
+   128
+  ],
+  [
+   8475,
+   128
+  ],
+  [
+   8500,
+   128
+  ],
+  [
+   8525,
+   128
+  ],
+  [
+   8550,
+   128
+  ],
+  [
+   8575,
+   128
+  ],
+  [
+   8600,
+   128
+  ],
+  [
+   8625,
+   128
+  ],
+  [
+   8650,
+   128
+  ],
+  [
+   8675,
+   128
+  ],
+  [
+   8700,
+   128
+  ],
+  [
+   8725,
+   128
+  ],
+  [
+   8750,
+   128
+  ],
+  [
+   8775,
+   128
+  ],
+  [
+   8800,
+   128
+  ],
+  [
+   8825,
+   128
+  ],
+  [
+   8850,
+   128
+  ],
+  [
+   8875,
+   128
+  ],
+  [
+   8900,
+   128
+  ],
+  [
+   8925,
+   128
+  ],
+  [
+   8950,
+   128
+  ],
+  [
+   8975,
+   128
+  ],
+  [
+   9000,
+   128
+  ],
+  [
+   9025,
+   128
+  ],
+  [
+   9050,
+   128
+  ],
+  [
+   9075,
+   128
+  ],
+  [
+   9100,
+   128
+  ],
+  [
+   9125,
+   128
+  ],
+  [
+   9150,
+   128
+  ],
+  [
+   9175,
+   128
+  ],
+  [
+   9200,
+   128
+  ],
+  [
+   9225,
+   128
+  ],
+  [
+   9250,
+   128
+  ],
+  [
+   9275,
+   128
+  ],
+  [
+   9300,
+   128
+  ],
+  [
+   9325,
+   128
+  ],
+  [
+   9350,
+   128
+  ],
+  [
+   9375,
+   128
+  ],
+  [
+   9400,
+   128
+  ],
+  [
+   9425,
+   128
+  ],
+  [
+   9450,
+   128
+  ],
+  [
+   9475,
+   128
+  ],
+  [
+   9500,
+   128
+  ],
+  [
+   9525,
+   128
+  ],
+  [
+   9550,
+   128
+  ],
+  [
+   9575,
+   128
+  ],
+  [
+   9600,
+   128
+  ],
+  [
+   9625,
+   128
+  ],
+  [
+   9650,
+   128
+  ],
+  [
+   9675,
+   128
+  ],
+  [
+   9700,
+   128
+  ],
+  [
+   9725,
+   128
+  ],
+  [
+   9750,
+   128
+  ],
+  [
+   9775,
+   128
+  ],
+  [
+   9800,
+   128
+  ],
+  [
+   9825,
+   128
+  ],
+  [
+   9850,
+   128
+  ],
+  [
+   9875,
+   128
+  ],
+  [
+   9900,
+   128
+  ],
+  [
+   9925,
+   128
+  ],
+  [
+   9950,
+   128
+  ],
+  [
+   9975,
+   128
+  ],
+  [
+   10000,
+   128
+  ],
+  [
+   10025,
+   128
+  ],
+  [
+   10050,
+   128
+  ],
+  [
+   10075,
+   128
+  ],
+  [
+   10100,
+   128
+  ],
+  [
+   10125,
+   128
+  ],
+  [
+   10150,
+   128
+  ],
+  [
+   10175,
+   128
+  ],
+  [
+   10200,
+   128
+  ],
+  [
+   10225,
+   128
+  ],
+  [
+   10250,
+   128
+  ],
+  [
+   10275,
+   128
+  ],
+  [
+   10300,
+   128
+  ],
+  [
+   10325,
+   128
+  ],
+  [
+   10350,
+   128
+  ],
+  [
+   10375,
+   128
+  ],
+  [
+   10400,
+   128
+  ],
+  [
+   10425,
+   128
+  ],
+  [
+   10450,
+   128
+  ],
+  [
+   10475,
+   128
+  ],
+  [
+   10500,
+   128
+  ],
+  [
+   10525,
+   128
+  ],
+  [
+   10550,
+   128
+  ],
+  [
+   10575,
+   128
+  ],
+  [
+   10600,
+   128
+  ],
+  [
+   10625,
+   128
+  ],
+  [
+   10650,
+   128
+  ],
+  [
+   10675,
+   128
+  ],
+  [
+   10700,
+   128
+  ],
+  [
+   10725,
+   128
+  ],
+  [
+   10750,
+   128
+  ],
+  [
+   10775,
+   128
+  ],
+  [
+   10800,
+   128
+  ],
+  [
+   10825,
+   128
+  ],
+  [
+   10850,
+   128
+  ],
+  [
+   10875,
+   128
+  ],
+  [
+   10900,
+   128
+  ],
+  [
+   10925,
+   128
+  ],
+  [
+   10950,
+   128
+  ],
+  [
+   10975,
+   128
+  ],
+  [
+   11000,
+   128
+  ],
+  [
+   11025,
+   128
+  ],
+  [
+   11050,
+   128
+  ],
+  [
+   11075,
+   128
+  ],
+  [
+   11100,
+   128
+  ],
+  [
+   11125,
+   128
+  ],
+  [
+   11150,
+   128
+  ],
+  [
+   11175,
+   128
+  ],
+  [
+   11200,
+   128
+  ],
+  [
+   11225,
+   128
+  ],
+  [
+   11250,
+   128
+  ],
+  [
+   11275,
+   128
+  ],
+  [
+   11300,
+   128
+  ],
+  [
+   11325,
+   128
+  ],
+  [
+   11350,
+   128
+  ],
+  [
+   11375,
+   128
+  ],
+  [
+   11400,
+   128
+  ],
+  [
+   11425,
+   128
+  ],
+  [
+   11450,
+   128
+  ],
+  [
+   11475,
+   128
+  ],
+  [
+   11500,
+   128
+  ],
+  [
+   11525,
+   128
+  ],
+  [
+   11550,
+   128
+  ],
+  [
+   11575,
+   128
+  ],
+  [
+   11600,
+   128
+  ],
+  [
+   11625,
+   128
+  ],
+  [
+   11650,
+   128
+  ],
+  [
+   11675,
+   128
+  ],
+  [
+   11700,
+   128
+  ],
+  [
+   11725,
+   128
+  ],
+  [
+   11750,
+   128
+  ],
+  [
+   11775,
+   128
+  ],
+  [
+   11800,
+   128
+  ],
+  [
+   11825,
+   128
+  ],
+  [
+   11850,
+   128
+  ],
+  [
+   11875,
+   128
+  ],
+  [
+   11900,
+   128
+  ],
+  [
+   11925,
+   128
+  ],
+  [
+   11950,
+   128
+  ],
+  [
+   11975,
+   128
+  ],
+  [
+   12000,
+   128
+  ],
+  [
+   12025,
+   128
+  ],
+  [
+   12050,
+   128
+  ],
+  [
+   12075,
+   128
+  ],
+  [
+   12100,
+   128
+  ],
+  [
+   12125,
+   128
+  ],
+  [
+   12150,
+   128
+  ],
+  [
+   12175,
+   128
+  ],
+  [
+   12200,
+   128
+  ],
+  [
+   12225,
+   128
+  ],
+  [
+   12250,
+   128
+  ],
+  [
+   12275,
+   128
+  ],
+  [
+   12300,
+   128
+  ],
+  [
+   12325,
+   128
+  ],
+  [
+   12350,
+   128
+  ],
+  [
+   12375,
+   128
+  ],
+  [
+   12400,
+   128
+  ],
+  [
+   12425,
+   128
+  ],
+  [
+   12450,
+   128
+  ],
+  [
+   12475,
+   128
+  ],
+  [
+   12500,
+   128
+  ],
+  [
+   12525,
+   128
+  ],
+  [
+   12550,
+   128
+  ],
+  [
+   12575,
+   128
+  ],
+  [
+   12600,
+   128
+  ],
+  [
+   12625,
+   128
+  ],
+  [
+   12650,
+   128
+  ],
+  [
+   12675,
+   128
+  ],
+  [
+   12700,
+   128
+  ],
+  [
+   12725,
+   128
+  ],
+  [
+   12750,
+   128
+  ],
+  [
+   12775,
+   128
+  ],
+  [
+   12800,
+   128
+  ],
+  [
+   12825,
+   128
+  ],
+  [
+   12850,
+   128
+  ],
+  [
+   12875,
+   128
+  ],
+  [
+   12900,
+   128
+  ],
+  [
+   12925,
+   128
+  ],
+  [
+   12950,
+   128
+  ],
+  [
+   12975,
+   128
+  ],
+  [
+   13000,
+   128
+  ],
+  [
+   13025,
+   128
+  ],
+  [
+   13050,
+   128
+  ],
+  [
+   13075,
+   128
+  ],
+  [
+   13100,
+   128
+  ],
+  [
+   13125,
+   128
+  ],
+  [
+   13150,
+   128
+  ],
+  [
+   13175,
+   128
+  ],
+  [
+   13200,
+   128
+  ],
+  [
+   13225,
+   128
+  ],
+  [
+   13250,
+   128
+  ],
+  [
+   13275,
+   128
+  ],
+  [
+   13300,
+   128
+  ],
+  [
+   13325,
+   128
+  ],
+  [
+   13350,
+   128
+  ],
+  [
+   13375,
+   128
+  ],
+  [
+   13400,
+   128
+  ],
+  [
+   13425,
+   128
+  ],
+  [
+   13450,
+   128
+  ],
+  [
+   13475,
+   128
+  ],
+  [
+   13500,
+   128
+  ],
+  [
+   13525,
+   128
+  ],
+  [
+   13550,
+   128
+  ],
+  [
+   13575,
+   128
+  ],
+  [
+   13600,
+   128
+  ],
+  [
+   13625,
+   128
+  ],
+  [
+   13650,
+   128
+  ],
+  [
+   13675,
+   128
+  ],
+  [
+   13700,
+   128
+  ],
+  [
+   13725,
+   128
+  ],
+  [
+   13750,
+   128
+  ],
+  [
+   13775,
+   128
+  ],
+  [
+   13800,
+   128
+  ],
+  [
+   13825,
+   128
+  ],
+  [
+   13850,
+   128
+  ],
+  [
+   13875,
+   128
+  ],
+  [
+   13900,
+   128
+  ],
+  [
+   13925,
+   128
+  ],
+  [
+   13950,
+   128
+  ],
+  [
+   13975,
+   128
+  ],
+  [
+   14000,
+   128
+  ],
+  [
+   14025,
+   128
+  ],
+  [
+   14050,
+   128
+  ],
+  [
+   14075,
+   128
+  ],
+  [
+   14100,
+   128
+  ],
+  [
+   14125,
+   128
+  ],
+  [
+   14150,
+   128
+  ],
+  [
+   14175,
+   128
+  ],
+  [
+   14200,
+   128
+  ],
+  [
+   14225,
+   128
+  ],
+  [
+   14250,
+   128
+  ],
+  [
+   14275,
+   128
+  ],
+  [
+   14300,
+   128
+  ],
+  [
+   14309,
+   128
+  ]
+ ],
+ "first_seen": {
+  "phase|Entity Contact": {
+   "first_report_index": 1,
+   "first_seen": 1307602853,
+   "id": "hvbtm"
+  },
+  "phase|Inhalation / Onset": {
+   "first_report_index": 1,
+   "first_seen": 1307602853,
+   "id": "hvbtm"
+  },
+  "phase|Through the Membrane": {
+   "first_report_index": 1,
+   "first_seen": 1307602853,
+   "id": "hvbtm"
+  },
+  "realm|Hyperspace": {
+   "first_report_index": 1,
+   "first_seen": 1307602853,
+   "id": "hvbtm"
+  },
+  "phase|Breakthrough": {
+   "first_report_index": 1,
+   "first_seen": 1307602853,
+   "id": "hvbtm"
+  },
+  "geometry|TV Static & the Signal-Noise Transition": {
+   "first_report_index": 1,
+   "first_seen": 1307602853,
+   "id": "hvbtm"
+  },
+  "motif|The Recognition — 'I've been here before'": {
+   "first_report_index": 2,
+   "first_seen": 1315454242,
+   "id": "k8f9v"
+  },
+  "realm|The Hospital / Operating Theater": {
+   "first_report_index": 2,
+   "first_seen": 1315454242,
+   "id": "k8f9v"
+  },
+  "motif|Losing the Message — the amnesia on return": {
+   "first_report_index": 2,
+   "first_seen": 1315454242,
+   "id": "k8f9v"
+  },
+  "motif|The Unveiling — the curtain pulled back": {
+   "first_report_index": 3,
+   "first_seen": 1326205336,
+   "id": "oau3u"
+  },
+  "realm|The Membrane / Veil": {
+   "first_report_index": 3,
+   "first_seen": 1326205336,
+   "id": "oau3u"
+  },
+  "entity|The Choir — singing collectives": {
+   "first_report_index": 3,
+   "first_seen": 1326205336,
+   "id": "oau3u"
+  },
+  "motif|The Serenade — being sung to": {
+   "first_report_index": 3,
+   "first_seen": 1326205336,
+   "id": "oau3u"
+  },
+  "motif|The Greeting — the welcome party": {
+   "first_report_index": 3,
+   "first_seen": 1326205336,
+   "id": "oau3u"
+  },
+  "realm|The Uncanny Interior": {
+   "first_report_index": 3,
+   "first_seen": 1326205336,
+   "id": "oau3u"
+  },
+  "motif|The Merge — union with entity or God": {
+   "first_report_index": 3,
+   "first_seen": 1326205336,
+   "id": "oau3u"
+  },
+  "motif|The Send-Back — 'it's not your time'": {
+   "first_report_index": 3,
+   "first_seen": 1326205336,
+   "id": "oau3u"
+  },
+  "phase|The Rush": {
+   "first_report_index": 4,
+   "first_seen": 1331398101,
+   "id": "qqe9b"
+  },
+  "motif|The Life-Review Flash": {
+   "first_report_index": 4,
+   "first_seen": 1331398101,
+   "id": "qqe9b"
+  },
+  "phase|The Return": {
+   "first_report_index": 4,
+   "first_seen": 1331398101,
+   "id": "qqe9b"
+  },
+  "geometry|Fractal lattices & jeweled tilings": {
+   "first_report_index": 5,
+   "first_seen": 1331710243,
+   "id": "qvwdb"
+  },
+  "geometry|Ultra-Detail & Infinite Resolution": {
+   "first_report_index": 5,
+   "first_seen": 1331710243,
+   "id": "qvwdb"
+  },
+  "motif|'LOOK! PAY ATTENTION!' — the command to attend": {
+   "first_report_index": 5,
+   "first_seen": 1331710243,
+   "id": "qvwdb"
+  },
+  "entity|Impersonal geometric intelligences — 'the machine'": {
+   "first_report_index": 5,
+   "first_seen": 1331710243,
+   "id": "qvwdb"
+  },
+  "phase|Arrival — The Waiting Room": {
+   "first_report_index": 5,
+   "first_seen": 1331710243,
+   "id": "qvwdb"
+  },
+  "realm|Tunnels & Corridors": {
+   "first_report_index": 6,
+   "first_seen": 1334105080,
+   "id": "s3i3v"
+  },
+  "realm|The Bardo Crossing / Hall of Judgment": {
+   "first_report_index": 6,
+   "first_seen": 1334105080,
+   "id": "s3i3v"
+  },
+  "motif|The Warning — admonition and prophecy": {
+   "first_report_index": 6,
+   "first_seen": 1334105080,
+   "id": "s3i3v"
+  },
+  "realm|The Void": {
+   "first_report_index": 6,
+   "first_seen": 1334105080,
+   "id": "s3i3v"
+  },
+  "motif|The Test — challenge at the threshold": {
+   "first_report_index": 6,
+   "first_seen": 1334105080,
+   "id": "s3i3v"
+  },
+  "realm|The Testing Laboratory": {
+   "first_report_index": 6,
+   "first_seen": 1334105080,
+   "id": "s3i3v"
+  },
+  "entity|Guardians & gatekeepers — 'the bouncer'": {
+   "first_report_index": 6,
+   "first_seen": 1334105080,
+   "id": "s3i3v"
+  },
+  "geometry|Body Dissolution & Merging with the Geometry": {
+   "first_report_index": 6,
+   "first_seen": 1334105080,
+   "id": "s3i3v"
+  },
+  "motif|The Download — compressed information transfer": {
+   "first_report_index": 6,
+   "first_seen": 1334105080,
+   "id": "s3i3v"
+  },
+  "phase|The Download / Lesson": {
+   "first_report_index": 6,
+   "first_seen": 1334105080,
+   "id": "s3i3v"
+  },
+  "entity|Light beings & angels": {
+   "first_report_index": 6,
+   "first_seen": 1334105080,
+   "id": "s3i3v"
+  },
+  "entity|The Ringmaster — showman of the circus dimension": {
+   "first_report_index": 6,
+   "first_seen": 1334105080,
+   "id": "s3i3v"
+  },
+  "entity|The Silent Witness — felt presence without form": {
+   "first_report_index": 6,
+   "first_seen": 1334105080,
+   "id": "s3i3v"
+  },
+  "phase|Afterglow / Integration": {
+   "first_report_index": 9,
+   "first_seen": 1339008750,
+   "id": "uodcz"
+  },
+  "geometry|The Aperture / Iris Opening": {
+   "first_report_index": 12,
+   "first_seen": 1342144965,
+   "id": "wh63q"
+  },
+  "entity|Dark entities & demons": {
+   "first_report_index": 12,
+   "first_seen": 1342144965,
+   "id": "wh63q"
+  },
+  "entity|The Logos — the Voice": {
+   "first_report_index": 12,
+   "first_seen": 1342144965,
+   "id": "wh63q"
+  },
+  "geometry|Dimensional Layering & Space-Folding": {
+   "first_report_index": 14,
+   "first_seen": 1344260597,
+   "id": "xrjhl"
+  },
+  "entity|Alien & 'Grey' forms": {
+   "first_report_index": 14,
+   "first_seen": 1344260597,
+   "id": "xrjhl"
+  },
+  "geometry|Breathing & Liquid Surfaces": {
+   "first_report_index": 14,
+   "first_seen": 1344260597,
+   "id": "xrjhl"
+  },
+  "entity|Morphos — amorphous & protean intelligences": {
+   "first_report_index": 15,
+   "first_seen": 1344428949,
+   "id": "xvm2h"
+  },
+  "entity|The Dream Wizards — robed magi of hyperspace": {
+   "first_report_index": 15,
+   "first_seen": 1344428949,
+   "id": "xvm2h"
+  },
+  "entity|The Teacher — professor of hyperspace": {
+   "first_report_index": 15,
+   "first_seen": 1344428949,
+   "id": "xvm2h"
+  },
+  "geometry|Entity Soundscapes & the Audio Windup": {
+   "first_report_index": 16,
+   "first_seen": 1345100231,
+   "id": "yb4yc"
+  },
+  "geometry|Omnidirectional 360° Vision": {
+   "first_report_index": 18,
+   "first_seen": 1347208081,
+   "id": "zlujh"
+  },
+  "geometry|Time Geometry — Moments as Objects & Loops": {
+   "first_report_index": 18,
+   "first_seen": 1347208081,
+   "id": "zlujh"
+  },
+  "phase|The Peak / Throne / Apex": {
+   "first_report_index": 20,
+   "first_seen": 1347989547,
+   "id": "103737"
+  },
+  "geometry|Static Pattern Overlay & filigree": {
+   "first_report_index": 21,
+   "first_seen": 1348195693,
+   "id": "1089n3"
+  },
+  "geometry|Alien Glyphs & Unreadable Writing Systems": {
+   "first_report_index": 21,
+   "first_seen": 1348195693,
+   "id": "1089n3"
+  },
+  "entity|Fractal humanoids — beings made of the geometry": {
+   "first_report_index": 22,
+   "first_seen": 1349133366,
+   "id": "10sc97"
+  },
+  "motif|The Escort Back — accompanied re-entry": {
+   "first_report_index": 22,
+   "first_seen": 1349133366,
+   "id": "10sc97"
+  },
+  "entity|Fairies, sirens & seductresses": {
+   "first_report_index": 22,
+   "first_seen": 1349133366,
+   "id": "10sc97"
+  },
+  "motif|The Tour — being guided through": {
+   "first_report_index": 23,
+   "first_seen": 1349227243,
+   "id": "10um0w"
+  },
+  "entity|The generic 'Other' — guides, spirits & helpers": {
+   "first_report_index": 23,
+   "first_seen": 1349227243,
+   "id": "10um0w"
+  },
+  "geometry|The Chrysanthemum": {
+   "first_report_index": 24,
+   "first_seen": 1349286926,
+   "id": "10vwwm"
+  },
+  "phase|The Chrysanthemum": {
+   "first_report_index": 24,
+   "first_seen": 1349286926,
+   "id": "10vwwm"
+  },
+  "geometry|Tactile Geometry (Felt Textures)": {
+   "first_report_index": 26,
+   "first_seen": 1349727672,
+   "id": "115lck"
+  },
+  "entity|Deceased loved ones & ancestors": {
+   "first_report_index": 30,
+   "first_seen": 1355261508,
+   "id": "14opj4"
+  },
+  "realm|The Ocean / Underwater Realm": {
+   "first_report_index": 30,
+   "first_seen": 1355261508,
+   "id": "14opj4"
+  },
+  "entity|Self-transforming machine elves": {
+   "first_report_index": 30,
+   "first_seen": 1355261508,
+   "id": "14opj4"
+  },
+  "motif|The Presentation — 'the show'": {
+   "first_report_index": 30,
+   "first_seen": 1355261508,
+   "id": "14opj4"
+  },
+  "entity|Reptilian beings": {
+   "first_report_index": 32,
+   "first_seen": 1359146370,
+   "id": "179xlu"
+  },
+  "realm|The Domed Cathedral": {
+   "first_report_index": 32,
+   "first_seen": 1359146370,
+   "id": "179xlu"
+  },
+  "entity|Orbs & point-light beings": {
+   "first_report_index": 32,
+   "first_seen": 1359146370,
+   "id": "179xlu"
+  },
+  "motif|The Gift — an object handed over": {
+   "first_report_index": 33,
+   "first_seen": 1359349278,
+   "id": "17eup2"
+  },
+  "motif|The Mockery — being laughed at": {
+   "first_report_index": 33,
+   "first_seen": 1359349278,
+   "id": "17eup2"
+  },
+  "geometry|Klüver Form Constants (the geometric spine)": {
+   "first_report_index": 33,
+   "first_seen": 1359349278,
+   "id": "17eup2"
+  },
+  "entity|Robotic drones & automatons": {
+   "first_report_index": 33,
+   "first_seen": 1359349278,
+   "id": "17eup2"
+  },
+  "geometry|Living language / visible sound": {
+   "first_report_index": 33,
+   "first_seen": 1359349278,
+   "id": "17eup2"
+  },
+  "realm|The City of Lights / Alien Metropolis": {
+   "first_report_index": 33,
+   "first_seen": 1359349278,
+   "id": "17eup2"
+  },
+  "geometry|Energy Conduits & Living Circuitry": {
+   "first_report_index": 35,
+   "first_seen": 1360032103,
+   "id": "17wpvj"
+  },
+  "realm|The Egyptian Hall": {
+   "first_report_index": 36,
+   "first_seen": 1360070229,
+   "id": "17xijw"
+  },
+  "entity|Aztec & Mayan-styled beings": {
+   "first_report_index": 36,
+   "first_seen": 1360070229,
+   "id": "17xijw"
+  },
+  "entity|Animal-headed figures — Egyptian-styled beings": {
+   "first_report_index": 36,
+   "first_seen": 1360070229,
+   "id": "17xijw"
+  },
+  "entity|Child-sprites — hyperspace children": {
+   "first_report_index": 36,
+   "first_seen": 1360070229,
+   "id": "17xijw"
+  },
+  "realm|The Nursery / Incubation Chamber": {
+   "first_report_index": 38,
+   "first_seen": 1360302440,
+   "id": "184896"
+  },
+  "geometry|Zooming / Rushing Tunnel Flight": {
+   "first_report_index": 44,
+   "first_seen": 1362015361,
+   "id": "19d85f"
+  },
+  "entity|Composite & collective beings — the many-as-one": {
+   "first_report_index": 48,
+   "first_seen": 1364754304,
+   "id": "1bdbeh"
+  },
+  "entity|The Divine Feminine": {
+   "first_report_index": 49,
+   "first_seen": 1365231416,
+   "id": "1bsb14"
+  },
+  "entity|The Surgeons — hyperspace medical team": {
+   "first_report_index": 53,
+   "first_seen": 1366485771,
+   "id": "1cr94z"
+  },
+  "realm|The Library / Hall of Records": {
+   "first_report_index": 53,
+   "first_seen": 1366485771,
+   "id": "1cr94z"
+  },
+  "entity|Deities & god-like presences": {
+   "first_report_index": 63,
+   "first_seen": 1369166867,
+   "id": "1esa7t"
+  },
+  "realm|The Waiting Room": {
+   "first_report_index": 66,
+   "first_seen": 1369467741,
+   "id": "1f0qxr"
+  },
+  "entity|Octopoid & tentacled beings": {
+   "first_report_index": 79,
+   "first_seen": 1373744433,
+   "id": "1i8enw"
+  },
+  "realm|The Workshop / Factory / Market": {
+   "first_report_index": 86,
+   "first_seen": 1375740795,
+   "id": "1jrqg7"
+  },
+  "entity|The Jester / Trickster / Clown": {
+   "first_report_index": 86,
+   "first_seen": 1375740795,
+   "id": "1jrqg7"
+  },
+  "realm|The Circus / Playroom": {
+   "first_report_index": 86,
+   "first_seen": 1375740795,
+   "id": "1jrqg7"
+  },
+  "motif|The Insertion — implant, probe, procedure": {
+   "first_report_index": 104,
+   "first_seen": 1380048808,
+   "id": "1n1oys"
+  },
+  "entity|The Cosmic Serpent": {
+   "first_report_index": 106,
+   "first_seen": 1380204266,
+   "id": "1n6dcw"
+  },
+  "motif|The Love-Flood — the healing touch": {
+   "first_report_index": 113,
+   "first_seen": 1381614573,
+   "id": "1obckt"
+  },
+  "geometry|Hyper-dimensional objects": {
+   "first_report_index": 115,
+   "first_seen": 1382420493,
+   "id": "1oykkh"
+  },
+  "realm|Geometric Palaces & the Lattice": {
+   "first_report_index": 167,
+   "first_seen": 1397960040,
+   "id": "23hcup"
+  },
+  "geometry|Mandalas & symmetry fields": {
+   "first_report_index": 207,
+   "first_seen": 1404031020,
+   "id": "29dql3"
+  },
+  "realm|The Control Room / Cockpit": {
+   "first_report_index": 233,
+   "first_seen": 1408828648,
+   "id": "2ee7td"
+  },
+  "entity|The Scanners — entry examiners": {
+   "first_report_index": 267,
+   "first_seen": 1415459533,
+   "id": "2loeyx"
+  },
+  "motif|The Examination — being scanned": {
+   "first_report_index": 267,
+   "first_seen": 1415459533,
+   "id": "2loeyx"
+  },
+  "motif|The Console — demonstration at the controls": {
+   "first_report_index": 273,
+   "first_seen": 1415772560,
+   "id": "2m1svl"
+  },
+  "realm|The Grid Plain": {
+   "first_report_index": 306,
+   "first_seen": 1419813430,
+   "id": "2qnw6w"
+  },
+  "entity|Hooded & cloaked figures": {
+   "first_report_index": 330,
+   "first_seen": 1422949501,
+   "id": "2um6k5"
+  },
+  "realm|The Garden": {
+   "first_report_index": 395,
+   "first_seen": 1429057365,
+   "id": "32mm2g"
+  },
+  "entity|The Mimic — wearer of familiar faces": {
+   "first_report_index": 449,
+   "first_seen": 1433142610,
+   "id": "381ye6"
+  },
+  "entity|Mantis & insectoid beings": {
+   "first_report_index": 481,
+   "first_seen": 1435517617,
+   "id": "3bfcy6"
+  },
+  "geometry|The Carrier Wave": {
+   "first_report_index": 500,
+   "first_seen": 1436665119,
+   "id": "3cyz7v"
+  },
+  "realm|The Deeper Realms": {
+   "first_report_index": 518,
+   "first_seen": 1437722969,
+   "id": "3ef6at"
+  },
+  "realm|The Carnival Midway / Fairground Machinery": {
+   "first_report_index": 609,
+   "first_seen": 1444223513,
+   "id": "3nu58j"
+  },
+  "entity|The Council — tribunal of elders": {
+   "first_report_index": 630,
+   "first_seen": 1446033907,
+   "id": "3qjt86"
+  },
+  "geometry|Hyperbolic Space & Negative Curvature": {
+   "first_report_index": 697,
+   "first_seen": 1451918913,
+   "id": "3zf1h8"
+  },
+  "entity|Plant spirits & devas": {
+   "first_report_index": 754,
+   "first_seen": 1455327099,
+   "id": "45i1jv"
+  },
+  "realm|The White Room": {
+   "first_report_index": 778,
+   "first_seen": 1456305505,
+   "id": "47bqz2"
+  },
+  "entity|The Operators — hidden technicians of the experience": {
+   "first_report_index": 837,
+   "first_seen": 1461067687,
+   "id": "4fh98w"
+  },
+  "geometry|Impossible Colors": {
+   "first_report_index": 846,
+   "first_seen": 1461520107,
+   "id": "4g94sl"
+  },
+  "realm|The Mesoamerican Temple Complex": {
+   "first_report_index": 1035,
+   "first_seen": 1474464710,
+   "id": "53t533"
+  },
+  "entity|Embedded faces — faces in the walls": {
+   "first_report_index": 1581,
+   "first_seen": 1499936712,
+   "id": "6n0ghd"
+  },
+  "geometry|Embedded Faces & the Pareidolia Cascade": {
+   "first_report_index": 1581,
+   "first_seen": 1499936712,
+   "id": "6n0ghd"
+  },
+  "entity|The Hive Queen — matriarch of the swarm": {
+   "first_report_index": 1634,
+   "first_seen": 1501857022,
+   "id": "6rkts3"
+  },
+  "entity|The Harlequin — card-dealer of hyperspace": {
+   "first_report_index": 1778,
+   "first_seen": 1508516811,
+   "id": "77n7kt"
+  },
+  "realm|The Throne Room": {
+   "first_report_index": 1812,
+   "first_seen": 1509774973,
+   "id": "7ap1k9"
+  },
+  "realm|The Court / Council Chamber": {
+   "first_report_index": 3362,
+   "first_seen": 1553471635,
+   "id": "b53elq"
+  },
+  "realm|The Hive": {
+   "first_report_index": 3711,
+   "first_seen": 1561942850,
+   "id": "c7m33w"
+  },
+  "realm|The In-Between": {
+   "first_report_index": 3783,
+   "first_seen": 1563640798,
+   "id": "cfntss"
+  },
+  "realm|The Space Station / Docking Bay": {
+   "first_report_index": 4645,
+   "first_seen": 1582816714,
+   "id": "fadkh1"
+  },
+  "motif|The Offer — exchange, consent, bargain": {
+   "first_report_index": 5349,
+   "first_seen": 1594773354,
+   "id": "hrdlnx"
+  },
+  "realm|The Theater / Grand Stage": {
+   "first_report_index": 6012,
+   "first_seen": 1606599898,
+   "id": "k2wdba"
+  }
+ },
+ "never_seen": []
+}
