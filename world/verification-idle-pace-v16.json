@@ -1,0 +1,162 @@
+{
+  "render_signature": "7918ecef7144e0bff37428d75cc4f6718c785c6b5d3f0b049a1dfb5451ffb32f",
+  "passed": true,
+  "before": {
+    "stage": "onset",
+    "routeIndex": 0,
+    "entered": true,
+    "paused": false,
+    "paced": true,
+    "reduced": true,
+    "elapsed": 0.7666000000000004,
+    "animTime": 0,
+    "transition": false,
+    "renderReady": true,
+    "renderPending": false,
+    "renderedAnimTime": 0,
+    "frames": 2,
+    "position": [
+      0,
+      1.7,
+      6.5
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset"
+    ],
+    "entities": [],
+    "interactions": 0,
+    "evidence": [
+      "phase|Inhalation / Onset",
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|TV Static & the Signal-Noise Transition"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 17,
+    "portals": [
+      {
+        "x": 0,
+        "z": -8.95,
+        "width": 3,
+        "target": "next"
+      }
+    ],
+    "detail": "low",
+    "drawCalls": 62,
+    "triangles": 18438,
+    "geometries": 22,
+    "actors": [],
+    "uncitedMeshes": 0
+  },
+  "during": {
+    "stage": "onset",
+    "routeIndex": 0,
+    "entered": true,
+    "paused": false,
+    "paced": true,
+    "reduced": true,
+    "elapsed": 2.266599999999998,
+    "animTime": 0,
+    "transition": false,
+    "renderReady": true,
+    "renderPending": false,
+    "renderedAnimTime": 0,
+    "frames": 2,
+    "position": [
+      0,
+      1.7,
+      6.5
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset"
+    ],
+    "entities": [],
+    "interactions": 0,
+    "evidence": [
+      "phase|Inhalation / Onset",
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|TV Static & the Signal-Noise Transition"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 17,
+    "portals": [
+      {
+        "x": 0,
+        "z": -8.95,
+        "width": 3,
+        "target": "next"
+      }
+    ],
+    "detail": "low",
+    "drawCalls": 62,
+    "triangles": 18438,
+    "geometries": 22,
+    "actors": [],
+    "uncitedMeshes": 0
+  },
+  "after": {
+    "stage": "geometry",
+    "routeIndex": 1,
+    "entered": true,
+    "paused": false,
+    "paced": true,
+    "reduced": true,
+    "elapsed": 0.4832999999999992,
+    "animTime": 0,
+    "transition": false,
+    "renderReady": true,
+    "renderPending": false,
+    "renderedAnimTime": 0,
+    "frames": 3,
+    "position": [
+      0,
+      1.7,
+      8
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset",
+      "geometry"
+    ],
+    "entities": [],
+    "interactions": 0,
+    "evidence": [
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|The Chrysanthemum",
+      "phase|Inhalation / Onset",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|Dimensional Layering & Space-Folding",
+      "geometry|Hyperbolic Space & Negative Curvature",
+      "geometry|Ultra-Detail & Infinite Resolution",
+      "geometry|Energy Conduits & Living Circuitry",
+      "geometry|Mandalas & symmetry fields",
+      "geometry|TV Static & the Signal-Noise Transition",
+      "geometry|Time Geometry \u2014 Moments as Objects & Loops"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 41,
+    "portals": [
+      {
+        "x": 0,
+        "z": -23,
+        "width": 3.5,
+        "target": "next"
+      }
+    ],
+    "detail": "low",
+    "drawCalls": 15,
+    "triangles": 136636,
+    "geometries": 18,
+    "actors": [],
+    "uncitedMeshes": 0
+  }
+}

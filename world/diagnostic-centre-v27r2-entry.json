@@ -1,0 +1,85 @@
+{
+  "diagnostic_only": true,
+  "file": "diagnostic-centre-v27r2-entry.png",
+  "capture_sha256": "1f4b2282ed9a45f1ce3d3d133152bf95cd2380d84748ec5110a093a39fc53a8f",
+  "resolution": [
+    1200,
+    800
+  ],
+  "capture_diagnostics": {
+    "stage": "chrysanthemum",
+    "routeIndex": 2,
+    "entered": true,
+    "paused": true,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 0.03339999999999964,
+    "animTime": 3.8097999996185283,
+    "transition": false,
+    "renderReady": true,
+    "renderPending": false,
+    "renderedAnimTime": 3.8097999996185283,
+    "frames": 4,
+    "position": [
+      0,
+      1.7,
+      8
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset",
+      "geometry",
+      "chrysanthemum"
+    ],
+    "entities": [],
+    "interactions": 0,
+    "evidence": [
+      "phase|The Chrysanthemum",
+      "geometry|The Chrysanthemum",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|Dimensional Layering & Space-Folding",
+      "geometry|Hyperbolic Space & Negative Curvature",
+      "geometry|Ultra-Detail & Infinite Resolution",
+      "geometry|Energy Conduits & Living Circuitry",
+      "geometry|Mandalas & symmetry fields"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 35,
+    "portals": [
+      {
+        "x": 0,
+        "z": -23,
+        "width": 3.5,
+        "target": "next"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 1,
+    "triangles": 2,
+    "geometries": 5,
+    "actors": [],
+    "uncitedMeshes": 0
+  },
+  "source_hashes": {
+    "index.html": "37275c34171ffdca0392e0798d77beec09101c0c8a1c7056bca0ae20d50604bb",
+    "trip.js": "9ea2c7f086d93d8b049f1113a676930b195bc522e5e4f2e87a857e6553b90c5a",
+    "fractal.js": "fd7a14ebfc87988e95e14255adc903e079cb47bb075db7612d5d57091ed235d8",
+    "continuum.js": "6b55368f4f3d31cbd71dc0420707c8860e99a1b471f9108a53a77416f871106d",
+    "beings.js": "fc2900166510269f426b8c49c12b5d0644df816f4545972ef343ef8a02aaa60b",
+    "trip.css": "bb47a370d2d3128caf8afaf6bd732facc953181a8985f9cbe82ceafe7e7a4f00",
+    "fidelity-ui.js": "f5634f2373925ccfe42de91aeec83cc4bce5c420ff7b7e5ea5dd6ae66f0856b4",
+    "fidelity.css": "558881d68cb469dac4144b0dabcfcdef11e0fcb50e2ed7059b47a0e69f5f4656",
+    "vendor/three.min.js": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa",
+    "diagnostic-centre-v27r2.html": "0b86b7612caec7aba6fc4d9322ca390829b79d8f97cbddbdcd4b301056098e45",
+    "render_centre_v27r2.py": "e9a0ba8be9141b82edc1eb55aeb82224870a351a5058d21645d58d7daefa8d5b",
+    "continuum-v27r2-candidate.js": "90ac551780d11d0f7d4404b3d2807e2e4535cc7cc84b382f5bd242300a1074d9",
+    "data.js": "87c2ecc3742af9f336ebb882e073a61762f975419412e2e6ec4e053f3cc90b43",
+    "fidelity-data.js": "824b51fc8a939112e827fd9931faa6997831d95dd1a46acbfa8a0c7301b40172"
+  },
+  "errors": [],
+  "screenshot_seconds": 0.3887036982923746,
+  "veil_opacity": 0
+}

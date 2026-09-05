@@ -1,0 +1,22 @@
+{
+  "iteration": "nested-hollow-chambers-v16",
+  "passed": false,
+  "failure": "Original focused HIGH physical-exit walk exceeded unchanged 45000ms wall-clock limit",
+  "log": "verification-continuum-v16.log",
+  "preceding_assertions_passed": [
+    "HIGH right walking boundary",
+    "two-axis real drag-look"
+  ],
+  "observed": {
+    "stage": "chrysanthemum",
+    "position": [
+      0,
+      1.7,
+      -11.146560000000045
+    ],
+    "elapsed": 5.983300000000019,
+    "renderPending": true,
+    "frames": 10
+  },
+  "interpretation": "Slow SwiftShader run did not reach the exit. This is not a passing control or performance receipt. Retry extends only wall-clock allowance, retaining real input, path and destination assertions."
+}

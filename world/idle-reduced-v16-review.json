@@ -1,0 +1,121 @@
+{
+  "iteration": "idle-reduced-trip-v16",
+  "render_signature": "7918ecef7144e0bff37428d75cc4f6718c785c6b5d3f0b049a1dfb5451ffb32f",
+  "runtime_sha256": "9ea2c7f086d93d8b049f1113a676930b195bc522e5e4f2e87a857e6553b90c5a",
+  "geometry_sha256": "5486919206afcc282f4428a3cb344f8123714b2392b6802bac79631860269ca3",
+  "node_syntax": "PASS",
+  "python_compile": "PASS",
+  "accessibility_checks": [
+    "paused pixel stillness",
+    "paused resize restores stable canvas",
+    "reduced-motion pixel stillness",
+    "detail toggle preserves route and pose",
+    "restored-detail reduced pixel stillness",
+    "Sources fidelity table and existing provenance"
+  ],
+  "traces": [
+    {
+      "file": "idle-reduced-v16-paused-pixel-stillness-trace.json",
+      "sha256": "eb3ebd8c2bbd0cfafdfe65e5322e0d345ffa91737595c56cb5b94b20bc05573d",
+      "frames": 5,
+      "screenshot_seconds": [
+        0.20248392410576344,
+        0.2098556961864233
+      ]
+    },
+    {
+      "file": "idle-reduced-v16-paused-resize-restores-stable-canvas-trace.json",
+      "sha256": "70bde92403c2ffeab829538cba81932e43ea7133902038be86efacdf6bca0156",
+      "frames": 7,
+      "screenshot_seconds": [
+        0.2003954080864787,
+        0.21549532562494278
+      ]
+    },
+    {
+      "file": "idle-reduced-v16-reduced-motion-pixel-stillness-trace.json",
+      "sha256": "43566dc5299315fdb97c06fd8c245704281f6699bc736c553ea5b6a937a95c6b",
+      "frames": 7,
+      "screenshot_seconds": [
+        0.22275090124458075,
+        0.18941057659685612
+      ]
+    },
+    {
+      "file": "idle-reduced-v16-restored-detail-reduced-pixel-stillness-trace.json",
+      "sha256": "4cc2a1ffb332a7a8e5211339e6c5be297d2bfbd383357112224134a28f11391c",
+      "frames": 9,
+      "screenshot_seconds": [
+        0.17409978806972504,
+        0.18624574318528175
+      ]
+    }
+  ],
+  "control_checks": [
+    "Reduced keyboard walking redraws then idles with fixed animation",
+    "Real touch walking redraws then idles",
+    "Real touch look redraws both axes then idles",
+    "Reduced button transitions rebuild and settle, including equal entry poses",
+    "Fixed-pose being click invalidates the reduced view then idles",
+    "Sources open/close preserve idle reduced view",
+    "Motion resumes animation/submissions and pause drains them",
+    "Restart rebuilds a settled reduced welcome scene"
+  ],
+  "reduced_paced_transition": "PASS: actual onset18s clock to geometry while idle",
+  "visual_inspection": {
+    "file": "idle-reduced-v16.png",
+    "sha256": "5d7cfbf2d941ebbd1f9457c7146610790ed2b15756e13eb293812a27d2c1a39c",
+    "receipt_sha256": "847e558f8a03d8e9f3b948ef826c63bdd9887412515783ffe39ff426b08ac6ae",
+    "observation": "Inspected once with view_image: concentric magenta/red, green/cyan and blue/violet scalloped walls surround a small green/yellow radial flower. Large near-black oval and lobed patches interrupt broad dim, smooth surfaces; local glossy bright patches do not establish deep jewel density. The centre remains a simple flat-looking axial fan. GAME appearance persists; no temporal or descriptor regrade from this single frame."
+  },
+  "historical_v15_inspection": {
+    "file": "idle-reduced-v15.png",
+    "observation": "Inspected once with view_image: concentric magenta/red, green/cyan and blue/violet scalloped walls surround a small green/yellow radial flower. Large near-black oval and lobed patches interrupt broad dim, smooth surfaces; local glossy bright patches do not establish deep jewel density. The centre remains a simple flat-looking axial fan. GAME appearance persists; no temporal or descriptor regrade from this single frame.",
+    "inspected_once": true
+  },
+  "preserved_failures": {
+    "v15_initial": "Mobile defaults LOW; unconditional toggle selected HIGH. Test setup fixed.",
+    "v15_r2": "Four control checks passed, then being click queued work only on next animation callback; idle comparison saw a new frame after reported settlement. Fixed by immediate event invalidation in v16.",
+    "v23_initial_stillness": "Original intermittent pixel-change cause remains unknown; new stricter focused checks pass without claiming causality.",
+    "v23_physical_exit": "Original45s FAIL at z=-18.18656 remains unresolved; no rerun/extension in this phase."
+  },
+  "historical_coverage": 0.84259,
+  "coverage_passed": false,
+  "coverage_blockers": [
+    "Capture quality, freshness or visual inspection missing"
+  ],
+  "fidelity_check_exit": 1,
+  "full_acceptance": "PENDING; not rerun",
+  "overall_passed": false,
+  "artifacts": {
+    "trip-v15.js": "57ee69c9e6d54351271ef6ee4641a1c6f3b08dce7693ee7601926c24f66f1651",
+    "trip-v16.js": "9ea2c7f086d93d8b049f1113a676930b195bc522e5e4f2e87a857e6553b90c5a",
+    "render_visual.py": "26a55fb22393a344e8447d4ae794193f16e61085a450f05a170f57edaef24df1",
+    "verify_idle_v15-initial.py": "d4e4bc81ac403165b05b23816f5ee109c219395531f6ab143e439e225e086480",
+    "verify_idle_v15.py": "163a1bcc3c7efeb89e2f94a1d8bed36057237b0bf17e965e3f5dbdee10a07055",
+    "verify_idle_v16.py": "f80505edf72002a4d80a8e9959e8ac05c6b5e6b9e780b9a9b151959c252a001d",
+    "verify_idle_pace_v16.py": "2bab0c80e4f1cc489a816b9861da15b52c807a0d25524875d7567e75a025c846",
+    "verification-idle-v15.json": "544aa578a37f3b97ec0f3af53f680f97a1fc110d2f199da3d4e76160e8357595",
+    "verification-idle-v15.log": "83649c539d039f36cebba66361fef09da43acf49d32d809dfee51a7ef005a804",
+    "verification-idle-v15-r2.json": "faa8ca38ed8e0b3431d5430e60d75c19d537a3a7443a00de93ec78a537e23713",
+    "verification-idle-v15-r2.log": "d9575844bbf063e773d2f0b0984f2e4b916226bfccf4f32bb2e3fabd9df1f685",
+    "verification-idle-v16.json": "f214483fbd5fba339959445b66a38e57327a424955eb029da2f748eecf3bf513",
+    "verification-idle-v16.log": "6b6ee702e5da4867f311eba0be76a8b0c5cfc52f7023cd13d106479ecb9ad980",
+    "verification-idle-pace-v16.json": "652dec832163f159d2d94c81241fae0c2a106310f71deee88d7d7741139b9466",
+    "verification-idle-pace-v16.log": "f5c4206f481d6a57bd8019cfd0af9a784070739b1b5a60ab954dd3e9e20dc1fd",
+    "idle-reduced-v15.png": "3875961335743981aadad9bda4767d92f55fae6f36a8c7f52ad97a2a264107f4",
+    "idle-reduced-v15.json": "6c471439a879df9b133140e06b5a2520bd8ccf75a3e17777baf076119ce9faf9",
+    "idle-reduced-v15.log": "7eff024546478ac81c6673c0a3c8530819926ec7d9d5739cae060796811991f6",
+    "idle-reduced-v16.png": "5d7cfbf2d941ebbd1f9457c7146610790ed2b15756e13eb293812a27d2c1a39c",
+    "idle-reduced-v16.json": "847e558f8a03d8e9f3b948ef826c63bdd9887412515783ffe39ff426b08ac6ae",
+    "idle-reduced-v16.log": "b04e183a55884d3b5246adeaf2fa092efc02d66a012a667202b6b24ef7dc1fb1",
+    "syntax-idle-v16.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "fidelity-idle-v16.log": "5d22614dcc59b4dcd2eb2644a885c972708038b372a2d0764fcdb33cfd5ac07b",
+    "accessibility-v23-initial-failure.json": "ea0b9f49ac3d367ec1a7ce0b53a4821c8a06e9d9d1d3aff50b916beeb7f1c461",
+    "verification-continuum-v23.json": "10b1e033f37bbf9821ac7c526f6e6d308110fc4a8087940f13b947c785bb1abf",
+    "idle-reduced-v15-paused-pixel-stillness-trace.json": "11739b1d615ea8ded1e360746fb69a4273e65b36c7704ac174b078ffbada261c",
+    "idle-reduced-v15-paused-resize-restores-stable-canvas-trace.json": "6104240020b1d3195028153cfcb7deab8a44d860b667e6754ec8d74077e023cf",
+    "idle-reduced-v15-reduced-motion-pixel-stillness-trace.json": "91806f4c9448ebf50bcafb11c878e7573e258a03c24c0508fec2e4ae5b2b5aa2",
+    "idle-reduced-v15-restored-detail-reduced-pixel-stillness-trace.json": "bcd063f62c480c961a9e20a479f337b81ad04f77f8af5a9ef9bcde49b2a21485"
+  }
+}

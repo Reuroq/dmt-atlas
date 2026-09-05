@@ -1,0 +1,151 @@
+{
+  "iteration": "rough-jewel-corolla-v23",
+  "render_signature": "ee07208fea05b61199d699f4865b051fd250a58a21dacaba24301beb301e80d5",
+  "runtime_sha256": "5486919206afcc282f4428a3cb344f8123714b2392b6802bac79631860269ca3",
+  "realism": "GAME",
+  "coverage": 0.84259,
+  "coverage_passed": true,
+  "coverage_blockers": [],
+  "source_audit": {
+    "passed": true,
+    "reviewed_reports": 70,
+    "included_reports": 50,
+    "excluded_reports": 20,
+    "candidate_reports": 480,
+    "candidate_passages": 960,
+    "exhausted": false,
+    "errors": []
+  },
+  "node_syntax": "PASS",
+  "realism_gate_regression": "PASS",
+  "fidelity_check_exit": 1,
+  "verified_ledger_pngs": 80,
+  "verified_ledger_receipts": 66,
+  "accessibility": {
+    "passed": false,
+    "failure": "restored-detail reduced pixel stillness: canvas changed",
+    "log": "render-chrysanthemum-accessibility-v23.log",
+    "log_sha256": "514cab4df9efa5513438272ae3ff25bb81f254b888ede8290a1139cd95dc39bb",
+    "completed_checks_inferred_from_assertion_order": [
+      "paused pixel stillness",
+      "paused resize restores stable canvas",
+      "reduced-motion pixel stillness",
+      "detail toggle preserves route and pose"
+    ],
+    "sources_check": "NOT REACHED",
+    "screenshot": "NOT PRODUCED: original helper asserts before saving failure pixels",
+    "runtime": "continuum-v23.js",
+    "next": "Same assertions with failure screenshot and diagnostics instrumentation; no timing relaxation"
+  },
+  "stillness_diagnostic": {
+    "diagnostic_passed": true,
+    "checks": [
+      "paused pixel stillness",
+      "paused resize restores stable canvas",
+      "reduced-motion pixel stillness",
+      "detail toggle preserves route and pose",
+      "restored-detail reduced pixel stillness",
+      "Sources fidelity table and existing provenance"
+    ],
+    "initial_failure_resolved": false,
+    "interpretation": "One unchanged-assertion instrumented rerun passes all six checks. The original restored-HIGH reduced stillness failure remains intermittent and unexplained; do not replace it with this pass. No failure pixel pairs were produced because this run did not fail.",
+    "render_signature": "ee07208fea05b61199d699f4865b051fd250a58a21dacaba24301beb301e80d5",
+    "captures": [
+      {
+        "file": "diagnostic-stillness-v23.png",
+        "sha256": "b9f2d2d82eba8e216b97fdf94bed63cbc4c47cc6e1288923f51b2ba629aec005",
+        "receipt_sha256": "3926306f82db57f56e93c8579c4204b9a9972c42d97843e380f23bc13b0c8e82",
+        "inspection": "view_image once: saturated connected pink/red/violet, green and cyan scalloped walls frame a simple green/yellow radial fan. Many flat-looking near-black oval/lobed patches remain; broad areas are dim and soft. Same GAME defects persist. This HIGH/reduced/paused still is not a temporal pair and grants no new descriptor credit."
+      }
+    ]
+  },
+  "physical_exit": {
+    "render_signature": "ee07208fea05b61199d699f4865b051fd250a58a21dacaba24301beb301e80d5",
+    "passed": false,
+    "exit_walk_timeout_ms": 45000,
+    "checks": [
+      "Fresh v23 Sources table contains reviewed luminous and dark/black observations",
+      "HIGH right walking boundary preserved inside minimum volume radius",
+      "Actual drag-look changes both camera axes"
+    ],
+    "checks_basis": "Completed assertions before exit timeout in verify_continuum_v23.py",
+    "errors": [
+      "Physical exit: Timeout45000ms exceeded"
+    ],
+    "failure_diagnostics": {
+      "stage": "chrysanthemum",
+      "routeIndex": 2,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 8.183300000000003,
+      "animTime": 19.17180000038138,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": true,
+      "renderedAnimTime": 18.67170000038139,
+      "frames": 14,
+      "position": [
+        0,
+        1.7,
+        -18.186559999999986
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum"
+      ],
+      "entities": [],
+      "interactions": 0,
+      "evidence": [
+        "phase|The Chrysanthemum",
+        "geometry|The Chrysanthemum",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Mandalas & symmetry fields"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 35,
+      "portals": [
+        {
+          "x": 0,
+          "z": -23,
+          "width": 3.5,
+          "target": "next"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 1,
+      "triangles": 2,
+      "geometries": 5,
+      "actors": [],
+      "uncitedMeshes": 0
+    },
+    "log_sha256": "a363e9c498a9d646b92af09741d3ebdc15e8d0a0e4b7e12a0caa719d776d2763",
+    "extended_retry": false
+  },
+  "latest": "realism-chrysanthemum-close-v23-motion.png",
+  "display_receipt": "realism-chrysanthemum-close-v23.json",
+  "full_acceptance": "PENDING; no unchanged desktop rerun",
+  "overall_passed": false,
+  "artifacts": {
+    "review_chrysanthemum_v23.py": "57629ce7d331131efcb2ed1fff607998b4861d5b88d6e9293bc943690bf3e7f4",
+    "verify_continuum_v23.py": "f3d5729ed33a5d3875103fda4dbb2935f0f6b72a9b87b666e9e8a8789dc898a3",
+    "fidelity-v23-review.log": "6da9e99d65056c591d6f4d8c7b9ccd4a69eb002b752c7efb641fa0f727c63042",
+    "accessibility-v23-initial-failure.json": "ea0b9f49ac3d367ec1a7ce0b53a4821c8a06e9d9d1d3aff50b916beeb7f1c461",
+    "diagnostic-stillness-v23-review.json": "83266af4759dc5a0a09634d4e617caec82b37013edd5e0c627bbed9be88a1a32",
+    "render_stillness_v23.py": "d53beec12865c908814e0b732f2d64620f6e9f972cec4d0b165a4aea25e8a8b4",
+    "diagnostic-stillness-v23.log": "472d7fadc14bb8e0a5e15d24bd1ccfb29c9d71f94a5cc0a530aad1fdcf288d81",
+    "verification-continuum-v23.json": "10b1e033f37bbf9821ac7c526f6e6d308110fc4a8087940f13b947c785bb1abf",
+    "verification-continuum-v23.log": "a363e9c498a9d646b92af09741d3ebdc15e8d0a0e4b7e12a0caa719d776d2763",
+    "continuum-v23-implementation-check.json": "0e1e0ce7c864437e22250e1a6fd6cb4f57d0ff1884bbb2b70f86ba6eeb70600d"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "render_signature": "2d8fb83119fd92d77a862e129e75c1e79fa12d0a8c5ec078e6554d14a560a0bc",
+  "syntax": "PASS",
+  "realism_gate_regression": "PASS",
+  "review_receipt_hashes": {
+    "realism-chrysanthemum-v19": {
+      "png_sha256": "289df84ee7fe8e64cd0878f525bac67ad5bf94264c3390a2d62b573cce8aec4a",
+      "receipt_sha256": "0ed762166a4d36fc48ad7d1a24086264ea0041e92485900b25dd6aa1691cad81",
+      "position": [
+        0,
+        1.7,
+        8
+      ],
+      "animTime": 5.732499999427799,
+      "renderedAnimTime": 5.732499999427799,
+      "renderPending": false,
+      "detail": "high",
+      "inspection": "view_image, inspected exactly once; actual observations in review_chrysanthemum_v19.py"
+    },
+    "realism-chrysanthemum-v19-motion": {
+      "png_sha256": "b5bb2f6fc1c72192da8b8bf24b64965f2f6678f09ba8d8e7a8ea46a40c135d4e",
+      "receipt_sha256": "5fc36e762a23cec405612f7b46114690ffd6d95a12d1f269bc9d4895932de937",
+      "position": [
+        0,
+        1.7,
+        8
+      ],
+      "animTime": 8.782399999427811,
+      "renderedAnimTime": 8.782399999427811,
+      "renderPending": false,
+      "detail": "high",
+      "inspection": "view_image, inspected exactly once; actual observations in review_chrysanthemum_v19.py"
+    },
+    "realism-chrysanthemum-close-v19": {
+      "png_sha256": "9b71d62c2001ad94249e74b60b08708befcdedc4855d12c1faec5c8de7db5866",
+      "receipt_sha256": "53ddfb32401caeb51a9c734948ade26e26da109e26454b698515620387165d9b",
+      "position": [
+        0,
+        1.7,
+        -8.37280000000001
+      ],
+      "animTime": 9.580000000572214,
+      "renderedAnimTime": 9.580000000572214,
+      "renderPending": false,
+      "detail": "high",
+      "inspection": "view_image, inspected exactly once; actual observations in review_chrysanthemum_v19.py"
+    },
+    "realism-chrysanthemum-close-v19-motion": {
+      "png_sha256": "82cd127c16fa92daac60b49b981f075a7565e354de48dddce20e42ac4d48e7d3",
+      "receipt_sha256": "e70f30bc1821a7c684818b379ca12dc7078b5b015dfdd29cd79eb68f93a28ed9",
+      "position": [
+        0,
+        1.7,
+        -8.37280000000001
+      ],
+      "animTime": 12.63000000057221,
+      "renderedAnimTime": 12.63000000057221,
+      "renderPending": false,
+      "detail": "high",
+      "inspection": "view_image, inspected exactly once; actual observations in review_chrysanthemum_v19.py"
+    }
+  },
+  "receipt_hash_integrity": "PASS:63 unique ledger PNGs and49 recorded receipt hashes verified",
+  "coverage": 0.87037,
+  "coverage_passed": true,
+  "source_sample_included": 50,
+  "source_sample_excluded": 20,
+  "realism": "GAME",
+  "archive_matches_runtime": true,
+  "archive_sha256": "9cda6dbd162ebf2f3d74b1bef9d82d22ece05a0317c5a01d096df0919ad7abfd",
+  "latest": "realism-chrysanthemum-close-v19-motion.png",
+  "latest_sha256": "82cd127c16fa92daac60b49b981f075a7565e354de48dddce20e42ac4d48e7d3",
+  "reviewed_display_restored": true,
+  "fidelity_check_expected_exit": 1,
+  "overall_passed": false,
+  "accessibility": {
+    "passed": true,
+    "checks": [
+      "paused pixel stillness",
+      "paused resize restores stable canvas",
+      "reduced-motion pixel stillness",
+      "detail toggle preserves route and pose",
+      "restored-detail reduced pixel stillness",
+      "Sources fidelity table and existing provenance"
+    ],
+    "receipt": "realism-chrysanthemum-accessibility-v19.json",
+    "receipt_sha256": "aa29bbc6ceb04bc181175dc655653f8ba002aad6f8b701eaeb26e69e9afd0d29",
+    "png_sha256": "867a7d9379d607359c74ec8076f44555488a3f2c53415b9a014dec119bedc2fa",
+    "inspection": "view_image, inspected exactly once; glossy repeated pink/orange/lime/cyan scroll hoops, contour artifacts and broad black separation around a small central rosette. GAME; not an additional temporal pair.",
+    "capture_diagnostics": {
+      "stage": "chrysanthemum",
+      "detail": "high",
+      "paused": true,
+      "reduced": true,
+      "position": [
+        0,
+        1.7,
+        8
+      ],
+      "animTime": 4.668599999427791,
+      "renderedAnimTime": 4.668599999427791,
+      "renderPending": false,
+      "missingEvidence": [],
+      "uncitedMeshes": 0
+    }
+  },
+  "physical_exit": {
+    "passed": true,
+    "exit_walk_timeout_ms": 45000,
+    "checks": [
+      "HIGH right walking boundary preserved inside minimum volume radius",
+      "Actual drag-look changes both camera axes",
+      "Central physical exit reaches Rush with cited geometry; no navigation injection"
+    ],
+    "errors": [],
+    "result": "verification-continuum-v19.json",
+    "result_sha256": "547ce51abf8e13ccedf013ae6e5e23b10acb825b9ebd74c5475bea99d12a3077",
+    "log": "verification-continuum-v19.log",
+    "log_sha256": "5c10f9b7530a757c2f7a08a20f357f4af3a030d1afa1b9e28415163e33bee232",
+    "limitations": "Original limit, no extended retry or navigation injection. Focused SwiftShader functional success, not a GPU performance benchmark or full route acceptance. Earlier failures preserved."
+  },
+  "full_acceptance": "PENDING: no unchanged desktop rerun"
+}

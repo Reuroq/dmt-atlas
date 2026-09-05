@@ -1,0 +1,7 @@
+{
+  "error": "Protected hash assertion before any closure writes",
+  "mismatched_files": [
+    "visual-chrysanthemum.png",
+    "visual-chrysanthemum.json"
+  ]
+}

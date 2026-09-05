@@ -1,0 +1,73 @@
+{
+  "phase": "HUD causal correction complete; geometry goal unfinished",
+  "protected_unchanged": {
+    "trip.js": true,
+    "trip-v18.js": true,
+    "continuum.js": true,
+    "fractal.js": true,
+    "visual-chrysanthemum.png": true,
+    "visual-chrysanthemum.json": true,
+    "accessibility-input-pump-v18-restored-detail-reduced-pixel-stillness-before.png": true,
+    "accessibility-input-pump-v18-restored-detail-reduced-pixel-stillness-after.png": true,
+    "VISUAL_RESEARCH.json": true,
+    "fidelity-grades.json": true,
+    "realism-grades.json": true
+  },
+  "render_signature": "324b7f317aa3c4211b53a9a6fb01377029222a35b63dde91ab04ade77787bd0c",
+  "live_checks": [
+    "paused pixel stillness",
+    "paused resize restores stable canvas",
+    "reduced-motion pixel stillness",
+    "detail toggle preserves route and pose",
+    "restored-detail reduced pixel stillness",
+    "Sources fidelity table and existing provenance"
+  ],
+  "live_errors": [],
+  "static_strict_passes": 21,
+  "latest_matches_live": true,
+  "python_ast": [
+    "build_hud_ramp_v18.py",
+    "probe_hud_ramp_v18.py",
+    "promote_hud_ramp_v18.py",
+    "close_hud_ramp_v18.py",
+    "fidelity.py"
+  ],
+  "node_syntax": [
+    "diagnostic-hud-ramp-v18.js"
+  ],
+  "fidelity_check_exit": 1,
+  "fidelity_overall": false,
+  "artifact_hashes": {
+    "NOTES.md": "913d5fc80d706aeb09cb684b763f09c6473123e58357f3ad56549e9caa29e7ed",
+    "README.md": "08215dba44e13c3aab926a6fc9754a965c37b9a14fe772ad10fe10f0a1f698d6",
+    "accessibility-hud-ramp-v18-paused-pixel-stillness-trace.json": "153e8ca23d4a24a813faba767379ff86fae94e1b628f062b7ac1e1dbfb134ec7",
+    "accessibility-hud-ramp-v18-paused-resize-restores-stable-canvas-trace.json": "2d2ea0dc6972a612fd5ad782df229b23d712ed01691381b4b4ed123eea00e94d",
+    "accessibility-hud-ramp-v18-reduced-motion-pixel-stillness-trace.json": "ba856cf53f9f53060c07f47b23e4045c1319379ac8f651af436b5979e206755d",
+    "accessibility-hud-ramp-v18-restored-detail-reduced-pixel-stillness-trace.json": "7a620b30c4922e8e714015c2ae80772391c6da81d8fda199bb1a296f206649a8",
+    "accessibility-hud-ramp-v18.json": "f529acb08f31f9670d47131b4b86a0d2b6690301ddf196cbaa03b261786d4cfe",
+    "accessibility-hud-ramp-v18.png": "ca24cbb3b8504dc0f195439aed6a1f06a8d45e2d1ba8b31e5da191e34bcc16f6",
+    "build_hud_ramp_v18.py": "249440ee70943a9826fca5dedebecac05c39bea140c79d02f12359d8d1b336b1",
+    "close_hud_ramp_v18.py": "6f4eb1fc36ad5e7ba6e02b1fad1c339de7d61bf3d7d4b4f93eb19a5828231312",
+    "diagnostic-hud-ramp-v18-mobile.png": "164f59325cd6814c66607ad213a4a8dfdfb96bbc2c5f363c4bb293048a4cd1b3",
+    "diagnostic-hud-ramp-v18.html": "b9c2c8be7db748a204fe7d766ef3e1f9bc2ecd5036d6317dcb2d6209ba0de505",
+    "diagnostic-hud-ramp-v18.js": "4e40178b227d37d98f8bc7ab62e6fb9d48bc35c21ad9c0fe7421a9bf5ffcc757",
+    "diagnostic-hud-ramp-v18.json": "c5250ec774860182cc9d8fbe20a8ff7e137683b5f71b00b286534fe0f1bab117",
+    "diagnostic-hud-ramp-v18.png": "0d8082e1be8211997563cf6334deb37c59626e99c2df9363b8c9bcc9e5d5205f",
+    "fidelity-hud-ramp-v18.log": "f61559ddf1bd9243d131b1b6a6c90f919cb3601d0a32f8a5abd5029f4d35f6dc",
+    "fidelity.py": "3ed566abf2ad65f80cf0d769bfd1cadf8933f20412429031b2e21d709f68f6ad",
+    "hud-alpha-ramp-v18.png": "da9d89e627cdf4bb177830fe7d37cc62e03b818e35f0677890a3061f744ff4cf",
+    "hud-ramp-v18-appearance.json": "fdff5a0ca876e91f13e010596d917853abfe6594ba7df9df64c836d3304e3785",
+    "hud-ramp-v18-build.json": "ecafaf6c0a887d944c1a9108dfa40fdd654f660b36693c7b0b700d2ab118697a",
+    "hud-ramp-v18-closure-initial-failure.json": "8b9658f919e6566949638a158271dfacd57b027abe21398d2d8e742097eaba2a",
+    "hud-ramp-v18-default-recovery.json": "5bbe378bab271e434f1b3108b0e8b8fb2956fd2d218c1009af655deed93e28a9",
+    "hud-ramp-v18-promotion.json": "6e5d8e50b247040b86e6f0bc6e7bd12cbdc2512156f2e95d0c0902248dde67b9",
+    "hud-ramp-v18-review.md": "f564835a4f4cb7dabdb173fdba7eb1b8fa0c32921f0f829d8624b56c83ed50b6",
+    "latest.png": "ca24cbb3b8504dc0f195439aed6a1f06a8d45e2d1ba8b31e5da191e34bcc16f6",
+    "probe-hud-ramp-v18.log": "95e69a2b442fda991761f1bd664a6301f5caba4825238133a506319a6cc355f2",
+    "probe_hud_ramp_v18.py": "d259666fd577bbbd5112148c5a156c15cb654b1ed9cb33af04710331a8cb0a8a",
+    "promote_hud_ramp_v18.py": "c7ab8bb14b487c097ba61bcfcdf0ca3eaad91a7b01684859be42bef7ea714f3c",
+    "render-accessibility-hud-ramp-v18.log": "a2a761c80ef60565a69e1d5cfd181832d4729e3d3b01a2b3c7fec645e10de3ad",
+    "status.txt": "480ff0db2cba0be56982045f6624fd9a59f895bdad7420caaa0d92717eaaada8",
+    "trip.css": "f15021f588310fc15b06b23677295dd8377284e3458e3932fe3e35c222499d59"
+  }
+}

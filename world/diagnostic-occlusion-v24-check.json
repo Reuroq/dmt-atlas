@@ -1,0 +1,41 @@
+{
+  "diagnostic_checks": "PASS",
+  "runtime_unchanged": {
+    "continuum.js": "5486919206afcc282f4428a3cb344f8123714b2392b6802bac79631860269ca3",
+    "trip.js": "9ea2c7f086d93d8b049f1113a676930b195bc522e5e4f2e87a857e6553b90c5a",
+    "fractal.js": "fd7a14ebfc87988e95e14255adc903e079cb47bb075db7612d5d57091ed235d8",
+    "index.html": "37275c34171ffdca0392e0798d77beec09101c0c8a1c7056bca0ae20d50604bb",
+    "fidelity-data.js": "6f6cd68dc79ab82de02aed29d1475d2f9e394b2e1e5fddfce8a2349d35777c59",
+    "data.js": "87c2ecc3742af9f336ebb882e073a61762f975419412e2e6ec4e053f3cc90b43"
+  },
+  "additional_dependencies": {
+    "beings.js": "fc2900166510269f426b8c49c12b5d0644df816f4545972ef343ef8a02aaa60b",
+    "fidelity-ui.js": "f5634f2373925ccfe42de91aeec83cc4bce5c420ff7b7e5ea5dd6ae66f0856b4",
+    "verify.py": "8b8f073b804902a87358aafb6c3afa203b98ab957967a27c65cdaa40e11b7981"
+  },
+  "artifacts": {
+    "diagnostic-chrysanthemum-v24-occlusion-entry.png": "ca67b90071bc26563fff8bf9632348b3e86e946e1f8e05d7ef33c8c0f5e131f5",
+    "diagnostic-chrysanthemum-v24-occlusion-entry.json": "7d19f06399321005d42ed1f4559b6be7df79bacfe6c98539d17a542dbe14b118",
+    "diagnostic-chrysanthemum-v24-occlusion-deep.png": "8d2ea3a91e5b404912091522fddba0cea1f9a6e525f1150e4c95404992c840f5",
+    "diagnostic-chrysanthemum-v24-occlusion-deep.json": "4c799e5fc4efb0a6de750aad4d7130bf1a46a8f82ece1c2acee6d337396cd36b",
+    "diagnostic-chrysanthemum-v24-occlusion-receipts.json": "9e9d317d468bb7e1299a139d05ac0a31f0041fac588d19a6fb39ac2000ae9c8b",
+    "diagnostic-occlusion-v24.js": "e3464ce9af700b5497e122c100e5288d2692dda1e7be1dc63246209518e857f8",
+    "diagnostic-occlusion-v24.html": "012da0cc8711a1440277e0e6652fca6dbae41d97657ef9953c2046cf52b4c3fb",
+    "build_diagnostic_occlusion_v24.py": "5df6ecf836c17d41e69143d1848bf36b21f0ec8da24445b307701e00f1453f9c",
+    "render_diagnostic_occlusion_v24.py": "1c45fdf5f159ef043db7e07687d77ec8db8f58ba9a90a2c1811acc45af94b782",
+    "build_diagnostic_occlusion_v24-initial.py": "1695971895248a22ca74bdebccde8f6ea177525fddb6bb173b5bab93d9134fb3",
+    "diagnostic-occlusion-v24-initial-failure.json": "b8216cb978c7827e95a1f716f01e76d7084251fb501658eeedadfdc1239d088e",
+    "render-diagnostic-occlusion-v24.log": "21c7a7a7ca82ca4bb5f3e8f3facd22c2d3fa94e8956e93590a19ace2de04fca9",
+    "diagnostic-occlusion-v24-runtime-before.json": "39c62543a889462352881c357400cfd8f3818cd2099d781d229839f671ca6de4",
+    "diagnostic-occlusion-v24-review.md": "d65d61bc9be474e06708593a097b41a3630ec2aafba6db9802e732a58a908ee7",
+    "check_diagnostic_occlusion_v24.py": "53633e4f19b65b460fb1a0763cb2bc6e30342fbdc4d7e91c94ef9ecabeb2f3fb"
+  },
+  "latest": "inspected deep diagnostic plate, not a qualifying realism capture",
+  "default_capture": "idle-reduced-v16 entry; unchanged",
+  "inspection": "Both plates inspected once with view_image after renderer completion",
+  "visual_observation": "GAME; recess causes hard patches; visibility dims broadly; axial fan persists",
+  "unresolved": "Sparse rim misses, geometry/realism, stale coverage, physical exit and overall gates",
+  "acceptance_rerun": false,
+  "grades_changed": false,
+  "overall_complete": false
+}

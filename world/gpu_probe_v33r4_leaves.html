@@ -1,0 +1,44 @@
+<!doctype html><meta charset="utf-8"><title>v33r4 saved-root leaf audit — not journey evidence</title>
+<script src="vendor/three.min.js"></script><script src="continuum-v33r4-candidate.js"></script>
+<script>
+const renderer=new THREE.WebGLRenderer({antialias:false});
+const target=new THREE.WebGLRenderTarget(1,1,{type:THREE.FloatType,minFilter:THREE.NearestFilter,magFilter:THREE.NearestFilter,depthBuffer:false});
+const camera=new THREE.PerspectiveCamera(68,1.5,.06,180),scene=new THREE.Scene(),materials=[];
+const mesh=ContinuousWorld.chrysanthemum(scene,materials,camera),material=materials[0];
+mesh.onBeforeRender=()=>{};material.depthTest=false;material.depthWrite=false;
+material.uniforms.probeMode={value:0};material.uniforms.pointsTex={value:null};
+let shader=material.fragmentShader;
+shader=shader.slice(0,shader.indexOf('   void main(){'));
+material.fragmentShader=shader+`
+uniform sampler2D pointsTex;uniform float probeMode;
+void main(){
+ vec3 p=texture2D(pointsTex,screenUV).xyz;vec4 f,a,b;float layer;
+ vec4 axA,axB,angA,angB,shellA,shellB;
+ CommonJets common=commonParts(p);
+ fieldPartsReachShared(p,common,f,a,b,axA,axB,angA,angB,shellA,shellB);
+ vec4 cheapF,cheapA,cheapB;cheapPartsShared(p,common,cheapF,cheapA,cheapB);
+ gl_FragColor=probeMode<.5?f:probeMode<1.5?a:probeMode<2.5?b:probeMode<3.5?compose(f,a,b,layer):
+ probeMode<4.5?axA:probeMode<5.5?axB:probeMode<6.5?angA:probeMode<7.5?angB:
+ probeMode<8.5?offset(1.6*shellA,-.32001):probeMode<9.5?offset(-1.6*shellA,-.32001):
+ probeMode<10.5?offset(1.128*shellB,-.211042):probeMode<11.5?offset(-1.128*shellB,-.211042):probeMode<12.5?cheapF:probeMode<13.5?cheapA:cheapB;
+}`;
+material.needsUpdate=true;
+window.auditLeaves=caseData=>{
+ const w=caseData.width,h=caseData.height;
+ renderer.setSize(w,h);target.setSize(w,h);
+ camera.position.set(0,1.7,caseData.z);camera.updateMatrixWorld(true);
+ material.uniforms.time.value=caseData.time;material.uniforms.high.value=caseData.high;
+ material.uniforms.pixelScale.value=2*Math.tan(34*Math.PI/180)/800;
+ material.uniforms.cameraWorld.value.copy(camera.matrixWorld);
+ const points=new THREE.DataTexture(new Float32Array(caseData.points),w,h,THREE.RGBAFormat,THREE.FloatType);
+ points.minFilter=points.magFilter=THREE.NearestFilter;points.needsUpdate=true;
+ material.uniforms.pointsTex.value=points;
+ const result={};
+ for(let mode=0;mode<15;mode++){
+  material.uniforms.probeMode.value=mode;renderer.setRenderTarget(target);renderer.render(scene,camera);
+  const pixels=new Float32Array(w*h*4);renderer.readRenderTargetPixels(target,0,0,w,h,pixels);
+  result[['base','apertureA','apertureB','composed','axA','axB','angA','angB','shellAp','shellAn','shellBp','shellBn','cheapF','cheapA','cheapB'][mode]]=Array.from(pixels);
+ }
+ points.dispose();return result;
+};
+</script>

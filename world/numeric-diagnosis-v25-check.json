@@ -1,0 +1,28 @@
+{
+  "integrity_passed": true,
+  "runtime_unchanged": true,
+  "render_signature": "f055d198fd1db94f4a10a751f8b92a46d7ca0a3957a9e1352d0e6e2753d797b9",
+  "baseline_max_fixed_point_field_error": 0.0010937915799774586,
+  "cpu_angle_override_max_field_error": 0.0010937170741714894,
+  "polynomial_experiment_max_fixed_point_field_error": 4.77327607650152e-06,
+  "conclusion": "At four saved worst points, replacing only atan does not remove discrepancy; replacing sin/cos with range-reduced degree13/12 polynomials reduces it below the original .001 scalar agreement limit. Built-in trigonometric evaluation contributes to the measured discrepancy. No new ray/root/gradient/visual/performance acceptance; runtime still v25 and numerical gate still FAIL.",
+  "failed_initial_experiment": "Shader compile error: missing vec3 preciseCos overload in unreachable spectrum function. Returned pixels are invalid evidence; original HTML/Python/log/JSON retained.",
+  "overall_passed": false,
+  "sha256": {
+    "diagnostic_numeric_v25.html": "6dc37dd07a9c872a89bbdda7c951ba215eed9fbb65694c5fd77448f6ec69b85b",
+    "diagnose_numeric_v25.py": "c4bb1486c9d1a49c6b9ac542455ce5ca8124350a01e95c150cd940a6679c7b1a",
+    "diagnostic-numeric-v25.json": "1bf86e79c342384cbdd5cd559508237c2e9bc55594c98f8cf883d8b1b32f5cba",
+    "diagnostic-numeric-v25.log": "e703e19f4774eb4236e90cac0f728d780ff41b0eae8b268b54fb8bc0155c19d9",
+    "diagnostic_precisetrig_v25.html": "3c703d0073a41cdeb449d0bccc5ffda2a4417661f07410c2557f3a946a3e0d74",
+    "diagnose_precisetrig_v25.py": "8b7bdac36afc70a0c3fc4690d104f1d3ffb5f37eb17c1b84e15a00cd9b517b87",
+    "diagnostic-precisetrig-v25.json": "4addb42e53a739fcb5d35b27695951d85cc034a6f729471721342ad96c6f381b",
+    "diagnostic-precisetrig-v25.log": "2bc536dbbfbdb01edeba4e4106edcaf3c4fce26b45de23c48c7bebb5dfc30e4d",
+    "diagnostic_precisetrig_v25_r2.html": "d3eebf59d343791aafb8ccff419e3a2aa16d7e1848da2b2eb30164cd49201524",
+    "diagnose_precisetrig_v25_r2.py": "4c38fcea315b4344e62ba1ec61c14edcf363cf4966eebd4de1dfca0545741733",
+    "diagnostic-precisetrig-v25-r2.json": "ef730884250b70c9d0d09ec90ee86cf3f07de531cabd6ce446bbae4dbc2e0ac7",
+    "diagnostic-precisetrig-v25-r2.log": "12d7c48f19527aea244fd746c172dd66c41e9078445c73e07fb83ef473bf3da4",
+    "continuum-v25-numerical-findings.json": "974bbe54065310a2649ceae60f1d5d39705d211279c98c69cc67871b37f6e224",
+    "continuum-v25-gpu-check.json": "cf1d639efddbebbb4d18634d1f3e141e954a00b8eafbcb097d8b6c209ee4f649",
+    "check_numeric_diagnosis_v25.py": "4a773d0bfdc44a5e8b1a128f8f26252e66b979a6ef25b7f154d03fd022ab7830"
+  }
+}

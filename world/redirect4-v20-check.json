@@ -1,0 +1,78 @@
+{
+  "render_signature": "f2d6b45c8d5945dcfeaa34f67e254b18fe935f9fa9b0c468c852b88765f0b934",
+  "syntax": "PASS",
+  "realism_gate_regression": "PASS",
+  "review_receipt_hashes": {
+    "realism-chrysanthemum-v20": {
+      "png_sha256": "ff46222723f811fc4f1eec8e6afda9ea3197edf6cfa94bed5ae4f0d44a9d9a44",
+      "receipt_sha256": "e345bee7519fc929fd05214e074ba44f40d7f41402fca43a94f0037f3d0e2fb9",
+      "position": [
+        0,
+        1.7,
+        8
+      ],
+      "animTime": 4.918499999999997,
+      "renderedAnimTime": 4.918499999999997,
+      "renderPending": false,
+      "detail": "high",
+      "inspection": "view_image, inspected exactly once; observations in review_chrysanthemum_v20.py"
+    },
+    "realism-chrysanthemum-v20-motion": {
+      "png_sha256": "03c455692ef1fb123b186bbad2e4879dd4a015ff116bf0cfe4500cbeabcbc24e",
+      "receipt_sha256": "bf85186e1df71c911a221b17aaf2911b16deedaa6cbd3c21401addb31ceed9d4",
+      "position": [
+        0,
+        1.7,
+        8
+      ],
+      "animTime": 8.051900000000003,
+      "renderedAnimTime": 8.051900000000003,
+      "renderPending": false,
+      "detail": "high",
+      "inspection": "view_image, inspected exactly once; observations in review_chrysanthemum_v20.py"
+    },
+    "realism-chrysanthemum-close-v20": {
+      "png_sha256": "419539af7691fe5aed2a4e8e8f18327b0e6483317ce3903d3583a483035551bb",
+      "receipt_sha256": "1d2225c7987a79b2f2319d791681bfd538a42195e1cb5fa535a7d3ec4e036ce3",
+      "position": [
+        0,
+        1.7,
+        -8.373760000000006
+      ],
+      "animTime": 9.6198,
+      "renderedAnimTime": 9.6198,
+      "renderPending": false,
+      "detail": "high",
+      "inspection": "view_image, inspected exactly once; observations in review_chrysanthemum_v20.py"
+    },
+    "realism-chrysanthemum-close-v20-motion": {
+      "png_sha256": "f68fb046a8c3015cda7ec96eac23ebf77c1c6d32ac6de89a41c317b5322c2483",
+      "receipt_sha256": "eb22f2bcf794bce8ebfb2684e865e92030b1f93fb11bf13eeed73b83d91397ef",
+      "position": [
+        0,
+        1.7,
+        -8.373760000000006
+      ],
+      "animTime": 12.68639999999997,
+      "renderedAnimTime": 12.68639999999997,
+      "renderPending": false,
+      "detail": "high",
+      "inspection": "view_image, inspected exactly once; observations in review_chrysanthemum_v20.py"
+    }
+  },
+  "receipt_hash_integrity": "PASS:67 unique ledger PNGs and53 recorded receipt hashes verified",
+  "coverage": 0.88426,
+  "coverage_passed": true,
+  "source_sample_included": 50,
+  "source_sample_excluded": 20,
+  "realism": "GAME",
+  "archive_matches_runtime": true,
+  "archive_sha256": "c8acc300f2baf2a9d3e7b96a25450e3685988a1aa370c1c40454ac1551208150",
+  "latest": "realism-chrysanthemum-close-v20-motion.png",
+  "latest_sha256": "f68fb046a8c3015cda7ec96eac23ebf77c1c6d32ac6de89a41c317b5322c2483",
+  "fidelity_check_expected_exit": 1,
+  "overall_passed": false,
+  "accessibility": "PENDING for v20; v19 checks historical",
+  "physical_exit": "PENDING for v20; real forward capture reached z=-8.37376, not full exit acceptance",
+  "full_acceptance": "PENDING; no unchanged desktop rerun"
+}

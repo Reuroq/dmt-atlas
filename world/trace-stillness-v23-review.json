@@ -1,0 +1,105 @@
+{
+  "runtime_unchanged": true,
+  "render_signature": "ee07208fea05b61199d699f4865b051fd250a58a21dacaba24301beb301e80d5",
+  "diagnostic_passed": true,
+  "initial_failure_resolved": false,
+  "checks": [
+    "paused pixel stillness",
+    "paused resize restores stable canvas",
+    "reduced-motion pixel stillness",
+    "detail toggle preserves route and pose",
+    "restored-detail reduced pixel stillness",
+    "Sources fidelity table and existing provenance"
+  ],
+  "comparisons": [
+    {
+      "label": "paused pixel stillness",
+      "changed_pixels": 0,
+      "screenshot_seconds": [
+        0.22156492434442043,
+        0.21989007759839296
+      ],
+      "frames": [
+        6,
+        6,
+        6
+      ],
+      "renderPending": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "label": "paused resize restores stable canvas",
+      "changed_pixels": 0,
+      "screenshot_seconds": [
+        0.20197592955082655,
+        0.22625838872045279
+      ],
+      "frames": [
+        8,
+        8,
+        8
+      ],
+      "renderPending": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "label": "reduced-motion pixel stillness",
+      "changed_pixels": 0,
+      "screenshot_seconds": [
+        9.595030923373997,
+        19.745964392088354
+      ],
+      "frames": [
+        10,
+        11,
+        13
+      ],
+      "renderPending": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "label": "restored-detail reduced pixel stillness",
+      "changed_pixels": 0,
+      "screenshot_seconds": [
+        9.92496185284108,
+        8.636853776872158
+      ],
+      "frames": [
+        15,
+        16,
+        17
+      ],
+      "renderPending": [
+        true,
+        true,
+        true
+      ]
+    }
+  ],
+  "finding": "All four comparisons have identical pixels and unchanged pose/animation/detail. Paused snapshots take about0.2s with no new submissions; reduced/unpaused snapshots take8.6\u201319.7s while identical frames keep submitting and renderPending remains true. This establishes redundant GPU work in the sampled idle reduced view, not the cause of the original intermittent difference.",
+  "next": "Implement narrowly invalidated idle reduced rendering while preserving real walking/look/interactions/transitions/resize/detail refresh; adapt diagnostics to accept genuinely idle reduced frames without weakening pixel comparisons. Then focused changed-runtime verification. Do not rerun this unchanged trace for another pass.",
+  "capture": {
+    "file": "trace-stillness-v23.png",
+    "sha256": "f03b84ab84f82baa550815ee2b6f656a49b95886c74f6d16f0e5d13e33750520",
+    "receipt_sha256": "7bd0fa6b01c44720913d3435f3b2a9e0ba6e95ef4fa0c7e5decc350a82d903a7",
+    "inspection": "view_image once: saturated pink/red/violet near walls surround green/yellow and blue/cyan scalloped lips and a small green/yellow radial fan. Hard-edged black oval/lobed patches, dim smooth areas and simple axial geometry persist. HIGH/reduced/paused still at entry,time5.925; no temporal or descriptor regrade. GAME remains."
+  },
+  "artifacts": {
+    "trace-stillness-v23-paused-pixel-stillness-trace.json": "5404bf530ca6d5128475128610f0d7f8c0fbe30af2886483ddf944088ddea745",
+    "trace-stillness-v23-paused-resize-restores-stable-canvas-trace.json": "328c54b135136fc370b4d72950a8a54cc31997894b3fb9f7cb93a6a1da972c6b",
+    "trace-stillness-v23-reduced-motion-pixel-stillness-trace.json": "e0d2ef0fe19543aa8fd6b261613f6bf3e30d13d5e910d348d267c18da0e1e327",
+    "trace-stillness-v23-restored-detail-reduced-pixel-stillness-trace.json": "c48dba3bfd141712980bc19f3f289d88200d2b078a6765cb0e843497c6096e64",
+    "trace_stillness_v23.py": "fd948494f50b883ea02cecc3f39a3441e4735255f53d1921e3d647b8994a1ee5",
+    "trace-stillness-v23.log": "1d5a8bf54ca242ba9801981cdf683fa0e282f0ea580e16656beb651fd8f612f8",
+    "accessibility-v23-initial-failure.json": "ea0b9f49ac3d367ec1a7ce0b53a4821c8a06e9d9d1d3aff50b916beeb7f1c461"
+  }
+}

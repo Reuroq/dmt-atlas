@@ -23,7 +23,8 @@ with TemporaryDirectory(dir=HERE, prefix='realism-check-') as temp:
         receipt = {'file': image.name, 'capture_sha256': digest(image), 'render_signature': 'current', 'errors': [],
                    'veil_opacity': 0, 'capture_diagnostics': {'stage': 'chrysanthemum', 'detail': 'high', 'paused': True,
                    'transition': False, 'missingEvidence': [], 'uncitedMeshes': 0, 'position': [0, 1.7, 8],
-                   'yaw': 0, 'pitch': 0, 'animTime': index * 4}}
+                   'yaw': 0, 'pitch': 0, 'animTime': index * 4,
+                   'renderPending': False, 'renderedAnimTime': index * 4}}
         image.with_suffix('.json').write_text(json.dumps(receipt), encoding='utf-8')
         captures.append({'file': image.name, 'sha256': digest(image), 'receipt_sha256': digest(image.with_suffix('.json')), 'inspection': 'fixture'})
     base = {'targets': {'chrysanthemum': {'grade': 'RECOGNISE', 'reason': 'fixture', 'temporal_observation': 'fixture', 'captures': captures}}}
@@ -52,9 +53,11 @@ with TemporaryDirectory(dir=HERE, prefix='realism-check-') as temp:
     check(ledger, False)
     receipt_path = root / 'fixture-1.json'
     original = receipt_path.read_text(encoding='utf-8')
-    for field, value in [('detail', 'lower'), ('transition', True), ('paused', False), ('position', [1, 1.7, 8]), ('animTime', 1), ('uncitedMeshes', 1)]:
+    for field, value in [('detail', 'lower'), ('transition', True), ('paused', False), ('position', [1, 1.7, 8]), ('animTime', 1), ('uncitedMeshes', 1), ('renderPending', True), ('renderedAnimTime', 3)]:
         receipt = json.loads(original)
         receipt['capture_diagnostics'][field] = value
+        if field == 'animTime':
+            receipt['capture_diagnostics']['renderedAnimTime'] = value
         receipt_path.write_text(json.dumps(receipt), encoding='utf-8')
         ledger = copy.deepcopy(base)
         ledger['targets']['chrysanthemum']['captures'][1]['receipt_sha256'] = digest(receipt_path)
@@ -62,4 +65,4 @@ with TemporaryDirectory(dir=HERE, prefix='realism-check-') as temp:
     receipt_path.write_text(original, encoding='utf-8')
     (root / captures[0]['file']).write_bytes(b'tampered')
     check(base, False)
-print('Realism gate: valid fixture passes; stale, missing, uninspected, changed, non-HIGH, non-temporal, uncited and non-RECOGNISE reviews fail.')
+print('Realism gate: valid fixture passes; stale, missing, uninspected, changed, non-HIGH, non-temporal, GPU-pending, rendered-clock mismatch, uncited and non-RECOGNISE reviews fail.')

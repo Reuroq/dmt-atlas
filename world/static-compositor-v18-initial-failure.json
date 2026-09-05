@@ -1,0 +1,12 @@
+{
+  "failure": "Static submission changed during comparison after viewport resize",
+  "cause": "Fixture waited for previous pending=false before native resize delivery; dimension guard missing.",
+  "scope": "Diagnostic harness error, not screenshot inequality or live application failure.",
+  "preserved": [
+    "probe_static_compositor_v18.py",
+    "diagnostic-static-compositor-v18.js",
+    "diagnostic-static-compositor-v18.html",
+    "probe-static-compositor-v18.log"
+  ],
+  "correction": "r2 waits for actual drawing dimensions plus fence retirement; no delay or relaxed equality."
+}

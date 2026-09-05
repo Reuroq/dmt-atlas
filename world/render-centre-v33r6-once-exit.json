@@ -1,0 +1,7 @@
+{
+  "command": "python3 -u world/render_centre_v33r6.py",
+  "started_utc": "2026-09-05T14:59:10.660158+00:00",
+  "finished_utc": "2026-09-05T15:01:57.330745+00:00",
+  "exit_code": 1,
+  "log": "render-centre-v33r6-once.log"
+}

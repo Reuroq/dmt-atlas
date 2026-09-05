@@ -1,0 +1,42 @@
+{
+  "iteration": "connected-sheared-corolla-v21",
+  "render_signature": "949bceda08c7258d55cc6cdd4628941689d0093976f42052bfafa3aa172412db",
+  "runtime_sha256": "38e47737f1f491ea7c6121cce216ad5424adb56bba0c53821e1fb561dd965d94",
+  "realism": "GAME",
+  "coverage": 0.8472222222222222,
+  "coverage_passed": false,
+  "top10_absent": [
+    "dark / black"
+  ],
+  "source_includes": 50,
+  "source_excludes": 20,
+  "node_syntax": "PASS",
+  "realism_gate_regression": "PASS",
+  "fidelity_check_exit": 1,
+  "verified_ledger_pngs": 71,
+  "verified_ledger_receipts": 57,
+  "accessibility": [
+    "paused pixel stillness",
+    "paused resize restores stable canvas",
+    "reduced-motion pixel stillness",
+    "detail toggle preserves route and pose",
+    "restored-detail reduced pixel stillness",
+    "Sources fidelity table and existing provenance"
+  ],
+  "accessibility_inspection": "view_image once: connected saturated scallops and central pinwheel; severe scratch-like interference and jagged dark seams remain. HIGH/reduced/paused still, not temporal review.",
+  "physical_exit": {
+    "render_signature": "949bceda08c7258d55cc6cdd4628941689d0093976f42052bfafa3aa172412db",
+    "checks": [
+      "HIGH right walking boundary preserved inside minimum volume radius",
+      "Actual drag-look changes both camera axes",
+      "Central physical exit reaches Rush with cited geometry; no navigation injection"
+    ],
+    "passed": true,
+    "exit_walk_timeout_ms": 45000,
+    "errors": []
+  },
+  "full_acceptance": "PENDING; no unchanged desktop rerun",
+  "latest": "realism-chrysanthemum-close-v21-motion.png",
+  "display_receipt": "realism-chrysanthemum-close-v21.json",
+  "overall_passed": false
+}

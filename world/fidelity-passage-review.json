@@ -5,12 +5,19 @@
       "DMT/gti12v": {
         "decision": "include",
         "reason": "Firsthand immersive kaleidoscopic tunnel approaching a door, within the mapped visual family; a laughing entity is concurrent. Not evidence of a floral form, specific colours, or a universal phase order. The earlier room/riddle is not this geometry.",
-        "descriptors": ["tunnel / corridor", "beings / presences", "playful / laughing"]
+        "descriptors": [
+          "tunnel / corridor",
+          "beings / presences",
+          "playful / laughing"
+        ]
       },
       "DMT/1kskkyi": {
         "decision": "include",
         "reason": "Firsthand mandala-like drawing. Recalled as occurring at some point, so retain its visual form without treating the prose position before eye opening as established threshold or return timing. Eyes and body refer to the narrator, not depicted anatomy.",
-        "descriptors": ["geometry / patterns", "flower / mandala"]
+        "descriptors": [
+          "geometry / patterns",
+          "flower / mandala"
+        ]
       },
       "DMT/58he70": {
         "decision": "exclude",
@@ -23,7 +30,14 @@
       "DMT/15j42vj": {
         "decision": "include",
         "reason": "Firsthand black surroundings followed by green/purple geometric flower-of-life and lotus that unfolds/unlocks. The narrator's face is a viewing reference, not a face in the flower; the subsequent Buddha entity is beyond the unfolding transition.",
-        "descriptors": ["green", "purple / pink", "dark / black", "folding / unfolding", "geometry / patterns", "flower / mandala"]
+        "descriptors": [
+          "green",
+          "purple / pink",
+          "dark / black",
+          "folding / unfolding",
+          "geometry / patterns",
+          "flower / mandala"
+        ]
       },
       "DMT/2pot56": {
         "decision": "exclude",
@@ -32,12 +46,21 @@
       "DMT/1ng2dbo": {
         "decision": "include",
         "reason": "Firsthand transport into a kaleidoscopic geometric storm explicitly described as vivid and intense colours. Intensity does not establish vast spatial scale; telling a real dog of love is not a welcoming property of the vision.",
-        "descriptors": ["multicoloured", "saturated / vivid", "geometry / patterns"]
+        "descriptors": [
+          "multicoloured",
+          "saturated / vivid",
+          "geometry / patterns"
+        ]
       },
       "DMT/7svzi9": {
         "decision": "include",
         "reason": "Closed-eye kaleidoscope patterns/prisms move softly and change from cool to warmer, brighter colours. A feminine voice is auditory, not a visible feminine form; the quoted invitation to flow is not liquid geometry. Closing one's eyes is not eyes depicted in the pattern.",
-        "descriptors": ["multicoloured", "bright / luminous", "moving / animated", "geometry / patterns"]
+        "descriptors": [
+          "multicoloured",
+          "bright / luminous",
+          "moving / animated",
+          "geometry / patterns"
+        ]
       },
       "DMT/inkuei": {
         "decision": "include",
@@ -47,7 +70,460 @@
       "DMT/8bvk6z": {
         "decision": "include",
         "reason": "Explicit firsthand wobbly chrysanthemum that gives way. Confirm the flower only from the available dictionary candidates. Wobbling and giving way are qualitative motion/transition evidence absent from those candidates; the green geometric alien and galactic scale belong to the subsequent scene.",
-        "descriptors": ["flower / mandala"]
+        "descriptors": [
+          "flower / mandala"
+        ]
+      },
+      "DMT/gs3jb8": {
+        "decision": "include",
+        "reason": "Firsthand spinning multicoloured tunnel ending in bright light. The overwhelming rush describes felt energy, not visual density; the goat-man and its paisley body occur after the tunnel.",
+        "descriptors": [
+          "multicoloured",
+          "bright / luminous",
+          "spinning / rotating",
+          "tunnel / corridor"
+        ]
+      },
+      "DMT/xxi8g7": {
+        "decision": "include",
+        "reason": "Blue and orange kaleidoscope encompasses vision before eye opening. Exclude the later open-eye patterns and confusion from this target's votes.",
+        "descriptors": [
+          "multicoloured",
+          "orange",
+          "blue"
+        ]
+      },
+      "DMT/p9iti0": {
+        "decision": "include",
+        "reason": "Firsthand rotating mandala fractals. Actual low-lit room and narrator body are not visionary architecture/anatomy; waiting-room beings are from a subsequent session.",
+        "descriptors": [
+          "spinning / rotating",
+          "fractals",
+          "flower / mandala"
+        ]
+      },
+      "DMT/4b8x5b": {
+        "decision": "include",
+        "reason": "Changing circular mandala grows into fractals and moves faster. Roots of a tree is a growth simile, not literal vegetation; chattering is heard, not visible communication.",
+        "descriptors": [
+          "moving / animated",
+          "fractals",
+          "flower / mandala"
+        ]
+      },
+      "DMT/asj275": {
+        "decision": "include",
+        "reason": "Closed-eye kaleidoscopic patterns include python heads and squares, with successive doorway-like changes. Spinning flowers belong to earlier open-eye scenery; green room and maternal being follow this sequence. Heads explicitly belong to visible python forms, not humanoids, so do not use the broad anatomy bucket.",
+        "descriptors": [
+          "geometry / patterns"
+        ]
+      },
+      "DMT/8h4a93": {
+        "decision": "exclude",
+        "reason": "Kaleidoscopic facets are an altered view through the real ceiling and chandelier, not a distinct immersive geometry setting."
+      },
+      "DMT/1axdc6j": {
+        "decision": "include",
+        "reason": "Explicit closed-eye chrysanthemum/lotus shortly before return. Corridor colours precede it; frosted glass follows eye opening. Confirms flower without universal onset chronology.",
+        "descriptors": [
+          "flower / mandala"
+        ]
+      },
+      "DMT/gwgi97": {
+        "decision": "exclude",
+        "reason": "Explicit dream recreation without DMT, not a firsthand DMT visual report."
+      },
+      "DMT/oqjlvi": {
+        "decision": "exclude",
+        "reason": "Kaleidoscope is an alteration of the ceiling, with circus figures and mantis. Additional local context still does not establish an immersive mandala or geometric environment distinct from the ceiling overlay; do not import adjacent entities into this target."
+      },
+      "DMT/1eiqwrn": {
+        "decision": "include",
+        "reason": "Immersive 3D mandala tunnel of living coloured geometric transforming objects; explicitly endless and wide. Turning is qualitative motion but not an available rotation candidate.",
+        "descriptors": [
+          "multicoloured",
+          "morphing / transforming",
+          "geometry / patterns",
+          "tunnel / corridor",
+          "flower / mandala",
+          "vast / infinite"
+        ]
+      },
+      "DMT/7bwjji": {
+        "decision": "include",
+        "reason": "Flower-of-life shapes progress into a room folding in on itself and neon-pink geometric vision. Melting body and third-eye pressure are sensations, not dissolution or depicted anatomy.",
+        "descriptors": [
+          "saturated / vivid",
+          "purple / pink",
+          "folding / unfolding",
+          "geometry / patterns",
+          "room / architecture",
+          "flower / mandala"
+        ]
+      },
+      "DMT/1euwzb1": {
+        "decision": "exclude",
+        "reason": "Quoted third-party analysis of a video and a hyperbolic model, not a local firsthand visual description."
+      },
+      "DMT/10ja6km": {
+        "decision": "include",
+        "reason": "Explicit chrysanthemum of geometry waving across vision. Subsequent beckoning entity supplies the multidimensional/gesture candidates, not the flower; colour is mentioned but multicolour is unavailable in the frozen candidate dictionary.",
+        "descriptors": [
+          "breathing / undulating",
+          "geometry / patterns",
+          "flower / mandala"
+        ]
+      },
+      "DMT/4r5fhs": {
+        "decision": "exclude",
+        "reason": "Morphing mandala is an actual wall tapestry during onset; no immersive mandala in the window. White describes material consumed, not visionary light."
+      },
+      "DMT/1ctzt9b": {
+        "decision": "include",
+        "reason": "Firsthand DMT kaleidoscopic field of vision, without specified colour or pattern detail. Candidate patterns refer to an earlier physiological discussion, not this visual. Keep zero votes; do not endorse the preceding medical claims.",
+        "descriptors": []
+      },
+      "DMT/1b3vgco": {
+        "decision": "include",
+        "reason": "Real dumbbell image becomes a kaleidoscopic pattern filling the entire vision and swirling, then gives way to another world. Include the fully replacing pattern, not pink/purple neon from the later world or the initial surroundings morph.",
+        "descriptors": [
+          "spinning / rotating",
+          "geometry / patterns"
+        ]
+      },
+      "DMT/1w6t5yb": {
+        "decision": "exclude",
+        "reason": "Quotes McKenna and explicitly denies experiencing the chrysanthemum and listed motifs."
+      },
+      "DMT/1e9t3q8": {
+        "decision": "exclude",
+        "reason": "Real trees and leaves perform kaleidoscopic shadow-puppet-like shapes; open-eye environmental alteration, not this distinct geometry target."
+      },
+      "DMT/1rv1s59": {
+        "decision": "include",
+        "reason": "Firsthand kaleidoscope in the head. No explicit colours; narrator head and absent prior jesters do not establish depicted beings/anatomy. Zero-vote relevant report.",
+        "descriptors": []
+      },
+      "DMT/1afvdk7": {
+        "decision": "include",
+        "reason": "Triangular patterns and yellow-orange kaleidoscope take over vision, opening a space with waving yellow borders. Golden statue is a later development. Limitless is explicit qualitative scale but unavailable as a scale candidate.",
+        "descriptors": [
+          "multicoloured",
+          "orange",
+          "yellow / gold",
+          "breathing / undulating",
+          "geometry / patterns"
+        ]
+      },
+      "DMT/6wczel": {
+        "decision": "exclude",
+        "reason": "Mandala tapestry is the actual preparation setting, before the described experience."
+      },
+      "DMT/8e9edt": {
+        "decision": "include",
+        "reason": "Firsthand habitual spinning kaleidoscope tunnel is recalled, although absent in the current session. Count the explicit remembered visual; vivid memory is not saturated colour, and subsequent blackness/figures are not the tunnel.",
+        "descriptors": [
+          "spinning / rotating",
+          "tunnel / corridor"
+        ]
+      },
+      "DMT/13bmvvn": {
+        "decision": "include",
+        "reason": "Faces and entities morph through a kaleidoscope, with happy/laughing and frightening expressions and an examiner searching using a colourful spotlight. Relevant entity-integrated kaleidoscopic variant, not evidence that it universally precedes contact.",
+        "descriptors": [
+          "multicoloured",
+          "morphing / transforming",
+          "faces",
+          "beings / presences",
+          "playful / laughing",
+          "watching / examining"
+        ]
+      },
+      "DMT/1g87af4": {
+        "decision": "include",
+        "reason": "Firsthand flying through a mandala tunnel and breaking through its end. Entities are encountered beyond it, not in the mandala.",
+        "descriptors": [
+          "rushing / flying",
+          "tunnel / corridor",
+          "flower / mandala"
+        ]
+      },
+      "DMT/1nnu65n": {
+        "decision": "include",
+        "reason": "Room gives way to a surrounding kaleidoscopic storm of intricate intense-colour geometry centred on green triangle. Welcoming explicitly describes the vision, not just love for the real dog. Room is the replaced setting, not retained architecture. Similar wording to 1ng2dbo cautions against assuming independent witnesses.",
+        "descriptors": [
+          "multicoloured",
+          "saturated / vivid",
+          "green",
+          "intricate / detailed",
+          "geometry / patterns",
+          "welcoming / loving"
+        ]
+      },
+      "DMT/1uhti72": {
+        "decision": "exclude",
+        "reason": "Explicit open-eye kaleidoscope and altered real phone text; separate closed-eye aliens are not a described immersive kaleidoscopic scene."
+      },
+      "DMT/esvujb": {
+        "decision": "include",
+        "reason": "Within a visionary room, an encountered girlfriend appears as a kaleidoscope of fractals each bearing a different facial expression. Retain the face/fractal variant, not unspecified kaleidoscope colour or preceding entity behaviour. Later-contact chronology, not mandatory threshold order.",
+        "descriptors": [
+          "fractals",
+          "room / architecture",
+          "faces",
+          "beings / presences"
+        ]
+      },
+      "DMT/17xyc93": {
+        "decision": "include",
+        "reason": "Room falls apart into patterns and an ultimate kaleidoscope, with doorway concept. No explicit colours; the disintegrating real room does not establish room architecture in the resulting field.",
+        "descriptors": [
+          "geometry / patterns"
+        ]
+      },
+      "DMT/qdstv5": {
+        "decision": "include",
+        "reason": "Firsthand forced passage through a fractal kaleidoscopic veil. Crystals describe substance, huge describes later paper-snake sensation, and no visual colours or welcoming behaviour are stated.",
+        "descriptors": [
+          "fractals"
+        ]
+      },
+      "DMT/2pdyi2": {
+        "decision": "exclude",
+        "reason": "Asks others about passing through a chrysanthemum; not a firsthand described observation."
+      },
+      "DMT/2rvybk": {
+        "decision": "exclude",
+        "reason": "Kaleidoscopic alteration of real hands precedes a distinct checkered rushing hall. Do not transfer the later hall's colours to the initial open-eye overlay."
+      },
+      "DMT/8qtquv": {
+        "decision": "exclude",
+        "reason": "Flower-of-life patterns and liquid walls are explicit alterations of an actual bathroom during walking."
+      },
+      "DMT/1glmvv": {
+        "decision": "include",
+        "reason": "Closed-eye tunnel launches narrator into a kaleidoscope of colours. No depicted eyes; launch motion is qualitative but unavailable in candidates.",
+        "descriptors": [
+          "multicoloured",
+          "tunnel / corridor"
+        ]
+      },
+      "DMT/5wjss4": {
+        "decision": "include",
+        "reason": "Firsthand prior sessions with morphing fractal patterns explicitly called chrysanthemum/waiting room. The room is a phase label, not described architecture; real friend and narrator hands are not visual beings.",
+        "descriptors": [
+          "morphing / transforming",
+          "geometry / patterns",
+          "fractals",
+          "flower / mandala"
+        ]
+      },
+      "DMT/8x7euk": {
+        "decision": "include",
+        "reason": "Explicitly sees chrysanthemum. Spiralling is anticipated but backed out of, not observed motion or form; eye opening is narrator action.",
+        "descriptors": [
+          "flower / mandala"
+        ]
+      },
+      "DMT/l3xvln": {
+        "decision": "include",
+        "reason": "Immersive closed-eye kaleidoscope with black gaps and memorable green. Changing visions and slow falling are qualitative motion without matching candidates; kaleidoscope alone does not confirm many colours.",
+        "descriptors": [
+          "green",
+          "dark / black"
+        ]
+      },
+      "DMT/hih7bw": {
+        "decision": "exclude",
+        "reason": "Kaleidoscopic self-image and elf face arise while watching the man in an actual mirror; no distinct immersive mandala setting established in the passage."
+      },
+      "DMT/15j414w": {
+        "decision": "include",
+        "reason": "Black hyperspace, green/purple flower-of-life geometry then unfolding/unlocking lotus; Buddha follows. Narrator face is not a depicted face. Near-identical wording to 15j42vj means reports cannot be treated as independent witnesses.",
+        "descriptors": [
+          "green",
+          "purple / pink",
+          "dark / black",
+          "folding / unfolding",
+          "geometry / patterns",
+          "flower / mandala"
+        ]
+      },
+      "DMT/cmds8d": {
+        "decision": "exclude",
+        "reason": "A speculative world-sheet explanation of another model, with general agreement/recollection rather than a separable firsthand descriptive scene; do not turn its inferred construction into observed flower traits."
+      },
+      "DMT/12ow5q9": {
+        "decision": "include",
+        "reason": "Kaleidoscope of iridescent colours and fractal shapes followed by being inside a Merkaba with every colour. No retained real object is described; iridescence is qualitative but not in candidates.",
+        "descriptors": [
+          "multicoloured",
+          "geometry / patterns",
+          "fractals"
+        ]
+      },
+      "DMT/18ktryo": {
+        "decision": "include",
+        "reason": "Explicit closed-eye kaleidoscopic visuals with ancient-Egypt styling. No stated palette; small describes hits, not visual scale. Zero-vote report preserves dictionary blind spot.",
+        "descriptors": []
+      },
+      "DMT/rq9b48": {
+        "decision": "include",
+        "reason": "Friend and pipe blend into a kaleidoscope of geometry and colour, replacing the scene. White is inhaled cloud, not the geometry; retain colour and geometric field only.",
+        "descriptors": [
+          "multicoloured",
+          "geometry / patterns"
+        ]
+      },
+      "DMT/1741t0n": {
+        "decision": "include",
+        "reason": "Yellow circular flower-disc-like occlusion transforms into a woman's head, which turns, smiles and winks before fading. Count actual circular/flower form and transformation, not the preceding imp as part of the disc. Human head is explicit, though neck/body are denied.",
+        "descriptors": [
+          "yellow / gold",
+          "morphing / transforming",
+          "receding / dissolving",
+          "flower / mandala",
+          "spirals / circles",
+          "humanoid / bodies",
+          "feminine form"
+        ]
+      },
+      "DMT/17dvrxb": {
+        "decision": "include",
+        "reason": "Firsthand wispy kaleidoscope of colour and tunnels. Waiting room is explicitly not reached; light is not described as luminous.",
+        "descriptors": [
+          "multicoloured",
+          "tunnel / corridor"
+        ]
+      },
+      "DMT/85zv1i": {
+        "decision": "exclude",
+        "reason": "Kaleidoscopic geometry describes LSD in a comparison and is explicitly contrasted with this DMT experience; blue blanket is a real-world alteration."
+      },
+      "DMT/194t3dz": {
+        "decision": "include",
+        "reason": "Huge pink flower whirls through closed-eye kaleidoscope. Later colourful stars are uncertain and separate; no black explicitly denied, narrator eyes not depicted.",
+        "descriptors": [
+          "purple / pink",
+          "spinning / rotating",
+          "flower / mandala",
+          "vast / infinite"
+        ]
+      },
+      "DMT/a2k2qs": {
+        "decision": "include",
+        "reason": "Immersive living intelligent kaleidoscope with moving geometry, gears, colours everywhere and spinning fractals; all-pervasive motion. Plant room appears only after eye opening. Density counts from forms/colours everywhere, not mere subjective exhilaration.",
+        "descriptors": [
+          "multicoloured",
+          "moving / animated",
+          "spinning / rotating",
+          "dense / overwhelming",
+          "geometry / patterns",
+          "fractals",
+          "circuitry / machinery",
+          "autonomous / intelligent"
+        ]
+      },
+      "DMT/te70r3": {
+        "decision": "exclude",
+        "reason": "Kaleidoscopic fractals are an actual ceiling alteration with an extended timeline; no distinct immersive geometry scene established."
+      },
+      "DMT/8gylax": {
+        "decision": "include",
+        "reason": "Firsthand remembered flower fractal. Walking/flying through dimensions is a question, not observed travel. Nearby entities are not explicitly part of the flower; literal vegetation not established.",
+        "descriptors": [
+          "fractals",
+          "flower / mandala"
+        ]
+      },
+      "DMT/f7h9gs": {
+        "decision": "include",
+        "reason": "Firsthand initial mandala before breakthrough. Voices describe subsequent audible speech, not geometry or visible communication.",
+        "descriptors": [
+          "flower / mandala"
+        ]
+      },
+      "DMT/15q7oim": {
+        "decision": "exclude",
+        "reason": "Kaleidoscope is residual returning vision while normal surroundings readjust; preceding machinscape and entities are a separate scene."
+      },
+      "DMT/p7sdaa": {
+        "decision": "include",
+        "reason": "Explicit immersive multidimensional hyperbolic kaleidoscope with felt extreme speed before exiting it. Running from actual chair and later female voice are not geometry animation or visible female form; kaleidoscope does not state colours.",
+        "descriptors": [
+          "rushing / flying",
+          "layered / multidimensional"
+        ]
+      },
+      "DMT/5ngny9": {
+        "decision": "include",
+        "reason": "Mandala entrance has deep red/brown concentric overlapping layers and orange light nodes, including a central one. Earlier glowing/pulsating overwhelming tunnel is travel before arrival; do not transfer its motion/density to the entrance.",
+        "descriptors": [
+          "red",
+          "orange",
+          "bright / luminous",
+          "layered / multidimensional",
+          "flower / mandala"
+        ]
+      },
+      "DMT/azugp9": {
+        "decision": "include",
+        "reason": "Firsthand light kaleidoscopic visuals and a tunnel opening in a prior session. No explicit colours or luminosity; retain tunnel only.",
+        "descriptors": [
+          "tunnel / corridor"
+        ]
+      },
+      "DMT/1496vfw": {
+        "decision": "include",
+        "reason": "Teleported before a massive kaleidoscope containing thousands of identical versions of narrator. Visible self-images support bodies and scale, but not colours; information exchange precedes this scene.",
+        "descriptors": [
+          "humanoid / bodies",
+          "vast / infinite"
+        ]
+      },
+      "DMT/1g4e8pm": {
+        "decision": "include",
+        "reason": "Closed-eye bright white room with black/white checkered flower-mandala. Explicitly not crazy colours; vague presence is felt but not seen, so no visible being vote.",
+        "descriptors": [
+          "white",
+          "bright / luminous",
+          "dark / black",
+          "room / architecture",
+          "flower / mandala"
+        ]
+      },
+      "DMT/10btygv": {
+        "decision": "include",
+        "reason": "Free-standing onset chrome/neon wire sphere with glowing mechanical core, explicitly device-like rather than mandala. Open-eye does not by itself exclude a new apparition lacking a retained physical substrate. Changa mixture and non-floral comparison remain limitations; no mandala vote.",
+        "descriptors": [
+          "saturated / vivid",
+          "bright / luminous",
+          "circuitry / machinery",
+          "metallic / reflective"
+        ]
+      },
+      "DMT/f2j53s": {
+        "decision": "include",
+        "reason": "First session contains closed-eye kaleidoscopic colours. Orange room and jesters belong to the second session, not the colour field.",
+        "descriptors": [
+          "multicoloured"
+        ]
+      },
+      "DMT/n1z4on": {
+        "decision": "include",
+        "reason": "Immersive ring of kaleidoscopic hearts, pulsing and morphing, with maroon hue and tangible 3D appearance. Not multicolour from kaleidoscope alone; body is narrator. Maroon/3D detail unsupported by available palette/scale candidates, retained qualitatively.",
+        "descriptors": [
+          "morphing / transforming",
+          "breathing / undulating",
+          "spirals / circles"
+        ]
+      },
+      "DMT/5clggq": {
+        "decision": "include",
+        "reason": "Firsthand habitual chrysanthemum builds slowly before the usual experience, although bypassed this time. Dense refers to vapour and jesters to this different session, not the remembered flower.",
+        "descriptors": [
+          "flower / mandala"
+        ]
       }
     },
     "garden": {

@@ -1,0 +1,65 @@
+{
+  "pass": true,
+  "diagnostic_only": true,
+  "runtime": "v22 unchanged",
+  "coverage_or_realism_regrade": false,
+  "captures": [
+    {
+      "receipt": "diagnostic-chrysanthemum-v23-entry.json",
+      "receipt_sha256": "a97b233be198e89ed2ace48870d2ce66b8789f1f9f81077ffd54d71fac8c56a0",
+      "file": "diagnostic-chrysanthemum-v23-entry.png",
+      "sha256": "a0ecc09faccd2fc4c4a728db5b4af51d1c5e342fb5fded4602a64f39e5953182",
+      "position": [
+        0,
+        1.7,
+        8
+      ],
+      "animTime": 3.5567999994277937
+    },
+    {
+      "receipt": "diagnostic-chrysanthemum-v23-deep.json",
+      "receipt_sha256": "8251d6b4034a0b99c3708cd2f4164cbeeff599e06826f37b0104a6837098631e",
+      "file": "diagnostic-chrysanthemum-v23-deep.png",
+      "sha256": "dfd180ed47b3d2f4e027f29f75b08e0c1eb977e531fda83609ca2766ea6fc689",
+      "position": [
+        0,
+        1.7,
+        -6.613439999999998
+      ],
+      "animTime": 8.156899999427795
+    },
+    {
+      "receipt": "diagnostic-chrysanthemum-v23-material-entry.json",
+      "receipt_sha256": "e6045fe02d7fac7417effb83fbb3eb741056ebd6de60919df95371175d3a54cd",
+      "file": "diagnostic-chrysanthemum-v23-material-entry.png",
+      "sha256": "91f2397c083ac5486debc31779bccf29936be4c1617f94b28c15409d9380763c",
+      "position": [
+        0,
+        1.7,
+        8
+      ],
+      "animTime": 3.3317999994277936
+    },
+    {
+      "receipt": "diagnostic-chrysanthemum-v23-material-deep.json",
+      "receipt_sha256": "ab85778fab3b31c55067f6087f476a427daf02e8f862e97e1a7118d7cbe2357f",
+      "file": "diagnostic-chrysanthemum-v23-material-deep.png",
+      "sha256": "c4117d9c11df4464a1091b02e5a3a1b48ba0466dbd803511c84b0df7a9bd0080",
+      "position": [
+        0,
+        1.7,
+        -6.559680000000018
+      ],
+      "animTime": 7.948299999427801
+    }
+  ],
+  "display": "Reviewed v22 deep motion unchanged",
+  "finding": "Environment radiance is the main source of widespread contour loops in four inspected plates; root differences are sparse, not proven safe",
+  "review_sha256": "05b54ea8a01e16d012fdae047ac8378f853f415efeefa622fa73bbde9570a9a2",
+  "tool_hashes": {
+    "build_diagnostic_v23.py": "6c907cb3073c59d34764d61ec1163a96f5f5dc095b3f094c71b6c52c990144e1",
+    "build_diagnostic_material_v23.py": "ff19b23623ccada624a7283cfc6db82d1314ad9561a7d424ccf6e51802998cb8",
+    "render_diagnostic_v23.py": "68b96dfe20ac05176c9abf6cc084548fa1cb6734a1adb10a3bc56aed6f759e49",
+    "render_diagnostic_material_v23.py": "668f5509ea67a9fdf8985e21ad15391489f526009f88ac319dc7b4b9b40cd18f"
+  }
+}

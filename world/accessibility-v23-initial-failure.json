@@ -1,0 +1,16 @@
+{
+  "passed": false,
+  "failure": "restored-detail reduced pixel stillness: canvas changed",
+  "log": "render-chrysanthemum-accessibility-v23.log",
+  "log_sha256": "514cab4df9efa5513438272ae3ff25bb81f254b888ede8290a1139cd95dc39bb",
+  "completed_checks_inferred_from_assertion_order": [
+    "paused pixel stillness",
+    "paused resize restores stable canvas",
+    "reduced-motion pixel stillness",
+    "detail toggle preserves route and pose"
+  ],
+  "sources_check": "NOT REACHED",
+  "screenshot": "NOT PRODUCED: original helper asserts before saving failure pixels",
+  "runtime": "continuum-v23.js",
+  "next": "Same assertions with failure screenshot and diagnostics instrumentation; no timing relaxation"
+}

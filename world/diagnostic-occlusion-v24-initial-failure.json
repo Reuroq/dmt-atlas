@@ -1,0 +1,8 @@
+{
+  "action": "Initial diagnostic builder",
+  "result": "FAIL before writing diagnostic outputs",
+  "error": "FileNotFoundError: /home/clawd/dmt-atlas/world/sources.js",
+  "cause": "Incorrect evidence dependency filename in builder",
+  "preserved_script": "build_diagnostic_occlusion_v24-initial.py",
+  "runtime_changed": false
+}

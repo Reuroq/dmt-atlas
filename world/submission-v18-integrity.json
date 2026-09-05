@@ -1,0 +1,43 @@
+{
+  "result": "valid isolated readback; original HIGH failure unresolved",
+  "protected_unchanged": {
+    "trip.js": "93dd974ec505e916e9ee121d38b57f1a4caf739a146a99035f957262c896d218",
+    "trip-v18.js": "93dd974ec505e916e9ee121d38b57f1a4caf739a146a99035f957262c896d218",
+    "continuum.js": "6b55368f4f3d31cbd71dc0420707c8860e99a1b471f9108a53a77416f871106d",
+    "fractal.js": "fd7a14ebfc87988e95e14255adc903e079cb47bb075db7612d5d57091ed235d8",
+    "visual-chrysanthemum.png": "9ab2511f859eebebdca7973cc9d4b852df6cc118dd02cf8cd4c55efd72957f2c",
+    "visual-chrysanthemum.json": "9d6136cbc55818aba257a6bffa40aafda0aa0ae89af0404c3cf5a8ad36999b46",
+    "accessibility-input-pump-v18-restored-detail-reduced-pixel-stillness-before.png": "63c44a7c258af63144e0957616c004f1e21a7f38bf39ebf1489af1106b6a5b5c",
+    "accessibility-input-pump-v18-restored-detail-reduced-pixel-stillness-after.png": "dc19e53b5161a469e6843d22709c4b0cecb124972d985b1799bded9fae482947",
+    "VISUAL_RESEARCH.json": "fccf03e23f96971be3aeea040935420c2cc85f0ad150ce1f4bef92f9f3af51c4",
+    "fidelity-grades.json": "d0bf9b45b7c58166c268e788a2f192c9aff304e018ad4d65c31be0c3527585e9",
+    "realism-grades.json": "657e9a61acb5dabaeb9283da22590e031c1dde074dbc817a63f5941519f66779"
+  },
+  "files": {
+    "diagnostic-submission-v18.png": "e15f7a52ad43da2960def8e576cd662ed974376e90dc7e62e283ae674f85b32f",
+    "diagnostic-submission-v18-paused-resize-restores-stable-canvas-trace.json": "368d980f19c9266a04f1824229de88cfda7fabac038a9807397d1a1221fd4990",
+    "diagnostic-submission-v18.html": "a54f3280172e50d7565b48c6b32ed8eba03cce03869ee168ff3d34e4958441f6",
+    "diagnostic-submission-v18-frame-5.rgba": "3a8a5d337dcdb77850c94c9083f10a4efcafde54929aef43f0c4c922686c63bb",
+    "diagnostic-submission-v18-frame-7.rgba": "3a8a5d337dcdb77850c94c9083f10a4efcafde54929aef43f0c4c922686c63bb",
+    "diagnostic-submission-v18-frame-9.rgba": "3a8a5d337dcdb77850c94c9083f10a4efcafde54929aef43f0c4c922686c63bb",
+    "diagnostic-submission-v18-paused-pixel-stillness-trace.json": "e76f25402ffeb288c49ff9e80759cd8b8f51956941f98f6cbfef8380d59d6cd0",
+    "diagnostic-submission-v18.json": "bb3695c1cb5db6af81e5bb4fe3dc83e65b301b72f6d1072b04a83fa909189dbd",
+    "diagnostic-submission-v18-reduced-motion-pixel-stillness-trace.json": "671ebd9f471a0e02656837c147811800e5ceafacf492ded4b3a1d5809886b6cf",
+    "diagnostic-submission-v18.js": "d10b099dff6955d65fb5bd702abc8eeeeb5a826411050ba8549dc250d2d99af1",
+    "diagnostic-submission-v18-restored-detail-reduced-pixel-stillness-trace.json": "26b8a5d9bd45e17c7febe1b71bd7bfa76af4a47553b009acc4c5b5dd0dcc89c5",
+    "build_submission_probe_v18.py": "52b9639b47113adeccc6c9bda9081a65fb7070f02420931654ac3dea399a7712",
+    "trace_submission_v18.py": "cbcdcab84071711ca59d7553d07c1ff2dbeed7a4766564e9070528bd2afe5020",
+    "close_submission_probe_v18.py": "a5a80fd6a8797ff9fb5cddef5cb8ad49c8927ce70c2510adb3a35434fe60b95b",
+    "trace-submission-v18.log": "a0a513b1ff04ff8b80030aabef1b4ec0a9a740bfc1656b427c37e379746436b0",
+    "submission-v18-baseline.json": "a4454be4c5bcb9a3ccd0e10f8574bf8b76698d40f821ff8228e33aea18d0f834",
+    "submission-v18-review.md": "8b6b3fd8c6e981768bec0dd88a217abf5af4ac6e1d9079e784afbd22bbc7e3d0",
+    "README.md": "e1e51d8668f05d6ab0a948b50f30f6dd4b132be0f7dacef728f60b3269006e80",
+    "NOTES.md": "a079ea9ab7e918bb3f17c3f8960c234deb943037b1e30995773e852963a509bb",
+    "NOTES-before-submission-v18.md": "5e34002db0f969a141760a154818309858114bd07059ea0c488c030115184c4f",
+    "status.txt": "7c8f55006f6239a1614c0cf5e39e609aed035508571e953dae164188727adac4",
+    "latest.png": "e15f7a52ad43da2960def8e576cd662ed974376e90dc7e62e283ae674f85b32f"
+  },
+  "full_rgba_sha256": "3a8a5d337dcdb77850c94c9083f10a4efcafde54929aef43f0c4c922686c63bb",
+  "display_equals_inspected_capture": true,
+  "review": "GAME; one new full PNG viewed once; no historical PNG viewed"
+}

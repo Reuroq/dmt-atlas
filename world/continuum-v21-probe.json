@@ -1,0 +1,36 @@
+{
+  "method": "Double-precision CPU field mirror; sparse rays, not GPU diagnosis or visual grading",
+  "surface_samples": 2766,
+  "max_sampled_gradient": 9.915241980966936,
+  "samples_exceeding_claimed_slope_12": 0,
+  "captures": {
+    "realism-chrysanthemum-v21": {
+      "256": {
+        "rays": 2400,
+        "hits": 2308,
+        "exhausted": 92,
+        "escaped": 0
+      },
+      "1024": {
+        "rays": 2400,
+        "hits": 2400,
+        "exhausted": 0,
+        "escaped": 0
+      }
+    },
+    "realism-chrysanthemum-close-v21": {
+      "256": {
+        "rays": 2400,
+        "hits": 2346,
+        "exhausted": 54,
+        "escaped": 0
+      },
+      "1024": {
+        "rays": 2400,
+        "hits": 2400,
+        "exhausted": 0,
+        "escaped": 0
+      }
+    }
+  }
+}

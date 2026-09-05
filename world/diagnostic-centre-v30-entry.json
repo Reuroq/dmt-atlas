@@ -1,0 +1,87 @@
+{
+  "diagnostic_only": true,
+  "file": "diagnostic-centre-v30-entry.png",
+  "capture_sha256": "947b6f90f175c313ced64cc7a8dfb7cf108c898b5c31d213b0687407c263030b",
+  "resolution": [
+    1200,
+    800
+  ],
+  "capture_diagnostics": {
+    "stage": "chrysanthemum",
+    "routeIndex": 2,
+    "entered": true,
+    "paused": true,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 0.03339999999999964,
+    "animTime": 3.7873000003814683,
+    "transition": false,
+    "renderReady": true,
+    "renderPending": false,
+    "renderedAnimTime": 3.7873000003814683,
+    "frames": 4,
+    "position": [
+      0,
+      1.7,
+      8
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset",
+      "geometry",
+      "chrysanthemum"
+    ],
+    "entities": [],
+    "interactions": 0,
+    "evidence": [
+      "phase|The Chrysanthemum",
+      "geometry|The Chrysanthemum",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|Dimensional Layering & Space-Folding",
+      "geometry|Hyperbolic Space & Negative Curvature",
+      "geometry|Ultra-Detail & Infinite Resolution",
+      "geometry|Energy Conduits & Living Circuitry",
+      "geometry|Mandalas & symmetry fields"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 35,
+    "portals": [
+      {
+        "x": 0,
+        "z": -23,
+        "width": 3.5,
+        "target": "next"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 1,
+    "triangles": 2,
+    "geometries": 5,
+    "actors": [],
+    "uncitedMeshes": 0
+  },
+  "source_hashes": {
+    "index.html": "37275c34171ffdca0392e0798d77beec09101c0c8a1c7056bca0ae20d50604bb",
+    "trip.js": "93dd974ec505e916e9ee121d38b57f1a4caf739a146a99035f957262c896d218",
+    "fractal.js": "fd7a14ebfc87988e95e14255adc903e079cb47bb075db7612d5d57091ed235d8",
+    "continuum.js": "6b55368f4f3d31cbd71dc0420707c8860e99a1b471f9108a53a77416f871106d",
+    "beings.js": "fc2900166510269f426b8c49c12b5d0644df816f4545972ef343ef8a02aaa60b",
+    "trip.css": "f15021f588310fc15b06b23677295dd8377284e3458e3932fe3e35c222499d59",
+    "hud-alpha-ramp-v18.png": "da9d89e627cdf4bb177830fe7d37cc62e03b818e35f0677890a3061f744ff4cf",
+    "fidelity-ui.js": "f5634f2373925ccfe42de91aeec83cc4bce5c420ff7b7e5ea5dd6ae66f0856b4",
+    "fidelity.css": "558881d68cb469dac4144b0dabcfcdef11e0fcb50e2ed7059b47a0e69f5f4656",
+    "vendor/three.min.js": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa",
+    "diagnostic-centre-v30.html": "770e041cb5d414c95420fc540953cd408967ff007f646cd4f446fb2daa440113",
+    "continuum-v30-candidate.js": "607fe7e36fa1020056247264df2139bbebe92e6c43be43b49a38ecc25525c660",
+    "render_centre_v30.py": "a12a6850a49b5d138695f22b30b00553a5f079efecff35fcae8914e32e42bd05",
+    "data.js": "87c2ecc3742af9f336ebb882e073a61762f975419412e2e6ec4e053f3cc90b43",
+    "fidelity-data.js": "23230c73ff37da052266d7d29951e18d46db069bc8d79ad7ee39b2db950d3e7c"
+  },
+  "errors": [],
+  "settle_seconds": 40.090155489742756,
+  "screenshot_seconds": 0.4238795777782798,
+  "veil_opacity": 0
+}

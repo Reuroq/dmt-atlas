@@ -1,0 +1,109 @@
+{
+  "render_signature": "cc8120b1ba9837dac05a396603af59c6a942c193a2cb604071680712b967707f",
+  "trip_sha256": "57ee69c9e6d54351271ef6ee4641a1c6f3b08dce7693ee7601926c24f66f1651",
+  "checks": [],
+  "observations": [
+    {
+      "stage": "onset",
+      "routeIndex": 0,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": true,
+      "elapsed": 1.8166999999999995,
+      "animTime": 0,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 0,
+      "frames": 2,
+      "position": [
+        0,
+        1.7,
+        6.5
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset"
+      ],
+      "entities": [],
+      "interactions": 0,
+      "evidence": [
+        "phase|Inhalation / Onset",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|TV Static & the Signal-Noise Transition"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 17,
+      "portals": [
+        {
+          "x": 0,
+          "z": -8.95,
+          "width": 3,
+          "target": "next"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 57,
+      "triangles": 17206,
+      "geometries": 22,
+      "actors": [],
+      "uncitedMeshes": 0
+    }
+  ],
+  "passed": false,
+  "failure": "",
+  "failure_diagnostics": {
+    "stage": "onset",
+    "routeIndex": 0,
+    "entered": true,
+    "paused": false,
+    "paced": false,
+    "reduced": true,
+    "elapsed": 1.8332999999999995,
+    "animTime": 0,
+    "transition": false,
+    "renderReady": true,
+    "renderPending": false,
+    "renderedAnimTime": 0,
+    "frames": 2,
+    "position": [
+      0,
+      1.7,
+      6.5
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset"
+    ],
+    "entities": [],
+    "interactions": 0,
+    "evidence": [
+      "phase|Inhalation / Onset",
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|TV Static & the Signal-Noise Transition"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 17,
+    "portals": [
+      {
+        "x": 0,
+        "z": -8.95,
+        "width": 3,
+        "target": "next"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 57,
+    "triangles": 17206,
+    "geometries": 22,
+    "actors": [],
+    "uncitedMeshes": 0
+  }
+}

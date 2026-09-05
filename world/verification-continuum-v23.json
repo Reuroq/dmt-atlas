@@ -1,0 +1,73 @@
+{
+  "render_signature": "ee07208fea05b61199d699f4865b051fd250a58a21dacaba24301beb301e80d5",
+  "passed": false,
+  "exit_walk_timeout_ms": 45000,
+  "checks": [
+    "Fresh v23 Sources table contains reviewed luminous and dark/black observations",
+    "HIGH right walking boundary preserved inside minimum volume radius",
+    "Actual drag-look changes both camera axes"
+  ],
+  "checks_basis": "Completed assertions before exit timeout in verify_continuum_v23.py",
+  "errors": [
+    "Physical exit: Timeout45000ms exceeded"
+  ],
+  "failure_diagnostics": {
+    "stage": "chrysanthemum",
+    "routeIndex": 2,
+    "entered": true,
+    "paused": false,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 8.183300000000003,
+    "animTime": 19.17180000038138,
+    "transition": false,
+    "renderReady": true,
+    "renderPending": true,
+    "renderedAnimTime": 18.67170000038139,
+    "frames": 14,
+    "position": [
+      0,
+      1.7,
+      -18.186559999999986
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset",
+      "geometry",
+      "chrysanthemum"
+    ],
+    "entities": [],
+    "interactions": 0,
+    "evidence": [
+      "phase|The Chrysanthemum",
+      "geometry|The Chrysanthemum",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|Dimensional Layering & Space-Folding",
+      "geometry|Hyperbolic Space & Negative Curvature",
+      "geometry|Ultra-Detail & Infinite Resolution",
+      "geometry|Energy Conduits & Living Circuitry",
+      "geometry|Mandalas & symmetry fields"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 35,
+    "portals": [
+      {
+        "x": 0,
+        "z": -23,
+        "width": 3.5,
+        "target": "next"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 1,
+    "triangles": 2,
+    "geometries": 5,
+    "actors": [],
+    "uncitedMeshes": 0
+  },
+  "log_sha256": "a363e9c498a9d646b92af09741d3ebdc15e8d0a0e4b7e12a0caa719d776d2763",
+  "extended_retry": false
+}

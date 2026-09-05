@@ -1,0 +1,15 @@
+{
+  "render_signature": "f055d198fd1db94f4a10a751f8b92a46d7ca0a3957a9e1352d0e6e2753d797b9",
+  "checks": [
+    "Fresh v25 Sources table contains reviewed luminous and dark/black observations",
+    "HIGH right walking boundary preserved inside minimum volume radius",
+    "Actual drag-look changes both camera axes",
+    "Central physical exit reaches Rush with cited geometry; no navigation injection"
+  ],
+  "passed": true,
+  "exit_walk_timeout_ms": 45000,
+  "candidate_sha256": "93dd974ec505e916e9ee121d38b57f1a4caf739a146a99035f957262c896d218",
+  "centre_return_x": -0.07456000061035042,
+  "exit_wall_seconds": 9.409652425907552,
+  "errors": []
+}

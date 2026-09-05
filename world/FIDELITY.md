@@ -30,7 +30,6 @@ Workshop source review exhausted all 76 candidates: 28 included, 48 excluded, wi
 |---|---:|---:|---|
 | afterglow | 1653 / 1653 | 0.0% | PENDING / FAIL |
 | cathedral | 395 / 395 | 0.0% | PENDING / FAIL |
-| chrysanthemum | 480 / 960 | 0.0% | PENDING / FAIL |
 | clinical | 80 / 80 | 0.0% | PENDING / FAIL |
 | contact | 5225 / 5225 | 0.0% | PENDING / FAIL |
 | download | 2848 / 2861 | 0.0% | PENDING / FAIL |
@@ -46,6 +45,7 @@ Workshop source review exhausted all 76 candidates: 28 included, 48 excluded, wi
 | void | 697 / 697 | 0.0% | PENDING / FAIL |
 | waiting | 1600 / 1702 | 0.0% | PENDING / FAIL |
 | garden | 4 / 31 | 84.1% | PENDING / FAIL |
+| chrysanthemum | 50 / 960 | 84.7% | PENDING / FAIL |
 | workshop | 28 / 87 | 85.4% | PENDING / FAIL |
 
 ## afterglow
@@ -135,50 +135,6 @@ Blockers: No inspected HIGH-detail capture receipts; Ground-truth passage valida
 - **dense / overwhelming** — [36zedb](https://www.reddit.com/r/DMT/comments/36zedb/), raw offset 448: “least I think it was the third hit though it may have been the fourth) the chamber filled with a lot more vapor then the previous hits, I got what I could and after holding it”
 - **faces** — [1bdbeh](https://www.reddit.com/r/DMT/comments/1bdbeh/), raw offset 364: “for the first time. So much of what I saw was beyond comprehension. My friend's face turned purple and grew into one of those four-faced buddhist images as he (the”
 - **receding / dissolving** — [37oyx0](https://www.reddit.com/r/DMT/comments/37oyx0/), raw offset 3128: “loss of sensory perception evoked flutters of panic in my stomach as I was quickly fading out.    I shot my gaze to The Machine, aware that I had limited time to draw”
-
-## chrysanthemum
-
-Nodes: `phase|The Chrysanthemum`; `geometry|The Chrysanthemum`
-
-Count basis: **UNVALIDATED lexical candidates**. Passage review: 7 included, 3 excluded, 480 candidate reports.
-
-| # | What reports say | Category | Reports | What the render shows | Grade |
-|---:|---|---|---:|---|---|
-| 1 | multicoloured | colour | 310 (64.6%) | No render comparison yet. | UNREVIEWED |
-| 2 | geometry / patterns | form | 193 (40.2%) | No render comparison yet. | UNREVIEWED |
-| 3 | flower / mandala | form | 192 (40.0%) | No render comparison yet. | UNREVIEWED |
-| 4 | beings / presences | form | 166 (34.6%) | No render comparison yet. | UNREVIEWED |
-| 5 | eyes | form | 162 (33.8%) | No render comparison yet. | UNREVIEWED |
-| 6 | room / architecture | form | 126 (26.2%) | No render comparison yet. | UNREVIEWED |
-| 7 | humanoid / bodies | form | 120 (25.0%) | No render comparison yet. | UNREVIEWED |
-| 8 | fractals | form | 70 (14.6%) | No render comparison yet. | UNREVIEWED |
-| 9 | tunnel / corridor | form | 59 (12.3%) | No render comparison yet. | UNREVIEWED |
-| 10 | spinning / rotating | motion | 58 (12.1%) | No render comparison yet. | UNREVIEWED |
-| 11 | welcoming / loving | behaviour | 55 (11.5%) | No render comparison yet. | UNREVIEWED |
-| 12 | moving / animated | motion | 54 (11.2%) | No render comparison yet. | UNREVIEWED |
-| 13 | vast / infinite | scale | 53 (11.0%) | No render comparison yet. | UNREVIEWED |
-| 14 | dark / black | light | 49 (10.2%) | No render comparison yet. | UNREVIEWED |
-| 15 | white | colour | 40 (8.3%) | No render comparison yet. | UNREVIEWED |
-
-Blockers: No inspected HIGH-detail capture receipts; Ground-truth passage validation incomplete; Top ten contains ABSENT or UNREVIEWED; Top fifteen not fully graded; Coverage below 80%
-
-### Passage audit samples
-
-- **multicoloured** — [10vwwm](https://www.reddit.com/r/DMT/comments/10vwwm/), raw offset 2529: “and threw in some more bud on top. I smoked 3 hits and immediately began seeing a kaleidoscope of colors swirling around in my mind. Every time I closed my eyes tighter it”
-- **geometry / patterns** — [1e15w0](https://www.reddit.com/r/DMT/comments/1e15w0/), raw offset 922: “exist. I was immersed in an incredible kaleidoscope of rotating, morphing, twisting shapes.   Soon I found myself noticing a human like being a little bit off in the”
-- **flower / mandala** — [2cwjyn](https://www.reddit.com/r/DMT/comments/2cwjyn/), raw offset 3303: “bleeding special colors and new designs everywhere, fractals burnt off of the flower tips. Black lines which I have always decided create solid mass, show up”
-- **beings / presences** — [1e15w0](https://www.reddit.com/r/DMT/comments/1e15w0/), raw offset 701: “vibrant and lush and I managed to tell my friend I needed to lay down before being completely under.   With my eyes closed, that resonating sound became louder and”
-- **eyes** — [10vwwm](https://www.reddit.com/r/DMT/comments/10vwwm/), raw offset 2603: “seeing a kaleidoscope of colors swirling around in my mind. Every time I closed my eyes tighter it intensified the visuals. I then sat up from my couch and looked around”
-- **room / architecture** — [10vwwm](https://www.reddit.com/r/DMT/comments/10vwwm/), raw offset 2693: “it intensified the visuals. I then sat up from my couch and looked around my room. It was low lit with candles and it felt like my room expanded indefinitely. All”
-- **humanoid / bodies** — [1jivt5](https://www.reddit.com/r/DMT/comments/1jivt5/), raw offset 3376: “patterns.  I lost all sense of being on my bed, I felt completely in my own head space.  I tried to speak, but all that came out was grunts.  I remember thinking to”
-- **fractals** — [2cwjyn](https://www.reddit.com/r/DMT/comments/2cwjyn/), raw offset 3277: “my head. As my couch started bleeding special colors and new designs everywhere, fractals burnt off of the flower tips. Black lines which I have always decided create solid”
-- **tunnel / corridor** — [1glmvv](https://www.reddit.com/r/DMT/comments/1glmvv/), raw offset 195: “  I felt the fuzzies come on, and then I laid back and closed my eyes. I see a tunnel materializing in front of me, and I'm suddenly shot off through it into a”
-- **spinning / rotating** — [10vwwm](https://www.reddit.com/r/DMT/comments/10vwwm/), raw offset 2552: “bud on top. I smoked 3 hits and immediately began seeing a kaleidoscope of colors swirling around in my mind. Every time I closed my eyes tighter it intensified the visuals.”
-- **welcoming / loving** — [33t92s](https://www.reddit.com/r/DMT/comments/33t92s/), raw offset 1290: “of my trip to anyone who wants to read it. Have an awesome day guys, peace and love.   ————————————————————————————————— 1st DMT Trip.  "A euphoric feeling engulfs me”
-- **moving / animated** — [2rvybk](https://www.reddit.com/r/DMT/comments/2rvybk/), raw offset 418: “the hit and as I looked at my hands things got kaleidoscopic. I stood up and moved over to my bed to sit. I was in this hall or something that never ended with walls,”
-- **vast / infinite** — [465175](https://www.reddit.com/r/DMT/comments/465175/), raw offset 2183: “became an intense vibration, and I closed my eyes.  Inside my eyelids I saw a vast golden landscape, and I was flying above it. The ground was made pearls and”
-- **dark / black** — [2cwjyn](https://www.reddit.com/r/DMT/comments/2cwjyn/), raw offset 3316: “special colors and new designs everywhere, fractals burnt off of the flower tips. Black lines which I have always decided create solid mass, show up everywhere.  My friend”
-- **white** — [36bhha](https://www.reddit.com/r/DMT/comments/36bhha/), raw offset 515: “through" but I did not have OEV's. CEV's were definitely there and it was like a white kaleidoscope of fractals then turning into a multicolored room where a dark figure”
 
 ## clinical
 
@@ -840,6 +796,50 @@ Blockers: Capture quality, freshness or visual inspection missing
 - **receding / dissolving** — [wax50s](https://www.reddit.com/r/DMT/comments/wax50s/), raw offset 1786: “expansion where I keep going up through higher levels of expansion, all fear melts away, I feel like I’m waking up repeatedly into higher / expanded levels of”
 - **room / architecture** — [jqvq0s](https://www.reddit.com/r/DMT/comments/jqvq0s/), raw offset 5813: “was somewhere in the garden terrace up this iron staircase that was round the brick wall of the building. "Grandfather time" or some shit peered out from the building like”
 
+## chrysanthemum
+
+Nodes: `phase|The Chrysanthemum`; `geometry|The Chrysanthemum`
+
+Count basis: **validated sample**. Passage review: 50 included, 20 excluded, 480 candidate reports.
+
+| # | What reports say | Category | Reports | What the render shows | Grade |
+|---:|---|---|---:|---|---|
+| 1 | flower / mandala | form | 20 (40.0%) | Concentric scalloped lips surround a padded multicoloured flower, enlarged by real walking. Its sparse simple form fails the separate realism bar. | PRESENT |
+| 2 | geometry / patterns | form | 17 (34.0%) | Repeated scallops, pointed lips and nested lobes visibly form the connected tunnel. | PRESENT |
+| 3 | multicoloured | colour | 14 (28.0%) | Red, orange, yellow, lime, green, cyan, blue, violet and magenta coexist across both fixed-pose pairs. | PRESENT |
+| 4 | fractals | form | 8 (16.0%) | Smaller lobes and local ripples sit on larger lips, but recursive depth/detail is weak; broad surfaces and the moving centre become smooth. | PARTIAL |
+| 5 | tunnel / corridor | form | 8 (16.0%) | Near walls recede through overlapping scalloped lips toward a flower, substantially enlarged by actual forward walking. | PRESENT |
+| 6 | spinning / rotating | motion | 6 (12.0%) | Scallop orientation and coloured inner lips turn around the axis in both temporal pairs. | PRESENT |
+| 7 | bright / luminous | light | 5 (10.0%) | An enveloping bright lime, cyan, pink and violet field persists across both pairs, without the former broad black shading. Broad milky highlights do not earn jewel-realism credit. | PRESENT |
+| 8 | morphing / transforming | motion | 5 (10.0%) | Lips change outline and exposure; deep rounded lobes become pointed sheets. The same concentric tunnel and simple flower persist. | PARTIAL |
+| 9 | dark / black | light | 4 (8.0%) | Blue/violet creases remain coloured rather than black. No substantial black field or convincing dark spatial openings appear; the removed shading blotches receive no gap credit. | ABSENT |
+| 10 | green | colour | 4 (8.0%) | Lime/green rings persist at entry and green/cyan sheets dominate the deep foreground and central flower. | PRESENT |
+| 11 | purple / pink | colour | 4 (8.0%) | Violet/blue and pink/magenta lips persist around the throat and flower through both pairs. | PRESENT |
+| 12 | saturated / vivid | colour | 4 (8.0%) | Strong simultaneous pink, lime, cyan, violet and yellow dominate, with smoothly blended colour gradients. | PRESENT |
+| 13 | beings / presences | form | 3 (6.0%) | No readable face, hand, body or embodied presence; the central flower is not a being. | ABSENT |
+| 14 | breathing / undulating | motion | 3 (6.0%) | Lips change width and exposure at fixed pose, but the pairs do not show a complete expansion/contraction cycle. | PARTIAL |
+| 15 | folding / unfolding | motion | 3 (6.0%) | Connected lips roll and change overlap, with some relief in central lobes, but no convincing fold-over or inside-out transformation. The deep motion centre simplifies. | PARTIAL |
+
+Blockers: Capture quality, freshness or visual inspection missing; Top ten contains ABSENT or UNREVIEWED
+
+### Passage audit samples
+
+- **flower / mandala** — [1kskkyi](https://www.reddit.com/r/DMT/comments/1kskkyi/), raw offset 1792: “like I was exhaling through my nose or making some kind of sound. I remember a mandala-like drawing I saw at some point—by then the discomfort had passed. After that, I”
+- **geometry / patterns** — [1kskkyi](https://www.reddit.com/r/DMT/comments/1kskkyi/), raw offset 1984: “realized I was back in this reality, which was still trying to regain its familiar shape.  I went outside, lay down in the grass,”
+- **multicoloured** — [1ng2dbo](https://www.reddit.com/r/DMT/comments/1ng2dbo/), raw offset 486: “gift. Took a MASSIVE rip and held it in as long as I could. I was transported to a kaleidoscopic, geometric storm of vivid and intense colors. It was absolutely incredible and”
+- **fractals** — [p9iti0](https://www.reddit.com/r/DMT/comments/p9iti0/), raw offset 632: “That made my body heavy and I buzzed all over and saw some pretty rotating mandala fractals. That lasted about 5 minutes.   After that we tried 30mg blindfolded. That brought”
+- **tunnel / corridor** — [gti12v](https://www.reddit.com/r/DMT/comments/gti12v/), raw offset 1989: “I cant figure it out. Next thing I know Im shooting through a sort of kaleidoscopic tunnel with this entity just kind of laughing at me hysterically, and then an instant I”
+- **spinning / rotating** — [gs3jb8](https://www.reddit.com/r/DMT/comments/gs3jb8/), raw offset 1864: “peak of an mdma pill comeOver me as I released and almost surrendered as I was then spinning through what seemed like a tunnel or slide of all kinds of colours like a”
+- **bright / luminous** — [7svzi9](https://www.reddit.com/r/DMT/comments/7svzi9/), raw offset 672: “kaleidoscope patterns and prisms. They moved so softly and turned into warmer more bright colors.  I felt a subtle breeze trying to take my consciousness away. I heard a”
+- **morphing / transforming** — [1eiqwrn](https://www.reddit.com/r/DMT/comments/1eiqwrn/), raw offset 587: “was a 3d mandala tunnel. The mandala patterns were made of living colored geometric transforming objects. Like a kaleidoscope turning but it was an endless tunnel with diameter of”
+- **dark / black** — [15j42vj](https://www.reddit.com/r/DMT/comments/15j42vj/), raw offset 1327: “form to human to entity but before becoming an entity my surroundings went black I knew exactly where I was, hyperspace!   The Peak Unexplainable green and purple”
+- **green** — [15j42vj](https://www.reddit.com/r/DMT/comments/15j42vj/), raw offset 1398: “went black I knew exactly where I was, hyperspace!   The Peak Unexplainable green and purple geometric patterns were in front of my face it looked very similar to”
+- **purple / pink** — [15j42vj](https://www.reddit.com/r/DMT/comments/15j42vj/), raw offset 1408: “black I knew exactly where I was, hyperspace!   The Peak Unexplainable green and purple geometric patterns were in front of my face it looked very similar to the flower of”
+- **saturated / vivid** — [1ng2dbo](https://www.reddit.com/r/DMT/comments/1ng2dbo/), raw offset 520: “it in as long as I could. I was transported to a kaleidoscopic, geometric storm of vivid and intense colors. It was absolutely incredible and beautiful. More intense than”
+- **beings / presences** — [gti12v](https://www.reddit.com/r/DMT/comments/gti12v/), raw offset 2006: “out. Next thing I know Im shooting through a sort of kaleidoscopic tunnel with this entity just kind of laughing at me hysterically, and then an instant I get the feeling im”
+- **breathing / undulating** — [10ja6km](https://www.reddit.com/r/DMT/comments/10ja6km/), raw offset 1134: “the full breakthrough experience, the instant chrysanthemum of colors and geometry waving through my vision, followed by a hum rising from silence to a deafening roar, my”
+- **folding / unfolding** — [15j42vj](https://www.reddit.com/r/DMT/comments/15j42vj/), raw offset 1603: “it become more human worldly looking. It was the lotus flower and it started to unfold like it was unlocking itself in a way I cannot explain with human words and before”
+
 ## workshop
 
 Nodes: `realm|The Workshop / Factory / Market`
@@ -930,11 +930,11 @@ Fresh desktop, mobile, paced and fallback acceptance: **PENDING**. Do not add th
 
 ## Reproduce
 
-```powershell
-python world/fidelity.py --collect
-python world/fidelity.py --queue
-python world/fidelity.py
-python world/fidelity.py --check
+```bash
+# Use the frozen corpus; do not recollect during visual/source review.
+python3 world/fidelity.py --queue
+python3 world/fidelity.py
+python3 world/fidelity.py --check
 ```
 
 `--collect` reads the local corpus only; default uses saved counts. `--check` exits 1 for incomplete/failing work. See `fidelity-grades.schema.md` for manual review receipts.

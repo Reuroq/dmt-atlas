@@ -1,0 +1,55 @@
+{
+  "iteration": "analytic-filtered-corolla-v22",
+  "render_signature": "1e6a7ffde14a4cc7aa4f537f1513d58eb9a0d95b05baf97ebc5fe8d3b8c5e69b",
+  "runtime_sha256": "db2b4e328ba49b0157a7dd2b988d28cb10bcdda5d646557419b20880ef32db2e",
+  "realism": "GAME",
+  "coverage": 0.8472222222222222,
+  "coverage_passed": false,
+  "top10_absent": [
+    "dark / black"
+  ],
+  "source_includes": 50,
+  "source_excludes": 20,
+  "node_syntax": "PASS",
+  "realism_gate_regression": "PASS",
+  "fidelity_check_exit": 1,
+  "verified_ledger_pngs": 75,
+  "verified_ledger_receipts": 61,
+  "numerical_probe": "continuum-v22-probe.json",
+  "initial_failed_probe": "continuum-v22-initial-probe.json",
+  "directional_bound_check": "continuum-v22-directional-check.json",
+  "accessibility": [
+    "paused pixel stillness",
+    "paused resize restores stable canvas",
+    "reduced-motion pixel stillness",
+    "detail toggle preserves route and pose",
+    "restored-detail reduced pixel stillness",
+    "Sources fidelity table and existing provenance"
+  ],
+  "physical_exit": {
+    "render_signature": "1e6a7ffde14a4cc7aa4f537f1513d58eb9a0d95b05baf97ebc5fe8d3b8c5e69b",
+    "checks": [
+      "HIGH right walking boundary preserved inside minimum volume radius",
+      "Actual drag-look changes both camera axes",
+      "Central physical exit reaches Rush with cited geometry; no navigation injection"
+    ],
+    "passed": true,
+    "exit_walk_timeout_ms": 45000,
+    "errors": []
+  },
+  "full_acceptance": "PENDING; no unchanged desktop rerun",
+  "latest": "realism-chrysanthemum-close-v22-motion.png",
+  "display_receipt": "realism-chrysanthemum-close-v22.json",
+  "overall_passed": false,
+  "accessibility_inspection": "view_image once: connected saturated scallops and radial fan; thin contour-like loops, smeared corrugations and simple stretched centre persist. HIGH/reduced/paused still, not another temporal review; GAME unchanged.",
+  "accessibility_artifacts": {
+    "image": "realism-chrysanthemum-accessibility-v22.png",
+    "image_sha256": "f5d2308a8c57034bb0fcdf474bfc91bc523017dd169bfdcf050c962f56d305cd",
+    "receipt": "realism-chrysanthemum-accessibility-v22.json",
+    "receipt_sha256": "49c447d22a76b65878e1966130df7d7ba2daf30703b895f314b10ad175a64f17"
+  },
+  "physical_exit_artifacts": {
+    "verification-continuum-v22.json": "0e051cb408d388bd54f6e005d3d0b1ec640b1e73ab0b47f0fb761601f3f0b574",
+    "verification-continuum-v22.log": "5b8d605d4c54dc8247daf754a9e58ef9913923676a6dd341a4c3d07f856ec70d"
+  }
+}

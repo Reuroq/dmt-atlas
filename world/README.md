@@ -3,6 +3,184 @@
 Open **index.html** in a WebGL-capable browser. Everything runs locally: no install,
 server, API key, CDN or network connection is needed. On the site, visit `/world/`.
 
+## Current build — v25 geometry / v18 controls
+
+**Chrysanthemum: GAME. Coverage84.7%, blocked by top-ten dark/black ABSENT.**
+The deeper cap and Cartesian folds remove the old flat fan as the only central
+construction; bounded soft ambient occlusion and independent reflected/self-lit
+light remove the large black shading blotches. Four fresh HIGH entry/deep temporal
+frames still show smooth rubbery walls and a sparse central flower, not convincing
+recursive jewel density. Luminous is PRESENT; dark/black and beings are ABSENT.
+Source decisions remain50 includes/20 exclusions.
+
+All six focused stillness/Sources checks pass. The original45-second physical exit
+still fails at z−18.29216; boundary walking and two-axis drag pass. No extended retry.
+An actual GPU probe has no misses in12,288 sampled rays, but **fails** its0.001
+CPU/GPU field-agreement limit at0.00108751. This is not universal convergence proof.
+The finer centre displacement octaves are nearly removed by conservative filtering.
+Syntax, ledger receipts and archive/display hashes pass; see
+[bound results](redirect4-v25-check.json) and [numerical findings](continuum-v25-numerical-findings.json).
+
+A subsequent fixed-point diagnostic isolates a trigonometric contribution to the
+field discrepancy. Replacing only atan does not fix it; replacing sine/cosine in
+an isolated shader with range-reduced polynomials reduces the worst of four saved
+point errors from0.001094 to0.00000477. The first experimental shader failed to
+compile and is retained. This is not a runtime fix or new ray/visual acceptance:
+live v25, its numerical failure and every existing gate remain unchanged. See
+[diagnosis receipts](numeric-diagnosis-v25-check.json).
+
+The isolated **v26 numeric candidate** now passes the unchanged scalar0.001,
+gradient0.005, bound-ratio1.001 and root-depth0.03 limits over38,160 actual GPU
+rays and360 independent first-root references, including16 exact-axis rays.
+Entry/deep, HIGH/LOW, even/odd grids and animation times4/8/221/900s were sampled.
+Worst field error0.000147081; gradient error0.000459490; root difference0.0175208;
+zero sampled misses. Only the tested polynomial sine/cosine helper differs from
+v25. This candidate is **not live** and supplies no new realism or full-resolution
+performance evidence. Live assets, grades and displayed images remain unchanged.
+See [numerical results](numeric-candidate-v26-check.json) and
+[integrity receipts](numeric-candidate-v26-integrity.json).
+
+The isolated **v27r2 centre candidate** builds on that helper with three larger
+crossed cap-fold scales, gentler Gaussian filtering and smooth Cartesian centre
+pigment. At distance50/height800, octave weights rise from roughly0.041/0.0000005/0
+to0.880/0.549/0.062. This is a numerical scale change, not observed visual quality
+or an aliasing guarantee. Minimum pre-cap clearance remains4.615; cap starts−27.5,
+beyond the unchanged walking exit−22.
+
+Initial v27 exhausted the fixed iteration budgets on three sampled rays. Retained
+v27r2 tightens only the cap-blend interval bound; geometry, iteration budgets and
+tolerances are unchanged. All38,160 GPU rays and360 first-root references now pass:
+zero sampled misses, maximum1562 iterations, field error0.000188693, gradient
+error0.00180064 and root difference0.021562. See [results](numeric-candidate-v27r2-check.json)
+and [implementation integrity](centre-candidate-v27r2-integrity.json).
+**Not live; rejected after the first full-resolution visual attempt.** The new
+1200×800 HIGH entry diagnostic is GAME: a lobed centre replaces the simple fan,
+but broad smooth walls, smeared gradients and fine serrated streaks remain.
+The second temporal frame failed its 90-second settled-render wait; no deep
+capture or completed performance measurement exists. See the
+[review and limitations](diagnostic-centre-v27r2-review.md) and
+[preserved partial run](diagnostic-centre-v27r2-receipts.json).
+The new isolated **v28r3 candidate** replaces nested high-frequency side phases
+with three world-space crossed-fold octaves and simplifies the cap warp.
+Stricter ray-direction hit acceptance and a
+[curvature-bounded step](centre-v28-curvature.md) address grazing-ray failures
+without increasing iteration budgets or relaxing numerical gates.
+All38,160 GPU samples and360 first-root references pass: maximum349 iterations
+(v27r2:1562), mean47.93 (105.75), maximum root difference0.001443.
+Independent HIGH/LOW curvature samples and
+[corrected integrity checks](centre-candidate-v28r3-final-check.json) pass.
+Earlier v28/v28r2 numeric failures and checker errors remain preserved.
+These small-grid numerical results are **not visual realism evidence**.
+The one-shot v28r3 full-resolution run now completed all four1200×800 HIGH
+entry/deep temporal captures within the unchanged90-second settling limit.
+Both views are graded **GAME**: broad waxy folds, sparse nested structure,
+smearing and no substantial dark openings. Fixed-pose pairs show deformation,
+not proof of smooth motion. See the [visual review](diagnostic-centre-v28r3-review.md)
+and [complete receipts](diagnostic-centre-v28r3-receipts.json).
+Settle waits were26.65–30.84s; SwiftShader timings are not hardware-GPU benchmarks.
+The v28r3 candidate is **not promoted**. Isolated v29 now replaces the closed
+shell with two perforated membranes, nested Cartesian rosettes and a recessed
+dark backing; sharper metallic lighting replaces broad diffuse reflections.
+Fresh bounds/CSG interval samples pass. Its38,160 GPU rays have zero misses and
+all360 first-root references pass (max difference0.001254). The original
+composite finite-difference gradient check **failed** at18 crease-adjacent
+samples; a separate all-leaf GPU audit passes the unchanged scalar/gradient
+limits and exactly reproduces saved normals through actual CSG branch selection.
+Both results are preserved in the [numerical review](centre-v29-numerical-review.md).
+The one-shot v29 visual sequence now completed four1200×800 HIGH captures,
+settling34.13–44.52s within unchanged90s limits. Both viewpoints and temporal
+pairs remain **GAME**: genuine openings and layer separation are visible, but
+broad perforated concentric bands, a simple button-like centre, sparse resolved
+hierarchy, underlit surfaces and smeared highlights dominate. No promotion.
+See the [visual review](diagnostic-centre-v29-review.md) and
+[receipts](diagnostic-centre-v29-receipts.json). The deep-view walk took60.99s,
+NOT an original45s exit test or a hardware-GPU benchmark. Live ledgers remain unchanged.
+
+The tested navigation repair is now live as **trip v18** (visual renderer v25).
+A demand-driven held-input timer avoids multi-second RAF pose jumps without
+discarding held time. The unchanged combined HIGH control gate passes: centre
+return x−0.075, physical exit9.41s under45s, Sources/boundary/drag-look pass.
+All eight reduced-mobile control/idle cases pass. Historical v16/v17 failures remain.
+See [repair and adverse-result review](input-pump-v18-review.md).
+
+The fresh post-promotion HIGH stillness run **FAILED** restored-detail reduced
+pixel equality:9457 crop pixels changed by at most one channel value, despite
+identical pose/clock/frame and settled receipts. Prior three pixel comparisons
+passed; Sources/full capture were not reached. Cause unresolved; no tolerance
+relaxed or unchanged rerun. Next: instrument canvas versus presentation timing.
+All old visual/full-acceptance receipts are now stale; overall remains false.
+
+A new isolated presentation diagnostic passed all six screenshot/detail/Sources
+checks, but its Canvas2D copies were fully transparent: it did not capture the
+rendered framebuffer and **does not explain or clear the original failure**.
+No runtime repair or visual regrade. See [diagnostic review](presentation-v18r2-review.md).
+The subsequent submission-time PBO diagnostic produced opaque valid pixels,
+identical full-frame hashes through resize/detail restoration, and six passing
+checks. It still **does not clear the original failure**. Differences from raw
+RGB begin under the HUD gradient; browser overlay raster/composition is the next
+isolation target. See [submission diagnostic review](submission-v18-review.md).
+
+The static compositor isolation then reproduced the **exact signed 9,457-pixel
+original failure** twice with the HUD gradient present; all18 gradient-absent
+comparisons passed. This isolates the browser gradient presentation defect,
+without geometry rendering. The historical failed pair remains preserved.
+See [static isolation](static-compositor-v18r2-review.md).
+
+The HUD-only deterministic alpha-ramp correction is now live: all21 changed
+static comparisons and all6 affected original1200×800 HIGH stillness/detail/
+Sources checks PASS, zero browser/GL errors. Colour/opacity stops and responsive
+readability are preserved; PNG bytes are included in render signatures.
+See [correction evidence and visual review](hud-ramp-v18-review.md).
+
+latest.png now shows the once-inspected1200×800 **ISOLATED v33r6 entry diagnostic**, not live geometry. **REJECTED GAME**: sparse disconnected rainbow oval/disc chains, smooth simple interiors and little resolved nested flower detail. Entry settled58.754731s, but the native3s temporal advance timed out90.012559s; actual renderer exit1. One still only; temporal/deep views UNREVIEWED, no promotion. See [capture and visual review](diagnostic-centre-v33r6-review.md).
+
+Historical v32 (unchanged): [GAME visual review](diagnostic-centre-v32-review.md).
+
+Capture PASS: four HIGH frames settled25.10–31.53s under90s,zero browser errors;
+native timer-observed deep stop z−6.0576 in4.4211s. This is fixture evidence,
+not full physical-exit acceptance, temporal-AA proof or a hardware-GPU benchmark.
+[V32 numerical checks](centre-v32-numerical-review.md) remain passed, not realism.
+No promotion or source/coverage credit. Live v25/trip18/HUD,defaults,manual/source
+ledgers and earlier failed evidence remain unchanged.
+
+Isolated **v33 closed tapered/curled petal cells** pass numerical checks but
+**FAIL the first HIGH capture's90s settling gate**. No PNG was saved; appearance
+is **UNREVIEWED**,no promotion. Paused entry remained renderPending=true with
+zero recorded browser errors. Sparse-ray mean steps rose67.64→586.19.
+See [v33 capture failure](diagnostic-centre-v33-review.md) and
+[numerical review](centre-v33-numerical-review.md).
+
+Isolated **v33r2 reach-only optimization passes numerical checks but also
+FAILS the original HIGH90s entry settling gate** (90.0097s). Zero PNGs and
+recorded browser errors;visually **UNREVIEWED**,no promotion. The sparse-ray
+cost reduction did not establish full-resolution acceptance. See
+[v33r2 numerical review](centre-v33r2-numerical-review.md) and
+[v33r2 capture failure](diagnostic-centre-v33r2-review.md).
+Isolated **v33r3 passes numerical checks but FAILS the original HIGH90s
+entry gate**; visuals UNREVIEWED, no promotion. The one-shot instrumented timing
+run also failed90.022s: first Chrysanthemum submission returned28.7ms but its
+fence remained pending90.636s. No recurring invalidation after pause; the queued
+paused frame submitted promptly on retirement. This isolates asynchronous
+completion delay, not per-pass GPU cost or cold compilation versus execution.
+No speedup established. See [numerical review](centre-v33r3-numerical-review.md),
+[prior capture failure](diagnostic-centre-v33r3-review.md), and
+[timing evidence](diagnostic-centre-v33r3-timing-review.md).
+Isolated **v33r5 numerical gates PASS; cost is INCOMPLETE**. Actual GLSL
+48 cases / 75,996 rays and 720 fixed-grid plus 720 interval roots pass with no
+misses or unresolved intervals. Bounds inherited, not rerun. The one-shot cost
+attempt stopped with a started receipt but 0/12 saved pairs and no exit receipt;
+cause unknown, no slowdown claim. Original HIGH/90s capture remains blocked.
+No new PNG or promotion. See [numerical and cost hold](centre-v33r5-numerical-hold-review.md).
+Isolated **v33r6 numerical and paired-cost gates PASS; full capture FAIL**. 48cases/75,996rays,720fixed+720interval roots and12balanced cost pairs remain passed. Sparse SwiftShader timings do not establish full-resolution performance or isolate factoring. Original HIGH/90s capture ran ONCE: entry still GAME, temporal timeout, deep not reached. See [numerical/cost closure](centre-v33r6-numerical-review.md) and [capture review](diagnostic-centre-v33r6-review.md).
+Isolated **v34 numerical phase CLOSED — FAIL**. Bounds ONCE actual exit0:72,000leaf/reach+12,000clearance PASS. GPU ONCE actual exit1:48cases/75,996rays,zero recorded browser errors/GPU misses;all48 fail exact expanded-jet replay (childAxial/childAngular). Only716/720fixed references found;both failure causes unresolved. Other saved scalar/gradient/bound/count and composite/aperture/normal replay gates pass but do not override failure. Independent interval roots,matched cost,capture NOT RUN. See [saved-evidence failure review](centre-v34-numerical-failure-review.md) and [failure integrity](centre-v34-numerical-failure-integrity.json). Historical [fixture scope](centre-v34-fixtures-review.md) remains unchanged. No passing numerical authorization,no v34 image,no promotion/replay/prewarm/limit relaxation. Live/defaults/ledgers unchanged;latest remains the inspected REJECTED GAME v33r6 entry diagnostic. All19/source/coverage/route/full acceptance unfinished. New [saved-only investigation](centre-v34-saved-investigation-review.md): differences are scalar-only and compatible with binary32 constant folding, not attributed; all four unresolved hits used local acceptance without bisection. [Two distinct follow-up experiments](centre-v34-followup-experiment-design.md) have now run once; see the runtime result below. No new candidate or passing gate. [Distinct diagnostic preparation](centre-v34-followup-preparation-review.md) is now static-checked with frozen inputs and one-shot runners; runtime is now CLOSED: arithmetic actual exit1 (GL1282 before first complete arm; no uniform support), profiles actual exit0 (four local crossing pairs inside old grid cells, not first-root certification). See [runtime review](centre-v34-followup-runtime-review.md). No v35 candidate; numerical FAIL and downstream blocks remain. No acceptance or realism pass.
+
+Old full defaults
+visual-chrysanthemum.png/json remain unchanged and stale.
+The four graded temporal frames remain
+under realism-chrysanthemum-v25 and realism-chrysanthemum-close-v25 filenames.
+Other realism/source gates, route review and full acceptance remain unfinished.
+The sections below retain earlier work and its failures; they are not current passes.
+
 ## Take the journey
 
 Begin in an ordinary room and pass through geometry, the chrysanthemum, a rush,
@@ -72,7 +250,7 @@ water realism, density, communication, layered space and recession remain partia
 This combines different reports, not a claim that everyone sees one garden.
 Fixed-camera HIGH temporal pairs show petal opening, ripples and clockwork motion;
 the actual exit fade is only a partial match for reported dissolution.
-Seventeen other source targets, Garden capture renewal, route review and complete
+Sixteen other source targets, Garden capture renewal, route review and complete
 fresh acceptance remain pending; Workshop's current local result is below.
 Stable images, hashes, adverse observations and before/after grades are retained
 in `fidelity-grades.json`. Capture new pairs with `render_visual.py --stage garden
@@ -120,38 +298,177 @@ hash-bound HIGH frame pairs; beings require close-ups. Anything CLOSE or GAME
 must be rebuilt. These are visual judgments, not witness certification.
 
 The rebuild replaces the chrysanthemum's mesh tunnel, mandala shells and
-particles with `continuum.js`: actual-camera ray-marched folded sheets.
-Overlapping scalloped surfaces curl around the walking path, with deeper folds
-beyond the physical exit filling the sightline. Colour evolves across red/gold
-and blue/cyan, with reflections and depth haze. The seven layers and eightfold
-design are editorial choices, not source-established counts. Pixel-sized hit
-and normal footprints limit subpixel noise. HIGH and lower both use shaders; pause
-and reduced motion share the existing animation clock. Walking and physical
-exits retain their original bounds and route.
+particles with `continuum.js`: actual-camera ray-marched connected lobes.
+V20 replaces circular arc sweeps with five spatial scales of jointed binary lobes
+(four in lower detail). Eleven tenfold layers are editorial choices, not measured
+source counts. Each child starts inside its parent; moving joint frames change
+relative overlap. Near volume bounds preserve radial clearance4.6; closing bounds
+lie beyond the physical exit. Surface hits are refined before shading. Colour
+and depth haze remain shader-based, with the existing pause/reduced-motion clock.
+Walking bounds and route are unchanged. These are implementation choices, not
+claims that the visual problems are solved.
+The renderer reuses paused/Sources views and limits WebGL2 work to one GPU frame
+in flight, avoiding a backlog of old animation. Resize/detail changes invalidate
+frozen views. Read-only diagnostics expose pending work and the rendered animation
+time; capture receipts wait for the final paused frame to finish.
 
 The inspected v3/v4 petal-primitive attempts and v5 cut-through fractal were
 rejected as **GAME**; their images and adverse judgments remain immutable.
-The first deterministic Chrysanthemum source batch is audited: 7 included and
-3 excluded among 480 candidates, with no skipped decisions. Source validation
-is still incomplete; these are not prevalence estimates or a passing visual
-score. See [the bounded evidence and design notes](chrysanthemum-source-batch1.md).
+Chrysanthemum source validation now passes: 50 included and 20 excluded among
+70 fixed-order reviewed candidates (480 available), with no skipped decisions.
+The confirmed leaders are flower/mandala (20), patterns (17), multicolour (14),
+fractals (8) and tunnels (8). These are report counts, not independent witnesses
+or prevalence estimates; repeated narratives and non-floral variants remain
+explicit. Current visual coverage uses this validated table. See
+[the validated sample and rebuild constraints](chrysanthemum-source-batch2.md).
 
-The v6/v7 recursive corolla remains archived as **CLOSE**. V8 folded sheets were
-**GAME**: flat cutout bands, radial streaking and a colour seam. Current v9 is
-**CLOSE**, not passing: the inspected HIGH pair shows curved overlapping folds,
-a filled centre and changing openings; the seam is gone and streaking reduced.
-Broad pale surfaces, thin dark edge artifacts and limited nested detail still
-fall short of dense recursively unfolding jewelled geometry. All nine adverse
-iterations retain their immutable image pairs and judgments. The other 18 realism targets,
-including all being redesigns, remain pending. Workshop and Garden descriptor
-scores remain in history, but their receipts and the previous full acceptance
-are now stale after the renderer change. Overall completion remains blocked.
+The v6/v7 recursive corolla and v9 folded sheets remain archived as **CLOSE**;
+v8 was **GAME**. V10's rainbow bands were also **GAME**. V11/v12 improved cupped
+depth but second-frame captures timed out; they have inspected stills, not valid
+temporal reviews. V13's GPU backpressure allowed the pair to complete. V16 remained
+**CLOSE**. V17 remains archived as **GAME**. Archived **v18 is GAME**, with four
+then-fresh settled HIGH temporal receipts at entry and after real forward walking to
+z=-7.41. Swept tapered leaves replace capsule vaults, with paired smaller folds
+and nine layers. Radial and perforation cuts are removed; near extents are placed
+outside the corridor. Density improves, but broad glossy paddle-like surfaces,
+applied-looking motifs, jagged perimeter bands and the tiny pinwheel centre
+prevent RECOGNISE. Convincing structural branching is not yet achieved.
+Historical captures and adverse judgments remain immutable. Historical **v19 is
+GAME**, with four inspected, settled HIGH receipts at entry and after real
+forward walking to z=-8.3728. Shared-root curls replace paddle faces, and rounded
+tips are clearer, but repeated glossy hoops resemble ornamental ironwork. A broad
+black annulus isolates the central rosette; smooth bands, contour artifacts and
+sparse fine detail remain. Tighter layer bounds and the new distance representation
+were intended to improve march efficiency; completed v19 checks are recorded below.
 
-Fresh v9 focused checks pass: HIGH walking boundary, drag-look, restart and
-physical exit to Rush; paused/reduced-motion pixel stillness, detail-toggle
-preservation and Sources provenance. These do not replace full acceptance.
-The current `latest.png` is the separate HIGH accessibility capture, not the
-inspected temporal pair. SwiftShader measured 1.59 fps, not GPU performance.
+V19's complete review against the validated top 15 scores **87.0%** (94/108),
+passing its coverage gate. **Dark / black remains PRESENT**:
+broad openings persist at both viewpoints; numerical contour defects are not credited.
+The source sample is unchanged (50 included reports, 20 exclusions). The pairs
+demonstrate rotation and axial corridor recession, both PRESENT. Recursion,
+transformation and breathing remain PARTIAL. Folding is downgraded to ABSENT:
+curl exposure changes, but neither pair shows an actual fold or unfold. No beings
+are visible. Higher descriptor coverage does not imply better realism.
+The Sources drawer and [FIDELITY.md](FIDELITY.md) contain each reason.
+The other 18 realism targets, sixteen source-validation targets, route/timing and
+fresh full acceptance remain unfinished. Garden/Workshop historical coverage is
+preserved, but their visual receipts are stale. Overall completion stays blocked.
+
+## Historical chrysanthemum review — v23
+
+**GAME; descriptor coverage84.3% PASS, realism FAIL.** Four fresh settled HIGH
+frames were inspected: entry and actual walking to z=-8.31904, each with a
+fixed-pose pair more than3 animation seconds apart. Broad reflection removes the
+old pervasive fine contour loops, but hard-edged black blotches, dim/smeared
+surfaces, shallow detail and a flat axial colour fan remain. In deep motion the
+centre becomes smoother, not richly folded. No numerical artifact earns geometry
+credit; this is visual judgment, not witness certification.
+
+All15 descriptors were regraded. Luminous and dark/black are PARTIAL: highlights
+are bright but much of the field is dim; substantial black shading is visible but
+does not convincingly read as spatial gaps. Fractals, transforming, breathing and
+folding remain PARTIAL; beings are ABSENT. Other descriptors are PRESENT.
+Coverage91/108=84.3% passes the unchanged80% threshold with no top-ten ABSENT,
+but does not imply realism. Source validation remains50 includes/20 exclusions.
+
+The first changed-runtime accessibility run **failed** restored-HIGH reduced
+pixel stillness. An instrumented rerun with unchanged waits/assertions passed all
+six checks; its final still was inspected once. The intermittent failure remains
+unexplained, not cleared by the pass. A further unchanged-runtime trace also passes,
+but measures redundant idle reduced rendering: screenshots take8.6–19.7 seconds
+while identical frames stay in flight, versus about0.2 seconds paused. This is
+not proof of the original failure cause; see
+[trace review](trace-stillness-v23-review.json). The original45-second physical-exit test
+**failed at z=-18.18656**, short of the exit at z=-22. Boundary walking, two-axis
+drag-look, provenance and the fresh v23 Sources observations passed. No extended
+exit retry or unchanged full desktop acceptance was run.
+
+Syntax, realism-gate regression and80 image/66 receipt hashes across historical
+ledgers plus the diagnostic review pass. See
+[review and checks](redirect4-v23-check.json),
+[initial stillness failure](accessibility-v23-initial-failure.json),
+[diagnostic rerun](diagnostic-stillness-v23-review.json) and
+[physical-exit failure](verification-continuum-v23.json).
+At the end of the v23 diagnostic phase, visual-chrysanthemum.png/json retained
+idle-reduced-v16 entry and latest.png showed the labelled deep occlusion plate.
+The current display is identified in the v25 summary above.
+All adverse historical captures/reviews are retained.
+
+The archived continuum-v23.js uses broad roughness-aware
+reflection, smooth axial meridian warping, lower-frequency filtered detail and
+sampled geometric key-light occlusion. Unbracketed Newton is removed. Previous
+CPU checks converge on3072 sampled HIGH/LOW rays; gradient error<1.2e-8;
+6000 sampled directional derivatives satisfy bounds and24 fixed-step reference
+roots agree within.000502. They are not universal GPU first-hit or visual proof.
+See [implementation checks](continuum-v23-implementation-check.json).
+The old reflection diagnosis is retained in the
+[v23 diagnostic review](diagnostic-chrysanthemum-v23-review.md); v22 grades and
+acceptance are historical, not current passes. All other realism targets,
+sixteen source gates, route/timing and fresh full acceptance remain unfinished.
+
+### Reduced-idle runtime — v16
+
+Idle reduced views now redraw only for pose/interaction changes, scene builds,
+resize/detail refresh, or resumed animation. One GPU frame remains the limit.
+Pointer look and being clicks invalidate immediately, including before the next
+animation callback; paused resize refresh is preserved.
+
+Fresh HIGH checks pass all six assertions, including exact pixel equality and
+zero extra submissions in all four stillness comparisons. Reduced screenshots
+take0.17–0.22 seconds instead of the previous8.6–19.7 seconds. Eight focused
+real-control checks pass (keyboard/touch, look, scene transitions, being clicks,
+Sources, animation/pause and restart); the reduced paced onset→geometry check
+also passes. See [bound evidence](idle-reduced-v16-review.json).
+
+The first mobile test had a detail-setting setup error. Its corrected v15 run
+caught a real pending-state gap after clicking a being; v16 fixes that gap.
+Both failed runs and the original intermittent HIGH pixel-change failure remain
+preserved. These passes do not establish that original failure's cause.
+This is not full acceptance or a visual regrade: black blotches, dim surfaces
+and a simple flat-looking axial fan remain. The runtime signature changed, so
+the historical84.3% coverage score now has a stale-capture blocker; fresh HIGH
+temporal grading is still required. The prior45-second physical-exit failure
+was not retried or resolved in this phase.
+
+### Historical v23 occlusion isolation (diagnostic v24, runtime unchanged)
+
+Two fresh HIGH entry/deep six-panel plates isolate the hard black lobes primarily
+to squared recess darkening. Disabling key visibility brightens the surfaces but
+retains those patches; disabling recess removes them while leaving broad dimness.
+Normals/depth retain the simple axial fan, so material changes alone cannot meet
+the realism bar. Sparse missed-ray marks at fold rims remain unresolved.
+
+Both plates were inspected once after rendering finished. Receipt/hash/syntax
+checks pass and live v23/v16 files are unchanged. These are diagnostic ablations,
+not a temporal regrade or acceptance rerun. An initial builder dependency-name
+failure is preserved. See [observations](diagnostic-occlusion-v24-review.md) and
+[bound checks](diagnostic-occlusion-v24-check.json). The next work is a substantive
+geometry/lighting rebuild; all existing incomplete gates remain.
+
+### Earlier verification history (not current acceptance)
+
+Focused checks and the current display are recorded in [NOTES.md](NOTES.md).
+V19 syntax, receipt integrity and realism-gate regression pass. All 63 unique
+ledger PNG hashes and 49 recorded receipt hashes are intact. Fresh V19 accessibility
+and Sources checks pass (all six checks; final still inspected once, still GAME).
+The original 45-second physical-exit check **passes**, including HIGH boundary
+walking, two-axis drag and the real central exit to Rush. No timeout extension
+or retry was used. Results are preserved in
+[redirect4-v19-check.json](redirect4-v19-check.json) and
+[verification-continuum-v19.json](verification-continuum-v19.json).
+The v19 reviewed deep-motion display was subsequently superseded by v20.
+Historical V18 accessibility/Source checks pass. Its original physical-exit check
+**failed**, reaching z=-6.55904 before timeout; boundary walking and two-axis
+drag passed. The log and diagnostics are retained in
+[redirect4-v18-failures.json](redirect4-v18-failures.json); no extended retry was run.
+V17 checks are historical.
+They do not replace full desktop/mobile/paced/fallback acceptance. Software
+rendering remains expensive; short SwiftShader frame-count samples are not GPU
+performance measurements. V16's original 45-second software-rendered exit walk
+timed out before reaching the exit; that failure is retained in
+[redirect4-v16-failures.json](redirect4-v16-failures.json). A longer wall-clock
+control check cannot establish acceptable real-time performance.
+No RECOGNISE or completion claim is made.
 
 ## Files and verification
 
@@ -168,9 +485,10 @@ inspected temporal pair. SwiftShader measured 1.59 fps, not GPU performance.
 
 From the repository root:
 
-```powershell
+```bash
+export PLAYWRIGHT_BROWSERS_PATH=/opt/ms-playwright
 node --check world/trip.js
-python world/verify.py
+python3 world/verify.py
 ```
 
 Verification needs Python Playwright, Chromium and Pillow. It checks the full
@@ -183,3 +501,19 @@ All generated files stay under `world/`.
 
 The second visual redesign is in progress. Old verification results establish the
 journey structure, not acceptance of the new renderer. See `NOTES.md` for remaining work.
+
+Distinct [staged arithmetic r2 runtime](centre-v34-staged-arithmetic-r2-runtime-review.md) is **CLOSED input FAIL; actual exit1**. All 905 positive-zero inputs changed sign before rendering; GL intervals clean, no arithmetic arms/readbacks. Partial cleanup count failure and browser close retained. No retry, support, v35 or visual progress; prior numerical/realism failures remain.
+
+Distinct [staged arithmetic r3 runtime](centre-v34-staged-arithmetic-r3-runtime-review.md) is **CLOSED actual exit0; synthetic uniform support PASS**. Both uniform arms exact; literal child-only mismatches 39 axial/49 angular. All 126 stages and nine disposal identities verified. No field, root, visual or acceptance pass; original failures retained.
+
+Isolated [v35r2 uniform-offset preparation](centre-v35r2-preparation-review.md) is **CLOSED static PASS; no field runtime**. Six HIGH/LOW binding paths and exact source/shader reversal pass. All original numerical/root/cost/capture gates retained; original failures remain. Next: distinct additive strict root-isolation design and static preparation. No new image or promotion; latest remains inspected REJECTED GAME v33r6.
+
+[Additive root-contract design/core](centre-v35r2-root-contract-design.md) is **CLOSED static PASS; runtime integration NOT PREPARED**. Local brackets and all720 identity checks cannot replace independent global first-root evidence. Original scan failures remain separate. Static source audit also requires an explicit exact cheap/full gate in the successor; legacy predicate is <.00001. No new render, numerical acceptance or promotion.
+
+[Additive numerical integration](centre-v35r2-additive-design.md) is **CLOSED static PASS; no field runtime**. New exclusive stages preserve original scan failures and unchanged independent search, adding bit-exact transport and complete 720-ray evidence joins. No numerical, cost, capture or realism credit; all19 remain unfinished.
+
+[Additive runtime closure](centre-v35r2-additive-runtime-check.json): **FAIL global**. Actual exits and all raw/partial evidence are preserved; no replay. Original fixed-grid verdict remains separate. No new image or promotion; cost/capture and all19 visual/coverage/route/full acceptance remain unfinished.
+
+[Canonical-JSON successor](centre-v35r3-canonical-design.md): **static PASS only**. Real NumPy-to-durable-JSON regression and foreground lifecycle/eligibility fixtures pass. Fresh global and combination remain unattempted; original exit1 is unchanged and ineligible. No new render, promotion or numerical/visual/coverage/acceptance credit.
+
+[Canonical runtime closure](centre-v35r3-canonical-runtime-check.json): **FAIL combination**. Fresh global and saved-only combination receipts remain distinct from original global exit1 and fixed-grid FAIL. Numerical evidence does not enable cost/capture or confer visual acceptance. No new image or promotion; all19 gates unfinished.

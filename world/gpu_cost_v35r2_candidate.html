@@ -1,0 +1,48 @@
+<!doctype html><meta charset="utf-8"><title>Isolated v35r2-candidate numerical GPU probe — not journey evidence</title>
+<script src="vendor/three.min.js"></script><script src="continuum-v35r2-candidate.js"></script>
+<script>
+let width=48,height=32;
+const renderer=new THREE.WebGLRenderer({antialias:false});renderer.setSize(width,height);
+
+// v35r2 fail-closed guard: shader failure aborts before any readback.
+renderer.debug.checkShaderErrors=true;
+renderer.debug.onShaderError=(gl,program,vertex,fragment)=>{
+ throw new Error('GLSL_COMPILE_OR_LINK_FAILED: '+JSON.stringify({
+  program:gl.getProgramInfoLog(program),vertex:gl.getShaderInfoLog(vertex),fragment:gl.getShaderInfoLog(fragment)}));
+};
+const target=new THREE.WebGLRenderTarget(width,height,{type:THREE.FloatType,minFilter:THREE.NearestFilter,magFilter:THREE.NearestFilter,depthBuffer:false});
+const camera=new THREE.PerspectiveCamera(68,1.5,.06,180),scene=new THREE.Scene(),materials=[];
+const mesh=ContinuousWorld.chrysanthemum(scene,materials,camera),material=materials[0];
+mesh.onBeforeRender=()=>{};material.depthTest=false;material.depthWrite=false;
+material.uniforms.probeMode={value:0};
+let fragment=material.fragmentShader.replace('uniform float time,high,pixelScale;','uniform float time,high,pixelScale,probeMode;');
+fragment=fragment.replace('vec4 sampleValue=vec4(0.);','vec4 sampleValue=vec4(0.);float iterations=0.,cheapCalls=0.,fullCalls=0.,certifiedSkips=0.,refineCalls=0.;');
+fragment=fragment.replace('p=ro+rd*distanceAlong;\n     float bound=', 'iterations+=1.;p=ro+rd*distanceAlong;\n     float bound=');
+fragment=fragment.replace('float fastStep=cheapReach(p,rd,sharedJetsState);','cheapCalls+=1.;float fastStep=cheapReach(p,rd,sharedJetsState);');
+fragment=fragment.replace('distanceAlong+=fastStep;havePrevious=false;','certifiedSkips+=1.;distanceAlong+=fastStep;havePrevious=false;');
+fragment=fragment.replace('float safeStep;sampleValue=traceSample(p,rd,sharedJetsState,safeStep);','fullCalls+=1.;float safeStep;sampleValue=traceSample(p,rd,sharedJetsState,safeStep);');
+fragment=fragment.replace('float mid=(lo+hi)*.5,mv=sheetSample(ro+rd*mid).w;','refineCalls+=1.;float mid=(lo+hi)*.5,mv=sheetSample(ro+rd*mid).w;');
+fragment=fragment.slice(0,fragment.indexOf('    vec3 color;'))+`
+ p=ro+rd*distanceAlong;vec4 root=sheetSample(p);
+ gl_FragColor=probeMode<.5?vec4(distanceAlong,hit?1.:0.,iterations,root.w):probeMode<1.5?vec4(root.xyz,raySlope(p,rd)):probeMode<2.5?vec4(p,length(p-ro)*pixelScale):vec4(cheapCalls,fullCalls,certifiedSkips,refineCalls);
+}`;
+material.fragmentShader=fragment;material.needsUpdate=true;
+window.runCase=(z,time,high,w=48,h=32)=>{
+ width=w;height=h;renderer.setSize(w,h);target.setSize(w,h);
+ camera.position.set(0,1.7,z);camera.updateMatrixWorld(true);
+ material.uniforms.time.value=time;material.uniforms.high.value=high;
+ material.uniforms.pixelScale.value=2*Math.tan(34*Math.PI/180)/800;
+ material.uniforms.cameraWorld.value.copy(camera.matrixWorld);
+ material.uniforms.inverseProjection.value.copy(camera.projectionMatrixInverse);
+ material.uniforms.viewProjection.value.multiplyMatrices(camera.projectionMatrix,camera.matrixWorldInverse);
+ const output={z,time,high,width,height};
+ const start=performance.now();
+ for(let mode=0;mode<4;mode++){
+  material.uniforms.probeMode.value=mode;renderer.setRenderTarget(target);renderer.render(scene,camera);
+  const pixels=new Float32Array(width*height*4);renderer.readRenderTargetPixels(target,0,0,width,height,pixels);
+  output[['hits','gradientSlope','points','counts'][mode]]=Array.from(pixels);
+  if(mode===2)output.gpu_three_readbacks_seconds=(performance.now()-start)/1000;
+ }
+ return output;
+};
+</script>

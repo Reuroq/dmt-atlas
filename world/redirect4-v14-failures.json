@@ -1,0 +1,14 @@
+{
+  "uncaptured_prototype": "Initial three-level nested shader loop timed out on first screenshot; simplified before v10 saved still.",
+  "incomplete_temporal_runs": {
+    "v10": "Second screenshot exceeded 90s",
+    "v11": "Second screenshot exceeded 90s",
+    "v12": "Second screenshot exceeded 90s; paused redraw reuse alone was insufficient"
+  },
+  "fix": "V13 GPU backpressure allowed the temporal pair to finish; v14 exposes completed-frame readiness and binds captures to settled rendered animation time.",
+  "verification_harness_fixes": [
+    "Unpaused reduced motion does not promise an idle GPU: restrict idle-GPU assertion to paused views.",
+    "After detail toggle, wait for two newer submissions before unpaused reduced-motion pixel comparison, ensuring a new-detail frame has completed."
+  ],
+  "runtime_navigation_injection": false
+}

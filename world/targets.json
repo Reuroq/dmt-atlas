@@ -1,0 +1,97 @@
+{
+ "onset": {
+  "turns_used": 0,
+  "grade": "PENDING",
+  "note": ""
+ },
+ "geometry": {
+  "turns_used": 0,
+  "grade": "PENDING",
+  "note": ""
+ },
+ "rush": {
+  "turns_used": 0,
+  "grade": "PENDING",
+  "note": ""
+ },
+ "membrane": {
+  "turns_used": 0,
+  "grade": "PENDING",
+  "note": ""
+ },
+ "waiting": {
+  "turns_used": 0,
+  "grade": "PENDING",
+  "note": ""
+ },
+ "cathedral": {
+  "turns_used": 0,
+  "grade": "PENDING",
+  "note": ""
+ },
+ "contact": {
+  "turns_used": 0,
+  "grade": "PENDING",
+  "note": ""
+ },
+ "download": {
+  "turns_used": 0,
+  "grade": "PENDING",
+  "note": ""
+ },
+ "return": {
+  "turns_used": 0,
+  "grade": "PENDING",
+  "note": ""
+ },
+ "afterglow": {
+  "turns_used": 0,
+  "grade": "PENDING",
+  "note": ""
+ },
+ "workshop": {
+  "turns_used": 0,
+  "grade": "PENDING",
+  "note": ""
+ },
+ "garden": {
+  "turns_used": 0,
+  "grade": "PENDING",
+  "note": ""
+ },
+ "clinical": {
+  "turns_used": 0,
+  "grade": "PENDING",
+  "note": ""
+ },
+ "void": {
+  "turns_used": 0,
+  "grade": "PENDING",
+  "note": ""
+ },
+ "elf": {
+  "turns_used": 0,
+  "grade": "PENDING",
+  "note": ""
+ },
+ "jester": {
+  "turns_used": 0,
+  "grade": "PENDING",
+  "note": ""
+ },
+ "mother": {
+  "turns_used": 0,
+  "grade": "PENDING",
+  "note": ""
+ },
+ "mantis": {
+  "turns_used": 0,
+  "grade": "PENDING",
+  "note": ""
+ },
+ "chrysanthemum": {
+  "turns_used": 0,
+  "grade": "PENDING",
+  "note": ""
+ }
+}

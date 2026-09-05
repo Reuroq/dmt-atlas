@@ -1,0 +1,31 @@
+{
+  "phase": "v23 implementation; visual and changed-runtime functional acceptance pending",
+  "runtime_sha256": "5486919206afcc282f4428a3cb344f8123714b2392b6802bac79631860269ca3",
+  "syntax": "node --check PASS",
+  "sampled_rays": 3072,
+  "exhausted_rays": 0,
+  "max_iterations": {
+    "HIGH": 611,
+    "LOW": 697
+  },
+  "analytic_gradient_error": 1.1638534136437784e-08,
+  "fixed_step_root_check": true,
+  "max_root_delta": 0.0005015564246448889,
+  "max_directional_ratio": 0.49971565481394054,
+  "limits": "Finite double-precision sampling, not universal first-hit or GPU proof; no new visual grade, source audit or functional acceptance.",
+  "dependencies": {
+    "continuum.js": "5486919206afcc282f4428a3cb344f8123714b2392b6802bac79631860269ca3",
+    "continuum-v23.js": "5486919206afcc282f4428a3cb344f8123714b2392b6802bac79631860269ca3",
+    "build_continuum_v23.py": "bf197f976938c816a3609f0901c153722d0b8fcdae5f54af7b8a9a6e97de1f61",
+    "build_probe_v23.py": "cc9de1b28d76ccc087d8d5e0372e3eb2e8872fd61cb06a678cde0f02f0183189",
+    "probe_continuum_v23.py": "2f8614340f6ee89d9b283520236fde4f5b343b7b532b6f2fa62cbb37a0c22b74",
+    "probe_roots_v23.py": "4b4ddfd6f77c90988cacfaf6bd2c0a727fa6417d62092c91d1ededc3fc64e8e4",
+    "continuum-v23-probe.json": "251fe2d5c8443b80fd6748cd9c8d7dfbd72b66df12f967e7dbc0efc9c7f2363e",
+    "continuum-v23-root-check.json": "f326b3fb24514100cd3d10511e8f66f4077e8d4145d118d443ab7691a1ca8279",
+    "probe-continuum-v23.log": "33228a3fa512769e1e50b6845a88171362b65ca3520dd84bec515378d3bbc4c0",
+    "probe-roots-v23.log": "517166163d0b9e57a9b78aabf3034e8b719e8360a1c4ab12d4079b08de1c3d64",
+    "trip.js": "a3110f839284674b008a5bcb739190236b300dbbf5aa784e63d40b63a66e986d",
+    "fractal.js": "fd7a14ebfc87988e95e14255adc903e079cb47bb075db7612d5d57091ed235d8",
+    "index.html": "37275c34171ffdca0392e0798d77beec09101c0c8a1c7056bca0ae20d50604bb"
+  }
+}

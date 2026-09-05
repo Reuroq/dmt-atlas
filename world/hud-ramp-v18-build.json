@@ -1,0 +1,30 @@
+{
+  "asset": "hud-alpha-ramp-v18.png",
+  "dimensions": [
+    1,
+    4097
+  ],
+  "rgb": [
+    4,
+    2,
+    10
+  ],
+  "alpha_stops": [
+    [
+      0,
+      0
+    ],
+    [
+      0.75,
+      112
+    ],
+    [
+      1,
+      176
+    ]
+  ],
+  "bytes": 270,
+  "sha256": "da9d89e627cdf4bb177830fe7d37cc62e03b818e35f0677890a3061f744ff4cf",
+  "fixture_parent": "probe_static_compositor_v18r2.py",
+  "live_files_modified": false
+}

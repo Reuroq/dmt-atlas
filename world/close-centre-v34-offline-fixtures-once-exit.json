@@ -1,0 +1,6 @@
+{
+  "command": "python3 -u world/close_centre_v34_offline_fixtures.py",
+  "exit_code": 0,
+  "log": "close-centre-v34-offline-fixtures-once.log",
+  "wall_seconds": 0.49506549816578627
+}

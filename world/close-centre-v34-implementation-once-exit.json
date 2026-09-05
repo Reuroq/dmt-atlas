@@ -1,0 +1,6 @@
+{
+  "command": "python3 -u world/close_centre_v34_implementation.py",
+  "exit_code": 0,
+  "log": "close-centre-v34-implementation-once.log",
+  "wall_seconds": 0.36141260247677565
+}

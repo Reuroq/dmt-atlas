@@ -1,0 +1,7 @@
+{
+  "command": "python3 -u world/close_centre_v33r6_capture.py",
+  "started_utc": "2026-09-05T15:06:27.533410+00:00",
+  "finished_utc": "2026-09-05T15:06:28.269453+00:00",
+  "exit_code": 0,
+  "log": "close-centre-v33r6-capture-once.log"
+}

@@ -1,0 +1,71 @@
+<!doctype html><meta charset="utf-8"><title>Synthetic v34 offset microprobe — no journey evidence</title>
+<script src="vendor/three.min.js"></script><script>
+'use strict';
+let renderer, target, texture, geometry, mesh, scene, camera;
+const materials=[], shaderReports=[];
+const vertexShader='varying vec2 sampleUV; void main(){sampleUV=uv;gl_Position=vec4(position.xy,0.,1.);}';
+window.shaderSource=(leaf,arm)=>{
+ const c1=leaf===0?'-.62':'-.90', c2=leaf===0?'.20':'.28';
+ const second=arm==='literal'?c2:'secondOffset';
+ return `precision highp float;
+uniform sampler2D inputTex; uniform float textureRow; uniform float secondOffset;
+varying vec2 sampleUV;
+vec4 offset(vec4 a,float b){return vec4(a.xyz,a.w+b);}
+void main(){
+ float x=texture2D(inputTex,vec2(sampleUV.x,(textureRow+.5)/2.)).r;
+ vec4 predecessor=vec4(0.,0.,0.,x);
+ vec4 parent=offset(predecessor,${c1});
+ vec4 child=offset(parent,${second});
+ float folded=x+(${c1}+${c2});
+ gl_FragColor=vec4(x,parent.w,child.w,folded);
+}`;
+};
+function reportProgram(gl,program,vertex,fragment){
+ const ext=gl.getExtension('WEBGL_debug_shaders');
+ return {linked:gl.getProgramParameter(program,gl.LINK_STATUS),
+  vertexCompiled:gl.getShaderParameter(vertex,gl.COMPILE_STATUS),fragmentCompiled:gl.getShaderParameter(fragment,gl.COMPILE_STATUS),
+  programLog:gl.getProgramInfoLog(program),vertexLog:gl.getShaderInfoLog(vertex),fragmentLog:gl.getShaderInfoLog(fragment),
+  vertexSource:gl.getShaderSource(vertex),fragmentSource:gl.getShaderSource(fragment),
+  translatedVertex:ext?ext.getTranslatedShaderSource(vertex):null,
+  translatedFragment:ext?ext.getTranslatedShaderSource(fragment):null};
+}
+window.setupMicroprobe=data=>{
+ renderer=new THREE.WebGLRenderer({antialias:false});renderer.setSize(128,1);
+ renderer.debug.checkShaderErrors=true;
+ renderer.debug.onShaderError=(gl,p,v,f)=>{const r=reportProgram(gl,p,v,f);shaderReports.push(r);throw new Error('GLSL_COMPILE_OR_LINK_FAILED '+JSON.stringify(r));};
+ const gl=renderer.getContext(), ext=gl.getExtension('WEBGL_debug_renderer_info');
+ const precision=gl.getShaderPrecisionFormat(gl.FRAGMENT_SHADER,gl.HIGH_FLOAT);
+ target=new THREE.WebGLRenderTarget(128,1,{type:THREE.FloatType,minFilter:THREE.NearestFilter,magFilter:THREE.NearestFilter,depthBuffer:false});
+ texture=new THREE.DataTexture(new Float32Array(data),128,2,THREE.RGBAFormat,THREE.FloatType);
+ texture.minFilter=texture.magFilter=THREE.NearestFilter;texture.needsUpdate=true;
+ scene=new THREE.Scene();camera=new THREE.Camera();geometry=new THREE.PlaneGeometry(2,2);
+ mesh=new THREE.Mesh(geometry);mesh.frustumCulled=false;scene.add(mesh);
+ return {three:THREE.REVISION,webgl2:renderer.capabilities.isWebGL2,precision:renderer.capabilities.precision,
+  highFloat:{rangeMin:precision.rangeMin,rangeMax:precision.rangeMax,precision:precision.precision},
+  version:gl.getParameter(gl.VERSION),shadingLanguage:gl.getParameter(gl.SHADING_LANGUAGE_VERSION),
+  vendor:gl.getParameter(gl.VENDOR),renderer:gl.getParameter(gl.RENDERER),
+  unmaskedRenderer:ext?gl.getParameter(ext.UNMASKED_RENDERER_WEBGL):null};
+};
+window.runMicroprobeArm=({leaf,arm,second})=>{
+ const material=new THREE.ShaderMaterial({vertexShader,fragmentShader:shaderSource(leaf,arm),
+  uniforms:{inputTex:{value:texture},textureRow:{value:leaf},secondOffset:{value:second}},
+  depthTest:false,depthWrite:false,blending:THREE.NoBlending});
+ materials.push(material);mesh.material=material;
+ renderer.setRenderTarget(target);renderer.compile(scene,camera);renderer.render(scene,camera);
+ const gl=renderer.getContext(), program=renderer.properties.get(material).currentProgram;
+ const report=reportProgram(gl,program.program,program.vertexShader,program.fragmentShader);
+ shaderReports.push(report);
+ if(!report.linked||!report.vertexCompiled||!report.fragmentCompiled)throw new Error('Invalid shader program');
+ const pixels=new Float32Array(128*4);renderer.readRenderTargetPixels(target,0,0,128,1,pixels);
+ const glError=gl.getError();if(glError!==gl.NO_ERROR)throw new Error('GL error '+glError);
+ return {leaf,arm,secondOffset:second,source:material.fragmentShader,vertexSource:vertexShader,
+  shader:report,pixels:Array.from(pixels),bits:Array.from(new Uint32Array(pixels.buffer)),glError};
+};
+window.getMicroprobeShaderReports=()=>shaderReports;
+window.closeMicroprobe=()=>{
+ for(const m of materials)m.dispose();
+ if(texture)texture.dispose();if(target)target.dispose();if(geometry)geometry.dispose();
+ if(renderer){renderer.dispose();renderer.forceContextLoss();}
+ return {materialsDisposed:materials.length,resourcesDisposed:true};
+};
+</script>

@@ -1,0 +1,160 @@
+[
+  {
+    "diagnostic_only": true,
+    "file": "diagnostic-chrysanthemum-v23-entry.png",
+    "capture_sha256": "a0ecc09faccd2fc4c4a728db5b4af51d1c5e342fb5fded4602a64f39e5953182",
+    "capture_diagnostics": {
+      "stage": "chrysanthemum",
+      "routeIndex": 2,
+      "entered": true,
+      "paused": true,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 0.3000999999999999,
+      "animTime": 3.5567999994277937,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 3.5567999994277937,
+      "frames": 4,
+      "position": [
+        0,
+        1.7,
+        8
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum"
+      ],
+      "entities": [],
+      "interactions": 0,
+      "evidence": [
+        "phase|The Chrysanthemum",
+        "geometry|The Chrysanthemum",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Mandalas & symmetry fields"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 35,
+      "portals": [
+        {
+          "x": 0,
+          "z": -23,
+          "width": 3.5,
+          "target": "next"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 1,
+      "triangles": 2,
+      "geometries": 5,
+      "actors": [],
+      "uncitedMeshes": 0
+    },
+    "errors": [],
+    "panel_resolution": [
+      600,
+      400
+    ],
+    "same_ray_projection_per_panel": true,
+    "root_delta_tolerance": 0.002,
+    "reference_max_steps": 4096,
+    "limits": "CPU/GPU float comparison, not proof; UI/postprocess still present; no realism credit",
+    "source_hashes": {
+      "continuum.js": "db2b4e328ba49b0157a7dd2b988d28cb10bcdda5d646557419b20880ef32db2e",
+      "continuum-v22.js": "db2b4e328ba49b0157a7dd2b988d28cb10bcdda5d646557419b20880ef32db2e",
+      "diagnostic-continuum-v23.js": "7bc4f97d8eeb4ae2ebf481f6bec8cc14327fe6d4c3cf825d37e01281ed75ff4a",
+      "diagnostic-continuum-v23.html": "65ba0c7fd9fc41e89337d4f36382ba8a5ba308213f14f8104d72f8749b4da70f",
+      "fractal.js": "fd7a14ebfc87988e95e14255adc903e079cb47bb075db7612d5d57091ed235d8",
+      "trip.js": "a3110f839284674b008a5bcb739190236b300dbbf5aa784e63d40b63a66e986d"
+    }
+  },
+  {
+    "diagnostic_only": true,
+    "file": "diagnostic-chrysanthemum-v23-deep.png",
+    "capture_sha256": "dfd180ed47b3d2f4e027f29f75b08e0c1eb977e531fda83609ca2766ea6fc689",
+    "capture_diagnostics": {
+      "stage": "chrysanthemum",
+      "routeIndex": 2,
+      "entered": true,
+      "paused": true,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 4.900199999999989,
+      "animTime": 8.156899999427795,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 8.156899999427795,
+      "frames": 9,
+      "position": [
+        0,
+        1.7,
+        -6.613439999999998
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum"
+      ],
+      "entities": [],
+      "interactions": 0,
+      "evidence": [
+        "phase|The Chrysanthemum",
+        "geometry|The Chrysanthemum",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Mandalas & symmetry fields"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 35,
+      "portals": [
+        {
+          "x": 0,
+          "z": -23,
+          "width": 3.5,
+          "target": "next"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 1,
+      "triangles": 2,
+      "geometries": 5,
+      "actors": [],
+      "uncitedMeshes": 0
+    },
+    "errors": [],
+    "panel_resolution": [
+      600,
+      400
+    ],
+    "same_ray_projection_per_panel": true,
+    "root_delta_tolerance": 0.002,
+    "reference_max_steps": 4096,
+    "limits": "CPU/GPU float comparison, not proof; UI/postprocess still present; no realism credit",
+    "source_hashes": {
+      "continuum.js": "db2b4e328ba49b0157a7dd2b988d28cb10bcdda5d646557419b20880ef32db2e",
+      "continuum-v22.js": "db2b4e328ba49b0157a7dd2b988d28cb10bcdda5d646557419b20880ef32db2e",
+      "diagnostic-continuum-v23.js": "7bc4f97d8eeb4ae2ebf481f6bec8cc14327fe6d4c3cf825d37e01281ed75ff4a",
+      "diagnostic-continuum-v23.html": "65ba0c7fd9fc41e89337d4f36382ba8a5ba308213f14f8104d72f8749b4da70f",
+      "fractal.js": "fd7a14ebfc87988e95e14255adc903e079cb47bb075db7612d5d57091ed235d8",
+      "trip.js": "a3110f839284674b008a5bcb739190236b300dbbf5aa784e63d40b63a66e986d"
+    }
+  }
+]
