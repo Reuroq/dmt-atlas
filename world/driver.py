@@ -142,11 +142,24 @@ def load_ledger(path: Path = LEDGER) -> dict:
             used = 0
         data[t] = {"turns_used": max(0, used), "grade": str(row.get("grade", "PENDING") or "PENDING"),
                    "note": str(row.get("note", "") or "")}
+    # turns_used is the DRIVER's number. Astra edits targets.json for grade/note and has bumped turns_used itself
+    # (return and afterglow each lost a turn on Sep 5), so the private copy wins whenever it exists.
+    priv = path.with_suffix(".driver.json")
+    if priv.exists():
+        try:
+            mine = json.loads(priv.read_text(encoding="utf-8"))
+            for t in ORDER:
+                if isinstance(mine.get(t), int):
+                    data[t]["turns_used"] = max(0, mine[t])
+        except Exception as e:
+            log(f"private ledger unreadable ({e!r}); using targets.json counts")
     return data
 
 
 def save_ledger(data: dict, path: Path = LEDGER) -> None:
     path.write_text(json.dumps(data, indent=1, ensure_ascii=False), encoding="utf-8")
+    path.with_suffix(".driver.json").write_text(
+        json.dumps({t: data[t]["turns_used"] for t in ORDER}, indent=1), encoding="utf-8")
 
 
 def current_target(ledger: dict):
@@ -364,6 +377,11 @@ def selftest():
     (tmp / "partial.json").write_text(json.dumps({"rush": {"turns_used": "3", "grade": "CLOSE"}}), encoding="utf-8")
     p = load_ledger(tmp / "partial.json")
     check("partial ledger keeps rush 3/CLOSE, others PENDING", p["rush"]["turns_used"] == 3 and p["rush"]["grade"] == "CLOSE" and p["onset"]["grade"] == "PENDING")
+    # the private counter wins over an Astra-bumped turns_used, grade/note still come from the shared file
+    save_ledger(p, tmp / "partial.json")
+    (tmp / "partial.json").write_text(json.dumps({"rush": {"turns_used": 9, "grade": "RECOGNISE", "note": "astra"}}), encoding="utf-8")
+    p2 = load_ledger(tmp / "partial.json")
+    check("private turns_used wins, grade from shared file", p2["rush"]["turns_used"] == 3 and p2["rush"]["grade"] == "RECOGNISE" and p2["rush"]["note"] == "astra")
     # prompt composition
     led = load_ledger(tmp / "targets.json")
     txt = compose_prompt(led, "onset", 0)
