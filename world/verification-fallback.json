@@ -1,0 +1,9 @@
+{
+  "errors": [],
+  "sections": {
+    "fallback": {
+      "unavailableWebGL": "visible fallback and working local evidence link"
+    }
+  },
+  "passed": true
+}

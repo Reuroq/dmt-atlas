@@ -1,67 +1,68 @@
-# Atlas of Reported Worlds
+# Through — a reported-pattern journey
 
-Open **index.html** in a WebGL-capable browser. Everything needed for the museum
-is local: no install, build server, API key, CDN connection or external fonts.
-When served as part of the existing site, the address is `/world/`.
+Open **index.html** in a WebGL-capable browser. Everything runs locally: no install,
+server, API key, CDN or network connection is needed. On the site, visit `/world/`.
 
-## Explore
+## Take the journey
 
-- WASD / arrow keys: move. Shift: faster movement.
-- Drag the scene: look. Click a glowing exhibit: evidence.
-- E: inspect the exhibit in the crosshair. I: searchable index.
-- H: return to the current room's entrance. Escape: close the evidence panel.
-- Mobile: directional pad to move, drag to look, tap exhibits.
-- Room navigation and the curated route work without walking.
-- Pause motion disables ambient rotation and floating; system reduced-motion
-  preferences are respected. There is no autoplay audio, flashing or forced flight.
+Begin in an ordinary room and pass through geometry, the chrysanthemum, a rush,
+the membrane, the Waiting Room and Cathedral, encounters, visible language,
+return and afterglow. Workshop, Garden, clinical room and Void are optional paths
+that return to the Cathedral. Beings turn toward you and offer changing forms.
 
-Eight independently walkable spaces interpret the Waiting Room, Domed Cathedral,
-Workshop, Garden, Operating Theater, Library, Void and Hyperspace/Observatory.
-The index covers all 172 atlas entries, including those outside the corpus's
-fixed 128-node vocabulary. Deep links use `#space=garden` or
-`#node=realm%7CThe%20Void`.
+- **Begin the journey:** a paced passage of about four minutes by default.
+- **WASD / arrows:** walk; walking switches off the paced passage.
+- **Drag:** look around. Approach or click a being to engage it.
+- **Move onward:** advance without walking. Optional paths appear in the Cathedral.
+- **Paced journey:** switch between manual and automatic passage.
+- **Pause / Space:** freeze movement, animation and journey time.
+- **Sources / E:** open the current scene's evidence; Escape closes it.
+- **Reduced motion:** still views with no automatic camera movement or ambient
+  animation. Timed passage and manual controls remain available. The initial
+  setting respects the system preference.
+- **Start again:** return to the entrance. Mobile has touch walking and drag look.
 
-## Evidence and visual conventions
+There is no audio. The complete evidence atlas remains available through Sources
+and as the fallback when WebGL is unavailable.
 
-Architecture is a procedural interpretation, not a witness image or an assertion
-of literal places. Scale, palette, layout, decorative lighting and room order
-are editorial choices. The eight-space route is a museum itinerary, not an
-empirically observed sequence of experiences. Abstract exhibit gems are symbols,
-not claimed likenesses of beings.
+## Evidence and interpretation
 
-Each room and exhibit exposes its atlas descriptions and citations, corpus
-mention count when available, dated report permalinks with stored tag sequences,
-credited depiction links, adjacent-mention connections and co-occurrence pairs.
-All report records are local metadata; full report prose is not in this dataset.
-Posts can be unavailable. No Reddit scraping or community-image downloading occurs.
+This is a procedural synthesis of reported phenomenology, not a witness image,
+claim of literal places or prediction of anyone's experience. Route, scale,
+palette, architecture, ordinary furnishings and character designs are editorial
+choices. Encounters and their order vary; the journey is not frequency-weighted.
 
-The Observatory has 128 points, with a minimum radius plus a square-root scaling
-of tagged-report count. Sphere positions use an arbitrary golden-angle layout;
-they do not encode similarity, geography or measured distances. Its 80 connecting
-lines are the strongest stored co-occurrence pairs, not transitions. The methods
-panel explains corpus limits, the fixed-vocabulary saturation curve, and candidate
-places from a separate phrase scan. Corpus counts are not population prevalence.
+Sources links every scene and its beings to selected atlas descriptions,
+citations, tagged-report metadata and credited depiction candidates. Adjacent
+tag mentions are not verified travel chronology. Archive counts are not
+population prevalence. Full report prose is not stored locally; external links
+may be unavailable, and depiction candidates may include AI-generated work.
+No community images are downloaded or displayed as witness imagery.
 
-## Files and reproducibility
+The original museum is retained at **evidence.html** as a searchable evidence
+layer covering all 172 atlas entries, 103 sources and 14,309 report records.
 
-- `world.js`, `style.css`, `index.html`: renderer and UI.
-- `data.js`: generated, local browser evidence bundle.
-- `build_data.py`: reads the repository research; writes only under `world/`.
-- `manifest.json`: SHA-256 hashes of all research inputs.
-- `vendor/three.min.js`: pinned Three.js 0.160.1; adjacent MIT license.
-- `verify.py`: foreground headless Playwright checks; no server or GUI.
-- `verification.json`: latest acceptance results and render statistics.
-- `latest.png`: current entrance screenshot for the build wall.
-- Other PNGs: desktop room, evidence-panel and mobile screenshots.
+## Files and verification
+
+- `index.html`, `trip.css`, `trip.js`: active first-person experience.
+- `evidence.html`, `world.js`, `style.css`: retained evidence atlas.
+- `data.js`: bundled evidence; `build_data.py` regenerates it from local research.
+- `vendor/three.min.js`: local Three.js 0.160.1 with its adjacent license.
+- `verify.py`: foreground, offline headless acceptance using real controls.
+- `verification*.json`: acceptance results; `journey-*.png`: saved renders.
+- `latest.png`, `status.txt`, `NOTES.md`: current render, status and build notes.
 
 From the repository root:
 
 ```powershell
-python world/build_data.py
+node --check world/trip.js
 python world/verify.py
 ```
 
-Verification needs Python Playwright and its Chromium headless runtime, already
-present in this development environment. Runtime visitors need only a browser.
-The evidence index remains usable if WebGL or the 3D library is unavailable.
-No repository files outside `world/` are changed by the build or checks.
+Verification needs Python Playwright, Chromium and Pillow. It checks the full
+manual route, branches, collisions, interactions, evidence, pause/reduced motion,
+mobile controls/layout, real-time paced completion and WebGL fallback. The paced
+check takes several minutes. Targeted reruns accept
+`--only desktop`, `--only mobile`, `--only paced` or `--only fallback`.
+Diagnostics are read-only; checks do not inject navigation or fake journey time.
+All generated files stay under `world/`.

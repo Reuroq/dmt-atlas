@@ -1,0 +1,94 @@
+{
+  "errors": [],
+  "result": {
+    "stage": "cathedral",
+    "routeIndex": 6,
+    "entered": true,
+    "paused": false,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 1.2998999999999983,
+    "animTime": 12.050499999952335,
+    "transition": false,
+    "renderReady": true,
+    "frames": 293,
+    "position": [
+      0,
+      1.7,
+      19
+    ],
+    "yaw": 0,
+    "pitch": 0.12,
+    "visited": [
+      "onset",
+      "geometry",
+      "chrysanthemum",
+      "rush",
+      "membrane",
+      "waiting",
+      "cathedral"
+    ],
+    "entities": [
+      "elf",
+      "elf"
+    ],
+    "interactions": 0,
+    "evidence": [
+      "realm|The Domed Cathedral",
+      "phase|Breakthrough",
+      "geometry|Breathing & Liquid Surfaces"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 11,
+    "portals": [
+      {
+        "x": 0,
+        "z": -25,
+        "width": 9,
+        "target": "next"
+      },
+      {
+        "x": -22,
+        "z": -6,
+        "width": 5,
+        "target": "workshop"
+      },
+      {
+        "x": -22,
+        "z": 9,
+        "width": 5,
+        "target": "garden"
+      },
+      {
+        "x": 22,
+        "z": -6,
+        "width": 5,
+        "target": "clinical"
+      },
+      {
+        "x": 22,
+        "z": 9,
+        "width": 5,
+        "target": "void"
+      }
+    ],
+    "drawCalls": 237,
+    "triangles": 96208,
+    "geometries": 76,
+    "actors": [
+      {
+        "kind": "elf",
+        "engaged": false,
+        "joints": 2,
+        "arm": 0.08476620253909321
+      },
+      {
+        "kind": "elf",
+        "engaged": false,
+        "joints": 2,
+        "arm": -0.013843751597237554
+      }
+    ],
+    "uncitedMeshes": 0
+  }
+}

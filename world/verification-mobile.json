@@ -1,0 +1,16 @@
+{
+  "errors": [],
+  "sections": {
+    "mobile": {
+      "checks": [
+        "system reduced motion",
+        "touch walk/release",
+        "touch look",
+        "sources",
+        "branch return",
+        "unobscured controls at 390x844, 360x640, 844x390"
+      ]
+    }
+  },
+  "passed": true
+}

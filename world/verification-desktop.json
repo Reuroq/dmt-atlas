@@ -1,5 +1,4 @@
 {
-  "passed": true,
   "errors": [],
   "sections": {
     "desktop": {
@@ -259,96 +258,8 @@
         "restart",
         "reduced motion pixel stillness"
       ]
-    },
-    "mobile": {
-      "checks": [
-        "system reduced motion",
-        "touch walk/release",
-        "touch look",
-        "sources",
-        "branch return",
-        "unobscured controls at 390x844, 360x640, 844x390"
-      ]
-    },
-    "paced": {
-      "observed": [
-        "onset",
-        "geometry",
-        "chrysanthemum",
-        "rush",
-        "membrane",
-        "waiting",
-        "cathedral",
-        "contact",
-        "download",
-        "return",
-        "afterglow"
-      ],
-      "wallSeconds": 237.3,
-      "complete": {
-        "stage": "afterglow",
-        "routeIndex": 10,
-        "entered": true,
-        "paused": false,
-        "paced": true,
-        "reduced": false,
-        "elapsed": 0.43330000000001767,
-        "animTime": 211.49080000000495,
-        "transition": false,
-        "renderReady": true,
-        "frames": 9850,
-        "position": [
-          0,
-          1.7,
-          6.5
-        ],
-        "yaw": 0,
-        "pitch": 0,
-        "visited": [
-          "onset",
-          "geometry",
-          "chrysanthemum",
-          "rush",
-          "membrane",
-          "waiting",
-          "cathedral",
-          "contact",
-          "download",
-          "return",
-          "afterglow"
-        ],
-        "entities": [],
-        "interactions": 11,
-        "evidence": [
-          "phase|Afterglow / Integration",
-          "phase|The Return"
-        ],
-        "missingEvidence": [],
-        "sourceCount": 4,
-        "portals": [
-          {
-            "x": 0,
-            "z": -8.95,
-            "width": 3,
-            "target": "next"
-          }
-        ],
-        "drawCalls": 61,
-        "triangles": 6248,
-        "geometries": 17,
-        "actors": [],
-        "uncitedMeshes": 0
-      }
-    },
-    "fallback": {
-      "unavailableWebGL": "visible fallback and working local evidence link"
     }
   },
-  "runNote": "Combined completed desktop acceptance and successful targeted mobile, paced and fallback runs.",
-  "sectionRuns": {
-    "desktop": "verification-desktop.json",
-    "mobile": "verification-mobile.json",
-    "paced": "verification-paced.json",
-    "fallback": "verification-fallback.json"
-  }
+  "passed": true,
+  "runNote": "Desktop completed successfully in the full run; subsequent mobile check failed on an instantaneous synthetic swipe and was corrected and rerun separately."
 }

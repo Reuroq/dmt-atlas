@@ -1,0 +1,76 @@
+{
+  "errors": [],
+  "sections": {
+    "paced": {
+      "observed": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush",
+        "membrane",
+        "waiting",
+        "cathedral",
+        "contact",
+        "download",
+        "return",
+        "afterglow"
+      ],
+      "wallSeconds": 237.3,
+      "complete": {
+        "stage": "afterglow",
+        "routeIndex": 10,
+        "entered": true,
+        "paused": false,
+        "paced": true,
+        "reduced": false,
+        "elapsed": 0.43330000000001767,
+        "animTime": 211.49080000000495,
+        "transition": false,
+        "renderReady": true,
+        "frames": 9850,
+        "position": [
+          0,
+          1.7,
+          6.5
+        ],
+        "yaw": 0,
+        "pitch": 0,
+        "visited": [
+          "onset",
+          "geometry",
+          "chrysanthemum",
+          "rush",
+          "membrane",
+          "waiting",
+          "cathedral",
+          "contact",
+          "download",
+          "return",
+          "afterglow"
+        ],
+        "entities": [],
+        "interactions": 11,
+        "evidence": [
+          "phase|Afterglow / Integration",
+          "phase|The Return"
+        ],
+        "missingEvidence": [],
+        "sourceCount": 4,
+        "portals": [
+          {
+            "x": 0,
+            "z": -8.95,
+            "width": 3,
+            "target": "next"
+          }
+        ],
+        "drawCalls": 61,
+        "triangles": 6248,
+        "geometries": 17,
+        "actors": [],
+        "uncitedMeshes": 0
+      }
+    }
+  },
+  "passed": true
+}
