@@ -18,3 +18,8 @@ data/research/raw/
 # cached forum sitemaps (regenerable via demand_mine.py)
 data/demand/*.xml
 data/corpus/raw/
+world/*.log
+world/*.err
+world/*.out
+world/driver.py
+world/wall.html

@@ -1,0 +1,206 @@
+{
+  "initial": {
+    "room": "cathedral",
+    "renderReady": true,
+    "entered": false,
+    "position": [
+      -1.8,
+      4.1,
+      24
+    ],
+    "yaw": 0.16,
+    "pitch": 0.14,
+    "reduced": false,
+    "drawCalls": 216,
+    "triangles": 68898,
+    "geometries": 203,
+    "textures": 1,
+    "nodes": 172,
+    "pickables": 8,
+    "missingExhibits": []
+  },
+  "walk": {
+    "room": "cathedral",
+    "renderReady": true,
+    "entered": true,
+    "position": [
+      0,
+      2.2,
+      16.746279999999995
+    ],
+    "yaw": 0,
+    "pitch": 0.06,
+    "reduced": false,
+    "drawCalls": 212,
+    "triangles": 66374,
+    "geometries": 207,
+    "textures": 5,
+    "nodes": 172,
+    "pickables": 8,
+    "missingExhibits": []
+  },
+  "cathedral_reports": 8,
+  "rooms": [
+    {
+      "room": "threshold",
+      "renderReady": true,
+      "entered": true,
+      "position": [
+        0,
+        2.2,
+        19
+      ],
+      "yaw": 0,
+      "pitch": 0.06,
+      "reduced": false,
+      "drawCalls": 146,
+      "triangles": 66974,
+      "geometries": 141,
+      "textures": 5,
+      "nodes": 172,
+      "pickables": 8,
+      "missingExhibits": []
+    },
+    {
+      "room": "cathedral",
+      "renderReady": true,
+      "entered": true,
+      "position": [
+        0,
+        2.2,
+        19
+      ],
+      "yaw": 0,
+      "pitch": 0.06,
+      "reduced": false,
+      "drawCalls": 215,
+      "triangles": 67578,
+      "geometries": 198,
+      "textures": 5,
+      "nodes": 172,
+      "pickables": 8,
+      "missingExhibits": []
+    },
+    {
+      "room": "workshop",
+      "renderReady": true,
+      "entered": true,
+      "position": [
+        0,
+        2.2,
+        19
+      ],
+      "yaw": 0,
+      "pitch": 0.06,
+      "reduced": false,
+      "drawCalls": 194,
+      "triangles": 36524,
+      "geometries": 164,
+      "textures": 5,
+      "nodes": 172,
+      "pickables": 8,
+      "missingExhibits": []
+    },
+    {
+      "room": "garden",
+      "renderReady": true,
+      "entered": true,
+      "position": [
+        0,
+        2.2,
+        19
+      ],
+      "yaw": 0,
+      "pitch": 0.06,
+      "reduced": false,
+      "drawCalls": 254,
+      "triangles": 18416,
+      "geometries": 192,
+      "textures": 5,
+      "nodes": 172,
+      "pickables": 8,
+      "missingExhibits": []
+    },
+    {
+      "room": "theater",
+      "renderReady": true,
+      "entered": true,
+      "position": [
+        0,
+        2.2,
+        19
+      ],
+      "yaw": 0,
+      "pitch": 0.06,
+      "reduced": false,
+      "drawCalls": 94,
+      "triangles": 12016,
+      "geometries": 74,
+      "textures": 5,
+      "nodes": 172,
+      "pickables": 8,
+      "missingExhibits": []
+    },
+    {
+      "room": "library",
+      "renderReady": true,
+      "entered": true,
+      "position": [
+        0,
+        2.2,
+        19
+      ],
+      "yaw": 0,
+      "pitch": 0.06,
+      "reduced": false,
+      "drawCalls": 72,
+      "triangles": 16592,
+      "geometries": 68,
+      "textures": 5,
+      "nodes": 172,
+      "pickables": 8,
+      "missingExhibits": []
+    },
+    {
+      "room": "void",
+      "renderReady": true,
+      "entered": true,
+      "position": [
+        0,
+        2.2,
+        19
+      ],
+      "yaw": 0,
+      "pitch": 0.06,
+      "reduced": false,
+      "drawCalls": 34,
+      "triangles": 9890,
+      "geometries": 30,
+      "textures": 5,
+      "nodes": 172,
+      "pickables": 8,
+      "missingExhibits": []
+    },
+    {
+      "room": "observatory",
+      "renderReady": true,
+      "entered": true,
+      "position": [
+        0,
+        2.2,
+        19
+      ],
+      "yaw": 0,
+      "pitch": 0.06,
+      "reduced": false,
+      "drawCalls": 168,
+      "triangles": 20424,
+      "geometries": 164,
+      "textures": 5,
+      "nodes": 172,
+      "pickables": 136,
+      "missingExhibits": []
+    }
+  ],
+  "errors": []
+}

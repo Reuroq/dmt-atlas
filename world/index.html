@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#07151b">
+  <meta name="description" content="A walkable, source-grounded museum of the spaces, beings and patterns people report during DMT experiences.">
+  <title>The Atlas of Reported Worlds · DMT Atlas</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="vendor/three.min.js"></script>
+  <script defer src="data.js"></script>
+  <script defer src="world.js"></script>
+</head>
+<body>
+  <main id="world" aria-label="Interactive three-dimensional museum"></main>
+  <div class="vignette" aria-hidden="true"></div>
+  <header>
+    <a class="brand" href="./index.html" aria-label="DMT Atlas home"><span class="brand-mark">✳</span><span>DMT ATLAS<small>FIELD MUSEUM / VOL. 01</small></span></a>
+    <nav aria-label="Museum tools">
+      <button id="atlasButton"><span class="desktop">Explore the </span>index <span class="key">I</span></button>
+      <button id="methodButton">About <span class="desktop">the map</span></button>
+      <button id="motionButton" aria-pressed="false" title="Pause ambient movement">Pause motion</button>
+    </nav>
+  </header>
+  <section class="intro" id="intro">
+    <p class="eyebrow"><span class="small-line"></span> A CARTOGRAPHY OF EXPERIENCE</p>
+    <h1>Places beyond<br>the <em>ordinary.</em></h1>
+    <p class="intro-copy">Enter the spaces people describe.<br>Follow the patterns. Meet the evidence.</p>
+    <button class="primary" id="enterButton">Enter the atlas <span>↗</span></button>
+    <p class="intro-note">A museum of reports, not a literal other world.<br>All architecture is a procedural interpretation.</p>
+    <div class="intro-stats"><span><strong>14,309</strong>TAGGED REPORTS</span><span><strong>103</strong>CITED SOURCES</span><span><strong>8</strong>WALKABLE SPACES</span></div>
+  </section>
+  <div id="location" class="location" hidden><p class="eyebrow" id="roomNumber"></p><h1 id="roomTitle"></h1><p id="roomSubtitle"></p><button id="roomEvidence">Read this space <span>↗</span></button></div>
+  <div class="scene-caption" id="sceneCaption"><span class="live-dot"></span> THE DOMED CATHEDRAL <small>INTERPRETIVE RECONSTRUCTION</small></div>
+  <div class="orientation" aria-hidden="true"><span>N</span><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="46"/><circle cx="60" cy="60" r="28"/><path d="M60 5V20M60 100V115M5 60H20M100 60H115"/><g id="compassNeedle"><path d="M60 25L68 68L60 62L52 68Z" class="needle"/></g></svg><span>AN INTERPRETIVE MAP</span></div>
+  <div id="crosshair" aria-hidden="true" hidden>+</div>
+  <button id="inspectButton" class="inspect" hidden></button>
+  <div id="tourBar" hidden><span id="tourLabel"></span><button id="tourNext">Next space →</button><button id="tourStop" aria-label="End guided route">×</button></div>
+  <footer>
+    <div class="footer-top"><span class="eyebrow">THE COLLECTION <span class="muted">/ CHOOSE A SPACE</span></span><button id="tourButton">Take the curated route <span>→</span></button></div>
+    <nav class="rooms" id="roomNav" aria-label="Walkable spaces"></nav>
+    <div class="footer-bottom"><span id="controlsHint"><kbd>W A S D</kbd> move <i>·</i> drag to look <i>·</i> click an exhibit</span><span>REPORTS, NOT METAPHYSICS <span class="gold-dot">●</span></span></div>
+  </footer>
+  <div id="touchControls" aria-label="Touch movement controls" hidden><button data-move="forward" aria-label="Move forward">↑</button><button data-move="left" aria-label="Move left">←</button><button data-move="back" aria-label="Move backward">↓</button><button data-move="right" aria-label="Move right">→</button></div>
+  <aside id="panel" hidden aria-label="Evidence and atlas index"><div class="panel-top"><span id="panelLabel" class="eyebrow">FIELD NOTES</span><button id="closePanel" aria-label="Close panel">×</button></div><div id="panelContent"></div></aside>
+  <div id="notice" role="status" hidden></div>
+  <noscript><div class="no-script">JavaScript is needed to walk through this museum. The source collection remains available in <a href="../data/atlas.json">the atlas research file</a>.</div></noscript>
+</body>
+</html>
