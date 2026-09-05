@@ -138,11 +138,23 @@ def load_ledger(path: Path = LEDGER) -> dict:
             used = 0
         data[ph] = {"turns_used": max(0, used), "status": str(row.get("status", "PENDING") or "PENDING"),
                     "note": str(row.get("note", "") or "")}
+    # turns_used is the driver's number; the agent may rewrite phases.json, so the private copy wins.
+    priv = path.with_suffix(".driver.json")
+    if priv.exists():
+        try:
+            mine = json.loads(priv.read_text(encoding="utf-8"))
+            for ph in ORDER:
+                if isinstance(mine.get(ph), int):
+                    data[ph]["turns_used"] = max(0, mine[ph])
+        except Exception as e:
+            log(f"private ledger unreadable ({e!r}); using phases.json counts")
     return data
 
 
 def save_ledger(data: dict, path: Path = LEDGER) -> None:
     path.write_text(json.dumps(data, indent=1, ensure_ascii=False), encoding="utf-8")
+    path.with_suffix(".driver.json").write_text(
+        json.dumps({ph: data[ph]["turns_used"] for ph in ORDER}, indent=1), encoding="utf-8")
 
 
 def current_phase(ledger: dict):
@@ -334,6 +346,12 @@ def selftest():
     check("all spent -> closing", current_phase(led) is None)
     (tmp / "bad.json").write_text("{nope", encoding="utf-8")
     check("invalid ledger -> fresh", current_phase(load_ledger(tmp / "bad.json")) == "schema")
+    lp = load_ledger(tmp / "priv.json")
+    lp["schema"]["turns_used"] = 2
+    save_ledger(lp, tmp / "priv.json")
+    (tmp / "priv.json").write_text(json.dumps({"schema": {"turns_used": 7, "status": "DONE", "note": "agent"}}), encoding="utf-8")
+    lp2 = load_ledger(tmp / "priv.json")
+    check("private turns_used wins, status from shared file", lp2["schema"]["turns_used"] == 2 and lp2["schema"]["status"] == "DONE")
     # artifact detection with globs
     (tmp / "examples").mkdir()
     s0 = artifact_state("schema", tmp)
