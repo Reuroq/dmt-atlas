@@ -17,11 +17,58 @@ import time
 from pathlib import Path
 
 USAGE = Path("/home/clawd/single_gpt/usage.jsonl")
+CODEX_SESSIONS = Path("/home/clawd/.codex/sessions")
 ISO = "%Y-%m-%dT%H:%M:%S"
 
 
 def now_iso() -> str:
     return time.strftime(ISO)
+
+
+def _iso_epoch(s: str) -> float:
+    return time.mktime(time.strptime(s[:19], ISO))
+
+
+def codex_rows(cwd: str, t0: str, t1: str, root: Path = CODEX_SESSIONS) -> list:
+    """Ground truth: Codex's own rollout logs. Every `token_count` event carries `last_token_usage` for one API
+    request (input incl. cached, output, reasoning) with a UTC timestamp. Sum the events inside [t0, t1] from
+    sessions whose cwd matches. The dashboard's usage.jsonl logs zeros on rollover turns; this does not."""
+    out = []
+    if not root.exists():
+        return out
+    t0e = _iso_epoch(t0) - 120  # a session file may predate the window by a little; mtime must be >= t0
+    for f in root.rglob("rollout-*.jsonl"):
+        try:
+            if f.stat().st_mtime < t0e:
+                continue
+            with f.open(encoding="utf-8", errors="replace") as fh:
+                first = fh.readline()
+                try:
+                    meta = json.loads(first)
+                except Exception:
+                    continue
+                if (meta.get("payload") or {}).get("cwd") != cwd:
+                    continue
+                for line in fh:
+                    if '"token_count"' not in line:
+                        continue
+                    try:
+                        e = json.loads(line)
+                    except Exception:
+                        continue
+                    ts = str(e.get("timestamp", ""))[:19]
+                    if not (t0 <= ts <= t1):
+                        continue
+                    info = ((e.get("payload") or {}).get("info") or {})
+                    u = info.get("last_token_usage") or {}
+                    if not u:
+                        continue
+                    out.append({"ts": ts, "cwd": cwd, "input": u.get("input_tokens", 0), "cached": u.get("cached_input_tokens", 0),
+                                "output": u.get("output_tokens", 0), "reasoning": u.get("reasoning_output_tokens", 0),
+                                "cost": 0.0, "iterations": 1, "session": f.name})
+        except Exception:
+            continue
+    return out
 
 
 def usage_rows(cwd: str, t0: str, t1: str, usage: Path = USAGE) -> list:
@@ -94,8 +141,11 @@ def render_md(metrics_path: Path, ledger: dict, unit_word: str, budget: int, out
         "median_tokens_per_productive_turn": int(statistics.median(prod_turn_tokens)) if prod_turn_tokens else None,
         "cached_share": round(sum(p["cached"] for p in per.values()) / max(1, sum(p["input"] for p in per.values())), 3),
     }
-    lines = [f"# Tokens per {unit_word} — measured from the dashboard's usage.jsonl", "",
-             f"Updated {now_iso()} UTC. Tokens = input + output + reasoning; cached is a share of input.", "",
+    srcs = {r.get("source", "usage") for r in rows}
+    lines = [f"# Tokens per {unit_word} — measured from Codex's own session logs", "",
+             f"Updated {now_iso()} UTC. Source: one `token_count` event per API request in ~/.codex/sessions "
+             f"(rows from: {', '.join(sorted(srcs)) or 'none'}; 'usage' = the dashboard's usage.jsonl fallback, which "
+             f"under-reports). Tokens = input + output + reasoning; cached is a share of input.", "",
              f"- Turns: **{head['turns']}** ({head['productive_turns']} productive)",
              f"- Total tokens: **{head['total_tokens']:,}**",
              f"- {unit_word.capitalize()}s closed: **{head['units_closed']}** of {len(order)}",
@@ -128,25 +178,34 @@ def render_md(metrics_path: Path, ledger: dict, unit_word: str, budget: int, out
     return head
 
 
-def turn_metric(turn: int, unit: str, k: int, productive: bool, t0: str, t1: str, cwd: str, usage: Path = USAGE) -> dict:
-    s = summarize(usage_rows(cwd, t0, t1, usage))
-    return {"t0": t0, "t1": t1, "turn": turn, "unit": unit, "k": k, "productive": bool(productive), **s}
+def turn_metric(turn: int, unit: str, k: int, productive: bool, t0: str, t1: str, cwd: str,
+                usage: Path = USAGE, codex: Path = CODEX_SESSIONS) -> dict:
+    rows = codex_rows(cwd, t0, t1, codex)
+    source = "codex"
+    if not rows:
+        rows = usage_rows(cwd, t0, t1, usage)
+        source = "usage"
+    s = summarize(rows)
+    return {"t0": t0, "t1": t1, "turn": turn, "unit": unit, "k": k, "productive": bool(productive), "source": source, **s}
 
 
-def backfill(driver_log: Path, cwd: str, metrics_path: Path, unit_word: str, date: str, usage: Path = USAGE) -> int:
-    """Reconstruct metrics rows from a driver.log written before metrics existed. Only lines after the last
-    'driver ... start' are used. Returns rows written."""
+def backfill(driver_log: Path, cwd: str, metrics_path: Path, unit_word: str, date: str,
+             usage: Path = USAGE, codex: Path = CODEX_SESSIONS) -> int:
+    """Reconstruct metrics rows from a driver.log written before metrics existed. Every driver run in the log
+    (each ' start, port' line) is a segment whose turn numbers restart; rows are keyed by their posted timestamp,
+    so re-running is idempotent. Runs without unit lines (the pre-REDIRECT5 driver) contribute nothing."""
     text = driver_log.read_text(encoding="utf-8", errors="replace").splitlines()
-    starts = [i for i, l in enumerate(text) if " start, port" in l]
-    lines = text[starts[-1]:] if starts else text
     posted = {}
     unit_of = {}
     rows = 0
     pat_unit = re.compile(rf"^(\d\d:\d\d:\d\d) turn (\d+): {unit_word} (\S+) \((\d+)/\d+")
     pat_post = re.compile(r"^(\d\d:\d\d:\d\d) posted turn (\d+)")
     pat_fin = re.compile(r"^(\d\d:\d\d:\d\d) turn (\d+) finished: (rendered|changed)=(\w+)")
-    existing = {r.get("turn") for r in load(metrics_path)}
-    for l in lines:
+    existing = {r.get("t0") for r in load(metrics_path)}
+    for l in text:
+        if " start, port" in l:
+            posted, unit_of = {}, {}
+            continue
         m = pat_unit.match(l)
         if m:
             unit_of[int(m.group(2))] = (m.group(3), int(m.group(4)))
@@ -158,11 +217,12 @@ def backfill(driver_log: Path, cwd: str, metrics_path: Path, unit_word: str, dat
         m = pat_fin.match(l)
         if m:
             n = int(m.group(2))
-            if n in existing or n not in posted or n not in unit_of:
+            if n not in posted or n not in unit_of or posted[n] in existing:
                 continue
             t1 = f"{date}T{m.group(1)}"
             u, k = unit_of[n]
-            append(metrics_path, turn_metric(n, u, k, m.group(4) == "True", posted[n], t1, cwd, usage))
+            append(metrics_path, turn_metric(n, u, k, m.group(4) == "True", posted[n], t1, cwd, usage, codex))
+            existing.add(posted[n])
             rows += 1
     return rows
 
@@ -189,9 +249,37 @@ def selftest():
     check("window+cwd filter", len(got) == 2)
     s = summarize(got)
     check("tokens = input+output+reasoning", s["tokens"] == 1070 and s["cached"] == 800 and s["requests"] == 2)
+    nocodex = tmp / "no_codex"
     m = tmp / "metrics.jsonl"
-    append(m, turn_metric(1, "onset", 1, True, "2026-09-05T20:00:00", "2026-09-05T20:05:00", "/a", usage))
-    append(m, turn_metric(2, "onset", 2, False, "2026-09-05T20:05:01", "2026-09-05T20:10:00", "/a", usage))
+    append(m, turn_metric(1, "onset", 1, True, "2026-09-05T20:00:00", "2026-09-05T20:05:00", "/a", usage, nocodex))
+    append(m, turn_metric(2, "onset", 2, False, "2026-09-05T20:05:01", "2026-09-05T20:10:00", "/a", usage, nocodex))
+    check("falls back to usage when no codex logs", load(m)[0]["source"] == "usage")
+    # codex rollout logs are the preferred source: one token_count event per API request, cwd in session_meta
+    croot = tmp / "codex" / "2026" / "09" / "05"
+    croot.mkdir(parents=True)
+
+    def ev(ts, inp, cached, out, reas):
+        return json.dumps({"timestamp": ts, "type": "event_msg", "payload": {"type": "token_count", "info": {
+            "total_token_usage": {}, "last_token_usage": {"input_tokens": inp, "cached_input_tokens": cached,
+                                                          "output_tokens": out, "reasoning_output_tokens": reas}}}})
+    (croot / "rollout-a.jsonl").write_text("\n".join([
+        json.dumps({"timestamp": "2026-09-05T19:59:00.000Z", "type": "session_meta", "payload": {"cwd": "/a"}}),
+        json.dumps({"timestamp": "2026-09-05T20:00:05.000Z", "type": "event_msg", "payload": {"type": "agent_message"}}),
+        ev("2026-09-05T20:00:10.100Z", 1000, 900, 10, 5),
+        ev("2026-09-05T20:03:00.500Z", 2000, 1900, 20, 0),
+        ev("2026-09-05T20:07:00.000Z", 5000, 0, 1, 0),
+    ]) + "\n", encoding="utf-8")
+    (croot / "rollout-b.jsonl").write_text("\n".join([
+        json.dumps({"timestamp": "2026-09-05T19:59:00.000Z", "type": "session_meta", "payload": {"cwd": "/other"}}),
+        ev("2026-09-05T20:01:00.000Z", 99999, 0, 0, 0),
+    ]) + "\n", encoding="utf-8")
+    import os
+    for f in croot.glob("*.jsonl"):  # the mtime prefilter must see these files as written after the window opened
+        os.utime(f, (_iso_epoch("2026-09-05T20:10:00"), _iso_epoch("2026-09-05T20:10:00")))
+    cr = codex_rows("/a", "2026-09-05T20:00:00", "2026-09-05T20:05:00", tmp / "codex")
+    check("codex rows: window + cwd", len(cr) == 2 and sum(r["input"] for r in cr) == 3000)
+    tmc = turn_metric(3, "geometry", 1, True, "2026-09-05T20:00:00", "2026-09-05T20:05:00", "/a", usage, tmp / "codex")
+    check("codex preferred over usage", tmc["source"] == "codex" and tmc["tokens"] == 3035 and tmc["cached"] == 2800)
     led = {"onset": {"turns_used": 2, "grade": "GAME"}, "geometry": {"turns_used": 0, "grade": "PENDING"}}
     head = render_md(m, led, "target", 2, tmp / "M.md", ["onset", "geometry"])
     check("headline totals", head["turns"] == 2 and head["productive_turns"] == 1 and head["total_tokens"] == 1070 + 2140)

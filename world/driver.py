@@ -15,6 +15,7 @@ What this driver enforces (the brief alone did not hold on Sep 5):
 Logs to world/driver.log. No gates on the model's judgment beyond these.
 """
 import hashlib
+import importlib
 import json
 import os
 import shutil
@@ -290,6 +291,10 @@ def main():
 
         before = sha1_of(LATEST)
         k_on = (ledger[target]["turns_used"] + 1) if target else 0
+        try:
+            importlib.reload(metrics)  # pick up metric fixes without restarting the run
+        except Exception as e:
+            log(f"metrics reload failed: {e!r}")
         t0 = metrics.now_iso()
         while True:
             code, r = post("/api/prompt", {"text": text})

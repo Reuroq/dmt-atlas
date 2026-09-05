@@ -7,6 +7,7 @@ change on disk each turn; two misses in a row forfeit the phase), a SIZE GUARD (
 except records/*.jsonl, no subdir over DIR_CAP_MB), a disk floor, and a closing turn. Logs to corpus/driver.log.
 """
 import hashlib
+import importlib
 import json
 import shutil
 import sys
@@ -267,6 +268,10 @@ def main():
             log(f"turn {turn}: phase {phase} ({ledger[phase]['turns_used'] + 1}/{BUDGET}, strikes {strikes})")
         before = artifact_state(phase) if phase else {}
         k_on = (ledger[phase]["turns_used"] + 1) if phase else 0
+        try:
+            importlib.reload(metrics)  # pick up metric fixes without restarting the run
+        except Exception as e:
+            log(f"metrics reload failed: {e!r}")
         t0 = metrics.now_iso()
         while True:
             code, r = post("/api/prompt", {"text": text})
