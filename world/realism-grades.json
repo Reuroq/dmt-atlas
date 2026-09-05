@@ -1,0 +1,341 @@
+{
+  "version": 1,
+  "targets": {
+    "chrysanthemum": {
+      "grade": "CLOSE",
+      "reason": "CLOSE: continuous curved red/gold and cyan/blue sheets overlap into a filled flower-like centre, with smoother coherent highlights and less streaking than v8. The horizontal colour seam is gone. However broad pale surfaces still dominate, thin dark edge artifacts remain, and the nested centre is a small repeated rosette rather than dense recursively unfolding jewelled geometry. Not RECOGNISE.",
+      "temporal_observation": "Same-camera HIGH pair narrows and twists the cyan inner rim, changes the right-hand overlap and bends the broad outer sheets while red/gold/blue regions shift. Actual folding is visible, not only texture motion, but both frames retain broad simple sheets and limited nested detail; no completed doorway transformation is demonstrated.",
+      "captures": [
+        {
+          "file": "realism-chrysanthemum-v9.png",
+          "sha256": "4a09a821513a6b76680e64609ee81ab09d3104836909bc9f6150d60f458d4354",
+          "receipt_sha256": "f78f2c36c874a37d8ba4ee997a923a98b1cb05d61a774a13225584dbd242813a",
+          "inspection": "realism_chrysanthemum_v9: numbered small JPEG inspected once; CLOSE: continuous curved red/gold and cyan/blue sheets overlap into a filled flower-like centre, with smoother coherent highlights and less streaking than v8. The horizontal colour seam is gone. However broad pale surfaces still dominate, thin dark edge artifacts remain, and the nested centre is a small repeated rosette rather than dense recursively unfolding jewelled geometry. Not RECOGNISE. Same-camera HIGH pair narrows and twists the cyan inner rim, changes the right-hand overlap and bends the broad outer sheets while red/gold/blue regions shift. Actual folding is visible, not only texture motion, but both frames retain broad simple sheets and limited nested detail; no completed doorway transformation is demonstrated."
+        },
+        {
+          "file": "realism-chrysanthemum-v9-motion.png",
+          "sha256": "42ac354d4683e7cad836d0416e748acbcc15813fa113c9afc532e60b225838ca",
+          "receipt_sha256": "3fad2c30d7961bae161dab5e6ea4655c9ff8470ee7aa1c67b138b6240477c176",
+          "inspection": "realism_chrysanthemum_v9_pair: numbered small JPEG inspected once; CLOSE: continuous curved red/gold and cyan/blue sheets overlap into a filled flower-like centre, with smoother coherent highlights and less streaking than v8. The horizontal colour seam is gone. However broad pale surfaces still dominate, thin dark edge artifacts remain, and the nested centre is a small repeated rosette rather than dense recursively unfolding jewelled geometry. Not RECOGNISE. Same-camera HIGH pair narrows and twists the cyan inner rim, changes the right-hand overlap and bends the broad outer sheets while red/gold/blue regions shift. Actual folding is visible, not only texture motion, but both frames retain broad simple sheets and limited nested detail; no completed doorway transformation is demonstrated."
+        }
+      ]
+    },
+    "onset": {
+      "grade": null,
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "captures": []
+    },
+    "geometry": {
+      "grade": null,
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "captures": []
+    },
+    "rush": {
+      "grade": null,
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "captures": []
+    },
+    "membrane": {
+      "grade": null,
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "captures": []
+    },
+    "waiting": {
+      "grade": null,
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "captures": []
+    },
+    "cathedral": {
+      "grade": null,
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "captures": []
+    },
+    "contact": {
+      "grade": null,
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "captures": []
+    },
+    "download": {
+      "grade": null,
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "captures": []
+    },
+    "return": {
+      "grade": null,
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "captures": []
+    },
+    "afterglow": {
+      "grade": null,
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "captures": []
+    },
+    "workshop": {
+      "grade": null,
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "captures": []
+    },
+    "garden": {
+      "grade": null,
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "captures": []
+    },
+    "clinical": {
+      "grade": null,
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "captures": []
+    },
+    "void": {
+      "grade": null,
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "captures": []
+    },
+    "elf": {
+      "grade": null,
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "captures": []
+    },
+    "jester": {
+      "grade": null,
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "captures": []
+    },
+    "mother": {
+      "grade": null,
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "captures": []
+    },
+    "mantis": {
+      "grade": null,
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "captures": []
+    }
+  },
+  "history": [
+    {
+      "target": "chrysanthemum",
+      "iteration": "v1",
+      "review": {
+        "grade": "CLOSE",
+        "reason": "CLOSE: continuous orange-gold radial folds and nested flower depth replace the polygon tunnel; no visible tile grid or point cloud. Broad pale yellow areas and ink-like reflection bands flatten the folds; fine relief reads as crinkled surface noise rather than coherent recursively unfolding petals. Not convincing enough for RECOGNISE.",
+        "temporal_observation": "Same-camera pair visibly rotates/reforms the petal lobes and relocates the broad reflected bands; left and right folds curl differently. Continuous morphing is visible, but both frames retain washed-out depth and noisy relief.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v1.png",
+            "sha256": "f7a92d1cd1db752f61badfab80e9eb8dc244886416fac053d0913b3956d49d74",
+            "receipt_sha256": "f90850f0a7876b23793b8417518c9e3cac570fb0acf5dbd5a7222c75a3088ea4",
+            "inspection": "realism_chrysanthemum_v1: inspected small numbered JPEG once; Same-camera pair visibly rotates/reforms the petal lobes and relocates the broad reflected bands; left and right folds curl differently. Continuous morphing is visible, but both frames retain washed-out depth and noisy relief."
+          },
+          {
+            "file": "realism-chrysanthemum-v1-motion.png",
+            "sha256": "461b98a33202a3087158490e783aea039326b7430e8a8b252d65fbc6ad418d86",
+            "receipt_sha256": "264a99df1f308651c8e864d5ea69c1bdd1b92bb2e1fd3e2e2ca3b2b6e6a97d35",
+            "inspection": "realism_chrysanthemum_v1_pair: inspected small numbered JPEG once; Same-camera pair visibly rotates/reforms the petal lobes and relocates the broad reflected bands; left and right folds curl differently. Continuous morphing is visible, but both frames retain washed-out depth and noisy relief."
+          }
+        ]
+      }
+    },
+    {
+      "target": "chrysanthemum",
+      "iteration": "v2",
+      "review": {
+        "grade": "CLOSE",
+        "reason": "CLOSE: orange-gold and deep-red continuous curled surfaces have clear nested radial depth, richer shadows and chrome-like gradients, without a mesh grid or point-cloud forms. It still resembles marbled pleated material around a simple jagged pinwheel. Large smooth patches dominate; fine streaks look engraved onto folds, not recursively unfolding solid petals. Not yet RECOGNISE.",
+        "temporal_observation": "The same-camera pair visibly changes upper petal widths and curls, rotates the central nested lobes, and shifts left/right red recesses and highlights. This establishes morphing and rotation, not a complete opening into a different space. Broad draped-fold appearance remains in both frames.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v2.png",
+            "sha256": "f5b1ef575754dad42113c0585f64d3c01d90d3c3d2579bf4e8072b1c4243e56a",
+            "receipt_sha256": "e30057af3dcffcc30340c4f7e21490c19847878633a9cbe7d518d4461364d7a5",
+            "inspection": "realism_chrysanthemum_v2: small numbered JPEG inspected once. The same-camera pair visibly changes upper petal widths and curls, rotates the central nested lobes, and shifts left/right red recesses and highlights. This establishes morphing and rotation, not a complete opening into a different space. Broad draped-fold appearance remains in both frames."
+          },
+          {
+            "file": "realism-chrysanthemum-v2-motion.png",
+            "sha256": "ab4ba47b78d2ed2548e423c530bb3bf8aa9e726fa04f21f68e6d121286ba8172",
+            "receipt_sha256": "660cc74284e7d8d431c26e2ec7bf159f30c8222d57e4685de10a8d5636e39ddf",
+            "inspection": "realism_chrysanthemum_v2_pair: small numbered JPEG inspected once. The same-camera pair visibly changes upper petal widths and curls, rotates the central nested lobes, and shifts left/right red recesses and highlights. This establishes morphing and rotation, not a complete opening into a different space. Broad draped-fold appearance remains in both frames."
+          }
+        ]
+      }
+    },
+    {
+      "target": "chrysanthemum",
+      "iteration": "v3",
+      "review": {
+        "grade": "GAME",
+        "reason": "GAME: the new volume reads as repeated inflated seedpods/cigars arranged in a regular throat. Cream-grey highlights and bumpy surface striations overpower saturated flower colour. Increased geometric density does not compensate for primitive-like, mechanically repeated pod forms; this regresses from v2 CLOSE.",
+        "temporal_observation": "Both same-camera frames show pods tilting and their spiral alignment changing around the bright distant centre. Individual lumps remain recognisably the same repeated inflated units; no convincing recursive petal unfolding is visible.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v3.png",
+            "sha256": "618b3246d16166fd4e81cf3ce49c4403ef0c7e2eb8497b5b20c5895eb1bab113",
+            "receipt_sha256": "56a17839514871dd611fcce7203876cb7bc3c965843a3a09ce26988d8900cb60",
+            "inspection": "realism_chrysanthemum_v3: inspected numbered small JPEG once; Both same-camera frames show pods tilting and their spiral alignment changing around the bright distant centre. Individual lumps remain recognisably the same repeated inflated units; no convincing recursive petal unfolding is visible."
+          },
+          {
+            "file": "realism-chrysanthemum-v3-motion.png",
+            "sha256": "5c8b71f2f2fc2b0596e76fe2437b91be4b50a461aae248884193fc1d4a112cf8",
+            "receipt_sha256": "92c8886e3a7c435f5167d7a403b2debf52440d32097f50f36a2622396fb73bcc",
+            "inspection": "realism_chrysanthemum_v3_pair: inspected numbered small JPEG once; Both same-camera frames show pods tilting and their spiral alignment changing around the bright distant centre. Individual lumps remain recognisably the same repeated inflated units; no convincing recursive petal unfolding is visible."
+          }
+        ]
+      }
+    },
+    {
+      "target": "chrysanthemum",
+      "iteration": "v4",
+      "review": {
+        "grade": "GAME",
+        "reason": "GAME: stronger orange/red and broader overlapping cups improve v3 colour, but the image still reads as a tunnel of copied rounded heart/cookie-like units. Large soft highlights and decorative streaks do not establish intricate recursive geometry. Ellipsoid whorls are rejected as the macro form.",
+        "temporal_observation": "Same-camera pair rotates the nested rows and changes cup widths/overlap. The repeated rounded units persist through motion; neither frame resolves into convincing recursively unfolding petals.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v4.png",
+            "sha256": "f5b56ac7d03eb9e18bc5fdea6892f005864d308121b883d50f19cef57c39cb5b",
+            "receipt_sha256": "7b9d16c1dd5ca1126085d5371b2beb6795c1002cb26f4d7d2fc23c43c8debefe",
+            "inspection": "realism_chrysanthemum_v4: inspected numbered small JPEG once; Same-camera pair rotates the nested rows and changes cup widths/overlap. The repeated rounded units persist through motion; neither frame resolves into convincing recursively unfolding petals."
+          },
+          {
+            "file": "realism-chrysanthemum-v4-motion.png",
+            "sha256": "8ee8f8adc3f74e5cc51151a67c4806a41c9cbfd9b9b996f4e9911aa0d77d0dc5",
+            "receipt_sha256": "66b5ef05c9c260c66ed3597efc01ee36d6c2e7cc6c40722ec50fa9f66f8dddfb",
+            "inspection": "realism_chrysanthemum_v4_pair: inspected numbered small JPEG once; Same-camera pair rotates the nested rows and changes cup widths/overlap. The repeated rounded units persist through motion; neither frame resolves into convincing recursively unfolding petals."
+          }
+        ]
+      }
+    },
+    {
+      "target": "chrysanthemum",
+      "iteration": "v5",
+      "review": {
+        "grade": "GAME",
+        "reason": "GAME: the clearance aperture through the fractal exposes a mostly smooth cylindrical wall. Broad red/gold bands and a simple round dark centre dominate; genuine fractal detail appears only at the edges. The geometric recursion is not meaningfully visible from the walking camera.",
+        "temporal_observation": "Same-camera pair shifts the surface bands and scallops around the centre; the wall stays broad and smooth. This does not show an unfolding fractal flower.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v5.png",
+            "sha256": "024016cac99d04a8f720615c0c91266f00f145480092736077845cb419fa5b48",
+            "receipt_sha256": "8b92e580a6918f4ff9bee1dd396a8c4dd8eccc11e2bf63c3c416e5867b844f65",
+            "inspection": "realism_chrysanthemum_v5: inspected numbered small JPEG once; Same-camera pair shifts the surface bands and scallops around the centre; the wall stays broad and smooth. This does not show an unfolding fractal flower."
+          },
+          {
+            "file": "realism-chrysanthemum-v5-motion.png",
+            "sha256": "db139899ea64f39da669836a82c965782d25b58f7f96a24d71b15eee9e40ddeb",
+            "receipt_sha256": "ca206fe6fbe1bca6189cae16a4124eef7f375777600eb8644fb5adc8ef8fc137",
+            "inspection": "realism_chrysanthemum_v5_pair: inspected numbered small JPEG once; Same-camera pair shifts the surface bands and scallops around the centre; the wall stays broad and smooth. This does not show an unfolding fractal flower."
+          }
+        ]
+      }
+    },
+    {
+      "target": "chrysanthemum",
+      "iteration": "v6",
+      "review": {
+        "grade": "CLOSE",
+        "reason": "CLOSE: actual nested branching surfaces and irregular silhouette detail surround a radial opening, rather than copied inflated units or a flat cut cylinder. However, low-luminance ochre/brown shading and fine gritty noise read as rough rock/coral rather than self-lit jewelled, continuously unfolding flower geometry. Large central empty area also limits density.",
+        "temporal_observation": "The same-camera pair rotates the corolla and changes the branching outline at the inner opening, with altered gaps and clusters along its left and lower edge. Recursive silhouette changes are visible, but both frames remain rough and comparatively matte.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v6.png",
+            "sha256": "742f4eb279eceaf34c3ca3cc788c2482e6fbf96d08270de34e07d66a5df60e05",
+            "receipt_sha256": "f4a4a983bcdaece2cd91280cc59543911f20febbbb2a67b108cae32201cdbc0f",
+            "inspection": "realism_chrysanthemum_v6: inspected numbered small JPEG once; The same-camera pair rotates the corolla and changes the branching outline at the inner opening, with altered gaps and clusters along its left and lower edge. Recursive silhouette changes are visible, but both frames remain rough and comparatively matte."
+          },
+          {
+            "file": "realism-chrysanthemum-v6-motion.png",
+            "sha256": "f8520a975e0c398764034389888d536c0220752b8b5a17330dff7acc728e3bdc",
+            "receipt_sha256": "ba337055272d3a7f4ae7352e8199d6245c798f312c4f98f26f19268eb18e532d",
+            "inspection": "realism_chrysanthemum_v6_pair: inspected numbered small JPEG once; The same-camera pair rotates the corolla and changes the branching outline at the inner opening, with altered gaps and clusters along its left and lower edge. Recursive silhouette changes are visible, but both frames remain rough and comparatively matte."
+          }
+        ]
+      }
+    },
+    {
+      "target": "chrysanthemum",
+      "iteration": "v7",
+      "review": {
+        "grade": "CLOSE",
+        "reason": "CLOSE: a luminous orange-gold/red radial corolla has irregular recursively branching edges and connected intricate surfaces instead of repeated inflated primitives. The stronger self-light improves v6, but forms still look coral-like; fine detail remains gritty/engraved rather than cleanly jewelled, and a large dark central aperture weakens density and the unfolding-flower effect. Not RECOGNISE.",
+        "temporal_observation": "The same-camera pair changes the branching inner rim, opens/closes small gaps on the left and right, rotates the radial corolla and shifts red/gold regions. This is visible geometric morphing, not merely a moving texture, but it does not yet show convincing layered petals unfurling into another space.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v7.png",
+            "sha256": "f0ad25e6e498ae8c72140fa50ed1fd778921659853dd937202bb975b7d4395d7",
+            "receipt_sha256": "98f37e7e970d95f257cb87703e736131681394868e7d41f54acec54d47add4e5",
+            "inspection": "realism_chrysanthemum_v7: inspected numbered small JPEG once; The same-camera pair changes the branching inner rim, opens/closes small gaps on the left and right, rotates the radial corolla and shifts red/gold regions. This is visible geometric morphing, not merely a moving texture, but it does not yet show convincing layered petals unfurling into another space."
+          },
+          {
+            "file": "realism-chrysanthemum-v7-motion.png",
+            "sha256": "4eb995c62678b7953bf81afb2c9cac7ca138de2a22d248c52d540ee2810f69cd",
+            "receipt_sha256": "04600525187bcac5f6429b168f7d1adc70c1319329af9855701b89d81fb4c326",
+            "inspection": "realism_chrysanthemum_v7_pair: inspected numbered small JPEG once; The same-camera pair changes the branching inner rim, opens/closes small gaps on the left and right, rotates the radial corolla and shifts red/gold regions. This is visible geometric morphing, not merely a moving texture, but it does not yet show convincing layered petals unfurling into another space."
+          }
+        ]
+      }
+    },
+    {
+      "target": "chrysanthemum",
+      "iteration": "v8",
+      "review": {
+        "grade": "GAME",
+        "reason": "GAME: nested scalloped sheets fill the former empty centre, but broad pale bands read as flat cutout flowers. Strong stretched radial streaks, an abrupt left horizontal colour seam and weak material depth fail the continuous jewelled realism bar.",
+        "temporal_observation": "Same-camera pair changes the scalloped rim widths and orientation, opening gaps between the inner layers and shifting orange/blue regions. Motion is visible but the broad cutout bands and radial streaks persist; not convincing embodied unfurling.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v8.png",
+            "sha256": "26aaabe2a52af92341c81e0be2d0b4e97f28c5a0a78e023189702070cf0ba7b0",
+            "receipt_sha256": "d1e84f930adada2ba9de24bb8cd71fb743ae44ec9bebc0e0e5842a3ffb85cbf8",
+            "inspection": "realism_chrysanthemum_v8: numbered small JPEG inspected once; GAME: nested scalloped sheets fill the former empty centre, but broad pale bands read as flat cutout flowers. Strong stretched radial streaks, an abrupt left horizontal colour seam and weak material depth fail the continuous jewelled realism bar. Same-camera pair changes the scalloped rim widths and orientation, opening gaps between the inner layers and shifting orange/blue regions. Motion is visible but the broad cutout bands and radial streaks persist; not convincing embodied unfurling."
+          },
+          {
+            "file": "realism-chrysanthemum-v8-motion.png",
+            "sha256": "6f1866093756a19f13441a76f7954c321bf0a80b170be96a2a74d25c31e73e2f",
+            "receipt_sha256": "53cc83fd90750f250facceeedca284b9d96621714e8c79a495eb1a3d2f6ae613",
+            "inspection": "realism_chrysanthemum_v8_pair: numbered small JPEG inspected once; GAME: nested scalloped sheets fill the former empty centre, but broad pale bands read as flat cutout flowers. Strong stretched radial streaks, an abrupt left horizontal colour seam and weak material depth fail the continuous jewelled realism bar. Same-camera pair changes the scalloped rim widths and orientation, opening gaps between the inner layers and shifting orange/blue regions. Motion is visible but the broad cutout bands and radial streaks persist; not convincing embodied unfurling."
+          }
+        ]
+      }
+    },
+    {
+      "target": "chrysanthemum",
+      "iteration": "v9",
+      "review": {
+        "grade": "CLOSE",
+        "reason": "CLOSE: continuous curved red/gold and cyan/blue sheets overlap into a filled flower-like centre, with smoother coherent highlights and less streaking than v8. The horizontal colour seam is gone. However broad pale surfaces still dominate, thin dark edge artifacts remain, and the nested centre is a small repeated rosette rather than dense recursively unfolding jewelled geometry. Not RECOGNISE.",
+        "temporal_observation": "Same-camera HIGH pair narrows and twists the cyan inner rim, changes the right-hand overlap and bends the broad outer sheets while red/gold/blue regions shift. Actual folding is visible, not only texture motion, but both frames retain broad simple sheets and limited nested detail; no completed doorway transformation is demonstrated.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v9.png",
+            "sha256": "4a09a821513a6b76680e64609ee81ab09d3104836909bc9f6150d60f458d4354",
+            "receipt_sha256": "f78f2c36c874a37d8ba4ee997a923a98b1cb05d61a774a13225584dbd242813a",
+            "inspection": "realism_chrysanthemum_v9: numbered small JPEG inspected once; CLOSE: continuous curved red/gold and cyan/blue sheets overlap into a filled flower-like centre, with smoother coherent highlights and less streaking than v8. The horizontal colour seam is gone. However broad pale surfaces still dominate, thin dark edge artifacts remain, and the nested centre is a small repeated rosette rather than dense recursively unfolding jewelled geometry. Not RECOGNISE. Same-camera HIGH pair narrows and twists the cyan inner rim, changes the right-hand overlap and bends the broad outer sheets while red/gold/blue regions shift. Actual folding is visible, not only texture motion, but both frames retain broad simple sheets and limited nested detail; no completed doorway transformation is demonstrated."
+          },
+          {
+            "file": "realism-chrysanthemum-v9-motion.png",
+            "sha256": "42ac354d4683e7cad836d0416e748acbcc15813fa113c9afc532e60b225838ca",
+            "receipt_sha256": "3fad2c30d7961bae161dab5e6ea4655c9ff8470ee7aa1c67b138b6240477c176",
+            "inspection": "realism_chrysanthemum_v9_pair: numbered small JPEG inspected once; CLOSE: continuous curved red/gold and cyan/blue sheets overlap into a filled flower-like centre, with smoother coherent highlights and less streaking than v8. The horizontal colour seam is gone. However broad pale surfaces still dominate, thin dark edge artifacts remain, and the nested centre is a small repeated rosette rather than dense recursively unfolding jewelled geometry. Not RECOGNISE. Same-camera HIGH pair narrows and twists the cyan inner rim, changes the right-hand overlap and bends the broad outer sheets while red/gold/blue regions shift. Actual folding is visible, not only texture motion, but both frames retain broad simple sheets and limited nested detail; no completed doorway transformation is demonstrated."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "phase": "REDIRECT4 phase 2: Chrysanthemum v3-v7",
+  "checks_passed": true,
+  "overall_passed": false,
+  "render_signature": "8333f3e54af58cedd1ed8d8fc288dd333bebc33f12d11e1bbb01bccc7e7901f4",
+  "iterations": {
+    "v3": "GAME",
+    "v4": "GAME",
+    "v5": "GAME",
+    "v6": "CLOSE",
+    "v7": "CLOSE"
+  },
+  "current_realism": "CLOSE",
+  "other_realism_targets": "18 PENDING",
+  "checks": [
+    "JS syntax and Python AST PASS",
+    "seven immutable inspected temporal pairs hash-verified",
+    "current v7 HIGH receipts valid; CLOSE is sole realism blocker for target",
+    "fresh HIGH walking boundary, drag-look, restart, physical exit PASS",
+    "fresh pause/reduced/detail/Sources checks PASS",
+    "Garden/Workshop descriptor scores preserved; old receipts stale",
+    "latest image hash PASS"
+  ],
+  "focused_acceptance": {
+    "file": "verification-continuum.json",
+    "sha256": "ce376d86741b33ee8d35bba99013282dc6c2ba0a585a74624f9c46329a015d4f"
+  },
+  "accessibility": {
+    "file": "realism-chrysanthemum-accessibility-v7.json",
+    "sha256": "9b5057922f653bb2e501bb671c6ae7265db68dba8f4b1c100c77c627074fd1de"
+  },
+  "latest": "realism-chrysanthemum-accessibility-v7.png",
+  "latest_sha256": "8d2e60e62a2725f0a5307a3b40c90109452fb4c7c526e69540da0bbdac856e3f",
+  "latest_visually_inspected": false,
+  "inspected_realism_pair": [
+    "realism-chrysanthemum-v7.png",
+    "realism-chrysanthemum-v7-motion.png"
+  ],
+  "source_snapshot": "continuum-v7.js",
+  "full_acceptance": "stale; not rerun this phase"
+}

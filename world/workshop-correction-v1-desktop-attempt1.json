@@ -1,0 +1,7 @@
+{
+  "errors": [],
+  "sections": {},
+  "render_signature": "e7e0a37b79550bae9582a1ec0889cd3b57211526dd1f3b09d9b8c1cb1e8f1703",
+  "passed": false,
+  "failure": "Page.wait_for_function: Timeout 18000ms exceeded."
+}

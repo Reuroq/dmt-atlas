@@ -1,0 +1,84 @@
+{
+  "iteration": "fidelity-workshop-baseline-v1",
+  "inspections": [
+    {
+      "receipt": "fidelity-workshop-baseline-v1.json",
+      "label": "fidelity_workshop_baseline_v1",
+      "observation": "Inspected numbered JPEG once: five pale green filament humanoids in a bounded teal contour-lined chamber, purple rear arch, pink suspended filaments and red/gold leaf-like side forms. No recognizable conveyor, piston, cog or workbench."
+    },
+    {
+      "receipt": "fidelity-workshop-baseline-v1-motion.json",
+      "label": "fidelity_workshop_baseline_v1_pair",
+      "observation": "Inspected numbered JPEG once at the same camera 6.9831 animation seconds later: hand/arm positions and pink head-surround orientations change, red leaf-like forms tilt and surface contours shift. Room layout stays fixed; no manufacturing action or visible object exchange established."
+    }
+  ],
+  "descriptors": {
+    "beings / presences": {
+      "grade": "PRESENT",
+      "observation": "Five distinct filament-bodied presences occupy the chamber. This covers visible beings, not reports of unseen presences or all heterogeneous factory workers."
+    },
+    "circuitry / machinery": {
+      "grade": "ABSENT",
+      "observation": "Neither frame shows recognizable manufacturing equipment, conveyors, pistons, cogs or workstations. Dense contour lines and hovering ornaments do not establish machinery; lateral forms read as red leaves."
+    },
+    "room / architecture": {
+      "grade": "PRESENT",
+      "observation": "Floor, enclosing walls, high patterned ceiling and pointed rear doorway form a clear room. Industrial and market architecture variants remain underrepresented."
+    },
+    "geometry / patterns": {
+      "grade": "PRESENT",
+      "observation": "Close-spaced teal/gold contour patterns fill floor and walls; pink zigzag filaments and patterned bodies add distinct geometric structures."
+    },
+    "humanoid / bodies": {
+      "grade": "PRESENT",
+      "observation": "The five presences have clear heads, torsos, articulated arms and paired legs. Their stylized proportions do not reproduce the boxed-body grid variant."
+    },
+    "small / miniature": {
+      "grade": "PARTIAL",
+      "observation": "Workers look squat and the rear figure is small on screen, but perspective explains much of the size difference. No familiar product or workstation convincingly establishes miniature scale."
+    },
+    "vast / infinite": {
+      "grade": "ABSENT",
+      "observation": "The rear wall and doorway visibly bound a modest chamber. No endless conveyor, receding factory grid or gigantic worker establishes the reported vast scale."
+    },
+    "communicating / teaching": {
+      "grade": "PARTIAL",
+      "observation": "Outstretched hands and suspended geometric objects suggest engagement. Across the pair there is no clear exchange, demonstrated product or readable teaching; the caption is not visual evidence."
+    },
+    "intricate / detailed": {
+      "grade": "PRESENT",
+      "observation": "Bodies contain fine interwoven strands and dense small ornaments, with closely spaced surface engraving throughout the chamber. This does not establish unlimited detail under zoom."
+    },
+    "layered / multidimensional": {
+      "grade": "PARTIAL",
+      "observation": "Foreground workers, middle workers and rear arch produce ordinary depth and overlapping filament layers. Impossible dimensions, folding entity corridors and simultaneous organic machine layers are not convincingly visible."
+    },
+    "moving / animated": {
+      "grade": "PRESENT",
+      "observation": "The paired frames show changes in articulated figures, suspended ornaments, side forms and room patterns; manufacturing motion is still absent.",
+      "temporal_observation": "At animTime 16.7492 versus 23.7323, with unchanged camera, the outer workers' hands/arms and pink head-surround orientations shift, the red/gold leaf-like forms tilt and the teal/gold surface contours drift. This is visible animation, not evidence of object transfer or machinery."
+    },
+    "fractals": {
+      "grade": "PARTIAL",
+      "observation": "Fine branching filaments and repeated contour structures suggest fractal detail, but these views do not clearly show nested self-similar manufacturing or fractal assembly-line forms at multiple scales."
+    },
+    "jester / clown form": {
+      "grade": "PARTIAL",
+      "observation": "Pink bobbled head surrounds and squat figures have a playful headdress silhouette. No unmistakable clown face, patterned clown body or multiplying limbs distinguishes the validated clown workers from generic elves."
+    },
+    "multicoloured": {
+      "grade": "PRESENT",
+      "observation": "Teal, green, gold, red and magenta/purple are simultaneously distinct across the chamber, side forms, workers and rear arch. This is one colourful synthesis, not a universal factory palette."
+    },
+    "white": {
+      "grade": "ABSENT",
+      "observation": "Some worker strands are pale, but the setting remains overwhelmingly teal and rainbow-accented. Neither a minimalist white factory nor a white-on-black boxed-body grid is represented."
+    }
+  },
+  "next_corrections": [
+    "Replace Workshop-only leaf-like growth props with legible lateral manufacturing stations: toothed gears, reciprocating pistons and moving packages, retaining geometry detail and an open central route.",
+    "Establish scale through receding production bays and product-sized workers, without presenting the heterogeneous reports as one universal factory.",
+    "Retain an explicit contrasting white/minimalist or white-on-black production variant rather than tinting every machine rainbow.",
+    "Re-render and inspect a fresh HIGH temporal pair before changing any adverse baseline grade. Preserve baseline files and history."
+  ]
+}

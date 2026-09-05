@@ -1,0 +1,7 @@
+.fidelity{margin:24px 0;border-block:1px solid #f0dcaf30;padding:12px 0;font-size:12px}
+.fidelity-target{margin:16px 0}.fidelity summary{cursor:pointer;font-weight:650}
+.fidelity-scroll{max-width:100%;overflow-x:auto;margin:12px 0}
+.fidelity-table{border-collapse:collapse;width:100%;font-size:11px;table-layout:fixed}
+.fidelity-table caption{text-align:left;font-weight:650;padding:6px 0}
+.fidelity-table th,.fidelity-table td{text-align:left;vertical-align:top;border-bottom:1px solid #f0dcaf25;padding:8px 5px;overflow-wrap:anywhere}
+.fidelity-table th{font-weight:500}.fidelity-table a{font-size:10px;margin-right:5px}

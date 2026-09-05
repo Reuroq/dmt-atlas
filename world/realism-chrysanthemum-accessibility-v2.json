@@ -1,0 +1,125 @@
+{
+  "errors": [],
+  "fps_swiftshader": 5.58,
+  "checks": [
+    "paused pixel stillness",
+    "reduced-motion pixel stillness",
+    "detail toggle preserves route and pose",
+    "restored-detail reduced pixel stillness",
+    "Sources fidelity table and existing provenance"
+  ],
+  "diagnostics": {
+    "stage": "chrysanthemum",
+    "routeIndex": 2,
+    "entered": true,
+    "paused": false,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 2.4498999999999995,
+    "animTime": 5.923499999952317,
+    "transition": false,
+    "renderReady": true,
+    "frames": 51,
+    "position": [
+      0,
+      1.7,
+      8
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset",
+      "geometry",
+      "chrysanthemum"
+    ],
+    "entities": [],
+    "interactions": 0,
+    "evidence": [
+      "phase|The Chrysanthemum",
+      "geometry|The Chrysanthemum",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|Dimensional Layering & Space-Folding",
+      "geometry|Hyperbolic Space & Negative Curvature",
+      "geometry|Ultra-Detail & Infinite Resolution",
+      "geometry|Energy Conduits & Living Circuitry",
+      "geometry|Mandalas & symmetry fields"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 35,
+    "portals": [
+      {
+        "x": 0,
+        "z": -23,
+        "width": 3.5,
+        "target": "next"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 1,
+    "triangles": 2,
+    "geometries": 5,
+    "actors": [],
+    "uncitedMeshes": 0
+  },
+  "capture_diagnostics": {
+    "stage": "chrysanthemum",
+    "routeIndex": 2,
+    "entered": true,
+    "paused": true,
+    "paced": false,
+    "reduced": true,
+    "elapsed": 14.382899999999992,
+    "animTime": 6.2734999999523176,
+    "transition": false,
+    "renderReady": true,
+    "frames": 164,
+    "position": [
+      0,
+      1.7,
+      8
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset",
+      "geometry",
+      "chrysanthemum"
+    ],
+    "entities": [],
+    "interactions": 0,
+    "evidence": [
+      "phase|The Chrysanthemum",
+      "geometry|The Chrysanthemum",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|Dimensional Layering & Space-Folding",
+      "geometry|Hyperbolic Space & Negative Curvature",
+      "geometry|Ultra-Detail & Infinite Resolution",
+      "geometry|Energy Conduits & Living Circuitry",
+      "geometry|Mandalas & symmetry fields"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 35,
+    "portals": [
+      {
+        "x": 0,
+        "z": -23,
+        "width": 3.5,
+        "target": "next"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 1,
+    "triangles": 2,
+    "geometries": 5,
+    "actors": [],
+    "uncitedMeshes": 0
+  },
+  "render_signature": "702a41265a96a4ed84a9a5b1777ab511399ac537e5d27125d737b24e8cf0a24c",
+  "capture_sha256": "abf61a86b1a1b7dfc6e8ba8400fcce05505d370e98a990bd4d3b4013fcb1cc36",
+  "file": "realism-chrysanthemum-accessibility-v2.png",
+  "veil_opacity": 0
+}

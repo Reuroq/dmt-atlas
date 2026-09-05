@@ -1,0 +1,10 @@
+{
+  "render_signature": "4de3ad42a4e2095b5ed2e54571ae99e029b2e546825ac27e9d8f6f3f1d1513c3",
+  "checks": [
+    "HIGH right walking boundary preserved inside minimum volume radius",
+    "Actual drag-look changes both camera axes",
+    "Central physical exit reaches Rush with cited geometry; no navigation injection"
+  ],
+  "passed": true,
+  "errors": []
+}

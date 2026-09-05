@@ -1,0 +1,159 @@
+{
+  "errors": [],
+  "fps_swiftshader": 5.95,
+  "checks": [],
+  "diagnostics": {
+    "stage": "garden",
+    "routeIndex": 6,
+    "entered": true,
+    "paused": false,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 2.35,
+    "animTime": 15.934800000095365,
+    "transition": false,
+    "renderReady": true,
+    "frames": 104,
+    "position": [
+      0,
+      1.7,
+      13
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset",
+      "geometry",
+      "chrysanthemum",
+      "rush",
+      "membrane",
+      "waiting",
+      "cathedral",
+      "garden"
+    ],
+    "entities": [
+      "mother"
+    ],
+    "interactions": 0,
+    "evidence": [
+      "realm|The Garden",
+      "entity|The Divine Feminine",
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|Dimensional Layering & Space-Folding",
+      "geometry|Hyperbolic Space & Negative Curvature",
+      "geometry|Ultra-Detail & Infinite Resolution",
+      "geometry|Energy Conduits & Living Circuitry",
+      "geometry|Embedded Faces & the Pareidolia Cascade",
+      "geometry|Hyper-dimensional objects"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 41,
+    "portals": [
+      {
+        "x": 0,
+        "z": -19,
+        "width": 5,
+        "target": "next"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 100,
+    "triangles": 549002,
+    "geometries": 97,
+    "actors": [
+      {
+        "kind": "mother",
+        "engaged": false,
+        "joints": 2,
+        "arm": -0.08761711136201213,
+        "evidence": "entity|The Divine Feminine",
+        "screen": [
+          600,
+          334.45519928680517
+        ]
+      }
+    ],
+    "uncitedMeshes": 0
+  },
+  "capture_diagnostics": {
+    "stage": "garden",
+    "routeIndex": 6,
+    "entered": true,
+    "paused": true,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 2.766600000000001,
+    "animTime": 16.351400000095364,
+    "transition": false,
+    "renderReady": true,
+    "frames": 106,
+    "position": [
+      0,
+      1.7,
+      13
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset",
+      "geometry",
+      "chrysanthemum",
+      "rush",
+      "membrane",
+      "waiting",
+      "cathedral",
+      "garden"
+    ],
+    "entities": [
+      "mother"
+    ],
+    "interactions": 0,
+    "evidence": [
+      "realm|The Garden",
+      "entity|The Divine Feminine",
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|Dimensional Layering & Space-Folding",
+      "geometry|Hyperbolic Space & Negative Curvature",
+      "geometry|Ultra-Detail & Infinite Resolution",
+      "geometry|Energy Conduits & Living Circuitry",
+      "geometry|Embedded Faces & the Pareidolia Cascade",
+      "geometry|Hyper-dimensional objects"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 41,
+    "portals": [
+      {
+        "x": 0,
+        "z": -19,
+        "width": 5,
+        "target": "next"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 100,
+    "triangles": 549002,
+    "geometries": 97,
+    "actors": [
+      {
+        "kind": "mother",
+        "engaged": false,
+        "joints": 2,
+        "arm": -0.055971606838033316,
+        "evidence": "entity|The Divine Feminine",
+        "screen": [
+          600,
+          334.45519928680517
+        ]
+      }
+    ],
+    "uncitedMeshes": 0
+  },
+  "render_signature": "61271867c89ee9197c5dcb086e31bf74a15cb02d77ea4e3f0aa032f560c63684",
+  "capture_sha256": "a74700e09da5e557910c8ea0f75ae17f9efe9e99f2dec29977f0df99cddcee73",
+  "file": "fidelity-garden-motion-baseline-v1.png",
+  "veil_opacity": 0
+}

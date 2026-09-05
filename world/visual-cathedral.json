@@ -1,0 +1,116 @@
+{
+  "errors": [],
+  "fps_swiftshader": 3.57,
+  "checks": [],
+  "diagnostics": {
+    "stage": "cathedral",
+    "routeIndex": 6,
+    "entered": true,
+    "paused": false,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 2.3333000000000013,
+    "animTime": 12.575400000071527,
+    "transition": false,
+    "renderReady": true,
+    "frames": 87,
+    "position": [
+      0,
+      1.7,
+      19
+    ],
+    "yaw": 0,
+    "pitch": 0.12,
+    "visited": [
+      "onset",
+      "geometry",
+      "chrysanthemum",
+      "rush",
+      "membrane",
+      "waiting",
+      "cathedral"
+    ],
+    "entities": [
+      "elf",
+      "elf"
+    ],
+    "interactions": 0,
+    "evidence": [
+      "realm|The Domed Cathedral",
+      "phase|Breakthrough",
+      "geometry|Breathing & Liquid Surfaces",
+      "entity|Self-transforming machine elves",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|Dimensional Layering & Space-Folding",
+      "geometry|Hyperbolic Space & Negative Curvature",
+      "geometry|Ultra-Detail & Infinite Resolution",
+      "geometry|Energy Conduits & Living Circuitry",
+      "geometry|Embedded Faces & the Pareidolia Cascade",
+      "geometry|Hyper-dimensional objects"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 47,
+    "portals": [
+      {
+        "x": 0,
+        "z": -25,
+        "width": 9,
+        "target": "next"
+      },
+      {
+        "x": -22,
+        "z": -6,
+        "width": 5,
+        "target": "workshop"
+      },
+      {
+        "x": -22,
+        "z": 9,
+        "width": 5,
+        "target": "garden"
+      },
+      {
+        "x": 22,
+        "z": -6,
+        "width": 5,
+        "target": "clinical"
+      },
+      {
+        "x": 22,
+        "z": 9,
+        "width": 5,
+        "target": "void"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 92,
+    "triangles": 665044,
+    "geometries": 79,
+    "actors": [
+      {
+        "kind": "elf",
+        "engaged": false,
+        "joints": 2,
+        "arm": 0.04277314923437044,
+        "evidence": "entity|Self-transforming machine elves",
+        "screen": [
+          548.8540099205708,
+          466.35484121048387
+        ]
+      },
+      {
+        "kind": "elf",
+        "engaged": false,
+        "joints": 2,
+        "arm": -0.061236871668444166,
+        "evidence": "entity|Self-transforming machine elves",
+        "screen": [
+          651.1459900794292,
+          466.35484121048387
+        ]
+      }
+    ],
+    "uncitedMeshes": 0
+  }
+}

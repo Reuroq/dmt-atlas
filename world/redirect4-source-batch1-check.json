@@ -1,0 +1,28 @@
+{
+  "phase": "redirect4-source-batch1",
+  "passed": true,
+  "audit": {
+    "passed": false,
+    "reviewed_reports": 10,
+    "included_reports": 7,
+    "excluded_reports": 3,
+    "candidate_reports": 480,
+    "candidate_passages": 960,
+    "exhausted": false,
+    "errors": []
+  },
+  "next_identity": "DMT/gs3jb8",
+  "render_signature": "8333f3e54af58cedd1ed8d8fc288dd333bebc33f12d11e1bbb01bccc7e7901f4",
+  "overall_fidelity_passed": false,
+  "unchanged_latest_sha256": "8d2e60e62a2725f0a5307a3b40c90109452fb4c7c526e69540da0bbdac856e3f",
+  "bound_files": {
+    "fidelity-corpus.json": "bba7608e7b904c17a1f61d1bfda2a1e0a69e9c2779ffdd5477718e6747b74cb1",
+    "fidelity-passages.jsonl": "91f7d5a05051de4c12db6698ff74d208a6513e5327bea2eb7239746679fc1178",
+    "fidelity-extra-passages.jsonl": "d780aab4e78b8a418e0bd1f47b8a7a4977dbc095f079f220d3b27e5fd095fd9d",
+    "fidelity-passage-review.json": "d8b9aa47ea758203128c93e19ec2f7008bd9e5604a12d411305d5683fefb5778",
+    "fidelity-review-queue.json": "33d4330346ded4d996c811e2439fc09633fa4f014426139e5f93e4185f3eeecf",
+    "chrysanthemum-source-batch1.md": "b02de4760f0564aa46944f63327d097dcb284a625192c9d34d08263cc443bded",
+    "fidelity-results.json": "a0babef888e0c889abd766e9eb66d1055fc1952b4dfcaeb99a8e11a1a932402e",
+    "realism-results.json": "08bd923dfb7e2fc7580a63978040aeaeec14af2432c45524b0de1053aa40d001"
+  }
+}

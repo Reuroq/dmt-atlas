@@ -1,0 +1,196 @@
+{
+  "errors": [],
+  "fps_swiftshader": 5.95,
+  "checks": [],
+  "diagnostics": {
+    "stage": "garden",
+    "routeIndex": 6,
+    "entered": true,
+    "paused": false,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 2.35,
+    "animTime": 15.934800000095365,
+    "transition": false,
+    "renderReady": true,
+    "frames": 104,
+    "position": [
+      0,
+      1.7,
+      13
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset",
+      "geometry",
+      "chrysanthemum",
+      "rush",
+      "membrane",
+      "waiting",
+      "cathedral",
+      "garden"
+    ],
+    "entities": [
+      "mother"
+    ],
+    "interactions": 0,
+    "evidence": [
+      "realm|The Garden",
+      "entity|The Divine Feminine",
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|Dimensional Layering & Space-Folding",
+      "geometry|Hyperbolic Space & Negative Curvature",
+      "geometry|Ultra-Detail & Infinite Resolution",
+      "geometry|Energy Conduits & Living Circuitry",
+      "geometry|Embedded Faces & the Pareidolia Cascade",
+      "geometry|Hyper-dimensional objects"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 41,
+    "portals": [
+      {
+        "x": 0,
+        "z": -19,
+        "width": 5,
+        "target": "next"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 100,
+    "triangles": 549002,
+    "geometries": 97,
+    "actors": [
+      {
+        "kind": "mother",
+        "engaged": false,
+        "joints": 2,
+        "arm": -0.08761711136201213,
+        "evidence": "entity|The Divine Feminine",
+        "screen": [
+          600,
+          334.45519928680517
+        ]
+      }
+    ],
+    "uncitedMeshes": 0
+  },
+  "capture_diagnostics": {
+    "stage": "cathedral",
+    "routeIndex": 6,
+    "entered": true,
+    "paused": true,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 0.5665999999999985,
+    "animTime": 25.38440000009535,
+    "transition": false,
+    "renderReady": true,
+    "frames": 183,
+    "position": [
+      0,
+      1.7,
+      19
+    ],
+    "yaw": 0,
+    "pitch": 0.12,
+    "visited": [
+      "onset",
+      "geometry",
+      "chrysanthemum",
+      "rush",
+      "membrane",
+      "waiting",
+      "cathedral",
+      "garden"
+    ],
+    "entities": [
+      "elf",
+      "elf"
+    ],
+    "interactions": 0,
+    "evidence": [
+      "realm|The Domed Cathedral",
+      "phase|Breakthrough",
+      "geometry|Breathing & Liquid Surfaces",
+      "entity|Self-transforming machine elves",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|Dimensional Layering & Space-Folding",
+      "geometry|Hyperbolic Space & Negative Curvature",
+      "geometry|Ultra-Detail & Infinite Resolution",
+      "geometry|Energy Conduits & Living Circuitry",
+      "geometry|Embedded Faces & the Pareidolia Cascade",
+      "geometry|Hyper-dimensional objects"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 47,
+    "portals": [
+      {
+        "x": 0,
+        "z": -25,
+        "width": 9,
+        "target": "next"
+      },
+      {
+        "x": -22,
+        "z": -6,
+        "width": 5,
+        "target": "workshop"
+      },
+      {
+        "x": -22,
+        "z": 9,
+        "width": 5,
+        "target": "garden"
+      },
+      {
+        "x": 22,
+        "z": -6,
+        "width": 5,
+        "target": "clinical"
+      },
+      {
+        "x": 22,
+        "z": 9,
+        "width": 5,
+        "target": "void"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 92,
+    "triangles": 665044,
+    "geometries": 79,
+    "actors": [
+      {
+        "kind": "elf",
+        "engaged": false,
+        "joints": 2,
+        "arm": 0.05305474747652677,
+        "evidence": "entity|Self-transforming machine elves",
+        "screen": [
+          548.8540099205708,
+          466.35484121048387
+        ]
+      },
+      {
+        "kind": "elf",
+        "engaged": false,
+        "joints": 2,
+        "arm": 0.11729238991522599,
+        "evidence": "entity|Self-transforming machine elves",
+        "screen": [
+          651.1459900794292,
+          466.35484121048387
+        ]
+      }
+    ],
+    "uncitedMeshes": 0
+  },
+  "render_signature": "61271867c89ee9197c5dcb086e31bf74a15cb02d77ea4e3f0aa032f560c63684",
+  "capture_sha256": "a21b651477ef384277ed9f1c61bfbeb7357780966f26d06c0d2dc73d2a4741aa",
+  "file": "fidelity-garden-motion-baseline-v1-destination.png",
+  "veil_opacity": 0
+}

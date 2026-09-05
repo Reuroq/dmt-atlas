@@ -1,0 +1,670 @@
+{
+  "corpus_sha256": "bba7608e7b904c17a1f61d1bfda2a1e0a69e9c2779ffdd5477718e6747b74cb1",
+  "targets": {
+    "chrysanthemum": {
+      "DMT/gti12v": {
+        "decision": "include",
+        "reason": "Firsthand immersive kaleidoscopic tunnel approaching a door, within the mapped visual family; a laughing entity is concurrent. Not evidence of a floral form, specific colours, or a universal phase order. The earlier room/riddle is not this geometry.",
+        "descriptors": ["tunnel / corridor", "beings / presences", "playful / laughing"]
+      },
+      "DMT/1kskkyi": {
+        "decision": "include",
+        "reason": "Firsthand mandala-like drawing. Recalled as occurring at some point, so retain its visual form without treating the prose position before eye opening as established threshold or return timing. Eyes and body refer to the narrator, not depicted anatomy.",
+        "descriptors": ["geometry / patterns", "flower / mandala"]
+      },
+      "DMT/58he70": {
+        "decision": "exclude",
+        "reason": "The mandala/fractal-tunnel description is explicitly something the narrator read as advice, not a witnessed visual in this window."
+      },
+      "DMT/d7oe5u": {
+        "decision": "exclude",
+        "reason": "Purple/green moving mandalas are overlays on the narrator's real arms, not an immersive Chrysanthemum setting. The later closed-eye tropical paradise is a different setting; do not import either into this target."
+      },
+      "DMT/15j42vj": {
+        "decision": "include",
+        "reason": "Firsthand black surroundings followed by green/purple geometric flower-of-life and lotus that unfolds/unlocks. The narrator's face is a viewing reference, not a face in the flower; the subsequent Buddha entity is beyond the unfolding transition.",
+        "descriptors": ["green", "purple / pink", "dark / black", "folding / unfolding", "geometry / patterns", "flower / mandala"]
+      },
+      "DMT/2pot56": {
+        "decision": "exclude",
+        "reason": "Speculation about physics, cymatics and a linked tetrahedron diagram, not a firsthand visionary flower or mandala."
+      },
+      "DMT/1ng2dbo": {
+        "decision": "include",
+        "reason": "Firsthand transport into a kaleidoscopic geometric storm explicitly described as vivid and intense colours. Intensity does not establish vast spatial scale; telling a real dog of love is not a welcoming property of the vision.",
+        "descriptors": ["multicoloured", "saturated / vivid", "geometry / patterns"]
+      },
+      "DMT/7svzi9": {
+        "decision": "include",
+        "reason": "Closed-eye kaleidoscope patterns/prisms move softly and change from cool to warmer, brighter colours. A feminine voice is auditory, not a visible feminine form; the quoted invitation to flow is not liquid geometry. Closing one's eyes is not eyes depicted in the pattern.",
+        "descriptors": ["multicoloured", "bright / luminous", "moving / animated", "geometry / patterns"]
+      },
+      "DMT/inkuei": {
+        "decision": "include",
+        "reason": "Firsthand usual onset kaleidoscope-like visuals are relevant to the mapped family, but the available descriptor candidates do not explicitly describe them: the tunnel is denied, no presence is seen here, and kaleidoscope alone does not specify multiple colours. Retain a zero-vote relevant report; no threshold timing inference.",
+        "descriptors": []
+      },
+      "DMT/8bvk6z": {
+        "decision": "include",
+        "reason": "Explicit firsthand wobbly chrysanthemum that gives way. Confirm the flower only from the available dictionary candidates. Wobbling and giving way are qualitative motion/transition evidence absent from those candidates; the green geometric alien and galactic scale belong to the subsequent scene.",
+        "descriptors": ["flower / mandala"]
+      }
+    },
+    "garden": {
+      "DMT/gilb9y": {
+        "decision": "exclude",
+        "reason": "Altered view of real house from actual garden, not a distinct garden realm."
+      },
+      "DMT/15etky4": {
+        "decision": "exclude",
+        "reason": "Real garden exercise during later blood-pressure comparison."
+      },
+      "DMT/93xxzp": {
+        "decision": "exclude",
+        "reason": "Explicit physical setting for the sessions, not a visionary garden."
+      },
+      "DMT/qcswqv": {
+        "decision": "exclude",
+        "reason": "Real people in garden before the narrator moves to a sofa."
+      },
+      "DMT/zvlbd2": {
+        "decision": "exclude",
+        "reason": "Real garden viewed after eye opening near the end; preceding white light belongs to another moment."
+      },
+      "DMT/9i4zud": {
+        "decision": "exclude",
+        "reason": "Open-eye polygonal alterations of an actual garden while walking, not the distinct-realm target."
+      },
+      "DMT/1kcu4uv": {
+        "decision": "include",
+        "reason": "A distinct sanctuary with an elderly female owner, generated flowers and creek; include described scenery and communication, not the visitor body.",
+        "descriptors": [
+          "beings / presences",
+          "feminine form",
+          "plants / organic growth",
+          "liquid / flowing",
+          "flower / mandala",
+          "communicating / teaching"
+        ]
+      },
+      "DMT/32sdie": {
+        "decision": "exclude",
+        "reason": "Actual garden mealtime between experiences."
+      },
+      "DMT/9kku5s": {
+        "decision": "exclude",
+        "reason": "Garden of Earthly Delights is a comparison to another author, not a described garden setting in this passage."
+      },
+      "DMT/1143skg": {
+        "decision": "exclude",
+        "reason": "Real garden during return with altered leaves; not a distinct realm."
+      },
+      "DMT/grqx41": {
+        "decision": "exclude",
+        "reason": "Physical garden before/after the visionary episode; later garden mention is return to that chair."
+      },
+      "DMT/wximmr": {
+        "decision": "exclude",
+        "reason": "Walking into actual garden after return; later dragon-shaped shrubs are open-eye alterations of real surroundings."
+      },
+      "DMT/l0od4k": {
+        "decision": "exclude",
+        "reason": "Bedroom preparation and view of actual garden."
+      },
+      "DMT/1fdh1pd": {
+        "decision": "exclude",
+        "reason": "Cartoon/geometric alteration of actual garden and room, not an independently entered garden realm."
+      },
+      "DMT/32mm2g": {
+        "decision": "exclude",
+        "reason": "Physical outdoor setting; later bush/pastel plants are transformations of the same real garden."
+      },
+      "DMT/9pih50": {
+        "decision": "exclude",
+        "reason": "Actual apple tree and a swarm outside kitchen window, not a visionary realm description."
+      },
+      "DMT/hcdb1x": {
+        "decision": "exclude",
+        "reason": "Ordinary gardening and lunch before the session."
+      },
+      "DMT/wax50s": {
+        "decision": "include",
+        "reason": "Visionary roof garden and plant-consciousness presence; vivid scene fades. Crystalline sharp describes clarity, not crystal material; pink-sky wording is ambiguous/negated. Do not count earlier repeated consciousness as symmetry.",
+        "descriptors": [
+          "saturated / vivid",
+          "receding / dissolving",
+          "beings / presences",
+          "plants / organic growth",
+          "communicating / teaching"
+        ]
+      },
+      "DMT/1kbu9hr": {
+        "decision": "exclude",
+        "reason": "Garden regrowth is a counselling metaphor, not a visual report."
+      },
+      "DMT/fshbu5": {
+        "decision": "exclude",
+        "reason": "Actual grass seen through window with plastic/geometric overlay; keep distinct from visionary garden realm."
+      },
+      "DMT/o4e5yd": {
+        "decision": "include",
+        "reason": "Later narrative, not title-adjacent real flames: folding light-made natural structures, angel-guided flight and shown layered fractal lattice. Vast describes information, not demonstrated spatial size.",
+        "descriptors": [
+          "rushing / flying",
+          "folding / unfolding",
+          "intricate / detailed",
+          "dense / overwhelming",
+          "layered / multidimensional",
+          "fractals",
+          "lattice / grid",
+          "beings / presences",
+          "plants / organic growth",
+          "communicating / teaching"
+        ]
+      },
+      "DMT/jqvq0s": {
+        "decision": "include",
+        "reason": "Closed-eye terrace with iron staircase, brick building and personified figures using clockwork levers. Ordinary eye opening is not visible entity eyes; no botanical structures are described.",
+        "descriptors": [
+          "room / architecture",
+          "beings / presences",
+          "circuitry / machinery"
+        ]
+      },
+      "DMT/hqz5tw": {
+        "decision": "exclude",
+        "reason": "Altered real garden and visible church ornaments; later garden mention concerns physical stairs/time confusion."
+      },
+      "DMT/3njydk": {
+        "decision": "exclude",
+        "reason": "Biblical garden metaphor in a speculative discussion."
+      },
+      "DMT/joexuh": {
+        "decision": "exclude",
+        "reason": "Actual outdoor setting; later return to garden follows a different encounter."
+      },
+      "DMT/3h6lzd": {
+        "decision": "exclude",
+        "reason": "Walk into actual garden with explicit no hallucinations at this point."
+      },
+      "DMT/1bvi806": {
+        "decision": "exclude",
+        "reason": "Real cats in garden during preparation, not a vision."
+      }
+    },
+    "workshop": {
+      "DMT/cyqvh1": {
+        "decision": "exclude",
+        "reason": "Market means a real purchasing website in a device guide, not a visionary place."
+      },
+      "DMT/r1ujlu": {
+        "decision": "include",
+        "reason": "First-person brown/bronze marketplace with wrapped items and an operator; earlier RGB guides are a different phase.",
+        "descriptors": [
+          "beings / presences"
+        ]
+      },
+      "DMT/bjp8ic": {
+        "decision": "exclude",
+        "reason": "Deep-web market is a purchase source, not the experienced setting."
+      },
+      "DMT/1dnha8l": {
+        "decision": "exclude",
+        "reason": "Market and liquid describe a purchased bottle, not a visionary factory or flowing scenery."
+      },
+      "DMT/pjfab3": {
+        "decision": "include",
+        "reason": "Supplement describes figures working at an assembly line making alien-language-covered objects. Eyes, room melting and laughter describe the observer returning to bed.",
+        "descriptors": [
+          "beings / presences"
+        ]
+      },
+      "DMT/bkv7pj": {
+        "decision": "include",
+        "reason": "Explicitly recalls an infinite multicolour factory and tentative beings; ordinary eyes/friends are outside that scene. Million colours lacks a dictionary match.",
+        "descriptors": [
+          "vast / infinite",
+          "beings / presences"
+        ]
+      },
+      "DMT/cfr4en": {
+        "decision": "include",
+        "reason": "Calls the entered space a factory of perfect order; supplement explicitly describes its complexity. Repeated bowing/mantra and later laughter are the observer, not factory geometry.",
+        "descriptors": [
+          "intricate / detailed"
+        ]
+      },
+      "DMT/citw9m": {
+        "decision": "exclude",
+        "reason": "Factory set describes device temperature, not a visionary setting."
+      },
+      "DMT/17bpf6a": {
+        "decision": "include",
+        "reason": "Soul factory contains fellow meat-bags on a conveyor and engineers. Blue Meanies/Yellow Submarine are character/film comparisons, not established scene colours.",
+        "descriptors": [
+          "humanoid / bodies"
+        ]
+      },
+      "DMT/1r8aj9w": {
+        "decision": "exclude",
+        "reason": "Market means retail availability of synthetic substances, not a seen realm."
+      },
+      "DMT/pgasdp": {
+        "decision": "include",
+        "reason": "Reported huge yellow gear room, worker entities, jester and shape-changing metal table; aggressive events are not loving. Coming into the observer face is not an embedded face.",
+        "descriptors": [
+          "yellow / gold",
+          "morphing / transforming",
+          "geometry / patterns",
+          "room / architecture",
+          "beings / presences",
+          "humanoid / bodies",
+          "jester / clown form",
+          "circuitry / machinery",
+          "metallic / reflective",
+          "vast / infinite"
+        ]
+      },
+      "DMT/b6fw3g": {
+        "decision": "exclude",
+        "reason": "Factory floor is only a loudness simile for bells, with no industrial/workshop setting described."
+      },
+      "DMT/dyw18h": {
+        "decision": "exclude",
+        "reason": "Music promotion uses breakthrough factory as a title and general conceit, without a concrete firsthand setting description."
+      },
+      "DMT/ogifov": {
+        "decision": "exclude",
+        "reason": "Factory occurs in a film title comparing a gnome costume. The actual described setting is a round room with discs, not a production/workshop scene."
+      },
+      "DMT/79kaup": {
+        "decision": "include",
+        "reason": "Seen factory interior in a separate dimension: many shapes, conveyor belts with yellow boxes and tiny figures.",
+        "descriptors": [
+          "yellow / gold",
+          "layered / multidimensional",
+          "geometry / patterns",
+          "small / miniature"
+        ]
+      },
+      "DMT/73iavl": {
+        "decision": "include",
+        "reason": "Explicit animated colourful factory with miniature carousel gnome, playful hiding and eye contact; this is not ordinary opening of eyes.",
+        "descriptors": [
+          "multicoloured",
+          "moving / animated",
+          "eyes",
+          "small / miniature",
+          "playful / laughing"
+        ]
+      },
+      "DMT/o4raab": {
+        "decision": "include",
+        "reason": "Factory producing realities; supplement gives complex stone room, immense workers and conveyor enclosures. Scribbled sentence is the written trip note, not visible glyphs; faces explicitly could not be seen.",
+        "descriptors": [
+          "beings / presences",
+          "intricate / detailed",
+          "room / architecture",
+          "vast / infinite"
+        ]
+      },
+      "DMT/18kps1q": {
+        "decision": "exclude",
+        "reason": "Conveyor belts frame an interpretation of minds/life and alien governance; humanoid civilizations are seen, but no physical production setting is established."
+      },
+      "DMT/t2ityc": {
+        "decision": "include",
+        "reason": "Detailed workshop with moving hexagonal machines, coloured patterned floor, golden energy beams, small hexagonal workers and red/maroon guide. Ethereal glow does not establish transparent material; preceding elevator vividness is not counted separately.",
+        "descriptors": [
+          "multicoloured",
+          "red",
+          "orange",
+          "yellow / gold",
+          "green",
+          "blue",
+          "bright / luminous",
+          "moving / animated",
+          "intricate / detailed",
+          "geometry / patterns",
+          "beings / presences",
+          "circuitry / machinery",
+          "small / miniature"
+        ]
+      },
+      "DMT/1tvo6rf": {
+        "decision": "exclude",
+        "reason": "Factory workers are an emotionlessness simile including a comparison with mushrooms; no distinct industrial room is described. Eyes/ordinary room belong to return."
+      },
+      "DMT/1q80w7f": {
+        "decision": "exclude",
+        "reason": "Black market means a real purchase source, not a dark visionary market."
+      },
+      "DMT/ztua01": {
+        "decision": "include",
+        "reason": "Explicit alternate-reality village with bustling central market, frost-covered stone walls and wooden buildings.",
+        "descriptors": [
+          "room / architecture"
+        ]
+      },
+      "DMT/12ys6dr": {
+        "decision": "exclude",
+        "reason": "Factory settings is a metaphor for mental reset, not a place."
+      },
+      "DMT/v5oomi": {
+        "decision": "exclude",
+        "reason": "Market refers to available real vaping equipment, not a visionary realm."
+      },
+      "DMT/fw9qis": {
+        "decision": "include",
+        "reason": "Female presence and male guide showing his electronic future factory; exclude ordinary eye opening.",
+        "descriptors": [
+          "beings / presences",
+          "feminine form",
+          "communicating / teaching"
+        ]
+      },
+      "DMT/1azcx42": {
+        "decision": "exclude",
+        "reason": "Retail darknet market, not a visionary setting."
+      },
+      "DMT/1liyrsj": {
+        "decision": "include",
+        "reason": "Busy alien factory work with many beings; moving on and mantis observation describe other visits.",
+        "descriptors": [
+          "beings / presences"
+        ]
+      },
+      "DMT/crzkws": {
+        "decision": "include",
+        "reason": "Visionary waiting-world market with differently shaped crystal-fractal energies and a female supervisor. Hand-holding is a simile; The Machine is later administration; observe belongs to the narrator.",
+        "descriptors": [
+          "beings / presences",
+          "feminine form",
+          "fractals",
+          "jewelled / crystalline",
+          "geometry / patterns"
+        ]
+      },
+      "DMT/19disuc": {
+        "decision": "include",
+        "reason": "First-person conveyor operated by gigantic beings. Blue Meanies is a character comparison, not a confirmed blue palette; operating machinery is not examining the visitor.",
+        "descriptors": [
+          "beings / presences",
+          "vast / infinite"
+        ]
+      },
+      "DMT/6aw2ez": {
+        "decision": "exclude",
+        "reason": "Market means commercializing a remembered object, not a marketplace setting."
+      },
+      "DMT/3tty4f": {
+        "decision": "include",
+        "reason": "Factory machines and welcoming elf showing products; preceding onset fractals and later after-effects excluded. Beautiful colours has no multicoloured dictionary match.",
+        "descriptors": [
+          "beings / presences",
+          "circuitry / machinery",
+          "welcoming / loving",
+          "communicating / teaching"
+        ]
+      },
+      "DMT/6ds480": {
+        "decision": "exclude",
+        "reason": "Expanded context explicitly attributes the water-drop conveyor factory to mushroom trips, contrasted with current DMT."
+      },
+      "DMT/1t9o1qw": {
+        "decision": "exclude",
+        "reason": "Workshop is a later nighttime dream after falling asleep, not the earlier DMT encounter."
+      },
+      "DMT/182zcfp": {
+        "decision": "exclude",
+        "reason": "Retail dark-net markets, not visionary realms."
+      },
+      "DMT/b4e7vs": {
+        "decision": "include",
+        "reason": "Guides put on another show: food-processing oven/cauldron and visible organic layers. Being thrown is grammatical passive, not an entity description.",
+        "descriptors": [
+          "layered / multidimensional",
+          "circuitry / machinery",
+          "communicating / teaching",
+          "gesturing / offering"
+        ]
+      },
+      "DMT/1ricsal": {
+        "decision": "exclude",
+        "reason": "Factory is a felt origin interpretation of the actual bedroom; feminine energies form in bedsheets and room corner. Not a distinct realm, consistent with Garden overlay exclusions."
+      },
+      "DMT/1vs9ktc": {
+        "decision": "exclude",
+        "reason": "Second-hand quoted excerpt offered for discussion, explicitly more mental realization than scene image; not an independent first-person setting report."
+      },
+      "DMT/8ztf7b": {
+        "decision": "exclude",
+        "reason": "Real-world technology-startup market-entry conversation."
+      },
+      "DMT/6nn2dh": {
+        "decision": "exclude",
+        "reason": "Expanded context describes a carnival ride with clowns; Willy Wonka factory atmosphere is a film comparison, not manufacturing or market stalls."
+      },
+      "DMT/1jrqg7": {
+        "decision": "exclude",
+        "reason": "Carnival carousel compared to Charlie and the Chocolate Factory, not an experienced factory."
+      },
+      "DMT/18te7qt": {
+        "decision": "include",
+        "reason": "White minimalist factory with small formless box carriers. Fractals are explicitly absent; watching and stillness belong to the observer.",
+        "descriptors": [
+          "white",
+          "room / architecture",
+          "beings / presences",
+          "small / miniature"
+        ]
+      },
+      "DMT/1ela8g1": {
+        "decision": "exclude",
+        "reason": "Ordinary Roblox black-market trading history."
+      },
+      "DMT/6h5opv": {
+        "decision": "include",
+        "reason": "Expanded DMT-plus-ketamine narrative names a visionary supermarket but gives no market-specific dictionary visuals. Later machinery refers to office/dentist sounds, not factory visuals.",
+        "descriptors": []
+      },
+      "DMT/4per49": {
+        "decision": "exclude",
+        "reason": "Explicit alteration of existing surroundings compared to Willy Wonka and Dr Seuss, not a distinct factory."
+      },
+      "DMT/514so4": {
+        "decision": "include",
+        "reason": "Mechanical factory with simultaneous motion and impossible geometric dimensions. Machine elves are retrospective possibilities, not confirmed beings.",
+        "descriptors": [
+          "moving / animated",
+          "layered / multidimensional",
+          "geometry / patterns",
+          "circuitry / machinery"
+        ]
+      },
+      "DMT/3644a0": {
+        "decision": "exclude",
+        "reason": "Retail Dark Market purchase."
+      },
+      "DMT/1msl41t": {
+        "decision": "exclude",
+        "reason": "Factory-built vaping equipment, not a visionary factory."
+      },
+      "DMT/52f8vy": {
+        "decision": "exclude",
+        "reason": "A factory worth of rockets is an onset-intensity metaphor, not a factory setting."
+      },
+      "DMT/9fbqsk": {
+        "decision": "exclude",
+        "reason": "Repeated waiting-world market and crystal female supervisor narrative already retained as DMT/crzkws; exclude near-verbatim cross-post from independent sample votes."
+      },
+      "DMT/4qw0yo": {
+        "decision": "exclude",
+        "reason": "Lost Willy Wonka magic is a general comparison; current visuals explicitly absent."
+      },
+      "DMT/mg34tp": {
+        "decision": "include",
+        "reason": "Mixed DMT/ketamine/benzodiazepine outdoor produce market; patterned clown multiplies limbs. Mixture limits attribution; being taken is not an entity match.",
+        "descriptors": [
+          "jester / clown form",
+          "geometry / patterns",
+          "humanoid / bodies"
+        ]
+      },
+      "DMT/1g2cqki": {
+        "decision": "exclude",
+        "reason": "Rick and Morty fictional dialogue, not a factory report."
+      },
+      "DMT/4ut5zw": {
+        "decision": "exclude",
+        "reason": "Factory-built vape coils, not a visionary setting."
+      },
+      "DMT/1w72yyc": {
+        "decision": "exclude",
+        "reason": "Explicit open-eye alteration of actual room and blanket into Lego/factory machinery, not a distinct realm."
+      },
+      "DMT/3d1lik": {
+        "decision": "include",
+        "reason": "Clockwork manufacturing world, folding entity hallways and jewelled architecture with telepathic exchange. Expanded context establishes manufacturing beyond familiar market/carnival comparisons.",
+        "descriptors": [
+          "layered / multidimensional",
+          "circuitry / machinery",
+          "folding / unfolding",
+          "tunnel / corridor",
+          "beings / presences",
+          "morphing / transforming",
+          "fractals",
+          "intricate / detailed",
+          "room / architecture",
+          "jewelled / crystalline",
+          "communicating / teaching"
+        ]
+      },
+      "DMT/13f62fy": {
+        "decision": "include",
+        "reason": "Experienced package-transport tubes in futuristic factory: red/white stripes and purple portal. Black hole is a comparison, eyes are observer eyes, being transferred is grammatical passive.",
+        "descriptors": [
+          "red",
+          "purple / pink",
+          "white",
+          "tunnel / corridor"
+        ]
+      },
+      "DMT/o6dwdi": {
+        "decision": "exclude",
+        "reason": "Explicit Willy Wonka metaphor with no objects, things or beings: empty colour surfaces, not manufacturing or a market."
+      },
+      "DMT/11exmr1": {
+        "decision": "include",
+        "reason": "Assembly line/dry cleaner with fractal machinery and mechanical light arms cleaning/reintegrating nonphysical parts. Mechanical arms are not humanoid anatomy.",
+        "descriptors": [
+          "geometry / patterns",
+          "fractals",
+          "circuitry / machinery"
+        ]
+      },
+      "DMT/cjoy5h": {
+        "decision": "exclude",
+        "reason": "Factory temperature setting of a real vaporizer."
+      },
+      "DMT/1nenuqr": {
+        "decision": "include",
+        "reason": "Polished-steel work-station chamber, felt unseen presences, symbol-marked pistons/cogs visibly moving. Physical eyes/lighting excluded; steel and turning have no metallic/spinning dictionary match.",
+        "descriptors": [
+          "room / architecture",
+          "beings / presences",
+          "circuitry / machinery",
+          "glyphs / writing",
+          "moving / animated"
+        ]
+      },
+      "DMT/4awms4": {
+        "decision": "include",
+        "reason": "Distinct dream-factory visual energy with organic mechanical processes; beings explicitly absent, eyes belong to observer.",
+        "descriptors": [
+          "circuitry / machinery"
+        ]
+      },
+      "DMT/1dsp5x6": {
+        "decision": "exclude",
+        "reason": "Darknet retail market; writing/love are introductory self-description."
+      },
+      "DMT/dcswli": {
+        "decision": "exclude",
+        "reason": "Retail market sourcing, not the preceding visionary setting."
+      },
+      "DMT/1ehkz7h": {
+        "decision": "exclude",
+        "reason": "Ordinary illicit-market discussion, not a visionary white palette."
+      },
+      "DMT/wjosed": {
+        "decision": "exclude",
+        "reason": "Puzzle factory metaphor for psychiatric hospitalization in real-life aftermath."
+      },
+      "DMT/z270gs": {
+        "decision": "include",
+        "reason": "Endless factory-type building with grids of boxed human outlines, white light on black. Distinguish represented body from narrator dissociation.",
+        "descriptors": [
+          "white",
+          "bright / luminous",
+          "dark / black",
+          "dense / overwhelming",
+          "lattice / grid",
+          "room / architecture",
+          "humanoid / bodies",
+          "vast / infinite"
+        ]
+      },
+      "DMT/1unri6i": {
+        "decision": "include",
+        "reason": "Colourful conveyors/machinery, small clown worker carrying a battery overhead and jumping spinning hurdles. Overwhelmed is narrator reaction, not confirmed spatial density.",
+        "descriptors": [
+          "multicoloured",
+          "spinning / rotating",
+          "room / architecture",
+          "humanoid / bodies",
+          "jester / clown form",
+          "circuitry / machinery",
+          "small / miniature"
+        ]
+      },
+      "DMT/4lu2ae": {
+        "decision": "exclude",
+        "reason": "Ideas factory appears only in title; expanded narrative describes body sensations, anxious roaming and star imagery, not an experienced factory."
+      },
+      "DMT/4k5nrn": {
+        "decision": "exclude",
+        "reason": "Expanded context concerns actual computer cases/cups becoming animated; film factories compare open-eye surroundings, not a distinct realm."
+      },
+      "DMT/17q7380": {
+        "decision": "exclude",
+        "reason": "Product newly on the retail market."
+      },
+      "DMT/6t2sb5": {
+        "decision": "exclude",
+        "reason": "Online retail market and ordinary material colour."
+      },
+      "DMT/9ejh46": {
+        "decision": "exclude",
+        "reason": "Quoted vendor promotion, not a visionary setting."
+      },
+      "DMT/1cv2sjq": {
+        "decision": "exclude",
+        "reason": "Nervous-system factory reset metaphor; explicitly no visuals."
+      },
+      "DMT/d2wfcx": {
+        "decision": "exclude",
+        "reason": "Factory reset is a mental-restart metaphor, not a factory scene."
+      },
+      "DMT/1djkzh1": {
+        "decision": "exclude",
+        "reason": "Brain factory reset metaphor, not an experienced factory."
+      },
+      "DMT/1dtoiap": {
+        "decision": "exclude",
+        "reason": "Darknet retail market in introductory narrative, not visionary setting."
+      }
+    }
+  },
+  "extra_passages_sha256": "d780aab4e78b8a418e0bd1f47b8a7a4977dbc095f079f220d3b27e5fd095fd9d"
+}

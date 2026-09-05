@@ -26,9 +26,10 @@
     <div id="progress" aria-hidden="true"><div></div></div>
     <div id="touchControls" aria-label="Touch walking controls"><button data-move="forward" aria-label="Walk forward">↑</button><button data-move="left" aria-label="Walk left">←</button><button data-move="back" aria-label="Walk backward">↓</button><button data-move="right" aria-label="Walk right">→</button></div>
   </section>
-  <footer><button id="motion" aria-pressed="false">Reduced motion: off</button><button id="restart" hidden>Start again</button><span id="stateText" role="status"></span></footer>
+  <footer><button id="motion" aria-pressed="false">Reduced motion: off</button><button id="detail" aria-pressed="true">Detail: high</button><button id="restart" hidden>Start again</button><span id="stateText" role="status"></span></footer>
   <dialog id="evidence" aria-labelledby="evidenceTitle"><div class="drawer-top"><span class="eyebrow">THE EVIDENCE TRAIL</span><button id="closeEvidence" aria-label="Close sources">Close ×</button></div><h2 id="evidenceTitle">Behind this scene</h2><p class="notice">A synthesis of reported phenomenology, not a claim of literal places or beings. The route, scale, colours, architecture, ordinary room and character designs are editorial choices. Encounters and their order vary; this is not a frequency-weighted simulation.</p><div id="evidenceContent"></div><p class="notice">Corpus connections are adjacent tag mentions in narratives, not verified travel chronology. Vocabulary matches may be metaphorical or negated; archive counts are not population prevalence. Candidate depiction links are not verified witness images and may include AI-generated work.</p><a href="evidence.html">Open the complete evidence atlas ↗</a></dialog>
   <div id="failure" hidden><h1>The 3D view is unavailable.</h1><p>This browser could not start WebGL. The complete cited evidence is still available.</p><a href="evidence.html">Open the evidence atlas</a></div>
-  <script src="vendor/three.min.js"></script><script src="data.js"></script><script src="trip.js"></script>
+  <link rel="stylesheet" href="fidelity.css">
+  <script src="vendor/three.min.js"></script><script src="data.js"></script><script src="fidelity-data.js"></script><script src="fidelity-ui.js"></script><script src="fractal.js"></script><script src="continuum.js"></script><script src="beings.js"></script><script src="trip.js"></script>
 </body>
 </html>
