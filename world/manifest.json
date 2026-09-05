@@ -1,0 +1,15 @@
+{
+  "inputs": {
+    "data/atlas.json": "cea95eca4ad1adeec5576de8d5b8de74b36b63b0ba8a61d82b3f906527c2a24e",
+    "data/corpus/summary.json": "0fc3fd58dea299b8ec8df0de7f0537dffb04bded36d155870639141a491bd879",
+    "data/corpus/transitions.json": "838cd3245d46b49eef634bd9e617c30874e443944aeccf9abb802da28527f01e",
+    "data/corpus/saturation.json": "eae4222455de1f4420d7aafe9dde962e6a5638e2ecea4b78b2adfeadd6eab19c",
+    "data/corpus/discovery.json": "c63df374937a6010d2306a7103d154a6482d7adb7e83327417dd4abb19752f1d",
+    "data/corpus/depictions.json": "3dd3fa44545f5fb817958892caa5a1a37a7c843d34fe8c8e2dd97002b3dcf4b9",
+    "data/corpus/reports.jsonl": "58914e55ee53d15c52d5e10f6c3936565a50e5812e53d1a252a9e51c77a3a3ae",
+    "BUILD.md": "6dce3d869898273b3b10d6b7331eb572a1b81f278d92b49238766b87071b0fed"
+  },
+  "nodes": 172,
+  "reports": 14309,
+  "credited_depictions": 523
+}
