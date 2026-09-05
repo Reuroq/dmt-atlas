@@ -14,6 +14,9 @@ import time
 import urllib.request
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import metrics  # noqa: E402  (tokens per closed phase, from the dashboard's usage.jsonl)
+
 PORT = int(sys.argv[1]) if len(sys.argv) > 1 and sys.argv[1].isdigit() else 47321
 MAX_TURNS = int(sys.argv[2]) if len(sys.argv) > 2 and sys.argv[2].isdigit() else 40
 BASE = f"http://127.0.0.1:{PORT}"
@@ -21,6 +24,9 @@ HERE = Path(__file__).resolve().parent
 LOG = HERE / "driver.log"
 LEDGER = HERE / "phases.json"
 NOTES = HERE / "NOTES.md"
+METRICS = HERE / "metrics.jsonl"
+METRICS_MD = HERE / "METRICS.md"
+DASH_CWD = str(HERE)  # the corpus dashboard runs with --cwd corpus/
 POLL_S = 20
 
 BUDGET = 3
@@ -202,6 +208,28 @@ def main():
     strikes = strikes_total = 0
     last_phase = None
     first = True
+    # Count a turn left in flight by a previous driver (restart mid-run) against the current phase.
+    try:
+        if get("/api/state").get("busy"):
+            t0 = metrics.now_iso()
+            ph0 = current_phase(load_ledger())
+            before0 = artifact_state(ph0) if ph0 else {}
+            log("dashboard busy at start: waiting for the in-flight turn and counting it against the current phase")
+            wait_idle()
+            ledger = load_ledger()
+            if ph0:
+                changed0 = artifact_state(ph0) != before0
+                k0 = ledger[ph0]["turns_used"] + 1
+                ledger[ph0]["turns_used"] += 1
+                if ledger[ph0]["status"] == "PENDING":
+                    ledger[ph0]["status"] = "IN_PROGRESS"
+                save_ledger(ledger)
+                metrics.append(METRICS, metrics.turn_metric(0, ph0, k0, changed0, t0, metrics.now_iso(), DASH_CWD))
+                metrics.render_md(METRICS, ledger, "phase", BUDGET, METRICS_MD, ORDER)
+                log(f"in-flight turn counted for {ph0} ({k0}/{BUDGET}, changed={changed0} over a partial window)")
+                first = False
+    except Exception as e:
+        log(f"resume check failed: {e!r}")
     for turn in range(1, MAX_TURNS + 1):
         wait_idle()
         if turn > 1 and done():
@@ -226,6 +254,8 @@ def main():
                 first = False
             log(f"turn {turn}: phase {phase} ({ledger[phase]['turns_used'] + 1}/{BUDGET}, strikes {strikes})")
         before = artifact_state(phase) if phase else {}
+        k_on = (ledger[phase]["turns_used"] + 1) if phase else 0
+        t0 = metrics.now_iso()
         while True:
             code, r = post("/api/prompt", {"text": text})
             if code == 200 and r.get("ok"):
@@ -235,6 +265,7 @@ def main():
             time.sleep(POLL_S)
         time.sleep(30)
         wait_idle()
+        t1 = metrics.now_iso()
         ledger = load_ledger()
         changed = False
         if phase is not None:
@@ -255,14 +286,24 @@ def main():
                     ledger[phase]["note"] = (ledger[phase]["note"] + " | FORFEIT: no artifact in two turns").strip(" |")
                     log(f"turn {turn}: {phase} forfeited")
             save_ledger(ledger)
+        tok = {}
+        try:
+            row = metrics.turn_metric(turn, phase or "closing", k_on, changed, t0, t1, DASH_CWD)
+            metrics.append(METRICS, row)
+            head = metrics.render_md(METRICS, ledger, "phase", BUDGET, METRICS_MD, ORDER)
+            tok = {"tokens": row["tokens"], "cached": row["cached"], "out": row["output"] + row["reasoning"],
+                   "per_closed_phase": head.get("tokens_per_closed_unit")}
+        except Exception as e:
+            log(f"metrics failed: {e!r}")
         for item in size_guard():
             log(f"size guard removed {item}")
         try:
             st = get("/api/state")
-            log(f"turn {turn} finished: changed={changed} ctx={st.get('ctx')} free={disk_free_gb():.1f}GB "
-                f"rate={json.dumps(st.get('rate'))[:100]}")
+            log(f"turn {turn} finished: changed={changed} tokens={tok.get('tokens')} cached={tok.get('cached')} "
+                f"out={tok.get('out')} per_closed_phase={tok.get('per_closed_phase')} ctx={st.get('ctx')} "
+                f"free={disk_free_gb():.1f}GB rate={json.dumps(st.get('rate'))[:100]}")
         except Exception:
-            log(f"turn {turn} finished: changed={changed}")
+            log(f"turn {turn} finished: changed={changed} tokens={tok.get('tokens')}")
         if phase is None:
             log("closing turn done; exit")
             break
