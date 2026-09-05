@@ -16,6 +16,7 @@ parser.add_argument('--width', type=int, default=1200)
 parser.add_argument('--height', type=int, default=800)
 parser.add_argument('--lower', action='store_true')
 parser.add_argument('--walk', type=float, default=0, help='Seconds of real forward walking before capture')
+parser.add_argument('--walk-to-z', type=float, help='Hold the real forward key until this observed z coordinate; no pose injection')
 parser.add_argument('--check-stillness', action='store_true', help='Check paused/reduced canvas pixels and detail-toggle route preservation')
 parser.add_argument('--check-sources', action='store_true', help='Check the current scene evidence and report-to-render table through real Sources controls')
 parser.add_argument('--capture-transition', action='store_true', help='Pause during real onward passage and capture its signal seam')
@@ -23,6 +24,8 @@ parser.add_argument('--temporal-seconds', type=float, default=0, help='Capture t
 parser.add_argument('--exit-sequence', action='store_true', help='Capture real onward fade and the settled destination after the scene capture')
 parser.add_argument('--capture-name', help='Stable iteration filename prefix, without an extension')
 args = parser.parse_args()
+if args.walk and args.walk_to_z is not None:
+    parser.error('Choose timed walking or observed-position walking, not both')
 if args.capture_name and (Path(args.capture_name).name != args.capture_name or any(c in args.capture_name for c in '/\\:')):
     parser.error('Capture name must be a filename, not a path')
 if args.capture_name and any((HERE / f'{args.capture_name}{suffix}.png').exists() for suffix in ['', '-motion', '-exit', '-destination']):
@@ -63,6 +66,15 @@ with sync_playwright() as p:
         page.keyboard.down('w')
         page.wait_for_timeout(args.walk * 1000)
         page.keyboard.up('w')
+    if args.walk_to_z is not None:
+        assert args.walk_to_z < page.evaluate('journeyDiagnostics().position[2]'), 'Forward target must be ahead'
+        page.keyboard.down('w')
+        try:
+            page.wait_for_function('(g)=>journeyDiagnostics().stage!==g.stage || journeyDiagnostics().position[2]<=g.z',
+                                   arg={'stage': args.stage, 'z': args.walk_to_z})
+        finally:
+            page.keyboard.up('w')
+        assert page.evaluate('journeyDiagnostics().stage') == args.stage, 'Walk left the requested stage'
     start = page.evaluate('journeyDiagnostics().frames')
     begin = time.perf_counter()
     page.wait_for_timeout(2500)
@@ -77,18 +89,51 @@ with sync_playwright() as p:
     checks = []
     if args.check_stillness:
         def frozen(label):
+            # Both paused and idle reduced views must drain pending work. No
+            # minimum submission count: a settled view need not redraw at all.
+            page.wait_for_function('''() => { const d=journeyDiagnostics();
+                return (d.paused || d.reduced) && !d.transition && !d.renderPending &&
+                d.renderedAnimTime===d.animTime; }''')
             before = page.evaluate('journeyDiagnostics()')
             # Canvas-sized screenshots include the HUD's advancing progress bar.
             # Compare the unobstructed environment/actor area, as verify.py does.
             clip = {'x': 100, 'y': 110, 'width': args.width - 200, 'height': args.height - 420}
+            started = time.monotonic()
             a = Image.open(BytesIO(page.screenshot(clip=clip))).convert('RGB')
+            first_seconds = time.monotonic() - started
+            settled = page.evaluate('journeyDiagnostics()')
             page.wait_for_timeout(800)
+            started = time.monotonic()
             b = Image.open(BytesIO(page.screenshot(clip=clip))).convert('RGB')
+            second_seconds = time.monotonic() - started
             after = page.evaluate('journeyDiagnostics()')
-            assert before['animTime'] == after['animTime'], label + ': animation advanced'
-            assert ImageChops.difference(a, b).getbbox() is None, label + ': canvas changed'
+            difference = ImageChops.difference(a, b)
+            if args.capture_name:
+                stem = args.capture_name + '-' + '-'.join(label.split())
+                (HERE / (stem + '-trace.json')).write_text(json.dumps({
+                    'label': label, 'before': before, 'settled': settled, 'after': after,
+                    'screenshot_seconds': [first_seconds, second_seconds],
+                    'difference_bbox': difference.getbbox(),
+                    'changed_pixels': sum(any(pixel) for pixel in difference.getdata()),
+                    'render_signature': render_signature()
+                }, indent=2) + '\n')
+                if difference.getbbox() is not None:
+                    a.save(HERE / (stem + '-before.png'))
+                    b.save(HERE / (stem + '-after.png'))
+            for d in [before, settled, after]:
+                assert not d['renderPending'] and d['renderedAnimTime'] == d['animTime'], label + ': unsettled view'
+                for field in ['animTime', 'position', 'yaw', 'pitch', 'detail', 'frames']:
+                    assert d[field] == before[field], label + ': changed ' + field
+            assert difference.getbbox() is None, label + ': canvas changed'
             checks.append(label)
         frozen('paused pixel stillness')
+        before_resize = page.evaluate('journeyDiagnostics().frames')
+        page.set_viewport_size({'width': args.width - 20, 'height': args.height})
+        page.wait_for_function('(f)=>journeyDiagnostics().frames>f', arg=before_resize)
+        before_restore = page.evaluate('journeyDiagnostics().frames')
+        page.set_viewport_size({'width': args.width, 'height': args.height})
+        page.wait_for_function('(f)=>journeyDiagnostics().frames>f', arg=before_restore)
+        frozen('paused resize restores stable canvas')
         page.locator('#motion').click()
         page.locator('#pause').click()
         frozen('reduced-motion pixel stillness')
@@ -112,6 +157,7 @@ with sync_playwright() as p:
     prefix = args.capture_name or path.stem
     sequence = []
     def capture(label):
+        page.wait_for_function('!journeyDiagnostics().renderPending && journeyDiagnostics().renderedAnimTime===journeyDiagnostics().animTime')
         capture_diagnostics = page.evaluate('journeyDiagnostics()')
         assert capture_diagnostics['paused'], 'Capture must be paused'
         assert not capture_diagnostics['missingEvidence'] and capture_diagnostics['uncitedMeshes'] == 0, 'Uncited capture geometry'

@@ -1,0 +1,242 @@
+{
+  "question": "Would someone who has had this experience recognise this, or does it read as a game?",
+  "diagnostic_only": true,
+  "overall_grade": "GAME",
+  "rejected": true,
+  "promotion": false,
+  "inspection_method": "Each of four NEW PNGs viewed exactly once with view_image after renderer exit0.",
+  "frames": [
+    {
+      "file": "diagnostic-centre-v32-entry.png",
+      "sha256": "1e8c90d6273c5e5ca8e2772313ae1deeef4fdd8465e0ce864401e3d807551048",
+      "inspections": 1,
+      "grade": "GAME",
+      "reasons": "A readable concentric sixfold flower and enclosure replace sparse spokes, but chunky blue pod-like lobes and gold cut tabs dominate. Huge smooth magenta/purple outer patches, broad plastic highlights, hard-cut/stair-stepped rims and only a few coarse layers. Tiny black axial hole; apertures mostly expose more coloured sheet. No overwhelming resolved recursive petal hierarchy."
+    },
+    {
+      "file": "diagnostic-centre-v32-entry-motion.png",
+      "sha256": "66290ee2f4849001b9162e86d750703ecf51f555b4ad9b9d2eb1d18cd9e4398f",
+      "inspections": 1,
+      "grade": "GAME",
+      "reasons": "Large blue/green pods rotate and opening/tab shapes change; the flower remains a glossy rainbow tunnel. Broad continuous annular bands, repeated chunky fins and large smooth surfaces overwhelm the small inner details. Cut-looking edges and smeared white highlights do not read as intricate jewel/chrome geometry."
+    },
+    {
+      "file": "diagnostic-centre-v32-deep.png",
+      "sha256": "bbb296d25505dfc262c80a67b0a43c432662cdecff585f6a2a5eb58f30f4fb20",
+      "inspections": 1,
+      "grade": "GAME",
+      "reasons": "Approach enlarges balloon-like blue/green scalloped sheets rather than revealing finer petal structure. A small inner flower has red tubes and gold tabs, but the surrounding field is mostly smooth ramps with blunt holes and dark doubled/stair-stepped rims. Insufficient black depth, branching filigree or nested density; strongly plastic/game-like."
+    },
+    {
+      "file": "diagnostic-centre-v32-deep-motion.png",
+      "sha256": "ea6bac7d6f83268ff645073a4b47723fd062cdb4ba823e8e1f95cf2640a7fc00",
+      "inspections": 1,
+      "grade": "GAME",
+      "reasons": "The inner opening develops blue eyelet-like cups and gold cut fins while broad outer lobes bend and change colour. Large smooth patches and hard sheet seams persist; nesting is only a few coarse concentric levels, not per-pixel intricacy. Tiny black centre and washed/smeared specular streaks fail the spatial/material realism bar."
+    }
+  ],
+  "temporal_grade": "GAME",
+  "temporal_observation": "Both fixed-pose pairs visibly change lobe orientation, apertures, inner forms and colour. This is more than pigment alone, but two coarse flower states do not establish convincing continuous recursive unfolding/breathing, smoothness or temporal antialiasing.",
+  "capture_gate_passed": true,
+  "timings": [
+    {
+      "operation": "launch and real navigation",
+      "wall_seconds": 3.7242005551233888,
+      "excludes_gpu_settling": true
+    },
+    {
+      "operation": "entry temporal pair including controls, settle and screenshot",
+      "wall_seconds": 59.8708159327507,
+      "animation_seconds": 3.0834000000000126,
+      "completed_frames": 4,
+      "frames_per_wall_second": 0.06681051423272667
+    },
+    {
+      "operation": "real walk to z -6; timer-observed stop and native pause",
+      "wall_seconds": 4.421062481589615,
+      "before": {
+        "stage": "chrysanthemum",
+        "routeIndex": 2,
+        "entered": true,
+        "paused": true,
+        "paced": false,
+        "reduced": false,
+        "elapsed": 3.1168000000000085,
+        "animTime": 6.549899999809277,
+        "transition": false,
+        "renderReady": true,
+        "renderPending": false,
+        "renderedAnimTime": 6.549899999809277,
+        "frames": 8,
+        "position": [
+          0,
+          1.7,
+          8
+        ],
+        "yaw": 0,
+        "pitch": 0,
+        "visited": [
+          "onset",
+          "geometry",
+          "chrysanthemum"
+        ],
+        "entities": [],
+        "interactions": 0,
+        "evidence": [
+          "phase|The Chrysanthemum",
+          "geometry|The Chrysanthemum",
+          "geometry|Fractal lattices & jeweled tilings",
+          "geometry|Static Pattern Overlay & filigree",
+          "geometry|Breathing & Liquid Surfaces",
+          "geometry|Dimensional Layering & Space-Folding",
+          "geometry|Hyperbolic Space & Negative Curvature",
+          "geometry|Ultra-Detail & Infinite Resolution",
+          "geometry|Energy Conduits & Living Circuitry",
+          "geometry|Mandalas & symmetry fields"
+        ],
+        "missingEvidence": [],
+        "sourceCount": 35,
+        "portals": [
+          {
+            "x": 0,
+            "z": -23,
+            "width": 3.5,
+            "target": "next"
+          }
+        ],
+        "detail": "high",
+        "drawCalls": 1,
+        "triangles": 2,
+        "geometries": 5,
+        "actors": [],
+        "uncitedMeshes": 0
+      },
+      "observed_stop": {
+        "stage": "chrysanthemum",
+        "routeIndex": 2,
+        "entered": true,
+        "paused": false,
+        "paced": false,
+        "reduced": false,
+        "elapsed": 3.6501000000000094,
+        "animTime": 7.083199999809287,
+        "transition": false,
+        "renderReady": true,
+        "renderPending": true,
+        "renderedAnimTime": 6.566499999809283,
+        "frames": 9,
+        "position": [
+          0,
+          1.7,
+          -6.0371199981689605
+        ],
+        "yaw": 0,
+        "pitch": 0,
+        "visited": [
+          "onset",
+          "geometry",
+          "chrysanthemum"
+        ],
+        "entities": [],
+        "interactions": 0,
+        "evidence": [
+          "phase|The Chrysanthemum",
+          "geometry|The Chrysanthemum",
+          "geometry|Fractal lattices & jeweled tilings",
+          "geometry|Static Pattern Overlay & filigree",
+          "geometry|Breathing & Liquid Surfaces",
+          "geometry|Dimensional Layering & Space-Folding",
+          "geometry|Hyperbolic Space & Negative Curvature",
+          "geometry|Ultra-Detail & Infinite Resolution",
+          "geometry|Energy Conduits & Living Circuitry",
+          "geometry|Mandalas & symmetry fields"
+        ],
+        "missingEvidence": [],
+        "sourceCount": 35,
+        "portals": [
+          {
+            "x": 0,
+            "z": -23,
+            "width": 3.5,
+            "target": "next"
+          }
+        ],
+        "detail": "high",
+        "drawCalls": 1,
+        "triangles": 2,
+        "geometries": 5,
+        "actors": [],
+        "uncitedMeshes": 0
+      },
+      "after_release_pause": {
+        "stage": "chrysanthemum",
+        "routeIndex": 2,
+        "entered": true,
+        "paused": true,
+        "paced": false,
+        "reduced": false,
+        "elapsed": 3.6501000000000094,
+        "animTime": 7.083199999809287,
+        "transition": false,
+        "renderReady": true,
+        "renderPending": true,
+        "renderedAnimTime": 6.566499999809283,
+        "frames": 9,
+        "position": [
+          0,
+          1.7,
+          -6.057600000000015
+        ],
+        "yaw": 0,
+        "pitch": 0,
+        "visited": [
+          "onset",
+          "geometry",
+          "chrysanthemum"
+        ],
+        "entities": [],
+        "interactions": 0,
+        "evidence": [
+          "phase|The Chrysanthemum",
+          "geometry|The Chrysanthemum",
+          "geometry|Fractal lattices & jeweled tilings",
+          "geometry|Static Pattern Overlay & filigree",
+          "geometry|Breathing & Liquid Surfaces",
+          "geometry|Dimensional Layering & Space-Folding",
+          "geometry|Hyperbolic Space & Negative Curvature",
+          "geometry|Ultra-Detail & Infinite Resolution",
+          "geometry|Energy Conduits & Living Circuitry",
+          "geometry|Mandalas & symmetry fields"
+        ],
+        "missingEvidence": [],
+        "sourceCount": 35,
+        "portals": [
+          {
+            "x": 0,
+            "z": -23,
+            "width": 3.5,
+            "target": "next"
+          }
+        ],
+        "detail": "high",
+        "drawCalls": 1,
+        "triangles": 2,
+        "geometries": 5,
+        "actors": [],
+        "uncitedMeshes": 0
+      },
+      "polling_ms": 50,
+      "native_controls": true
+    },
+    {
+      "operation": "deep temporal pair including controls, settle and screenshot",
+      "wall_seconds": 57.49888721294701,
+      "animation_seconds": 3.199899999999986,
+      "completed_frames": 4,
+      "frames_per_wall_second": 0.06956656370037229
+    }
+  ],
+  "source_or_coverage_credit": false,
+  "next_work": "Build an isolated v33 with many individually tapered, curled petal cells across angular, radial and depth coordinates, with spatially resolved child petals and open inter-layer gaps. Replace the broad continuous annular membrane topology; do not merely recolour it or add small harmonic ripples. Re-derive bounds/filtering and independently validate the changed field before new HIGH pairs. Preserve clearance, real controls and existing root budgets/tolerances.",
+  "limits": "Visual judgement, not witness validation. No hardware-GPU benchmark, temporal-AA proof, original physical-exit or full acceptance claim."
+}

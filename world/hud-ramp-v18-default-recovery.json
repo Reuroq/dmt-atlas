@@ -1,0 +1,19 @@
+{
+  "cause": "render_visual.py lines198-200 always update default files for named captures; closure hash guard caught this before documentation writes",
+  "files": {
+    "visual-chrysanthemum.png": {
+      "unexpected_default_copy_sha256": "ca24cbb3b8504dc0f195439aed6a1f06a8d45e2d1ba8b31e5da191e34bcc16f6",
+      "new_capture_preserved_as": "accessibility-hud-ramp-v18.png",
+      "restored_from": "accessibility-chrysanthemum-v25.png",
+      "restored_sha256": "9ab2511f859eebebdca7973cc9d4b852df6cc118dd02cf8cd4c55efd72957f2c"
+    },
+    "visual-chrysanthemum.json": {
+      "unexpected_default_copy_sha256": "f529acb08f31f9670d47131b4b86a0d2b6690301ddf196cbaa03b261786d4cfe",
+      "new_capture_preserved_as": "accessibility-hud-ramp-v18.json",
+      "restored_from": "accessibility-chrysanthemum-v25.json",
+      "restored_sha256": "9d6136cbc55818aba257a6bffa40aafda0aa0ae89af0404c3cf5a8ad36999b46"
+    }
+  },
+  "renderer_changed": false,
+  "new_capture_unchanged": true
+}

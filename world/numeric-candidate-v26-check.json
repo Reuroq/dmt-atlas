@@ -1,0 +1,3003 @@
+{
+  "method": "Actual float GLSL fields, analytic gradients and .4 bounds versus independent float64 field/finite differences. Original six plus central 3x3 .003 first-sign-crossing scans. Even legacy grids and odd exact-axis grids. Late times 221/900s. Sparse numerical evidence only; no universal root, precision, performance or realism proof.",
+  "limits": {
+    "gradient": 0.005,
+    "bound_ratio": 1.001,
+    "scalar": 0.001,
+    "root": 0.03
+  },
+  "files": {
+    "continuum.js": "6b55368f4f3d31cbd71dc0420707c8860e99a1b471f9108a53a77416f871106d",
+    "trip.js": "9ea2c7f086d93d8b049f1113a676930b195bc522e5e4f2e87a857e6553b90c5a",
+    "continuum-v25.js": "6b55368f4f3d31cbd71dc0420707c8860e99a1b471f9108a53a77416f871106d",
+    "continuum-v26-candidate.js": "1bc81fed1024354355ad145a7e1da211d310ce0a5a70a681d840ded00e06b899",
+    "build_numeric_candidate_v26.py": "05776b94672d92820a41bbb67f1ec5b1235114cddb5003f7f824b48291fc7b61",
+    "gpu_probe_v26_candidate.html": "ae47ea7623ada9dc182072f04ba428ed4b6d2fcda94753e51204e3f1fe740301",
+    "probe_numeric_candidate_v26.py": "50455b4121841dc9cedd92f239cb2d0c6f392527ef4ba3d1deb44ede1c17a0c2",
+    "probe_continuum_v25.py": "0f27b8247e39c21d890e2d0a536187442d0912a8b9f476a01ca88aa1a02a6246",
+    "numeric-candidate-v26-raw.json": "e0b33fe31536a36b4fe6fd6e5add41bcbe37baa0770a2954605471652717f4c5"
+  },
+  "errors": [],
+  "cases": [
+    {
+      "z": 8,
+      "time": 4,
+      "high": 1,
+      "width": 48,
+      "height": 32,
+      "rays": 1536,
+      "misses": 0,
+      "max_iterations": 271.0,
+      "max_gradient_error": 3.678094045145297e-05,
+      "max_bound_ratio": 0.30307625614523914,
+      "max_field_cpu_gpu_difference": 9.201202033146203e-06,
+      "actual_points_field_difference": 5.006119344486658e-06,
+      "worst_scalar_ray": 890,
+      "references": [
+        {
+          "ray": 0,
+          "axis": false,
+          "gpu_depth": 8.071139335632324,
+          "reference_depth": 8.07277664217353,
+          "difference": 0.0016373065412054189
+        },
+        {
+          "ray": 307,
+          "axis": false,
+          "gpu_depth": 15.089164733886719,
+          "reference_depth": 15.092746824055908,
+          "difference": 0.0035820901691892004
+        },
+        {
+          "ray": 614,
+          "axis": false,
+          "gpu_depth": 14.465768814086914,
+          "reference_depth": 14.46998210790753,
+          "difference": 0.00421329382061586
+        },
+        {
+          "ray": 743,
+          "axis": false,
+          "gpu_depth": 49.416961669921875,
+          "reference_depth": 49.42381835970283,
+          "difference": 0.006856689780953218
+        },
+        {
+          "ray": 744,
+          "axis": false,
+          "gpu_depth": 47.784305572509766,
+          "reference_depth": 47.78759652873874,
+          "difference": 0.0032909562289731298
+        },
+        {
+          "ray": 745,
+          "axis": false,
+          "gpu_depth": 47.11687469482422,
+          "reference_depth": 47.12020288923383,
+          "difference": 0.00332819440961174
+        },
+        {
+          "ray": 791,
+          "axis": false,
+          "gpu_depth": 47.80329132080078,
+          "reference_depth": 47.80667138805985,
+          "difference": 0.003380067259065811
+        },
+        {
+          "ray": 792,
+          "axis": false,
+          "gpu_depth": 48.52869415283203,
+          "reference_depth": 48.537186921447514,
+          "difference": 0.00849276861548276
+        },
+        {
+          "ray": 793,
+          "axis": false,
+          "gpu_depth": 47.36811065673828,
+          "reference_depth": 47.37202188375593,
+          "difference": 0.003911227017646013
+        },
+        {
+          "ray": 839,
+          "axis": false,
+          "gpu_depth": 47.10675811767578,
+          "reference_depth": 47.11003305718304,
+          "difference": 0.003274939507257102
+        },
+        {
+          "ray": 840,
+          "axis": false,
+          "gpu_depth": 47.55397033691406,
+          "reference_depth": 47.56018952938914,
+          "difference": 0.006219192475079183
+        },
+        {
+          "ray": 841,
+          "axis": false,
+          "gpu_depth": 50.08655548095703,
+          "reference_depth": 50.09284028032422,
+          "difference": 0.006284799367186622
+        },
+        {
+          "ray": 921,
+          "axis": false,
+          "gpu_depth": 14.465768814086914,
+          "reference_depth": 14.46998210790753,
+          "difference": 0.00421329382061586
+        },
+        {
+          "ray": 1228,
+          "axis": false,
+          "gpu_depth": 15.089163780212402,
+          "reference_depth": 15.092746824055908,
+          "difference": 0.0035830438435056067
+        },
+        {
+          "ray": 1535,
+          "axis": false,
+          "gpu_depth": 8.07114028930664,
+          "reference_depth": 8.07277664217353,
+          "difference": 0.0016363528668890126
+        }
+      ],
+      "gpu_three_readbacks_seconds": 0.8306701835244894,
+      "passed": true
+    },
+    {
+      "z": 8,
+      "time": 4,
+      "high": 0,
+      "width": 48,
+      "height": 32,
+      "rays": 1536,
+      "misses": 0,
+      "max_iterations": 271.0,
+      "max_gradient_error": 3.67809404471231e-05,
+      "max_bound_ratio": 0.30518283443244965,
+      "max_field_cpu_gpu_difference": 9.201202033146203e-06,
+      "actual_points_field_difference": 5.006119344486658e-06,
+      "worst_scalar_ray": 890,
+      "references": [
+        {
+          "ray": 0,
+          "axis": false,
+          "gpu_depth": 8.075254440307617,
+          "reference_depth": 8.07687881729007,
+          "difference": 0.0016243769824519916
+        },
+        {
+          "ray": 307,
+          "axis": false,
+          "gpu_depth": 15.089215278625488,
+          "reference_depth": 15.093092857450245,
+          "difference": 0.003877578824756256
+        },
+        {
+          "ray": 614,
+          "axis": false,
+          "gpu_depth": 14.465692520141602,
+          "reference_depth": 14.469698060542346,
+          "difference": 0.004005540400743968
+        },
+        {
+          "ray": 743,
+          "axis": false,
+          "gpu_depth": 49.416961669921875,
+          "reference_depth": 49.42381835970283,
+          "difference": 0.006856689780953218
+        },
+        {
+          "ray": 744,
+          "axis": false,
+          "gpu_depth": 47.784305572509766,
+          "reference_depth": 47.78759652873874,
+          "difference": 0.0032909562289731298
+        },
+        {
+          "ray": 745,
+          "axis": false,
+          "gpu_depth": 47.11687469482422,
+          "reference_depth": 47.12020288923383,
+          "difference": 0.00332819440961174
+        },
+        {
+          "ray": 791,
+          "axis": false,
+          "gpu_depth": 47.80329132080078,
+          "reference_depth": 47.80667138805985,
+          "difference": 0.003380067259065811
+        },
+        {
+          "ray": 792,
+          "axis": false,
+          "gpu_depth": 48.52869415283203,
+          "reference_depth": 48.537186921447514,
+          "difference": 0.00849276861548276
+        },
+        {
+          "ray": 793,
+          "axis": false,
+          "gpu_depth": 47.36811065673828,
+          "reference_depth": 47.37202188375593,
+          "difference": 0.003911227017646013
+        },
+        {
+          "ray": 839,
+          "axis": false,
+          "gpu_depth": 47.10675811767578,
+          "reference_depth": 47.11003305718304,
+          "difference": 0.003274939507257102
+        },
+        {
+          "ray": 840,
+          "axis": false,
+          "gpu_depth": 47.55397033691406,
+          "reference_depth": 47.56018952938914,
+          "difference": 0.006219192475079183
+        },
+        {
+          "ray": 841,
+          "axis": false,
+          "gpu_depth": 50.08655548095703,
+          "reference_depth": 50.09284028032422,
+          "difference": 0.006284799367186622
+        },
+        {
+          "ray": 921,
+          "axis": false,
+          "gpu_depth": 14.465692520141602,
+          "reference_depth": 14.469698060542346,
+          "difference": 0.004005540400743968
+        },
+        {
+          "ray": 1228,
+          "axis": false,
+          "gpu_depth": 15.089213371276855,
+          "reference_depth": 15.093092857450245,
+          "difference": 0.0038794861733890684
+        },
+        {
+          "ray": 1535,
+          "axis": false,
+          "gpu_depth": 8.075254440307617,
+          "reference_depth": 8.07687881729007,
+          "difference": 0.0016243769824519916
+        }
+      ],
+      "gpu_three_readbacks_seconds": 0.22295028250664473,
+      "passed": true
+    },
+    {
+      "z": 8,
+      "time": 8,
+      "high": 1,
+      "width": 48,
+      "height": 32,
+      "rays": 1536,
+      "misses": 0,
+      "max_iterations": 648.0,
+      "max_gradient_error": 2.6006541649747916e-05,
+      "max_bound_ratio": 0.338668422267477,
+      "max_field_cpu_gpu_difference": 1.6403143310114547e-05,
+      "actual_points_field_difference": 4.7243728347827994e-06,
+      "worst_scalar_ray": 795,
+      "references": [
+        {
+          "ray": 0,
+          "axis": false,
+          "gpu_depth": 8.805519104003906,
+          "reference_depth": 8.80756300458312,
+          "difference": 0.0020439005792134424
+        },
+        {
+          "ray": 307,
+          "axis": false,
+          "gpu_depth": 19.998369216918945,
+          "reference_depth": 20.0080137964189,
+          "difference": 0.009644579499955341
+        },
+        {
+          "ray": 614,
+          "axis": false,
+          "gpu_depth": 15.385038375854492,
+          "reference_depth": 15.389407474905255,
+          "difference": 0.00436909905076277
+        },
+        {
+          "ray": 743,
+          "axis": false,
+          "gpu_depth": 49.60334396362305,
+          "reference_depth": 49.609184519916774,
+          "difference": 0.005840556293726706
+        },
+        {
+          "ray": 744,
+          "axis": false,
+          "gpu_depth": 49.799720764160156,
+          "reference_depth": 49.80319662514331,
+          "difference": 0.0034758609831513354
+        },
+        {
+          "ray": 745,
+          "axis": false,
+          "gpu_depth": 52.460391998291016,
+          "reference_depth": 52.46366206893325,
+          "difference": 0.003270070642237499
+        },
+        {
+          "ray": 791,
+          "axis": false,
+          "gpu_depth": 50.83793640136719,
+          "reference_depth": 50.8487136092484,
+          "difference": 0.010777207881211837
+        },
+        {
+          "ray": 792,
+          "axis": false,
+          "gpu_depth": 50.570167541503906,
+          "reference_depth": 50.580258798211794,
+          "difference": 0.010091256707887908
+        },
+        {
+          "ray": 793,
+          "axis": false,
+          "gpu_depth": 51.2630615234375,
+          "reference_depth": 51.27088866564632,
+          "difference": 0.007827142208817861
+        },
+        {
+          "ray": 839,
+          "axis": false,
+          "gpu_depth": 52.1767692565918,
+          "reference_depth": 52.182852306693796,
+          "difference": 0.006083050101999277
+        },
+        {
+          "ray": 840,
+          "axis": false,
+          "gpu_depth": 51.518524169921875,
+          "reference_depth": 51.526164630979295,
+          "difference": 0.0076404610574201115
+        },
+        {
+          "ray": 841,
+          "axis": false,
+          "gpu_depth": 46.648338317871094,
+          "reference_depth": 46.653021918386216,
+          "difference": 0.004683600515122066
+        },
+        {
+          "ray": 921,
+          "axis": false,
+          "gpu_depth": 15.385038375854492,
+          "reference_depth": 15.389407474905255,
+          "difference": 0.00436909905076277
+        },
+        {
+          "ray": 1228,
+          "axis": false,
+          "gpu_depth": 19.998367309570312,
+          "reference_depth": 20.0080137964189,
+          "difference": 0.009646486848588154
+        },
+        {
+          "ray": 1535,
+          "axis": false,
+          "gpu_depth": 8.805520057678223,
+          "reference_depth": 8.80756300458312,
+          "difference": 0.002042946904897036
+        }
+      ],
+      "gpu_three_readbacks_seconds": 0.27922745514661074,
+      "passed": true
+    },
+    {
+      "z": 8,
+      "time": 8,
+      "high": 0,
+      "width": 48,
+      "height": 32,
+      "rays": 1536,
+      "misses": 0,
+      "max_iterations": 648.0,
+      "max_gradient_error": 2.6006541649747916e-05,
+      "max_bound_ratio": 0.34094845324161654,
+      "max_field_cpu_gpu_difference": 1.6403143310114547e-05,
+      "actual_points_field_difference": 4.7243728347827994e-06,
+      "worst_scalar_ray": 795,
+      "references": [
+        {
+          "ray": 0,
+          "axis": false,
+          "gpu_depth": 8.802360534667969,
+          "reference_depth": 8.804498103529216,
+          "difference": 0.0021375688612472743
+        },
+        {
+          "ray": 307,
+          "axis": false,
+          "gpu_depth": 19.99836540222168,
+          "reference_depth": 20.008007915943857,
+          "difference": 0.00964251372217717
+        },
+        {
+          "ray": 614,
+          "axis": false,
+          "gpu_depth": 15.385376930236816,
+          "reference_depth": 15.3895842641294,
+          "difference": 0.0042073338925838755
+        },
+        {
+          "ray": 743,
+          "axis": false,
+          "gpu_depth": 49.60334396362305,
+          "reference_depth": 49.609184519916774,
+          "difference": 0.005840556293726706
+        },
+        {
+          "ray": 744,
+          "axis": false,
+          "gpu_depth": 49.799720764160156,
+          "reference_depth": 49.80319662514331,
+          "difference": 0.0034758609831513354
+        },
+        {
+          "ray": 745,
+          "axis": false,
+          "gpu_depth": 52.460391998291016,
+          "reference_depth": 52.46366206893325,
+          "difference": 0.003270070642237499
+        },
+        {
+          "ray": 791,
+          "axis": false,
+          "gpu_depth": 50.83793640136719,
+          "reference_depth": 50.8487136092484,
+          "difference": 0.010777207881211837
+        },
+        {
+          "ray": 792,
+          "axis": false,
+          "gpu_depth": 50.570167541503906,
+          "reference_depth": 50.580258798211794,
+          "difference": 0.010091256707887908
+        },
+        {
+          "ray": 793,
+          "axis": false,
+          "gpu_depth": 51.2630615234375,
+          "reference_depth": 51.27088866564632,
+          "difference": 0.007827142208817861
+        },
+        {
+          "ray": 839,
+          "axis": false,
+          "gpu_depth": 52.1767692565918,
+          "reference_depth": 52.182852306693796,
+          "difference": 0.006083050101999277
+        },
+        {
+          "ray": 840,
+          "axis": false,
+          "gpu_depth": 51.518524169921875,
+          "reference_depth": 51.526164630979295,
+          "difference": 0.0076404610574201115
+        },
+        {
+          "ray": 841,
+          "axis": false,
+          "gpu_depth": 46.648338317871094,
+          "reference_depth": 46.653021918386216,
+          "difference": 0.004683600515122066
+        },
+        {
+          "ray": 921,
+          "axis": false,
+          "gpu_depth": 15.3853759765625,
+          "reference_depth": 15.3895842641294,
+          "difference": 0.004208287566900282
+        },
+        {
+          "ray": 1228,
+          "axis": false,
+          "gpu_depth": 19.998363494873047,
+          "reference_depth": 20.008007915943857,
+          "difference": 0.009644421070809983
+        },
+        {
+          "ray": 1535,
+          "axis": false,
+          "gpu_depth": 8.802361488342285,
+          "reference_depth": 8.804498103529216,
+          "difference": 0.002136615186930868
+        }
+      ],
+      "gpu_three_readbacks_seconds": 0.24550857208669186,
+      "passed": true
+    },
+    {
+      "z": -6,
+      "time": 4,
+      "high": 1,
+      "width": 48,
+      "height": 32,
+      "rays": 1536,
+      "misses": 0,
+      "max_iterations": 638.0,
+      "max_gradient_error": 2.8636750690758106e-05,
+      "max_bound_ratio": 0.3757916472910191,
+      "max_field_cpu_gpu_difference": 9.400136902413571e-06,
+      "actual_points_field_difference": 4.741427875588639e-06,
+      "worst_scalar_ray": 650,
+      "references": [
+        {
+          "ray": 0,
+          "axis": false,
+          "gpu_depth": 9.876648902893066,
+          "reference_depth": 9.87857308128476,
+          "difference": 0.001924178391693232
+        },
+        {
+          "ray": 307,
+          "axis": false,
+          "gpu_depth": 20.499473571777344,
+          "reference_depth": 20.506633871287107,
+          "difference": 0.00716029950976349
+        },
+        {
+          "ray": 614,
+          "axis": false,
+          "gpu_depth": 12.055364608764648,
+          "reference_depth": 12.059444291442635,
+          "difference": 0.004079682677986085
+        },
+        {
+          "ray": 743,
+          "axis": false,
+          "gpu_depth": 36.30777359008789,
+          "reference_depth": 36.3155946252644,
+          "difference": 0.007821035176512225
+        },
+        {
+          "ray": 744,
+          "axis": false,
+          "gpu_depth": 34.99006652832031,
+          "reference_depth": 35.00106934162974,
+          "difference": 0.011002813309424653
+        },
+        {
+          "ray": 745,
+          "axis": false,
+          "gpu_depth": 33.62672805786133,
+          "reference_depth": 33.62995300260186,
+          "difference": 0.0032249447405305887
+        },
+        {
+          "ray": 791,
+          "axis": false,
+          "gpu_depth": 35.07272720336914,
+          "reference_depth": 35.080847323805095,
+          "difference": 0.008120120435954448
+        },
+        {
+          "ray": 792,
+          "axis": false,
+          "gpu_depth": 37.67967987060547,
+          "reference_depth": 37.69269772008062,
+          "difference": 0.013017849475154719
+        },
+        {
+          "ray": 793,
+          "axis": false,
+          "gpu_depth": 34.67557907104492,
+          "reference_depth": 34.67862236836553,
+          "difference": 0.0030432973206089287
+        },
+        {
+          "ray": 839,
+          "axis": false,
+          "gpu_depth": 34.03601837158203,
+          "reference_depth": 34.039663595527415,
+          "difference": 0.003645223945383691
+        },
+        {
+          "ray": 840,
+          "axis": false,
+          "gpu_depth": 34.83455276489258,
+          "reference_depth": 34.841147595673796,
+          "difference": 0.006594830781217809
+        },
+        {
+          "ray": 841,
+          "axis": false,
+          "gpu_depth": 35.39332962036133,
+          "reference_depth": 35.41085040315986,
+          "difference": 0.01752078279853464
+        },
+        {
+          "ray": 921,
+          "axis": false,
+          "gpu_depth": 12.055365562438965,
+          "reference_depth": 12.059444291442635,
+          "difference": 0.004078729003669679
+        },
+        {
+          "ray": 1228,
+          "axis": false,
+          "gpu_depth": 20.499467849731445,
+          "reference_depth": 20.506633871287107,
+          "difference": 0.007166021555661928
+        },
+        {
+          "ray": 1535,
+          "axis": false,
+          "gpu_depth": 9.876649856567383,
+          "reference_depth": 9.87857308128476,
+          "difference": 0.0019232247173768258
+        }
+      ],
+      "gpu_three_readbacks_seconds": 0.29361825436353683,
+      "passed": true
+    },
+    {
+      "z": -6,
+      "time": 4,
+      "high": 0,
+      "width": 48,
+      "height": 32,
+      "rays": 1536,
+      "misses": 0,
+      "max_iterations": 638.0,
+      "max_gradient_error": 2.8712077932535607e-05,
+      "max_bound_ratio": 0.3788434858086947,
+      "max_field_cpu_gpu_difference": 9.400137403040888e-06,
+      "actual_points_field_difference": 4.74141551120048e-06,
+      "worst_scalar_ray": 650,
+      "references": [
+        {
+          "ray": 0,
+          "axis": false,
+          "gpu_depth": 9.87800121307373,
+          "reference_depth": 9.8800791092813,
+          "difference": 0.0020778962075702623
+        },
+        {
+          "ray": 307,
+          "axis": false,
+          "gpu_depth": 20.499475479125977,
+          "reference_depth": 20.506634919136765,
+          "difference": 0.007159440010788387
+        },
+        {
+          "ray": 614,
+          "axis": false,
+          "gpu_depth": 12.056721687316895,
+          "reference_depth": 12.060640370339158,
+          "difference": 0.003918683022263281
+        },
+        {
+          "ray": 743,
+          "axis": false,
+          "gpu_depth": 36.30777359008789,
+          "reference_depth": 36.3155946252644,
+          "difference": 0.007821035176512225
+        },
+        {
+          "ray": 744,
+          "axis": false,
+          "gpu_depth": 34.99006652832031,
+          "reference_depth": 35.00106934162974,
+          "difference": 0.011002813309424653
+        },
+        {
+          "ray": 745,
+          "axis": false,
+          "gpu_depth": 33.62672805786133,
+          "reference_depth": 33.62995300260186,
+          "difference": 0.0032249447405305887
+        },
+        {
+          "ray": 791,
+          "axis": false,
+          "gpu_depth": 35.07272720336914,
+          "reference_depth": 35.080847323805095,
+          "difference": 0.008120120435954448
+        },
+        {
+          "ray": 792,
+          "axis": false,
+          "gpu_depth": 37.67967987060547,
+          "reference_depth": 37.69269772008062,
+          "difference": 0.013017849475154719
+        },
+        {
+          "ray": 793,
+          "axis": false,
+          "gpu_depth": 34.67557907104492,
+          "reference_depth": 34.67862236836553,
+          "difference": 0.0030432973206089287
+        },
+        {
+          "ray": 839,
+          "axis": false,
+          "gpu_depth": 34.03601837158203,
+          "reference_depth": 34.039663595527415,
+          "difference": 0.003645223945383691
+        },
+        {
+          "ray": 840,
+          "axis": false,
+          "gpu_depth": 34.83455276489258,
+          "reference_depth": 34.841147595673796,
+          "difference": 0.006594830781217809
+        },
+        {
+          "ray": 841,
+          "axis": false,
+          "gpu_depth": 35.39332962036133,
+          "reference_depth": 35.41085040315986,
+          "difference": 0.01752078279853464
+        },
+        {
+          "ray": 921,
+          "axis": false,
+          "gpu_depth": 12.056722640991211,
+          "reference_depth": 12.060640370339158,
+          "difference": 0.0039177293479468744
+        },
+        {
+          "ray": 1228,
+          "axis": false,
+          "gpu_depth": 20.49947166442871,
+          "reference_depth": 20.506634919136765,
+          "difference": 0.007163254708054012
+        },
+        {
+          "ray": 1535,
+          "axis": false,
+          "gpu_depth": 9.87800121307373,
+          "reference_depth": 9.8800791092813,
+          "difference": 0.0020778962075702623
+        }
+      ],
+      "gpu_three_readbacks_seconds": 0.26059917639940977,
+      "passed": true
+    },
+    {
+      "z": -6,
+      "time": 8,
+      "high": 1,
+      "width": 48,
+      "height": 32,
+      "rays": 1536,
+      "misses": 0,
+      "max_iterations": 620.0,
+      "max_gradient_error": 2.35793915837057e-05,
+      "max_bound_ratio": 0.2649966713459893,
+      "max_field_cpu_gpu_difference": 7.666811393927664e-06,
+      "actual_points_field_difference": 6.776968609102218e-06,
+      "worst_scalar_ray": 797,
+      "references": [
+        {
+          "ray": 0,
+          "axis": false,
+          "gpu_depth": 11.127859115600586,
+          "reference_depth": 11.131543772846463,
+          "difference": 0.0036846572458770765
+        },
+        {
+          "ray": 307,
+          "axis": false,
+          "gpu_depth": 13.948318481445312,
+          "reference_depth": 13.951728964537384,
+          "difference": 0.0034104830920718143
+        },
+        {
+          "ray": 614,
+          "axis": false,
+          "gpu_depth": 14.276113510131836,
+          "reference_depth": 14.280397519916296,
+          "difference": 0.004284009784459641
+        },
+        {
+          "ray": 743,
+          "axis": false,
+          "gpu_depth": 35.37420654296875,
+          "reference_depth": 35.379622215896845,
+          "difference": 0.00541567292809475
+        },
+        {
+          "ray": 744,
+          "axis": false,
+          "gpu_depth": 35.672847747802734,
+          "reference_depth": 35.676283696621645,
+          "difference": 0.003435948818911072
+        },
+        {
+          "ray": 745,
+          "axis": false,
+          "gpu_depth": 37.880126953125,
+          "reference_depth": 37.89041682216524,
+          "difference": 0.01028986904024265
+        },
+        {
+          "ray": 791,
+          "axis": false,
+          "gpu_depth": 34.61083984375,
+          "reference_depth": 34.615393028944744,
+          "difference": 0.004553185194744458
+        },
+        {
+          "ray": 792,
+          "axis": false,
+          "gpu_depth": 34.737213134765625,
+          "reference_depth": 34.74055597767234,
+          "difference": 0.003342842906711496
+        },
+        {
+          "ray": 793,
+          "axis": false,
+          "gpu_depth": 39.0102424621582,
+          "reference_depth": 39.01405734166503,
+          "difference": 0.003814879506826685
+        },
+        {
+          "ray": 839,
+          "axis": false,
+          "gpu_depth": 38.944576263427734,
+          "reference_depth": 38.947974650770426,
+          "difference": 0.003398387342691933
+        },
+        {
+          "ray": 840,
+          "axis": false,
+          "gpu_depth": 39.23455810546875,
+          "reference_depth": 39.23813941195606,
+          "difference": 0.0035813064873124745
+        },
+        {
+          "ray": 841,
+          "axis": false,
+          "gpu_depth": 34.256160736083984,
+          "reference_depth": 34.26177953204513,
+          "difference": 0.005618795961147782
+        },
+        {
+          "ray": 921,
+          "axis": false,
+          "gpu_depth": 14.276114463806152,
+          "reference_depth": 14.280397519916296,
+          "difference": 0.004283056110143235
+        },
+        {
+          "ray": 1228,
+          "axis": false,
+          "gpu_depth": 13.948321342468262,
+          "reference_depth": 13.951728964537384,
+          "difference": 0.0034076220691225956
+        },
+        {
+          "ray": 1535,
+          "axis": false,
+          "gpu_depth": 11.12785816192627,
+          "reference_depth": 11.131543772846463,
+          "difference": 0.003685610920193483
+        }
+      ],
+      "gpu_three_readbacks_seconds": 0.27406296972185373,
+      "passed": true
+    },
+    {
+      "z": -6,
+      "time": 8,
+      "high": 0,
+      "width": 48,
+      "height": 32,
+      "rays": 1536,
+      "misses": 0,
+      "max_iterations": 720.0,
+      "max_gradient_error": 2.357943697939291e-05,
+      "max_bound_ratio": 0.27313483533581395,
+      "max_field_cpu_gpu_difference": 7.666957665057421e-06,
+      "actual_points_field_difference": 6.776968609115228e-06,
+      "worst_scalar_ray": 797,
+      "references": [
+        {
+          "ray": 0,
+          "axis": false,
+          "gpu_depth": 11.124470710754395,
+          "reference_depth": 11.128176331669092,
+          "difference": 0.003705620914697505
+        },
+        {
+          "ray": 307,
+          "axis": false,
+          "gpu_depth": 13.94782543182373,
+          "reference_depth": 13.951184439092874,
+          "difference": 0.003359007269143177
+        },
+        {
+          "ray": 614,
+          "axis": false,
+          "gpu_depth": 14.275862693786621,
+          "reference_depth": 14.280082577973602,
+          "difference": 0.004219884186980494
+        },
+        {
+          "ray": 743,
+          "axis": false,
+          "gpu_depth": 35.37420654296875,
+          "reference_depth": 35.379622215896845,
+          "difference": 0.00541567292809475
+        },
+        {
+          "ray": 744,
+          "axis": false,
+          "gpu_depth": 35.672847747802734,
+          "reference_depth": 35.676283696621645,
+          "difference": 0.003435948818911072
+        },
+        {
+          "ray": 745,
+          "axis": false,
+          "gpu_depth": 37.880126953125,
+          "reference_depth": 37.89041682216524,
+          "difference": 0.01028986904024265
+        },
+        {
+          "ray": 791,
+          "axis": false,
+          "gpu_depth": 34.61083984375,
+          "reference_depth": 34.615393028944744,
+          "difference": 0.004553185194744458
+        },
+        {
+          "ray": 792,
+          "axis": false,
+          "gpu_depth": 34.737213134765625,
+          "reference_depth": 34.74055597767234,
+          "difference": 0.003342842906711496
+        },
+        {
+          "ray": 793,
+          "axis": false,
+          "gpu_depth": 39.0102424621582,
+          "reference_depth": 39.01405734166503,
+          "difference": 0.003814879506826685
+        },
+        {
+          "ray": 839,
+          "axis": false,
+          "gpu_depth": 38.944576263427734,
+          "reference_depth": 38.947974650770426,
+          "difference": 0.003398387342691933
+        },
+        {
+          "ray": 840,
+          "axis": false,
+          "gpu_depth": 39.23455810546875,
+          "reference_depth": 39.23813941195606,
+          "difference": 0.0035813064873124745
+        },
+        {
+          "ray": 841,
+          "axis": false,
+          "gpu_depth": 34.256160736083984,
+          "reference_depth": 34.26177953204513,
+          "difference": 0.005618795961147782
+        },
+        {
+          "ray": 921,
+          "axis": false,
+          "gpu_depth": 14.275862693786621,
+          "reference_depth": 14.280082577973602,
+          "difference": 0.004219884186980494
+        },
+        {
+          "ray": 1228,
+          "axis": false,
+          "gpu_depth": 13.94782829284668,
+          "reference_depth": 13.951184439092874,
+          "difference": 0.0033561462461939584
+        },
+        {
+          "ray": 1535,
+          "axis": false,
+          "gpu_depth": 11.124471664428711,
+          "reference_depth": 11.128176331669092,
+          "difference": 0.0037046672403810987
+        }
+      ],
+      "gpu_three_readbacks_seconds": 0.30118340253829956,
+      "passed": true
+    },
+    {
+      "z": 8,
+      "time": 4,
+      "high": 1,
+      "width": 49,
+      "height": 33,
+      "rays": 1617,
+      "misses": 0,
+      "max_iterations": 278.0,
+      "max_gradient_error": 6.816807091336585e-05,
+      "max_bound_ratio": 0.30371081500010033,
+      "max_field_cpu_gpu_difference": 1.6929179777172045e-05,
+      "actual_points_field_difference": 4.483281433335191e-06,
+      "worst_scalar_ray": 805,
+      "references": [
+        {
+          "ray": 0,
+          "axis": false,
+          "gpu_depth": 8.068385124206543,
+          "reference_depth": 8.070020885378124,
+          "difference": 0.0016357611715811515
+        },
+        {
+          "ray": 323,
+          "axis": false,
+          "gpu_depth": 14.334651947021484,
+          "reference_depth": 14.338571050554513,
+          "difference": 0.003919103533029045
+        },
+        {
+          "ray": 646,
+          "axis": false,
+          "gpu_depth": 14.552435874938965,
+          "reference_depth": 14.556481721609835,
+          "difference": 0.004045846670869935
+        },
+        {
+          "ray": 758,
+          "axis": false,
+          "gpu_depth": 47.14860153198242,
+          "reference_depth": 47.15250374999642,
+          "difference": 0.003902218013998038
+        },
+        {
+          "ray": 759,
+          "axis": false,
+          "gpu_depth": 47.730201721191406,
+          "reference_depth": 47.73310008189083,
+          "difference": 0.0028983606994259503
+        },
+        {
+          "ray": 760,
+          "axis": false,
+          "gpu_depth": 47.49002456665039,
+          "reference_depth": 47.49656386676431,
+          "difference": 0.0065393001139213425
+        },
+        {
+          "ray": 807,
+          "axis": false,
+          "gpu_depth": 47.7703742980957,
+          "reference_depth": 47.774012894064185,
+          "difference": 0.00363859596848215
+        },
+        {
+          "ray": 808,
+          "axis": true,
+          "gpu_depth": 54.240447998046875,
+          "reference_depth": 54.24369650217891,
+          "difference": 0.0032485041320384767
+        },
+        {
+          "ray": 809,
+          "axis": false,
+          "gpu_depth": 48.0487174987793,
+          "reference_depth": 48.05441622242331,
+          "difference": 0.005698723644016468
+        },
+        {
+          "ray": 856,
+          "axis": false,
+          "gpu_depth": 47.342044830322266,
+          "reference_depth": 47.345936955660584,
+          "difference": 0.0038921253383179533
+        },
+        {
+          "ray": 857,
+          "axis": false,
+          "gpu_depth": 48.01427459716797,
+          "reference_depth": 48.02150718435645,
+          "difference": 0.007232587188482853
+        },
+        {
+          "ray": 858,
+          "axis": false,
+          "gpu_depth": 47.74091720581055,
+          "reference_depth": 47.74815278837084,
+          "difference": 0.0072355825602912205
+        },
+        {
+          "ray": 969,
+          "axis": false,
+          "gpu_depth": 15.857633590698242,
+          "reference_depth": 15.862147842675448,
+          "difference": 0.004514251977205674
+        },
+        {
+          "ray": 1292,
+          "axis": false,
+          "gpu_depth": 13.457390785217285,
+          "reference_depth": 13.461102929860356,
+          "difference": 0.0037121446430710137
+        },
+        {
+          "ray": 1616,
+          "axis": false,
+          "gpu_depth": 8.068385124206543,
+          "reference_depth": 8.070020885378124,
+          "difference": 0.0016357611715811515
+        }
+      ],
+      "gpu_three_readbacks_seconds": 0.24950506258755922,
+      "passed": true
+    },
+    {
+      "z": 8,
+      "time": 4,
+      "high": 0,
+      "width": 49,
+      "height": 33,
+      "rays": 1617,
+      "misses": 0,
+      "max_iterations": 278.0,
+      "max_gradient_error": 6.816807091336585e-05,
+      "max_bound_ratio": 0.3054126733353429,
+      "max_field_cpu_gpu_difference": 1.6929179777172045e-05,
+      "actual_points_field_difference": 4.483281431152258e-06,
+      "worst_scalar_ray": 805,
+      "references": [
+        {
+          "ray": 0,
+          "axis": false,
+          "gpu_depth": 8.072486877441406,
+          "reference_depth": 8.074107012480496,
+          "difference": 0.001620135039090087
+        },
+        {
+          "ray": 323,
+          "axis": false,
+          "gpu_depth": 14.335394859313965,
+          "reference_depth": 14.339246142715215,
+          "difference": 0.003851283401250072
+        },
+        {
+          "ray": 646,
+          "axis": false,
+          "gpu_depth": 14.552715301513672,
+          "reference_depth": 14.55668676146865,
+          "difference": 0.00397145995497894
+        },
+        {
+          "ray": 758,
+          "axis": false,
+          "gpu_depth": 47.14860153198242,
+          "reference_depth": 47.15250374999642,
+          "difference": 0.003902218013998038
+        },
+        {
+          "ray": 759,
+          "axis": false,
+          "gpu_depth": 47.730201721191406,
+          "reference_depth": 47.73310008189083,
+          "difference": 0.0028983606994259503
+        },
+        {
+          "ray": 760,
+          "axis": false,
+          "gpu_depth": 47.49002456665039,
+          "reference_depth": 47.49656386676431,
+          "difference": 0.0065393001139213425
+        },
+        {
+          "ray": 807,
+          "axis": false,
+          "gpu_depth": 47.7703742980957,
+          "reference_depth": 47.774012894064185,
+          "difference": 0.00363859596848215
+        },
+        {
+          "ray": 808,
+          "axis": true,
+          "gpu_depth": 54.240447998046875,
+          "reference_depth": 54.24369650217891,
+          "difference": 0.0032485041320384767
+        },
+        {
+          "ray": 809,
+          "axis": false,
+          "gpu_depth": 48.0487174987793,
+          "reference_depth": 48.05441622242331,
+          "difference": 0.005698723644016468
+        },
+        {
+          "ray": 856,
+          "axis": false,
+          "gpu_depth": 47.342044830322266,
+          "reference_depth": 47.345936955660584,
+          "difference": 0.0038921253383179533
+        },
+        {
+          "ray": 857,
+          "axis": false,
+          "gpu_depth": 48.01427459716797,
+          "reference_depth": 48.02150718435645,
+          "difference": 0.007232587188482853
+        },
+        {
+          "ray": 858,
+          "axis": false,
+          "gpu_depth": 47.74091720581055,
+          "reference_depth": 47.74815278837084,
+          "difference": 0.0072355825602912205
+        },
+        {
+          "ray": 969,
+          "axis": false,
+          "gpu_depth": 15.857601165771484,
+          "reference_depth": 15.862069841176275,
+          "difference": 0.0044686754047909005
+        },
+        {
+          "ray": 1292,
+          "axis": false,
+          "gpu_depth": 13.455991744995117,
+          "reference_depth": 13.459902396529909,
+          "difference": 0.003910651534791754
+        },
+        {
+          "ray": 1616,
+          "axis": false,
+          "gpu_depth": 8.072486877441406,
+          "reference_depth": 8.074107012480496,
+          "difference": 0.001620135039090087
+        }
+      ],
+      "gpu_three_readbacks_seconds": 0.23406434524804354,
+      "passed": true
+    },
+    {
+      "z": 8,
+      "time": 8,
+      "high": 1,
+      "width": 49,
+      "height": 33,
+      "rays": 1617,
+      "misses": 0,
+      "max_iterations": 733.0,
+      "max_gradient_error": 6.747881579882709e-05,
+      "max_bound_ratio": 0.3387276577841514,
+      "max_field_cpu_gpu_difference": 9.580275309571066e-06,
+      "actual_points_field_difference": 3.5551499082560854e-06,
+      "worst_scalar_ray": 661,
+      "references": [
+        {
+          "ray": 0,
+          "axis": false,
+          "gpu_depth": 8.801998138427734,
+          "reference_depth": 8.804051437050106,
+          "difference": 0.002053298622371358
+        },
+        {
+          "ray": 323,
+          "axis": false,
+          "gpu_depth": 17.125253677368164,
+          "reference_depth": 17.137002906471494,
+          "difference": 0.011749229103330094
+        },
+        {
+          "ray": 646,
+          "axis": false,
+          "gpu_depth": 10.100531578063965,
+          "reference_depth": 10.104004808038475,
+          "difference": 0.0034732299745101614
+        },
+        {
+          "ray": 758,
+          "axis": false,
+          "gpu_depth": 50.58343505859375,
+          "reference_depth": 50.59046029821038,
+          "difference": 0.0070252396166310405
+        },
+        {
+          "ray": 759,
+          "axis": false,
+          "gpu_depth": 51.78493118286133,
+          "reference_depth": 51.788535452932116,
+          "difference": 0.003604270070788118
+        },
+        {
+          "ray": 760,
+          "axis": false,
+          "gpu_depth": 50.62392807006836,
+          "reference_depth": 50.627891624182475,
+          "difference": 0.0039635541141151975
+        },
+        {
+          "ray": 807,
+          "axis": false,
+          "gpu_depth": 51.995113372802734,
+          "reference_depth": 51.998314530998464,
+          "difference": 0.0032011581957291924
+        },
+        {
+          "ray": 808,
+          "axis": true,
+          "gpu_depth": 49.034027099609375,
+          "reference_depth": 49.03728715959192,
+          "difference": 0.0032600599825443055
+        },
+        {
+          "ray": 809,
+          "axis": false,
+          "gpu_depth": 52.257625579833984,
+          "reference_depth": 52.26095790186525,
+          "difference": 0.0033323220312624358
+        },
+        {
+          "ray": 856,
+          "axis": false,
+          "gpu_depth": 49.46019744873047,
+          "reference_depth": 49.469258837431674,
+          "difference": 0.00906138870120543
+        },
+        {
+          "ray": 857,
+          "axis": false,
+          "gpu_depth": 52.0638313293457,
+          "reference_depth": 52.06765777650476,
+          "difference": 0.0038264471590565563
+        },
+        {
+          "ray": 858,
+          "axis": false,
+          "gpu_depth": 49.41728210449219,
+          "reference_depth": 49.42422817495467,
+          "difference": 0.006946070462483078
+        },
+        {
+          "ray": 969,
+          "axis": false,
+          "gpu_depth": 11.030027389526367,
+          "reference_depth": 11.034975511282685,
+          "difference": 0.004948121756317647
+        },
+        {
+          "ray": 1292,
+          "axis": false,
+          "gpu_depth": 15.327402114868164,
+          "reference_depth": 15.334639930576085,
+          "difference": 0.007237815707920703
+        },
+        {
+          "ray": 1616,
+          "axis": false,
+          "gpu_depth": 8.801998138427734,
+          "reference_depth": 8.804051437050106,
+          "difference": 0.002053298622371358
+        }
+      ],
+      "gpu_three_readbacks_seconds": 0.2880775276571512,
+      "passed": true
+    },
+    {
+      "z": 8,
+      "time": 8,
+      "high": 0,
+      "width": 49,
+      "height": 33,
+      "rays": 1617,
+      "misses": 0,
+      "max_iterations": 733.0,
+      "max_gradient_error": 6.747881579882709e-05,
+      "max_bound_ratio": 0.3409856200237068,
+      "max_field_cpu_gpu_difference": 9.580275309571066e-06,
+      "actual_points_field_difference": 3.460595452880414e-06,
+      "worst_scalar_ray": 661,
+      "references": [
+        {
+          "ray": 0,
+          "axis": false,
+          "gpu_depth": 8.798867225646973,
+          "reference_depth": 8.80102233275771,
+          "difference": 0.002155107110738186
+        },
+        {
+          "ray": 323,
+          "axis": false,
+          "gpu_depth": 17.12529945373535,
+          "reference_depth": 17.137008777648212,
+          "difference": 0.011709323912860725
+        },
+        {
+          "ray": 646,
+          "axis": false,
+          "gpu_depth": 10.096488952636719,
+          "reference_depth": 10.100097338944675,
+          "difference": 0.003608386307956124
+        },
+        {
+          "ray": 758,
+          "axis": false,
+          "gpu_depth": 50.58343505859375,
+          "reference_depth": 50.59046029821038,
+          "difference": 0.0070252396166310405
+        },
+        {
+          "ray": 759,
+          "axis": false,
+          "gpu_depth": 51.78493118286133,
+          "reference_depth": 51.788535452932116,
+          "difference": 0.003604270070788118
+        },
+        {
+          "ray": 760,
+          "axis": false,
+          "gpu_depth": 50.62392807006836,
+          "reference_depth": 50.627891624182475,
+          "difference": 0.0039635541141151975
+        },
+        {
+          "ray": 807,
+          "axis": false,
+          "gpu_depth": 51.995113372802734,
+          "reference_depth": 51.998314530998464,
+          "difference": 0.0032011581957291924
+        },
+        {
+          "ray": 808,
+          "axis": true,
+          "gpu_depth": 49.034027099609375,
+          "reference_depth": 49.03728715959192,
+          "difference": 0.0032600599825443055
+        },
+        {
+          "ray": 809,
+          "axis": false,
+          "gpu_depth": 52.257625579833984,
+          "reference_depth": 52.26095790186525,
+          "difference": 0.0033323220312624358
+        },
+        {
+          "ray": 856,
+          "axis": false,
+          "gpu_depth": 49.46019744873047,
+          "reference_depth": 49.469258837431674,
+          "difference": 0.00906138870120543
+        },
+        {
+          "ray": 857,
+          "axis": false,
+          "gpu_depth": 52.0638313293457,
+          "reference_depth": 52.06765777650476,
+          "difference": 0.0038264471590565563
+        },
+        {
+          "ray": 858,
+          "axis": false,
+          "gpu_depth": 49.41728210449219,
+          "reference_depth": 49.42422817495467,
+          "difference": 0.006946070462483078
+        },
+        {
+          "ray": 969,
+          "axis": false,
+          "gpu_depth": 11.031764030456543,
+          "reference_depth": 11.03648685076833,
+          "difference": 0.004722820311787501
+        },
+        {
+          "ray": 1292,
+          "axis": false,
+          "gpu_depth": 15.327670097351074,
+          "reference_depth": 15.334811670631172,
+          "difference": 0.0071415732800979015
+        },
+        {
+          "ray": 1616,
+          "axis": false,
+          "gpu_depth": 8.798867225646973,
+          "reference_depth": 8.80102233275771,
+          "difference": 0.002155107110738186
+        }
+      ],
+      "gpu_three_readbacks_seconds": 0.276847418397665,
+      "passed": true
+    },
+    {
+      "z": 8,
+      "time": 221,
+      "high": 1,
+      "width": 49,
+      "height": 33,
+      "rays": 1617,
+      "misses": 0,
+      "max_iterations": 722.0,
+      "max_gradient_error": 0.00013114098393973705,
+      "max_bound_ratio": 0.3040529216606451,
+      "max_field_cpu_gpu_difference": 3.2379686630033995e-05,
+      "actual_points_field_difference": 2.899487572614965e-05,
+      "worst_scalar_ray": 811,
+      "references": [
+        {
+          "ray": 0,
+          "axis": false,
+          "gpu_depth": 10.190437316894531,
+          "reference_depth": 10.195560217827559,
+          "difference": 0.0051229009330278075
+        },
+        {
+          "ray": 323,
+          "axis": false,
+          "gpu_depth": 17.553401947021484,
+          "reference_depth": 17.563363380521537,
+          "difference": 0.009961433500052408
+        },
+        {
+          "ray": 646,
+          "axis": false,
+          "gpu_depth": 12.021880149841309,
+          "reference_depth": 12.026455359131099,
+          "difference": 0.004575209289789939
+        },
+        {
+          "ray": 758,
+          "axis": false,
+          "gpu_depth": 52.765480041503906,
+          "reference_depth": 52.771194153875115,
+          "difference": 0.005714112371208557
+        },
+        {
+          "ray": 759,
+          "axis": false,
+          "gpu_depth": 51.873600006103516,
+          "reference_depth": 51.88341609182953,
+          "difference": 0.009816085726015444
+        },
+        {
+          "ray": 760,
+          "axis": false,
+          "gpu_depth": 51.98301315307617,
+          "reference_depth": 51.99170685222746,
+          "difference": 0.008693699151287149
+        },
+        {
+          "ray": 807,
+          "axis": false,
+          "gpu_depth": 51.270755767822266,
+          "reference_depth": 51.28194352510571,
+          "difference": 0.011187757283444455
+        },
+        {
+          "ray": 808,
+          "axis": true,
+          "gpu_depth": 53.56234359741211,
+          "reference_depth": 53.564933736473314,
+          "difference": 0.002590139061204866
+        },
+        {
+          "ray": 809,
+          "axis": false,
+          "gpu_depth": 52.02951431274414,
+          "reference_depth": 52.03701703432203,
+          "difference": 0.007502721577886007
+        },
+        {
+          "ray": 856,
+          "axis": false,
+          "gpu_depth": 53.050254821777344,
+          "reference_depth": 53.05568217238784,
+          "difference": 0.005427350610496262
+        },
+        {
+          "ray": 857,
+          "axis": false,
+          "gpu_depth": 51.57130813598633,
+          "reference_depth": 51.57993574789166,
+          "difference": 0.008627611905332344
+        },
+        {
+          "ray": 858,
+          "axis": false,
+          "gpu_depth": 52.196292877197266,
+          "reference_depth": 52.20737278613448,
+          "difference": 0.011079908937212224
+        },
+        {
+          "ray": 969,
+          "axis": false,
+          "gpu_depth": 13.367378234863281,
+          "reference_depth": 13.372568521946668,
+          "difference": 0.005190287083387091
+        },
+        {
+          "ray": 1292,
+          "axis": false,
+          "gpu_depth": 17.740798950195312,
+          "reference_depth": 17.74728009054065,
+          "difference": 0.0064811403453362
+        },
+        {
+          "ray": 1616,
+          "axis": false,
+          "gpu_depth": 10.190442085266113,
+          "reference_depth": 10.195560217827559,
+          "difference": 0.005118132561445776
+        }
+      ],
+      "gpu_three_readbacks_seconds": 0.36737003084272146,
+      "passed": true
+    },
+    {
+      "z": 8,
+      "time": 221,
+      "high": 0,
+      "width": 49,
+      "height": 33,
+      "rays": 1617,
+      "misses": 0,
+      "max_iterations": 903.0,
+      "max_gradient_error": 0.00013114098393973705,
+      "max_bound_ratio": 0.30556034897112994,
+      "max_field_cpu_gpu_difference": 3.2379686630033995e-05,
+      "actual_points_field_difference": 2.9090431638711597e-05,
+      "worst_scalar_ray": 811,
+      "references": [
+        {
+          "ray": 0,
+          "axis": false,
+          "gpu_depth": 10.183138847351074,
+          "reference_depth": 10.188869608193635,
+          "difference": 0.005730760842560301
+        },
+        {
+          "ray": 323,
+          "axis": false,
+          "gpu_depth": 17.55341148376465,
+          "reference_depth": 17.563331661254168,
+          "difference": 0.009920177489519233
+        },
+        {
+          "ray": 646,
+          "axis": false,
+          "gpu_depth": 12.023050308227539,
+          "reference_depth": 12.02736979356408,
+          "difference": 0.004319485336541362
+        },
+        {
+          "ray": 758,
+          "axis": false,
+          "gpu_depth": 52.765480041503906,
+          "reference_depth": 52.771194153875115,
+          "difference": 0.005714112371208557
+        },
+        {
+          "ray": 759,
+          "axis": false,
+          "gpu_depth": 51.873600006103516,
+          "reference_depth": 51.88341609182953,
+          "difference": 0.009816085726015444
+        },
+        {
+          "ray": 760,
+          "axis": false,
+          "gpu_depth": 51.98301315307617,
+          "reference_depth": 51.99170685222746,
+          "difference": 0.008693699151287149
+        },
+        {
+          "ray": 807,
+          "axis": false,
+          "gpu_depth": 51.270755767822266,
+          "reference_depth": 51.28194352510571,
+          "difference": 0.011187757283444455
+        },
+        {
+          "ray": 808,
+          "axis": true,
+          "gpu_depth": 53.56234359741211,
+          "reference_depth": 53.564933736473314,
+          "difference": 0.002590139061204866
+        },
+        {
+          "ray": 809,
+          "axis": false,
+          "gpu_depth": 52.02951431274414,
+          "reference_depth": 52.03701703432203,
+          "difference": 0.007502721577886007
+        },
+        {
+          "ray": 856,
+          "axis": false,
+          "gpu_depth": 53.050254821777344,
+          "reference_depth": 53.05568217238784,
+          "difference": 0.005427350610496262
+        },
+        {
+          "ray": 857,
+          "axis": false,
+          "gpu_depth": 51.57130813598633,
+          "reference_depth": 51.57993574789166,
+          "difference": 0.008627611905332344
+        },
+        {
+          "ray": 858,
+          "axis": false,
+          "gpu_depth": 52.196292877197266,
+          "reference_depth": 52.20737278613448,
+          "difference": 0.011079908937212224
+        },
+        {
+          "ray": 969,
+          "axis": false,
+          "gpu_depth": 13.367297172546387,
+          "reference_depth": 13.372371437698604,
+          "difference": 0.0050742651522170945
+        },
+        {
+          "ray": 1292,
+          "axis": false,
+          "gpu_depth": 17.74077796936035,
+          "reference_depth": 17.747216236084697,
+          "difference": 0.006438266724344999
+        },
+        {
+          "ray": 1616,
+          "axis": false,
+          "gpu_depth": 10.183145523071289,
+          "reference_depth": 10.188869608193635,
+          "difference": 0.005724085122345457
+        }
+      ],
+      "gpu_three_readbacks_seconds": 0.2718480722978711,
+      "passed": true
+    },
+    {
+      "z": 8,
+      "time": 900,
+      "high": 1,
+      "width": 49,
+      "height": 33,
+      "rays": 1617,
+      "misses": 0,
+      "max_iterations": 477.0,
+      "max_gradient_error": 0.00037446767973281503,
+      "max_bound_ratio": 0.3419570507854703,
+      "max_field_cpu_gpu_difference": 0.00014397070440919698,
+      "actual_points_field_difference": 0.00014394527204947966,
+      "worst_scalar_ray": 368,
+      "references": [
+        {
+          "ray": 0,
+          "axis": false,
+          "gpu_depth": 8.879988670349121,
+          "reference_depth": 8.881535097151996,
+          "difference": 0.0015464268028750894
+        },
+        {
+          "ray": 323,
+          "axis": false,
+          "gpu_depth": 16.299907684326172,
+          "reference_depth": 16.308429438561205,
+          "difference": 0.00852175423503354
+        },
+        {
+          "ray": 646,
+          "axis": false,
+          "gpu_depth": 15.05220890045166,
+          "reference_depth": 15.058039108067753,
+          "difference": 0.005830207616092764
+        },
+        {
+          "ray": 758,
+          "axis": false,
+          "gpu_depth": 50.411373138427734,
+          "reference_depth": 50.41683944454788,
+          "difference": 0.00546630612014809
+        },
+        {
+          "ray": 759,
+          "axis": false,
+          "gpu_depth": 49.91939926147461,
+          "reference_depth": 49.92250748589634,
+          "difference": 0.003108224421730199
+        },
+        {
+          "ray": 760,
+          "axis": false,
+          "gpu_depth": 50.59514236450195,
+          "reference_depth": 50.600216914325955,
+          "difference": 0.005074549824001906
+        },
+        {
+          "ray": 807,
+          "axis": false,
+          "gpu_depth": 50.599090576171875,
+          "reference_depth": 50.606749727457775,
+          "difference": 0.007659151285899668
+        },
+        {
+          "ray": 808,
+          "axis": true,
+          "gpu_depth": 49.10005187988281,
+          "reference_depth": 49.102967580646286,
+          "difference": 0.0029157007634736942
+        },
+        {
+          "ray": 809,
+          "axis": false,
+          "gpu_depth": 50.43143844604492,
+          "reference_depth": 50.437970133393996,
+          "difference": 0.006531687349074389
+        },
+        {
+          "ray": 856,
+          "axis": false,
+          "gpu_depth": 49.71224594116211,
+          "reference_depth": 49.71876038655638,
+          "difference": 0.006514445394273594
+        },
+        {
+          "ray": 857,
+          "axis": false,
+          "gpu_depth": 51.033851623535156,
+          "reference_depth": 51.043902699440714,
+          "difference": 0.010051075905558093
+        },
+        {
+          "ray": 858,
+          "axis": false,
+          "gpu_depth": 49.79580307006836,
+          "reference_depth": 49.80283909901977,
+          "difference": 0.007036028951411311
+        },
+        {
+          "ray": 969,
+          "axis": false,
+          "gpu_depth": 11.138243675231934,
+          "reference_depth": 11.14164338359237,
+          "difference": 0.003399708360436904
+        },
+        {
+          "ray": 1292,
+          "axis": false,
+          "gpu_depth": 15.144017219543457,
+          "reference_depth": 15.150842570811509,
+          "difference": 0.00682535126805206
+        },
+        {
+          "ray": 1616,
+          "axis": false,
+          "gpu_depth": 8.879985809326172,
+          "reference_depth": 8.881535097151996,
+          "difference": 0.0015492878258243081
+        }
+      ],
+      "gpu_three_readbacks_seconds": 0.3859509499743581,
+      "passed": true
+    },
+    {
+      "z": 8,
+      "time": 900,
+      "high": 0,
+      "width": 49,
+      "height": 33,
+      "rays": 1617,
+      "misses": 0,
+      "max_iterations": 479.0,
+      "max_gradient_error": 0.0003744399790295283,
+      "max_bound_ratio": 0.34335798369456766,
+      "max_field_cpu_gpu_difference": 0.00014410980783819815,
+      "actual_points_field_difference": 0.00014529980744944042,
+      "worst_scalar_ray": 368,
+      "references": [
+        {
+          "ray": 0,
+          "axis": false,
+          "gpu_depth": 8.87903118133545,
+          "reference_depth": 8.880774957329034,
+          "difference": 0.001743775993585217
+        },
+        {
+          "ray": 323,
+          "axis": false,
+          "gpu_depth": 16.300010681152344,
+          "reference_depth": 16.308510195225466,
+          "difference": 0.008499514073122327
+        },
+        {
+          "ray": 646,
+          "axis": false,
+          "gpu_depth": 15.05177116394043,
+          "reference_depth": 15.0576504599154,
+          "difference": 0.005879295974970944
+        },
+        {
+          "ray": 758,
+          "axis": false,
+          "gpu_depth": 50.411373138427734,
+          "reference_depth": 50.41683944454788,
+          "difference": 0.00546630612014809
+        },
+        {
+          "ray": 759,
+          "axis": false,
+          "gpu_depth": 49.91939926147461,
+          "reference_depth": 49.92250748589634,
+          "difference": 0.003108224421730199
+        },
+        {
+          "ray": 760,
+          "axis": false,
+          "gpu_depth": 50.59514236450195,
+          "reference_depth": 50.600216914325955,
+          "difference": 0.005074549824001906
+        },
+        {
+          "ray": 807,
+          "axis": false,
+          "gpu_depth": 50.599090576171875,
+          "reference_depth": 50.606749727457775,
+          "difference": 0.007659151285899668
+        },
+        {
+          "ray": 808,
+          "axis": true,
+          "gpu_depth": 49.10005187988281,
+          "reference_depth": 49.102967580646286,
+          "difference": 0.0029157007634736942
+        },
+        {
+          "ray": 809,
+          "axis": false,
+          "gpu_depth": 50.43143844604492,
+          "reference_depth": 50.437970133393996,
+          "difference": 0.006531687349074389
+        },
+        {
+          "ray": 856,
+          "axis": false,
+          "gpu_depth": 49.71224594116211,
+          "reference_depth": 49.71876038655638,
+          "difference": 0.006514445394273594
+        },
+        {
+          "ray": 857,
+          "axis": false,
+          "gpu_depth": 51.033851623535156,
+          "reference_depth": 51.043902699440714,
+          "difference": 0.010051075905558093
+        },
+        {
+          "ray": 858,
+          "axis": false,
+          "gpu_depth": 49.79580307006836,
+          "reference_depth": 49.80283909901977,
+          "difference": 0.007036028951411311
+        },
+        {
+          "ray": 969,
+          "axis": false,
+          "gpu_depth": 11.138330459594727,
+          "reference_depth": 11.14173886451125,
+          "difference": 0.003408404916523722
+        },
+        {
+          "ray": 1292,
+          "axis": false,
+          "gpu_depth": 15.14405632019043,
+          "reference_depth": 15.15081724253297,
+          "difference": 0.006760922342539999
+        },
+        {
+          "ray": 1616,
+          "axis": false,
+          "gpu_depth": 8.879022598266602,
+          "reference_depth": 8.880774957329034,
+          "difference": 0.0017523590624328733
+        }
+      ],
+      "gpu_three_readbacks_seconds": 0.26884111762046814,
+      "passed": true
+    },
+    {
+      "z": -6,
+      "time": 4,
+      "high": 1,
+      "width": 49,
+      "height": 33,
+      "rays": 1617,
+      "misses": 0,
+      "max_iterations": 456.0,
+      "max_gradient_error": 4.561893823273877e-05,
+      "max_bound_ratio": 0.3758055225379937,
+      "max_field_cpu_gpu_difference": 1.3427250908746788e-05,
+      "actual_points_field_difference": 5.1321867638805425e-06,
+      "worst_scalar_ray": 864,
+      "references": [
+        {
+          "ray": 0,
+          "axis": false,
+          "gpu_depth": 9.873106956481934,
+          "reference_depth": 9.87493683108687,
+          "difference": 0.0018298746049367764
+        },
+        {
+          "ray": 323,
+          "axis": false,
+          "gpu_depth": 19.045764923095703,
+          "reference_depth": 19.04939434173704,
+          "difference": 0.0036294186413385887
+        },
+        {
+          "ray": 646,
+          "axis": false,
+          "gpu_depth": 11.809225082397461,
+          "reference_depth": 11.813304176598788,
+          "difference": 0.004079094201326683
+        },
+        {
+          "ray": 758,
+          "axis": false,
+          "gpu_depth": 34.59423828125,
+          "reference_depth": 34.599601810008274,
+          "difference": 0.005363528758273617
+        },
+        {
+          "ray": 759,
+          "axis": false,
+          "gpu_depth": 33.39255905151367,
+          "reference_depth": 33.395725074917074,
+          "difference": 0.0031660234034021073
+        },
+        {
+          "ray": 760,
+          "axis": false,
+          "gpu_depth": 33.583900451660156,
+          "reference_depth": 33.5873824956715,
+          "difference": 0.0034820440113421114
+        },
+        {
+          "ray": 807,
+          "axis": false,
+          "gpu_depth": 33.22581481933594,
+          "reference_depth": 33.228855620473624,
+          "difference": 0.003040801137686344
+        },
+        {
+          "ray": 808,
+          "axis": true,
+          "gpu_depth": 40.24052429199219,
+          "reference_depth": 40.24372581329941,
+          "difference": 0.003201521307225619
+        },
+        {
+          "ray": 809,
+          "axis": false,
+          "gpu_depth": 33.67878341674805,
+          "reference_depth": 33.684057656496755,
+          "difference": 0.005274239748707998
+        },
+        {
+          "ray": 856,
+          "axis": false,
+          "gpu_depth": 33.585052490234375,
+          "reference_depth": 33.58839355918766,
+          "difference": 0.0033410689532828997
+        },
+        {
+          "ray": 857,
+          "axis": false,
+          "gpu_depth": 33.671932220458984,
+          "reference_depth": 33.67927505108715,
+          "difference": 0.007342830628168429
+        },
+        {
+          "ray": 858,
+          "axis": false,
+          "gpu_depth": 33.5490608215332,
+          "reference_depth": 33.552439090579746,
+          "difference": 0.0033782690465429255
+        },
+        {
+          "ray": 969,
+          "axis": false,
+          "gpu_depth": 12.971074104309082,
+          "reference_depth": 12.975954386919739,
+          "difference": 0.00488028261065665
+        },
+        {
+          "ray": 1292,
+          "axis": false,
+          "gpu_depth": 18.28961944580078,
+          "reference_depth": 18.293090274184948,
+          "difference": 0.00347082838416668
+        },
+        {
+          "ray": 1616,
+          "axis": false,
+          "gpu_depth": 9.873106956481934,
+          "reference_depth": 9.87493683108687,
+          "difference": 0.0018298746049367764
+        }
+      ],
+      "gpu_three_readbacks_seconds": 0.27865254227072,
+      "passed": true
+    },
+    {
+      "z": -6,
+      "time": 4,
+      "high": 0,
+      "width": 49,
+      "height": 33,
+      "rays": 1617,
+      "misses": 0,
+      "max_iterations": 514.0,
+      "max_gradient_error": 4.5618961250326606e-05,
+      "max_bound_ratio": 0.37863632583793594,
+      "max_field_cpu_gpu_difference": 1.3427032987933449e-05,
+      "actual_points_field_difference": 4.910627481583517e-06,
+      "worst_scalar_ray": 864,
+      "references": [
+        {
+          "ray": 0,
+          "axis": false,
+          "gpu_depth": 9.874458312988281,
+          "reference_depth": 9.876430715471507,
+          "difference": 0.0019724024832257214
+        },
+        {
+          "ray": 323,
+          "axis": false,
+          "gpu_depth": 19.0457820892334,
+          "reference_depth": 19.049408110052347,
+          "difference": 0.0036260208189489163
+        },
+        {
+          "ray": 646,
+          "axis": false,
+          "gpu_depth": 11.807613372802734,
+          "reference_depth": 11.812271690815685,
+          "difference": 0.004658318012950247
+        },
+        {
+          "ray": 758,
+          "axis": false,
+          "gpu_depth": 34.59423828125,
+          "reference_depth": 34.599601810008274,
+          "difference": 0.005363528758273617
+        },
+        {
+          "ray": 759,
+          "axis": false,
+          "gpu_depth": 33.39255905151367,
+          "reference_depth": 33.395725074917074,
+          "difference": 0.0031660234034021073
+        },
+        {
+          "ray": 760,
+          "axis": false,
+          "gpu_depth": 33.583900451660156,
+          "reference_depth": 33.5873824956715,
+          "difference": 0.0034820440113421114
+        },
+        {
+          "ray": 807,
+          "axis": false,
+          "gpu_depth": 33.22581481933594,
+          "reference_depth": 33.228855620473624,
+          "difference": 0.003040801137686344
+        },
+        {
+          "ray": 808,
+          "axis": true,
+          "gpu_depth": 40.24052429199219,
+          "reference_depth": 40.24372581329941,
+          "difference": 0.003201521307225619
+        },
+        {
+          "ray": 809,
+          "axis": false,
+          "gpu_depth": 33.67878341674805,
+          "reference_depth": 33.684057656496755,
+          "difference": 0.005274239748707998
+        },
+        {
+          "ray": 856,
+          "axis": false,
+          "gpu_depth": 33.585052490234375,
+          "reference_depth": 33.58839355918766,
+          "difference": 0.0033410689532828997
+        },
+        {
+          "ray": 857,
+          "axis": false,
+          "gpu_depth": 33.671932220458984,
+          "reference_depth": 33.67927505108715,
+          "difference": 0.007342830628168429
+        },
+        {
+          "ray": 858,
+          "axis": false,
+          "gpu_depth": 33.5490608215332,
+          "reference_depth": 33.552439090579746,
+          "difference": 0.0033782690465429255
+        },
+        {
+          "ray": 969,
+          "axis": false,
+          "gpu_depth": 12.971863746643066,
+          "reference_depth": 12.976516625851392,
+          "difference": 0.0046528792083258
+        },
+        {
+          "ray": 1292,
+          "axis": false,
+          "gpu_depth": 18.289655685424805,
+          "reference_depth": 18.293113062947995,
+          "difference": 0.00345737752319053
+        },
+        {
+          "ray": 1616,
+          "axis": false,
+          "gpu_depth": 9.874457359313965,
+          "reference_depth": 9.876430715471507,
+          "difference": 0.0019733561575421277
+        }
+      ],
+      "gpu_three_readbacks_seconds": 0.2728128992021084,
+      "passed": true
+    },
+    {
+      "z": -6,
+      "time": 8,
+      "high": 1,
+      "width": 49,
+      "height": 33,
+      "rays": 1617,
+      "misses": 0,
+      "max_iterations": 593.0,
+      "max_gradient_error": 4.109376956595856e-05,
+      "max_bound_ratio": 0.2646547265818759,
+      "max_field_cpu_gpu_difference": 1.5770490139132426e-05,
+      "actual_points_field_difference": 7.173527302251417e-06,
+      "worst_scalar_ray": 660,
+      "references": [
+        {
+          "ray": 0,
+          "axis": false,
+          "gpu_depth": 11.12752628326416,
+          "reference_depth": 11.131088999837637,
+          "difference": 0.003562716573476621
+        },
+        {
+          "ray": 323,
+          "axis": false,
+          "gpu_depth": 15.87341594696045,
+          "reference_depth": 15.87805813345313,
+          "difference": 0.004642186492681333
+        },
+        {
+          "ray": 646,
+          "axis": false,
+          "gpu_depth": 14.668782234191895,
+          "reference_depth": 14.673046429127456,
+          "difference": 0.00426419493556196
+        },
+        {
+          "ray": 758,
+          "axis": false,
+          "gpu_depth": 36.34452438354492,
+          "reference_depth": 36.352201645106085,
+          "difference": 0.007677261561163107
+        },
+        {
+          "ray": 759,
+          "axis": false,
+          "gpu_depth": 37.79997253417969,
+          "reference_depth": 37.80329845127462,
+          "difference": 0.0033259170949335726
+        },
+        {
+          "ray": 760,
+          "axis": false,
+          "gpu_depth": 36.260868072509766,
+          "reference_depth": 36.26508180472255,
+          "difference": 0.0042137322127828725
+        },
+        {
+          "ray": 807,
+          "axis": false,
+          "gpu_depth": 36.81934356689453,
+          "reference_depth": 36.82710119900108,
+          "difference": 0.007757632106546453
+        },
+        {
+          "ray": 808,
+          "axis": true,
+          "gpu_depth": 35.09497833251953,
+          "reference_depth": 35.09804156282545,
+          "difference": 0.0030632303059192623
+        },
+        {
+          "ray": 809,
+          "axis": false,
+          "gpu_depth": 36.568214416503906,
+          "reference_depth": 36.577839220136404,
+          "difference": 0.009624803632497958
+        },
+        {
+          "ray": 856,
+          "axis": false,
+          "gpu_depth": 38.17364501953125,
+          "reference_depth": 38.17844930031895,
+          "difference": 0.004804280787702453
+        },
+        {
+          "ray": 857,
+          "axis": false,
+          "gpu_depth": 34.92634963989258,
+          "reference_depth": 34.93868832662702,
+          "difference": 0.012338686734445048
+        },
+        {
+          "ray": 858,
+          "axis": false,
+          "gpu_depth": 38.30034255981445,
+          "reference_depth": 38.303856334179635,
+          "difference": 0.0035137743651816322
+        },
+        {
+          "ray": 969,
+          "axis": false,
+          "gpu_depth": 15.856298446655273,
+          "reference_depth": 15.85963361504674,
+          "difference": 0.00333516839146597
+        },
+        {
+          "ray": 1292,
+          "axis": false,
+          "gpu_depth": 16.963289260864258,
+          "reference_depth": 16.966925525039436,
+          "difference": 0.003636264175177928
+        },
+        {
+          "ray": 1616,
+          "axis": false,
+          "gpu_depth": 11.127525329589844,
+          "reference_depth": 11.131088999837637,
+          "difference": 0.003563670247793027
+        }
+      ],
+      "gpu_three_readbacks_seconds": 0.29016247391700745,
+      "passed": true
+    },
+    {
+      "z": -6,
+      "time": 8,
+      "high": 0,
+      "width": 49,
+      "height": 33,
+      "rays": 1617,
+      "misses": 0,
+      "max_iterations": 695.0,
+      "max_gradient_error": 4.109374187433179e-05,
+      "max_bound_ratio": 0.2729396524074907,
+      "max_field_cpu_gpu_difference": 1.5770491143847834e-05,
+      "actual_points_field_difference": 7.173527300723993e-06,
+      "worst_scalar_ray": 660,
+      "references": [
+        {
+          "ray": 0,
+          "axis": false,
+          "gpu_depth": 11.123948097229004,
+          "reference_depth": 11.127616656392814,
+          "difference": 0.0036685591638097037
+        },
+        {
+          "ray": 323,
+          "axis": false,
+          "gpu_depth": 15.873421669006348,
+          "reference_depth": 15.878021685630081,
+          "difference": 0.004600016623733438
+        },
+        {
+          "ray": 646,
+          "axis": false,
+          "gpu_depth": 14.668957710266113,
+          "reference_depth": 14.67315844371915,
+          "difference": 0.004200733453036065
+        },
+        {
+          "ray": 758,
+          "axis": false,
+          "gpu_depth": 36.34452438354492,
+          "reference_depth": 36.352201645106085,
+          "difference": 0.007677261561163107
+        },
+        {
+          "ray": 759,
+          "axis": false,
+          "gpu_depth": 37.79997253417969,
+          "reference_depth": 37.80329845127462,
+          "difference": 0.0033259170949335726
+        },
+        {
+          "ray": 760,
+          "axis": false,
+          "gpu_depth": 36.260868072509766,
+          "reference_depth": 36.26508180472255,
+          "difference": 0.0042137322127828725
+        },
+        {
+          "ray": 807,
+          "axis": false,
+          "gpu_depth": 36.81934356689453,
+          "reference_depth": 36.82710119900108,
+          "difference": 0.007757632106546453
+        },
+        {
+          "ray": 808,
+          "axis": true,
+          "gpu_depth": 35.09497833251953,
+          "reference_depth": 35.09804156282545,
+          "difference": 0.0030632303059192623
+        },
+        {
+          "ray": 809,
+          "axis": false,
+          "gpu_depth": 36.568214416503906,
+          "reference_depth": 36.577839220136404,
+          "difference": 0.009624803632497958
+        },
+        {
+          "ray": 856,
+          "axis": false,
+          "gpu_depth": 38.17364501953125,
+          "reference_depth": 38.17844930031895,
+          "difference": 0.004804280787702453
+        },
+        {
+          "ray": 857,
+          "axis": false,
+          "gpu_depth": 34.92634963989258,
+          "reference_depth": 34.93868832662702,
+          "difference": 0.012338686734445048
+        },
+        {
+          "ray": 858,
+          "axis": false,
+          "gpu_depth": 38.30034255981445,
+          "reference_depth": 38.303856334179635,
+          "difference": 0.0035137743651816322
+        },
+        {
+          "ray": 969,
+          "axis": false,
+          "gpu_depth": 15.8563871383667,
+          "reference_depth": 15.85965908315778,
+          "difference": 0.0032719447910807276
+        },
+        {
+          "ray": 1292,
+          "axis": false,
+          "gpu_depth": 16.96335220336914,
+          "reference_depth": 16.966969322830437,
+          "difference": 0.00361711946129617
+        },
+        {
+          "ray": 1616,
+          "axis": false,
+          "gpu_depth": 11.123948097229004,
+          "reference_depth": 11.127616656392814,
+          "difference": 0.0036685591638097037
+        }
+      ],
+      "gpu_three_readbacks_seconds": 0.27131133154034615,
+      "passed": true
+    },
+    {
+      "z": -6,
+      "time": 221,
+      "high": 1,
+      "width": 49,
+      "height": 33,
+      "rays": 1617,
+      "misses": 0,
+      "max_iterations": 452.0,
+      "max_gradient_error": 0.00015530301390409562,
+      "max_bound_ratio": 0.3436190263440908,
+      "max_field_cpu_gpu_difference": 3.4370028781375433e-05,
+      "actual_points_field_difference": 3.266553263092404e-05,
+      "worst_scalar_ray": 109,
+      "references": [
+        {
+          "ray": 0,
+          "axis": false,
+          "gpu_depth": 9.031259536743164,
+          "reference_depth": 9.033190085202456,
+          "difference": 0.0019305484592919697
+        },
+        {
+          "ray": 323,
+          "axis": false,
+          "gpu_depth": 16.645212173461914,
+          "reference_depth": 16.654425627797842,
+          "difference": 0.009213454335927906
+        },
+        {
+          "ray": 646,
+          "axis": false,
+          "gpu_depth": 15.911332130432129,
+          "reference_depth": 15.914698878139255,
+          "difference": 0.003366747707126194
+        },
+        {
+          "ray": 758,
+          "axis": false,
+          "gpu_depth": 37.754276275634766,
+          "reference_depth": 37.76109228041768,
+          "difference": 0.006816004782912444
+        },
+        {
+          "ray": 759,
+          "axis": false,
+          "gpu_depth": 38.98603439331055,
+          "reference_depth": 38.98915797767042,
+          "difference": 0.0031235843598764745
+        },
+        {
+          "ray": 760,
+          "axis": false,
+          "gpu_depth": 38.491798400878906,
+          "reference_depth": 38.49969973352551,
+          "difference": 0.007901332646603976
+        },
+        {
+          "ray": 807,
+          "axis": false,
+          "gpu_depth": 38.97650909423828,
+          "reference_depth": 38.97962082132697,
+          "difference": 0.0031117270886866777
+        },
+        {
+          "ray": 808,
+          "axis": true,
+          "gpu_depth": 39.52772521972656,
+          "reference_depth": 39.530412570208306,
+          "difference": 0.002687350481743067
+        },
+        {
+          "ray": 809,
+          "axis": false,
+          "gpu_depth": 38.7709846496582,
+          "reference_depth": 38.77420436301827,
+          "difference": 0.0032197133600675443
+        },
+        {
+          "ray": 856,
+          "axis": false,
+          "gpu_depth": 37.3856086730957,
+          "reference_depth": 37.39555739620328,
+          "difference": 0.009948723107576996
+        },
+        {
+          "ray": 857,
+          "axis": false,
+          "gpu_depth": 38.915924072265625,
+          "reference_depth": 38.918978715151546,
+          "difference": 0.003054642885921055
+        },
+        {
+          "ray": 858,
+          "axis": false,
+          "gpu_depth": 38.013710021972656,
+          "reference_depth": 38.024768666535614,
+          "difference": 0.011058644562957909
+        },
+        {
+          "ray": 969,
+          "axis": false,
+          "gpu_depth": 15.798373222351074,
+          "reference_depth": 15.80396249100566,
+          "difference": 0.005589268654585311
+        },
+        {
+          "ray": 1292,
+          "axis": false,
+          "gpu_depth": 15.440717697143555,
+          "reference_depth": 15.44811193290353,
+          "difference": 0.0073942357599747766
+        },
+        {
+          "ray": 1616,
+          "axis": false,
+          "gpu_depth": 9.031259536743164,
+          "reference_depth": 9.033190085202456,
+          "difference": 0.0019305484592919697
+        }
+      ],
+      "gpu_three_readbacks_seconds": 0.2694747671484947,
+      "passed": true
+    },
+    {
+      "z": -6,
+      "time": 221,
+      "high": 0,
+      "width": 49,
+      "height": 33,
+      "rays": 1617,
+      "misses": 0,
+      "max_iterations": 452.0,
+      "max_gradient_error": 0.00015519720001178072,
+      "max_bound_ratio": 0.34581099765185713,
+      "max_field_cpu_gpu_difference": 3.403754118569413e-05,
+      "actual_points_field_difference": 3.216248784601583e-05,
+      "worst_scalar_ray": 1562,
+      "references": [
+        {
+          "ray": 0,
+          "axis": false,
+          "gpu_depth": 9.034849166870117,
+          "reference_depth": 9.036514912694692,
+          "difference": 0.0016657458245745715
+        },
+        {
+          "ray": 323,
+          "axis": false,
+          "gpu_depth": 16.645313262939453,
+          "reference_depth": 16.654476429373027,
+          "difference": 0.009163166433573622
+        },
+        {
+          "ray": 646,
+          "axis": false,
+          "gpu_depth": 15.9114351272583,
+          "reference_depth": 15.914697557955982,
+          "difference": 0.0032624306976813955
+        },
+        {
+          "ray": 758,
+          "axis": false,
+          "gpu_depth": 37.754276275634766,
+          "reference_depth": 37.76109228041768,
+          "difference": 0.006816004782912444
+        },
+        {
+          "ray": 759,
+          "axis": false,
+          "gpu_depth": 38.98603439331055,
+          "reference_depth": 38.98915797767042,
+          "difference": 0.0031235843598764745
+        },
+        {
+          "ray": 760,
+          "axis": false,
+          "gpu_depth": 38.491798400878906,
+          "reference_depth": 38.49969973352551,
+          "difference": 0.007901332646603976
+        },
+        {
+          "ray": 807,
+          "axis": false,
+          "gpu_depth": 38.97650909423828,
+          "reference_depth": 38.97962082132697,
+          "difference": 0.0031117270886866777
+        },
+        {
+          "ray": 808,
+          "axis": true,
+          "gpu_depth": 39.52772521972656,
+          "reference_depth": 39.530412570208306,
+          "difference": 0.002687350481743067
+        },
+        {
+          "ray": 809,
+          "axis": false,
+          "gpu_depth": 38.7709846496582,
+          "reference_depth": 38.77420436301827,
+          "difference": 0.0032197133600675443
+        },
+        {
+          "ray": 856,
+          "axis": false,
+          "gpu_depth": 37.3856086730957,
+          "reference_depth": 37.39555739620328,
+          "difference": 0.009948723107576996
+        },
+        {
+          "ray": 857,
+          "axis": false,
+          "gpu_depth": 38.915924072265625,
+          "reference_depth": 38.918978715151546,
+          "difference": 0.003054642885921055
+        },
+        {
+          "ray": 858,
+          "axis": false,
+          "gpu_depth": 38.013710021972656,
+          "reference_depth": 38.024768666535614,
+          "difference": 0.011058644562957909
+        },
+        {
+          "ray": 969,
+          "axis": false,
+          "gpu_depth": 15.798746109008789,
+          "reference_depth": 15.80419502171874,
+          "difference": 0.0054489127099515144
+        },
+        {
+          "ray": 1292,
+          "axis": false,
+          "gpu_depth": 15.43947982788086,
+          "reference_depth": 15.447967696934938,
+          "difference": 0.008487869054079056
+        },
+        {
+          "ray": 1616,
+          "axis": false,
+          "gpu_depth": 9.034850120544434,
+          "reference_depth": 9.036514912694692,
+          "difference": 0.0016647921502581653
+        }
+      ],
+      "gpu_three_readbacks_seconds": 0.3041878817602992,
+      "passed": true
+    },
+    {
+      "z": -6,
+      "time": 900,
+      "high": 1,
+      "width": 49,
+      "height": 33,
+      "rays": 1617,
+      "misses": 0,
+      "max_iterations": 588.0,
+      "max_gradient_error": 0.00045948988108435174,
+      "max_bound_ratio": 0.31475517684551185,
+      "max_field_cpu_gpu_difference": 0.00014708051588622345,
+      "actual_points_field_difference": 0.00014590608764578766,
+      "worst_scalar_ray": 1303,
+      "references": [
+        {
+          "ray": 0,
+          "axis": false,
+          "gpu_depth": 8.040446281433105,
+          "reference_depth": 8.042419994920497,
+          "difference": 0.001973713487391393
+        },
+        {
+          "ray": 323,
+          "axis": false,
+          "gpu_depth": 17.719764709472656,
+          "reference_depth": 17.72868550899625,
+          "difference": 0.008920799523593814
+        },
+        {
+          "ray": 646,
+          "axis": false,
+          "gpu_depth": 14.058974266052246,
+          "reference_depth": 14.063284379750492,
+          "difference": 0.004310113698245743
+        },
+        {
+          "ray": 758,
+          "axis": false,
+          "gpu_depth": 36.51042938232422,
+          "reference_depth": 36.51552807989716,
+          "difference": 0.005098697572940125
+        },
+        {
+          "ray": 759,
+          "axis": false,
+          "gpu_depth": 35.56474685668945,
+          "reference_depth": 35.567141063064334,
+          "difference": 0.0023942063748805253
+        },
+        {
+          "ray": 760,
+          "axis": false,
+          "gpu_depth": 36.352413177490234,
+          "reference_depth": 36.3577118331492,
+          "difference": 0.005298655658968698
+        },
+        {
+          "ray": 807,
+          "axis": false,
+          "gpu_depth": 34.54543685913086,
+          "reference_depth": 34.550540792673836,
+          "difference": 0.0051039335429763355
+        },
+        {
+          "ray": 808,
+          "axis": true,
+          "gpu_depth": 35.1511344909668,
+          "reference_depth": 35.15392739108206,
+          "difference": 0.002792900115260011
+        },
+        {
+          "ray": 809,
+          "axis": false,
+          "gpu_depth": 35.062294006347656,
+          "reference_depth": 35.06475288721919,
+          "difference": 0.0024588808715364507
+        },
+        {
+          "ray": 856,
+          "axis": false,
+          "gpu_depth": 37.937599182128906,
+          "reference_depth": 37.94046107742191,
+          "difference": 0.002861895293001737
+        },
+        {
+          "ray": 857,
+          "axis": false,
+          "gpu_depth": 34.01771926879883,
+          "reference_depth": 34.02056768730282,
+          "difference": 0.00284841850399431
+        },
+        {
+          "ray": 858,
+          "axis": false,
+          "gpu_depth": 37.624549865722656,
+          "reference_depth": 37.62811306938528,
+          "difference": 0.003563203662622527
+        },
+        {
+          "ray": 969,
+          "axis": false,
+          "gpu_depth": 15.33420181274414,
+          "reference_depth": 15.338558487385512,
+          "difference": 0.004356674641371683
+        },
+        {
+          "ray": 1292,
+          "axis": false,
+          "gpu_depth": 16.3017520904541,
+          "reference_depth": 16.30836972650885,
+          "difference": 0.006617636054748743
+        },
+        {
+          "ray": 1616,
+          "axis": false,
+          "gpu_depth": 8.040482521057129,
+          "reference_depth": 8.042419994920497,
+          "difference": 0.0019374738633679556
+        }
+      ],
+      "gpu_three_readbacks_seconds": 0.2677555652335286,
+      "passed": true
+    },
+    {
+      "z": -6,
+      "time": 900,
+      "high": 0,
+      "width": 49,
+      "height": 33,
+      "rays": 1617,
+      "misses": 0,
+      "max_iterations": 588.0,
+      "max_gradient_error": 0.00042444411238662383,
+      "max_bound_ratio": 0.3168862567533722,
+      "max_field_cpu_gpu_difference": 0.0001287209234502422,
+      "actual_points_field_difference": 0.0001296463804879135,
+      "worst_scalar_ray": 699,
+      "references": [
+        {
+          "ray": 0,
+          "axis": false,
+          "gpu_depth": 8.028812408447266,
+          "reference_depth": 8.031030861943961,
+          "difference": 0.0022184534966953606
+        },
+        {
+          "ray": 323,
+          "axis": false,
+          "gpu_depth": 17.719873428344727,
+          "reference_depth": 17.728750964373347,
+          "difference": 0.008877536028620625
+        },
+        {
+          "ray": 646,
+          "axis": false,
+          "gpu_depth": 14.058867454528809,
+          "reference_depth": 14.063047896891835,
+          "difference": 0.00418044236302606
+        },
+        {
+          "ray": 758,
+          "axis": false,
+          "gpu_depth": 36.51042938232422,
+          "reference_depth": 36.51552807989716,
+          "difference": 0.005098697572940125
+        },
+        {
+          "ray": 759,
+          "axis": false,
+          "gpu_depth": 35.56474685668945,
+          "reference_depth": 35.567141063064334,
+          "difference": 0.0023942063748805253
+        },
+        {
+          "ray": 760,
+          "axis": false,
+          "gpu_depth": 36.352413177490234,
+          "reference_depth": 36.3577118331492,
+          "difference": 0.005298655658968698
+        },
+        {
+          "ray": 807,
+          "axis": false,
+          "gpu_depth": 34.54543685913086,
+          "reference_depth": 34.550540792673836,
+          "difference": 0.0051039335429763355
+        },
+        {
+          "ray": 808,
+          "axis": true,
+          "gpu_depth": 35.1511344909668,
+          "reference_depth": 35.15392739108206,
+          "difference": 0.002792900115260011
+        },
+        {
+          "ray": 809,
+          "axis": false,
+          "gpu_depth": 35.062294006347656,
+          "reference_depth": 35.06475288721919,
+          "difference": 0.0024588808715364507
+        },
+        {
+          "ray": 856,
+          "axis": false,
+          "gpu_depth": 37.937599182128906,
+          "reference_depth": 37.94046107742191,
+          "difference": 0.002861895293001737
+        },
+        {
+          "ray": 857,
+          "axis": false,
+          "gpu_depth": 34.01771926879883,
+          "reference_depth": 34.02056768730282,
+          "difference": 0.00284841850399431
+        },
+        {
+          "ray": 858,
+          "axis": false,
+          "gpu_depth": 37.624549865722656,
+          "reference_depth": 37.62811306938528,
+          "difference": 0.003563203662622527
+        },
+        {
+          "ray": 969,
+          "axis": false,
+          "gpu_depth": 15.334157943725586,
+          "reference_depth": 15.338489981442692,
+          "difference": 0.004332037717105663
+        },
+        {
+          "ray": 1292,
+          "axis": false,
+          "gpu_depth": 16.301803588867188,
+          "reference_depth": 16.308383462995288,
+          "difference": 0.006579874128100016
+        },
+        {
+          "ray": 1616,
+          "axis": false,
+          "gpu_depth": 8.0289945602417,
+          "reference_depth": 8.031030861943961,
+          "difference": 0.002036301702261767
+        }
+      ],
+      "gpu_three_readbacks_seconds": 0.3007552232593298,
+      "passed": true
+    }
+  ],
+  "rays": 38160,
+  "reference_rays": 360,
+  "max_reference_difference": 0.01752078279853464,
+  "passed": true
+}

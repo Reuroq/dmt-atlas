@@ -1,0 +1,23 @@
+{
+  "integrity_passed": true,
+  "candidate_numerical_passed": true,
+  "runtime_unchanged": true,
+  "render_signature": "f055d198fd1db94f4a10a751f8b92a46d7ca0a3957a9e1352d0e6e2753d797b9",
+  "display_unchanged": true,
+  "ledgers_unchanged": true,
+  "limits": "Same scalar .001, gradient .005, bound ratio 1.001 and first-root .03 limits as v25. No tolerance relaxation.",
+  "limitations": "24 sampled states, not universal convergence or accuracy at arbitrary animation times. Three low-resolution GPU readbacks per case took 7.31s total including first compilation; not full-resolution runtime performance evidence. Exact-axis samples do not prove all cap/rim rays. Candidate has no fresh journey captures and is not deployed.",
+  "overall_passed": false,
+  "sha256": {
+    "build_numeric_candidate_v26.py": "05776b94672d92820a41bbb67f1ec5b1235114cddb5003f7f824b48291fc7b61",
+    "continuum-v26-candidate.js": "1bc81fed1024354355ad145a7e1da211d310ce0a5a70a681d840ded00e06b899",
+    "gpu_probe_v26_candidate.html": "ae47ea7623ada9dc182072f04ba428ed4b6d2fcda94753e51204e3f1fe740301",
+    "probe_numeric_candidate_v26.py": "50455b4121841dc9cedd92f239cb2d0c6f392527ef4ba3d1deb44ede1c17a0c2",
+    "check_numeric_candidate_v26.py": "47caa0e1602e088995a8a716ea6c640106619392270b069848bf2c322e691498",
+    "build-numeric-candidate-v26.log": "e25ad4f6589878846863d6f93ac8db8e6fa35b212890000be7675c3224c88100",
+    "probe-numeric-candidate-v26.log": "5876eef3be391d13a9efafc67a1f77e8886c8c3df8aaea1bc93248e4c9891fe5",
+    "numeric-candidate-v26-raw.json": "e0b33fe31536a36b4fe6fd6e5add41bcbe37baa0770a2954605471652717f4c5",
+    "numeric-candidate-v26-check.json": "b1bf825cbb9b7d46ac00f86cc5420e5fa59dff2bf7f6652fc9072d4e3a3355b7",
+    "numeric-diagnosis-v25-check.json": "4a7c5b780e5e472e8fa4eadd53df2bfadd7efcccbb476078761e23fac50c24a9"
+  }
+}

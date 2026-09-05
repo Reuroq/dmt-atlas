@@ -1,12 +1,12 @@
 {
   "method_version": 2,
   "threshold": 0.8,
-  "render_signature": "4de3ad42a4e2095b5ed2e54571ae99e029b2e546825ac27e9d8f6f3f1d1513c3",
+  "render_signature": "324b7f317aa3c4211b53a9a6fb01377029222a35b63dde91ab04ade77787bd0c",
   "passed": false,
   "realism": {
     "question": "Would someone who has had this experience recognise this, or does it read as a game?",
     "passed": false,
-    "render_signature": "4de3ad42a4e2095b5ed2e54571ae99e029b2e546825ac27e9d8f6f3f1d1513c3",
+    "render_signature": "324b7f317aa3c4211b53a9a6fb01377029222a35b63dde91ab04ade77787bd0c",
     "targets": [
       {
         "id": "onset",
@@ -36,16 +36,23 @@
       },
       {
         "id": "chrysanthemum",
-        "grade": "CLOSE",
-        "reason": "CLOSE: continuous curved red/gold and cyan/blue sheets overlap into a filled flower-like centre, with smoother coherent highlights and less streaking than v8. The horizontal colour seam is gone. However broad pale surfaces still dominate, thin dark edge artifacts remain, and the nested centre is a small repeated rosette rather than dense recursively unfolding jewelled geometry. Not RECOGNISE.",
-        "temporal_observation": "Same-camera HIGH pair narrows and twists the cyan inner rim, changes the right-hand overlap and bends the broad outer sheets while red/gold/blue regions shift. Actual folding is visible, not only texture motion, but both frames retain broad simple sheets and limited nested detail; no completed doorway transformation is demonstrated.",
+        "grade": "GAME",
+        "reason": "GAME, not RECOGNISE: hard black material blotches are removed and the field is more luminous, but broad rubbery/smeared walls, sparse scalloped rings, milky highlights and a simple axial flower remain. Cartesian central lobes have more relief than the old fan yet do not establish dense recursive 3D folding. Motion makes the centre simpler. No convincing black gaps, readable beings or jewel-like detail throughout. New subpixel ray tolerance is not universal convergence proof, and apparent gaps receive no artifact credit. Next investigate geometry scale/filter suppression and the axial pigment convergence; another colour adjustment alone is insufficient. This is visual judgment, not witness certification.",
+        "temporal_observation": "Fixed entry[0,1.7,8] at6.1390/9.1889; fixed deep[0,1.7,-7.03968] at9.1686/12.2020. Entry scallops rotate diagonally and the blue/pink inner ring changes overlap; the centre changes its small lobe exposure. Deep foreground lime/cyan lobes widen into large pointed sheets, violet/pink inner lips change relative exposure, and the central padded flower becomes a smoother pinwheel. Supports rotation and undulation with outline changes; not a complete breathing cycle or convincing fold-over/inside-out transformation.",
         "passed": false,
         "blockers": [
-          "Rebuild required: CLOSE"
+          "Rebuild required: GAME",
+          "Missing, stale, invalid or uninspected HIGH receipt: realism-chrysanthemum-v25.png",
+          "Missing, stale, invalid or uninspected HIGH receipt: realism-chrysanthemum-v25-motion.png",
+          "Missing, stale, invalid or uninspected HIGH receipt: realism-chrysanthemum-close-v25.png",
+          "Missing, stale, invalid or uninspected HIGH receipt: realism-chrysanthemum-close-v25-motion.png",
+          "Two inspected fresh HIGH frames, same camera, >=2 animation seconds apart required"
         ],
         "captures": [
-          "realism-chrysanthemum-v9.png",
-          "realism-chrysanthemum-v9-motion.png"
+          "realism-chrysanthemum-v25.png",
+          "realism-chrysanthemum-v25-motion.png",
+          "realism-chrysanthemum-close-v25.png",
+          "realism-chrysanthemum-close-v25-motion.png"
         ]
       },
       {
@@ -1768,653 +1775,6 @@
               "quote_start": 4506,
               "quote_end": 4668,
               "quote": "the visitors waiting to get in.\n\nAfter about 10minutes it all seemed to be fading away, so I opened my eyes, looked over at my boyfriend to find him staring at me"
-            }
-          ],
-          "rank": 15,
-          "grade": "UNREVIEWED",
-          "observation": "No render comparison yet."
-        }
-      ]
-    },
-    {
-      "id": "chrysanthemum",
-      "reports": 480,
-      "candidate_reports": 480,
-      "passages": 960,
-      "nodes": [
-        "phase|The Chrysanthemum",
-        "geometry|The Chrysanthemum"
-      ],
-      "basis": "UNVALIDATED lexical candidates",
-      "passage_audit": {
-        "passed": false,
-        "reviewed_reports": 10,
-        "included_reports": 7,
-        "excluded_reports": 3,
-        "candidate_reports": 480,
-        "candidate_passages": 960,
-        "exhausted": false,
-        "errors": []
-      },
-      "coverage": 0.0,
-      "passed": false,
-      "blockers": [
-        "No inspected HIGH-detail capture receipts",
-        "Ground-truth passage validation incomplete",
-        "Top ten contains ABSENT or UNREVIEWED",
-        "Top fifteen not fully graded",
-        "Coverage below 80%"
-      ],
-      "descriptors": [
-        {
-          "descriptor": "multicoloured",
-          "category": "colour",
-          "count": 310,
-          "fraction": 0.64583,
-          "examples": [
-            {
-              "id": "10vwwm",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 2529,
-              "match_offset": 2529,
-              "quote_start": 2447,
-              "quote_end": 2618,
-              "quote": "and threw in some more bud on top. I smoked 3 hits and immediately began seeing a kaleidoscope of colors swirling around in my mind. Every time I closed my eyes tighter it"
-            },
-            {
-              "id": "1e15w0",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 877,
-              "match_offset": 877,
-              "quote_start": 801,
-              "quote_end": 973,
-              "quote": "sounds (birds, river, etc) ceased to exist. I was immersed in an incredible kaleidoscope of rotating, morphing, twisting shapes. \n\nSoon I found myself noticing a human like"
-            },
-            {
-              "id": "1glmvv",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 276,
-              "match_offset": 276,
-              "quote_start": 193,
-              "quote_end": 368,
-              "quote": "a tunnel materializing in front of me, and I'm suddenly shot off through it into a kaleidoscope of colors.  During this time I'm fully aware of “me” and what I’ve just done. I"
-            }
-          ],
-          "rank": 1,
-          "grade": "UNREVIEWED",
-          "observation": "No render comparison yet."
-        },
-        {
-          "descriptor": "geometry / patterns",
-          "category": "form",
-          "count": 193,
-          "fraction": 0.40208,
-          "examples": [
-            {
-              "id": "1e15w0",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 877,
-              "match_offset": 922,
-              "quote_start": 838,
-              "quote_end": 1003,
-              "quote": "exist. I was immersed in an incredible kaleidoscope of rotating, morphing, twisting shapes. \n\nSoon I found myself noticing a human like being a little bit off in the"
-            },
-            {
-              "id": "1jivt5",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 3287,
-              "match_offset": 3300,
-              "quote_start": 3218,
-              "quote_end": 3390,
-              "quote": "dampened and all I could see was waves of golden/red chevrons making kaleidoscope patterns.  I lost all sense of being on my bed, I felt completely in my own head space.  I"
-            },
-            {
-              "id": "2pot56",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 7972,
-              "match_offset": 7867,
-              "quote_start": 7783,
-              "quote_end": 7955,
-              "quote": "plancks cause standing waves, that we can see in *cymatics* that make light vibrate geometry into existence. The [first fractal iteration of the lattice is a 64 tetrahedron"
-            }
-          ],
-          "rank": 2,
-          "grade": "UNREVIEWED",
-          "observation": "No render comparison yet."
-        },
-        {
-          "descriptor": "flower / mandala",
-          "category": "form",
-          "count": 192,
-          "fraction": 0.4,
-          "examples": [
-            {
-              "id": "2cwjyn",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 3299,
-              "match_offset": 3303,
-              "quote_start": 3225,
-              "quote_end": 3382,
-              "quote": "bleeding special colors and new designs everywhere, fractals burnt off of the flower tips. Black lines which I have always decided create solid mass, show up"
-            },
-            {
-              "id": "2loeyx",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 1151,
-              "match_offset": 1151,
-              "quote_start": 1070,
-              "quote_end": 1242,
-              "quote": "have over did it this time.\"\n\n   Instantly I was in DMT hyperspace, with the dmt chrysanthemum directly in front of my psych, in full, sharp, incredible detail. It spun and"
-            },
-            {
-              "id": "2pdyi2",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 401,
-              "match_offset": 405,
-              "quote_start": 321,
-              "quote_end": 501,
-              "quote": "not talking microdose or sub-breakthroughs, I'm talking full on passing through the chrysanthemum and meeting with entities. Do you think once is enough, or is more needed to 'get'"
-            }
-          ],
-          "rank": 3,
-          "grade": "UNREVIEWED",
-          "observation": "No render comparison yet."
-        },
-        {
-          "descriptor": "beings / presences",
-          "category": "form",
-          "count": 166,
-          "fraction": 0.34583,
-          "examples": [
-            {
-              "id": "1e15w0",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 877,
-              "match_offset": 701,
-              "quote_start": 624,
-              "quote_end": 787,
-              "quote": "vibrant and lush and I managed to tell my friend I needed to lay down before being completely under. \n\nWith my eyes closed, that resonating sound became louder and"
-            },
-            {
-              "id": "1jivt5",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 3287,
-              "match_offset": 3331,
-              "quote_start": 3247,
-              "quote_end": 3419,
-              "quote": "was waves of golden/red chevrons making kaleidoscope patterns.  I lost all sense of being on my bed, I felt completely in my own head space.  I tried to speak, but all that"
-            },
-            {
-              "id": "2pdyi2",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 401,
-              "match_offset": 436,
-              "quote_start": 365,
-              "quote_end": 514,
-              "quote": "I'm talking full on passing through the chrysanthemum and meeting with entities. Do you think once is enough, or is more needed to 'get' the message?"
-            }
-          ],
-          "rank": 4,
-          "grade": "UNREVIEWED",
-          "observation": "No render comparison yet."
-        },
-        {
-          "descriptor": "eyes",
-          "category": "form",
-          "count": 162,
-          "fraction": 0.3375,
-          "examples": [
-            {
-              "id": "10vwwm",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 2529,
-              "match_offset": 2603,
-              "quote_start": 2520,
-              "quote_end": 2689,
-              "quote": "seeing a kaleidoscope of colors swirling around in my mind. Every time I closed my eyes tighter it intensified the visuals. I then sat up from my couch and looked around"
-            },
-            {
-              "id": "1e15w0",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 877,
-              "match_offset": 735,
-              "quote_start": 655,
-              "quote_end": 822,
-              "quote": "to tell my friend I needed to lay down before being completely under. \n\nWith my eyes closed, that resonating sound became louder and all external sounds (birds, river,"
-            },
-            {
-              "id": "1glmvv",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 276,
-              "match_offset": 181,
-              "quote_start": 97,
-              "quote_end": 268,
-              "quote": "piece it together. \n\nI felt the fuzzies come on, and then I laid back and closed my eyes. I see a tunnel materializing in front of me, and I'm suddenly shot off through it"
-            }
-          ],
-          "rank": 5,
-          "grade": "UNREVIEWED",
-          "observation": "No render comparison yet."
-        },
-        {
-          "descriptor": "room / architecture",
-          "category": "form",
-          "count": 126,
-          "fraction": 0.2625,
-          "examples": [
-            {
-              "id": "10vwwm",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 2529,
-              "match_offset": 2693,
-              "quote_start": 2616,
-              "quote_end": 2778,
-              "quote": "it intensified the visuals. I then sat up from my couch and looked around my room. It was low lit with candles and it felt like my room expanded indefinitely. All"
-            },
-            {
-              "id": "2ra3ls",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 489,
-              "match_offset": 366,
-              "quote_start": 282,
-              "quote_end": 453,
-              "quote": "in a large void. Or a tunnel? It was also very similar to the shape and feel of the domes that can be found in churches, temples and mosques. (Not a coincidence, I think.)"
-            },
-            {
-              "id": "2rvybk",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 388,
-              "match_offset": 519,
-              "quote_start": 435,
-              "quote_end": 606,
-              "quote": "bed to sit. I was in this hall or something that never ended with walls, floor, and ceiling checkered yellow and red. It flew by me like I was running down the hall at the"
-            }
-          ],
-          "rank": 6,
-          "grade": "UNREVIEWED",
-          "observation": "No render comparison yet."
-        },
-        {
-          "descriptor": "humanoid / bodies",
-          "category": "form",
-          "count": 120,
-          "fraction": 0.25,
-          "examples": [
-            {
-              "id": "1jivt5",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 3287,
-              "match_offset": 3376,
-              "quote_start": 3300,
-              "quote_end": 3464,
-              "quote": "patterns.  I lost all sense of being on my bed, I felt completely in my own head space.  I tried to speak, but all that came out was grunts.  I remember thinking to"
-            },
-            {
-              "id": "2cwjyn",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 3299,
-              "match_offset": 3199,
-              "quote_start": 3115,
-              "quote_end": 3285,
-              "quote": "green and red copy wanted to remove themselves then reattach to him to fuck with my head. As my couch started bleeding special colors and new designs everywhere, fractals"
-            },
-            {
-              "id": "2loeyx",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 1151,
-              "match_offset": 1302,
-              "quote_start": 1223,
-              "quote_end": 1386,
-              "quote": "detail. It spun and intertwined in many different directions very fluidly with arms flailing from the center. On each of the arms coming from it, tiles and symbols"
-            }
-          ],
-          "rank": 7,
-          "grade": "UNREVIEWED",
-          "observation": "No render comparison yet."
-        },
-        {
-          "descriptor": "fractals",
-          "category": "form",
-          "count": 70,
-          "fraction": 0.14583,
-          "examples": [
-            {
-              "id": "2cwjyn",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 3299,
-              "match_offset": 3277,
-              "quote_start": 3196,
-              "quote_end": 3368,
-              "quote": "my head. As my couch started bleeding special colors and new designs everywhere, fractals burnt off of the flower tips. Black lines which I have always decided create solid"
-            },
-            {
-              "id": "2pot56",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 7972,
-              "match_offset": 7903,
-              "quote_start": 7821,
-              "quote_end": 7994,
-              "quote": "can see in *cymatics* that make light vibrate geometry into existence. The [first fractal iteration of the lattice is a 64 tetrahedron grid from which the flower of life and"
-            },
-            {
-              "id": "36bhha",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 521,
-              "match_offset": 537,
-              "quote_start": 453,
-              "quote_end": 626,
-              "quote": "not have OEV's. CEV's were definitely there and it was like a white kaleidoscope of fractals then turning into a multicolored room where a dark figure started to come out of"
-            }
-          ],
-          "rank": 8,
-          "grade": "UNREVIEWED",
-          "observation": "No render comparison yet."
-        },
-        {
-          "descriptor": "tunnel / corridor",
-          "category": "form",
-          "count": 59,
-          "fraction": 0.12292,
-          "examples": [
-            {
-              "id": "1glmvv",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 276,
-              "match_offset": 195,
-              "quote_start": 116,
-              "quote_end": 275,
-              "quote": "\n\nI felt the fuzzies come on, and then I laid back and closed my eyes. I see a tunnel materializing in front of me, and I'm suddenly shot off through it into a"
-            },
-            {
-              "id": "2ra3ls",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 489,
-              "match_offset": 304,
-              "quote_start": 221,
-              "quote_end": 392,
-              "quote": "from that realm and into another.\n  \nI found myself floating in a large void. Or a tunnel? It was also very similar to the shape and feel of the domes that can be found in"
-            },
-            {
-              "id": "372k10",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 395,
-              "match_offset": 349,
-              "quote_start": 270,
-              "quote_end": 438,
-              "quote": "trip was me getting pulled out of my body, traveled through a network of light tunnels and blasted out into an intergalactic kaleidoscope. Experienced my ego get ripped"
-            }
-          ],
-          "rank": 9,
-          "grade": "UNREVIEWED",
-          "observation": "No render comparison yet."
-        },
-        {
-          "descriptor": "spinning / rotating",
-          "category": "motion",
-          "count": 58,
-          "fraction": 0.12083,
-          "examples": [
-            {
-              "id": "10vwwm",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 2529,
-              "match_offset": 2552,
-              "quote_start": 2470,
-              "quote_end": 2643,
-              "quote": "bud on top. I smoked 3 hits and immediately began seeing a kaleidoscope of colors swirling around in my mind. Every time I closed my eyes tighter it intensified the visuals."
-            },
-            {
-              "id": "1e15w0",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 877,
-              "match_offset": 893,
-              "quote_start": 816,
-              "quote_end": 981,
-              "quote": "river, etc) ceased to exist. I was immersed in an incredible kaleidoscope of rotating, morphing, twisting shapes. \n\nSoon I found myself noticing a human like being a"
-            },
-            {
-              "id": "2loeyx",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 1151,
-              "match_offset": 1234,
-              "quote_start": 1151,
-              "quote_end": 1320,
-              "quote": "chrysanthemum directly in front of my psych, in full, sharp, incredible detail. It spun and intertwined in many different directions very fluidly with arms flailing from"
-            }
-          ],
-          "rank": 10,
-          "grade": "UNREVIEWED",
-          "observation": "No render comparison yet."
-        },
-        {
-          "descriptor": "welcoming / loving",
-          "category": "behaviour",
-          "count": 55,
-          "fraction": 0.11458,
-          "examples": [
-            {
-              "id": "33t92s",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 1469,
-              "match_offset": 1290,
-              "quote_start": 1211,
-              "quote_end": 1377,
-              "quote": "of my trip to anyone who wants to read it.\nHave an awesome day guys, peace and love.\n\n\n—————————————————————————————————\n1st DMT Trip.\n\n\"A euphoric feeling engulfs me"
-            },
-            {
-              "id": "372k10",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 395,
-              "match_offset": 510,
-              "quote_start": 428,
-              "quote_end": 600,
-              "quote": "get ripped apart and rebuilt into something else and all the while I could feel a loving presence. It was very moving and I'll never forget it.\nMoving progressively through"
-            },
-            {
-              "id": "4ktl6r",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 208,
-              "match_offset": 240,
-              "quote_start": 158,
-              "quote_end": 320,
-              "quote": "rarely go into an experience seeing the swirling, kaleidoscopic visuals I grew to love so much. Now, my trips skip any waiting room-style visuals, tunnels, or any"
-            }
-          ],
-          "rank": 11,
-          "grade": "UNREVIEWED",
-          "observation": "No render comparison yet."
-        },
-        {
-          "descriptor": "moving / animated",
-          "category": "motion",
-          "count": 54,
-          "fraction": 0.1125,
-          "examples": [
-            {
-              "id": "2rvybk",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 388,
-              "match_offset": 418,
-              "quote_start": 341,
-              "quote_end": 507,
-              "quote": "the hit and as I looked at my hands things got kaleidoscopic. I stood up and moved over to my bed to sit. I was in this hall or something that never ended with walls,"
-            },
-            {
-              "id": "372k10",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 395,
-              "match_offset": 539,
-              "quote_start": 457,
-              "quote_end": 629,
-              "quote": "into something else and all the while I could feel a loving presence. It was very moving and I'll never forget it.\nMoving progressively through my next few trips, I started"
-            },
-            {
-              "id": "3wsdqp",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 818,
-              "match_offset": 663,
-              "quote_start": 580,
-              "quote_end": 752,
-              "quote": "visions came. I was staring at the ceiling, and the popcorn ceiling was breathing, moving up and down, like a large blanket. The ceiling has no discernable patterns, but on"
-            }
-          ],
-          "rank": 12,
-          "grade": "UNREVIEWED",
-          "observation": "No render comparison yet."
-        },
-        {
-          "descriptor": "vast / infinite",
-          "category": "scale",
-          "count": 53,
-          "fraction": 0.11042,
-          "examples": [
-            {
-              "id": "465175",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 2321,
-              "match_offset": 2183,
-              "quote_start": 2105,
-              "quote_end": 2263,
-              "quote": "became an intense vibration, and I closed my eyes.\n\nInside my eyelids I saw a vast golden landscape, and I was flying above it. The ground was made pearls and"
-            },
-            {
-              "id": "4xvuwe",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 750,
-              "match_offset": 839,
-              "quote_start": 765,
-              "quote_end": 925,
-              "quote": "as I like to call it. Rotating prisms of pattern and color, like the most immense and complex kaleidoscope ever, along with the beautiful rush and euphoria that"
-            },
-            {
-              "id": "5aq3i3",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 398,
-              "match_offset": 477,
-              "quote_start": 398,
-              "quote_end": 565,
-              "quote": "mandala patterns took over \n\neverything. I found myself communicating with a\n\n massive goddess-like female entity, who filled me\n\n with a deep sense of love and peace."
-            }
-          ],
-          "rank": 13,
-          "grade": "UNREVIEWED",
-          "observation": "No render comparison yet."
-        },
-        {
-          "descriptor": "dark / black",
-          "category": "light",
-          "count": 49,
-          "fraction": 0.10208,
-          "examples": [
-            {
-              "id": "2cwjyn",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 3299,
-              "match_offset": 3316,
-              "quote_start": 3234,
-              "quote_end": 3405,
-              "quote": "special colors and new designs everywhere, fractals burnt off of the flower tips. Black lines which I have always decided create solid mass, show up everywhere.\n\nMy friend"
-            },
-            {
-              "id": "36bhha",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 521,
-              "match_offset": 592,
-              "quote_start": 508,
-              "quote_end": 678,
-              "quote": "like a white kaleidoscope of fractals then turning into a multicolored room where a dark figure started to come out of the floor. Pretty crazy stuff.\n\nSo my questions are"
-            },
-            {
-              "id": "4a1hul",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 1680,
-              "match_offset": 1480,
-              "quote_start": 1400,
-              "quote_end": 1568,
-              "quote": "a little circle of visibility around the glass bowl. Then the room went back to dark as I held in the vapor and counted to 15. By the time I flicked the lighter for the"
-            }
-          ],
-          "rank": 14,
-          "grade": "UNREVIEWED",
-          "observation": "No render comparison yet."
-        },
-        {
-          "descriptor": "white",
-          "category": "colour",
-          "count": 40,
-          "fraction": 0.08333,
-          "examples": [
-            {
-              "id": "36bhha",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 521,
-              "match_offset": 515,
-              "quote_start": 434,
-              "quote_end": 603,
-              "quote": "through\" but I did not have OEV's. CEV's were definitely there and it was like a white kaleidoscope of fractals then turning into a multicolored room where a dark figure"
-            },
-            {
-              "id": "4n6k8w",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 640,
-              "match_offset": 699,
-              "quote_start": 619,
-              "quote_end": 787,
-              "quote": "get to see that cool mandala or fractals. Just straight to a realm of black and white spinning machines. I felt the presence of things and saw them. They seemed shocked"
-            },
-            {
-              "id": "4r5fhs",
-              "sub": "DMT",
-              "node": "geometry|The Chrysanthemum",
-              "node_offset": 475,
-              "match_offset": 267,
-              "quote_start": 184,
-              "quote_end": 355,
-              "quote": "broke through or was very close. For my first dose of DMT I smoked 70 mg of potent white powder, although I feel like I did not successfully finish off the entirety of the"
             }
           ],
           "rank": 15,
@@ -11877,6 +11237,650 @@
           "rank": 15,
           "grade": "PRESENT",
           "observation": "Right-side terrace has red/gold brick masonry, a raised deck, stair treads and a thin railing; some is obscured by plants."
+        }
+      ]
+    },
+    {
+      "id": "chrysanthemum",
+      "reports": 50,
+      "candidate_reports": 480,
+      "passages": 960,
+      "nodes": [
+        "phase|The Chrysanthemum",
+        "geometry|The Chrysanthemum"
+      ],
+      "basis": "validated sample",
+      "passage_audit": {
+        "passed": true,
+        "reviewed_reports": 70,
+        "included_reports": 50,
+        "excluded_reports": 20,
+        "candidate_reports": 480,
+        "candidate_passages": 960,
+        "exhausted": false,
+        "errors": []
+      },
+      "coverage": 0.84722,
+      "passed": false,
+      "blockers": [
+        "Capture quality, freshness or visual inspection missing",
+        "Top ten contains ABSENT or UNREVIEWED"
+      ],
+      "descriptors": [
+        {
+          "descriptor": "flower / mandala",
+          "category": "form",
+          "count": 20,
+          "fraction": 0.4,
+          "examples": [
+            {
+              "id": "1kskkyi",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 1792,
+              "match_offset": 1792,
+              "quote_start": 1713,
+              "quote_end": 1881,
+              "quote": "like I was exhaling through my nose or making some kind of sound. I remember a mandala-like drawing I saw at some point—by then the discomfort had passed. After that, I"
+            },
+            {
+              "id": "15j42vj",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 1485,
+              "match_offset": 1489,
+              "quote_start": 1408,
+              "quote_end": 1577,
+              "quote": "purple geometric patterns were in front of my face it looked very similar to the flower of life when all of sudden it become more human worldly looking. It was the lotus"
+            },
+            {
+              "id": "8bvk6z",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 576,
+              "match_offset": 576,
+              "quote_start": 492,
+              "quote_end": 672,
+              "quote": "I could bring it up to my lips..... BOOOOOOOOOOOOM. BLAST OFF. \n\nA beautiful wobbly chrysanthemum gave way and my mind, body and consciousness merged into the oneness. I was in the"
+            }
+          ],
+          "rank": 1,
+          "grade": "PRESENT",
+          "observation": "Concentric scalloped lips surround a padded multicoloured flower, enlarged by real walking. Its sparse simple form fails the separate realism bar."
+        },
+        {
+          "descriptor": "geometry / patterns",
+          "category": "form",
+          "count": 17,
+          "fraction": 0.34,
+          "examples": [
+            {
+              "id": "1kskkyi",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 1792,
+              "match_offset": 1984,
+              "quote_start": 1901,
+              "quote_end": 2030,
+              "quote": "realized I was back in this reality, which was still trying to regain its familiar shape.\n\nI went outside, lay down in the grass,"
+            },
+            {
+              "id": "15j42vj",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 1485,
+              "match_offset": 1415,
+              "quote_start": 1333,
+              "quote_end": 1508,
+              "quote": "I knew exactly where I was, hyperspace! \n\nThe Peak\nUnexplainable green and purple geometric patterns were in front of my face it looked very similar to the flower of life when"
+            },
+            {
+              "id": "1ng2dbo",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 486,
+              "match_offset": 501,
+              "quote_start": 424,
+              "quote_end": 594,
+              "quote": "rip and held it in as long as I could. I was transported to a kaleidoscopic, geometric storm of vivid and intense colors. It was absolutely incredible and beautiful. More"
+            }
+          ],
+          "rank": 2,
+          "grade": "PRESENT",
+          "observation": "Repeated scallops, pointed lips and nested lobes visibly form the connected tunnel."
+        },
+        {
+          "descriptor": "multicoloured",
+          "category": "colour",
+          "count": 14,
+          "fraction": 0.28,
+          "examples": [
+            {
+              "id": "1ng2dbo",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 486,
+              "match_offset": 486,
+              "quote_start": 403,
+              "quote_end": 578,
+              "quote": "gift.\nTook a MASSIVE rip and held it in as long as I could. I was transported to a kaleidoscopic, geometric storm of vivid and intense colors. It was absolutely incredible and"
+            },
+            {
+              "id": "7svzi9",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 589,
+              "match_offset": 589,
+              "quote_start": 505,
+              "quote_end": 678,
+              "quote": "\n\nMy first date started with me closing my eyes and laying down. I saw cool colored kaleidoscope patterns and prisms. They moved so softly and turned into warmer more bright"
+            },
+            {
+              "id": "gs3jb8",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 1947,
+              "match_offset": 1947,
+              "quote_start": 1864,
+              "quote_end": 2040,
+              "quote": "spinning through what seemed like a tunnel or slide of all kinds of colours like a kaleidoscope then a super bright light at the end, \n\nI kind of felt like I was hanging on and"
+            }
+          ],
+          "rank": 3,
+          "grade": "PRESENT",
+          "observation": "Red, orange, yellow, lime, green, cyan, blue, violet and magenta coexist across both fixed-pose pairs."
+        },
+        {
+          "descriptor": "fractals",
+          "category": "form",
+          "count": 8,
+          "fraction": 0.16,
+          "examples": [
+            {
+              "id": "p9iti0",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 624,
+              "match_offset": 632,
+              "quote_start": 549,
+              "quote_end": 723,
+              "quote": "That made my body heavy and I buzzed all over and saw some pretty rotating mandala fractals. That lasted about 5 minutes. \n\nAfter that we tried 30mg blindfolded. That brought"
+            },
+            {
+              "id": "4b8x5b",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 945,
+              "match_offset": 1026,
+              "quote_start": 945,
+              "quote_end": 1117,
+              "quote": "mandala danced in my head. It began to grow, like roots of a tree, crawling into fractals. It moved faster, and more chaotically, and I felt a sucking sensation, while also"
+            },
+            {
+              "id": "esvujb",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 1373,
+              "match_offset": 1407,
+              "quote_start": 1328,
+              "quote_end": 1492,
+              "quote": "space toys, I saw my girlfriend in a form of kaleidoscope, with each different fractal having a unique expression on her face. It was startling as, firstly I didn't"
+            }
+          ],
+          "rank": 4,
+          "grade": "PARTIAL",
+          "observation": "Smaller lobes and local ripples sit on larger lips, but recursive depth/detail is weak; broad surfaces and the moving centre become smooth."
+        },
+        {
+          "descriptor": "tunnel / corridor",
+          "category": "form",
+          "count": 8,
+          "fraction": 0.16,
+          "examples": [
+            {
+              "id": "gti12v",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 1975,
+              "match_offset": 1989,
+              "quote_start": 1905,
+              "quote_end": 2076,
+              "quote": "I cant figure it out. Next thing I know Im shooting through a sort of kaleidoscopic tunnel with this entity just kind of laughing at me hysterically, and then an instant I"
+            },
+            {
+              "id": "gs3jb8",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 1947,
+              "match_offset": 1900,
+              "quote_start": 1816,
+              "quote_end": 1988,
+              "quote": "I released and almost surrendered as I was then spinning through what seemed like a tunnel or slide of all kinds of colours like a kaleidoscope then a super bright light at"
+            },
+            {
+              "id": "1eiqwrn",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 512,
+              "match_offset": 520,
+              "quote_start": 438,
+              "quote_end": 608,
+              "quote": "identical to classic near death experience. First place I landed was a 3d mandala tunnel. The mandala patterns were made of living colored geometric transforming objects."
+            }
+          ],
+          "rank": 5,
+          "grade": "PRESENT",
+          "observation": "Near walls recede through overlapping scalloped lips toward a flower, substantially enlarged by actual forward walking."
+        },
+        {
+          "descriptor": "spinning / rotating",
+          "category": "motion",
+          "count": 6,
+          "fraction": 0.12,
+          "examples": [
+            {
+              "id": "gs3jb8",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 1947,
+              "match_offset": 1864,
+              "quote_start": 1780,
+              "quote_end": 1946,
+              "quote": "peak of an mdma pill comeOver me as I released and almost surrendered as I was then spinning through what seemed like a tunnel or slide of all kinds of colours like a"
+            },
+            {
+              "id": "p9iti0",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 624,
+              "match_offset": 615,
+              "quote_start": 533,
+              "quote_end": 697,
+              "quote": "with low light. That made my body heavy and I buzzed all over and saw some pretty rotating mandala fractals. That lasted about 5 minutes. \n\nAfter that we tried 30mg"
+            },
+            {
+              "id": "1b3vgco",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 872,
+              "match_offset": 926,
+              "quote_start": 846,
+              "quote_end": 1016,
+              "quote": "my vision completely in a kaleidoscope like pattern. The dumbbell patterns were swirling around for a few seconds filling my vision and then it felt like I was teleported"
+            }
+          ],
+          "rank": 6,
+          "grade": "PRESENT",
+          "observation": "Scallop orientation and coloured inner lips turn around the axis in both temporal pairs."
+        },
+        {
+          "descriptor": "bright / luminous",
+          "category": "light",
+          "count": 5,
+          "fraction": 0.1,
+          "examples": [
+            {
+              "id": "7svzi9",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 589,
+              "match_offset": 672,
+              "quote_start": 589,
+              "quote_end": 758,
+              "quote": "kaleidoscope patterns and prisms. They moved so softly and turned into warmer more bright colors.  I felt a subtle breeze trying to take my consciousness away. I heard a"
+            },
+            {
+              "id": "gs3jb8",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 1947,
+              "match_offset": 1973,
+              "quote_start": 1893,
+              "quote_end": 2063,
+              "quote": "like a tunnel or slide of all kinds of colours like a kaleidoscope then a super bright light at the end, \n\nI kind of felt like I was hanging on and come to when there was"
+            },
+            {
+              "id": "5ngny9",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 2929,
+              "match_offset": 2771,
+              "quote_start": 2691,
+              "quote_end": 2857,
+              "quote": "of digital tunnel, like I was gliding through hyperspace. The tunnel walls were glowing and pulsating, and dripping with audible sensations. It felt like a long while"
+            }
+          ],
+          "rank": 7,
+          "grade": "PRESENT",
+          "observation": "An enveloping bright lime, cyan, pink and violet field persists across both pairs, without the former broad black shading. Broad milky highlights do not earn jewel-realism credit."
+        },
+        {
+          "descriptor": "morphing / transforming",
+          "category": "motion",
+          "count": 5,
+          "fraction": 0.1,
+          "examples": [
+            {
+              "id": "1eiqwrn",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 512,
+              "match_offset": 587,
+              "quote_start": 503,
+              "quote_end": 682,
+              "quote": "was a 3d mandala tunnel. The mandala patterns were made of living colored geometric transforming objects. Like a kaleidoscope turning but it was an endless tunnel with diameter of"
+            },
+            {
+              "id": "13bmvvn",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 1975,
+              "match_offset": 1884,
+              "quote_start": 1800,
+              "quote_end": 1974,
+              "quote": "if this one was a full breakthrough or nor.\n\nDuring this one I saw several entities morphing in and out and it was wonderful. They were like faces being shown to me through a"
+            },
+            {
+              "id": "5wjss4",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 547,
+              "match_offset": 511,
+              "quote_start": 428,
+              "quote_end": 595,
+              "quote": "times I used the same method and dose and had good experiences, seeing incredible, morphing fractal patterns (going to the chrysanthemum/waiting room) but not breaking"
+            }
+          ],
+          "rank": 8,
+          "grade": "PARTIAL",
+          "observation": "Lips change outline and exposure; deep rounded lobes become pointed sheets. The same concentric tunnel and simple flower persist."
+        },
+        {
+          "descriptor": "dark / black",
+          "category": "light",
+          "count": 4,
+          "fraction": 0.08,
+          "examples": [
+            {
+              "id": "15j42vj",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 1485,
+              "match_offset": 1327,
+              "quote_start": 1252,
+              "quote_end": 1414,
+              "quote": "form to human to entity but before becoming an entity my surroundings went black I knew exactly where I was, hyperspace! \n\nThe Peak\nUnexplainable green and purple"
+            },
+            {
+              "id": "l3xvln",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 3014,
+              "match_offset": 2940,
+              "quote_start": 2861,
+              "quote_end": 3026,
+              "quote": "is the music Jah was playing for my trip.) I closed my eyes and everything was dark around me. It’s strange because it was as if I was sitting down in a kaleidoscope"
+            },
+            {
+              "id": "15j414w",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 1488,
+              "match_offset": 1329,
+              "quote_start": 1254,
+              "quote_end": 1417,
+              "quote": "form to human to entity but before becoming an entity my surroundings went black I knew exactly where I was, hyperspace! \n\nThe Peak\n\nUnexplainable green and purple"
+            }
+          ],
+          "rank": 9,
+          "grade": "ABSENT",
+          "observation": "Blue/violet creases remain coloured rather than black. No substantial black field or convincing dark spatial openings appear; the removed shading blotches receive no gap credit."
+        },
+        {
+          "descriptor": "green",
+          "category": "colour",
+          "count": 4,
+          "fraction": 0.08,
+          "examples": [
+            {
+              "id": "15j42vj",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 1485,
+              "match_offset": 1398,
+              "quote_start": 1322,
+              "quote_end": 1484,
+              "quote": "went black I knew exactly where I was, hyperspace! \n\nThe Peak\nUnexplainable green and purple geometric patterns were in front of my face it looked very similar to"
+            },
+            {
+              "id": "1nnu65n",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 599,
+              "match_offset": 812,
+              "quote_start": 733,
+              "quote_end": 838,
+              "quote": "than any LSD trip ive ever had. I could see a geometric storm forming around a green triangle in front of"
+            },
+            {
+              "id": "l3xvln",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 3014,
+              "match_offset": 3145,
+              "quote_start": 3064,
+              "quote_end": 3231,
+              "quote": "The visions I got were changing. The most memorable color I noticed is the color green during this part of the trip. During the trip, I was falling extremely slow in a"
+            }
+          ],
+          "rank": 10,
+          "grade": "PRESENT",
+          "observation": "Lime/green rings persist at entry and green/cyan sheets dominate the deep foreground and central flower."
+        },
+        {
+          "descriptor": "purple / pink",
+          "category": "colour",
+          "count": 4,
+          "fraction": 0.08,
+          "examples": [
+            {
+              "id": "15j42vj",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 1485,
+              "match_offset": 1408,
+              "quote_start": 1327,
+              "quote_end": 1498,
+              "quote": "black I knew exactly where I was, hyperspace! \n\nThe Peak\nUnexplainable green and purple geometric patterns were in front of my face it looked very similar to the flower of"
+            },
+            {
+              "id": "7bwjji",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 952,
+              "match_offset": 1178,
+              "quote_start": 1095,
+              "quote_end": 1189,
+              "quote": "just in awe of the colours and geometric shapes. The colour for me was mainly neon pink. All i"
+            },
+            {
+              "id": "15j414w",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 1488,
+              "match_offset": 1411,
+              "quote_start": 1329,
+              "quote_end": 1501,
+              "quote": "black I knew exactly where I was, hyperspace! \n\nThe Peak\n\nUnexplainable green and purple geometric patterns were in front of my face it looked very similar to the flower of"
+            }
+          ],
+          "rank": 11,
+          "grade": "PRESENT",
+          "observation": "Violet/blue and pink/magenta lips persist around the throat and flower through both pairs."
+        },
+        {
+          "descriptor": "saturated / vivid",
+          "category": "colour",
+          "count": 4,
+          "fraction": 0.08,
+          "examples": [
+            {
+              "id": "1ng2dbo",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 486,
+              "match_offset": 520,
+              "quote_start": 437,
+              "quote_end": 607,
+              "quote": "it in as long as I could. I was transported to a kaleidoscopic, geometric storm of vivid and intense colors. It was absolutely incredible and beautiful. More intense than"
+            },
+            {
+              "id": "7bwjji",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 952,
+              "match_offset": 1173,
+              "quote_start": 1089,
+              "quote_end": 1189,
+              "quote": "i was just in awe of the colours and geometric shapes. The colour for me was mainly neon pink. All i"
+            },
+            {
+              "id": "1nnu65n",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 599,
+              "match_offset": 656,
+              "quote_start": 574,
+              "quote_end": 754,
+              "quote": "the room EXPLODED into a kaleidoscopic, geometric storm of intricate patterns and intense colors. It was insanely beautiful and welcoming. It was more intense than any LSD trip ive"
+            }
+          ],
+          "rank": 12,
+          "grade": "PRESENT",
+          "observation": "Strong simultaneous pink, lime, cyan, violet and yellow dominate, with smoothly blended colour gradients."
+        },
+        {
+          "descriptor": "beings / presences",
+          "category": "form",
+          "count": 3,
+          "fraction": 0.06,
+          "examples": [
+            {
+              "id": "gti12v",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 1975,
+              "match_offset": 2006,
+              "quote_start": 1922,
+              "quote_end": 2095,
+              "quote": "out. Next thing I know Im shooting through a sort of kaleidoscopic tunnel with this entity just kind of laughing at me hysterically, and then an instant I get the feeling im"
+            },
+            {
+              "id": "13bmvvn",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 1975,
+              "match_offset": 1875,
+              "quote_start": 1791,
+              "quote_end": 1964,
+              "quote": "notnsure if this one was a full breakthrough or nor.\n\nDuring this one I saw several entities morphing in and out and it was wonderful. They were like faces being shown to me"
+            },
+            {
+              "id": "esvujb",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 1373,
+              "match_offset": 1168,
+              "quote_start": 1149,
+              "quote_end": 1255,
+              "quote": "room surrounded by entities whom hugged me and did the usual prodding, poking and stroking me like I was a"
+            }
+          ],
+          "rank": 13,
+          "grade": "ABSENT",
+          "observation": "No readable face, hand, body or embodied presence; the central flower is not a being."
+        },
+        {
+          "descriptor": "breathing / undulating",
+          "category": "motion",
+          "count": 3,
+          "fraction": 0.06,
+          "examples": [
+            {
+              "id": "10ja6km",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 1097,
+              "match_offset": 1134,
+              "quote_start": 1051,
+              "quote_end": 1221,
+              "quote": "the full breakthrough experience, the instant chrysanthemum of colors and geometry waving through my vision, followed by a hum rising from silence to a deafening roar, my"
+            },
+            {
+              "id": "1afvdk7",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 911,
+              "match_offset": 1029,
+              "quote_start": 945,
+              "quote_end": 1119,
+              "quote": "vision. What feels like a limitless space opens up before me with that yellow color waving and wiggling at its far borders. A golden statue rising up as more things come into"
+            },
+            {
+              "id": "n1z4on",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 668,
+              "match_offset": 698,
+              "quote_start": 616,
+              "quote_end": 789,
+              "quote": "body and started seeing a Maroon hue with a ring of kaleidoscopic hearts that was pulsating and morphing into different types of hearts. It was very 3D and real looking too,"
+            }
+          ],
+          "rank": 14,
+          "grade": "PARTIAL",
+          "observation": "Lips change width and exposure at fixed pose, but the pairs do not show a complete expansion/contraction cycle."
+        },
+        {
+          "descriptor": "folding / unfolding",
+          "category": "motion",
+          "count": 3,
+          "fraction": 0.06,
+          "examples": [
+            {
+              "id": "15j42vj",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 1485,
+              "match_offset": 1603,
+              "quote_start": 1523,
+              "quote_end": 1692,
+              "quote": "it become more human worldly looking. It was the lotus flower and it started to unfold like it was unlocking itself in a way I cannot explain with human words and before"
+            },
+            {
+              "id": "7bwjji",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 952,
+              "match_offset": 1058,
+              "quote_start": 979,
+              "quote_end": 1147,
+              "quote": "focused on these shapes to the point of going cross-eyed. It was like the room folded in on itself. From here i was just in awe of the colours and geometric shapes. The"
+            },
+            {
+              "id": "15j414w",
+              "sub": "DMT",
+              "node": "geometry|The Chrysanthemum",
+              "node_offset": 1488,
+              "match_offset": 1606,
+              "quote_start": 1526,
+              "quote_end": 1695,
+              "quote": "it become more human worldly looking. It was the lotus flower and it started to unfold like it was unlocking itself in a way I cannot explain with human words and before"
+            }
+          ],
+          "rank": 15,
+          "grade": "PARTIAL",
+          "observation": "Connected lips roll and change overlap, with some relief in central lobes, but no convincing fold-over or inside-out transformation. The deep motion centre simplifies."
         }
       ]
     },

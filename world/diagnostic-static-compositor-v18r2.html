@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#10101b">
+  <title>Through — a reported-pattern journey</title>
+  <link rel="stylesheet" href="trip.css">
+</head>
+<body>
+  <canvas id="world" aria-label="First-person journey. Drag to look; use WASD or arrow keys to walk." tabindex="0"></canvas>
+  <div id="veil" aria-hidden="true"></div>
+  <header><span class="wordmark">THROUGH</span><span class="interpretation">A reported-pattern interpretation</span><button id="sources" aria-haspopup="dialog">Sources <kbd>E</kbd></button></header>
+  <main id="welcome">
+    <span class="eyebrow">AN INTERIOR JOURNEY</span>
+    <h1>Let the room<br>fall away.</h1>
+    <p>Geometry becomes a place. Beyond it,<br>rooms, presences, and a way back.</p>
+    <button id="begin" class="primary">Begin the journey <span>↗</span></button>
+    <label class="check"><input id="autoStart" type="checkbox" checked> Carry me through · about four minutes</label>
+    <p class="small">Synthesised from cited descriptions, not a witness image<br>or a prediction of anyone’s experience. No substance needed.</p>
+  </main>
+  <section id="hud" hidden aria-label="Journey controls">
+    <div class="scene-copy"><span id="step" class="eyebrow"></span><h2 id="sceneName" aria-live="polite"></h2><p id="sceneHint"></p></div>
+    <div id="branchPaths" hidden><button id="pathsToggle" aria-expanded="false">Other paths <span>+</span></button><div id="paths" hidden><button data-branch="workshop">Workshop</button><button data-branch="garden">Garden</button><button data-branch="clinical">Clinical room</button><button data-branch="void">Void</button></div></div>
+    <div class="bottom"><span id="walkHelp">WASD / arrows · drag to look</span><div class="controls"><button id="pace" aria-pressed="true">Paced journey: on</button><button id="pause" aria-pressed="false">Pause</button><button id="next">Move onward →</button></div></div>
+    <div id="progress" aria-hidden="true"><div></div></div>
+    <div id="touchControls" aria-label="Touch walking controls"><button data-move="forward" aria-label="Walk forward">↑</button><button data-move="left" aria-label="Walk left">←</button><button data-move="back" aria-label="Walk backward">↓</button><button data-move="right" aria-label="Walk right">→</button></div>
+  </section>
+  <footer><button id="motion" aria-pressed="false">Reduced motion: off</button><button id="detail" aria-pressed="true">Detail: high</button><button id="restart" hidden>Start again</button><span id="stateText" role="status"></span></footer>
+  <dialog id="evidence" aria-labelledby="evidenceTitle"><div class="drawer-top"><span class="eyebrow">THE EVIDENCE TRAIL</span><button id="closeEvidence" aria-label="Close sources">Close ×</button></div><h2 id="evidenceTitle">Behind this scene</h2><p class="notice">A synthesis of reported phenomenology, not a claim of literal places or beings. The route, scale, colours, architecture, ordinary room and character designs are editorial choices. Encounters and their order vary; this is not a frequency-weighted simulation.</p><div id="evidenceContent"></div><p class="notice">Corpus connections are adjacent tag mentions in narratives, not verified travel chronology. Vocabulary matches may be metaphorical or negated; archive counts are not population prevalence. Candidate depiction links are not verified witness images and may include AI-generated work.</p><a href="evidence.html">Open the complete evidence atlas ↗</a></dialog>
+  <div id="failure" hidden><h1>The 3D view is unavailable.</h1><p>This browser could not start WebGL. The complete cited evidence is still available.</p><a href="evidence.html">Open the evidence atlas</a></div>
+  <link rel="stylesheet" href="fidelity.css">
+  
+<script src="diagnostic-static-compositor-v18r2.js"></script></body>
+</html>

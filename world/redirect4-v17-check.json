@@ -1,0 +1,73 @@
+{
+  "iteration": "local-frame-capsule-vaults-v17",
+  "render_signature": "6ae7cb31a07b4cd723571885f1d8a28542a7bd641dd99ebd785d033aa87b38e4",
+  "realism": {
+    "id": "chrysanthemum",
+    "grade": "GAME",
+    "reason": "GAME, not RECOGNISE: rigid-frame rounded interiors and smaller attached vaults improve readable volume over v16, but the large glossy shell segments look manufactured. Sharp sliced ends, perforated annular strips, sparse repeated capsule shapes, contour highlights and the tiny repeated centre dominate. Walking exposes more clipping instead of dense continuous recursive structure. Saturated colour and visible rotation do not overcome the game/CG-sculpture appearance. Rebuild required; no witness validation is claimed.",
+    "temporal_observation": "At entry, the large upper magenta mouth moves left while the right magenta mouth rises and turns; the lower-right shell rotates upward. At the fixed walked-in pose, the foreground perforated ring changes into separated crescents and right-hand nested mouths turn into view. The coordinated angular shift demonstrates rotation. Opening and overlap change, but the same capsule inventory persists; a full breathing cycle or convincing spatial self-transformation is not shown.",
+    "passed": false,
+    "blockers": [
+      "Rebuild required: GAME"
+    ],
+    "captures": [
+      "realism-chrysanthemum-v17.png",
+      "realism-chrysanthemum-v17-motion.png",
+      "realism-chrysanthemum-close-v17.png",
+      "realism-chrysanthemum-close-v17-motion.png"
+    ]
+  },
+  "coverage": {
+    "score": 0.88426,
+    "weighted_points": 95.5,
+    "weight": 108,
+    "passed": true,
+    "all15_manually_reviewed": true,
+    "source_includes": 50,
+    "source_exclusions": 20,
+    "source_audit_repeated": false
+  },
+  "checks": {
+    "syntax": true,
+    "realism_gate_regression": true,
+    "verified_historical_and_current_receipts": 55,
+    "accessibility": [
+      "paused pixel stillness",
+      "paused resize restores stable canvas",
+      "reduced-motion pixel stillness",
+      "detail toggle preserves route and pose",
+      "restored-detail reduced pixel stillness",
+      "Sources fidelity table and existing provenance"
+    ],
+    "physical_controls": {
+      "render_signature": "6ae7cb31a07b4cd723571885f1d8a28542a7bd641dd99ebd785d033aa87b38e4",
+      "checks": [
+        "HIGH right walking boundary preserved inside minimum volume radius",
+        "Actual drag-look changes both camera axes",
+        "Central physical exit reaches Rush with cited geometry; no navigation injection"
+      ],
+      "passed": true,
+      "exit_walk_timeout_ms": 45000,
+      "errors": []
+    },
+    "fidelity_check_exit_code": 1,
+    "full_acceptance_rerun": false
+  },
+  "accessibility_inspection": "view_image once: HIGH paused/reduced still; rounded pink/orange mouths, green interior shells and black gaps; repeated glossy fixtures and clipped lip ends persist. Not an extra temporal review.",
+  "artifacts": {
+    "continuum.js": "1076b71ee467b38c6af5efb40d2ca5433170226c5db21835e4e423a7c781be21",
+    "continuum-v17.js": "1076b71ee467b38c6af5efb40d2ca5433170226c5db21835e4e423a7c781be21",
+    "realism-chrysanthemum-accessibility-v17.png": "c16c31fb6b29e189559ca6c27235a5b6010be7992bf37a4d2ed6afb97a2dc8d6",
+    "realism-chrysanthemum-accessibility-v17.json": "6409d636afa3203c308347c5c4a83d8a0ea55d511e77b57b983ed825d90575a0",
+    "verification-continuum-v17.json": "a7d4c86c546401088a34d0fb23a994995322dde1a25f41891864801cea6ff8fe",
+    "latest.png": "520201e06aed7681539029432658f79554f5a92737c44025275c79a4c8bba339"
+  },
+  "archive_equal": true,
+  "latest_is_deep_motion": true,
+  "overall_passed": false,
+  "limitations": [
+    "GAME requires rebuild despite coverage PASS.",
+    "SwiftShader focused control success is not a real-time GPU performance benchmark.",
+    "18 other realism targets,16 source gates,route and fresh full acceptance remain unfinished."
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "capture_gate_passed": false,
+  "visual_grade": "UNREVIEWED",
+  "promotion": false,
+  "diagnostic_only": true,
+  "failure": {
+    "operation": "entry settle",
+    "operation_wall_seconds": 90.00968780368567,
+    "exception": "TimeoutError('Page.wait_for_function: Timeout 90000ms exceeded.')",
+    "diagnostics": {
+      "stage": "chrysanthemum",
+      "routeIndex": 2,
+      "entered": true,
+      "paused": true,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 1.0499,
+      "animTime": 4.894999999999996,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": true,
+      "renderedAnimTime": 4.894999999999996,
+      "frames": 5,
+      "position": [
+        0,
+        1.7,
+        8
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum"
+      ],
+      "entities": [],
+      "interactions": 0,
+      "evidence": [
+        "phase|The Chrysanthemum",
+        "geometry|The Chrysanthemum",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Mandalas & symmetry fields"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 35,
+      "portals": [
+        {
+          "x": 0,
+          "z": -23,
+          "width": 3.5,
+          "target": "next"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 1,
+      "triangles": 2,
+      "geometries": 5,
+      "actors": [],
+      "uncitedMeshes": 0
+    }
+  },
+  "new_images": 0,
+  "inspections": 0,
+  "reason": "First HIGH entry settle timed out after 90.009688s under unchanged90000ms. Zero PNGs; no visual/temporal review. Paused HIGH entry[0,1.7,8], yaw/pitch0,frame5,time/rendered4.894999999999996,renderPending=true, no transition,missingEvidence or uncited meshes;zero recorded browser errors.",
+  "next_work": "Build an isolated v33r3 two-tier conservative marcher preserving the v33 zero set/materials. First evaluate cheap f/axial-only lower-leaf certificates, omitting shell/angular construction; skip full field evaluation only when all union components certify a useful positive free segment, with the same intersection MAX/union MIN and .4 reach cap. Reset sign-bracket history only on certified-free skips, as for the existing envelope. Otherwise use the unchanged v33r2 full path and acceptance. Preserve clearance,2048/1536 budgets,14bisections,residual/directional tolerances and no minimum step. Independently validate the changed marcher,including actual failed clock 4.895 alongside existing grids/clocks,and measure cheap/full evaluation counts and saved-ray cost before any new original1200x800 HIGH/90s attempt. This plan is unvalidated,not a proven performance diagnosis or fix. Do not replay unchanged v33/v33r2 captures.",
+  "limits": "SwiftShader settling failure,not a hardware-GPU benchmark or exact profiling diagnosis. No source/coverage,temporal,physical-exit or full acceptance credit."
+}

@@ -17,7 +17,7 @@ ROOT = HERE.parent
 CORPUS = ROOT / 'data/corpus'
 THRESHOLD = .80
 WINDOW = 240
-RENDER_FILES = ['index.html', 'trip.js', 'fractal.js', 'continuum.js', 'beings.js', 'trip.css', 'fidelity-ui.js', 'fidelity.css', 'vendor/three.min.js']
+RENDER_FILES = ['index.html', 'trip.js', 'fractal.js', 'continuum.js', 'beings.js', 'trip.css', 'hud-alpha-ramp-v18.png', 'fidelity-ui.js', 'fidelity.css', 'vendor/three.min.js']
 TARGETS = {
     'onset': ['phase|Inhalation / Onset'],
     'geometry': ['geometry|Static Pattern Overlay & filigree', 'geometry|Breathing & Liquid Surfaces', 'geometry|Fractal lattices & jeweled tilings'],
@@ -451,7 +451,7 @@ def markdown(bundle, corpus, grades):
         '## Visual iterations and functional gate', '',
         'Render edits, before/after grades and capture receipts belong in `fidelity-grades.json` history; an empty history means no completed visual correction loop. Older renders cannot pass after a renderer signature change.', '',
         'Fresh desktop, mobile, paced and fallback acceptance: **'+('PASS' if bundle['acceptance_passed'] else 'PENDING')+'**. Do not add the done marker until all targets, the route review and these regressions pass.', '',
-        '## Reproduce', '', '```powershell', 'python world/fidelity.py --collect', 'python world/fidelity.py --queue', 'python world/fidelity.py', 'python world/fidelity.py --check', '```', '',
+        '## Reproduce', '', '```bash', '# Use the frozen corpus; do not recollect during visual/source review.', 'python3 world/fidelity.py --queue', 'python3 world/fidelity.py', 'python3 world/fidelity.py --check', '```', '',
         '`--collect` reads the local corpus only; default uses saved counts. `--check` exits 1 for incomplete/failing work. See `fidelity-grades.schema.md` for manual review receipts.', '']
     (HERE/'FIDELITY.md').write_text('\n'.join(lines),encoding='utf-8')
 

@@ -1,0 +1,1063 @@
+{
+  "render_signature": "f055d198fd1db94f4a10a751f8b92a46d7ca0a3957a9e1352d0e6e2753d797b9",
+  "trip_sha256": "93dd974ec505e916e9ee121d38b57f1a4caf739a146a99035f957262c896d218",
+  "checks": [
+    "Reduced keyboard walking redraws then idles with fixed animation",
+    "Real touch walking redraws then idles",
+    "Real touch look redraws both axes then idles",
+    "Reduced button transitions rebuild and settle, including equal entry poses",
+    "Fixed-pose being click invalidates the reduced view then idles",
+    "Sources open/close preserve idle reduced view",
+    "Motion resumes animation/submissions and pause drains them",
+    "Restart rebuilds a settled reduced welcome scene"
+  ],
+  "observations": [
+    {
+      "stage": "onset",
+      "routeIndex": 0,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": true,
+      "elapsed": 1.4332999999999987,
+      "animTime": 0,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 0,
+      "frames": 1,
+      "position": [
+        0,
+        1.7,
+        6.5
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset"
+      ],
+      "entities": [],
+      "interactions": 0,
+      "evidence": [
+        "phase|Inhalation / Onset",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|TV Static & the Signal-Noise Transition"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 17,
+      "portals": [
+        {
+          "x": 0,
+          "z": -8.95,
+          "width": 3,
+          "target": "next"
+        }
+      ],
+      "detail": "low",
+      "drawCalls": 57,
+      "triangles": 17206,
+      "geometries": 22,
+      "actors": [],
+      "uncitedMeshes": 0
+    },
+    {
+      "stage": "onset",
+      "routeIndex": 0,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": true,
+      "elapsed": 3.2331999999999965,
+      "animTime": 0,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 0,
+      "frames": 4,
+      "position": [
+        0,
+        1.7,
+        5.426080001831055
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset"
+      ],
+      "entities": [],
+      "interactions": 0,
+      "evidence": [
+        "phase|Inhalation / Onset",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|TV Static & the Signal-Noise Transition"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 17,
+      "portals": [
+        {
+          "x": 0,
+          "z": -8.95,
+          "width": 3,
+          "target": "next"
+        }
+      ],
+      "detail": "low",
+      "drawCalls": 50,
+      "triangles": 16862,
+      "geometries": 22,
+      "actors": [],
+      "uncitedMeshes": 0
+    },
+    {
+      "stage": "onset",
+      "routeIndex": 0,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": true,
+      "elapsed": 5.349800000000011,
+      "animTime": 0,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 0,
+      "frames": 8,
+      "position": [
+        0,
+        1.7,
+        8
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset"
+      ],
+      "entities": [],
+      "interactions": 0,
+      "evidence": [
+        "phase|Inhalation / Onset",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|TV Static & the Signal-Noise Transition"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 17,
+      "portals": [
+        {
+          "x": 0,
+          "z": -8.95,
+          "width": 3,
+          "target": "next"
+        }
+      ],
+      "detail": "low",
+      "drawCalls": 65,
+      "triangles": 19542,
+      "geometries": 22,
+      "actors": [],
+      "uncitedMeshes": 0
+    },
+    {
+      "stage": "onset",
+      "routeIndex": 0,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": true,
+      "elapsed": 6.883000000000026,
+      "animTime": 0,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 0,
+      "frames": 10,
+      "position": [
+        0,
+        1.7,
+        8
+      ],
+      "yaw": -0.245,
+      "pitch": -0.06,
+      "visited": [
+        "onset"
+      ],
+      "entities": [],
+      "interactions": 0,
+      "evidence": [
+        "phase|Inhalation / Onset",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|TV Static & the Signal-Noise Transition"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 17,
+      "portals": [
+        {
+          "x": 0,
+          "z": -8.95,
+          "width": 3,
+          "target": "next"
+        }
+      ],
+      "detail": "low",
+      "drawCalls": 64,
+      "triangles": 21510,
+      "geometries": 22,
+      "actors": [],
+      "uncitedMeshes": 0
+    },
+    {
+      "stage": "geometry",
+      "routeIndex": 1,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": true,
+      "elapsed": 1.2666000000000002,
+      "animTime": 0,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 0,
+      "frames": 11,
+      "position": [
+        0,
+        1.7,
+        8
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry"
+      ],
+      "entities": [],
+      "interactions": 0,
+      "evidence": [
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|The Chrysanthemum",
+        "phase|Inhalation / Onset",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Mandalas & symmetry fields",
+        "geometry|TV Static & the Signal-Noise Transition",
+        "geometry|Time Geometry \u2014 Moments as Objects & Loops"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 41,
+      "portals": [
+        {
+          "x": 0,
+          "z": -23,
+          "width": 3.5,
+          "target": "next"
+        }
+      ],
+      "detail": "low",
+      "drawCalls": 15,
+      "triangles": 136636,
+      "geometries": 18,
+      "actors": [],
+      "uncitedMeshes": 0
+    },
+    {
+      "stage": "chrysanthemum",
+      "routeIndex": 2,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": true,
+      "elapsed": 2.1333000000000024,
+      "animTime": 0,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 0,
+      "frames": 12,
+      "position": [
+        0,
+        1.7,
+        8
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum"
+      ],
+      "entities": [],
+      "interactions": 0,
+      "evidence": [
+        "phase|The Chrysanthemum",
+        "geometry|The Chrysanthemum",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Mandalas & symmetry fields"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 35,
+      "portals": [
+        {
+          "x": 0,
+          "z": -23,
+          "width": 3.5,
+          "target": "next"
+        }
+      ],
+      "detail": "low",
+      "drawCalls": 1,
+      "triangles": 2,
+      "geometries": 5,
+      "actors": [],
+      "uncitedMeshes": 0
+    },
+    {
+      "stage": "rush",
+      "routeIndex": 3,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": true,
+      "elapsed": 1.1997999999999995,
+      "animTime": 0,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 0,
+      "frames": 13,
+      "position": [
+        0,
+        1.7,
+        8
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush"
+      ],
+      "entities": [],
+      "interactions": 0,
+      "evidence": [
+        "phase|The Rush",
+        "geometry|Zooming / Rushing Tunnel Flight",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Mandalas & symmetry fields",
+        "geometry|The Chrysanthemum",
+        "geometry|TV Static & the Signal-Noise Transition"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 41,
+      "portals": [
+        {
+          "x": 0,
+          "z": -55,
+          "width": 3.5,
+          "target": "next"
+        }
+      ],
+      "detail": "low",
+      "drawCalls": 8,
+      "triangles": 53356,
+      "geometries": 11,
+      "actors": [],
+      "uncitedMeshes": 0
+    },
+    {
+      "stage": "membrane",
+      "routeIndex": 4,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": true,
+      "elapsed": 1.3332999999999997,
+      "animTime": 0,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 0,
+      "frames": 14,
+      "position": [
+        0,
+        1.7,
+        8
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush",
+        "membrane"
+      ],
+      "entities": [],
+      "interactions": 0,
+      "evidence": [
+        "phase|Through the Membrane",
+        "geometry|The Aperture / Iris Opening",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Mandalas & symmetry fields",
+        "geometry|The Chrysanthemum",
+        "geometry|TV Static & the Signal-Noise Transition",
+        "geometry|Time Geometry \u2014 Moments as Objects & Loops"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 44,
+      "portals": [
+        {
+          "x": 0,
+          "z": -23,
+          "width": 3.5,
+          "target": "next"
+        }
+      ],
+      "detail": "low",
+      "drawCalls": 16,
+      "triangles": 138684,
+      "geometries": 19,
+      "actors": [],
+      "uncitedMeshes": 0
+    },
+    {
+      "stage": "waiting",
+      "routeIndex": 5,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": true,
+      "elapsed": 1.6165999999999996,
+      "animTime": 0,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 0,
+      "frames": 15,
+      "position": [
+        0,
+        1.7,
+        11
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush",
+        "membrane",
+        "waiting"
+      ],
+      "entities": [
+        "jester"
+      ],
+      "interactions": 0,
+      "evidence": [
+        "realm|The Waiting Room",
+        "phase|Arrival \u2014 The Waiting Room",
+        "entity|The Jester / Trickster / Clown",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Embedded Faces & the Pareidolia Cascade",
+        "geometry|Hyper-dimensional objects"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 46,
+      "portals": [
+        {
+          "x": 0,
+          "z": -14,
+          "width": 4,
+          "target": "next"
+        }
+      ],
+      "detail": "low",
+      "drawCalls": 62,
+      "triangles": 511186,
+      "geometries": 58,
+      "actors": [
+        {
+          "kind": "jester",
+          "engaged": false,
+          "joints": 2,
+          "arm": -0.10097651817694758,
+          "evidence": "entity|The Jester / Trickster / Clown",
+          "screen": [
+            291.0463418892356,
+            416.64237820846336
+          ]
+        }
+      ],
+      "uncitedMeshes": 0
+    },
+    {
+      "stage": "waiting",
+      "routeIndex": 5,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": true,
+      "elapsed": 3.0665999999999984,
+      "animTime": 0,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 0,
+      "frames": 16,
+      "position": [
+        0,
+        1.7,
+        11
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush",
+        "membrane",
+        "waiting"
+      ],
+      "entities": [
+        "jester"
+      ],
+      "interactions": 1,
+      "evidence": [
+        "realm|The Waiting Room",
+        "phase|Arrival \u2014 The Waiting Room",
+        "entity|The Jester / Trickster / Clown",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Embedded Faces & the Pareidolia Cascade",
+        "geometry|Hyper-dimensional objects"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 46,
+      "portals": [
+        {
+          "x": 0,
+          "z": -14,
+          "width": 4,
+          "target": "next"
+        }
+      ],
+      "detail": "low",
+      "drawCalls": 62,
+      "triangles": 511186,
+      "geometries": 58,
+      "actors": [
+        {
+          "kind": "jester",
+          "engaged": true,
+          "joints": 2,
+          "arm": -0.2309765181769476,
+          "evidence": "entity|The Jester / Trickster / Clown",
+          "screen": [
+            291.0463418892356,
+            416.64237820846336
+          ]
+        }
+      ],
+      "uncitedMeshes": 0
+    },
+    {
+      "stage": "waiting",
+      "routeIndex": 5,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": true,
+      "elapsed": 3.1165000000000003,
+      "animTime": 0,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 0,
+      "frames": 16,
+      "position": [
+        0,
+        1.7,
+        11
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush",
+        "membrane",
+        "waiting"
+      ],
+      "entities": [
+        "jester"
+      ],
+      "interactions": 1,
+      "evidence": [
+        "realm|The Waiting Room",
+        "phase|Arrival \u2014 The Waiting Room",
+        "entity|The Jester / Trickster / Clown",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Embedded Faces & the Pareidolia Cascade",
+        "geometry|Hyper-dimensional objects"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 46,
+      "portals": [
+        {
+          "x": 0,
+          "z": -14,
+          "width": 4,
+          "target": "next"
+        }
+      ],
+      "detail": "low",
+      "drawCalls": 62,
+      "triangles": 511186,
+      "geometries": 58,
+      "actors": [
+        {
+          "kind": "jester",
+          "engaged": true,
+          "joints": 2,
+          "arm": -0.2309765181769476,
+          "evidence": "entity|The Jester / Trickster / Clown",
+          "screen": [
+            291.0463418892356,
+            416.64237820846336
+          ]
+        }
+      ],
+      "uncitedMeshes": 0
+    },
+    {
+      "stage": "waiting",
+      "routeIndex": 5,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": true,
+      "elapsed": 3.9831999999999987,
+      "animTime": 0,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 0,
+      "frames": 16,
+      "position": [
+        0,
+        1.7,
+        11
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush",
+        "membrane",
+        "waiting"
+      ],
+      "entities": [
+        "jester"
+      ],
+      "interactions": 1,
+      "evidence": [
+        "realm|The Waiting Room",
+        "phase|Arrival \u2014 The Waiting Room",
+        "entity|The Jester / Trickster / Clown",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Embedded Faces & the Pareidolia Cascade",
+        "geometry|Hyper-dimensional objects"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 46,
+      "portals": [
+        {
+          "x": 0,
+          "z": -14,
+          "width": 4,
+          "target": "next"
+        }
+      ],
+      "detail": "low",
+      "drawCalls": 62,
+      "triangles": 511186,
+      "geometries": 58,
+      "actors": [
+        {
+          "kind": "jester",
+          "engaged": true,
+          "joints": 2,
+          "arm": -0.2309765181769476,
+          "evidence": "entity|The Jester / Trickster / Clown",
+          "screen": [
+            291.0463418892356,
+            416.64237820846336
+          ]
+        }
+      ],
+      "uncitedMeshes": 0
+    },
+    {
+      "stage": "waiting",
+      "routeIndex": 5,
+      "entered": true,
+      "paused": true,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 4.783100000000006,
+      "animTime": 0.7666000000000021,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 0.7666000000000021,
+      "frames": 19,
+      "position": [
+        0,
+        1.7,
+        11
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush",
+        "membrane",
+        "waiting"
+      ],
+      "entities": [
+        "jester"
+      ],
+      "interactions": 1,
+      "evidence": [
+        "realm|The Waiting Room",
+        "phase|Arrival \u2014 The Waiting Room",
+        "entity|The Jester / Trickster / Clown",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Embedded Faces & the Pareidolia Cascade",
+        "geometry|Hyper-dimensional objects"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 46,
+      "portals": [
+        {
+          "x": 0,
+          "z": -14,
+          "width": 4,
+          "target": "next"
+        }
+      ],
+      "detail": "low",
+      "drawCalls": 62,
+      "triangles": 511186,
+      "geometries": 58,
+      "actors": [
+        {
+          "kind": "jester",
+          "engaged": true,
+          "joints": 2,
+          "arm": -0.17525832084865184,
+          "evidence": "entity|The Jester / Trickster / Clown",
+          "screen": [
+            291.0463418892356,
+            416.64237820846336
+          ]
+        }
+      ],
+      "uncitedMeshes": 0
+    },
+    {
+      "stage": "waiting",
+      "routeIndex": 5,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": true,
+      "elapsed": 5.666400000000019,
+      "animTime": 0.7666000000000021,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 0.7666000000000021,
+      "frames": 19,
+      "position": [
+        0,
+        1.7,
+        11
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush",
+        "membrane",
+        "waiting"
+      ],
+      "entities": [
+        "jester"
+      ],
+      "interactions": 1,
+      "evidence": [
+        "realm|The Waiting Room",
+        "phase|Arrival \u2014 The Waiting Room",
+        "entity|The Jester / Trickster / Clown",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Embedded Faces & the Pareidolia Cascade",
+        "geometry|Hyper-dimensional objects"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 46,
+      "portals": [
+        {
+          "x": 0,
+          "z": -14,
+          "width": 4,
+          "target": "next"
+        }
+      ],
+      "detail": "low",
+      "drawCalls": 62,
+      "triangles": 511186,
+      "geometries": 58,
+      "actors": [
+        {
+          "kind": "jester",
+          "engaged": true,
+          "joints": 2,
+          "arm": -0.17525832084865184,
+          "evidence": "entity|The Jester / Trickster / Clown",
+          "screen": [
+            291.0463418892356,
+            416.64237820846336
+          ]
+        }
+      ],
+      "uncitedMeshes": 0
+    },
+    {
+      "stage": "onset",
+      "routeIndex": 0,
+      "entered": false,
+      "paused": false,
+      "paced": false,
+      "reduced": true,
+      "elapsed": 0,
+      "animTime": 0.7666000000000021,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 0.7666000000000021,
+      "frames": 20,
+      "position": [
+        0,
+        1.7,
+        6.5
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset"
+      ],
+      "entities": [],
+      "interactions": 0,
+      "evidence": [
+        "phase|Inhalation / Onset",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|TV Static & the Signal-Noise Transition"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 17,
+      "portals": [
+        {
+          "x": 0,
+          "z": -8.95,
+          "width": 3,
+          "target": "next"
+        }
+      ],
+      "detail": "low",
+      "drawCalls": 57,
+      "triangles": 17206,
+      "geometries": 22,
+      "actors": [],
+      "uncitedMeshes": 0
+    }
+  ],
+  "passed": true,
+  "last_idle_comparison": {
+    "before": {
+      "stage": "onset",
+      "routeIndex": 0,
+      "entered": false,
+      "paused": false,
+      "paced": false,
+      "reduced": true,
+      "elapsed": 0,
+      "animTime": 0.7666000000000021,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 0.7666000000000021,
+      "frames": 20,
+      "position": [
+        0,
+        1.7,
+        6.5
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset"
+      ],
+      "entities": [],
+      "interactions": 0,
+      "evidence": [
+        "phase|Inhalation / Onset",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|TV Static & the Signal-Noise Transition"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 17,
+      "portals": [
+        {
+          "x": 0,
+          "z": -8.95,
+          "width": 3,
+          "target": "next"
+        }
+      ],
+      "detail": "low",
+      "drawCalls": 57,
+      "triangles": 17206,
+      "geometries": 22,
+      "actors": [],
+      "uncitedMeshes": 0
+    },
+    "after": {
+      "stage": "onset",
+      "routeIndex": 0,
+      "entered": false,
+      "paused": false,
+      "paced": false,
+      "reduced": true,
+      "elapsed": 0,
+      "animTime": 0.7666000000000021,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 0.7666000000000021,
+      "frames": 20,
+      "position": [
+        0,
+        1.7,
+        6.5
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset"
+      ],
+      "entities": [],
+      "interactions": 0,
+      "evidence": [
+        "phase|Inhalation / Onset",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|TV Static & the Signal-Noise Transition"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 17,
+      "portals": [
+        {
+          "x": 0,
+          "z": -8.95,
+          "width": 3,
+          "target": "next"
+        }
+      ],
+      "detail": "low",
+      "drawCalls": 57,
+      "triangles": 17206,
+      "geometries": 22,
+      "actors": [],
+      "uncitedMeshes": 0
+    }
+  },
+  "errors": []
+}

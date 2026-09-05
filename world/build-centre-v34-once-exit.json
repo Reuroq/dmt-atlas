@@ -1,0 +1,6 @@
+{
+  "command": "python3 -u world/build_centre_v34.py",
+  "exit_code": 0,
+  "log": "build-centre-v34-once.log",
+  "wall_seconds": 0.551204957999289
+}

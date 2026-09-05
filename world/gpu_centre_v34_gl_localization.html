@@ -1,0 +1,104 @@
+<!doctype html><meta charset="utf-8"><title>Infrastructure-only GL localization; no journey evidence</title>
+<script src="vendor/three.min.js"></script><script>
+'use strict';
+let renderer, gl, target, texture, scene, camera, geometry, mesh, material, program, debugExt, rendererExt;
+const resources=[], callbacks=[], W=128;
+const vertexShader='varying vec2 sampleUV; void main(){sampleUV=uv;gl_Position=vec4(position.xy,0.,1.);}';
+const cases=['byte-constant','float-constant','float-row0','float-row1'];
+function expected(name) {
+ const a=[];
+ for(let i=0;i<W;i++) a.push(...(name==='byte-constant'?[255,0,255,255]:
+  name==='float-constant'?[.125,-.5,2,1]:[(i-64)/32,name==='float-row0'?-.25:.75,i/128,1]));
+ return a;
+}
+function drainErrors() {
+ const errors=[];
+ if(!gl)return {errors,drained:true};
+ for(let i=0;i<32;i++) {const code=gl.getError();if(code===gl.NO_ERROR)return {errors,drained:true};errors.push(code);}
+ return {errors,drained:false};
+}
+function pack(pixels) {
+ return {values:Array.from(pixels,x=>Number.isFinite(x)?x:String(x)),
+  bits:pixels instanceof Float32Array?Array.from(new Uint32Array(pixels.buffer)):Array.from(pixels)};
+}
+function makePlan() {
+ const p=[{op:'renderer'},{op:'metadata'},{op:'renderer-extension'},{op:'unmasked-renderer'},{op:'float-extension'}];
+ for(const name of cases) {
+  for(const op of ['objects','bind','framebuffer-status','framebuffer-binding','attachment-type',
+   'implementation-format','implementation-type','compile','render','framebuffer-status',
+   'read-three','read-raw','program-reference','program-link','program-log'])p.push({name,op});
+  // No optional or shader-object query precedes either durable readback.
+  for(const shader of ['vertexShader','fragmentShader'])
+   for(const op of ['shader-is','shader-deleted','shader-compiled','shader-log','shader-source'])p.push({name,op,shader,query:true});
+  p.push({name,op:'debug-extension',query:true});
+  for(const shader of ['vertexShader','fragmentShader'])p.push({name,op:'translated-source',shader,query:true});
+ }
+ return p;
+}
+function perform(s) {
+ const shader=()=>program[s.shader];
+ switch(s.op) {
+ case 'renderer':
+  renderer=new THREE.WebGLRenderer({antialias:false});gl=renderer.getContext();renderer.setSize(W,1);
+  renderer.debug.checkShaderErrors=true;
+  // Do not query GL inside this callback: preserve the surrounding interval.
+  renderer.debug.onShaderError=()=>callbacks.push({event:'shader-error-callback',queryPerformed:false});
+  return {three:THREE.REVISION,webgl2:renderer.capabilities.isWebGL2};
+ case 'metadata': {const h=gl.getShaderPrecisionFormat(gl.FRAGMENT_SHADER,gl.HIGH_FLOAT);
+  return {version:gl.getParameter(gl.VERSION),shadingLanguage:gl.getParameter(gl.SHADING_LANGUAGE_VERSION),
+   vendor:gl.getParameter(gl.VENDOR),renderer:gl.getParameter(gl.RENDERER),highFloat:{precision:h.precision,rangeMin:h.rangeMin,rangeMax:h.rangeMax}};}
+ case 'renderer-extension': rendererExt=gl.getExtension('WEBGL_debug_renderer_info');return {supported:!!rendererExt};
+ case 'unmasked-renderer': return rendererExt?{renderer:gl.getParameter(rendererExt.UNMASKED_RENDERER_WEBGL)}:{skipped:true};
+ case 'float-extension': return {supported:!!gl.getExtension('EXT_color_buffer_float')};
+ case 'objects': {
+  const byte=s.name==='byte-constant', copy=s.name.startsWith('float-row');
+  target=new THREE.WebGLRenderTarget(W,1,{type:byte?THREE.UnsignedByteType:THREE.FloatType,
+   minFilter:THREE.NearestFilter,magFilter:THREE.NearestFilter,depthBuffer:false});resources.push(target);
+  texture=new THREE.DataTexture(new Float32Array([...expected('float-row0'),...expected('float-row1')]),W,2,THREE.RGBAFormat,THREE.FloatType);
+  texture.minFilter=texture.magFilter=THREE.NearestFilter;texture.needsUpdate=true;resources.push(texture);
+  const fragmentShader='precision highp float; varying vec2 sampleUV; uniform sampler2D inputTex; void main(){gl_FragColor='+
+   (copy?'texture2D(inputTex,vec2(sampleUV.x,'+(s.name==='float-row0'?'.25':'.75')+'))':byte?'vec4(1.,0.,1.,1.)':'vec4(.125,-.5,2.,1.)')+';}';
+  material=new THREE.ShaderMaterial({vertexShader,fragmentShader,uniforms:{inputTex:{value:texture}},
+   depthTest:false,depthWrite:false,blending:THREE.NoBlending});resources.push(material);
+  geometry=new THREE.PlaneGeometry(2,2);resources.push(geometry);scene=new THREE.Scene();camera=new THREE.Camera();
+  mesh=new THREE.Mesh(geometry,material);mesh.frustumCulled=false;scene.add(mesh);
+  return {name:s.name,width:W,height:1,textureHeight:2,vertexShader,fragmentShader,expected:expected(s.name)};}
+ case 'bind': renderer.setRenderTarget(target);return {width:target.width,height:target.height,type:target.texture.type};
+ case 'framebuffer-status': return {status:gl.checkFramebufferStatus(gl.FRAMEBUFFER),completeEnum:gl.FRAMEBUFFER_COMPLETE};
+ case 'framebuffer-binding': return {bound:gl.getParameter(gl.FRAMEBUFFER_BINDING)!==null};
+ case 'attachment-type': return {type:gl.getFramebufferAttachmentParameter(gl.FRAMEBUFFER,gl.COLOR_ATTACHMENT0,gl.FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE)};
+ case 'implementation-format': return {format:gl.getParameter(gl.IMPLEMENTATION_COLOR_READ_FORMAT)};
+ case 'implementation-type': return {type:gl.getParameter(gl.IMPLEMENTATION_COLOR_READ_TYPE)};
+ case 'compile': renderer.compile(scene,camera);return {callbacks:callbacks.slice()};
+ case 'render': renderer.render(scene,camera);return {callbacks:callbacks.slice()};
+ case 'read-three': case 'read-raw': {
+  const byte=s.name==='byte-constant', pixels=byte?new Uint8Array(W*4):new Float32Array(W*4);
+  pixels.fill(byte?165:-123.75);
+  if(s.op==='read-three')renderer.readRenderTargetPixels(target,0,0,W,1,pixels);
+  else gl.readPixels(0,0,W,1,gl.RGBA,byte?gl.UNSIGNED_BYTE:gl.FLOAT,pixels);
+  return {...pack(pixels),expected:expected(s.name),sentinel:byte?165:-123.75,method:s.op};}
+ case 'program-reference': program=renderer.properties.get(material).currentProgram;
+  return {present:!!program,vertexPresent:!!program?.vertexShader,fragmentPresent:!!program?.fragmentShader};
+ case 'program-link': return {linked:gl.getProgramParameter(program.program,gl.LINK_STATUS)};
+ case 'program-log': return {log:gl.getProgramInfoLog(program.program)};
+ case 'shader-is': return {isShader:gl.isShader(shader())};
+ case 'shader-deleted': return {deleted:gl.getShaderParameter(shader(),gl.DELETE_STATUS)};
+ case 'shader-compiled': return {compiled:gl.getShaderParameter(shader(),gl.COMPILE_STATUS)};
+ case 'shader-log': return {log:gl.getShaderInfoLog(shader())};
+ case 'shader-source': return {source:gl.getShaderSource(shader())};
+ case 'debug-extension': debugExt=gl.getExtension('WEBGL_debug_shaders');return {supported:!!debugExt};
+ case 'translated-source': return debugExt?{source:debugExt.getTranslatedShaderSource(shader()),skipped:false}:{skipped:true,reason:'extension unavailable'};
+ case 'dispose': for(const resource of resources)resource.dispose();if(renderer)renderer.dispose();return {resourcesDisposed:resources.length,rendererDisposed:!!renderer};
+ default: throw new Error('Unknown operation '+s.op);
+ }
+}
+window.localizationPlan=makePlan;
+window.localizationStep=s=>{
+ const before=drainErrors();
+ const r={step:s,before,after:null,value:null,exception:null,skipped:false};
+ if(!before.drained||before.errors.length){r.skipped=true;r.reason='dirty pre-operation error queue';return r;}
+ try {r.value=perform(s);}catch(e){r.exception=String(e.stack||e);}
+ finally {r.after=drainErrors();r.contextLost=gl?gl.isContextLost():false;}
+ return r;
+};
+</script>

@@ -1,0 +1,65 @@
+{
+  "method": "Double precision CPU mirror; sparse rays, not visual acceptance or a complete GPU diagnosis",
+  "derivative_samples": 1600,
+  "max_derivative_error": 9.782102630695455e-08,
+  "max_sampled_gradient": 8.730682511906478,
+  "slope_bound": 28.006745085168426,
+  "rays": {
+    "HIGH-z8-t5": {
+      "rays": 384,
+      "hits": 382,
+      "exhausted_or_escaped": 2,
+      "max_iterations": 1024,
+      "max_residual": 6.70024550193998e-05
+    },
+    "HIGH-z8-t8": {
+      "rays": 384,
+      "hits": 384,
+      "exhausted_or_escaped": 0,
+      "max_iterations": 650,
+      "max_residual": 4.7319088511873895e-05
+    },
+    "HIGH-z-8-t10": {
+      "rays": 384,
+      "hits": 382,
+      "exhausted_or_escaped": 2,
+      "max_iterations": 1024,
+      "max_residual": 7.736279892931123e-05
+    },
+    "HIGH-z-8-t13": {
+      "rays": 384,
+      "hits": 384,
+      "exhausted_or_escaped": 0,
+      "max_iterations": 570,
+      "max_residual": 8.665973656174768e-05
+    },
+    "LOW-z8-t5": {
+      "rays": 384,
+      "hits": 378,
+      "exhausted_or_escaped": 6,
+      "max_iterations": 768,
+      "max_residual": 6.700435416677605e-05
+    },
+    "LOW-z8-t8": {
+      "rays": 384,
+      "hits": 384,
+      "exhausted_or_escaped": 0,
+      "max_iterations": 650,
+      "max_residual": 4.7339545067236546e-05
+    },
+    "LOW-z-8-t10": {
+      "rays": 384,
+      "hits": 382,
+      "exhausted_or_escaped": 2,
+      "max_iterations": 768,
+      "max_residual": 5.3175153576169934e-05
+    },
+    "LOW-z-8-t13": {
+      "rays": 384,
+      "hits": 384,
+      "exhausted_or_escaped": 0,
+      "max_iterations": 570,
+      "max_residual": 8.665569461341945e-05
+    }
+  }
+}

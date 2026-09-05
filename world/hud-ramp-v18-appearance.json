@@ -1,0 +1,46 @@
+{
+  "comparison": "Original static CSS gradient vs changed PNG fixture, same source and markup",
+  "above_overlay": {
+    "changed_pixels": 0,
+    "max_channel_delta": 0,
+    "mean_absolute_channel_delta": 0.0
+  },
+  "unobstructed_overlay": {
+    "changed_pixels": 55173,
+    "max_channel_delta": 2,
+    "mean_absolute_channel_delta": 0.2674559748427673
+  },
+  "full_frame": {
+    "changed_pixels": 275884,
+    "max_channel_delta": 2,
+    "mean_absolute_channel_delta": 0.14253402777777777
+  },
+  "ideal_blend_max_error": 1.5542483660130415,
+  "ideal_blend_mean_error": 0.34639824474863407,
+  "strict_comparisons": 21,
+  "strict_changed_pixels": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "errors": [],
+  "protected_unchanged": true
+}

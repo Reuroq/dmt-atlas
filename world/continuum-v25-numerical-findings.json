@@ -1,0 +1,78 @@
+{
+  "raw_sha256": "3bd84e41eca734fa27338897d83979dea76b28f29c68afc0a08997b406e3148e",
+  "cases": [
+    {
+      "z": 8,
+      "time": 4,
+      "worst_ray": 938,
+      "worst_position": [
+        4.188752191269075,
+        7.564253067776701,
+        -31.744515235505517
+      ],
+      "cpu_gpu_field_difference": 0.0003173401840710023,
+      "core_rays": 60,
+      "core_median_depth": 43.32513999938965,
+      "core_median_octave_weights": [
+        0.09055058205137168,
+        1.7897731594248983e-05,
+        2.5991747792973554e-20
+      ]
+    },
+    {
+      "z": 8,
+      "time": 8,
+      "worst_ray": 1516,
+      "worst_position": [
+        2.363617220900791,
+        9.841348205324948,
+        -4.459401373198466
+      ],
+      "cpu_gpu_field_difference": 0.0003172666795173205,
+      "core_rays": 60,
+      "core_median_depth": 43.69695472717285,
+      "core_median_octave_weights": [
+        0.08689492426817987,
+        1.4895267870669308e-05,
+        1.2967433132462026e-20
+      ]
+    },
+    {
+      "z": -6,
+      "time": 4,
+      "worst_ray": 890,
+      "worst_position": [
+        3.3721968876278186,
+        5.0721968876278165,
+        -37.99671989591771
+      ],
+      "cpu_gpu_field_difference": 0.0010875095196567026,
+      "core_rays": 60,
+      "core_median_depth": 33.34270095825195,
+      "core_median_octave_weights": [
+        0.24110540255270674,
+        0.001544252508913717,
+        2.5507996325863196e-12
+      ]
+    },
+    {
+      "z": -6,
+      "time": 8,
+      "worst_ray": 932,
+      "worst_position": [
+        -4.062679794518123,
+        5.762679794518123,
+        -33.53449367276767
+      ],
+      "cpu_gpu_field_difference": 0.00048756581774505496,
+      "core_rays": 60,
+      "core_median_depth": 33.941776275634766,
+      "core_median_octave_weights": [
+        0.22898430856517304,
+        0.0012210440774453953,
+        9.666849972267879e-13
+      ]
+    }
+  ],
+  "interpretation": "No sampled GPU misses, but field agreement threshold .001 fails at .00108751. Do not relax or claim repaired. Very small centre octave weights indicate suppression under conservative filtering, not an isolated causal proof of visual smoothness."
+}

@@ -2,21 +2,33 @@
   "version": 1,
   "targets": {
     "chrysanthemum": {
-      "grade": "CLOSE",
-      "reason": "CLOSE: continuous curved red/gold and cyan/blue sheets overlap into a filled flower-like centre, with smoother coherent highlights and less streaking than v8. The horizontal colour seam is gone. However broad pale surfaces still dominate, thin dark edge artifacts remain, and the nested centre is a small repeated rosette rather than dense recursively unfolding jewelled geometry. Not RECOGNISE.",
-      "temporal_observation": "Same-camera HIGH pair narrows and twists the cyan inner rim, changes the right-hand overlap and bends the broad outer sheets while red/gold/blue regions shift. Actual folding is visible, not only texture motion, but both frames retain broad simple sheets and limited nested detail; no completed doorway transformation is demonstrated.",
+      "grade": "GAME",
+      "reason": "GAME, not RECOGNISE: hard black material blotches are removed and the field is more luminous, but broad rubbery/smeared walls, sparse scalloped rings, milky highlights and a simple axial flower remain. Cartesian central lobes have more relief than the old fan yet do not establish dense recursive 3D folding. Motion makes the centre simpler. No convincing black gaps, readable beings or jewel-like detail throughout. New subpixel ray tolerance is not universal convergence proof, and apparent gaps receive no artifact credit. Next investigate geometry scale/filter suppression and the axial pigment convergence; another colour adjustment alone is insufficient. This is visual judgment, not witness certification.",
+      "temporal_observation": "Fixed entry[0,1.7,8] at6.1390/9.1889; fixed deep[0,1.7,-7.03968] at9.1686/12.2020. Entry scallops rotate diagonally and the blue/pink inner ring changes overlap; the centre changes its small lobe exposure. Deep foreground lime/cyan lobes widen into large pointed sheets, violet/pink inner lips change relative exposure, and the central padded flower becomes a smoother pinwheel. Supports rotation and undulation with outline changes; not a complete breathing cycle or convincing fold-over/inside-out transformation.",
       "captures": [
         {
-          "file": "realism-chrysanthemum-v9.png",
-          "sha256": "4a09a821513a6b76680e64609ee81ab09d3104836909bc9f6150d60f458d4354",
-          "receipt_sha256": "f78f2c36c874a37d8ba4ee997a923a98b1cb05d61a774a13225584dbd242813a",
-          "inspection": "realism_chrysanthemum_v9: numbered small JPEG inspected once; CLOSE: continuous curved red/gold and cyan/blue sheets overlap into a filled flower-like centre, with smoother coherent highlights and less streaking than v8. The horizontal colour seam is gone. However broad pale surfaces still dominate, thin dark edge artifacts remain, and the nested centre is a small repeated rosette rather than dense recursively unfolding jewelled geometry. Not RECOGNISE. Same-camera HIGH pair narrows and twists the cyan inner rim, changes the right-hand overlap and bends the broad outer sheets while red/gold/blue regions shift. Actual folding is visible, not only texture motion, but both frames retain broad simple sheets and limited nested detail; no completed doorway transformation is demonstrated."
+          "file": "realism-chrysanthemum-v25.png",
+          "sha256": "78e515c632894756eb9760a176bec3b5250dc5436a25c139c6f913e5b06ec34c",
+          "receipt_sha256": "e4f4bfe04bfd2c86edc4298875d2dba9012bb6a9ea7a23e043aacb4afe8251d8",
+          "inspection": "view_image, inspected once: Bright pink/red/violet walls surround lime/cyan, blue/violet and yellow/green scalloped lips. The large hard black lobes are gone. Highlights are broad and milky; most wall area is smooth, rubbery or smeared. The centre is a small padded four-lobed flower with blue dimples and a sharp axial colour convergence, not a dense recursively folding mandala."
         },
         {
-          "file": "realism-chrysanthemum-v9-motion.png",
-          "sha256": "42ac354d4683e7cad836d0416e748acbcc15813fa113c9afc532e60b225838ca",
-          "receipt_sha256": "3fad2c30d7961bae161dab5e6ea4655c9ff8470ee7aa1c67b138b6240477c176",
-          "inspection": "realism_chrysanthemum_v9_pair: numbered small JPEG inspected once; CLOSE: continuous curved red/gold and cyan/blue sheets overlap into a filled flower-like centre, with smoother coherent highlights and less streaking than v8. The horizontal colour seam is gone. However broad pale surfaces still dominate, thin dark edge artifacts remain, and the nested centre is a small repeated rosette rather than dense recursively unfolding jewelled geometry. Not RECOGNISE. Same-camera HIGH pair narrows and twists the cyan inner rim, changes the right-hand overlap and bends the broad outer sheets while red/gold/blue regions shift. Actual folding is visible, not only texture motion, but both frames retain broad simple sheets and limited nested detail; no completed doorway transformation is demonstrated."
+          "file": "realism-chrysanthemum-v25-motion.png",
+          "sha256": "a50f3c0958cc80375aaf958ce5bb9adfb1bcc175238c587159561032fafa837c",
+          "receipt_sha256": "e32522312f25a1bd8e223e3fc05ca098a6147d388cc582779e0a864e0dd39dbb",
+          "inspection": "view_image, inspected once: Bright pink/red/violet walls surround lime/cyan, blue/violet and yellow/green scalloped lips. The large hard black lobes are gone. Highlights are broad and milky; most wall area is smooth, rubbery or smeared. The centre is a small padded four-lobed flower with blue dimples and a sharp axial colour convergence, not a dense recursively folding mandala."
+        },
+        {
+          "file": "realism-chrysanthemum-close-v25.png",
+          "sha256": "09eaa2a6bea6686981f9868327e3c0eb243a5524a85710f0f3782d2a4e07fbf4",
+          "receipt_sha256": "599113b02bcbb2e18742d9c9c940ed5ceb5dbb73ed09f2cd5692dc9aef692b97",
+          "inspection": "view_image, inspected once: Real walking reaches z=-7.03968. Broad green/cyan foreground surrounds violet/pink lips and an enlarged green/yellow/orange flower. Several padded central lobes now have visible relief, but the whole remains shallow-looking and sparse. Motion exposes large triangular outer lips and simplifies the centre into a smooth few-lobed pinwheel. No convincing black spatial gaps are visible."
+        },
+        {
+          "file": "realism-chrysanthemum-close-v25-motion.png",
+          "sha256": "395b60fb60c8c07713dab9d91c0d7c6af216f6079571f85de5560ec4cff19500",
+          "receipt_sha256": "50a919c2bb120e17f6583b1918062c02b0af54c037d73e4a5048ed56a4a96335",
+          "inspection": "view_image, inspected once: Real walking reaches z=-7.03968. Broad green/cyan foreground surrounds violet/pink lips and an enlarged green/yellow/orange flower. Several padded central lobes now have visible relief, but the whole remains shallow-looking and sparse. Motion exposes large triangular outer lips and simplifies the centre into a smooth few-lobed pinwheel. No convincing black spatial gaps are visible."
         }
       ]
     },
@@ -333,6 +345,834 @@
             "sha256": "42ac354d4683e7cad836d0416e748acbcc15813fa113c9afc532e60b225838ca",
             "receipt_sha256": "3fad2c30d7961bae161dab5e6ea4655c9ff8470ee7aa1c67b138b6240477c176",
             "inspection": "realism_chrysanthemum_v9_pair: numbered small JPEG inspected once; CLOSE: continuous curved red/gold and cyan/blue sheets overlap into a filled flower-like centre, with smoother coherent highlights and less streaking than v8. The horizontal colour seam is gone. However broad pale surfaces still dominate, thin dark edge artifacts remain, and the nested centre is a small repeated rosette rather than dense recursively unfolding jewelled geometry. Not RECOGNISE. Same-camera HIGH pair narrows and twists the cyan inner rim, changes the right-hand overlap and bends the broad outer sheets while red/gold/blue regions shift. Actual folding is visible, not only texture motion, but both frames retain broad simple sheets and limited nested detail; no completed doorway transformation is demonstrated."
+          }
+        ]
+      }
+    },
+    {
+      "target": "chrysanthemum",
+      "iteration": "cupped-folds-v10-incomplete-pair",
+      "review": {
+        "grade": "GAME",
+        "reason": "Rainbow pointed bands fill the view, but fine folds read mainly as surface scribbles on broad, weakly modelled sheets. No convincing recursive depth.",
+        "temporal_observation": "Not assessed: the second screenshot timed out after 90 seconds. One inspected still cannot satisfy the temporal gate.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v10.png",
+            "sha256": "8db873605815604fa868127a9a66a33ff71d8d3998884c30171fbbf1cd78cc7a",
+            "receipt_sha256": "06b841ac53248416a53bd9995ab53ef746bde17243daa5439dab557226c0d3ef",
+            "inspection": "view_image, inspected once: Rainbow pointed bands fill the view, but fine folds read mainly as surface scribbles on broad, weakly modelled sheets. No convincing recursive depth."
+          }
+        ]
+      }
+    },
+    {
+      "target": "chrysanthemum",
+      "iteration": "cupped-folds-v11-incomplete-pair",
+      "review": {
+        "grade": "CLOSE",
+        "reason": "CLOSE, not RECOGNISE: continuous saturated magenta/violet, orange, green and cyan folds have curled lips, cupped recesses and overlapping depth. Smaller folds now change the silhouette and highlights. Broad outer surfaces still dominate, however; fine detail often reads as decorative contouring, the centre is a repeated small rosette, and thin dark edge defects remain. This is not yet dense, convincingly recursive unfolding geometry. No witness validation is claimed.",
+        "temporal_observation": "Not assessed: the second screenshot timed out after 90 seconds. One inspected still cannot satisfy the temporal gate.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v11.png",
+            "sha256": "18f9e4743d2d9c9b84b3b58ae954a4e8a2327553ad071aa9ea63a485b36c12a6",
+            "receipt_sha256": "b48eae8e2057ab5cd94f703494a5308ff41c53ed72141214fd41825f5c0d5e63",
+            "inspection": "view_image, inspected once: CLOSE, not RECOGNISE: continuous saturated magenta/violet, orange, green and cyan folds have curled lips, cupped recesses and overlapping depth. Smaller folds now change the silhouette and highlights. Broad outer surfaces still dominate, however; fine detail often reads as decorative contouring, the centre is a repeated small rosette, and thin dark edge defects remain. This is not yet dense, convincingly recursive unfolding geometry. No witness validation is claimed."
+          }
+        ]
+      }
+    },
+    {
+      "target": "chrysanthemum",
+      "iteration": "cupped-folds-v12-incomplete-pair",
+      "review": {
+        "grade": "CLOSE",
+        "reason": "CLOSE, not RECOGNISE: continuous saturated magenta/violet, orange, green and cyan folds have curled lips, cupped recesses and overlapping depth. Smaller folds now change the silhouette and highlights. Broad outer surfaces still dominate, however; fine detail often reads as decorative contouring, the centre is a repeated small rosette, and thin dark edge defects remain. This is not yet dense, convincingly recursive unfolding geometry. No witness validation is claimed.",
+        "temporal_observation": "Not assessed: the second screenshot timed out after 90 seconds. One inspected still cannot satisfy the temporal gate.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v12.png",
+            "sha256": "22490b5d63d1839efb1d64c74de6ef442da591dc397150e70680d5f4630b4208",
+            "receipt_sha256": "1e9173681693cc8ec7ee1db1ed5e8ae3f35a16cf99995872387cec55d1ba6c03",
+            "inspection": "view_image, inspected once: CLOSE, not RECOGNISE: continuous saturated magenta/violet, orange, green and cyan folds have curled lips, cupped recesses and overlapping depth. Smaller folds now change the silhouette and highlights. Broad outer surfaces still dominate, however; fine detail often reads as decorative contouring, the centre is a repeated small rosette, and thin dark edge defects remain. This is not yet dense, convincingly recursive unfolding geometry. No witness validation is claimed."
+          }
+        ]
+      }
+    },
+    {
+      "target": "chrysanthemum",
+      "iteration": "cupped-folds-v13",
+      "review": {
+        "grade": "CLOSE",
+        "reason": "CLOSE, not RECOGNISE: continuous saturated magenta/violet, orange, green and cyan folds have curled lips, cupped recesses and overlapping depth. Smaller folds now change the silhouette and highlights. Broad outer surfaces still dominate, however; fine detail often reads as decorative contouring, the centre is a repeated small rosette, and thin dark edge defects remain. This is not yet dense, convincingly recursive unfolding geometry. No witness validation is claimed.",
+        "temporal_observation": "Same-camera pair: right violet lip flattens and extends, orange left recess changes its curvature, and the upper green area shifts toward yellow. Folding is visible but modest; the small central rosette and broad outer areas remain.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v13.png",
+            "sha256": "760032eaec89980df607bba4bf5909c6c534ce1d9d29f75f7f41bbf27ef1440b",
+            "receipt_sha256": "08adb0435e928dd98b94ecef67f12d12ab635db2cd94881d58798f10ac8fb19e",
+            "inspection": "view_image, inspected once: Filled flower-like centre, pointed overlapping green/cyan inner folds, glossy orange recesses and broad pink/violet outer sheets. Cupped lips are readable; contour-like fine detail and dark edge defects persist."
+          },
+          {
+            "file": "realism-chrysanthemum-v13-motion.png",
+            "sha256": "a18f24f9aa4a90cc585b3d033286996ffe87cee30538b846be644a61d3c60b91",
+            "receipt_sha256": "99d47ecf656a4649da40e9eeb14d129c315e5929b1fb16e199d3fba05182ed4c",
+            "inspection": "view_image, inspected once: Filled flower-like centre, pointed overlapping green/cyan inner folds, glossy orange recesses and broad pink/violet outer sheets. Cupped lips are readable; contour-like fine detail and dark edge defects persist."
+          }
+        ]
+      }
+    },
+    {
+      "target": "chrysanthemum",
+      "iteration": "cupped-folds-v14",
+      "review": {
+        "grade": "CLOSE",
+        "reason": "CLOSE, not RECOGNISE: continuous saturated magenta/violet, orange, green and cyan folds have curled lips, cupped recesses and overlapping depth. Smaller folds now change the silhouette and highlights. Broad outer surfaces still dominate, however; fine detail often reads as decorative contouring, the centre is a repeated small rosette, and thin dark edge defects remain. This is not yet dense, convincingly recursive unfolding geometry. No witness validation is claimed.",
+        "temporal_observation": "Entry pair: the right violet lip changes its arc and overlap, the upper green fold shifts toward yellow, and the orange left recess changes curvature. Walked-in pair: the right orange cup opens and the overlying violet lip changes thickness while inner green/cyan folds bend. Actual geometry and colour evolve, not just texture. Motion is modest, with no demonstrated complete doorway transformation or clearly sustained whole-field rotation.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v14.png",
+            "sha256": "500d09e80324d48ffb3b431a2cf4f50af28f31a21e9855337ca24a631e262ae9",
+            "receipt_sha256": "aa2b5a4a94cd3b51be060ab6f3c72c8bf3183abbaa82b95c6105755fc492a648",
+            "inspection": "view_image, inspected once: Filled flower-like centre, pointed overlapping green/cyan inner folds, glossy orange recesses and broad pink/violet outer sheets. Cupped lips are readable; contour-like fine detail and dark edge defects persist. Entry pair: the right violet lip changes its arc and overlap, the upper green fold shifts toward yellow, and the orange left recess changes curvature. Walked-in pair: the right orange cup opens and the overlying violet lip changes thickness while inner green/cyan folds bend. Actual geometry and colour evolve, not just texture. Motion is modest, with no demonstrated complete doorway transformation or clearly sustained whole-field rotation."
+          },
+          {
+            "file": "realism-chrysanthemum-v14-motion.png",
+            "sha256": "28813ee7ba3bb594dbc9becb0d6b513f76652211621355016681db485070e76d",
+            "receipt_sha256": "9d8bfd885ffca05d880c0fce6fb068b696aaa7e3ae2ac8d7616a2d85bf4b6a7d",
+            "inspection": "view_image, inspected once: Filled flower-like centre, pointed overlapping green/cyan inner folds, glossy orange recesses and broad pink/violet outer sheets. Cupped lips are readable; contour-like fine detail and dark edge defects persist. Entry pair: the right violet lip changes its arc and overlap, the upper green fold shifts toward yellow, and the orange left recess changes curvature. Walked-in pair: the right orange cup opens and the overlying violet lip changes thickness while inner green/cyan folds bend. Actual geometry and colour evolve, not just texture. Motion is modest, with no demonstrated complete doorway transformation or clearly sustained whole-field rotation."
+          },
+          {
+            "file": "realism-chrysanthemum-walk-v14.png",
+            "sha256": "b56ec34571cf3fc0407c37885a0d5d94f4a4a1ad738176f4a3d2cc8154a8bbe3",
+            "receipt_sha256": "d08885bf2f6a51f723d46aa5a1732e7ad54b00696af81b3f33a53268401a1e0a",
+            "inspection": "view_image, inspected once: Real forward-walk viewpoint: nearer rims expand relative to the centre and expose cupped orange/green recesses and layered occlusion. Much of the outer area remains a broad sheet; approach does not reveal an unbounded hierarchy of new solid forms. Entry pair: the right violet lip changes its arc and overlap, the upper green fold shifts toward yellow, and the orange left recess changes curvature. Walked-in pair: the right orange cup opens and the overlying violet lip changes thickness while inner green/cyan folds bend. Actual geometry and colour evolve, not just texture. Motion is modest, with no demonstrated complete doorway transformation or clearly sustained whole-field rotation."
+          },
+          {
+            "file": "realism-chrysanthemum-walk-v14-motion.png",
+            "sha256": "f339f9112cfa938bb3a3073d070ee415e2f8a4667c0f6c3f234f088bfd6463cb",
+            "receipt_sha256": "e1b90188e485cc0c702d4f33cfdce6c50f5b1e6e64ce71efd74edc75167b7674",
+            "inspection": "view_image, inspected once: Real forward-walk viewpoint: nearer rims expand relative to the centre and expose cupped orange/green recesses and layered occlusion. Much of the outer area remains a broad sheet; approach does not reveal an unbounded hierarchy of new solid forms. Entry pair: the right violet lip changes its arc and overlap, the upper green fold shifts toward yellow, and the orange left recess changes curvature. Walked-in pair: the right orange cup opens and the overlying violet lip changes thickness while inner green/cyan folds bend. Actual geometry and colour evolve, not just texture. Motion is modest, with no demonstrated complete doorway transformation or clearly sustained whole-field rotation."
+          }
+        ]
+      }
+    },
+    {
+      "target": "chrysanthemum",
+      "iteration": "cupped-folds-v14-close",
+      "review": {
+        "grade": "CLOSE",
+        "reason": "CLOSE, not RECOGNISE: continuous saturated magenta/violet, orange, green and cyan folds have curled lips, cupped recesses and overlapping depth. Smaller folds now change the silhouette and highlights. Broad outer surfaces still dominate, however; fine detail often reads as decorative contouring, the centre is a repeated small rosette, and thin dark edge defects remain. This is not yet dense, convincingly recursive unfolding geometry. No witness validation is claimed. The deeper walking view magnifies pale-green expanses and broken-looking dark rim seams; closer inspection does not earn an upgrade.",
+        "temporal_observation": "Entry pair: the right violet lip changes its arc and overlap, the upper green fold shifts toward yellow, and the orange left recess changes curvature. Walked-in pair: the right orange cup opens and the overlying violet lip changes thickness while inner green/cyan folds bend. Actual geometry and colour evolve, not just texture. Motion is modest, with no demonstrated complete doorway transformation or clearly sustained whole-field rotation. Deeper same-camera pair: the right orange cup opens under a narrowing pink lip; upper green/yellow folds bend and their coloured regions shift. Recession is real, but the small central rosette persists and the nearer sheets expose conspicuous edge defects.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v14.png",
+            "sha256": "500d09e80324d48ffb3b431a2cf4f50af28f31a21e9855337ca24a631e262ae9",
+            "receipt_sha256": "aa2b5a4a94cd3b51be060ab6f3c72c8bf3183abbaa82b95c6105755fc492a648",
+            "inspection": "view_image, inspected once: Filled flower-like centre, pointed overlapping green/cyan inner folds, glossy orange recesses and broad pink/violet outer sheets. Cupped lips are readable; contour-like fine detail and dark edge defects persist. Entry pair: the right violet lip changes its arc and overlap, the upper green fold shifts toward yellow, and the orange left recess changes curvature. Walked-in pair: the right orange cup opens and the overlying violet lip changes thickness while inner green/cyan folds bend. Actual geometry and colour evolve, not just texture. Motion is modest, with no demonstrated complete doorway transformation or clearly sustained whole-field rotation."
+          },
+          {
+            "file": "realism-chrysanthemum-v14-motion.png",
+            "sha256": "28813ee7ba3bb594dbc9becb0d6b513f76652211621355016681db485070e76d",
+            "receipt_sha256": "9d8bfd885ffca05d880c0fce6fb068b696aaa7e3ae2ac8d7616a2d85bf4b6a7d",
+            "inspection": "view_image, inspected once: Filled flower-like centre, pointed overlapping green/cyan inner folds, glossy orange recesses and broad pink/violet outer sheets. Cupped lips are readable; contour-like fine detail and dark edge defects persist. Entry pair: the right violet lip changes its arc and overlap, the upper green fold shifts toward yellow, and the orange left recess changes curvature. Walked-in pair: the right orange cup opens and the overlying violet lip changes thickness while inner green/cyan folds bend. Actual geometry and colour evolve, not just texture. Motion is modest, with no demonstrated complete doorway transformation or clearly sustained whole-field rotation."
+          },
+          {
+            "file": "realism-chrysanthemum-walk-v14.png",
+            "sha256": "b56ec34571cf3fc0407c37885a0d5d94f4a4a1ad738176f4a3d2cc8154a8bbe3",
+            "receipt_sha256": "d08885bf2f6a51f723d46aa5a1732e7ad54b00696af81b3f33a53268401a1e0a",
+            "inspection": "view_image, inspected once: Real forward-walk viewpoint: nearer rims expand relative to the centre and expose cupped orange/green recesses and layered occlusion. Much of the outer area remains a broad sheet; approach does not reveal an unbounded hierarchy of new solid forms. Entry pair: the right violet lip changes its arc and overlap, the upper green fold shifts toward yellow, and the orange left recess changes curvature. Walked-in pair: the right orange cup opens and the overlying violet lip changes thickness while inner green/cyan folds bend. Actual geometry and colour evolve, not just texture. Motion is modest, with no demonstrated complete doorway transformation or clearly sustained whole-field rotation."
+          },
+          {
+            "file": "realism-chrysanthemum-walk-v14-motion.png",
+            "sha256": "f339f9112cfa938bb3a3073d070ee415e2f8a4667c0f6c3f234f088bfd6463cb",
+            "receipt_sha256": "e1b90188e485cc0c702d4f33cfdce6c50f5b1e6e64ce71efd74edc75167b7674",
+            "inspection": "view_image, inspected once: Real forward-walk viewpoint: nearer rims expand relative to the centre and expose cupped orange/green recesses and layered occlusion. Much of the outer area remains a broad sheet; approach does not reveal an unbounded hierarchy of new solid forms. Entry pair: the right violet lip changes its arc and overlap, the upper green fold shifts toward yellow, and the orange left recess changes curvature. Walked-in pair: the right orange cup opens and the overlying violet lip changes thickness while inner green/cyan folds bend. Actual geometry and colour evolve, not just texture. Motion is modest, with no demonstrated complete doorway transformation or clearly sustained whole-field rotation."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v14.png",
+            "sha256": "5983936e102e050469dc5e70001b5f9f69cd390c515bf7bf422814777d4b6692",
+            "receipt_sha256": "3f933a6105421929b0cc4ffd4cab95ed00898f005fd0984f98202be0deae02c2",
+            "inspection": "view_image, inspected once: deeper real-walk view at approximately z=-6 exposes enlarged green/cyan cups and orange recesses, with stronger layered occlusion than the entry view. Broad pale-green surfaces and black broken-looking rim seams are now more conspicuous. Fine contours do not resolve into an unbounded hierarchy. These dark defects are not credited as reported black negative space. Deeper same-camera pair: the right orange cup opens under a narrowing pink lip; upper green/yellow folds bend and their coloured regions shift. Recession is real, but the small central rosette persists and the nearer sheets expose conspicuous edge defects."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v14-motion.png",
+            "sha256": "f8acf58ba71fe8f543783e2e7fea4c23a3a331742600e7a696c6cacab9196ad7",
+            "receipt_sha256": "4127f08e72d7e47f92dcce14347dd7e95a64219a6dce25790b6bea3f4b63c152",
+            "inspection": "view_image, inspected once: deeper real-walk view at approximately z=-6 exposes enlarged green/cyan cups and orange recesses, with stronger layered occlusion than the entry view. Broad pale-green surfaces and black broken-looking rim seams are now more conspicuous. Fine contours do not resolve into an unbounded hierarchy. These dark defects are not credited as reported black negative space. Deeper same-camera pair: the right orange cup opens under a narrowing pink lip; upper green/yellow folds bend and their coloured regions shift. Recession is real, but the small central rosette persists and the nearer sheets expose conspicuous edge defects."
+          }
+        ]
+      }
+    },
+    {
+      "target": "chrysanthemum",
+      "iteration": "perforated-cupped-folds-v15",
+      "before": {
+        "grade": "CLOSE",
+        "reason": "CLOSE, not RECOGNISE: continuous saturated magenta/violet, orange, green and cyan folds have curled lips, cupped recesses and overlapping depth. Smaller folds now change the silhouette and highlights. Broad outer surfaces still dominate, however; fine detail often reads as decorative contouring, the centre is a repeated small rosette, and thin dark edge defects remain. This is not yet dense, convincingly recursive unfolding geometry. No witness validation is claimed. The deeper walking view magnifies pale-green expanses and broken-looking dark rim seams; closer inspection does not earn an upgrade.",
+        "temporal_observation": "Entry pair: the right violet lip changes its arc and overlap, the upper green fold shifts toward yellow, and the orange left recess changes curvature. Walked-in pair: the right orange cup opens and the overlying violet lip changes thickness while inner green/cyan folds bend. Actual geometry and colour evolve, not just texture. Motion is modest, with no demonstrated complete doorway transformation or clearly sustained whole-field rotation. Deeper same-camera pair: the right orange cup opens under a narrowing pink lip; upper green/yellow folds bend and their coloured regions shift. Recession is real, but the small central rosette persists and the nearer sheets expose conspicuous edge defects.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v14.png",
+            "sha256": "500d09e80324d48ffb3b431a2cf4f50af28f31a21e9855337ca24a631e262ae9",
+            "receipt_sha256": "aa2b5a4a94cd3b51be060ab6f3c72c8bf3183abbaa82b95c6105755fc492a648",
+            "inspection": "view_image, inspected once: Filled flower-like centre, pointed overlapping green/cyan inner folds, glossy orange recesses and broad pink/violet outer sheets. Cupped lips are readable; contour-like fine detail and dark edge defects persist. Entry pair: the right violet lip changes its arc and overlap, the upper green fold shifts toward yellow, and the orange left recess changes curvature. Walked-in pair: the right orange cup opens and the overlying violet lip changes thickness while inner green/cyan folds bend. Actual geometry and colour evolve, not just texture. Motion is modest, with no demonstrated complete doorway transformation or clearly sustained whole-field rotation."
+          },
+          {
+            "file": "realism-chrysanthemum-v14-motion.png",
+            "sha256": "28813ee7ba3bb594dbc9becb0d6b513f76652211621355016681db485070e76d",
+            "receipt_sha256": "9d8bfd885ffca05d880c0fce6fb068b696aaa7e3ae2ac8d7616a2d85bf4b6a7d",
+            "inspection": "view_image, inspected once: Filled flower-like centre, pointed overlapping green/cyan inner folds, glossy orange recesses and broad pink/violet outer sheets. Cupped lips are readable; contour-like fine detail and dark edge defects persist. Entry pair: the right violet lip changes its arc and overlap, the upper green fold shifts toward yellow, and the orange left recess changes curvature. Walked-in pair: the right orange cup opens and the overlying violet lip changes thickness while inner green/cyan folds bend. Actual geometry and colour evolve, not just texture. Motion is modest, with no demonstrated complete doorway transformation or clearly sustained whole-field rotation."
+          },
+          {
+            "file": "realism-chrysanthemum-walk-v14.png",
+            "sha256": "b56ec34571cf3fc0407c37885a0d5d94f4a4a1ad738176f4a3d2cc8154a8bbe3",
+            "receipt_sha256": "d08885bf2f6a51f723d46aa5a1732e7ad54b00696af81b3f33a53268401a1e0a",
+            "inspection": "view_image, inspected once: Real forward-walk viewpoint: nearer rims expand relative to the centre and expose cupped orange/green recesses and layered occlusion. Much of the outer area remains a broad sheet; approach does not reveal an unbounded hierarchy of new solid forms. Entry pair: the right violet lip changes its arc and overlap, the upper green fold shifts toward yellow, and the orange left recess changes curvature. Walked-in pair: the right orange cup opens and the overlying violet lip changes thickness while inner green/cyan folds bend. Actual geometry and colour evolve, not just texture. Motion is modest, with no demonstrated complete doorway transformation or clearly sustained whole-field rotation."
+          },
+          {
+            "file": "realism-chrysanthemum-walk-v14-motion.png",
+            "sha256": "f339f9112cfa938bb3a3073d070ee415e2f8a4667c0f6c3f234f088bfd6463cb",
+            "receipt_sha256": "e1b90188e485cc0c702d4f33cfdce6c50f5b1e6e64ce71efd74edc75167b7674",
+            "inspection": "view_image, inspected once: Real forward-walk viewpoint: nearer rims expand relative to the centre and expose cupped orange/green recesses and layered occlusion. Much of the outer area remains a broad sheet; approach does not reveal an unbounded hierarchy of new solid forms. Entry pair: the right violet lip changes its arc and overlap, the upper green fold shifts toward yellow, and the orange left recess changes curvature. Walked-in pair: the right orange cup opens and the overlying violet lip changes thickness while inner green/cyan folds bend. Actual geometry and colour evolve, not just texture. Motion is modest, with no demonstrated complete doorway transformation or clearly sustained whole-field rotation."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v14.png",
+            "sha256": "5983936e102e050469dc5e70001b5f9f69cd390c515bf7bf422814777d4b6692",
+            "receipt_sha256": "3f933a6105421929b0cc4ffd4cab95ed00898f005fd0984f98202be0deae02c2",
+            "inspection": "view_image, inspected once: deeper real-walk view at approximately z=-6 exposes enlarged green/cyan cups and orange recesses, with stronger layered occlusion than the entry view. Broad pale-green surfaces and black broken-looking rim seams are now more conspicuous. Fine contours do not resolve into an unbounded hierarchy. These dark defects are not credited as reported black negative space. Deeper same-camera pair: the right orange cup opens under a narrowing pink lip; upper green/yellow folds bend and their coloured regions shift. Recession is real, but the small central rosette persists and the nearer sheets expose conspicuous edge defects."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v14-motion.png",
+            "sha256": "f8acf58ba71fe8f543783e2e7fea4c23a3a331742600e7a696c6cacab9196ad7",
+            "receipt_sha256": "4127f08e72d7e47f92dcce14347dd7e95a64219a6dce25790b6bea3f4b63c152",
+            "inspection": "view_image, inspected once: deeper real-walk view at approximately z=-6 exposes enlarged green/cyan cups and orange recesses, with stronger layered occlusion than the entry view. Broad pale-green surfaces and black broken-looking rim seams are now more conspicuous. Fine contours do not resolve into an unbounded hierarchy. These dark defects are not credited as reported black negative space. Deeper same-camera pair: the right orange cup opens under a narrowing pink lip; upper green/yellow folds bend and their coloured regions shift. Recession is real, but the small central rosette persists and the nearer sheets expose conspicuous edge defects."
+          }
+        ]
+      },
+      "review": {
+        "grade": "CLOSE",
+        "reason": "CLOSE, not RECOGNISE: rounded perforations add visible black negative space and expose deeper coloured folds. Thicker rims retain cupped depth during approach, but broad glossy sheets, a small repeated radial centre, contour-like detail and rough pointed rims persist. Rich recursive solid structure and convincing spatial transformation remain missing. No witness validation is claimed.",
+        "temporal_observation": "Entry: the upper-left black opening broadens, the right violet lip bends and changes overlap, and the left orange recess shifts against green. At the walked-in fixed pose, the upper-right black opening changes shape as green/yellow rims move, and the right orange cup opens beneath a red lip. This demonstrates folding and local deformation, not a complete doorway transformation, sustained whole-field rotation or a full breathing cycle.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v15.png",
+            "sha256": "f499cac88e4d0de05d21ad039650d507e5bd9480d53260a0363848bbd7b51c1f",
+            "receipt_sha256": "598f4b168e4f06f75278712ac3c68498aa861d632ccff5e1dfe8331e2286fe61",
+            "inspection": "view_image, inspected once: Glossy magenta/violet outer lips, orange recesses and green/cyan inner folds surround a small radial flower. A broad black opening at upper left persists across the pair, with yellow folded material behind its lower edge. Smaller openings reveal deeper blue/purple layers. Broad panels and contour-like highlights remain; some silhouettes are still pointed or stippled."
+          },
+          {
+            "file": "realism-chrysanthemum-v15-motion.png",
+            "sha256": "6e90cbb328815f24fc0390a6370f79319525dffede65a48672a007e933728d82",
+            "receipt_sha256": "7d90dd9e91b0e6fdba9196f356cdf0a5c8cd06bf418b7213ccfd18af7b22fb48",
+            "inspection": "view_image, inspected once: Glossy magenta/violet outer lips, orange recesses and green/cyan inner folds surround a small radial flower. A broad black opening at upper left persists across the pair, with yellow folded material behind its lower edge. Smaller openings reveal deeper blue/purple layers. Broad panels and contour-like highlights remain; some silhouettes are still pointed or stippled."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v15.png",
+            "sha256": "07bcff139d82be4ab8ad1d45a23b6aa3c02e8e1884782d8bf9ccb18ce7aaa704",
+            "receipt_sha256": "89b3740430f62d7aa9ac47ba3a4478a687e7abd0c5e6ae36ad87adcfd1f5340f",
+            "inspection": "view_image, inspected once: Real forward walking enlarges and changes the occlusion of the green/yellow folds relative to the violet centre. Broad black gaps are clearly visible at upper right and the outer margins, distinct from thin rough edge marks. Curled green cups and orange lips have depth, but approach reveals broad panels and decorative contouring rather than new levels of recursive solids."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v15-motion.png",
+            "sha256": "1fd7793e1c1c5ec42fdfdd82132e2310dfdae84891893b63db09fa03a825936c",
+            "receipt_sha256": "610745e70af9895869c1257a0f62af098cd7e4c04a485fc692423bcde9662195",
+            "inspection": "view_image, inspected once: Real forward walking enlarges and changes the occlusion of the green/yellow folds relative to the violet centre. Broad black gaps are clearly visible at upper right and the outer margins, distinct from thin rough edge marks. Curled green cups and orange lips have depth, but approach reveals broad panels and decorative contouring rather than new levels of recursive solids."
+          }
+        ]
+      }
+    },
+    {
+      "target": "chrysanthemum",
+      "iteration": "nested-hollow-chambers-v16",
+      "before": {
+        "grade": "CLOSE",
+        "reason": "CLOSE, not RECOGNISE: rounded perforations add visible black negative space and expose deeper coloured folds. Thicker rims retain cupped depth during approach, but broad glossy sheets, a small repeated radial centre, contour-like detail and rough pointed rims persist. Rich recursive solid structure and convincing spatial transformation remain missing. No witness validation is claimed.",
+        "temporal_observation": "Entry: the upper-left black opening broadens, the right violet lip bends and changes overlap, and the left orange recess shifts against green. At the walked-in fixed pose, the upper-right black opening changes shape as green/yellow rims move, and the right orange cup opens beneath a red lip. This demonstrates folding and local deformation, not a complete doorway transformation, sustained whole-field rotation or a full breathing cycle.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v15.png",
+            "sha256": "f499cac88e4d0de05d21ad039650d507e5bd9480d53260a0363848bbd7b51c1f",
+            "receipt_sha256": "598f4b168e4f06f75278712ac3c68498aa861d632ccff5e1dfe8331e2286fe61",
+            "inspection": "view_image, inspected once: Glossy magenta/violet outer lips, orange recesses and green/cyan inner folds surround a small radial flower. A broad black opening at upper left persists across the pair, with yellow folded material behind its lower edge. Smaller openings reveal deeper blue/purple layers. Broad panels and contour-like highlights remain; some silhouettes are still pointed or stippled."
+          },
+          {
+            "file": "realism-chrysanthemum-v15-motion.png",
+            "sha256": "6e90cbb328815f24fc0390a6370f79319525dffede65a48672a007e933728d82",
+            "receipt_sha256": "7d90dd9e91b0e6fdba9196f356cdf0a5c8cd06bf418b7213ccfd18af7b22fb48",
+            "inspection": "view_image, inspected once: Glossy magenta/violet outer lips, orange recesses and green/cyan inner folds surround a small radial flower. A broad black opening at upper left persists across the pair, with yellow folded material behind its lower edge. Smaller openings reveal deeper blue/purple layers. Broad panels and contour-like highlights remain; some silhouettes are still pointed or stippled."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v15.png",
+            "sha256": "07bcff139d82be4ab8ad1d45a23b6aa3c02e8e1884782d8bf9ccb18ce7aaa704",
+            "receipt_sha256": "89b3740430f62d7aa9ac47ba3a4478a687e7abd0c5e6ae36ad87adcfd1f5340f",
+            "inspection": "view_image, inspected once: Real forward walking enlarges and changes the occlusion of the green/yellow folds relative to the violet centre. Broad black gaps are clearly visible at upper right and the outer margins, distinct from thin rough edge marks. Curled green cups and orange lips have depth, but approach reveals broad panels and decorative contouring rather than new levels of recursive solids."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v15-motion.png",
+            "sha256": "1fd7793e1c1c5ec42fdfdd82132e2310dfdae84891893b63db09fa03a825936c",
+            "receipt_sha256": "610745e70af9895869c1257a0f62af098cd7e4c04a485fc692423bcde9662195",
+            "inspection": "view_image, inspected once: Real forward walking enlarges and changes the occlusion of the green/yellow folds relative to the violet centre. Broad black gaps are clearly visible at upper right and the outer margins, distinct from thin rough edge marks. Curled green cups and orange lips have depth, but approach reveals broad panels and decorative contouring rather than new levels of recursive solids."
+          }
+        ]
+      },
+      "review": {
+        "grade": "CLOSE",
+        "reason": "CLOSE, not RECOGNISE: saturated self-lit folds, layered overlap and broad black openings remain. Small hollow mouths and recessed cavities now appear inside some larger lobes, but broad pointed decorative panels still dominate. Their cavities are visibly stretched, the small repeated centre persists and contour-like highlights/stippled rims remain. Approach does not demonstrate convincing recursively nested solids. This construction needs rebuilding, not another noise/colour adjustment. No witness validation is claimed.",
+        "temporal_observation": "Entry: the left orange tongue moves downward, right violet lobes change overlap and cavity outlines shift; the upper-left black opening changes shape. At the fixed walked-in pose, the right orange fold curls into a larger visible oval mouth beneath a pink lip and the left green tongue changes its bend. These demonstrate local folding/deformation, not sustained whole-field rotation, a full breathing cycle or transformation into a new spatial structure.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v16.png",
+            "sha256": "ac0db34956e05aad6ce160508d54f287fe6909b841e8a1a1f79204085160e8f9",
+            "receipt_sha256": "532faf208b94e1867a2d1066244a65c8305f4cec78efb67b577245eba180607a",
+            "inspection": "view_image, inspected once: Pink/violet outer folds, orange/yellow middle folds and green/cyan inner folds converge on a small blue/magenta flower. Small oval cavities and rolled mouths appear within larger lobes, especially at upper centre and right. Broad black openings remain at upper left and behind the right layers. Pointed wedge-like panels, stretched cavities, contour-like highlights and stippled edges dominate over readable nested solids."
+          },
+          {
+            "file": "realism-chrysanthemum-v16-motion.png",
+            "sha256": "15e993312035f8ec3213f275b4327ba3c80f6671d9e60c45d7310cdb7c8ee0ef",
+            "receipt_sha256": "2d4a91f4dd42fa9b506644fa39267e8957050c866e49f1ce781083d55516563c",
+            "inspection": "view_image, inspected once: Pink/violet outer folds, orange/yellow middle folds and green/cyan inner folds converge on a small blue/magenta flower. Small oval cavities and rolled mouths appear within larger lobes, especially at upper centre and right. Broad black openings remain at upper left and behind the right layers. Pointed wedge-like panels, stretched cavities, contour-like highlights and stippled edges dominate over readable nested solids."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v16.png",
+            "sha256": "64411ca366060fa7372bf69b21aa2c4768f98ee92484b72e794fff989da86ac9",
+            "receipt_sha256": "245656855ca2052d5d48409ebec7531633c8d0ee6afd6e5d5acbc0a8f30c966c",
+            "inspection": "view_image, inspected once: Real forward walking to z=-8.74656 enlarges green/yellow folds and changes their overlap with the cyan/violet centre. Small round mouths and recessed ovals become visible on the upper green and right orange surfaces, but they are still stretched into broad panels. Black distance persists at upper right; other holes expose blue/violet folds. The central rosette remains small and repeated; approach does not reveal convincing recursive chambers. Rough dark silhouette edges remain."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v16-motion.png",
+            "sha256": "06f1887ff507e4a170ce3bffeeb3b74b1e47618d9e5f9ec8ab570694aa742d94",
+            "receipt_sha256": "e53346cbf00d3b4c44514e492dea3175d9b6508b98a0d6047fef649ee53545bb",
+            "inspection": "view_image, inspected once: Real forward walking to z=-8.74656 enlarges green/yellow folds and changes their overlap with the cyan/violet centre. Small round mouths and recessed ovals become visible on the upper green and right orange surfaces, but they are still stretched into broad panels. Black distance persists at upper right; other holes expose blue/violet folds. The central rosette remains small and repeated; approach does not reveal convincing recursive chambers. Rough dark silhouette edges remain."
+          }
+        ]
+      }
+    },
+    {
+      "target": "chrysanthemum",
+      "iteration": "local-frame-capsule-vaults-v17",
+      "before": {
+        "grade": "CLOSE",
+        "reason": "CLOSE, not RECOGNISE: saturated self-lit folds, layered overlap and broad black openings remain. Small hollow mouths and recessed cavities now appear inside some larger lobes, but broad pointed decorative panels still dominate. Their cavities are visibly stretched, the small repeated centre persists and contour-like highlights/stippled rims remain. Approach does not demonstrate convincing recursively nested solids. This construction needs rebuilding, not another noise/colour adjustment. No witness validation is claimed.",
+        "temporal_observation": "Entry: the left orange tongue moves downward, right violet lobes change overlap and cavity outlines shift; the upper-left black opening changes shape. At the fixed walked-in pose, the right orange fold curls into a larger visible oval mouth beneath a pink lip and the left green tongue changes its bend. These demonstrate local folding/deformation, not sustained whole-field rotation, a full breathing cycle or transformation into a new spatial structure.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v16.png",
+            "sha256": "ac0db34956e05aad6ce160508d54f287fe6909b841e8a1a1f79204085160e8f9",
+            "receipt_sha256": "532faf208b94e1867a2d1066244a65c8305f4cec78efb67b577245eba180607a",
+            "inspection": "view_image, inspected once: Pink/violet outer folds, orange/yellow middle folds and green/cyan inner folds converge on a small blue/magenta flower. Small oval cavities and rolled mouths appear within larger lobes, especially at upper centre and right. Broad black openings remain at upper left and behind the right layers. Pointed wedge-like panels, stretched cavities, contour-like highlights and stippled edges dominate over readable nested solids."
+          },
+          {
+            "file": "realism-chrysanthemum-v16-motion.png",
+            "sha256": "15e993312035f8ec3213f275b4327ba3c80f6671d9e60c45d7310cdb7c8ee0ef",
+            "receipt_sha256": "2d4a91f4dd42fa9b506644fa39267e8957050c866e49f1ce781083d55516563c",
+            "inspection": "view_image, inspected once: Pink/violet outer folds, orange/yellow middle folds and green/cyan inner folds converge on a small blue/magenta flower. Small oval cavities and rolled mouths appear within larger lobes, especially at upper centre and right. Broad black openings remain at upper left and behind the right layers. Pointed wedge-like panels, stretched cavities, contour-like highlights and stippled edges dominate over readable nested solids."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v16.png",
+            "sha256": "64411ca366060fa7372bf69b21aa2c4768f98ee92484b72e794fff989da86ac9",
+            "receipt_sha256": "245656855ca2052d5d48409ebec7531633c8d0ee6afd6e5d5acbc0a8f30c966c",
+            "inspection": "view_image, inspected once: Real forward walking to z=-8.74656 enlarges green/yellow folds and changes their overlap with the cyan/violet centre. Small round mouths and recessed ovals become visible on the upper green and right orange surfaces, but they are still stretched into broad panels. Black distance persists at upper right; other holes expose blue/violet folds. The central rosette remains small and repeated; approach does not reveal convincing recursive chambers. Rough dark silhouette edges remain."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v16-motion.png",
+            "sha256": "06f1887ff507e4a170ce3bffeeb3b74b1e47618d9e5f9ec8ab570694aa742d94",
+            "receipt_sha256": "e53346cbf00d3b4c44514e492dea3175d9b6508b98a0d6047fef649ee53545bb",
+            "inspection": "view_image, inspected once: Real forward walking to z=-8.74656 enlarges green/yellow folds and changes their overlap with the cyan/violet centre. Small round mouths and recessed ovals become visible on the upper green and right orange surfaces, but they are still stretched into broad panels. Black distance persists at upper right; other holes expose blue/violet folds. The central rosette remains small and repeated; approach does not reveal convincing recursive chambers. Rough dark silhouette edges remain."
+          }
+        ]
+      },
+      "review": {
+        "grade": "GAME",
+        "reason": "GAME, not RECOGNISE: rigid-frame rounded interiors and smaller attached vaults improve readable volume over v16, but the large glossy shell segments look manufactured. Sharp sliced ends, perforated annular strips, sparse repeated capsule shapes, contour highlights and the tiny repeated centre dominate. Walking exposes more clipping instead of dense continuous recursive structure. Saturated colour and visible rotation do not overcome the game/CG-sculpture appearance. Rebuild required; no witness validation is claimed.",
+        "temporal_observation": "At entry, the large upper magenta mouth moves left while the right magenta mouth rises and turns; the lower-right shell rotates upward. At the fixed walked-in pose, the foreground perforated ring changes into separated crescents and right-hand nested mouths turn into view. The coordinated angular shift demonstrates rotation. Opening and overlap change, but the same capsule inventory persists; a full breathing cycle or convincing spatial self-transformation is not shown.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v17.png",
+            "sha256": "975b0d20b597dbe44e084d3e6339e372550fbe15f5a9c3754a8d30a9c6a022fc",
+            "receipt_sha256": "72fb6402eb02df02bc164bf92244f3ce156049ae56e1e9c24285e659c32a5bbf",
+            "inspection": "view_image, inspected once: Eightfold layers of pink/magenta and orange rounded shell mouths surround yellow/green, cyan and blue inner layers. Thick rims, deep interiors and paired small hooked vaults are visible. Broad black gaps separate petals. Large isolated shells, severed lip ends, contour-like highlights and a small repeated blue centre read as glossy manufactured segments."
+          },
+          {
+            "file": "realism-chrysanthemum-v17-motion.png",
+            "sha256": "f635db62c92536b0edd3a957866e6cf83e9e5bcb78867f0d06180ac65dff8129",
+            "receipt_sha256": "8c45e0d2fcb95d63e0e162f7d07920f16d53ce64a68020e9984ffdb6ee5006a9",
+            "inspection": "view_image, inspected once: Eightfold layers of pink/magenta and orange rounded shell mouths surround yellow/green, cyan and blue inner layers. Thick rims, deep interiors and paired small hooked vaults are visible. Broad black gaps separate petals. Large isolated shells, severed lip ends, contour-like highlights and a small repeated blue centre read as glossy manufactured segments."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v17.png",
+            "sha256": "092b8bdd3d16bd618e46981b5f14a444a4bf7be4696e6ed028e518c73993fad2",
+            "receipt_sha256": "4698703399795cc72a17769140cc231bad5c0909765be35a39178d0e64a3e1c4",
+            "inspection": "view_image, inspected once: Real forward walking reaches z=-8.26656. Green/yellow and orange chamber interiors enlarge; paired subordinate vaults are visibly set into curved back walls. Axial layers recede into a blue/violet centre with changed occlusion. Foreground geometry has conspicuous flat cut faces, perforated annular strips and sharp crescent ends. Black distance remains between shells. Nested geometry is readable but sparse and mechanically repeated."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v17-motion.png",
+            "sha256": "520201e06aed7681539029432658f79554f5a92737c44025275c79a4c8bba339",
+            "receipt_sha256": "160018fa42a291fbde677891bfa3ebdc9e952345e77a7a1245c13da638590601",
+            "inspection": "view_image, inspected once: Real forward walking reaches z=-8.26656. Green/yellow and orange chamber interiors enlarge; paired subordinate vaults are visibly set into curved back walls. Axial layers recede into a blue/violet centre with changed occlusion. Foreground geometry has conspicuous flat cut faces, perforated annular strips and sharp crescent ends. Black distance remains between shells. Nested geometry is readable but sparse and mechanically repeated."
+          }
+        ]
+      }
+    },
+    {
+      "target": "chrysanthemum",
+      "iteration": "swept-branching-corollas-v18",
+      "before": {
+        "grade": "GAME",
+        "reason": "GAME, not RECOGNISE: rigid-frame rounded interiors and smaller attached vaults improve readable volume over v16, but the large glossy shell segments look manufactured. Sharp sliced ends, perforated annular strips, sparse repeated capsule shapes, contour highlights and the tiny repeated centre dominate. Walking exposes more clipping instead of dense continuous recursive structure. Saturated colour and visible rotation do not overcome the game/CG-sculpture appearance. Rebuild required; no witness validation is claimed.",
+        "temporal_observation": "At entry, the large upper magenta mouth moves left while the right magenta mouth rises and turns; the lower-right shell rotates upward. At the fixed walked-in pose, the foreground perforated ring changes into separated crescents and right-hand nested mouths turn into view. The coordinated angular shift demonstrates rotation. Opening and overlap change, but the same capsule inventory persists; a full breathing cycle or convincing spatial self-transformation is not shown.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v17.png",
+            "sha256": "975b0d20b597dbe44e084d3e6339e372550fbe15f5a9c3754a8d30a9c6a022fc",
+            "receipt_sha256": "72fb6402eb02df02bc164bf92244f3ce156049ae56e1e9c24285e659c32a5bbf",
+            "inspection": "view_image, inspected once: Eightfold layers of pink/magenta and orange rounded shell mouths surround yellow/green, cyan and blue inner layers. Thick rims, deep interiors and paired small hooked vaults are visible. Broad black gaps separate petals. Large isolated shells, severed lip ends, contour-like highlights and a small repeated blue centre read as glossy manufactured segments."
+          },
+          {
+            "file": "realism-chrysanthemum-v17-motion.png",
+            "sha256": "f635db62c92536b0edd3a957866e6cf83e9e5bcb78867f0d06180ac65dff8129",
+            "receipt_sha256": "8c45e0d2fcb95d63e0e162f7d07920f16d53ce64a68020e9984ffdb6ee5006a9",
+            "inspection": "view_image, inspected once: Eightfold layers of pink/magenta and orange rounded shell mouths surround yellow/green, cyan and blue inner layers. Thick rims, deep interiors and paired small hooked vaults are visible. Broad black gaps separate petals. Large isolated shells, severed lip ends, contour-like highlights and a small repeated blue centre read as glossy manufactured segments."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v17.png",
+            "sha256": "092b8bdd3d16bd618e46981b5f14a444a4bf7be4696e6ed028e518c73993fad2",
+            "receipt_sha256": "4698703399795cc72a17769140cc231bad5c0909765be35a39178d0e64a3e1c4",
+            "inspection": "view_image, inspected once: Real forward walking reaches z=-8.26656. Green/yellow and orange chamber interiors enlarge; paired subordinate vaults are visibly set into curved back walls. Axial layers recede into a blue/violet centre with changed occlusion. Foreground geometry has conspicuous flat cut faces, perforated annular strips and sharp crescent ends. Black distance remains between shells. Nested geometry is readable but sparse and mechanically repeated."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v17-motion.png",
+            "sha256": "520201e06aed7681539029432658f79554f5a92737c44025275c79a4c8bba339",
+            "receipt_sha256": "160018fa42a291fbde677891bfa3ebdc9e952345e77a7a1245c13da638590601",
+            "inspection": "view_image, inspected once: Real forward walking reaches z=-8.26656. Green/yellow and orange chamber interiors enlarge; paired subordinate vaults are visibly set into curved back walls. Axial layers recede into a blue/violet centre with changed occlusion. Foreground geometry has conspicuous flat cut faces, perforated annular strips and sharp crescent ends. Black distance remains between shells. Nested geometry is readable but sparse and mechanically repeated."
+          }
+        ]
+      },
+      "review": {
+        "grade": "GAME",
+        "reason": "GAME, not RECOGNISE: density and the extent of readable smaller folds improve, and the old radial/perforation cuts are removed. Nevertheless broad glossy paddle surfaces and repeated applied cup motifs look manufactured. Jagged/segmented edge bands, near-straight panel sides, weak structural connection between scales and a tiny blue pinwheel centre remain prominent in the genuine deep view. The intended connected branching corolla is not convincingly achieved visually. Clear rotation and saturated colour do not overcome the game/CG-sculpture appearance; rebuild required, no witness certification.",
+        "temporal_observation": "At entry, the upper orange/yellow leaf shifts right while the upper-left magenta leaf moves left and becomes violet; right-hand leaves move upward. At the fixed walked-in pose, the green upper-centre panel turns toward the upper right, and the right orange foreground petal rotates upward. Black gaps change width and curled faces change exposure. Rotation is clear, but the repeated paddle-and-motif inventory persists; a complete breathing cycle or substantial spatial self-transformation is not demonstrated.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v18.png",
+            "sha256": "c7a346c428577ef52bc8507e02dc0017da0ef6c2ba2851a723f88c5577242ff1",
+            "receipt_sha256": "fd6d27fe6763e1c39c844056ba9cc66a2f97f64e0ab44d65066b01fe564e6e39",
+            "inspection": "view_image, inspected once: Pink/magenta and orange swept leaves fill the near view around yellow, green, cyan and blue radial layers. Three pairs of smaller cupped motifs occur inside broad glossy surfaces. Density increases, but the leaves repeat mechanically, wide faces remain smooth, rim bands are jagged and the axial centre is a tiny pinwheel. Black openings are mostly peripheral at entry."
+          },
+          {
+            "file": "realism-chrysanthemum-v18-motion.png",
+            "sha256": "55cc8b91df2660cdf632264379c677eebd2a3083ee40a6d8602f4ac6862ad4e8",
+            "receipt_sha256": "1b7baf14eecbd4c377097bd53df3e9bf4823286d3a28cf28c16b39012f0445ce",
+            "inspection": "view_image, inspected once: Pink/magenta and orange swept leaves fill the near view around yellow, green, cyan and blue radial layers. Three pairs of smaller cupped motifs occur inside broad glossy surfaces. Density increases, but the leaves repeat mechanically, wide faces remain smooth, rim bands are jagged and the axial centre is a tiny pinwheel. Black openings are mostly peripheral at entry."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v18.png",
+            "sha256": "d84e71b48cedb3d049cf220ec2f8576c19a2d8c919262ec0c6589829c497ea8b",
+            "receipt_sha256": "a98d4cc968a4d9d1377654090348e356b73e7e33f1a9dca8b6fd888af5e2f8b9",
+            "inspection": "view_image, inspected once: Real forward walking reaches z=-7.41312. Large green/yellow and cyan paddle-like panels surround deeper blue layers, with paired smaller cupped forms on their faces. Broad black inter-petal gaps persist. The subordinate forms read as attached decorative motifs, not convincing structural branching. Straight-looking panel sides, broad blank interiors, serrated perimeter bands and glossy repeated shapes dominate."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v18-motion.png",
+            "sha256": "2a4b6e47eeaecd2bf6a939fc914e8d2adfd1dc7ad8337d0146354f14531e5163",
+            "receipt_sha256": "750b4da603d6a3311df664190834c25408f72a29e41748eb4fdaf90e375bb18d",
+            "inspection": "view_image, inspected once: Real forward walking reaches z=-7.41312. Large green/yellow and cyan paddle-like panels surround deeper blue layers, with paired smaller cupped forms on their faces. Broad black inter-petal gaps persist. The subordinate forms read as attached decorative motifs, not convincing structural branching. Straight-looking panel sides, broad blank interiors, serrated perimeter bands and glossy repeated shapes dominate."
+          }
+        ]
+      }
+    },
+    {
+      "target": "chrysanthemum",
+      "iteration": "connected-rounded-arc-sweeps-v19",
+      "before": {
+        "grade": "GAME",
+        "reason": "GAME, not RECOGNISE: density and the extent of readable smaller folds improve, and the old radial/perforation cuts are removed. Nevertheless broad glossy paddle surfaces and repeated applied cup motifs look manufactured. Jagged/segmented edge bands, near-straight panel sides, weak structural connection between scales and a tiny blue pinwheel centre remain prominent in the genuine deep view. The intended connected branching corolla is not convincingly achieved visually. Clear rotation and saturated colour do not overcome the game/CG-sculpture appearance; rebuild required, no witness certification.",
+        "temporal_observation": "At entry, the upper orange/yellow leaf shifts right while the upper-left magenta leaf moves left and becomes violet; right-hand leaves move upward. At the fixed walked-in pose, the green upper-centre panel turns toward the upper right, and the right orange foreground petal rotates upward. Black gaps change width and curled faces change exposure. Rotation is clear, but the repeated paddle-and-motif inventory persists; a complete breathing cycle or substantial spatial self-transformation is not demonstrated.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v18.png",
+            "sha256": "c7a346c428577ef52bc8507e02dc0017da0ef6c2ba2851a723f88c5577242ff1",
+            "receipt_sha256": "fd6d27fe6763e1c39c844056ba9cc66a2f97f64e0ab44d65066b01fe564e6e39",
+            "inspection": "view_image, inspected once: Pink/magenta and orange swept leaves fill the near view around yellow, green, cyan and blue radial layers. Three pairs of smaller cupped motifs occur inside broad glossy surfaces. Density increases, but the leaves repeat mechanically, wide faces remain smooth, rim bands are jagged and the axial centre is a tiny pinwheel. Black openings are mostly peripheral at entry."
+          },
+          {
+            "file": "realism-chrysanthemum-v18-motion.png",
+            "sha256": "55cc8b91df2660cdf632264379c677eebd2a3083ee40a6d8602f4ac6862ad4e8",
+            "receipt_sha256": "1b7baf14eecbd4c377097bd53df3e9bf4823286d3a28cf28c16b39012f0445ce",
+            "inspection": "view_image, inspected once: Pink/magenta and orange swept leaves fill the near view around yellow, green, cyan and blue radial layers. Three pairs of smaller cupped motifs occur inside broad glossy surfaces. Density increases, but the leaves repeat mechanically, wide faces remain smooth, rim bands are jagged and the axial centre is a tiny pinwheel. Black openings are mostly peripheral at entry."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v18.png",
+            "sha256": "d84e71b48cedb3d049cf220ec2f8576c19a2d8c919262ec0c6589829c497ea8b",
+            "receipt_sha256": "a98d4cc968a4d9d1377654090348e356b73e7e33f1a9dca8b6fd888af5e2f8b9",
+            "inspection": "view_image, inspected once: Real forward walking reaches z=-7.41312. Large green/yellow and cyan paddle-like panels surround deeper blue layers, with paired smaller cupped forms on their faces. Broad black inter-petal gaps persist. The subordinate forms read as attached decorative motifs, not convincing structural branching. Straight-looking panel sides, broad blank interiors, serrated perimeter bands and glossy repeated shapes dominate."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v18-motion.png",
+            "sha256": "2a4b6e47eeaecd2bf6a939fc914e8d2adfd1dc7ad8337d0146354f14531e5163",
+            "receipt_sha256": "750b4da603d6a3311df664190834c25408f72a29e41748eb4fdaf90e375bb18d",
+            "inspection": "view_image, inspected once: Real forward walking reaches z=-7.41312. Large green/yellow and cyan paddle-like panels surround deeper blue layers, with paired smaller cupped forms on their faces. Broad black inter-petal gaps persist. The subordinate forms read as attached decorative motifs, not convincing structural branching. Straight-looking panel sides, broad blank interiors, serrated perimeter bands and glossy repeated shapes dominate."
+          }
+        ]
+      },
+      "review": {
+        "grade": "GAME",
+        "reason": "GAME, not RECOGNISE: the broad graph paddles and applied surface motifs are replaced by visibly joined rounded branches, but those branches form repetitive circular scrollwork resembling glossy plastic or ornamental ironwork. Large black gaps dominate, especially the empty annulus isolating the central medallion after forward walking. Smooth broad bands have fine contour artifacts, sparse subordinate curls and no continuous fine-scale complexity. The axial rosette is richer than v19 but still terminates in a tiny repeated star. Rounded geometry and clear rotation do not establish immersive realism; rebuild required, no witness certification.",
+        "temporal_observation": "Entry times5.7325/8.7824 at fixed[0,1.7,8]; deep times9.5800/12.6300 at fixed[0,1.7,-8.3728]. The central upper green/cyan lobe turns toward the upper right; large left green foreground hoops descend in the deep pair. Smaller curls change exposure and overlap while the same repeated scroll inventory persists. Rotation and modest curl-profile variation are visible; no full breathing cycle, genuine fold-over or transformation into new structures is demonstrated.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v19.png",
+            "sha256": "289df84ee7fe8e64cd0878f525bac67ad5bf94264c3390a2d62b573cce8aec4a",
+            "receipt_sha256": "0ed762166a4d36fc48ad7d1a24086264ea0041e92485900b25dd6aa1691cad81",
+            "inspection": "view_image, inspected once: Pink, magenta, orange and violet large rounded scroll hoops surround yellow, green and cyan layers. Smaller curled branches visibly join the hoop interiors. Broad paddle faces are gone and the tips are rounder, but smooth repeated circular bands resemble ornamental ironwork or glossy plastic. Fine contour bands remain on the surfaces. Large black spaces separate the outer rings from a small central green/cyan/blue rosette."
+          },
+          {
+            "file": "realism-chrysanthemum-v19-motion.png",
+            "sha256": "b5bb2f6fc1c72192da8b8bf24b64965f2f6678f09ba8d8e7a8ea46a40c135d4e",
+            "receipt_sha256": "5fc36e762a23cec405612f7b46114690ffd6d95a12d1f269bc9d4895932de937",
+            "inspection": "view_image, inspected once: Pink, magenta, orange and violet large rounded scroll hoops surround yellow, green and cyan layers. Smaller curled branches visibly join the hoop interiors. Broad paddle faces are gone and the tips are rounder, but smooth repeated circular bands resemble ornamental ironwork or glossy plastic. Fine contour bands remain on the surfaces. Large black spaces separate the outer rings from a small central green/cyan/blue rosette."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v19.png",
+            "sha256": "9b71d62c2001ad94249e74b60b08708befcdedc4855d12c1faec5c8de7db5866",
+            "receipt_sha256": "53ddfb32401caeb51a9c734948ade26e26da109e26454b698515620387165d9b",
+            "inspection": "view_image, inspected once: Real forward walking reaches z=-8.37280. Foreground orange, pink and lime hoops enlarge and leave the frame while a green/cyan/yellow scroll rosette grows at the axis. Small curled branches share roots with larger circular bands. A broad empty black annulus isolates the central medallion. Repeated hoop proportions, largely blank rounded bands, contour artifacts and a tiny star at the very centre retain a manufactured ornamental appearance."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v19-motion.png",
+            "sha256": "82cd127c16fa92daac60b49b981f075a7565e354de48dddce20e42ac4d48e7d3",
+            "receipt_sha256": "e70f30bc1821a7c684818b379ca12dc7078b5b015dfdd29cd79eb68f93a28ed9",
+            "inspection": "view_image, inspected once: Real forward walking reaches z=-8.37280. Foreground orange, pink and lime hoops enlarge and leave the frame while a green/cyan/yellow scroll rosette grows at the axis. Small curled branches share roots with larger circular bands. A broad empty black annulus isolates the central medallion. Repeated hoop proportions, largely blank rounded bands, contour artifacts and a tiny star at the very centre retain a manufactured ornamental appearance."
+          }
+        ]
+      }
+    },
+    {
+      "target": "chrysanthemum",
+      "iteration": "hinged-multiscale-lobes-v20",
+      "before": {
+        "grade": "GAME",
+        "reason": "GAME, not RECOGNISE: the broad graph paddles and applied surface motifs are replaced by visibly joined rounded branches, but those branches form repetitive circular scrollwork resembling glossy plastic or ornamental ironwork. Large black gaps dominate, especially the empty annulus isolating the central medallion after forward walking. Smooth broad bands have fine contour artifacts, sparse subordinate curls and no continuous fine-scale complexity. The axial rosette is richer than v19 but still terminates in a tiny repeated star. Rounded geometry and clear rotation do not establish immersive realism; rebuild required, no witness certification.",
+        "temporal_observation": "Entry times5.7325/8.7824 at fixed[0,1.7,8]; deep times9.5800/12.6300 at fixed[0,1.7,-8.3728]. The central upper green/cyan lobe turns toward the upper right; large left green foreground hoops descend in the deep pair. Smaller curls change exposure and overlap while the same repeated scroll inventory persists. Rotation and modest curl-profile variation are visible; no full breathing cycle, genuine fold-over or transformation into new structures is demonstrated.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v19.png",
+            "sha256": "289df84ee7fe8e64cd0878f525bac67ad5bf94264c3390a2d62b573cce8aec4a",
+            "receipt_sha256": "0ed762166a4d36fc48ad7d1a24086264ea0041e92485900b25dd6aa1691cad81",
+            "inspection": "view_image, inspected once: Pink, magenta, orange and violet large rounded scroll hoops surround yellow, green and cyan layers. Smaller curled branches visibly join the hoop interiors. Broad paddle faces are gone and the tips are rounder, but smooth repeated circular bands resemble ornamental ironwork or glossy plastic. Fine contour bands remain on the surfaces. Large black spaces separate the outer rings from a small central green/cyan/blue rosette."
+          },
+          {
+            "file": "realism-chrysanthemum-v19-motion.png",
+            "sha256": "b5bb2f6fc1c72192da8b8bf24b64965f2f6678f09ba8d8e7a8ea46a40c135d4e",
+            "receipt_sha256": "5fc36e762a23cec405612f7b46114690ffd6d95a12d1f269bc9d4895932de937",
+            "inspection": "view_image, inspected once: Pink, magenta, orange and violet large rounded scroll hoops surround yellow, green and cyan layers. Smaller curled branches visibly join the hoop interiors. Broad paddle faces are gone and the tips are rounder, but smooth repeated circular bands resemble ornamental ironwork or glossy plastic. Fine contour bands remain on the surfaces. Large black spaces separate the outer rings from a small central green/cyan/blue rosette."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v19.png",
+            "sha256": "9b71d62c2001ad94249e74b60b08708befcdedc4855d12c1faec5c8de7db5866",
+            "receipt_sha256": "53ddfb32401caeb51a9c734948ade26e26da109e26454b698515620387165d9b",
+            "inspection": "view_image, inspected once: Real forward walking reaches z=-8.37280. Foreground orange, pink and lime hoops enlarge and leave the frame while a green/cyan/yellow scroll rosette grows at the axis. Small curled branches share roots with larger circular bands. A broad empty black annulus isolates the central medallion. Repeated hoop proportions, largely blank rounded bands, contour artifacts and a tiny star at the very centre retain a manufactured ornamental appearance."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v19-motion.png",
+            "sha256": "82cd127c16fa92daac60b49b981f075a7565e354de48dddce20e42ac4d48e7d3",
+            "receipt_sha256": "e70f30bc1821a7c684818b379ca12dc7078b5b015dfdd29cd79eb68f93a28ed9",
+            "inspection": "view_image, inspected once: Real forward walking reaches z=-8.37280. Foreground orange, pink and lime hoops enlarge and leave the frame while a green/cyan/yellow scroll rosette grows at the axis. Small curled branches share roots with larger circular bands. A broad empty black annulus isolates the central medallion. Repeated hoop proportions, largely blank rounded bands, contour artifacts and a tiny star at the very centre retain a manufactured ornamental appearance."
+          }
+        ]
+      },
+      "review": {
+        "grade": "GAME",
+        "reason": "GAME, not RECOGNISE: broad glossy oval buds with small decorative lobes form a sparse inventory of disconnected repeated objects, not a continuous folding fractal corolla. The centre opens and contracts, and smaller lobes articulate, but large blank faces, contour bands, seam artifacts and especially the vast empty near-to-axis annulus dominate. Five geometric scales are not equivalent to continuous visible complexity. The intended density and contour fixes have not succeeded. Rebuild required; this visual judgment is not witness certification.",
+        "temporal_observation": "Entry times4.9185/8.0519 at fixed[0,1.7,8]; deep times9.6198/12.6864 at fixed[0,1.7,-8.37376]. Entry upper orange forms rotate toward upper right and stand more upright as the central rosette contracts. Deep left green and right orange crowns turn from edge-on fingers/cups to front-facing oval buds; small marginal lobes change exposure and relative overlap, and the cyan/purple axial flower expands. Rotation, opening/closing silhouettes and limited local articulation are visible. Two short pairs do not show a complete breathing cycle or continuous surfaces turning inside out.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v20.png",
+            "sha256": "ff46222723f811fc4f1eec8e6afda9ea3197edf6cfa94bed5ae4f0d44a9d9a44",
+            "receipt_sha256": "e345bee7519fc929fd05214e074ba44f40d7f41402fca43a94f0037f3d0e2fb9",
+            "inspection": "view_image, inspected once: Pink, violet, orange, yellow, lime, green and cyan oval buds repeat in concentric tenfold layers around a blue/purple central flower. Each broad smooth oval has attached smaller rounded lobes and still smaller rims. Compared with the prior documented scrollwork, this is a new lobed structure, but its isolated repeated units resemble glossy ornamental buds. Concentric highlight/contour bands remain conspicuous on the broad blank oval faces, with fine jagged seams around some subsidiary lobes. Black gaps occupy much of the view."
+          },
+          {
+            "file": "realism-chrysanthemum-v20-motion.png",
+            "sha256": "03c455692ef1fb123b186bbad2e4879dd4a015ff116bf0cfe4500cbeabcbc24e",
+            "receipt_sha256": "bf85186e1df71c911a221b17aaf2911b16deedaa6cbd3c21401addb31ceed9d4",
+            "inspection": "view_image, inspected once: Pink, violet, orange, yellow, lime, green and cyan oval buds repeat in concentric tenfold layers around a blue/purple central flower. Each broad smooth oval has attached smaller rounded lobes and still smaller rims. Compared with the prior documented scrollwork, this is a new lobed structure, but its isolated repeated units resemble glossy ornamental buds. Concentric highlight/contour bands remain conspicuous on the broad blank oval faces, with fine jagged seams around some subsidiary lobes. Black gaps occupy much of the view."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v20.png",
+            "sha256": "419539af7691fe5aed2a4e8e8f18327b0e6483317ce3903d3583a483035551bb",
+            "receipt_sha256": "1d2225c7987a79b2f2319d791681bfd538a42195e1cb5fa535a7d3ec4e036ce3",
+            "inspection": "view_image, inspected once: Real forward walking reaches z=-8.37376. Large yellow/green and orange buds pass out through the edges; a small cyan/blue/purple rosette remains separated from them by an enormous black annulus. The first deep frame shows edge-on cupped crowns; the second exposes broad oval faces and opens the central flower wider. Subordinate lobes connect to each primary volume, but the primary volumes themselves remain disconnected floating items. There is insufficient geometry through the near-to-axis transition."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v20-motion.png",
+            "sha256": "f68fb046a8c3015cda7ec96eac23ebf77c1c6d32ac6de89a41c317b5322c2483",
+            "receipt_sha256": "eb22f2bcf794bce8ebfb2684e865e92030b1f93fb11bf13eeed73b83d91397ef",
+            "inspection": "view_image, inspected once: Real forward walking reaches z=-8.37376. Large yellow/green and orange buds pass out through the edges; a small cyan/blue/purple rosette remains separated from them by an enormous black annulus. The first deep frame shows edge-on cupped crowns; the second exposes broad oval faces and opens the central flower wider. Subordinate lobes connect to each primary volume, but the primary volumes themselves remain disconnected floating items. There is insufficient geometry through the near-to-axis transition."
+          }
+        ]
+      }
+    },
+    {
+      "target": "chrysanthemum",
+      "iteration": "connected-sheared-corolla-v21",
+      "before": {
+        "grade": "GAME",
+        "reason": "GAME, not RECOGNISE: broad glossy oval buds with small decorative lobes form a sparse inventory of disconnected repeated objects, not a continuous folding fractal corolla. The centre opens and contracts, and smaller lobes articulate, but large blank faces, contour bands, seam artifacts and especially the vast empty near-to-axis annulus dominate. Five geometric scales are not equivalent to continuous visible complexity. The intended density and contour fixes have not succeeded. Rebuild required; this visual judgment is not witness certification.",
+        "temporal_observation": "Entry times4.9185/8.0519 at fixed[0,1.7,8]; deep times9.6198/12.6864 at fixed[0,1.7,-8.37376]. Entry upper orange forms rotate toward upper right and stand more upright as the central rosette contracts. Deep left green and right orange crowns turn from edge-on fingers/cups to front-facing oval buds; small marginal lobes change exposure and relative overlap, and the cyan/purple axial flower expands. Rotation, opening/closing silhouettes and limited local articulation are visible. Two short pairs do not show a complete breathing cycle or continuous surfaces turning inside out.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v20.png",
+            "sha256": "ff46222723f811fc4f1eec8e6afda9ea3197edf6cfa94bed5ae4f0d44a9d9a44",
+            "receipt_sha256": "e345bee7519fc929fd05214e074ba44f40d7f41402fca43a94f0037f3d0e2fb9",
+            "inspection": "view_image, inspected once: Pink, violet, orange, yellow, lime, green and cyan oval buds repeat in concentric tenfold layers around a blue/purple central flower. Each broad smooth oval has attached smaller rounded lobes and still smaller rims. Compared with the prior documented scrollwork, this is a new lobed structure, but its isolated repeated units resemble glossy ornamental buds. Concentric highlight/contour bands remain conspicuous on the broad blank oval faces, with fine jagged seams around some subsidiary lobes. Black gaps occupy much of the view."
+          },
+          {
+            "file": "realism-chrysanthemum-v20-motion.png",
+            "sha256": "03c455692ef1fb123b186bbad2e4879dd4a015ff116bf0cfe4500cbeabcbc24e",
+            "receipt_sha256": "bf85186e1df71c911a221b17aaf2911b16deedaa6cbd3c21401addb31ceed9d4",
+            "inspection": "view_image, inspected once: Pink, violet, orange, yellow, lime, green and cyan oval buds repeat in concentric tenfold layers around a blue/purple central flower. Each broad smooth oval has attached smaller rounded lobes and still smaller rims. Compared with the prior documented scrollwork, this is a new lobed structure, but its isolated repeated units resemble glossy ornamental buds. Concentric highlight/contour bands remain conspicuous on the broad blank oval faces, with fine jagged seams around some subsidiary lobes. Black gaps occupy much of the view."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v20.png",
+            "sha256": "419539af7691fe5aed2a4e8e8f18327b0e6483317ce3903d3583a483035551bb",
+            "receipt_sha256": "1d2225c7987a79b2f2319d791681bfd538a42195e1cb5fa535a7d3ec4e036ce3",
+            "inspection": "view_image, inspected once: Real forward walking reaches z=-8.37376. Large yellow/green and orange buds pass out through the edges; a small cyan/blue/purple rosette remains separated from them by an enormous black annulus. The first deep frame shows edge-on cupped crowns; the second exposes broad oval faces and opens the central flower wider. Subordinate lobes connect to each primary volume, but the primary volumes themselves remain disconnected floating items. There is insufficient geometry through the near-to-axis transition."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v20-motion.png",
+            "sha256": "f68fb046a8c3015cda7ec96eac23ebf77c1c6d32ac6de89a41c317b5322c2483",
+            "receipt_sha256": "eb22f2bcf794bce8ebfb2684e865e92030b1f93fb11bf13eeed73b83d91397ef",
+            "inspection": "view_image, inspected once: Real forward walking reaches z=-8.37376. Large yellow/green and orange buds pass out through the edges; a small cyan/blue/purple rosette remains separated from them by an enormous black annulus. The first deep frame shows edge-on cupped crowns; the second exposes broad oval faces and opens the central flower wider. Subordinate lobes connect to each primary volume, but the primary volumes themselves remain disconnected floating items. There is insufficient geometry through the near-to-axis transition."
+          }
+        ]
+      },
+      "review": {
+        "grade": "GAME",
+        "reason": "GAME, not RECOGNISE: the disconnected motif inventory has genuinely been replaced by a dense, connected ruffled tunnel, but extreme scratch-like aliasing, interference highlights, torn black seams and a simple axial pinwheel read as a defective procedural effect. Density is improved, not realism acceptance. Broad fold outlines change over time, but fine detail is not clean recursive geometry and folding remains only partially convincing. Black defects cannot satisfy the dark/black report descriptor. Rebuild the surface solver, sampling and axial structure; this is visual judgment, not witness certification.",
+        "temporal_observation": "Entry times5.0273/8.0607 at fixed[0,1.7,8]; deep times9.5423/12.6423 at fixed[0,1.7,-8.00000]. Entry green/yellow lip broadens upward and shifts its scallops, revealing a wider cyan band as the axial flower changes orientation and hue. Deep cyan/green lips roll diagonally toward the top and left; the blue throat changes its outline and the central pinwheel contracts and turns. Continuous wave propagation and changing overlap are visible, but two short pairs do not establish a full breathing cycle or a surface turning inside out. Fine scratch changes are not credited as motion evidence.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v21.png",
+            "sha256": "09c798cab279c17af6ebde7cd7743d7fc49b1aac435e8980edf4f70063eb380a",
+            "receipt_sha256": "cf3099b71c503e2360da30097fed18f3071b7d376c8408063f1b688c15a45c81",
+            "inspection": "view_image, inspected once: A connected rainbow tunnel fills the view, with broad magenta/orange outer folds, green/yellow intermediate scallops, cyan/blue/purple inner scallops and a red/yellow/green pinwheel-like central flower. The enormous empty annulus and isolated oval buds are gone. Ruffled lips and smaller ripples connect across the image, but the surfaces are covered in scratch-like striations and interference patterns, with torn, jagged black seams around the major lips. The axial flower is a regular converging pinwheel, not an intricate folding centre."
+          },
+          {
+            "file": "realism-chrysanthemum-v21-motion.png",
+            "sha256": "de35694b3a1c4ef614f2959416a131904c59031bee5bb212cc882feeb3fa6ae0",
+            "receipt_sha256": "eb3f693308b2ef6a2cbd311a93ff8b0e45c2e676de9c6a658ef9b474b31758b5",
+            "inspection": "view_image, inspected once: A connected rainbow tunnel fills the view, with broad magenta/orange outer folds, green/yellow intermediate scallops, cyan/blue/purple inner scallops and a red/yellow/green pinwheel-like central flower. The enormous empty annulus and isolated oval buds are gone. Ruffled lips and smaller ripples connect across the image, but the surfaces are covered in scratch-like striations and interference patterns, with torn, jagged black seams around the major lips. The axial flower is a regular converging pinwheel, not an intricate folding centre."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v21.png",
+            "sha256": "77d7d1a2d3b7827f12a68e7c158813cad9b43b4ef6de7ad2d76c4882b0ad0126",
+            "receipt_sha256": "ddf85d98c96ea671b06edb46faf4cfb4ad08dc78bede662908d6d9eab11e7b43",
+            "inspection": "view_image, inspected once: Real forward walking reaches z=-8.00000. The connected green/cyan near surface fills all edges around a blue/purple scalloped throat and much larger magenta/orange/yellow axial flower. The near-to-axis transition remains filled. Large wave-shaped lips overlap, but severe fine striations, cellular-looking highlight interference and jagged dark tears dominate the surface. These are rendering defects, not evidence of fractals or intentional openings."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v21-motion.png",
+            "sha256": "c94aa47fe98b0c20fa8c20e515e1e2bf7a86017cb2382153f4248b2f43cf476d",
+            "receipt_sha256": "bc853fd012ecf5e8863b965e3c4227766586f57ef7461261d801591c0d7db17b",
+            "inspection": "view_image, inspected once: Real forward walking reaches z=-8.00000. The connected green/cyan near surface fills all edges around a blue/purple scalloped throat and much larger magenta/orange/yellow axial flower. The near-to-axis transition remains filled. Large wave-shaped lips overlap, but severe fine striations, cellular-looking highlight interference and jagged dark tears dominate the surface. These are rendering defects, not evidence of fractals or intentional openings."
+          }
+        ]
+      }
+    },
+    {
+      "target": "chrysanthemum",
+      "iteration": "analytic-filtered-corolla-v22",
+      "before": {
+        "grade": "GAME",
+        "reason": "GAME, not RECOGNISE: the disconnected motif inventory has genuinely been replaced by a dense, connected ruffled tunnel, but extreme scratch-like aliasing, interference highlights, torn black seams and a simple axial pinwheel read as a defective procedural effect. Density is improved, not realism acceptance. Broad fold outlines change over time, but fine detail is not clean recursive geometry and folding remains only partially convincing. Black defects cannot satisfy the dark/black report descriptor. Rebuild the surface solver, sampling and axial structure; this is visual judgment, not witness certification.",
+        "temporal_observation": "Entry times5.0273/8.0607 at fixed[0,1.7,8]; deep times9.5423/12.6423 at fixed[0,1.7,-8.00000]. Entry green/yellow lip broadens upward and shifts its scallops, revealing a wider cyan band as the axial flower changes orientation and hue. Deep cyan/green lips roll diagonally toward the top and left; the blue throat changes its outline and the central pinwheel contracts and turns. Continuous wave propagation and changing overlap are visible, but two short pairs do not establish a full breathing cycle or a surface turning inside out. Fine scratch changes are not credited as motion evidence.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v21.png",
+            "sha256": "09c798cab279c17af6ebde7cd7743d7fc49b1aac435e8980edf4f70063eb380a",
+            "receipt_sha256": "cf3099b71c503e2360da30097fed18f3071b7d376c8408063f1b688c15a45c81",
+            "inspection": "view_image, inspected once: A connected rainbow tunnel fills the view, with broad magenta/orange outer folds, green/yellow intermediate scallops, cyan/blue/purple inner scallops and a red/yellow/green pinwheel-like central flower. The enormous empty annulus and isolated oval buds are gone. Ruffled lips and smaller ripples connect across the image, but the surfaces are covered in scratch-like striations and interference patterns, with torn, jagged black seams around the major lips. The axial flower is a regular converging pinwheel, not an intricate folding centre."
+          },
+          {
+            "file": "realism-chrysanthemum-v21-motion.png",
+            "sha256": "de35694b3a1c4ef614f2959416a131904c59031bee5bb212cc882feeb3fa6ae0",
+            "receipt_sha256": "eb3f693308b2ef6a2cbd311a93ff8b0e45c2e676de9c6a658ef9b474b31758b5",
+            "inspection": "view_image, inspected once: A connected rainbow tunnel fills the view, with broad magenta/orange outer folds, green/yellow intermediate scallops, cyan/blue/purple inner scallops and a red/yellow/green pinwheel-like central flower. The enormous empty annulus and isolated oval buds are gone. Ruffled lips and smaller ripples connect across the image, but the surfaces are covered in scratch-like striations and interference patterns, with torn, jagged black seams around the major lips. The axial flower is a regular converging pinwheel, not an intricate folding centre."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v21.png",
+            "sha256": "77d7d1a2d3b7827f12a68e7c158813cad9b43b4ef6de7ad2d76c4882b0ad0126",
+            "receipt_sha256": "ddf85d98c96ea671b06edb46faf4cfb4ad08dc78bede662908d6d9eab11e7b43",
+            "inspection": "view_image, inspected once: Real forward walking reaches z=-8.00000. The connected green/cyan near surface fills all edges around a blue/purple scalloped throat and much larger magenta/orange/yellow axial flower. The near-to-axis transition remains filled. Large wave-shaped lips overlap, but severe fine striations, cellular-looking highlight interference and jagged dark tears dominate the surface. These are rendering defects, not evidence of fractals or intentional openings."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v21-motion.png",
+            "sha256": "c94aa47fe98b0c20fa8c20e515e1e2bf7a86017cb2382153f4248b2f43cf476d",
+            "receipt_sha256": "bc853fd012ecf5e8863b965e3c4227766586f57ef7461261d801591c0d7db17b",
+            "inspection": "view_image, inspected once: Real forward walking reaches z=-8.00000. The connected green/cyan near surface fills all edges around a blue/purple scalloped throat and much larger magenta/orange/yellow axial flower. The near-to-axis transition remains filled. Large wave-shaped lips overlap, but severe fine striations, cellular-looking highlight interference and jagged dark tears dominate the surface. These are rendering defects, not evidence of fractals or intentional openings."
+          }
+        ]
+      },
+      "review": {
+        "grade": "GAME",
+        "reason": "GAME, not RECOGNISE: solver/root and analytic-normal changes improve broad surface smoothness and reduce obvious torn black seams, but pervasive contour-like lines, smeared corrugations and a flat-looking stretched axial pinwheel still read as a procedural effect. The tube is dense and continuous, not yet an intricate self-transforming fractal corolla. There is no substantial convincing intentional dark space; fine dark creases and slits are ambiguous and receive no descriptor credit. Numerical convergence on a sparse CPU grid does not certify every GPU pixel. Rebuild the axial structure and diagnose remaining shading/contour artifacts without hiding misses. This is visual judgment, not witness certification.",
+        "temporal_observation": "Entry times4.8321/8.0651 at fixed[0,1.7,8]; deep times9.3622/12.5788 at fixed[0,1.7,-7.67968]. At entry the upper green/yellow lip rolls toward the upper right while its left side becomes orange, the cyan throat changes scallop exposure, and the axial flower turns and shifts from green/yellow toward pink/red. Deep green/cyan near lips roll diagonally across the upper and left edges; the large centre contracts, loses its broad green sector and turns into a pink/yellow star. The inner opening changes shape and relative overlap. These are visible undulation and rotation, but the short pairs do not establish a full breathing cycle, inside-out transformation or convincing continuous fold-over. Changing contour lines are not credited as motion evidence.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v22.png",
+            "sha256": "c354fb4b123599a74b7c72c5c5b678802571255262b4166afd0583e98dc4bb0b",
+            "receipt_sha256": "f17d06386b4c71055c0c00de5a914d7760e4746104b6798e6cc78898b8d1425d",
+            "inspection": "view_image, inspected once: A dense connected rainbow corolla fills the view: magenta, red and orange near walls encircle green/yellow, cyan/blue and violet scalloped lips ending in a red/yellow/green radial flower. Broad folds are smoother and the conspicuous torn black seams are much less apparent than in v21. Nevertheless the walls retain thin contour-like loops and fine interference lines; some lips look melted or streaked. The axial flower remains a simple regular pinwheel with stretched blades, not a richly folding centre."
+          },
+          {
+            "file": "realism-chrysanthemum-v22-motion.png",
+            "sha256": "39c10eca7f69cbf10f5c9112965a3d49e7e4157efb6bac9980da78661f893744",
+            "receipt_sha256": "b38422294c8a3a4f4843f9566ad7171a54d7f0e7e892c72b5f4e032c0f02880f",
+            "inspection": "view_image, inspected once: A dense connected rainbow corolla fills the view: magenta, red and orange near walls encircle green/yellow, cyan/blue and violet scalloped lips ending in a red/yellow/green radial flower. Broad folds are smoother and the conspicuous torn black seams are much less apparent than in v21. Nevertheless the walls retain thin contour-like loops and fine interference lines; some lips look melted or streaked. The axial flower remains a simple regular pinwheel with stretched blades, not a richly folding centre."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v22.png",
+            "sha256": "9b5c766a0f3819ee1675caad6ca3e2e4c0e3e5e643d51cdbc8034880d01bac8b",
+            "receipt_sha256": "b86c92fa6e48e2ba9cd078a328dc33e55c0f4cb8c816bee32f246a8831b79de2",
+            "inspection": "view_image, inspected once: Actual forward walking reaches z=-7.67968. Green/cyan foreground fills all image edges around blue/purple and magenta lips, and a much larger red/pink/yellow/green axial flower. The continuous depth connection persists and broad lips are smoother, but the centre looks like a flat stretched radial fan. Thin outlined loops cover smooth wall areas; rims carry fine irregular speckling and some dark sharp slits. These unresolved marks cannot be credited as fractal structure or intentional black space."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v22-motion.png",
+            "sha256": "dbf825db683c6b1591abf4224b086442d8b433bb9c8849f8fe070546f8e8f019",
+            "receipt_sha256": "3bcd362801f01afa46d743bd74af075d6af52a91ac69516a6f93446763ee5a5f",
+            "inspection": "view_image, inspected once: Actual forward walking reaches z=-7.67968. Green/cyan foreground fills all image edges around blue/purple and magenta lips, and a much larger red/pink/yellow/green axial flower. The continuous depth connection persists and broad lips are smoother, but the centre looks like a flat stretched radial fan. Thin outlined loops cover smooth wall areas; rims carry fine irregular speckling and some dark sharp slits. These unresolved marks cannot be credited as fractal structure or intentional black space."
+          }
+        ]
+      }
+    },
+    {
+      "target": "chrysanthemum",
+      "iteration": "rough-jewel-corolla-v23",
+      "before": {
+        "grade": "GAME",
+        "reason": "GAME, not RECOGNISE: solver/root and analytic-normal changes improve broad surface smoothness and reduce obvious torn black seams, but pervasive contour-like lines, smeared corrugations and a flat-looking stretched axial pinwheel still read as a procedural effect. The tube is dense and continuous, not yet an intricate self-transforming fractal corolla. There is no substantial convincing intentional dark space; fine dark creases and slits are ambiguous and receive no descriptor credit. Numerical convergence on a sparse CPU grid does not certify every GPU pixel. Rebuild the axial structure and diagnose remaining shading/contour artifacts without hiding misses. This is visual judgment, not witness certification.",
+        "temporal_observation": "Entry times4.8321/8.0651 at fixed[0,1.7,8]; deep times9.3622/12.5788 at fixed[0,1.7,-7.67968]. At entry the upper green/yellow lip rolls toward the upper right while its left side becomes orange, the cyan throat changes scallop exposure, and the axial flower turns and shifts from green/yellow toward pink/red. Deep green/cyan near lips roll diagonally across the upper and left edges; the large centre contracts, loses its broad green sector and turns into a pink/yellow star. The inner opening changes shape and relative overlap. These are visible undulation and rotation, but the short pairs do not establish a full breathing cycle, inside-out transformation or convincing continuous fold-over. Changing contour lines are not credited as motion evidence.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v22.png",
+            "sha256": "c354fb4b123599a74b7c72c5c5b678802571255262b4166afd0583e98dc4bb0b",
+            "receipt_sha256": "f17d06386b4c71055c0c00de5a914d7760e4746104b6798e6cc78898b8d1425d",
+            "inspection": "view_image, inspected once: A dense connected rainbow corolla fills the view: magenta, red and orange near walls encircle green/yellow, cyan/blue and violet scalloped lips ending in a red/yellow/green radial flower. Broad folds are smoother and the conspicuous torn black seams are much less apparent than in v21. Nevertheless the walls retain thin contour-like loops and fine interference lines; some lips look melted or streaked. The axial flower remains a simple regular pinwheel with stretched blades, not a richly folding centre."
+          },
+          {
+            "file": "realism-chrysanthemum-v22-motion.png",
+            "sha256": "39c10eca7f69cbf10f5c9112965a3d49e7e4157efb6bac9980da78661f893744",
+            "receipt_sha256": "b38422294c8a3a4f4843f9566ad7171a54d7f0e7e892c72b5f4e032c0f02880f",
+            "inspection": "view_image, inspected once: A dense connected rainbow corolla fills the view: magenta, red and orange near walls encircle green/yellow, cyan/blue and violet scalloped lips ending in a red/yellow/green radial flower. Broad folds are smoother and the conspicuous torn black seams are much less apparent than in v21. Nevertheless the walls retain thin contour-like loops and fine interference lines; some lips look melted or streaked. The axial flower remains a simple regular pinwheel with stretched blades, not a richly folding centre."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v22.png",
+            "sha256": "9b5c766a0f3819ee1675caad6ca3e2e4c0e3e5e643d51cdbc8034880d01bac8b",
+            "receipt_sha256": "b86c92fa6e48e2ba9cd078a328dc33e55c0f4cb8c816bee32f246a8831b79de2",
+            "inspection": "view_image, inspected once: Actual forward walking reaches z=-7.67968. Green/cyan foreground fills all image edges around blue/purple and magenta lips, and a much larger red/pink/yellow/green axial flower. The continuous depth connection persists and broad lips are smoother, but the centre looks like a flat stretched radial fan. Thin outlined loops cover smooth wall areas; rims carry fine irregular speckling and some dark sharp slits. These unresolved marks cannot be credited as fractal structure or intentional black space."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v22-motion.png",
+            "sha256": "dbf825db683c6b1591abf4224b086442d8b433bb9c8849f8fe070546f8e8f019",
+            "receipt_sha256": "3bcd362801f01afa46d743bd74af075d6af52a91ac69516a6f93446763ee5a5f",
+            "inspection": "view_image, inspected once: Actual forward walking reaches z=-7.67968. Green/cyan foreground fills all image edges around blue/purple and magenta lips, and a much larger red/pink/yellow/green axial flower. The continuous depth connection persists and broad lips are smoother, but the centre looks like a flat stretched radial fan. Thin outlined loops cover smooth wall areas; rims carry fine irregular speckling and some dark sharp slits. These unresolved marks cannot be credited as fractal structure or intentional black space."
+          }
+        ]
+      },
+      "review": {
+        "grade": "GAME",
+        "reason": "GAME, not RECOGNISE: the old pervasive fine reflection contours are reduced, but hard-edged black blotches, large dim/smeared wall areas, shallow detail and a flat-looking axial colour fan still read as a procedural effect. Deep motion makes the centre smoother and less intricate, not richly folded. Glossy highlights do not establish jewel-like density throughout. Black patches exist but do not convincingly read as intentional spatial openings; no root-miss or shading artifact receives geometry credit. Next diagnose occlusion and axial form separately before rebuilding. This is visual judgment, not witness certification; CPU convergence is not GPU first-hit proof.",
+        "temporal_observation": "Entry times6.3165/9.4996 at fixed[0,1.7,8]; deep times9.5688/12.6189 at fixed[0,1.7,-8.31904]. Entry upper green/yellow lip becomes red/yellow and rolls diagonally while the cyan/blue throat changes scallop exposure; the small green flower turns into a pink/yellow fan. Deep green/cyan near walls roll across the upper/left edges, violet lips shift overlap, and the centre broadens and simplifies from a sharply creased fan to a smoother pink/yellow radial disc. This supports rotation and undulation with some changing outlines, not a full breathing cycle, convincing fold-over or inside-out transformation. Moving black blotches are not credited as geometry motion.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v23.png",
+            "sha256": "bf5c661366b960df5bb4c78932dbc65bda2efdf5bad822659904d20a0e87bb1f",
+            "receipt_sha256": "573879fe1cb27d3f40b2ac23403c9c465d26b6d92f6cdd6a1cd3eab5539e832a",
+            "inspection": "view_image, inspected once: Connected red/magenta/violet walls enclose green/yellow, cyan/blue and pink scalloped lips, ending in a small green/yellow/pink radial flower. The fine contour loops seen in v22 are no longer pervasive. Broad highlights are smoother, but many hard-edged near-black oval and lobed blotches cover the walls. Large surface areas are dim; scattered lime, cyan and pink highlights look glossy. The centre remains a simple stretched pinwheel, not a richly folding corolla."
+          },
+          {
+            "file": "realism-chrysanthemum-v23-motion.png",
+            "sha256": "dea8d7500e88997f215ef4fdac02fb03dd601b3fc176864344079d31c9559315",
+            "receipt_sha256": "3bc541b24b26d765699b856f4d98c16a667a4e2c13100a0e46551068ad2f374a",
+            "inspection": "view_image, inspected once: Connected red/magenta/violet walls enclose green/yellow, cyan/blue and pink scalloped lips, ending in a small green/yellow/pink radial flower. The fine contour loops seen in v22 are no longer pervasive. Broad highlights are smoother, but many hard-edged near-black oval and lobed blotches cover the walls. Large surface areas are dim; scattered lime, cyan and pink highlights look glossy. The centre remains a simple stretched pinwheel, not a richly folding corolla."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v23.png",
+            "sha256": "8b8266a3c3725065fe2ad43ba3feaba8dc05faff413455eca4e419898ab24514",
+            "receipt_sha256": "53482365752d7d87d973637d26f99448cd7b988b5faffafc1c95702e1310d02b",
+            "inspection": "view_image, inspected once: Actual forward walking reaches z=-8.31904. Green/cyan foreground surrounds blue/violet inner lips and a large pink/yellow/red axial fan. Smaller corrugations remain, but broad surfaces are smooth or smeared rather than deeply recursive. Black lobed patches are conspicuous and often look flat. In the motion frame the centre becomes an almost featureless coloured radial disc with a sharp central convergence; the axial warp has not established convincing depth folding."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v23-motion.png",
+            "sha256": "02e39bdb3c82a0d9db6cc5b3901f2af330780e5c5212acbc34fff3272c0e77b2",
+            "receipt_sha256": "77ebf2cfd5edd228ebc362727a20897a4e6d4caf82563c9415241b5c42839867",
+            "inspection": "view_image, inspected once: Actual forward walking reaches z=-8.31904. Green/cyan foreground surrounds blue/violet inner lips and a large pink/yellow/red axial fan. Smaller corrugations remain, but broad surfaces are smooth or smeared rather than deeply recursive. Black lobed patches are conspicuous and often look flat. In the motion frame the centre becomes an almost featureless coloured radial disc with a sharp central convergence; the axial warp has not established convincing depth folding."
+          }
+        ]
+      }
+    },
+    {
+      "target": "chrysanthemum",
+      "iteration": "cartesian-deep-corolla-v25",
+      "before": {
+        "grade": "GAME",
+        "reason": "GAME, not RECOGNISE: the old pervasive fine reflection contours are reduced, but hard-edged black blotches, large dim/smeared wall areas, shallow detail and a flat-looking axial colour fan still read as a procedural effect. Deep motion makes the centre smoother and less intricate, not richly folded. Glossy highlights do not establish jewel-like density throughout. Black patches exist but do not convincingly read as intentional spatial openings; no root-miss or shading artifact receives geometry credit. Next diagnose occlusion and axial form separately before rebuilding. This is visual judgment, not witness certification; CPU convergence is not GPU first-hit proof.",
+        "temporal_observation": "Entry times6.3165/9.4996 at fixed[0,1.7,8]; deep times9.5688/12.6189 at fixed[0,1.7,-8.31904]. Entry upper green/yellow lip becomes red/yellow and rolls diagonally while the cyan/blue throat changes scallop exposure; the small green flower turns into a pink/yellow fan. Deep green/cyan near walls roll across the upper/left edges, violet lips shift overlap, and the centre broadens and simplifies from a sharply creased fan to a smoother pink/yellow radial disc. This supports rotation and undulation with some changing outlines, not a full breathing cycle, convincing fold-over or inside-out transformation. Moving black blotches are not credited as geometry motion.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v23.png",
+            "sha256": "bf5c661366b960df5bb4c78932dbc65bda2efdf5bad822659904d20a0e87bb1f",
+            "receipt_sha256": "573879fe1cb27d3f40b2ac23403c9c465d26b6d92f6cdd6a1cd3eab5539e832a",
+            "inspection": "view_image, inspected once: Connected red/magenta/violet walls enclose green/yellow, cyan/blue and pink scalloped lips, ending in a small green/yellow/pink radial flower. The fine contour loops seen in v22 are no longer pervasive. Broad highlights are smoother, but many hard-edged near-black oval and lobed blotches cover the walls. Large surface areas are dim; scattered lime, cyan and pink highlights look glossy. The centre remains a simple stretched pinwheel, not a richly folding corolla."
+          },
+          {
+            "file": "realism-chrysanthemum-v23-motion.png",
+            "sha256": "dea8d7500e88997f215ef4fdac02fb03dd601b3fc176864344079d31c9559315",
+            "receipt_sha256": "3bc541b24b26d765699b856f4d98c16a667a4e2c13100a0e46551068ad2f374a",
+            "inspection": "view_image, inspected once: Connected red/magenta/violet walls enclose green/yellow, cyan/blue and pink scalloped lips, ending in a small green/yellow/pink radial flower. The fine contour loops seen in v22 are no longer pervasive. Broad highlights are smoother, but many hard-edged near-black oval and lobed blotches cover the walls. Large surface areas are dim; scattered lime, cyan and pink highlights look glossy. The centre remains a simple stretched pinwheel, not a richly folding corolla."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v23.png",
+            "sha256": "8b8266a3c3725065fe2ad43ba3feaba8dc05faff413455eca4e419898ab24514",
+            "receipt_sha256": "53482365752d7d87d973637d26f99448cd7b988b5faffafc1c95702e1310d02b",
+            "inspection": "view_image, inspected once: Actual forward walking reaches z=-8.31904. Green/cyan foreground surrounds blue/violet inner lips and a large pink/yellow/red axial fan. Smaller corrugations remain, but broad surfaces are smooth or smeared rather than deeply recursive. Black lobed patches are conspicuous and often look flat. In the motion frame the centre becomes an almost featureless coloured radial disc with a sharp central convergence; the axial warp has not established convincing depth folding."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v23-motion.png",
+            "sha256": "02e39bdb3c82a0d9db6cc5b3901f2af330780e5c5212acbc34fff3272c0e77b2",
+            "receipt_sha256": "77ebf2cfd5edd228ebc362727a20897a4e6d4caf82563c9415241b5c42839867",
+            "inspection": "view_image, inspected once: Actual forward walking reaches z=-8.31904. Green/cyan foreground surrounds blue/violet inner lips and a large pink/yellow/red axial fan. Smaller corrugations remain, but broad surfaces are smooth or smeared rather than deeply recursive. Black lobed patches are conspicuous and often look flat. In the motion frame the centre becomes an almost featureless coloured radial disc with a sharp central convergence; the axial warp has not established convincing depth folding."
+          }
+        ]
+      },
+      "review": {
+        "grade": "GAME",
+        "reason": "GAME, not RECOGNISE: hard black material blotches are removed and the field is more luminous, but broad rubbery/smeared walls, sparse scalloped rings, milky highlights and a simple axial flower remain. Cartesian central lobes have more relief than the old fan yet do not establish dense recursive 3D folding. Motion makes the centre simpler. No convincing black gaps, readable beings or jewel-like detail throughout. New subpixel ray tolerance is not universal convergence proof, and apparent gaps receive no artifact credit. Next investigate geometry scale/filter suppression and the axial pigment convergence; another colour adjustment alone is insufficient. This is visual judgment, not witness certification.",
+        "temporal_observation": "Fixed entry[0,1.7,8] at6.1390/9.1889; fixed deep[0,1.7,-7.03968] at9.1686/12.2020. Entry scallops rotate diagonally and the blue/pink inner ring changes overlap; the centre changes its small lobe exposure. Deep foreground lime/cyan lobes widen into large pointed sheets, violet/pink inner lips change relative exposure, and the central padded flower becomes a smoother pinwheel. Supports rotation and undulation with outline changes; not a complete breathing cycle or convincing fold-over/inside-out transformation.",
+        "captures": [
+          {
+            "file": "realism-chrysanthemum-v25.png",
+            "sha256": "78e515c632894756eb9760a176bec3b5250dc5436a25c139c6f913e5b06ec34c",
+            "receipt_sha256": "e4f4bfe04bfd2c86edc4298875d2dba9012bb6a9ea7a23e043aacb4afe8251d8",
+            "inspection": "view_image, inspected once: Bright pink/red/violet walls surround lime/cyan, blue/violet and yellow/green scalloped lips. The large hard black lobes are gone. Highlights are broad and milky; most wall area is smooth, rubbery or smeared. The centre is a small padded four-lobed flower with blue dimples and a sharp axial colour convergence, not a dense recursively folding mandala."
+          },
+          {
+            "file": "realism-chrysanthemum-v25-motion.png",
+            "sha256": "a50f3c0958cc80375aaf958ce5bb9adfb1bcc175238c587159561032fafa837c",
+            "receipt_sha256": "e32522312f25a1bd8e223e3fc05ca098a6147d388cc582779e0a864e0dd39dbb",
+            "inspection": "view_image, inspected once: Bright pink/red/violet walls surround lime/cyan, blue/violet and yellow/green scalloped lips. The large hard black lobes are gone. Highlights are broad and milky; most wall area is smooth, rubbery or smeared. The centre is a small padded four-lobed flower with blue dimples and a sharp axial colour convergence, not a dense recursively folding mandala."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v25.png",
+            "sha256": "09eaa2a6bea6686981f9868327e3c0eb243a5524a85710f0f3782d2a4e07fbf4",
+            "receipt_sha256": "599113b02bcbb2e18742d9c9c940ed5ceb5dbb73ed09f2cd5692dc9aef692b97",
+            "inspection": "view_image, inspected once: Real walking reaches z=-7.03968. Broad green/cyan foreground surrounds violet/pink lips and an enlarged green/yellow/orange flower. Several padded central lobes now have visible relief, but the whole remains shallow-looking and sparse. Motion exposes large triangular outer lips and simplifies the centre into a smooth few-lobed pinwheel. No convincing black spatial gaps are visible."
+          },
+          {
+            "file": "realism-chrysanthemum-close-v25-motion.png",
+            "sha256": "395b60fb60c8c07713dab9d91c0d7c6af216f6079571f85de5560ec4cff19500",
+            "receipt_sha256": "50a919c2bb120e17f6583b1918062c02b0af54c037d73e4a5048ed56a4a96335",
+            "inspection": "view_image, inspected once: Real walking reaches z=-7.03968. Broad green/cyan foreground surrounds violet/pink lips and an enlarged green/yellow/orange flower. Several padded central lobes now have visible relief, but the whole remains shallow-looking and sparse. Motion exposes large triangular outer lips and simplifies the centre into a smooth few-lobed pinwheel. No convincing black spatial gaps are visible."
           }
         ]
       }

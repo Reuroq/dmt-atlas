@@ -1,0 +1,42 @@
+{
+  "exact_original_signed_delta_reproduced": true,
+  "original_high_failure": "not repaired",
+  "protected_unchanged": {
+    "trip.js": true,
+    "trip-v18.js": true,
+    "continuum.js": true,
+    "fractal.js": true,
+    "trip.css": true,
+    "visual-chrysanthemum.png": true,
+    "visual-chrysanthemum.json": true,
+    "accessibility-input-pump-v18-restored-detail-reduced-pixel-stillness-before.png": true,
+    "accessibility-input-pump-v18-restored-detail-reduced-pixel-stillness-after.png": true,
+    "VISUAL_RESEARCH.json": true,
+    "fidelity-grades.json": true,
+    "realism-grades.json": true
+  },
+  "artifacts": {
+    "probe_static_compositor_v18.py": "cc01038057d002580549be797dd9ec5d3bd79af0cd16bf91774989842db1428a",
+    "build_static_compositor_v18r2.py": "3b0f783404b916bbbc890aa1cb1ccd64072de13a00b06e69e7d2694f6307889a",
+    "probe_static_compositor_v18r2.py": "857e1efd863aea55e0ae3eeb2a89c833afebc4bd75f1ab9efdfb64528d2b01e2",
+    "close_static_compositor_v18r2.py": "aa8bbcb2511f980540cee8758c6945fe297ecb6fedd49858d7e0bb9d6dce7007",
+    "static-compositor-v18-initial-failure.json": "09068ff836d3a583c1c3ff7e38e63dc5dbbaea5bbf0bac458946f2a09c810934",
+    "probe-static-compositor-v18.log": "9f1486d41ae2e2ac5029db133abaeed38a55a9efa56c286746fbafcb4fb42a7e",
+    "probe-static-compositor-v18r2.log": "de64084983a5fab4d32d5f67484ac14879c63f16595d504ff428623baebde570",
+    "static-compositor-v18r2-review.md": "670147d521296ce5cf7798b1a6a56e82e319a4ba248f7ca5b6646086b6d15849",
+    "latest.png": "c0c8fb1bc7d946ffcaa9b562744f7c962447bc8719174e9192cbcfadfb95002d",
+    "status.txt": "d23fca15ce06d1c7222af912e11fdf7cfe6e40d5875ce4e5761990cb768cadd7",
+    "NOTES.md": "e96d73a3abca1a778d5190818cec2b8300146db9d0fcd50410c566add1fc9b09",
+    "README.md": "131e9f091fb70cd154f693e42b0d682efaa06b65cd9dca6496b55887a2b37c4c",
+    "diagnostic-static-compositor-v18.html": "ab4366ca99eb34be6737e55bb72cc12717323ff0086fe89ff230baac3ee321b7",
+    "diagnostic-static-compositor-v18r2-present-failure-after.png": "adf72d58b987c934da30696e53afd38c7d9778085def848d0db14b7837113a0d",
+    "diagnostic-static-compositor-v18-present-failure-after.png": "c76fc0b57f05838ed571226b911ff93c40b26dbcd3126a4e5232099d1f861c02",
+    "diagnostic-static-compositor-v18r2.html": "4acb3d97731d566619eede2d8f367c9597b4179b0ed0021d53bc8020f05389fa",
+    "diagnostic-static-compositor-v18.js": "4e40178b227d37d98f8bc7ab62e6fb9d48bc35c21ad9c0fe7421a9bf5ffcc757",
+    "diagnostic-static-compositor-v18r2.png": "c0c8fb1bc7d946ffcaa9b562744f7c962447bc8719174e9192cbcfadfb95002d",
+    "diagnostic-static-compositor-v18r2.json": "7e3061d29c42c471500d0493686e22baa562a71bd40d3b30dd1937b4ec9bc933",
+    "diagnostic-static-compositor-v18r2.js": "4e40178b227d37d98f8bc7ab62e6fb9d48bc35c21ad9c0fe7421a9bf5ffcc757",
+    "diagnostic-static-compositor-v18-present-failure-before.png": "adf72d58b987c934da30696e53afd38c7d9778085def848d0db14b7837113a0d",
+    "diagnostic-static-compositor-v18r2-present-failure-before.png": "c76fc0b57f05838ed571226b911ff93c40b26dbcd3126a4e5232099d1f861c02"
+  }
+}

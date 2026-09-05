@@ -1,0 +1,54 @@
+{
+  "integrity_passed": true,
+  "capture_gate_passed": true,
+  "visual_grade": "GAME",
+  "rejected": true,
+  "promotion": false,
+  "protected": {
+    "index.html": "37275c34171ffdca0392e0798d77beec09101c0c8a1c7056bca0ae20d50604bb",
+    "trip.js": "93dd974ec505e916e9ee121d38b57f1a4caf739a146a99035f957262c896d218",
+    "fractal.js": "fd7a14ebfc87988e95e14255adc903e079cb47bb075db7612d5d57091ed235d8",
+    "continuum.js": "6b55368f4f3d31cbd71dc0420707c8860e99a1b471f9108a53a77416f871106d",
+    "beings.js": "fc2900166510269f426b8c49c12b5d0644df816f4545972ef343ef8a02aaa60b",
+    "trip.css": "f15021f588310fc15b06b23677295dd8377284e3458e3932fe3e35c222499d59",
+    "hud-alpha-ramp-v18.png": "da9d89e627cdf4bb177830fe7d37cc62e03b818e35f0677890a3061f744ff4cf",
+    "fidelity-ui.js": "f5634f2373925ccfe42de91aeec83cc4bce5c420ff7b7e5ea5dd6ae66f0856b4",
+    "fidelity.css": "558881d68cb469dac4144b0dabcfcdef11e0fcb50e2ed7059b47a0e69f5f4656",
+    "vendor/three.min.js": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa",
+    "data.js": "87c2ecc3742af9f336ebb882e073a61762f975419412e2e6ec4e053f3cc90b43",
+    "fidelity-data.js": "23230c73ff37da052266d7d29951e18d46db069bc8d79ad7ee39b2db950d3e7c",
+    "fidelity-grades.json": "d0bf9b45b7c58166c268e788a2f192c9aff304e018ad4d65c31be0c3527585e9",
+    "realism-grades.json": "657e9a61acb5dabaeb9283da22590e031c1dde074dbc817a63f5941519f66779",
+    "visual-chrysanthemum.png": "9ab2511f859eebebdca7973cc9d4b852df6cc118dd02cf8cd4c55efd72957f2c",
+    "visual-chrysanthemum.json": "9d6136cbc55818aba257a6bffa40aafda0aa0ae89af0404c3cf5a8ad36999b46"
+  },
+  "files": {
+    "close_centre_v31_visual.py": "19bac1c09e0c8071060ec1b75783020cf65df0977e6a88607b4961add2dac4cc",
+    "render_centre_v31.py": "5921b0f6ee3638f26d2fae2e03481cb0b9f4b87cd82e0f3ac5909273c4ebb348",
+    "render-centre-v31.log": "af62ee757029adcc13f9b113b772e30e23b3ee14001e93950951a0a36cfb097f",
+    "centre-v31-integrity.json": "ddff03fd587f057eb881676caca1834245790aef3766fe61deee87edc7b78f4d",
+    "diagnostic-centre-v31.html": "ebf59fa87833f9f9357934fce4c7a82a801135699257ba3666fc9e5b6ccda882",
+    "diagnostic-centre-v31-receipts.json": "d4d5e0a0a409baff02b0c8e67804b43e12d90a26e560fdf826355789d2b86822",
+    "diagnostic-centre-v31-review.json": "0cc87bf9ce4a9650de7c2be07a1468a739f80ffab12c4583375d004e641099ad",
+    "diagnostic-centre-v31-review.md": "cda7bd011fea552bfce125299bc86c9380f99866bd427e8fba0c1d5a76731d61",
+    "diagnostic-centre-v31-entry.png": "8142075e8d0a20e1c3c7ac8c3be6e89d9d3bac7294605f94f7d2ad68b879ac59",
+    "diagnostic-centre-v31-entry.json": "726744b54414c22bed76bbd9da830d588741e7538a2340917fbd162da990ecce",
+    "diagnostic-centre-v31-entry-motion.png": "4f626ef0e99607fdedad5c520388ed553c2d3bf4db40dc787d6aa13c8524d8dc",
+    "diagnostic-centre-v31-entry-motion.json": "1c9a736de5a8a79b853ae9fbd0619a5be8e698b1735918c6bb7cefb2f37e58fa",
+    "diagnostic-centre-v31-deep.png": "59663229ac9005de518b926678df0da72b263f7afb04a8afd5a0cdb50c7cf923",
+    "diagnostic-centre-v31-deep.json": "c7c6d09b86aa81c75f016fc6b5784b899e6ba4972ac6a6b947a68fa3aea388cd",
+    "diagnostic-centre-v31-deep-motion.png": "e9bf7be899fbc0fb5a85b9c9f023de97e550eede652705ac6054f8fcbae41b0d",
+    "diagnostic-centre-v31-deep-motion.json": "f62372331232b3eca2f4a8957e22d01b428ab765100c9d397d804abe302612ce"
+  },
+  "display": {
+    "latest.png": "e9bf7be899fbc0fb5a85b9c9f023de97e550eede652705ac6054f8fcbae41b0d",
+    "source": "diagnostic-centre-v31-deep-motion.png",
+    "diagnostic_only": true
+  },
+  "documentation": {
+    "README.md": "407f3238ba85c21ade6bffbd6a88b40e99bde07b521ab53bee226fa3b79342c8",
+    "status.txt": "0e8143c723baf46cf331c2ca50cfbaa622c15299101af83c20177cf98e63980d",
+    "NOTES.md": "43b7688e012c7c1ae134c835ed35bed5dad6f2d78ba7ddeefba10853401819c5",
+    "NOTES-before-centre-v31-visual.md": "64091fbd33ba82bf66dc82f31b75f4afbb52b245c1d74bd7e662bde1201116d4"
+  }
+}

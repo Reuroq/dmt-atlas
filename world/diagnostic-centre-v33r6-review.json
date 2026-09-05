@@ -1,0 +1,85 @@
+{
+  "diagnostic_only": true,
+  "renderer_exit_code": 1,
+  "numeric_passed": true,
+  "capture_gate_passed": false,
+  "entry_settle_passed": true,
+  "visual_grade": "GAME",
+  "visual_scope": "entry still only",
+  "temporal_grade": "UNREVIEWED",
+  "deep_grade": "UNREVIEWED",
+  "new_images": 1,
+  "inspections": 1,
+  "inspection_method": "view_image once after actual renderer exit",
+  "inspected_image": "diagnostic-centre-v33r6-entry.png",
+  "inspected_sha256": "113598d510deb89e9b7968a82354ea466958ba389e3c0ee4d168b77242e6e356",
+  "reason": "GAME (entry still only): disconnected oval/disc-like coloured pieces arranged in sparse radial chains across a predominantly black field. Rainbow bands give some pieces iridescent colour, but many read as flat coloured marks. Simple silhouettes, smooth interiors and repeated rows dominate; no convincing continuous curled petal surfaces or resolved nested fractal hierarchy. The centre is a dark gap rather than a legible folding flower. It reads as a procedural particle tunnel/game effect, not a recognisable immersive chrysanthemum. Black depth and multiple colours are visible, but do not establish source-specific dark-green layering or coverage. No motion claim can be made from this sole still.",
+  "failure": {
+    "operation": "entry real temporal advance and pause",
+    "operation_wall_seconds": 90.0125589882955,
+    "exception": "TimeoutError('Page.wait_for_function: Timeout 90000ms exceeded.')",
+    "diagnostics": {
+      "stage": "chrysanthemum",
+      "routeIndex": 2,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 2.099999999999991,
+      "animTime": 5.195799999809257,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": true,
+      "renderedAnimTime": 4.679099999809256,
+      "frames": 6,
+      "position": [
+        0,
+        1.7,
+        8
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum"
+      ],
+      "entities": [],
+      "interactions": 0,
+      "evidence": [
+        "phase|The Chrysanthemum",
+        "geometry|The Chrysanthemum",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Mandalas & symmetry fields"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 35,
+      "portals": [
+        {
+          "x": 0,
+          "z": -23,
+          "width": 3.5,
+          "target": "next"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 1,
+      "triangles": 2,
+      "geometries": 5,
+      "actors": [],
+      "uncitedMeshes": 0
+    }
+  },
+  "observed_animation_advance": 2.049999999999995,
+  "entry_settle_seconds": 58.75473119970411,
+  "promotion": false,
+  "latest_update": "Byte-copy of inspected, visibly labelled ISOLATED v33r6 entry diagnostic; REJECTED GAME in README/status.",
+  "limits": "One inspected still is not a completed realism sequence. Temporal pair and deep views UNREVIEWED; no breathing/fold-over, temporal-AA, source/coverage, exit or full-acceptance credit. The timeout receipt does not isolate execution, compilation, queue or frame scheduling. Submitted/rendered clock labels and frames are not GPU-completion measurements. Sparse cost PASS remains valid but does not establish full-resolution performance or hardware-GPU speed.",
+  "next_work": "Design and implement a substantive isolated v34 geometry rebuild from the rejected v33r6, not another colour-only or arithmetic-only revision. First inspect only targeted petal-cell definitions and the existing chrysanthemum source conclusions; do not repeat corpus research. Aim for continuous curled parent laminae with readable overlapping petal depth, connected nested children and nonuniform scale hierarchy, retaining open black gaps rather than sparse oval chains or broad annular sheets. Plan a bounded cheaper field and conservative reach certificate together; preserve corridor/clearance, budgets, root gates and native controls. Close the implementation/proof phase before new one-shot numerical/cost and original 1200x800 HIGH/90s capture gates. Do not replay v33r6, prewarm, relax limits or change the frame pump on this receipt. GAME requires rebuilding; no live promotion."
+}

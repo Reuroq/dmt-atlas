@@ -12,7 +12,7 @@ Adversarial visual judgment of a procedural interpretation, not witness validati
 | --- | --- | --- |
 | onset | PENDING | Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage. |
 | geometry | PENDING | Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage. |
-| chrysanthemum | CLOSE | CLOSE: continuous curved red/gold and cyan/blue sheets overlap into a filled flower-like centre, with smoother coherent highlights and less streaking than v8. The horizontal colour seam is gone. However broad pale surfaces still dominate, thin dark edge artifacts remain, and the nested centre is a small repeated rosette rather than dense recursively unfolding jewelled geometry. Not RECOGNISE. |
+| chrysanthemum | GAME | GAME, not RECOGNISE: hard black material blotches are removed and the field is more luminous, but broad rubbery/smeared walls, sparse scalloped rings, milky highlights and a simple axial flower remain. Cartesian central lobes have more relief than the old fan yet do not establish dense recursive 3D folding. Motion makes the centre simpler. No convincing black gaps, readable beings or jewel-like detail throughout. New subpixel ray tolerance is not universal convergence proof, and apparent gaps receive no artifact credit. Next investigate geometry scale/filter suppression and the axial pigment convergence; another colour adjustment alone is insufficient. This is visual judgment, not witness certification. |
 | rush | PENDING | Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage. |
 | membrane | PENDING | Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage. |
 | waiting | PENDING | Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage. |
@@ -48,11 +48,11 @@ Gate: No inspected realism grade; Specific visual and temporal reasons required;
 
 ## chrysanthemum
 
-Same-camera HIGH pair narrows and twists the cyan inner rim, changes the right-hand overlap and bends the broad outer sheets while red/gold/blue regions shift. Actual folding is visible, not only texture motion, but both frames retain broad simple sheets and limited nested detail; no completed doorway transformation is demonstrated.
+Fixed entry[0,1.7,8] at6.1390/9.1889; fixed deep[0,1.7,-7.03968] at9.1686/12.2020. Entry scallops rotate diagonally and the blue/pink inner ring changes overlap; the centre changes its small lobe exposure. Deep foreground lime/cyan lobes widen into large pointed sheets, violet/pink inner lips change relative exposure, and the central padded flower becomes a smoother pinwheel. Supports rotation and undulation with outline changes; not a complete breathing cycle or convincing fold-over/inside-out transformation.
 
-Frames: realism-chrysanthemum-v9.png, realism-chrysanthemum-v9-motion.png
+Frames: realism-chrysanthemum-v25.png, realism-chrysanthemum-v25-motion.png, realism-chrysanthemum-close-v25.png, realism-chrysanthemum-close-v25-motion.png
 
-Gate: Rebuild required: CLOSE
+Gate: Rebuild required: GAME; Missing, stale, invalid or uninspected HIGH receipt: realism-chrysanthemum-v25.png; Missing, stale, invalid or uninspected HIGH receipt: realism-chrysanthemum-v25-motion.png; Missing, stale, invalid or uninspected HIGH receipt: realism-chrysanthemum-close-v25.png; Missing, stale, invalid or uninspected HIGH receipt: realism-chrysanthemum-close-v25-motion.png; Two inspected fresh HIGH frames, same camera, >=2 animation seconds apart required
 
 ## rush
 

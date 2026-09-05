@@ -34,6 +34,7 @@ def evaluate(here, targets, being_stages, signature, digest):
                 assert capture.get('inspection') and not receipt['errors']
                 d = receipt['capture_diagnostics']
                 assert d['detail'] == 'high' and d['paused'] and not d['transition']
+                assert d['renderPending'] is False and d['renderedAnimTime'] == d['animTime']
                 assert not d['missingEvidence'] and d['uncitedMeshes'] == 0
                 assert receipt.get('veil_opacity', 0) == 0
                 assert d['stage'] in being_stages.get(target, [target])

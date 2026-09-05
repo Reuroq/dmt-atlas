@@ -1,0 +1,7 @@
+{
+  "method": "Sampled directional-bound regression, not proof of global convergence",
+  "segments": 800,
+  "samples": 4000,
+  "max_derivative_to_bound_ratio": 0.43145616815717586,
+  "passed": true
+}

@@ -1,0 +1,54 @@
+<!doctype html><meta charset="utf-8"><title>v25 scalar discrepancy isolation — no journey state</title>
+<script src="vendor/three.min.js"></script><script src="continuum-v25.js"></script>
+<script>
+const renderer=new THREE.WebGLRenderer({antialias:false});renderer.setSize(1,1);
+const target=new THREE.WebGLRenderTarget(1,1,{type:THREE.FloatType,minFilter:THREE.NearestFilter,magFilter:THREE.NearestFilter,depthBuffer:false});
+const camera=new THREE.PerspectiveCamera(68,1.5,.06,180),scene=new THREE.Scene(),materials=[];
+const mesh=ContinuousWorld.chrysanthemum(scene,materials,camera),material=materials[0];
+mesh.onBeforeRender=()=>{};material.depthTest=false;material.depthWrite=false;
+Object.assign(material.uniforms,{probePoint:{value:new THREE.Vector3()},numericMode:{value:0},overrideAngle:{value:0},cpuAngle:{value:0}});
+let fragment=material.fragmentShader.replace('uniform float time,high,pixelScale;',
+ 'uniform float time,high,pixelScale,numericMode,overrideAngle,cpuAngle;uniform vec3 probePoint;');
+fragment=fragment.replace('float a=atan(p.y,p.x)-time*.065;',
+ 'float a=(overrideAngle>.5?cpuAngle:atan(p.y,p.x))-time*.065;');
+fragment=fragment.replace('return vec4(g,f);',`
+ if(numericMode>.5&&numericMode<1.5)return vec4(r,rho,a,pole);
+ if(numericMode>1.5&&numericMode<2.5)return vec4(cw,warp,v,petal);
+ if(numericMode>2.5)return vec4(chart,sin(petal),cos(petal),footprint);
+ return vec4(g,f);`);
+fragment=fragment.slice(0,fragment.indexOf('   void main(){'))+'void main(){gl_FragColor=sheetSample(probePoint);}';
+fragment=fragment.replace(/\bsin\(/g,'preciseSin(').replace(/\bcos\(/g,'preciseCos(');
+const precise=`
+float preciseSin(float x){
+ x-=TAU*floor((x+3.14159265359)/TAU);
+ if(x>1.57079632679)x=3.14159265359-x;
+ else if(x< -1.57079632679)x=-3.14159265359-x;
+ float q=x*x;
+ return x*(1.+q*(-.166666666667+q*(.00833333333333+q*(-.000198412698413+q*(.0000027557319224+q*(-.0000000250521083854+q*.000000000160590438368))))));
+}
+float preciseCos(float x){
+ x-=TAU*floor((x+3.14159265359)/TAU);float s=1.;
+ if(x>1.57079632679){x=3.14159265359-x;s=-1.;}
+ else if(x< -1.57079632679){x=-3.14159265359-x;s=-1.;}
+ float q=x*x;
+ return s*(1.+q*(-.5+q*(.0416666666667+q*(-.00138888888889+q*(.0000248015873016+q*(-.00000027557319224+q*.00000000208767569879))))));
+}
+vec3 preciseCos(vec3 x){return vec3(preciseCos(x.x),preciseCos(x.y),preciseCos(x.z));}
+`;
+fragment=fragment.replace('   mat2 rot(',precise+'   mat2 rot(');
+material.fragmentShader=fragment;material.needsUpdate=true;
+window.probe=(point,z,time,high,angleOverride)=>{
+ camera.position.set(0,1.7,z);camera.updateMatrixWorld(true);
+ material.uniforms.cameraWorld.value.copy(camera.matrixWorld);
+ material.uniforms.probePoint.value.fromArray(point);material.uniforms.time.value=time;
+ material.uniforms.high.value=high;material.uniforms.pixelScale.value=2*Math.tan(34*Math.PI/180)/800;
+ material.uniforms.cpuAngle.value=Math.atan2(Math.fround(point[1])-1.7,Math.fround(point[0]));
+ material.uniforms.overrideAngle.value=angleOverride;
+ const output=[];
+ for(let mode=0;mode<(angleOverride?1:4);mode++){
+  material.uniforms.numericMode.value=mode;renderer.setRenderTarget(target);renderer.render(scene,camera);
+  const pixel=new Float32Array(4);renderer.readRenderTargetPixels(target,0,0,1,1,pixel);output.push(Array.from(pixel));
+ }
+ return output;
+};
+</script>

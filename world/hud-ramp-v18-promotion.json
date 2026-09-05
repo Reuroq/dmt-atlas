@@ -1,0 +1,42 @@
+{
+  "runtime_change": "Only #hud::before background; all JS runtime and geometry unchanged",
+  "metadata_change": "Include HUD PNG bytes in render_signature",
+  "before": {
+    "trip.js": "93dd974ec505e916e9ee121d38b57f1a4caf739a146a99035f957262c896d218",
+    "trip-v18.js": "93dd974ec505e916e9ee121d38b57f1a4caf739a146a99035f957262c896d218",
+    "continuum.js": "6b55368f4f3d31cbd71dc0420707c8860e99a1b471f9108a53a77416f871106d",
+    "fractal.js": "fd7a14ebfc87988e95e14255adc903e079cb47bb075db7612d5d57091ed235d8",
+    "trip.css": "bb47a370d2d3128caf8afaf6bd732facc953181a8985f9cbe82ceafe7e7a4f00",
+    "visual-chrysanthemum.png": "9ab2511f859eebebdca7973cc9d4b852df6cc118dd02cf8cd4c55efd72957f2c",
+    "visual-chrysanthemum.json": "9d6136cbc55818aba257a6bffa40aafda0aa0ae89af0404c3cf5a8ad36999b46",
+    "accessibility-input-pump-v18-restored-detail-reduced-pixel-stillness-before.png": "63c44a7c258af63144e0957616c004f1e21a7f38bf39ebf1489af1106b6a5b5c",
+    "accessibility-input-pump-v18-restored-detail-reduced-pixel-stillness-after.png": "dc19e53b5161a469e6843d22709c4b0cecb124972d985b1799bded9fae482947",
+    "VISUAL_RESEARCH.json": "fccf03e23f96971be3aeea040935420c2cc85f0ad150ce1f4bef92f9f3af51c4",
+    "fidelity-grades.json": "d0bf9b45b7c58166c268e788a2f192c9aff304e018ad4d65c31be0c3527585e9",
+    "realism-grades.json": "657e9a61acb5dabaeb9283da22590e031c1dde074dbc817a63f5941519f66779",
+    "fidelity.py": "8a8a945202de2ffdb5509aeaafd1303faac83b54f6a459e4061583cc553f8446"
+  },
+  "after": {
+    "trip.js": "93dd974ec505e916e9ee121d38b57f1a4caf739a146a99035f957262c896d218",
+    "trip-v18.js": "93dd974ec505e916e9ee121d38b57f1a4caf739a146a99035f957262c896d218",
+    "continuum.js": "6b55368f4f3d31cbd71dc0420707c8860e99a1b471f9108a53a77416f871106d",
+    "fractal.js": "fd7a14ebfc87988e95e14255adc903e079cb47bb075db7612d5d57091ed235d8",
+    "trip.css": "f15021f588310fc15b06b23677295dd8377284e3458e3932fe3e35c222499d59",
+    "visual-chrysanthemum.png": "9ab2511f859eebebdca7973cc9d4b852df6cc118dd02cf8cd4c55efd72957f2c",
+    "visual-chrysanthemum.json": "9d6136cbc55818aba257a6bffa40aafda0aa0ae89af0404c3cf5a8ad36999b46",
+    "accessibility-input-pump-v18-restored-detail-reduced-pixel-stillness-before.png": "63c44a7c258af63144e0957616c004f1e21a7f38bf39ebf1489af1106b6a5b5c",
+    "accessibility-input-pump-v18-restored-detail-reduced-pixel-stillness-after.png": "dc19e53b5161a469e6843d22709c4b0cecb124972d985b1799bded9fae482947",
+    "VISUAL_RESEARCH.json": "fccf03e23f96971be3aeea040935420c2cc85f0ad150ce1f4bef92f9f3af51c4",
+    "fidelity-grades.json": "d0bf9b45b7c58166c268e788a2f192c9aff304e018ad4d65c31be0c3527585e9",
+    "realism-grades.json": "657e9a61acb5dabaeb9283da22590e031c1dde074dbc817a63f5941519f66779",
+    "fidelity.py": "3ed566abf2ad65f80cf0d769bfd1cadf8933f20412429031b2e21d709f68f6ad"
+  },
+  "asset_sha256": "da9d89e627cdf4bb177830fe7d37cc62e03b818e35f0677890a3061f744ff4cf",
+  "render_signature": "324b7f317aa3c4211b53a9a6fb01377029222a35b63dde91ab04ade77787bd0c",
+  "proof_sha256": {
+    "diagnostic-hud-ramp-v18.json": "c5250ec774860182cc9d8fbe20a8ff7e137683b5f71b00b286534fe0f1bab117",
+    "hud-ramp-v18-appearance.json": "fdff5a0ca876e91f13e010596d917853abfe6594ba7df9df64c836d3304e3785"
+  },
+  "visual_review": "Desktop/mobile fixture inspected once; readable, no obvious banding. Geometry remains GAME. Mobile scene stretch is fixture-only.",
+  "live_acceptance": "Pending affected original HIGH checks; historical failure preserved"
+}

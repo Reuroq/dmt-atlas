@@ -1,0 +1,222 @@
+{
+  "diagnostic_only": true,
+  "receipt_sha256": "da3501c9714c308c9a4dbb23531c64a1363c063d78a01ea2f5268c7cdb40af1a",
+  "settle_passed": false,
+  "failure_operation": "entry settle",
+  "failure_seconds": 90.0220009367913,
+  "errors": [],
+  "trace_records": 538,
+  "trace_dropped": 0,
+  "events": {
+    "invalidate:scene-build": 3,
+    "raf:start": 93,
+    "invalidate:frame-policy": 6,
+    "render-decision": 93,
+    "submission:begin": 4,
+    "composite:scene:begin": 4,
+    "composite:scene:end": 4,
+    "composite:blur-horizontal:begin": 4,
+    "composite:blur-horizontal:end": 4,
+    "composite:blur-vertical:begin": 4,
+    "composite:blur-vertical:end": 4,
+    "composite:finish:begin": 4,
+    "composite:finish:end": 4,
+    "submission:end": 4,
+    "fence-create:begin": 4,
+    "fence-create:end": 4,
+    "flush:begin": 4,
+    "flush:end": 4,
+    "invalidation-cleared": 4,
+    "raf:end": 93,
+    "fence-poll:begin": 93,
+    "fence-poll:end": 93,
+    "fence-retired": 3,
+    "invalidate:movement": 1
+  },
+  "raw_counts": {
+    "invalidate:scene-build": 3,
+    "raf:start": 5499,
+    "invalidate:frame-policy": 93,
+    "render-decision": 5499,
+    "submission:begin": 4,
+    "composite:scene:begin": 4,
+    "composite:scene:end": 4,
+    "composite:blur-horizontal:begin": 4,
+    "composite:blur-horizontal:end": 4,
+    "composite:blur-vertical:begin": 4,
+    "composite:blur-vertical:end": 4,
+    "composite:finish:begin": 4,
+    "composite:finish:end": 4,
+    "submission:end": 4,
+    "fence-create:begin": 4,
+    "fence-create:end": 4,
+    "flush:begin": 4,
+    "flush:end": 4,
+    "invalidation-cleared": 4,
+    "raf:end": 5499,
+    "fence-poll:begin": 93,
+    "fence-result:37147": 5495,
+    "fence-poll:end": 93,
+    "fence-result:37148": 3,
+    "fence-retired": 3,
+    "invalidate:movement": 2
+  },
+  "submissions": [
+    {
+      "id": 1,
+      "stage": "onset",
+      "animTime": -0.0255,
+      "beginMs": 283.4000005722046,
+      "submissionMs": 145.19999980926514,
+      "passesMs": {
+        "composite:scene:end": 125.90000057220459,
+        "composite:blur-horizontal:end": 7.199999809265137,
+        "composite:blur-vertical:end": 0.3000001907348633,
+        "composite:finish:end": 6.699999809265137
+      },
+      "flushMs": 0.09999942779541016,
+      "fenceRetiredMs": 1225.3000001907349,
+      "fenceAgeAtRetirementMs": 796.3999996185303
+    },
+    {
+      "id": 2,
+      "stage": "onset",
+      "animTime": 0.9578000000000001,
+      "beginMs": 1225.5,
+      "submissionMs": 18,
+      "passesMs": {
+        "composite:scene:end": 10.90000057220459,
+        "composite:blur-horizontal:end": 0.3000001907348633,
+        "composite:blur-vertical:end": 4.5,
+        "composite:finish:end": 0.5
+      },
+      "flushMs": 0,
+      "fenceRetiredMs": 2678.5,
+      "fenceAgeAtRetirementMs": 1434.8000001907349
+    },
+    {
+      "id": 3,
+      "stage": "chrysanthemum",
+      "animTime": 2.407699999999998,
+      "beginMs": 2678.5,
+      "submissionMs": 28.699999809265137,
+      "passesMs": {
+        "composite:scene:end": 24.800000190734863,
+        "composite:blur-horizontal:end": 0.39999961853027344,
+        "composite:blur-vertical:end": 2.6999998092651367,
+        "composite:finish:end": 0.2999992370605469
+      },
+      "flushMs": 0,
+      "fenceRetiredMs": 93343.30000019073,
+      "fenceAgeAtRetirementMs": 90635.89999961853
+    },
+    {
+      "id": 4,
+      "stage": "chrysanthemum",
+      "animTime": 3.5241999999999982,
+      "beginMs": 93343.5,
+      "submissionMs": 1.1999998092651367,
+      "passesMs": {
+        "composite:scene:end": 0.40000057220458984,
+        "composite:blur-horizontal:end": 0.19999980926513672,
+        "composite:blur-vertical:end": 0.10000038146972656,
+        "composite:finish:end": 0.2999992370605469
+      },
+      "flushMs": 0,
+      "fenceRetiredMs": null,
+      "fenceAgeAtRetirementMs": null
+    }
+  ],
+  "final": {
+    "stage": "chrysanthemum",
+    "routeIndex": 2,
+    "entered": true,
+    "paused": true,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 0.04989999999999964,
+    "animTime": 3.5241999999999982,
+    "transition": false,
+    "renderReady": true,
+    "renderPending": true,
+    "renderedAnimTime": 3.5241999999999982,
+    "frames": 4,
+    "position": [
+      0,
+      1.7,
+      8
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset",
+      "geometry",
+      "chrysanthemum"
+    ],
+    "entities": [],
+    "interactions": 0,
+    "evidence": [
+      "phase|The Chrysanthemum",
+      "geometry|The Chrysanthemum",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|Dimensional Layering & Space-Folding",
+      "geometry|Hyperbolic Space & Negative Curvature",
+      "geometry|Ultra-Detail & Infinite Resolution",
+      "geometry|Energy Conduits & Living Circuitry",
+      "geometry|Mandalas & symmetry fields"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 35,
+    "portals": [
+      {
+        "x": 0,
+        "z": -23,
+        "width": 3.5,
+        "target": "next"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 1,
+    "triangles": 2,
+    "geometries": 5,
+    "actors": [],
+    "uncitedMeshes": 0
+  },
+  "timing_state": {
+    "stage": "chrysanthemum",
+    "animTime": 3.5241999999999982,
+    "renderedAnimTime": 3.5241999999999982,
+    "frames": 4,
+    "paused": true,
+    "transition": false,
+    "invalidated": false,
+    "fence": true,
+    "detail": "high",
+    "submission": 4,
+    "fenceOwner": {
+      "submission": 4,
+      "stage": "chrysanthemum",
+      "animTime": 3.5241999999999982,
+      "createdMs": 93344.9000005722,
+      "valid": true
+    }
+  },
+  "open_intervals": {},
+  "exportMs": 94425.5,
+  "pending_fence_age_ms": 1080.5999994277954,
+  "after_pause": {
+    "durationMs": 90119.19999980927,
+    "sampled_poll_results": {
+      "37147": 89
+    },
+    "sampled_poll_max_ms": 8.600000381469727,
+    "decision_samples": 89,
+    "invalidated_decision_samples": 88,
+    "pending_fence_decision_samples": 89,
+    "submissions": 1,
+    "invalidation_events": {}
+  },
+  "limits": "Perturbative timestamp/console instrumentation. Submission wall time is not GPU execution time. A pending fence can include driver/queue/polling latency. No hardware-GPU, visual, temporal or full-acceptance claim."
+}

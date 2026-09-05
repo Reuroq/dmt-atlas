@@ -1,0 +1,42 @@
+{
+  "render_signature": "58455e7d67b6324b17ec13044994db6be1963caba5f1ec27d93e43ac60b9b24a",
+  "focused_accessibility": [
+    "paused pixel stillness",
+    "paused resize restores stable canvas",
+    "reduced-motion pixel stillness",
+    "detail toggle preserves route and pose",
+    "restored-detail reduced pixel stillness",
+    "Sources fidelity table and existing provenance"
+  ],
+  "focused_controls_retry": [
+    "HIGH right walking boundary preserved inside minimum volume radius",
+    "Actual drag-look changes both camera axes",
+    "Central physical exit reaches Rush with cited geometry; no navigation injection"
+  ],
+  "focused_controls_original_passed": false,
+  "focused_controls_retry_passed": true,
+  "retry_exit_walk_timeout_ms": 120000,
+  "retained_original_failure": "redirect4-v16-failures.json",
+  "historical_and_current_png_receipts_verified": 51,
+  "realism_blockers": [
+    "Rebuild required: CLOSE"
+  ],
+  "chrysanthemum_source_audit": {
+    "passed": true,
+    "reviewed_reports": 70,
+    "included_reports": 50,
+    "excluded_reports": 20,
+    "candidate_reports": 480,
+    "candidate_passages": 960,
+    "exhausted": false,
+    "errors": []
+  },
+  "chrysanthemum_coverage": 0.83333,
+  "chrysanthemum_coverage_passed": true,
+  "latest": "realism-chrysanthemum-close-v16-motion.png",
+  "latest_sha256": "06f1887ff507e4a170ce3bffeeb3b74b1e47618d9e5f9ec8ab570694aa742d94",
+  "runtime_continuum_matches_archive": true,
+  "trip_unchanged_from_v14": true,
+  "full_acceptance_rerun": false,
+  "overall_passed": false
+}
