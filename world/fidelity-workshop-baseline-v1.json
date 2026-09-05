@@ -1,0 +1,257 @@
+{
+  "errors": [],
+  "fps_swiftshader": 3.19,
+  "checks": [],
+  "diagnostics": {
+    "stage": "workshop",
+    "routeIndex": 6,
+    "entered": true,
+    "paused": false,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 2.4498999999999995,
+    "animTime": 15.915899999976155,
+    "transition": false,
+    "renderReady": true,
+    "frames": 94,
+    "position": [
+      0,
+      1.7,
+      11
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset",
+      "geometry",
+      "chrysanthemum",
+      "rush",
+      "membrane",
+      "waiting",
+      "cathedral",
+      "workshop"
+    ],
+    "entities": [
+      "elf",
+      "elf",
+      "elf",
+      "elf",
+      "elf"
+    ],
+    "interactions": 0,
+    "evidence": [
+      "realm|The Workshop / Factory / Market",
+      "entity|Self-transforming machine elves",
+      "geometry|Living language / visible sound",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|Dimensional Layering & Space-Folding",
+      "geometry|Hyperbolic Space & Negative Curvature",
+      "geometry|Ultra-Detail & Infinite Resolution",
+      "geometry|Energy Conduits & Living Circuitry",
+      "geometry|Embedded Faces & the Pareidolia Cascade",
+      "geometry|Hyper-dimensional objects"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 48,
+    "portals": [
+      {
+        "x": 0,
+        "z": -14,
+        "width": 4,
+        "target": "next"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 134,
+    "triangles": 587058,
+    "geometries": 103,
+    "actors": [
+      {
+        "kind": "elf",
+        "engaged": false,
+        "joints": 2,
+        "arm": -0.08884681915153034,
+        "evidence": "entity|Self-transforming machine elves",
+        "screen": [
+          489.8668994819107,
+          366.1128921482802
+        ]
+      },
+      {
+        "kind": "elf",
+        "engaged": false,
+        "joints": 2,
+        "arm": 0.007956085840630778,
+        "evidence": "entity|Self-transforming machine elves",
+        "screen": [
+          710.1331005180892,
+          366.1128921482802
+        ]
+      },
+      {
+        "kind": "elf",
+        "engaged": false,
+        "joints": 2,
+        "arm": 0.0987379836854367,
+        "evidence": "entity|Self-transforming machine elves",
+        "screen": [
+          600,
+          382.5581062527913
+        ]
+      },
+      {
+        "kind": "elf",
+        "engaged": false,
+        "joints": 2,
+        "arm": 0.11479694397099655,
+        "evidence": "entity|Self-transforming machine elves",
+        "screen": [
+          229.35975787181496,
+          392.58719515743627
+        ]
+      },
+      {
+        "kind": "elf",
+        "engaged": false,
+        "joints": 2,
+        "arm": 0.043979865713324254,
+        "evidence": "entity|Self-transforming machine elves",
+        "screen": [
+          970.640242128185,
+          392.58719515743627
+        ]
+      }
+    ],
+    "uncitedMeshes": 0
+  },
+  "capture_diagnostics": {
+    "stage": "workshop",
+    "routeIndex": 6,
+    "entered": true,
+    "paused": true,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 3.283199999999999,
+    "animTime": 16.749199999976156,
+    "transition": false,
+    "renderReady": true,
+    "frames": 96,
+    "position": [
+      0,
+      1.7,
+      11
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset",
+      "geometry",
+      "chrysanthemum",
+      "rush",
+      "membrane",
+      "waiting",
+      "cathedral",
+      "workshop"
+    ],
+    "entities": [
+      "elf",
+      "elf",
+      "elf",
+      "elf",
+      "elf"
+    ],
+    "interactions": 0,
+    "evidence": [
+      "realm|The Workshop / Factory / Market",
+      "entity|Self-transforming machine elves",
+      "geometry|Living language / visible sound",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|Dimensional Layering & Space-Folding",
+      "geometry|Hyperbolic Space & Negative Curvature",
+      "geometry|Ultra-Detail & Infinite Resolution",
+      "geometry|Energy Conduits & Living Circuitry",
+      "geometry|Embedded Faces & the Pareidolia Cascade",
+      "geometry|Hyper-dimensional objects"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 48,
+    "portals": [
+      {
+        "x": 0,
+        "z": -14,
+        "width": 4,
+        "target": "next"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 134,
+    "triangles": 587058,
+    "geometries": 103,
+    "actors": [
+      {
+        "kind": "elf",
+        "engaged": false,
+        "joints": 2,
+        "arm": -0.01994823654981075,
+        "evidence": "entity|Self-transforming machine elves",
+        "screen": [
+          489.8668994819107,
+          366.1128921482802
+        ]
+      },
+      {
+        "kind": "elf",
+        "engaged": false,
+        "joints": 2,
+        "arm": 0.08029131187397572,
+        "evidence": "entity|Self-transforming machine elves",
+        "screen": [
+          710.1331005180892,
+          366.1128921482802
+        ]
+      },
+      {
+        "kind": "elf",
+        "engaged": false,
+        "joints": 2,
+        "arm": 0.11976799620259485,
+        "evidence": "entity|Self-transforming machine elves",
+        "screen": [
+          600,
+          382.5581062527913
+        ]
+      },
+      {
+        "kind": "elf",
+        "engaged": false,
+        "joints": 2,
+        "arm": 0.0686066487646963,
+        "evidence": "entity|Self-transforming machine elves",
+        "screen": [
+          229.35975787181496,
+          392.58719515743627
+        ]
+      },
+      {
+        "kind": "elf",
+        "engaged": false,
+        "joints": 2,
+        "arm": -0.0344748426790357,
+        "evidence": "entity|Self-transforming machine elves",
+        "screen": [
+          970.640242128185,
+          392.58719515743627
+        ]
+      }
+    ],
+    "uncitedMeshes": 0
+  },
+  "render_signature": "f55311963042dcab8dc6b48b9430773c69ab3d6226cbc6383812c5ba12eb8a38",
+  "capture_sha256": "451011ff314be84a9440abeb8a6ac9d5fe6fced5d7902f8a06d135a2c226b595",
+  "file": "fidelity-workshop-baseline-v1.png",
+  "veil_opacity": 0
+}

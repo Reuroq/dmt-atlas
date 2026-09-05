@@ -1,0 +1,21 @@
+{
+  "target": "workshop",
+  "iteration": "fidelity-workshop-baseline-v1",
+  "coverage": 0.66463,
+  "weighted_points": 54.5,
+  "total_weight": 82,
+  "blockers": [
+    "Top ten contains ABSENT or UNREVIEWED",
+    "Coverage below 80%"
+  ],
+  "all_top_fifteen_reviewed": true,
+  "garden_pass_preserved": true,
+  "render_signature": "f55311963042dcab8dc6b48b9430773c69ab3d6226cbc6383812c5ba12eb8a38",
+  "latest_sha256": "a0d67394c53d9a7d3dd0967126ca2d8aeddd9da7b4571022fc7e925407fca9a5",
+  "latest_capture": "fidelity-workshop-baseline-v1-motion.png",
+  "overall_passed": false,
+  "inspection_labels": [
+    "fidelity_workshop_baseline_v1",
+    "fidelity_workshop_baseline_v1_pair"
+  ]
+}

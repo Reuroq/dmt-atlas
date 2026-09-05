@@ -1,0 +1,1158 @@
+{
+  "threshold": 0.8,
+  "targets": {
+    "garden": {
+      "captures": [
+        {
+          "file": "fidelity-garden-correction-v2.png",
+          "sha256": "495c43d0e689016b2923974f95c1f57f954833c0194425383b8e08b73ad2926a",
+          "detail": "high",
+          "render_signature": "f55311963042dcab8dc6b48b9430773c69ab3d6226cbc6383812c5ba12eb8a38",
+          "animTime": 16.175499999904634,
+          "inspection": "fidelity_garden_correction_v2: inspected JPEG once; Pink radial flowers face the viewer, creek has green raised banks, right-side brick terrace and clockwork remain visible."
+        },
+        {
+          "file": "fidelity-garden-correction-v2-motion.png",
+          "sha256": "3e10ea635797369e89b7814d30bbfc8c3adb9682b428a5799a39af841880b54b",
+          "detail": "high",
+          "render_signature": "f55311963042dcab8dc6b48b9430773c69ab3d6226cbc6383812c5ba12eb8a38",
+          "animTime": 22.97519999990462,
+          "inspection": "fidelity_garden_correction_v2_pair: inspected JPEG once; Same camera: several corollas change cupping, ripple bands shift and gear spokes/lever move."
+        },
+        {
+          "file": "fidelity-garden-correction-v2-exit.png",
+          "sha256": "58b1b4346bbd6dc6eaa6295ae35d149ce5dfcfcc59493d5876caf4347b0af5de",
+          "detail": "high",
+          "render_signature": "f55311963042dcab8dc6b48b9430773c69ab3d6226cbc6383812c5ba12eb8a38",
+          "animTime": 24.05839999990462,
+          "inspection": "fidelity_garden_correction_v2_exit: inspected JPEG once; Whole Garden and HUD darken together; flowers, creek and presence remain outlined under the veil."
+        }
+      ],
+      "descriptors": {
+        "beings / presences": {
+          "grade": "PRESENT",
+          "observation": "One clearly visible central pink/gold humanoid presence; this does not recreate all four reports or their different presences."
+        },
+        "communicating / teaching": {
+          "grade": "PARTIAL",
+          "observation": "Open arms suggest engagement, but no readable exchange or presented information is visible; a still cannot establish teaching or telepathy."
+        },
+        "plants / organic growth": {
+          "grade": "PRESENT",
+          "observation": "Tall branching trunks, serrated leaf canopies and low fronds flank an open path."
+        },
+        "circuitry / machinery": {
+          "grade": "PRESENT",
+          "observation": "Three recognisably toothed wheels with radial spokes and a projecting lever are visible on the right-side terrace.",
+          "temporal_observation": "Gear spokes and lever point in different directions between the two frames."
+        },
+        "dense / overwhelming": {
+          "grade": "PARTIAL",
+          "observation": "Flower beds increase foreground density, but broad dark gaps remain behind canopy and the central floor stays visually sparse."
+        },
+        "feminine form": {
+          "grade": "PRESENT",
+          "observation": "Central humanoid has a feminine gown-like mantle and long contour framing; the elderly woman is not literally recreated."
+        },
+        "flower / mandala": {
+          "grade": "PRESENT",
+          "observation": "Dozens of layered pink/gold radial corollas fill both sides of the path. Inclined blossoms expose interiors; repeated forms remain stylized."
+        },
+        "folding / unfolding": {
+          "grade": "PRESENT",
+          "observation": "Corollas visibly open and cup at differing phases along both sides of the path.",
+          "temporal_observation": "Fixed camera, more than six animation seconds apart: foreground corollas change rim depth and cup angle, with left and right clusters at different phases. This is visible petal folding, not literal space folding."
+        },
+        "fractals": {
+          "grade": "PRESENT",
+          "observation": "Canopy forks subdivide into finer branches and leaf surfaces carry repeated smaller vein structures."
+        },
+        "intricate / detailed": {
+          "grade": "PRESENT",
+          "observation": "Fine leaf veins, layered petals, branch tracery, toothed wheels and many figure filaments are legible."
+        },
+        "lattice / grid": {
+          "grade": "PRESENT",
+          "observation": "Open interwoven tracery spans overhead and behind the central figure."
+        },
+        "layered / multidimensional": {
+          "grade": "PARTIAL",
+          "observation": "Near leaves, middle trunks and a distant figure provide spatial layers; no changing extra-dimensional structure is demonstrated."
+        },
+        "liquid / flowing": {
+          "grade": "PARTIAL",
+          "observation": "A blue rippled creek now has dark green banks and a widened pool left of the path. Flow is visible, but broad bright wave bands still look stylized and the creek-to-pond change remains indistinct.",
+          "temporal_observation": "White ripple curves shift downstream between the two fixed-camera frames."
+        },
+        "receding / dissolving": {
+          "grade": "PARTIAL",
+          "observation": "The fresh exit frame dims Garden and its HUD together rather than dissolving individual forms or showing a soft return to ordinary awareness.",
+          "temporal_observation": "Compared the bright settled frame with the same Garden paused under its real onward fade; plants and presence persist as dark outlines."
+        },
+        "room / architecture": {
+          "grade": "PRESENT",
+          "observation": "Right-side terrace has red/gold brick masonry, a raised deck, stair treads and a thin railing; some is obscured by plants."
+        }
+      }
+    },
+    "workshop": {
+      "close_up": false,
+      "captures": [
+        {
+          "file": "fidelity-workshop-correction-v1.png",
+          "sha256": "0c0f5b7820dc50b517bf9df4bae7f3ed95d4f4f6ff691b64adafbc5b77138c10",
+          "detail": "high",
+          "render_signature": "e7e0a37b79550bae9582a1ec0889cd3b57211526dd1f3b09d9b8c1cb1e8f1703",
+          "animTime": 16.587200000071533,
+          "inspection": "fidelity_workshop_correction_v1: Inspected numbered JPEG once: gold toothed gears, press frames and red packages on left-hand benches; a contrasting white-on-black production wing at right. Repeated tall frames and small bays recede behind the purple central portal. Five filament humanoids remain visible. White equipment merges into its bright backdrop, and miniature carriers are not clearly resolved."
+        },
+        {
+          "file": "fidelity-workshop-correction-v1-motion.png",
+          "sha256": "e89d1686b03c27da237c7169be4fa13bdde3e67524018938d3cd64f23d74568e",
+          "detail": "high",
+          "render_signature": "e7e0a37b79550bae9582a1ec0889cd3b57211526dd1f3b09d9b8c1cb1e8f1703",
+          "animTime": 23.37020000007152,
+          "inspection": "fidelity_workshop_correction_v1_pair: Inspected numbered JPEG once at the same camera: left gear spokes change orientation, red packages shift along the bench, and press crosshead heights differ. Workers change arm/head ornaments and surface contours drift. Deep frame rows remain visible; right equipment remains low-contrast. No clear hand-to-hand exchange or teaching is demonstrated."
+        }
+      ],
+      "descriptors": {
+        "beings / presences": {
+          "grade": "PRESENT",
+          "observation": "Five distinct filament-bodied presences occupy the aisle. Tiny white carriers are not clearly resolved; unseen-presence variants cannot be depicted literally."
+        },
+        "circuitry / machinery": {
+          "grade": "PRESENT",
+          "observation": "Left-hand benches have unmistakable toothed intermeshing wheels, upright press frames, crossheads and red packages. The pair shows shifted gear spokes and packages. White machinery on the right loses separation against its backdrop; machinery detail is uneven."
+        },
+        "room / architecture": {
+          "grade": "PRESENT",
+          "observation": "Floor, high ceiling, repeating structural frames, production wings and the central purple exit establish factory architecture. Market stalls and folding corridors are not represented."
+        },
+        "geometry / patterns": {
+          "grade": "PRESENT",
+          "observation": "Teal/gold contour fields cover the aisle and left shell, alongside angular gold frames, toothed circles and pink overhead zigzag filaments. The white wing intentionally contrasts with this patterned setting."
+        },
+        "humanoid / bodies": {
+          "grade": "PRESENT",
+          "observation": "Five filament presences have heads, torsos, paired legs and articulated arms. The boxed-body worker variant is too small and low-contrast here to establish its body structure."
+        },
+        "small / miniature": {
+          "grade": "PARTIAL",
+          "observation": "Squat workers stand beside much taller presses, providing a stronger scale cue than the baseline. Product-sized white carriers are not clearly resolved; the scene does not convincingly establish extreme miniature scale."
+        },
+        "vast / infinite": {
+          "grade": "PARTIAL",
+          "observation": "Repeated gold and white frame rows and diminishing production bays extend behind the central exit, making the room substantially deeper. A finite patterned far wall remains, and the camera does not establish limitless or gigantic factory scale."
+        },
+        "communicating / teaching": {
+          "grade": "PARTIAL",
+          "observation": "Workers hold their arms near suspended geometric objects. Changes between frames do not show a legible exchange or lesson; packages moving on a bench are not evidence of communication."
+        },
+        "intricate / detailed": {
+          "grade": "PRESENT",
+          "observation": "Dense body filaments and closely spaced wall/floor contours remain visible; gear teeth, spokes and striped packages add local mechanical detail. The white wing is comparatively simplified, and unlimited detail is not demonstrated."
+        },
+        "layered / multidimensional": {
+          "grade": "PARTIAL",
+          "observation": "Overlapping workers, machines, the central portal and receding frame rows establish multiple depth layers. These are still ordinary perspective, not convincing impossible dimensions or folding entity corridors."
+        },
+        "moving / animated": {
+          "grade": "PRESENT",
+          "observation": "The paired frames show gear-spoke rotation, shifted red packages and press crosshead positions, as well as articulated beings and drifting surface contours. This establishes mechanical and figure animation, not a complete observed manufacturing process.",
+          "temporal_observation": "At animTime 16.5872 versus 23.3702, unchanged camera: left gear spokes rotate, red bench packages shift, press crosshead heights differ, workers' arm/head-surround poses change and aisle contours drift. These frames do not establish object teaching, completed manufacture or impossible transformation."
+        },
+        "fractals": {
+          "grade": "PARTIAL",
+          "observation": "Nested contour fields, branching body filaments and repeated structures suggest fractal detail. Gear teeth and perspective repetition alone do not establish self-similar fractal manufacturing at multiple scales."
+        },
+        "jester / clown form": {
+          "grade": "PARTIAL",
+          "observation": "Pink bobbled head surrounds retain playful silhouettes, but no unmistakable clown face, patterned clown body or multiplying limbs is established."
+        },
+        "multicoloured": {
+          "grade": "PRESENT",
+          "observation": "Teal, green, gold, red and magenta/purple remain distinct across machinery, patterns and beings. The contrasting monochrome wing preserves a different validated variant rather than making every surface rainbow."
+        },
+        "white": {
+          "grade": "PRESENT",
+          "observation": "An entire bright white production wing with black roof/belt contrast occupies the right side, rather than isolated white highlights. White presses and packages merge into the backdrop; this covers the setting palette, not full fidelity to the minimalist carrier narrative."
+        }
+      }
+    }
+  },
+  "route_review": {},
+  "acceptance": {
+    "desktop": {
+      "passed": true,
+      "render_signature": "e7e0a37b79550bae9582a1ec0889cd3b57211526dd1f3b09d9b8c1cb1e8f1703",
+      "sha256": "72e15a9e7b43e0725ef61b649e08644e504cbe8c162ca60ea9c6ef4072b13b26"
+    }
+  },
+  "history": [
+    {
+      "target": "garden",
+      "iteration": "baseline-v1",
+      "changes": "No visual changes: first source-validated baseline from four relevant reports out of 27 candidates.",
+      "after": {
+        "captures": [
+          {
+            "file": "fidelity-garden-baseline-v1.png",
+            "sha256": "9dce9e9b0276ffe8897ff8c767e38ec93ca9cabafc20f3498de80e87f39488cf",
+            "detail": "high",
+            "render_signature": "61271867c89ee9197c5dcb086e31bf74a15cb02d77ea4e3f0aa032f560c63684",
+            "animTime": 15.860500000023844,
+            "inspection": "fidelity_garden_baseline_v1: inspected pixelvision JPEG once; pink/gold central figure, dense side canopy, open dry foreground, dark gaps."
+          }
+        ],
+        "descriptors": {
+          "beings / presences": {
+            "grade": "PRESENT",
+            "observation": "One pink/gold humanoid presence is clearly visible centrally; this is not a rendering of all four reports? different presences."
+          },
+          "communicating / teaching": {
+            "grade": "PARTIAL",
+            "observation": "Open arms suggest engagement, but no readable exchange or presented information is visible; a still cannot establish teaching or telepathy."
+          },
+          "plants / organic growth": {
+            "grade": "PRESENT",
+            "observation": "Tall branching trunks, serrated leaf canopies and low fronds flank an open path."
+          },
+          "circuitry / machinery": {
+            "grade": "ABSENT",
+            "observation": "No clockwork lever or recognisable mechanical apparatus is visible; plant stems are not evidence of the reported clockwork terrace."
+          },
+          "dense / overwhelming": {
+            "grade": "PARTIAL",
+            "observation": "Canopy and side foliage are intricate and crowded, but broad dark gaps and the open foreground keep much of the view sparse."
+          },
+          "feminine form": {
+            "grade": "PRESENT",
+            "observation": "Central humanoid has a feminine gown-like mantle and long contour framing; the report?s elderly woman is not literally recreated."
+          },
+          "flower / mandala": {
+            "grade": "PARTIAL",
+            "observation": "Small folded radial fronds and the figure?s radial crown suggest floral structure, but a flower-filled garden is not clearly visible."
+          },
+          "folding / unfolding": {
+            "grade": "UNREVIEWED",
+            "observation": "Leaves are visibly pleated; folding over time still requires an inspected temporal pair."
+          },
+          "fractals": {
+            "grade": "PRESENT",
+            "observation": "Canopy forks subdivide into finer branches and leaf surfaces carry repeated smaller vein structures."
+          },
+          "intricate / detailed": {
+            "grade": "PRESENT",
+            "observation": "Fine leaf veins, canopy tracery, floor contours and the figure?s many filaments are legible."
+          },
+          "lattice / grid": {
+            "grade": "PRESENT",
+            "observation": "Open interwoven tracery spans overhead and behind the central figure."
+          },
+          "layered / multidimensional": {
+            "grade": "PARTIAL",
+            "observation": "Near leaves, middle trunks and a distant figure provide spatial layers; no changing extra-dimensional structure is demonstrated."
+          },
+          "liquid / flowing": {
+            "grade": "ABSENT",
+            "observation": "The contoured ground is dry-looking; no creek, pond or flowing water from the sanctuary report is visible."
+          },
+          "receding / dissolving": {
+            "grade": "UNREVIEWED",
+            "observation": "A paused frame cannot establish whether the garden fades; inspect a temporal exit sequence."
+          },
+          "room / architecture": {
+            "grade": "PARTIAL",
+            "observation": "A path and overhead enclosure establish a place, but the reported terrace, staircase and brick building are absent."
+          }
+        }
+      },
+      "remaining": "Clockwork apparatus and flowing water absent; foliage density/floral variety/architecture partial; folding and recession need temporal inspection. No before/after correction loop yet."
+    },
+    {
+      "target": "garden",
+      "iteration": "motion-baseline-v1",
+      "changes": "No visual edits; added real-control temporal capture and exit inspection.",
+      "before": {
+        "captures": [
+          {
+            "file": "fidelity-garden-baseline-v1.png",
+            "sha256": "9dce9e9b0276ffe8897ff8c767e38ec93ca9cabafc20f3498de80e87f39488cf",
+            "detail": "high",
+            "render_signature": "61271867c89ee9197c5dcb086e31bf74a15cb02d77ea4e3f0aa032f560c63684",
+            "animTime": 15.860500000023844,
+            "inspection": "fidelity_garden_baseline_v1: inspected pixelvision JPEG once; pink/gold central figure, dense side canopy, open dry foreground, dark gaps."
+          }
+        ],
+        "descriptors": {
+          "beings / presences": {
+            "grade": "PRESENT",
+            "observation": "One pink/gold humanoid presence is clearly visible centrally; this is not a rendering of all four reports? different presences."
+          },
+          "communicating / teaching": {
+            "grade": "PARTIAL",
+            "observation": "Open arms suggest engagement, but no readable exchange or presented information is visible; a still cannot establish teaching or telepathy."
+          },
+          "plants / organic growth": {
+            "grade": "PRESENT",
+            "observation": "Tall branching trunks, serrated leaf canopies and low fronds flank an open path."
+          },
+          "circuitry / machinery": {
+            "grade": "ABSENT",
+            "observation": "No clockwork lever or recognisable mechanical apparatus is visible; plant stems are not evidence of the reported clockwork terrace."
+          },
+          "dense / overwhelming": {
+            "grade": "PARTIAL",
+            "observation": "Canopy and side foliage are intricate and crowded, but broad dark gaps and the open foreground keep much of the view sparse."
+          },
+          "feminine form": {
+            "grade": "PRESENT",
+            "observation": "Central humanoid has a feminine gown-like mantle and long contour framing; the report?s elderly woman is not literally recreated."
+          },
+          "flower / mandala": {
+            "grade": "PARTIAL",
+            "observation": "Small folded radial fronds and the figure?s radial crown suggest floral structure, but a flower-filled garden is not clearly visible."
+          },
+          "folding / unfolding": {
+            "grade": "UNREVIEWED",
+            "observation": "Leaves are visibly pleated; folding over time still requires an inspected temporal pair."
+          },
+          "fractals": {
+            "grade": "PRESENT",
+            "observation": "Canopy forks subdivide into finer branches and leaf surfaces carry repeated smaller vein structures."
+          },
+          "intricate / detailed": {
+            "grade": "PRESENT",
+            "observation": "Fine leaf veins, canopy tracery, floor contours and the figure?s many filaments are legible."
+          },
+          "lattice / grid": {
+            "grade": "PRESENT",
+            "observation": "Open interwoven tracery spans overhead and behind the central figure."
+          },
+          "layered / multidimensional": {
+            "grade": "PARTIAL",
+            "observation": "Near leaves, middle trunks and a distant figure provide spatial layers; no changing extra-dimensional structure is demonstrated."
+          },
+          "liquid / flowing": {
+            "grade": "ABSENT",
+            "observation": "The contoured ground is dry-looking; no creek, pond or flowing water from the sanctuary report is visible."
+          },
+          "receding / dissolving": {
+            "grade": "UNREVIEWED",
+            "observation": "A paused frame cannot establish whether the garden fades; inspect a temporal exit sequence."
+          },
+          "room / architecture": {
+            "grade": "PARTIAL",
+            "observation": "A path and overhead enclosure establish a place, but the reported terrace, staircase and brick building are absent."
+          }
+        }
+      },
+      "after": {
+        "captures": [
+          {
+            "file": "fidelity-garden-baseline-v1.png",
+            "sha256": "9dce9e9b0276ffe8897ff8c767e38ec93ca9cabafc20f3498de80e87f39488cf",
+            "detail": "high",
+            "render_signature": "61271867c89ee9197c5dcb086e31bf74a15cb02d77ea4e3f0aa032f560c63684",
+            "animTime": 15.860500000023844,
+            "inspection": "fidelity_garden_baseline_v1: inspected pixelvision JPEG once; pink/gold central figure, dense side canopy, open dry foreground, dark gaps."
+          },
+          {
+            "file": "fidelity-garden-motion-baseline-v1.png",
+            "sha256": "a74700e09da5e557910c8ea0f75ae17f9efe9e99f2dec29977f0df99cddcee73",
+            "detail": "high",
+            "render_signature": "61271867c89ee9197c5dcb086e31bf74a15cb02d77ea4e3f0aa032f560c63684",
+            "animTime": 16.351400000095364,
+            "inspection": "fidelity_garden_motion_baseline_v1: inspected JPEG once; Open dry foreground, serrated canopy, central pink/gold being."
+          },
+          {
+            "file": "fidelity-garden-motion-baseline-v1-motion.png",
+            "sha256": "b65224eaaced2fb3fcf0e70d13fb6e9930650863bb9f244c7259f9febeca9b35",
+            "detail": "high",
+            "render_signature": "61271867c89ee9197c5dcb086e31bf74a15cb02d77ea4e3f0aa032f560c63684",
+            "animTime": 22.98450000009536,
+            "inspection": "fidelity_garden_motion_baseline_v1_pair: inspected JPEG once; Same pose: leaves shift slightly and ground contours move; no large unfolding."
+          },
+          {
+            "file": "fidelity-garden-motion-baseline-v1-exit.png",
+            "sha256": "744123f172421a2d9e000e51cc787ffd07e5b9087a643538f83039bc82c3c58e",
+            "detail": "high",
+            "render_signature": "61271867c89ee9197c5dcb086e31bf74a15cb02d77ea4e3f0aa032f560c63684",
+            "animTime": 23.817800000095357,
+            "inspection": "fidelity_garden_motion_baseline_v1_exit: inspected JPEG once; Garden and interface darken together under exit veil."
+          },
+          {
+            "file": "fidelity-garden-motion-baseline-v1-destination.png",
+            "sha256": "a21b651477ef384277ed9f1c61bfbeb7357780966f26d06c0d2dc73d2a4741aa",
+            "detail": "high",
+            "render_signature": "61271867c89ee9197c5dcb086e31bf74a15cb02d77ea4e3f0aa032f560c63684",
+            "animTime": 25.38440000009535,
+            "inspection": "fidelity_garden_motion_baseline_v1_destination: inspected JPEG once; Garden replaced by Cathedral after the real branch return."
+          }
+        ],
+        "descriptors": {
+          "beings / presences": {
+            "grade": "PRESENT",
+            "observation": "One pink/gold humanoid presence is clearly visible centrally; this is not a rendering of all four reports? different presences."
+          },
+          "communicating / teaching": {
+            "grade": "PARTIAL",
+            "observation": "Open arms suggest engagement, but no readable exchange or presented information is visible; a still cannot establish teaching or telepathy."
+          },
+          "plants / organic growth": {
+            "grade": "PRESENT",
+            "observation": "Tall branching trunks, serrated leaf canopies and low fronds flank an open path."
+          },
+          "circuitry / machinery": {
+            "grade": "ABSENT",
+            "observation": "No clockwork lever or recognisable mechanical apparatus is visible; plant stems are not evidence of the reported clockwork terrace."
+          },
+          "dense / overwhelming": {
+            "grade": "PARTIAL",
+            "observation": "Canopy and side foliage are intricate and crowded, but broad dark gaps and the open foreground keep much of the view sparse."
+          },
+          "feminine form": {
+            "grade": "PRESENT",
+            "observation": "Central humanoid has a feminine gown-like mantle and long contour framing; the report?s elderly woman is not literally recreated."
+          },
+          "flower / mandala": {
+            "grade": "PARTIAL",
+            "observation": "Small folded radial fronds and the figure?s radial crown suggest floral structure, but a flower-filled garden is not clearly visible."
+          },
+          "folding / unfolding": {
+            "grade": "PARTIAL",
+            "observation": "Pleated leaves subtly sway between fixed-camera frames, but their silhouettes do not substantially open or fold.",
+            "temporal_observation": "Compared baseline and motion frames separated by over six animation seconds; canopy tips shift, not a cascading fold."
+          },
+          "fractals": {
+            "grade": "PRESENT",
+            "observation": "Canopy forks subdivide into finer branches and leaf surfaces carry repeated smaller vein structures."
+          },
+          "intricate / detailed": {
+            "grade": "PRESENT",
+            "observation": "Fine leaf veins, canopy tracery, floor contours and the figure?s many filaments are legible."
+          },
+          "lattice / grid": {
+            "grade": "PRESENT",
+            "observation": "Open interwoven tracery spans overhead and behind the central figure."
+          },
+          "layered / multidimensional": {
+            "grade": "PARTIAL",
+            "observation": "Near leaves, middle trunks and a distant figure provide spatial layers; no changing extra-dimensional structure is demonstrated."
+          },
+          "liquid / flowing": {
+            "grade": "ABSENT",
+            "observation": "The contoured ground is dry-looking; no creek, pond or flowing water from the sanctuary report is visible."
+          },
+          "receding / dissolving": {
+            "grade": "PARTIAL",
+            "observation": "The exit dims the whole scene and interface before replacing Garden with Cathedral; no selective dissolution or soft return to ordinary awareness.",
+            "temporal_observation": "Compared settled Garden, paused exit veil and settled Cathedral through real controls."
+          },
+          "room / architecture": {
+            "grade": "PARTIAL",
+            "observation": "A path and overhead enclosure establish a place, but the reported terrace, staircase and brick building are absent."
+          }
+        }
+      },
+      "remaining": "Clockwork and water remain absent; folding, density, communication, flowers, layers and architecture partial. Exit remains editorial."
+    },
+    {
+      "target": "garden",
+      "iteration": "correction-v1",
+      "changes": "Added report-backed creek/pond, folding corollas and brick/clockwork terrace outside central path, with terrace collision bounds.",
+      "before": {
+        "captures": [
+          {
+            "file": "fidelity-garden-baseline-v1.png",
+            "sha256": "9dce9e9b0276ffe8897ff8c767e38ec93ca9cabafc20f3498de80e87f39488cf",
+            "detail": "high",
+            "render_signature": "61271867c89ee9197c5dcb086e31bf74a15cb02d77ea4e3f0aa032f560c63684",
+            "animTime": 15.860500000023844,
+            "inspection": "fidelity_garden_baseline_v1: inspected pixelvision JPEG once; pink/gold central figure, dense side canopy, open dry foreground, dark gaps."
+          },
+          {
+            "file": "fidelity-garden-motion-baseline-v1.png",
+            "sha256": "a74700e09da5e557910c8ea0f75ae17f9efe9e99f2dec29977f0df99cddcee73",
+            "detail": "high",
+            "render_signature": "61271867c89ee9197c5dcb086e31bf74a15cb02d77ea4e3f0aa032f560c63684",
+            "animTime": 16.351400000095364,
+            "inspection": "fidelity_garden_motion_baseline_v1: inspected JPEG once; Open dry foreground, serrated canopy, central pink/gold being."
+          },
+          {
+            "file": "fidelity-garden-motion-baseline-v1-motion.png",
+            "sha256": "b65224eaaced2fb3fcf0e70d13fb6e9930650863bb9f244c7259f9febeca9b35",
+            "detail": "high",
+            "render_signature": "61271867c89ee9197c5dcb086e31bf74a15cb02d77ea4e3f0aa032f560c63684",
+            "animTime": 22.98450000009536,
+            "inspection": "fidelity_garden_motion_baseline_v1_pair: inspected JPEG once; Same pose: leaves shift slightly and ground contours move; no large unfolding."
+          },
+          {
+            "file": "fidelity-garden-motion-baseline-v1-exit.png",
+            "sha256": "744123f172421a2d9e000e51cc787ffd07e5b9087a643538f83039bc82c3c58e",
+            "detail": "high",
+            "render_signature": "61271867c89ee9197c5dcb086e31bf74a15cb02d77ea4e3f0aa032f560c63684",
+            "animTime": 23.817800000095357,
+            "inspection": "fidelity_garden_motion_baseline_v1_exit: inspected JPEG once; Garden and interface darken together under exit veil."
+          },
+          {
+            "file": "fidelity-garden-motion-baseline-v1-destination.png",
+            "sha256": "a21b651477ef384277ed9f1c61bfbeb7357780966f26d06c0d2dc73d2a4741aa",
+            "detail": "high",
+            "render_signature": "61271867c89ee9197c5dcb086e31bf74a15cb02d77ea4e3f0aa032f560c63684",
+            "animTime": 25.38440000009535,
+            "inspection": "fidelity_garden_motion_baseline_v1_destination: inspected JPEG once; Garden replaced by Cathedral after the real branch return."
+          }
+        ],
+        "descriptors": {
+          "beings / presences": {
+            "grade": "PRESENT",
+            "observation": "One pink/gold humanoid presence is clearly visible centrally; this is not a rendering of all four reports? different presences."
+          },
+          "communicating / teaching": {
+            "grade": "PARTIAL",
+            "observation": "Open arms suggest engagement, but no readable exchange or presented information is visible; a still cannot establish teaching or telepathy."
+          },
+          "plants / organic growth": {
+            "grade": "PRESENT",
+            "observation": "Tall branching trunks, serrated leaf canopies and low fronds flank an open path."
+          },
+          "circuitry / machinery": {
+            "grade": "ABSENT",
+            "observation": "No clockwork lever or recognisable mechanical apparatus is visible; plant stems are not evidence of the reported clockwork terrace."
+          },
+          "dense / overwhelming": {
+            "grade": "PARTIAL",
+            "observation": "Canopy and side foliage are intricate and crowded, but broad dark gaps and the open foreground keep much of the view sparse."
+          },
+          "feminine form": {
+            "grade": "PRESENT",
+            "observation": "Central humanoid has a feminine gown-like mantle and long contour framing; the report?s elderly woman is not literally recreated."
+          },
+          "flower / mandala": {
+            "grade": "PARTIAL",
+            "observation": "Small folded radial fronds and the figure?s radial crown suggest floral structure, but a flower-filled garden is not clearly visible."
+          },
+          "folding / unfolding": {
+            "grade": "PARTIAL",
+            "observation": "Pleated leaves subtly sway between fixed-camera frames, but their silhouettes do not substantially open or fold.",
+            "temporal_observation": "Compared baseline and motion frames separated by over six animation seconds; canopy tips shift, not a cascading fold."
+          },
+          "fractals": {
+            "grade": "PRESENT",
+            "observation": "Canopy forks subdivide into finer branches and leaf surfaces carry repeated smaller vein structures."
+          },
+          "intricate / detailed": {
+            "grade": "PRESENT",
+            "observation": "Fine leaf veins, canopy tracery, floor contours and the figure?s many filaments are legible."
+          },
+          "lattice / grid": {
+            "grade": "PRESENT",
+            "observation": "Open interwoven tracery spans overhead and behind the central figure."
+          },
+          "layered / multidimensional": {
+            "grade": "PARTIAL",
+            "observation": "Near leaves, middle trunks and a distant figure provide spatial layers; no changing extra-dimensional structure is demonstrated."
+          },
+          "liquid / flowing": {
+            "grade": "ABSENT",
+            "observation": "The contoured ground is dry-looking; no creek, pond or flowing water from the sanctuary report is visible."
+          },
+          "receding / dissolving": {
+            "grade": "PARTIAL",
+            "observation": "The exit dims the whole scene and interface before replacing Garden with Cathedral; no selective dissolution or soft return to ordinary awareness.",
+            "temporal_observation": "Compared settled Garden, paused exit veil and settled Cathedral through real controls."
+          },
+          "room / architecture": {
+            "grade": "PARTIAL",
+            "observation": "A path and overhead enclosure establish a place, but the reported terrace, staircase and brick building are absent."
+          }
+        }
+      },
+      "after": {
+        "captures": [
+          {
+            "file": "fidelity-garden-correction-v1.png",
+            "sha256": "ee95bf462ad7663a3e7df1ae5d7c7ba40507e5d714416336af833ca9b3566a8e",
+            "detail": "high",
+            "render_signature": "a773efa7294f7ce9ae34fa0008915b11742607431e85d916473605f3ce569dc9",
+            "animTime": 15.99809999990463,
+            "inspection": "fidelity_garden_correction_v1: inspected JPEG once; Creek reads as a bright raised ribbon; layered blooms flank open path; three toothed wheels, lever and brick terrace visible right."
+          },
+          {
+            "file": "fidelity-garden-correction-v1-motion.png",
+            "sha256": "b0cfb69a3aca1ae702143780a24324006e77a1210723b46ea6c9c7459201100e",
+            "detail": "high",
+            "render_signature": "a773efa7294f7ce9ae34fa0008915b11742607431e85d916473605f3ce569dc9",
+            "animTime": 22.714499999904625,
+            "inspection": "fidelity_garden_correction_v1_pair: inspected JPEG once; Fixed camera: corollas change from open/flat to cupped, gear spokes and lever rotate, highlights travel along creek."
+          }
+        ],
+        "descriptors": {
+          "beings / presences": {
+            "grade": "PRESENT",
+            "observation": "One pink/gold humanoid presence is clearly visible centrally; this is not a rendering of all four reports? different presences."
+          },
+          "communicating / teaching": {
+            "grade": "PARTIAL",
+            "observation": "Open arms suggest engagement, but no readable exchange or presented information is visible; a still cannot establish teaching or telepathy."
+          },
+          "plants / organic growth": {
+            "grade": "PRESENT",
+            "observation": "Tall branching trunks, serrated leaf canopies and low fronds flank an open path."
+          },
+          "circuitry / machinery": {
+            "grade": "PRESENT",
+            "observation": "Three recognisably toothed wheels with radial spokes and a projecting lever are visible on the right-side terrace.",
+            "temporal_observation": "Gear spokes and lever point in different directions between the two frames."
+          },
+          "dense / overwhelming": {
+            "grade": "PARTIAL",
+            "observation": "Flower beds increase foreground density, but broad dark gaps remain behind canopy and the central floor stays visually sparse."
+          },
+          "feminine form": {
+            "grade": "PRESENT",
+            "observation": "Central humanoid has a feminine gown-like mantle and long contour framing; the report?s elderly woman is not literally recreated."
+          },
+          "flower / mandala": {
+            "grade": "PRESENT",
+            "observation": "Dozens of layered radial pink/gold corollas now fill both sides of the path; some undersides still look flat and brown."
+          },
+          "folding / unfolding": {
+            "grade": "PRESENT",
+            "observation": "Corollas visibly open and cup at differing phases along both sides of the path.",
+            "temporal_observation": "Same camera, more than six animation seconds apart: near-right flower changes from nearly flat to layered cupped corolla; left-side blooms open at different phases."
+          },
+          "fractals": {
+            "grade": "PRESENT",
+            "observation": "Canopy forks subdivide into finer branches and leaf surfaces carry repeated smaller vein structures."
+          },
+          "intricate / detailed": {
+            "grade": "PRESENT",
+            "observation": "Fine leaf veins, canopy tracery, floor contours and the figure?s many filaments are legible."
+          },
+          "lattice / grid": {
+            "grade": "PRESENT",
+            "observation": "Open interwoven tracery spans overhead and behind the central figure."
+          },
+          "layered / multidimensional": {
+            "grade": "PARTIAL",
+            "observation": "Near leaves, middle trunks and a distant figure provide spatial layers; no changing extra-dimensional structure is demonstrated."
+          },
+          "liquid / flowing": {
+            "grade": "PARTIAL",
+            "observation": "A winding blue creek with moving white ripples is visible left, but its bright hard border reads as a floating ribbon; the pond is poorly differentiated.",
+            "temporal_observation": "White ripple curves shift downstream between the two fixed-camera frames."
+          },
+          "receding / dissolving": {
+            "grade": "PARTIAL",
+            "observation": "The exit dims the whole scene and interface before replacing Garden with Cathedral; no selective dissolution or soft return to ordinary awareness.",
+            "temporal_observation": "Compared settled Garden, paused exit veil and settled Cathedral through real controls."
+          },
+          "room / architecture": {
+            "grade": "PRESENT",
+            "observation": "Right-side terrace has red/gold brick masonry, a raised deck, stair treads and a thin railing; some is obscured by plants."
+          }
+        }
+      },
+      "remaining": "Water reads as raised ribbon; flowers have stiff flat undersides; communication/density/layers/recession remain partial. No fresh acceptance yet."
+    },
+    {
+      "target": "garden",
+      "iteration": "correction-v2",
+      "changes": "Banked creek and reduced its white edge/glints; inclined corollas to expose richer pink interiors. Retained real-control motion/exit receipts.",
+      "before": {
+        "captures": [
+          {
+            "file": "fidelity-garden-correction-v1.png",
+            "sha256": "ee95bf462ad7663a3e7df1ae5d7c7ba40507e5d714416336af833ca9b3566a8e",
+            "detail": "high",
+            "render_signature": "a773efa7294f7ce9ae34fa0008915b11742607431e85d916473605f3ce569dc9",
+            "animTime": 15.99809999990463,
+            "inspection": "fidelity_garden_correction_v1: inspected JPEG once; Creek reads as a bright raised ribbon; layered blooms flank open path; three toothed wheels, lever and brick terrace visible right."
+          },
+          {
+            "file": "fidelity-garden-correction-v1-motion.png",
+            "sha256": "b0cfb69a3aca1ae702143780a24324006e77a1210723b46ea6c9c7459201100e",
+            "detail": "high",
+            "render_signature": "a773efa7294f7ce9ae34fa0008915b11742607431e85d916473605f3ce569dc9",
+            "animTime": 22.714499999904625,
+            "inspection": "fidelity_garden_correction_v1_pair: inspected JPEG once; Fixed camera: corollas change from open/flat to cupped, gear spokes and lever rotate, highlights travel along creek."
+          }
+        ],
+        "descriptors": {
+          "beings / presences": {
+            "grade": "PRESENT",
+            "observation": "One pink/gold humanoid presence is clearly visible centrally; this is not a rendering of all four reports? different presences."
+          },
+          "communicating / teaching": {
+            "grade": "PARTIAL",
+            "observation": "Open arms suggest engagement, but no readable exchange or presented information is visible; a still cannot establish teaching or telepathy."
+          },
+          "plants / organic growth": {
+            "grade": "PRESENT",
+            "observation": "Tall branching trunks, serrated leaf canopies and low fronds flank an open path."
+          },
+          "circuitry / machinery": {
+            "grade": "PRESENT",
+            "observation": "Three recognisably toothed wheels with radial spokes and a projecting lever are visible on the right-side terrace.",
+            "temporal_observation": "Gear spokes and lever point in different directions between the two frames."
+          },
+          "dense / overwhelming": {
+            "grade": "PARTIAL",
+            "observation": "Flower beds increase foreground density, but broad dark gaps remain behind canopy and the central floor stays visually sparse."
+          },
+          "feminine form": {
+            "grade": "PRESENT",
+            "observation": "Central humanoid has a feminine gown-like mantle and long contour framing; the report?s elderly woman is not literally recreated."
+          },
+          "flower / mandala": {
+            "grade": "PRESENT",
+            "observation": "Dozens of layered radial pink/gold corollas now fill both sides of the path; some undersides still look flat and brown."
+          },
+          "folding / unfolding": {
+            "grade": "PRESENT",
+            "observation": "Corollas visibly open and cup at differing phases along both sides of the path.",
+            "temporal_observation": "Same camera, more than six animation seconds apart: near-right flower changes from nearly flat to layered cupped corolla; left-side blooms open at different phases."
+          },
+          "fractals": {
+            "grade": "PRESENT",
+            "observation": "Canopy forks subdivide into finer branches and leaf surfaces carry repeated smaller vein structures."
+          },
+          "intricate / detailed": {
+            "grade": "PRESENT",
+            "observation": "Fine leaf veins, canopy tracery, floor contours and the figure?s many filaments are legible."
+          },
+          "lattice / grid": {
+            "grade": "PRESENT",
+            "observation": "Open interwoven tracery spans overhead and behind the central figure."
+          },
+          "layered / multidimensional": {
+            "grade": "PARTIAL",
+            "observation": "Near leaves, middle trunks and a distant figure provide spatial layers; no changing extra-dimensional structure is demonstrated."
+          },
+          "liquid / flowing": {
+            "grade": "PARTIAL",
+            "observation": "A winding blue creek with moving white ripples is visible left, but its bright hard border reads as a floating ribbon; the pond is poorly differentiated.",
+            "temporal_observation": "White ripple curves shift downstream between the two fixed-camera frames."
+          },
+          "receding / dissolving": {
+            "grade": "PARTIAL",
+            "observation": "The exit dims the whole scene and interface before replacing Garden with Cathedral; no selective dissolution or soft return to ordinary awareness.",
+            "temporal_observation": "Compared settled Garden, paused exit veil and settled Cathedral through real controls."
+          },
+          "room / architecture": {
+            "grade": "PRESENT",
+            "observation": "Right-side terrace has red/gold brick masonry, a raised deck, stair treads and a thin railing; some is obscured by plants."
+          }
+        }
+      },
+      "after": {
+        "captures": [
+          {
+            "file": "fidelity-garden-correction-v2.png",
+            "sha256": "495c43d0e689016b2923974f95c1f57f954833c0194425383b8e08b73ad2926a",
+            "detail": "high",
+            "render_signature": "f55311963042dcab8dc6b48b9430773c69ab3d6226cbc6383812c5ba12eb8a38",
+            "animTime": 16.175499999904634,
+            "inspection": "fidelity_garden_correction_v2: inspected JPEG once; Pink radial flowers face the viewer, creek has green raised banks, right-side brick terrace and clockwork remain visible."
+          },
+          {
+            "file": "fidelity-garden-correction-v2-motion.png",
+            "sha256": "3e10ea635797369e89b7814d30bbfc8c3adb9682b428a5799a39af841880b54b",
+            "detail": "high",
+            "render_signature": "f55311963042dcab8dc6b48b9430773c69ab3d6226cbc6383812c5ba12eb8a38",
+            "animTime": 22.97519999990462,
+            "inspection": "fidelity_garden_correction_v2_pair: inspected JPEG once; Same camera: several corollas change cupping, ripple bands shift and gear spokes/lever move."
+          },
+          {
+            "file": "fidelity-garden-correction-v2-exit.png",
+            "sha256": "58b1b4346bbd6dc6eaa6295ae35d149ce5dfcfcc59493d5876caf4347b0af5de",
+            "detail": "high",
+            "render_signature": "f55311963042dcab8dc6b48b9430773c69ab3d6226cbc6383812c5ba12eb8a38",
+            "animTime": 24.05839999990462,
+            "inspection": "fidelity_garden_correction_v2_exit: inspected JPEG once; Whole Garden and HUD darken together; flowers, creek and presence remain outlined under the veil."
+          }
+        ],
+        "descriptors": {
+          "beings / presences": {
+            "grade": "PRESENT",
+            "observation": "One clearly visible central pink/gold humanoid presence; this does not recreate all four reports or their different presences."
+          },
+          "communicating / teaching": {
+            "grade": "PARTIAL",
+            "observation": "Open arms suggest engagement, but no readable exchange or presented information is visible; a still cannot establish teaching or telepathy."
+          },
+          "plants / organic growth": {
+            "grade": "PRESENT",
+            "observation": "Tall branching trunks, serrated leaf canopies and low fronds flank an open path."
+          },
+          "circuitry / machinery": {
+            "grade": "PRESENT",
+            "observation": "Three recognisably toothed wheels with radial spokes and a projecting lever are visible on the right-side terrace.",
+            "temporal_observation": "Gear spokes and lever point in different directions between the two frames."
+          },
+          "dense / overwhelming": {
+            "grade": "PARTIAL",
+            "observation": "Flower beds increase foreground density, but broad dark gaps remain behind canopy and the central floor stays visually sparse."
+          },
+          "feminine form": {
+            "grade": "PRESENT",
+            "observation": "Central humanoid has a feminine gown-like mantle and long contour framing; the elderly woman is not literally recreated."
+          },
+          "flower / mandala": {
+            "grade": "PRESENT",
+            "observation": "Dozens of layered pink/gold radial corollas fill both sides of the path. Inclined blossoms expose interiors; repeated forms remain stylized."
+          },
+          "folding / unfolding": {
+            "grade": "PRESENT",
+            "observation": "Corollas visibly open and cup at differing phases along both sides of the path.",
+            "temporal_observation": "Fixed camera, more than six animation seconds apart: foreground corollas change rim depth and cup angle, with left and right clusters at different phases. This is visible petal folding, not literal space folding."
+          },
+          "fractals": {
+            "grade": "PRESENT",
+            "observation": "Canopy forks subdivide into finer branches and leaf surfaces carry repeated smaller vein structures."
+          },
+          "intricate / detailed": {
+            "grade": "PRESENT",
+            "observation": "Fine leaf veins, layered petals, branch tracery, toothed wheels and many figure filaments are legible."
+          },
+          "lattice / grid": {
+            "grade": "PRESENT",
+            "observation": "Open interwoven tracery spans overhead and behind the central figure."
+          },
+          "layered / multidimensional": {
+            "grade": "PARTIAL",
+            "observation": "Near leaves, middle trunks and a distant figure provide spatial layers; no changing extra-dimensional structure is demonstrated."
+          },
+          "liquid / flowing": {
+            "grade": "PARTIAL",
+            "observation": "A blue rippled creek now has dark green banks and a widened pool left of the path. Flow is visible, but broad bright wave bands still look stylized and the creek-to-pond change remains indistinct.",
+            "temporal_observation": "White ripple curves shift downstream between the two fixed-camera frames."
+          },
+          "receding / dissolving": {
+            "grade": "PARTIAL",
+            "observation": "The fresh exit frame dims Garden and its HUD together rather than dissolving individual forms or showing a soft return to ordinary awareness.",
+            "temporal_observation": "Compared the bright settled frame with the same Garden paused under its real onward fade; plants and presence persist as dark outlines."
+          },
+          "room / architecture": {
+            "grade": "PRESENT",
+            "observation": "Right-side terrace has red/gold brick masonry, a raised deck, stair treads and a thin railing; some is obscured by plants."
+          }
+        }
+      },
+      "remaining": "Communication, overwhelming density, multidimensional layers, water realism and recession remain partial. Other 18 targets and fresh route-wide acceptance remain pending.",
+      "verification": {
+        "desktop": "verification-desktop.json",
+        "desktop_sha256": "7319076660594bbd04571b3e472aed421f52d682bd714e810c42aeeadf328ee3",
+        "high_garden": "fidelity-garden-accessibility-v2.json",
+        "high_garden_sha256": "64cdb07ea2cfb9007a1924905a5ae9f8fcd3122a197219549576cb3700191f70",
+        "checks": [
+          "paused pixel stillness",
+          "reduced-motion pixel stillness",
+          "detail toggle preserves route and pose",
+          "restored-detail reduced pixel stillness",
+          "Sources fidelity table and existing provenance"
+        ],
+        "inspection": "fidelity_garden_accessibility_v2: inspected JPEG once; frozen creek/flowers/clockwork, clear central path and visible maternal presence; reduced on, HIGH detail."
+      }
+    },
+    {
+      "target": "workshop",
+      "iteration": "fidelity-workshop-baseline-v1",
+      "changes": "First adversarial HIGH temporal Workshop baseline; no renderer changes. Source audit already passed by deterministic pool exhaustion.",
+      "before": {
+        "descriptors": {},
+        "captures": []
+      },
+      "after": {
+        "close_up": false,
+        "captures": [
+          {
+            "file": "fidelity-workshop-baseline-v1.png",
+            "sha256": "451011ff314be84a9440abeb8a6ac9d5fe6fced5d7902f8a06d135a2c226b595",
+            "detail": "high",
+            "render_signature": "f55311963042dcab8dc6b48b9430773c69ab3d6226cbc6383812c5ba12eb8a38",
+            "animTime": 16.749199999976156,
+            "inspection": "fidelity_workshop_baseline_v1: Inspected numbered JPEG once: five pale green filament humanoids in a bounded teal contour-lined chamber, purple rear arch, pink suspended filaments and red/gold leaf-like side forms. No recognizable conveyor, piston, cog or workbench."
+          },
+          {
+            "file": "fidelity-workshop-baseline-v1-motion.png",
+            "sha256": "a0d67394c53d9a7d3dd0967126ca2d8aeddd9da7b4571022fc7e925407fca9a5",
+            "detail": "high",
+            "render_signature": "f55311963042dcab8dc6b48b9430773c69ab3d6226cbc6383812c5ba12eb8a38",
+            "animTime": 23.732299999976163,
+            "inspection": "fidelity_workshop_baseline_v1_pair: Inspected numbered JPEG once at the same camera 6.9831 animation seconds later: hand/arm positions and pink head-surround orientations change, red leaf-like forms tilt and surface contours shift. Room layout stays fixed; no manufacturing action or visible object exchange established."
+          }
+        ],
+        "descriptors": {
+          "beings / presences": {
+            "grade": "PRESENT",
+            "observation": "Five distinct filament-bodied presences occupy the chamber. This covers visible beings, not reports of unseen presences or all heterogeneous factory workers."
+          },
+          "circuitry / machinery": {
+            "grade": "ABSENT",
+            "observation": "Neither frame shows recognizable manufacturing equipment, conveyors, pistons, cogs or workstations. Dense contour lines and hovering ornaments do not establish machinery; lateral forms read as red leaves."
+          },
+          "room / architecture": {
+            "grade": "PRESENT",
+            "observation": "Floor, enclosing walls, high patterned ceiling and pointed rear doorway form a clear room. Industrial and market architecture variants remain underrepresented."
+          },
+          "geometry / patterns": {
+            "grade": "PRESENT",
+            "observation": "Close-spaced teal/gold contour patterns fill floor and walls; pink zigzag filaments and patterned bodies add distinct geometric structures."
+          },
+          "humanoid / bodies": {
+            "grade": "PRESENT",
+            "observation": "The five presences have clear heads, torsos, articulated arms and paired legs. Their stylized proportions do not reproduce the boxed-body grid variant."
+          },
+          "small / miniature": {
+            "grade": "PARTIAL",
+            "observation": "Workers look squat and the rear figure is small on screen, but perspective explains much of the size difference. No familiar product or workstation convincingly establishes miniature scale."
+          },
+          "vast / infinite": {
+            "grade": "ABSENT",
+            "observation": "The rear wall and doorway visibly bound a modest chamber. No endless conveyor, receding factory grid or gigantic worker establishes the reported vast scale."
+          },
+          "communicating / teaching": {
+            "grade": "PARTIAL",
+            "observation": "Outstretched hands and suspended geometric objects suggest engagement. Across the pair there is no clear exchange, demonstrated product or readable teaching; the caption is not visual evidence."
+          },
+          "intricate / detailed": {
+            "grade": "PRESENT",
+            "observation": "Bodies contain fine interwoven strands and dense small ornaments, with closely spaced surface engraving throughout the chamber. This does not establish unlimited detail under zoom."
+          },
+          "layered / multidimensional": {
+            "grade": "PARTIAL",
+            "observation": "Foreground workers, middle workers and rear arch produce ordinary depth and overlapping filament layers. Impossible dimensions, folding entity corridors and simultaneous organic machine layers are not convincingly visible."
+          },
+          "moving / animated": {
+            "grade": "PRESENT",
+            "observation": "The paired frames show changes in articulated figures, suspended ornaments, side forms and room patterns; manufacturing motion is still absent.",
+            "temporal_observation": "At animTime 16.7492 versus 23.7323, with unchanged camera, the outer workers' hands/arms and pink head-surround orientations shift, the red/gold leaf-like forms tilt and the teal/gold surface contours drift. This is visible animation, not evidence of object transfer or machinery."
+          },
+          "fractals": {
+            "grade": "PARTIAL",
+            "observation": "Fine branching filaments and repeated contour structures suggest fractal detail, but these views do not clearly show nested self-similar manufacturing or fractal assembly-line forms at multiple scales."
+          },
+          "jester / clown form": {
+            "grade": "PARTIAL",
+            "observation": "Pink bobbled head surrounds and squat figures have a playful headdress silhouette. No unmistakable clown face, patterned clown body or multiplying limbs distinguishes the validated clown workers from generic elves."
+          },
+          "multicoloured": {
+            "grade": "PRESENT",
+            "observation": "Teal, green, gold, red and magenta/purple are simultaneously distinct across the chamber, side forms, workers and rear arch. This is one colourful synthesis, not a universal factory palette."
+          },
+          "white": {
+            "grade": "ABSENT",
+            "observation": "Some worker strands are pale, but the setting remains overwhelmingly teal and rainbow-accented. Neither a minimalist white factory nor a white-on-black boxed-body grid is represented."
+          }
+        }
+      },
+      "remaining": [
+        "Replace Workshop-only leaf-like growth props with legible lateral manufacturing stations: toothed gears, reciprocating pistons and moving packages, retaining geometry detail and an open central route.",
+        "Establish scale through receding production bays and product-sized workers, without presenting the heterogeneous reports as one universal factory.",
+        "Retain an explicit contrasting white/minimalist or white-on-black production variant rather than tinting every machine rainbow.",
+        "Re-render and inspect a fresh HIGH temporal pair before changing any adverse baseline grade. Preserve baseline files and history."
+      ],
+      "verification": {
+        "errors": [],
+        "missingEvidence": [],
+        "uncitedMeshes": 0,
+        "temporal_seconds": 6.983100000000007,
+        "fps_swiftshader": 3.19,
+        "note": "Capture provenance checks passed; no functional acceptance rerun because renderer unchanged."
+      }
+    },
+    {
+      "target": "workshop",
+      "iteration": "fidelity-workshop-correction-v1",
+      "changes": "Replaced Workshop-only leafy props with gears, piston presses, transporting packages and boxed carriers; deeper lateral production wings and contrasting white-on-black factory. Preserved central portal distance and added station collision bounds. Garden growth unchanged.",
+      "before": {
+        "close_up": false,
+        "captures": [
+          {
+            "file": "fidelity-workshop-baseline-v1.png",
+            "sha256": "451011ff314be84a9440abeb8a6ac9d5fe6fced5d7902f8a06d135a2c226b595",
+            "detail": "high",
+            "render_signature": "f55311963042dcab8dc6b48b9430773c69ab3d6226cbc6383812c5ba12eb8a38",
+            "animTime": 16.749199999976156,
+            "inspection": "fidelity_workshop_baseline_v1: Inspected numbered JPEG once: five pale green filament humanoids in a bounded teal contour-lined chamber, purple rear arch, pink suspended filaments and red/gold leaf-like side forms. No recognizable conveyor, piston, cog or workbench."
+          },
+          {
+            "file": "fidelity-workshop-baseline-v1-motion.png",
+            "sha256": "a0d67394c53d9a7d3dd0967126ca2d8aeddd9da7b4571022fc7e925407fca9a5",
+            "detail": "high",
+            "render_signature": "f55311963042dcab8dc6b48b9430773c69ab3d6226cbc6383812c5ba12eb8a38",
+            "animTime": 23.732299999976163,
+            "inspection": "fidelity_workshop_baseline_v1_pair: Inspected numbered JPEG once at the same camera 6.9831 animation seconds later: hand/arm positions and pink head-surround orientations change, red leaf-like forms tilt and surface contours shift. Room layout stays fixed; no manufacturing action or visible object exchange established."
+          }
+        ],
+        "descriptors": {
+          "beings / presences": {
+            "grade": "PRESENT",
+            "observation": "Five distinct filament-bodied presences occupy the chamber. This covers visible beings, not reports of unseen presences or all heterogeneous factory workers."
+          },
+          "circuitry / machinery": {
+            "grade": "ABSENT",
+            "observation": "Neither frame shows recognizable manufacturing equipment, conveyors, pistons, cogs or workstations. Dense contour lines and hovering ornaments do not establish machinery; lateral forms read as red leaves."
+          },
+          "room / architecture": {
+            "grade": "PRESENT",
+            "observation": "Floor, enclosing walls, high patterned ceiling and pointed rear doorway form a clear room. Industrial and market architecture variants remain underrepresented."
+          },
+          "geometry / patterns": {
+            "grade": "PRESENT",
+            "observation": "Close-spaced teal/gold contour patterns fill floor and walls; pink zigzag filaments and patterned bodies add distinct geometric structures."
+          },
+          "humanoid / bodies": {
+            "grade": "PRESENT",
+            "observation": "The five presences have clear heads, torsos, articulated arms and paired legs. Their stylized proportions do not reproduce the boxed-body grid variant."
+          },
+          "small / miniature": {
+            "grade": "PARTIAL",
+            "observation": "Workers look squat and the rear figure is small on screen, but perspective explains much of the size difference. No familiar product or workstation convincingly establishes miniature scale."
+          },
+          "vast / infinite": {
+            "grade": "ABSENT",
+            "observation": "The rear wall and doorway visibly bound a modest chamber. No endless conveyor, receding factory grid or gigantic worker establishes the reported vast scale."
+          },
+          "communicating / teaching": {
+            "grade": "PARTIAL",
+            "observation": "Outstretched hands and suspended geometric objects suggest engagement. Across the pair there is no clear exchange, demonstrated product or readable teaching; the caption is not visual evidence."
+          },
+          "intricate / detailed": {
+            "grade": "PRESENT",
+            "observation": "Bodies contain fine interwoven strands and dense small ornaments, with closely spaced surface engraving throughout the chamber. This does not establish unlimited detail under zoom."
+          },
+          "layered / multidimensional": {
+            "grade": "PARTIAL",
+            "observation": "Foreground workers, middle workers and rear arch produce ordinary depth and overlapping filament layers. Impossible dimensions, folding entity corridors and simultaneous organic machine layers are not convincingly visible."
+          },
+          "moving / animated": {
+            "grade": "PRESENT",
+            "observation": "The paired frames show changes in articulated figures, suspended ornaments, side forms and room patterns; manufacturing motion is still absent.",
+            "temporal_observation": "At animTime 16.7492 versus 23.7323, with unchanged camera, the outer workers' hands/arms and pink head-surround orientations shift, the red/gold leaf-like forms tilt and the teal/gold surface contours drift. This is visible animation, not evidence of object transfer or machinery."
+          },
+          "fractals": {
+            "grade": "PARTIAL",
+            "observation": "Fine branching filaments and repeated contour structures suggest fractal detail, but these views do not clearly show nested self-similar manufacturing or fractal assembly-line forms at multiple scales."
+          },
+          "jester / clown form": {
+            "grade": "PARTIAL",
+            "observation": "Pink bobbled head surrounds and squat figures have a playful headdress silhouette. No unmistakable clown face, patterned clown body or multiplying limbs distinguishes the validated clown workers from generic elves."
+          },
+          "multicoloured": {
+            "grade": "PRESENT",
+            "observation": "Teal, green, gold, red and magenta/purple are simultaneously distinct across the chamber, side forms, workers and rear arch. This is one colourful synthesis, not a universal factory palette."
+          },
+          "white": {
+            "grade": "ABSENT",
+            "observation": "Some worker strands are pale, but the setting remains overwhelmingly teal and rainbow-accented. Neither a minimalist white factory nor a white-on-black boxed-body grid is represented."
+          }
+        }
+      },
+      "after": {
+        "close_up": false,
+        "captures": [
+          {
+            "file": "fidelity-workshop-correction-v1.png",
+            "sha256": "0c0f5b7820dc50b517bf9df4bae7f3ed95d4f4f6ff691b64adafbc5b77138c10",
+            "detail": "high",
+            "render_signature": "e7e0a37b79550bae9582a1ec0889cd3b57211526dd1f3b09d9b8c1cb1e8f1703",
+            "animTime": 16.587200000071533,
+            "inspection": "fidelity_workshop_correction_v1: Inspected numbered JPEG once: gold toothed gears, press frames and red packages on left-hand benches; a contrasting white-on-black production wing at right. Repeated tall frames and small bays recede behind the purple central portal. Five filament humanoids remain visible. White equipment merges into its bright backdrop, and miniature carriers are not clearly resolved."
+          },
+          {
+            "file": "fidelity-workshop-correction-v1-motion.png",
+            "sha256": "e89d1686b03c27da237c7169be4fa13bdde3e67524018938d3cd64f23d74568e",
+            "detail": "high",
+            "render_signature": "e7e0a37b79550bae9582a1ec0889cd3b57211526dd1f3b09d9b8c1cb1e8f1703",
+            "animTime": 23.37020000007152,
+            "inspection": "fidelity_workshop_correction_v1_pair: Inspected numbered JPEG once at the same camera: left gear spokes change orientation, red packages shift along the bench, and press crosshead heights differ. Workers change arm/head ornaments and surface contours drift. Deep frame rows remain visible; right equipment remains low-contrast. No clear hand-to-hand exchange or teaching is demonstrated."
+          }
+        ],
+        "descriptors": {
+          "beings / presences": {
+            "grade": "PRESENT",
+            "observation": "Five distinct filament-bodied presences occupy the aisle. Tiny white carriers are not clearly resolved; unseen-presence variants cannot be depicted literally."
+          },
+          "circuitry / machinery": {
+            "grade": "PRESENT",
+            "observation": "Left-hand benches have unmistakable toothed intermeshing wheels, upright press frames, crossheads and red packages. The pair shows shifted gear spokes and packages. White machinery on the right loses separation against its backdrop; machinery detail is uneven."
+          },
+          "room / architecture": {
+            "grade": "PRESENT",
+            "observation": "Floor, high ceiling, repeating structural frames, production wings and the central purple exit establish factory architecture. Market stalls and folding corridors are not represented."
+          },
+          "geometry / patterns": {
+            "grade": "PRESENT",
+            "observation": "Teal/gold contour fields cover the aisle and left shell, alongside angular gold frames, toothed circles and pink overhead zigzag filaments. The white wing intentionally contrasts with this patterned setting."
+          },
+          "humanoid / bodies": {
+            "grade": "PRESENT",
+            "observation": "Five filament presences have heads, torsos, paired legs and articulated arms. The boxed-body worker variant is too small and low-contrast here to establish its body structure."
+          },
+          "small / miniature": {
+            "grade": "PARTIAL",
+            "observation": "Squat workers stand beside much taller presses, providing a stronger scale cue than the baseline. Product-sized white carriers are not clearly resolved; the scene does not convincingly establish extreme miniature scale."
+          },
+          "vast / infinite": {
+            "grade": "PARTIAL",
+            "observation": "Repeated gold and white frame rows and diminishing production bays extend behind the central exit, making the room substantially deeper. A finite patterned far wall remains, and the camera does not establish limitless or gigantic factory scale."
+          },
+          "communicating / teaching": {
+            "grade": "PARTIAL",
+            "observation": "Workers hold their arms near suspended geometric objects. Changes between frames do not show a legible exchange or lesson; packages moving on a bench are not evidence of communication."
+          },
+          "intricate / detailed": {
+            "grade": "PRESENT",
+            "observation": "Dense body filaments and closely spaced wall/floor contours remain visible; gear teeth, spokes and striped packages add local mechanical detail. The white wing is comparatively simplified, and unlimited detail is not demonstrated."
+          },
+          "layered / multidimensional": {
+            "grade": "PARTIAL",
+            "observation": "Overlapping workers, machines, the central portal and receding frame rows establish multiple depth layers. These are still ordinary perspective, not convincing impossible dimensions or folding entity corridors."
+          },
+          "moving / animated": {
+            "grade": "PRESENT",
+            "observation": "The paired frames show gear-spoke rotation, shifted red packages and press crosshead positions, as well as articulated beings and drifting surface contours. This establishes mechanical and figure animation, not a complete observed manufacturing process.",
+            "temporal_observation": "At animTime 16.5872 versus 23.3702, unchanged camera: left gear spokes rotate, red bench packages shift, press crosshead heights differ, workers' arm/head-surround poses change and aisle contours drift. These frames do not establish object teaching, completed manufacture or impossible transformation."
+          },
+          "fractals": {
+            "grade": "PARTIAL",
+            "observation": "Nested contour fields, branching body filaments and repeated structures suggest fractal detail. Gear teeth and perspective repetition alone do not establish self-similar fractal manufacturing at multiple scales."
+          },
+          "jester / clown form": {
+            "grade": "PARTIAL",
+            "observation": "Pink bobbled head surrounds retain playful silhouettes, but no unmistakable clown face, patterned clown body or multiplying limbs is established."
+          },
+          "multicoloured": {
+            "grade": "PRESENT",
+            "observation": "Teal, green, gold, red and magenta/purple remain distinct across machinery, patterns and beings. The contrasting monochrome wing preserves a different validated variant rather than making every surface rainbow."
+          },
+          "white": {
+            "grade": "PRESENT",
+            "observation": "An entire bright white production wing with black roof/belt contrast occupies the right side, rather than isolated white highlights. White presses and packages merge into the backdrop; this covers the setting palette, not full fidelity to the minimalist carrier narrative."
+          }
+        }
+      },
+      "remaining": "Miniature and vast scale, communication, multidimensional layering, fractals and clown form remain PARTIAL. White-wing machinery needs better separation. Renderer edits stale previous Garden capture and acceptance signatures.",
+      "verification": {
+        "syntax": [
+          "trip.js PASS",
+          "fractal.js PASS"
+        ],
+        "capture_errors": [],
+        "uncitedMeshes": 0,
+        "desktop": {
+          "passed": true,
+          "render_signature": "e7e0a37b79550bae9582a1ec0889cd3b57211526dd1f3b09d9b8c1cb1e8f1703",
+          "sha256": "72e15a9e7b43e0725ef61b649e08644e504cbe8c162ca60ea9c6ef4072b13b26"
+        },
+        "workshopStationCollision": true,
+        "workshopPhysicalExit": true,
+        "first_desktop_attempt": "workshop-correction-v1-desktop-attempt1.json: timeout at unchanged Cathedral side exit before Workshop tests. Rerun passed without navigation changes; timeout diagnostics now include read-only pose."
+      }
+    }
+  ]
+}

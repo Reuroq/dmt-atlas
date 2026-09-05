@@ -1,0 +1,66 @@
+{
+  "errors": [],
+  "fps_swiftshader": 8.34,
+  "checks": [
+    "paused pixel stillness",
+    "reduced-motion pixel stillness",
+    "detail toggle preserves route and pose",
+    "restored-detail reduced pixel stillness"
+  ],
+  "diagnostics": {
+    "stage": "geometry",
+    "routeIndex": 1,
+    "entered": true,
+    "paused": false,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 2.4832,
+    "animTime": 4.568099999976157,
+    "transition": false,
+    "renderReady": true,
+    "frames": 44,
+    "position": [
+      0,
+      1.7,
+      8
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset",
+      "geometry"
+    ],
+    "entities": [],
+    "interactions": 0,
+    "evidence": [
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|The Chrysanthemum",
+      "phase|Inhalation / Onset",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|Dimensional Layering & Space-Folding",
+      "geometry|Hyperbolic Space & Negative Curvature",
+      "geometry|Ultra-Detail & Infinite Resolution",
+      "geometry|Energy Conduits & Living Circuitry",
+      "geometry|Mandalas & symmetry fields",
+      "geometry|TV Static & the Signal-Noise Transition",
+      "geometry|Time Geometry \u2014 Moments as Objects & Loops"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 41,
+    "portals": [
+      {
+        "x": 0,
+        "z": -23,
+        "width": 3.5,
+        "target": "next"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 15,
+    "triangles": 208932,
+    "geometries": 18,
+    "actors": [],
+    "uncitedMeshes": 0
+  }
+}

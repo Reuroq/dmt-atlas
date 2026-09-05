@@ -8,6 +8,7 @@ import io
 import json
 import time
 from pathlib import Path
+from fidelity import render_signature
 
 from PIL import Image, ImageChops
 from playwright.sync_api import sync_playwright
@@ -18,7 +19,7 @@ ROUTE = ['onset', 'geometry', 'chrysanthemum', 'rush', 'membrane', 'waiting',
 BRANCHES = ['workshop', 'garden', 'clinical', 'void']
 ARGS = ['--enable-webgl', '--use-angle=swiftshader', '--enable-unsafe-swiftshader',
         '--allow-file-access-from-files']
-results = {'errors': [], 'sections': {}}
+results = {'errors': [], 'sections': {}, 'render_signature': render_signature()}
 
 
 def announce(message):
@@ -59,7 +60,9 @@ def next_stage(page, name, touch=False):
 def hold_until(page, key, condition, timeout=18000):
     page.keyboard.down(key)
     try:
-        page.wait_for_function(condition, timeout=timeout)
+        page.wait_for_function(condition, timeout=timeout, polling=25)
+    except Exception as exc:
+        raise AssertionError(f'Walking {key!r} toward {condition}: {diag(page)}') from exc
     finally:
         page.keyboard.up(key)
 
@@ -79,6 +82,9 @@ def evidence(page):
     assert 'Evidence entry unavailable' not in text and 'Unresolved citation' not in text, text
     assert page.locator('#evidenceContent .node').count() == len(d['evidence'])
     assert page.locator('#evidenceContent .source').count() > 0
+    assert page.locator('#evidenceContent .fidelity').count() == 1
+    assert page.locator('#evidenceContent .fidelity-target[open] tbody tr').count() == 15
+    assert 'What reports say / what the render shows' in text
     links = page.locator('#evidenceContent a').evaluate_all('(items) => items.map(a => a.href)')
     assert all(s.startswith(('https://', 'http://')) for s in links)
     page.locator('#closeEvidence').click()
@@ -95,6 +101,11 @@ def still(page, field, seconds=.65):
 def desktop(browser):
     page = open_page(browser, viewport={'width': 1440, 'height': 960}, device_scale_factor=1)
     out = {'evidence': []}
+    # SwiftShader is a CPU renderer; exercise the real lower-detail control for walking tests.
+    # High-detail visuals are captured separately by render_visual.py.
+    page.locator('#detail').click()
+    assert diag(page)['detail'] == 'low'
+    out['detail'] = 'low'
     snapshot(page, 'entrance')
     page.locator('#autoStart').uncheck()
     page.locator('#begin').click()
@@ -164,15 +175,51 @@ def desktop(browser):
                 hold_until(page, 'w', 'journeyDiagnostics().position[2] < 4')
             else:
                 hold_until(page, 'w', 'journeyDiagnostics().position[2] < 2')
-            a = diag(page)['actors'][0]
+            visible = [(i, a) for i, a in enumerate(diag(page)['actors'])
+                       if 35 < a['screen'][0] < page.viewport_size['width'] - 35
+                       and 80 < a['screen'][1] < page.viewport_size['height'] - 120]
+            assert visible, (name, diag(page))
+            actor_index, a = min(visible, key=lambda pair: abs(pair[1]['screen'][0] - page.viewport_size['width'] / 2))
             before = diag(page)['interactions']
             page.mouse.click(*a['screen'])
             assert diag(page)['interactions'] > before, (name, a)
-            arm = diag(page)['actors'][0]['arm']
+            arm = diag(page)['actors'][actor_index]['arm']
             page.wait_for_timeout(750)
-            assert diag(page)['actors'][0]['arm'] != arm
-            assert diag(page)['actors'][0]['engaged']
+            assert diag(page)['actors'][actor_index]['arm'] != arm
+            assert diag(page)['actors'][actor_index]['engaged']
             snapshot(page, name)
+        if name == 'workshop':
+            # Factory stations must block lateral walking but leave the original exit lane open.
+            hold_until(page, 'w', 'journeyDiagnostics().position[2] < .7')
+            hold_until(page, 'd', 'journeyDiagnostics().position[0] > 4.1')
+            page.keyboard.down('d')
+            page.wait_for_timeout(700)
+            page.keyboard.up('d')
+            assert 4.1 < diag(page)['position'][0] <= 4.41, diag(page)
+            hold_until(page, 'a', 'journeyDiagnostics().position[0] < .1')
+            hold_until(page, 'w', 'journeyDiagnostics().transition')
+            stage(page, 'cathedral')
+            out['workshopStationCollision'] = True
+            out['workshopPhysicalExit'] = True
+        if name == 'garden':
+            # New lateral stairs and terrace must be solid without closing the path.
+            hold_until(page, 'd', 'journeyDiagnostics().position[0] > 6.5')
+            page.keyboard.down('d')
+            page.wait_for_timeout(700)
+            page.keyboard.up('d')
+            assert 6.5 < diag(page)['position'][0] <= 6.81, diag(page)
+            hold_until(page, 'a', 'journeyDiagnostics().position[0] < .1')
+            hold_until(page, 'w', 'journeyDiagnostics().position[2] < .7')
+            hold_until(page, 'd', 'journeyDiagnostics().position[0] > 5.1')
+            page.keyboard.down('d')
+            page.wait_for_timeout(700)
+            page.keyboard.up('d')
+            assert 5.1 < diag(page)['position'][0] <= 5.41, diag(page)
+            hold_until(page, 'a', 'journeyDiagnostics().position[0] < .1')
+            hold_until(page, 'w', 'journeyDiagnostics().transition')
+            stage(page, 'cathedral')
+            out['gardenTerraceCollision'] = True
+            out['gardenPhysicalExit'] = True
         if name == 'clinical':
             page.keyboard.down('d')
             page.wait_for_timeout(3800)
@@ -183,7 +230,8 @@ def desktop(browser):
             page.wait_for_timeout(6800)
             page.keyboard.up('d')
             assert diag(page)['position'][0] == 18
-        next_stage(page, 'cathedral')
+        if name not in ['garden', 'workshop']:
+            next_stage(page, 'cathedral')
         assert diag(page)['geometries'] <= baseline_memory + 2, diag(page)
     snapshot(page, 'cathedral')
     for name in ROUTE[7:]:

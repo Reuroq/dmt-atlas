@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "Relevant empty descriptor list keeps sample denominator and deterministic prefix",
+    "Empty list adds no descriptor votes",
+    "Non-list descriptor input rejected",
+    "24 real Workshop decisions and 4 supplementary windows validated"
+  ],
+  "workshop_included": 11,
+  "workshop_excluded": 13,
+  "workshop_remaining": 52,
+  "renderer_unchanged": true
+}

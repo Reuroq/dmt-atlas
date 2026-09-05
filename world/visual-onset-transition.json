@@ -1,0 +1,53 @@
+{
+  "errors": [],
+  "fps_swiftshader": 3.57,
+  "checks": [],
+  "diagnostics": {
+    "stage": "onset",
+    "routeIndex": 0,
+    "entered": true,
+    "paused": true,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 2.9165000000000005,
+    "animTime": 3.8286,
+    "transition": true,
+    "renderReady": true,
+    "frames": 22,
+    "position": [
+      0,
+      1.7,
+      6.5
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset"
+    ],
+    "entities": [],
+    "interactions": 0,
+    "evidence": [
+      "phase|Inhalation / Onset",
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|TV Static & the Signal-Noise Transition"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 17,
+    "portals": [
+      {
+        "x": 0,
+        "z": -8.95,
+        "width": 3,
+        "target": "next"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 69,
+    "triangles": 21622,
+    "geometries": 22,
+    "actors": [],
+    "uncitedMeshes": 0
+  }
+}

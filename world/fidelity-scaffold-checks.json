@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "checks": [
+    "missing, outside-world, stale and low-detail capture receipts rejected",
+    "mobile Sources: 15 rows, unvalidated label, existing citation links and no drawer overflow"
+  ],
+  "render_signature": "61271867c89ee9197c5dcb086e31bf74a15cb02d77ea4e3f0aa032f560c63684"
+}

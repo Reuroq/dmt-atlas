@@ -1,0 +1,88 @@
+{
+  "iteration": "fidelity-workshop-correction-v1",
+  "observations": [
+    "Inspected numbered JPEG once: gold toothed gears, press frames and red packages on left-hand benches; a contrasting white-on-black production wing at right. Repeated tall frames and small bays recede behind the purple central portal. Five filament humanoids remain visible. White equipment merges into its bright backdrop, and miniature carriers are not clearly resolved.",
+    "Inspected numbered JPEG once at the same camera: left gear spokes change orientation, red packages shift along the bench, and press crosshead heights differ. Workers change arm/head ornaments and surface contours drift. Deep frame rows remain visible; right equipment remains low-contrast. No clear hand-to-hand exchange or teaching is demonstrated."
+  ],
+  "captures": [
+    {
+      "file": "fidelity-workshop-correction-v1.png",
+      "sha256": "0c0f5b7820dc50b517bf9df4bae7f3ed95d4f4f6ff691b64adafbc5b77138c10",
+      "detail": "high",
+      "render_signature": "e7e0a37b79550bae9582a1ec0889cd3b57211526dd1f3b09d9b8c1cb1e8f1703",
+      "animTime": 16.587200000071533,
+      "inspection": "fidelity_workshop_correction_v1: Inspected numbered JPEG once: gold toothed gears, press frames and red packages on left-hand benches; a contrasting white-on-black production wing at right. Repeated tall frames and small bays recede behind the purple central portal. Five filament humanoids remain visible. White equipment merges into its bright backdrop, and miniature carriers are not clearly resolved."
+    },
+    {
+      "file": "fidelity-workshop-correction-v1-motion.png",
+      "sha256": "e89d1686b03c27da237c7169be4fa13bdde3e67524018938d3cd64f23d74568e",
+      "detail": "high",
+      "render_signature": "e7e0a37b79550bae9582a1ec0889cd3b57211526dd1f3b09d9b8c1cb1e8f1703",
+      "animTime": 23.37020000007152,
+      "inspection": "fidelity_workshop_correction_v1_pair: Inspected numbered JPEG once at the same camera: left gear spokes change orientation, red packages shift along the bench, and press crosshead heights differ. Workers change arm/head ornaments and surface contours drift. Deep frame rows remain visible; right equipment remains low-contrast. No clear hand-to-hand exchange or teaching is demonstrated."
+    }
+  ],
+  "descriptors": {
+    "beings / presences": {
+      "grade": "PRESENT",
+      "observation": "Five distinct filament-bodied presences occupy the aisle. Tiny white carriers are not clearly resolved; unseen-presence variants cannot be depicted literally."
+    },
+    "circuitry / machinery": {
+      "grade": "PRESENT",
+      "observation": "Left-hand benches have unmistakable toothed intermeshing wheels, upright press frames, crossheads and red packages. The pair shows shifted gear spokes and packages. White machinery on the right loses separation against its backdrop; machinery detail is uneven."
+    },
+    "room / architecture": {
+      "grade": "PRESENT",
+      "observation": "Floor, high ceiling, repeating structural frames, production wings and the central purple exit establish factory architecture. Market stalls and folding corridors are not represented."
+    },
+    "geometry / patterns": {
+      "grade": "PRESENT",
+      "observation": "Teal/gold contour fields cover the aisle and left shell, alongside angular gold frames, toothed circles and pink overhead zigzag filaments. The white wing intentionally contrasts with this patterned setting."
+    },
+    "humanoid / bodies": {
+      "grade": "PRESENT",
+      "observation": "Five filament presences have heads, torsos, paired legs and articulated arms. The boxed-body worker variant is too small and low-contrast here to establish its body structure."
+    },
+    "small / miniature": {
+      "grade": "PARTIAL",
+      "observation": "Squat workers stand beside much taller presses, providing a stronger scale cue than the baseline. Product-sized white carriers are not clearly resolved; the scene does not convincingly establish extreme miniature scale."
+    },
+    "vast / infinite": {
+      "grade": "PARTIAL",
+      "observation": "Repeated gold and white frame rows and diminishing production bays extend behind the central exit, making the room substantially deeper. A finite patterned far wall remains, and the camera does not establish limitless or gigantic factory scale."
+    },
+    "communicating / teaching": {
+      "grade": "PARTIAL",
+      "observation": "Workers hold their arms near suspended geometric objects. Changes between frames do not show a legible exchange or lesson; packages moving on a bench are not evidence of communication."
+    },
+    "intricate / detailed": {
+      "grade": "PRESENT",
+      "observation": "Dense body filaments and closely spaced wall/floor contours remain visible; gear teeth, spokes and striped packages add local mechanical detail. The white wing is comparatively simplified, and unlimited detail is not demonstrated."
+    },
+    "layered / multidimensional": {
+      "grade": "PARTIAL",
+      "observation": "Overlapping workers, machines, the central portal and receding frame rows establish multiple depth layers. These are still ordinary perspective, not convincing impossible dimensions or folding entity corridors."
+    },
+    "moving / animated": {
+      "grade": "PRESENT",
+      "observation": "The paired frames show gear-spoke rotation, shifted red packages and press crosshead positions, as well as articulated beings and drifting surface contours. This establishes mechanical and figure animation, not a complete observed manufacturing process.",
+      "temporal_observation": "At animTime 16.5872 versus 23.3702, unchanged camera: left gear spokes rotate, red bench packages shift, press crosshead heights differ, workers' arm/head-surround poses change and aisle contours drift. These frames do not establish object teaching, completed manufacture or impossible transformation."
+    },
+    "fractals": {
+      "grade": "PARTIAL",
+      "observation": "Nested contour fields, branching body filaments and repeated structures suggest fractal detail. Gear teeth and perspective repetition alone do not establish self-similar fractal manufacturing at multiple scales."
+    },
+    "jester / clown form": {
+      "grade": "PARTIAL",
+      "observation": "Pink bobbled head surrounds retain playful silhouettes, but no unmistakable clown face, patterned clown body or multiplying limbs is established."
+    },
+    "multicoloured": {
+      "grade": "PRESENT",
+      "observation": "Teal, green, gold, red and magenta/purple remain distinct across machinery, patterns and beings. The contrasting monochrome wing preserves a different validated variant rather than making every surface rainbow."
+    },
+    "white": {
+      "grade": "PRESENT",
+      "observation": "An entire bright white production wing with black roof/belt contrast occupies the right side, rather than isolated white highlights. White presses and packages merge into the backdrop; this covers the setting palette, not full fidelity to the minimalist carrier narrative."
+    }
+  }
+}

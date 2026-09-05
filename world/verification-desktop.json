@@ -7,56 +7,97 @@
           "stage": "onset",
           "keys": [
             "phase|Inhalation / Onset",
-            "geometry|Breathing & Liquid Surfaces"
+            "geometry|Breathing & Liquid Surfaces",
+            "geometry|Fractal lattices & jeweled tilings",
+            "geometry|Static Pattern Overlay & filigree",
+            "geometry|TV Static & the Signal-Noise Transition"
           ],
-          "sources": 5,
-          "links": 22,
+          "sources": 17,
+          "links": 92,
           "drawCalls": 57,
-          "geometries": 19
+          "geometries": 22
         },
         {
           "stage": "geometry",
           "keys": [
             "geometry|Breathing & Liquid Surfaces",
             "geometry|The Chrysanthemum",
-            "phase|Inhalation / Onset"
+            "phase|Inhalation / Onset",
+            "geometry|Fractal lattices & jeweled tilings",
+            "geometry|Static Pattern Overlay & filigree",
+            "geometry|Dimensional Layering & Space-Folding",
+            "geometry|Hyperbolic Space & Negative Curvature",
+            "geometry|Ultra-Detail & Infinite Resolution",
+            "geometry|Energy Conduits & Living Circuitry",
+            "geometry|Mandalas & symmetry fields",
+            "geometry|TV Static & the Signal-Noise Transition",
+            "geometry|Time Geometry \u2014 Moments as Objects & Loops"
           ],
-          "sources": 11,
-          "links": 36,
-          "drawCalls": 69,
-          "geometries": 17
+          "sources": 41,
+          "links": 155,
+          "drawCalls": 15,
+          "geometries": 18
         },
         {
           "stage": "chrysanthemum",
           "keys": [
             "phase|The Chrysanthemum",
-            "geometry|The Chrysanthemum"
+            "geometry|The Chrysanthemum",
+            "geometry|Fractal lattices & jeweled tilings",
+            "geometry|Static Pattern Overlay & filigree",
+            "geometry|Breathing & Liquid Surfaces",
+            "geometry|Dimensional Layering & Space-Folding",
+            "geometry|Hyperbolic Space & Negative Curvature",
+            "geometry|Ultra-Detail & Infinite Resolution",
+            "geometry|Energy Conduits & Living Circuitry",
+            "geometry|Mandalas & symmetry fields"
           ],
-          "sources": 8,
-          "links": 27,
-          "drawCalls": 69,
-          "geometries": 17
+          "sources": 35,
+          "links": 138,
+          "drawCalls": 9,
+          "geometries": 12
         },
         {
           "stage": "rush",
           "keys": [
             "phase|The Rush",
-            "geometry|Zooming / Rushing Tunnel Flight"
+            "geometry|Zooming / Rushing Tunnel Flight",
+            "geometry|Fractal lattices & jeweled tilings",
+            "geometry|Static Pattern Overlay & filigree",
+            "geometry|Breathing & Liquid Surfaces",
+            "geometry|Dimensional Layering & Space-Folding",
+            "geometry|Hyperbolic Space & Negative Curvature",
+            "geometry|Ultra-Detail & Infinite Resolution",
+            "geometry|Energy Conduits & Living Circuitry",
+            "geometry|Mandalas & symmetry fields",
+            "geometry|The Chrysanthemum",
+            "geometry|TV Static & the Signal-Noise Transition"
           ],
-          "sources": 5,
-          "links": 21,
-          "drawCalls": 122,
-          "geometries": 23
+          "sources": 41,
+          "links": 155,
+          "drawCalls": 8,
+          "geometries": 11
         },
         {
           "stage": "membrane",
           "keys": [
             "phase|Through the Membrane",
-            "geometry|The Aperture / Iris Opening"
+            "geometry|The Aperture / Iris Opening",
+            "geometry|Fractal lattices & jeweled tilings",
+            "geometry|Static Pattern Overlay & filigree",
+            "geometry|Breathing & Liquid Surfaces",
+            "geometry|Dimensional Layering & Space-Folding",
+            "geometry|Hyperbolic Space & Negative Curvature",
+            "geometry|Ultra-Detail & Infinite Resolution",
+            "geometry|Energy Conduits & Living Circuitry",
+            "geometry|Mandalas & symmetry fields",
+            "geometry|The Chrysanthemum",
+            "geometry|TV Static & the Signal-Noise Transition",
+            "geometry|Time Geometry \u2014 Moments as Objects & Loops"
           ],
-          "sources": 5,
-          "links": 16,
-          "drawCalls": 70,
+          "sources": 44,
+          "links": 158,
+          "drawCalls": 16,
           "geometries": 19
         },
         {
@@ -65,12 +106,20 @@
             "realm|The Waiting Room",
             "phase|Arrival \u2014 The Waiting Room",
             "entity|The Jester / Trickster / Clown",
-            "geometry|Breathing & Liquid Surfaces"
+            "geometry|Breathing & Liquid Surfaces",
+            "geometry|Fractal lattices & jeweled tilings",
+            "geometry|Static Pattern Overlay & filigree",
+            "geometry|Dimensional Layering & Space-Folding",
+            "geometry|Hyperbolic Space & Negative Curvature",
+            "geometry|Ultra-Detail & Infinite Resolution",
+            "geometry|Energy Conduits & Living Circuitry",
+            "geometry|Embedded Faces & the Pareidolia Cascade",
+            "geometry|Hyper-dimensional objects"
           ],
-          "sources": 17,
-          "links": 43,
-          "drawCalls": 129,
-          "geometries": 31
+          "sources": 46,
+          "links": 199,
+          "drawCalls": 64,
+          "geometries": 60
         },
         {
           "stage": "cathedral",
@@ -78,56 +127,93 @@
             "realm|The Domed Cathedral",
             "phase|Breakthrough",
             "geometry|Breathing & Liquid Surfaces",
-            "entity|Self-transforming machine elves"
+            "entity|Self-transforming machine elves",
+            "geometry|Fractal lattices & jeweled tilings",
+            "geometry|Static Pattern Overlay & filigree",
+            "geometry|Dimensional Layering & Space-Folding",
+            "geometry|Hyperbolic Space & Negative Curvature",
+            "geometry|Ultra-Detail & Infinite Resolution",
+            "geometry|Energy Conduits & Living Circuitry",
+            "geometry|Embedded Faces & the Pareidolia Cascade",
+            "geometry|Hyper-dimensional objects"
           ],
-          "sources": 18,
-          "links": 47,
-          "drawCalls": 237,
-          "geometries": 76
+          "sources": 47,
+          "links": 203,
+          "drawCalls": 92,
+          "geometries": 79
         },
         {
           "stage": "workshop",
           "keys": [
             "realm|The Workshop / Factory / Market",
             "entity|Self-transforming machine elves",
-            "geometry|Living language / visible sound"
+            "geometry|Living language / visible sound",
+            "geometry|Fractal lattices & jeweled tilings",
+            "geometry|Static Pattern Overlay & filigree",
+            "geometry|Breathing & Liquid Surfaces",
+            "geometry|Dimensional Layering & Space-Folding",
+            "geometry|Hyperbolic Space & Negative Curvature",
+            "geometry|Ultra-Detail & Infinite Resolution",
+            "geometry|Energy Conduits & Living Circuitry",
+            "geometry|Embedded Faces & the Pareidolia Cascade",
+            "geometry|Hyper-dimensional objects"
           ],
-          "sources": 16,
-          "links": 34,
-          "drawCalls": 498,
-          "geometries": 85
+          "sources": 48,
+          "links": 199,
+          "drawCalls": 808,
+          "geometries": 60
         },
         {
           "stage": "garden",
           "keys": [
             "realm|The Garden",
             "entity|The Divine Feminine",
-            "geometry|Breathing & Liquid Surfaces"
+            "geometry|Breathing & Liquid Surfaces",
+            "geometry|Fractal lattices & jeweled tilings",
+            "geometry|Static Pattern Overlay & filigree",
+            "geometry|Dimensional Layering & Space-Folding",
+            "geometry|Hyperbolic Space & Negative Curvature",
+            "geometry|Ultra-Detail & Infinite Resolution",
+            "geometry|Energy Conduits & Living Circuitry",
+            "geometry|Embedded Faces & the Pareidolia Cascade",
+            "geometry|Hyper-dimensional objects"
           ],
-          "sources": 12,
-          "links": 35,
-          "drawCalls": 169,
-          "geometries": 29
+          "sources": 41,
+          "links": 167,
+          "drawCalls": 114,
+          "geometries": 111
         },
         {
           "stage": "clinical",
           "keys": [
             "realm|The Hospital / Operating Theater",
-            "entity|Mantis & insectoid beings"
+            "entity|Mantis & insectoid beings",
+            "geometry|Fractal lattices & jeweled tilings",
+            "geometry|Static Pattern Overlay & filigree",
+            "geometry|Breathing & Liquid Surfaces",
+            "geometry|Dimensional Layering & Space-Folding",
+            "geometry|Hyperbolic Space & Negative Curvature",
+            "geometry|Ultra-Detail & Infinite Resolution",
+            "geometry|Energy Conduits & Living Circuitry",
+            "geometry|Embedded Faces & the Pareidolia Cascade",
+            "geometry|Hyper-dimensional objects"
           ],
-          "sources": 12,
-          "links": 22,
-          "drawCalls": 84,
-          "geometries": 28
+          "sources": 44,
+          "links": 187,
+          "drawCalls": 51,
+          "geometries": 49
         },
         {
           "stage": "void",
           "keys": [
             "realm|The Void",
-            "phase|The Peak / Throne / Apex"
+            "phase|The Peak / Throne / Apex",
+            "geometry|Fractal lattices & jeweled tilings",
+            "geometry|Static Pattern Overlay & filigree",
+            "geometry|Breathing & Liquid Surfaces"
           ],
-          "sources": 8,
-          "links": 26,
+          "sources": 20,
+          "links": 96,
           "drawCalls": 2,
           "geometries": 7
         },
@@ -137,12 +223,21 @@
             "phase|Entity Contact",
             "entity|Self-transforming machine elves",
             "entity|The Jester / Trickster / Clown",
-            "realm|The Domed Cathedral"
+            "realm|The Domed Cathedral",
+            "geometry|Fractal lattices & jeweled tilings",
+            "geometry|Static Pattern Overlay & filigree",
+            "geometry|Breathing & Liquid Surfaces",
+            "geometry|Dimensional Layering & Space-Folding",
+            "geometry|Hyperbolic Space & Negative Curvature",
+            "geometry|Ultra-Detail & Infinite Resolution",
+            "geometry|Energy Conduits & Living Circuitry",
+            "geometry|Embedded Faces & the Pareidolia Cascade",
+            "geometry|Hyper-dimensional objects"
           ],
-          "sources": 23,
-          "links": 51,
-          "drawCalls": 342,
-          "geometries": 78
+          "sources": 55,
+          "links": 261,
+          "drawCalls": 111,
+          "geometries": 86
         },
         {
           "stage": "download",
@@ -151,23 +246,43 @@
             "geometry|Living language / visible sound",
             "entity|Self-transforming machine elves",
             "entity|The Jester / Trickster / Clown",
-            "realm|The Domed Cathedral"
+            "realm|The Domed Cathedral",
+            "geometry|Fractal lattices & jeweled tilings",
+            "geometry|Static Pattern Overlay & filigree",
+            "geometry|Breathing & Liquid Surfaces",
+            "geometry|Dimensional Layering & Space-Folding",
+            "geometry|Hyperbolic Space & Negative Curvature",
+            "geometry|Ultra-Detail & Infinite Resolution",
+            "geometry|Energy Conduits & Living Circuitry",
+            "geometry|Embedded Faces & the Pareidolia Cascade",
+            "geometry|Hyper-dimensional objects",
+            "geometry|Time Geometry \u2014 Moments as Objects & Loops"
           ],
-          "sources": 27,
-          "links": 59,
-          "drawCalls": 438,
-          "geometries": 94
+          "sources": 62,
+          "links": 277,
+          "drawCalls": 118,
+          "geometries": 93
         },
         {
           "stage": "return",
           "keys": [
             "phase|The Return",
-            "geometry|Breathing & Liquid Surfaces"
+            "geometry|Breathing & Liquid Surfaces",
+            "geometry|Fractal lattices & jeweled tilings",
+            "geometry|Static Pattern Overlay & filigree",
+            "geometry|Dimensional Layering & Space-Folding",
+            "geometry|Hyperbolic Space & Negative Curvature",
+            "geometry|Ultra-Detail & Infinite Resolution",
+            "geometry|Energy Conduits & Living Circuitry",
+            "geometry|Mandalas & symmetry fields",
+            "geometry|The Chrysanthemum",
+            "geometry|TV Static & the Signal-Noise Transition",
+            "geometry|Time Geometry \u2014 Moments as Objects & Loops"
           ],
-          "sources": 5,
-          "links": 19,
-          "drawCalls": 70,
-          "geometries": 19
+          "sources": 41,
+          "links": 152,
+          "drawCalls": 16,
+          "geometries": 20
         },
         {
           "stage": "afterglow",
@@ -176,12 +291,17 @@
             "phase|The Return"
           ],
           "sources": 4,
-          "links": 23,
+          "links": 68,
           "drawCalls": 63,
           "geometries": 17
         }
       ],
+      "detail": "low",
       "physicalSideDoor": true,
+      "workshopStationCollision": true,
+      "workshopPhysicalExit": true,
+      "gardenTerraceCollision": true,
+      "gardenPhysicalExit": true,
       "complete": {
         "stage": "afterglow",
         "routeIndex": 10,
@@ -189,11 +309,11 @@
         "paused": false,
         "paced": false,
         "reduced": false,
-        "elapsed": 1.1830000000000147,
-        "animTime": 91.58199999995203,
+        "elapsed": 1.733200000000012,
+        "animTime": 141.01859999997623,
         "transition": false,
         "renderReady": true,
-        "frames": 2542,
+        "frames": 1323,
         "position": [
           0,
           1.7,
@@ -219,7 +339,7 @@
           "afterglow"
         ],
         "entities": [],
-        "interactions": 11,
+        "interactions": 13,
         "evidence": [
           "phase|Afterglow / Integration",
           "phase|The Return"
@@ -234,8 +354,9 @@
             "target": "next"
           }
         ],
+        "detail": "low",
         "drawCalls": 63,
-        "triangles": 7288,
+        "triangles": 9334,
         "geometries": 17,
         "actors": [],
         "uncitedMeshes": 0
@@ -260,6 +381,6 @@
       ]
     }
   },
-  "passed": true,
-  "runNote": "Desktop completed successfully in the full run; subsequent mobile check failed on an instantaneous synthetic swipe and was corrected and rerun separately."
+  "render_signature": "e7e0a37b79550bae9582a1ec0889cd3b57211526dd1f3b09d9b8c1cb1e8f1703",
+  "passed": true
 }

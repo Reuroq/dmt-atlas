@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "render_signature": "702a41265a96a4ed84a9a5b1777ab511399ac537e5d27125d737b24e8cf0a24c",
+  "realism_targets": 19,
+  "chrysanthemum_grade": "CLOSE",
+  "chrysanthemum_blockers": [
+    "Rebuild required: CLOSE"
+  ],
+  "other_targets": "18 PENDING",
+  "overall_fidelity_passed": false,
+  "latest": "realism-chrysanthemum-accessibility-v2.png",
+  "latest_sha256": "abf61a86b1a1b7dfc6e8ba8400fcce05505d370e98a990bd4d3b4013fcb1cc36",
+  "checks": [
+    "JavaScript syntax PASS",
+    "Python AST PASS",
+    "realism fail-closed regressions PASS",
+    "fresh v2 receipt bindings PASS",
+    "19 target completeness PASS",
+    "two immutable adverse iterations retained",
+    "latest image hash PASS"
+  ],
+  "focused_acceptance": {
+    "file": "verification-continuum.json",
+    "sha256": "b41c6fe277d1d6d2137f4ef2cadd2c4c2aa3b870526247801445f70ac8a08a8d"
+  },
+  "accessibility": {
+    "file": "realism-chrysanthemum-accessibility-v2.json",
+    "sha256": "fdccbe2149a8a11daf10f588cf68fa339347b59f4db0b3377840cece6acbf5cd"
+  }
+}

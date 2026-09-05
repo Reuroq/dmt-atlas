@@ -1,0 +1,256 @@
+{
+  "question": "Would someone who has had this experience recognise this, or does it read as a game?",
+  "passed": false,
+  "render_signature": "4de3ad42a4e2095b5ed2e54571ae99e029b2e546825ac27e9d8f6f3f1d1513c3",
+  "targets": [
+    {
+      "id": "onset",
+      "grade": "PENDING",
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "passed": false,
+      "blockers": [
+        "No inspected realism grade",
+        "Specific visual and temporal reasons required",
+        "Two inspected fresh HIGH frames, same camera, >=2 animation seconds apart required"
+      ],
+      "captures": []
+    },
+    {
+      "id": "geometry",
+      "grade": "PENDING",
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "passed": false,
+      "blockers": [
+        "No inspected realism grade",
+        "Specific visual and temporal reasons required",
+        "Two inspected fresh HIGH frames, same camera, >=2 animation seconds apart required"
+      ],
+      "captures": []
+    },
+    {
+      "id": "chrysanthemum",
+      "grade": "CLOSE",
+      "reason": "CLOSE: continuous curved red/gold and cyan/blue sheets overlap into a filled flower-like centre, with smoother coherent highlights and less streaking than v8. The horizontal colour seam is gone. However broad pale surfaces still dominate, thin dark edge artifacts remain, and the nested centre is a small repeated rosette rather than dense recursively unfolding jewelled geometry. Not RECOGNISE.",
+      "temporal_observation": "Same-camera HIGH pair narrows and twists the cyan inner rim, changes the right-hand overlap and bends the broad outer sheets while red/gold/blue regions shift. Actual folding is visible, not only texture motion, but both frames retain broad simple sheets and limited nested detail; no completed doorway transformation is demonstrated.",
+      "passed": false,
+      "blockers": [
+        "Rebuild required: CLOSE"
+      ],
+      "captures": [
+        "realism-chrysanthemum-v9.png",
+        "realism-chrysanthemum-v9-motion.png"
+      ]
+    },
+    {
+      "id": "rush",
+      "grade": "PENDING",
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "passed": false,
+      "blockers": [
+        "No inspected realism grade",
+        "Specific visual and temporal reasons required",
+        "Two inspected fresh HIGH frames, same camera, >=2 animation seconds apart required"
+      ],
+      "captures": []
+    },
+    {
+      "id": "membrane",
+      "grade": "PENDING",
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "passed": false,
+      "blockers": [
+        "No inspected realism grade",
+        "Specific visual and temporal reasons required",
+        "Two inspected fresh HIGH frames, same camera, >=2 animation seconds apart required"
+      ],
+      "captures": []
+    },
+    {
+      "id": "waiting",
+      "grade": "PENDING",
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "passed": false,
+      "blockers": [
+        "No inspected realism grade",
+        "Specific visual and temporal reasons required",
+        "Two inspected fresh HIGH frames, same camera, >=2 animation seconds apart required"
+      ],
+      "captures": []
+    },
+    {
+      "id": "cathedral",
+      "grade": "PENDING",
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "passed": false,
+      "blockers": [
+        "No inspected realism grade",
+        "Specific visual and temporal reasons required",
+        "Two inspected fresh HIGH frames, same camera, >=2 animation seconds apart required"
+      ],
+      "captures": []
+    },
+    {
+      "id": "contact",
+      "grade": "PENDING",
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "passed": false,
+      "blockers": [
+        "No inspected realism grade",
+        "Specific visual and temporal reasons required",
+        "Two inspected fresh HIGH frames, same camera, >=2 animation seconds apart required"
+      ],
+      "captures": []
+    },
+    {
+      "id": "download",
+      "grade": "PENDING",
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "passed": false,
+      "blockers": [
+        "No inspected realism grade",
+        "Specific visual and temporal reasons required",
+        "Two inspected fresh HIGH frames, same camera, >=2 animation seconds apart required"
+      ],
+      "captures": []
+    },
+    {
+      "id": "return",
+      "grade": "PENDING",
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "passed": false,
+      "blockers": [
+        "No inspected realism grade",
+        "Specific visual and temporal reasons required",
+        "Two inspected fresh HIGH frames, same camera, >=2 animation seconds apart required"
+      ],
+      "captures": []
+    },
+    {
+      "id": "afterglow",
+      "grade": "PENDING",
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "passed": false,
+      "blockers": [
+        "No inspected realism grade",
+        "Specific visual and temporal reasons required",
+        "Two inspected fresh HIGH frames, same camera, >=2 animation seconds apart required"
+      ],
+      "captures": []
+    },
+    {
+      "id": "workshop",
+      "grade": "PENDING",
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "passed": false,
+      "blockers": [
+        "No inspected realism grade",
+        "Specific visual and temporal reasons required",
+        "Two inspected fresh HIGH frames, same camera, >=2 animation seconds apart required"
+      ],
+      "captures": []
+    },
+    {
+      "id": "garden",
+      "grade": "PENDING",
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "passed": false,
+      "blockers": [
+        "No inspected realism grade",
+        "Specific visual and temporal reasons required",
+        "Two inspected fresh HIGH frames, same camera, >=2 animation seconds apart required"
+      ],
+      "captures": []
+    },
+    {
+      "id": "clinical",
+      "grade": "PENDING",
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "passed": false,
+      "blockers": [
+        "No inspected realism grade",
+        "Specific visual and temporal reasons required",
+        "Two inspected fresh HIGH frames, same camera, >=2 animation seconds apart required"
+      ],
+      "captures": []
+    },
+    {
+      "id": "void",
+      "grade": "PENDING",
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "passed": false,
+      "blockers": [
+        "No inspected realism grade",
+        "Specific visual and temporal reasons required",
+        "Two inspected fresh HIGH frames, same camera, >=2 animation seconds apart required"
+      ],
+      "captures": []
+    },
+    {
+      "id": "elf",
+      "grade": "PENDING",
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "passed": false,
+      "blockers": [
+        "No inspected realism grade",
+        "Specific visual and temporal reasons required",
+        "Two inspected fresh HIGH frames, same camera, >=2 animation seconds apart required"
+      ],
+      "captures": []
+    },
+    {
+      "id": "jester",
+      "grade": "PENDING",
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "passed": false,
+      "blockers": [
+        "No inspected realism grade",
+        "Specific visual and temporal reasons required",
+        "Two inspected fresh HIGH frames, same camera, >=2 animation seconds apart required"
+      ],
+      "captures": []
+    },
+    {
+      "id": "mother",
+      "grade": "PENDING",
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "passed": false,
+      "blockers": [
+        "No inspected realism grade",
+        "Specific visual and temporal reasons required",
+        "Two inspected fresh HIGH frames, same camera, >=2 animation seconds apart required"
+      ],
+      "captures": []
+    },
+    {
+      "id": "mantis",
+      "grade": "PENDING",
+      "reason": "Pending fresh HIGH temporal realism inspection; no grade inferred from the previous descriptor coverage.",
+      "temporal_observation": "",
+      "passed": false,
+      "blockers": [
+        "No inspected realism grade",
+        "Specific visual and temporal reasons required",
+        "Two inspected fresh HIGH frames, same camera, >=2 animation seconds apart required"
+      ],
+      "captures": []
+    }
+  ],
+  "limits": "Adversarial visual judgment of a procedural interpretation, not witness validation or a claim to reproduce a subjective experience."
+}

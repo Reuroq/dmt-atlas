@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "all 15 supplementary raw slices and anchors exact",
+    "Workshop deterministic 76-report pool exhausted; 28 included / 48 excluded",
+    "Workshop queue empty and source gate passed",
+    "Garden source gate still passed",
+    "original corpus SHA256 unchanged"
+  ],
+  "workshop_audit": {
+    "passed": true,
+    "reviewed_reports": 76,
+    "included_reports": 28,
+    "excluded_reports": 48,
+    "candidate_reports": 76,
+    "candidate_passages": 87,
+    "exhausted": true,
+    "errors": []
+  },
+  "extra_passages_sha256": "d780aab4e78b8a418e0bd1f47b8a7a4977dbc095f079f220d3b27e5fd095fd9d",
+  "render_signature": "f55311963042dcab8dc6b48b9430773c69ab3d6226cbc6383812c5ba12eb8a38"
+}

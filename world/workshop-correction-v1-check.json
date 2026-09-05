@@ -1,0 +1,9 @@
+{
+  "workshop_coverage": 0.85366,
+  "workshop_passed": true,
+  "workshop_blockers": [],
+  "render_signature": "e7e0a37b79550bae9582a1ec0889cd3b57211526dd1f3b09d9b8c1cb1e8f1703",
+  "latest_sha256": "e89d1686b03c27da237c7169be4fa13bdde3e67524018938d3cd64f23d74568e",
+  "desktop_passed": true,
+  "overall_passed": false
+}
