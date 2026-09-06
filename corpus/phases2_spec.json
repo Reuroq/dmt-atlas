@@ -1,0 +1,7 @@
+[
+ ["repair", ["schema.json", "SCHEMA.md", "extract.py", "prompt.md", "normalise.py", "normalize.py"]],
+ ["pilot20", ["records/*.jsonl", "PILOT2.md", "extract.py", "schema.json", "prompt.md"]],
+ ["pilot200", ["records/*.jsonl", "PILOT2.md"]],
+ ["aggregate2", ["aggregate.py", "distributions.json", "DISTRIBUTIONS.md"]],
+ ["report2", ["README.md"]]
+]

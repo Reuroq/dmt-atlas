@@ -22,8 +22,21 @@ PORT = int(sys.argv[1]) if len(sys.argv) > 1 and sys.argv[1].isdigit() else 4732
 MAX_TURNS = int(sys.argv[2]) if len(sys.argv) > 2 and sys.argv[2].isdigit() else 40
 BASE = f"http://127.0.0.1:{PORT}"
 HERE = Path(__file__).resolve().parent
+
+
+def _opt(name: str, default: str) -> str:
+    """--name VALUE anywhere in argv (a second run uses its own brief, ledger, phase spec and done marker)."""
+    if name in sys.argv:
+        i = sys.argv.index(name)
+        if i + 1 < len(sys.argv):
+            return sys.argv[i + 1]
+    return default
+
+
+BRIEF = _opt("--brief", "CORPUS.md")
+DONE_MARK = _opt("--done", "<<CORPUS_DONE>>")
 LOG = HERE / "driver.log"
-LEDGER = HERE / "phases.json"
+LEDGER = HERE / _opt("--ledger", "phases.json")
 NOTES = HERE / "NOTES.md"
 METRICS = HERE / "metrics.jsonl"
 METRICS_MD = HERE / "METRICS.md"
@@ -48,20 +61,23 @@ PHASES = [
     ("refresh",   ["refresh.py", "refresh.timer", "refresh.service"]),
     ("report",    ["README.md"]),
 ]
+_spec = HERE / _opt("--spec", "")
+if _opt("--spec", "") and _spec.exists():  # a later run supplies its own phases: [[name, [globs...]], ...]
+    PHASES = [(p, list(g)) for p, g in json.loads(_spec.read_text(encoding="utf-8"))]
 ORDER = [p for p, _ in PHASES]
 ARTIFACTS = dict(PHASES)
 
 CONTINUE = (
-    "Read corpus/CORPUS.md (the brief), then corpus/phases.json, then ONLY the last section of corpus/NOTES.md. "
+    f"Read corpus/{BRIEF} (the brief), then corpus/{LEDGER.name}, then ONLY the last section of corpus/NOTES.md. "
     "Work on the phase named below and nothing else. The turn is valid only if one of the phase's artifacts changes "
     "on disk; the driver checks. Write only under corpus/. Never submit a Claude API batch without --budget-usd, and "
-    "never beyond the 200-report pilot. End the turn by rewriting the last section of corpus/NOTES.md (under 40 "
-    "lines) and corpus/status.txt."
+    "never beyond the pilot sizes and dollar caps the brief states. End the turn by rewriting the last section of "
+    "corpus/NOTES.md (under 40 lines) and corpus/status.txt."
 )
 CLOSING = (
-    "Every phase has had its budget. This is the closing turn: write corpus/README.md (what exists, how to run each "
+    "Every phase has had its budget. This is the closing turn: update corpus/README.md (what exists, how to run each "
     "piece, the pilot numbers, the exact command and projected cost for the full pass, what the world gains), update "
-    "corpus/status.txt, and write <<CORPUS_DONE>> alone on the last line of corpus/NOTES.md."
+    f"corpus/status.txt, and write {DONE_MARK} alone on the last line of corpus/NOTES.md."
 )
 STRIKE_PREFIX = (
     "YOUR PREVIOUS TURN CHANGED NONE OF THIS PHASE'S ARTIFACTS, so it was invalid. First action this turn: produce or "
@@ -200,7 +216,7 @@ def disk_free_gb(path: Path = HERE) -> float:
 def done() -> bool:
     if not NOTES.exists():
         return False
-    return any(line.strip() == "<<CORPUS_DONE>>"
+    return any(line.strip() == DONE_MARK
                for line in NOTES.read_text(encoding="utf-8", errors="replace").splitlines())
 
 
@@ -262,7 +278,7 @@ def main():
                 strikes, last_phase = 0, phase
             text = compose_prompt(ledger, phase, strikes)
             if first:
-                text = ("Read corpus/CORPUS.md in full first; it is your brief. Read ../BUILD.md for the honesty charter. "
+                text = (f"Read corpus/{BRIEF} in full first; it is your brief. Read ../BUILD.md for the honesty charter. "
                         "Then:\n\n" + text)
                 first = False
             log(f"turn {turn}: phase {phase} ({ledger[phase]['turns_used'] + 1}/{BUDGET}, strikes {strikes})")
@@ -387,10 +403,12 @@ def selftest():
     check("oversize file removed", not (tmp / "huge.json").exists())
     check("disk free positive", disk_free_gb(tmp) > 0)
     NOTES = tmp / "NOTES.md"
-    NOTES.write_text("soon <<CORPUS_DONE>>\n", encoding="utf-8")
+    NOTES.write_text(f"soon {DONE_MARK}\n", encoding="utf-8")
     check("marker in sentence not done", not done())
-    NOTES.write_text("x\n<<CORPUS_DONE>>\n", encoding="utf-8")
+    NOTES.write_text(f"x\n{DONE_MARK}\n", encoding="utf-8")
     check("marker alone is done", done())
+    check("brief/ledger/done defaults", BRIEF == "CORPUS.md" and LEDGER.name == "phases.json" and DONE_MARK == "<<CORPUS_DONE>>")
+    check("CONTINUE names the brief and ledger", f"corpus/{BRIEF}" in CONTINUE and LEDGER.name in CONTINUE)
     shutil.rmtree(tmp, ignore_errors=True)
     print(f"selftest: {len(fails)} failures")
     sys.exit(1 if fails else 0)
