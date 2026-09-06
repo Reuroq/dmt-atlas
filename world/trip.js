@@ -34,12 +34,18 @@ let renderer;
 try { renderer = new T.WebGLRenderer({canvas:$('world'),antialias:true,powerPreference:'high-performance'}); }
 catch { $('failure').hidden=false; return; }
 renderer.setPixelRatio(Math.min(devicePixelRatio,F.quality==='high'?1.5:1)); renderer.setSize(innerWidth,innerHeight);
+// Adaptive render scale: the stage shaders were tuned on a software renderer, so a
+// real GPU meets a few (the chrysanthemum fold field) that cannot hold 60 Hz at full
+// resolution. Step the pixel ratio down while frames run long, back up when they don't.
+let prTarget=Math.min(devicePixelRatio,F.quality==='high'?1.5:1),prNow=prTarget,frameEma=16,prCooldown=0;const prMemo={};
+function setPR(v){prNow=v;renderer.setPixelRatio(v);renderer.setSize(innerWidth,innerHeight);if(typeof composite!=='undefined')composite.resize();drawInvalidated=true;}
 renderer.outputColorSpace=T.SRGBColorSpace; renderer.toneMapping=T.ACESFilmicToneMapping; renderer.toneMappingExposure=1.2;
 const scene=new T.Scene(), camera=new T.PerspectiveCamera(68,innerWidth/innerHeight,.06,180);
 const composite=F.compositor(renderer);
 let drawInvalidated=true,lastDrawFrozen=false;
 const drawnPosition=new T.Vector3(),drawnRotation=new T.Quaternion();let drawnInteractions=-1;
 const renderGL=renderer.getContext();let renderFence=null,renderedAnimTime=0;
+const GPU_FENCE=!!navigator.webdriver||new URLSearchParams(location.search).has('capture');
 camera.rotation.order='YXZ';
 let root, stage=route[0], routeIndex=0, entered=false, paused=false, paced=true;
 let reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -97,7 +103,7 @@ function build(s){
  currentEvidence=[...new Set([...s.evidence,...motifs])];root.userData.evidence=currentEvidence;
  root.traverse(o=>{if(o.isMesh||o.isPoints||o.isLine)o.userData.evidence=o.userData.evidence||currentEvidence;});
  if(actors.length)for(const m of materials)if(m.uniforms.radiance&&!m.userData.entity)m.uniforms.radiance.value=.3;
- camera.position.set(0,1.7,entryZ);yaw=0;pitch=s.id==='cathedral'?.12:0;camera.rotation.set(pitch,yaw,0);elapsed=0;stageAnimStart=animTime;renderReady=false;
+ camera.position.set(0,1.7,entryZ);yaw=0;pitch=s.id==='cathedral'?.12:0;camera.rotation.set(pitch,yaw,0);elapsed=0;stageAnimStart=animTime;renderReady=false;frameEma=16;prCooldown=1;if(!GPU_FENCE){const want=prMemo[s.id]??prTarget;if(want!==prNow)setPR(want);}
  for(const m of materials)m.uniforms.time.value=animTime;for(const fn of motions)fn(animTime);animateBeings(animTime);
 }
 function ordinary(after=false){
@@ -662,7 +668,7 @@ document.querySelectorAll('[data-move]').forEach(b=>{b.addEventListener('pointer
 function resize(){camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight);composite.resize();drawInvalidated=true;}
 addEventListener('resize',resize);
 function detailUI(){$('detail').textContent=`Detail: ${F.quality==='high'?'high':'lower'}`;$('detail').setAttribute('aria-pressed',String(F.quality==='high'));}
-$('detail').addEventListener('click',()=>{F.setQuality(F.quality==='high'?'low':'high');renderer.setPixelRatio(Math.min(devicePixelRatio,F.quality==='high'?1.5:.85));for(const m of materials)if(m.uniforms.detail)m.uniforms.detail.value=F.quality==='high'?6:4;resize();detailUI();});detailUI();
+$('detail').addEventListener('click',()=>{F.setQuality(F.quality==='high'?'low':'high');prTarget=Math.min(devicePixelRatio,F.quality==='high'?1.5:.85);setPR(prTarget);frameEma=16;for(const m of materials)if(m.uniforms.detail)m.uniforms.detail.value=F.quality==='high'?6:4;resize();detailUI();});detailUI();
 $('world').addEventListener('webglcontextlost',e=>{e.preventDefault();paused=true;$('failure').hidden=false;});
 function frame(now){
  requestAnimationFrame(frame);const dt=Math.min((now-lastFrame)/1000,1);lastFrame=now;
@@ -687,8 +693,10 @@ function frame(now){
  // frame. Scene builds and resize/detail changes invalidate explicitly.
  const frozen=paused||$('evidence').open||document.hidden||reduced;
  if(!frozen||!lastDrawFrozen||!camera.position.equals(drawnPosition)||!camera.quaternion.equals(drawnRotation)||interactionCount!==drawnInteractions)drawInvalidated=true;
- // Keep at most one GPU frame in flight. Expensive distance fields must not
- // build a queue of stale animation frames behind otherwise responsive input.
+ // Capture tools (Playwright, ?capture=1) keep at most one GPU frame in flight so a
+ // screenshot is a settled frame. For a person watching, that fence serialises CPU
+ // and GPU and drops a 60 Hz display to ~10 fps (measured Sep 6 on an RTX 4070:
+ // 7-12 renders/s while the loop ran at 60), so it is off unless automation asks.
  let gpuReady=true;
  if(renderFence){
   gpuReady=renderGL.clientWaitSync(renderFence,0,0)!==renderGL.TIMEOUT_EXPIRED;
@@ -698,11 +706,20 @@ function frame(now){
   composite.render(scene,camera,['onset','afterglow'].includes(stage.id)?.16:stage.id==='void'?.3:.8,animTime,grain+seam*.25,seam);renderReady=true;frames++;
   renderedAnimTime=animTime;
   drawnPosition.copy(camera.position);drawnRotation.copy(camera.quaternion);drawnInteractions=interactionCount;
-  if(renderGL.fenceSync){renderFence=renderGL.fenceSync(renderGL.SYNC_GPU_COMMANDS_COMPLETE,0);renderGL.flush();}
+  if(GPU_FENCE&&renderGL.fenceSync){renderFence=renderGL.fenceSync(renderGL.SYNC_GPU_COMMANDS_COMPLETE,0);renderGL.flush();}
   drawInvalidated=false;
+  if(!GPU_FENCE&&!frozen){
+   frameEma=frameEma*.9+dt*100;prCooldown-=dt;
+   if(prCooldown<=0){
+    // 60 Hz sits at 16.7 ms; step down once frames run long enough to drop below ~52 fps,
+    // step back up only while the display rate is actually being held.
+    if(frameEma>19.5&&prNow>.6){setPR(Math.max(.6,prNow-(frameEma>40?.5:.25)));prMemo[stage.id]=prNow;prCooldown=.6;frameEma=16;}
+    else if(frameEma<17.2&&prNow<prTarget){setPR(Math.min(prTarget,prNow+.25));prMemo[stage.id]=prNow;prCooldown=2.5;frameEma=16;}
+   }
+  }
  }
  lastDrawFrozen=frozen;
 }
-window.journeyDiagnostics=()=>({stage:stage.id,routeIndex,entered,paused,paced,reduced,elapsed,animTime,transition:!!transition,renderReady,renderPending:drawInvalidated||!!renderFence,renderedAnimTime,frames,position:camera.position.toArray(),yaw,pitch,visited:[...visited],entities:[...entities],interactions:interactionCount,evidence:[...currentEvidence],missingEvidence:currentEvidence.filter(k=>!nodeMap.has(k)),sourceCount:currentEvidence.reduce((n,k)=>n+(nodeMap.get(k)?.sources?.length||0),0),portals:portals.map(p=>({...p})),detail:F.quality,drawCalls:composite.calls,triangles:composite.triangles,geometries:renderer.info.memory.geometries,actors:actors.map(a=>{const p=a.g.localToWorld(new T.Vector3(0,a.kind==='mantis'?3:2,0)).project(camera);return {kind:a.kind,engaged:a.engaged,joints:a.joints.length,arm:a.joints[0]?.o.rotation.x,evidence:a.evidence,screen:[(p.x+1)*innerWidth/2,(1-p.y)*innerHeight/2]};}),uncitedMeshes:(()=>{let n=0;root.traverse(o=>{if((o.isMesh||o.isPoints)&&!o.userData.evidence?.length)n++;});return n;})()});
+window.journeyDiagnostics=()=>({stage:stage.id,routeIndex,entered,paused,paced,reduced,elapsed,animTime,transition:!!transition,renderReady,renderPending:drawInvalidated||!!renderFence,renderedAnimTime,frames,position:camera.position.toArray(),yaw,pitch,visited:[...visited],entities:[...entities],interactions:interactionCount,evidence:[...currentEvidence],missingEvidence:currentEvidence.filter(k=>!nodeMap.has(k)),sourceCount:currentEvidence.reduce((n,k)=>n+(nodeMap.get(k)?.sources?.length||0),0),portals:portals.map(p=>({...p})),detail:F.quality,pixelRatio:prNow,drawCalls:composite.calls,triangles:composite.triangles,geometries:renderer.info.memory.geometries,actors:actors.map(a=>{const p=a.g.localToWorld(new T.Vector3(0,a.kind==='mantis'?3:2,0)).project(camera);return {kind:a.kind,engaged:a.engaged,joints:a.joints.length,arm:a.joints[0]?.o.rotation.x,evidence:a.evidence,screen:[(p.x+1)*innerWidth/2,(1-p.y)*innerHeight/2]};}),uncitedMeshes:(()=>{let n=0;root.traverse(o=>{if((o.isMesh||o.isPoints)&&!o.userData.evidence?.length)n++;});return n;})()});
 changeStage(route[0]);updateUI();requestAnimationFrame(frame);
 })();
