@@ -103,7 +103,7 @@ function build(s){
  currentEvidence=[...new Set([...s.evidence,...motifs])];root.userData.evidence=currentEvidence;
  root.traverse(o=>{if(o.isMesh||o.isPoints||o.isLine)o.userData.evidence=o.userData.evidence||currentEvidence;});
  if(actors.length)for(const m of materials)if(m.uniforms.radiance&&!m.userData.entity)m.uniforms.radiance.value=.3;
- camera.position.set(0,1.7,entryZ);yaw=0;pitch=s.id==='cathedral'?.12:0;camera.rotation.set(pitch,yaw,0);elapsed=0;stageAnimStart=animTime;renderReady=false;frameEma=16;prCooldown=1;if(!GPU_FENCE){const want=prMemo[s.id]??prTarget;if(want!==prNow)setPR(want);}
+ camera.position.set(0,1.7,entryZ);yaw=0;pitch=s.id==='cathedral'?.12:0;camera.rotation.set(pitch,yaw,0);elapsed=0;stageAnimStart=animTime;renderReady=false;frameEma=16;prCooldown=1.5;if(!GPU_FENCE){const want=prMemo[s.id]??prTarget;if(want!==prNow)setPR(want);}
  for(const m of materials)m.uniforms.time.value=animTime;for(const fn of motions)fn(animTime);animateBeings(animTime);
 }
 function ordinary(after=false){
@@ -709,7 +709,10 @@ function frame(now){
   if(GPU_FENCE&&renderGL.fenceSync){renderFence=renderGL.fenceSync(renderGL.SYNC_GPU_COMMANDS_COMPLETE,0);renderGL.flush();}
   drawInvalidated=false;
   if(!GPU_FENCE&&!frozen){
-   frameEma=frameEma*.9+dt*100;prCooldown-=dt;
+   frameEma=frameEma*.9+dt*100;
+   // the entry of a stage carries shader-compile spikes; they must not mark a scale as failed
+   if(prCooldown>0&&prCooldown-dt<=0)frameEma=16;
+   prCooldown-=dt;
    if(prCooldown<=0){
     // 60 Hz sits at 16.7 ms; step down once frames run long enough to drop below ~52 fps,
     // step back up only while the display rate is actually being held.
