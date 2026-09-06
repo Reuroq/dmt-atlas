@@ -1,0 +1,10 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "name": "original",
+    "mode": "json",
+    "changedSourceIndices": [],
+    "exactTransport": true
+  },
+  "previous_sha256": "67755ba8af37a30023aa4d60657b392b50512045e329d59be639456cfa4ffc2b"
+}

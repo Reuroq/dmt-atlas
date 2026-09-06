@@ -1,0 +1,8 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "float-row1",
+    "op": "framebuffer-status"
+  },
+  "previous_sha256": "5d36c56f4836404d7ed8550e2fa8bc978b498597d12837ba9e054f928dd089a9"
+}

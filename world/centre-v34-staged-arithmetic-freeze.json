@@ -1,0 +1,17 @@
+{
+  "sources": {
+    "probe_centre_v34_staged_arithmetic.py": "4046af582360a9caeccd58dafd1b907e806533e497738c625e992b3579afd065",
+    "check_centre_v34_staged_arithmetic.py": "85820ec28ab62d37e06e41d399d4945836f39c3102bbe10225d573a2a7b9f5a0",
+    "run_centre_v34_staged_arithmetic_once.py": "c89fac828ab486a0757b5877b61c063d77482c0095597356029e881bf7750452",
+    "close_centre_v34_staged_arithmetic_preparation.py": "11f925561528d89959a34cd5956a616e6b486809445660e88b5fc15be1bd970f",
+    "gpu_centre_v34_staged_arithmetic.html": "356d7099b190435128c2acb706bf819b73ca1ceeed8e016e5c34c5a4a3a28d12",
+    "centre-v34-staged-arithmetic-protocol.md": "6999f96205e295b1026c2a3d7924a2190bd9a26518597cdf297fc017bbba7d91",
+    "centre-v34-followup-seeds.json": "e4abe702d9e7efdeae48d4d6923e5c4c4ac58d1c4d27b53430f32527309c9d25",
+    "centre-v34-followup-texture.f32": "f71caead7ec524c577ee922ab9bdecb6321d2e4b0932bdaf5e5b12390b4591ee",
+    "gpu_centre_v34_offsets.html": "0fc3e4a20119978f281e4a7000aaba997c8dfeefd23472db9be95dbc5e4135d6",
+    "vendor/three.min.js": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa"
+  },
+  "history_sha256": "f82632d28d6fe33e83ae86b4d048b2d9ce0c1179948207da41001fcdd066806b",
+  "runtime_run": false,
+  "synthetic_not_recovered_gpu_intermediates": true
+}

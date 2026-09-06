@@ -1,0 +1,26 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "name": "byte-constant",
+      "op": "program-reference"
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [],
+      "drained": true
+    },
+    "value": {
+      "present": true,
+      "vertexPresent": true,
+      "fragmentPresent": true
+    },
+    "exception": null,
+    "skipped": false,
+    "contextLost": false
+  },
+  "previous_sha256": "8ff9f5e30d68a42e9f93e7e8cffae173cf32f91a1159eba3775376a9b12ccf04"
+}

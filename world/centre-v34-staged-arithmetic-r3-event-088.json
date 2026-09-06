@@ -1,0 +1,9 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "float-control",
+    "op": "shader-log",
+    "shader": "fragmentShader"
+  },
+  "previous_sha256": "11c8b01c973b0d873a284cf36c993af0c8b7bfb165a1302c1a384f2d88cf2a23"
+}

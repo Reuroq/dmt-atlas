@@ -1,0 +1,10 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "op": "renderer"
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "e504aeeaacc94764b3a8c60bd02d0a381b665cff1475515f740cb1651977dbab"
+}

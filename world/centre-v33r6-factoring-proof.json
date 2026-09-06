@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "parent_reversal_exact": true,
+  "field_material_march_suffix_exact": true,
+  "unchanged_scalar_oracle": true,
+  "reduction_fold_and_polynomials_exact": true,
+  "change": "jc uses one shared reduction/fold/q and both unchanged Horner polynomials; replaces two reductions/folds/q per jc source evaluation.",
+  "limits": "Dependency-graph equivalence for finite inputs under the same arithmetic semantics, not GPU compiler/roundoff/performance proof. Compiler may already eliminate duplicate work.",
+  "sampled_double_check": {
+    "passed": true,
+    "samples": 26149,
+    "bitMismatches": 0,
+    "arithmetic": "JS float64; not GPU evidence"
+  },
+  "cost_edits_reversible": true,
+  "source_hashes": {
+    "continuum-v33r5-candidate.js": "e5486394937d27c5db68898583be75bc23518ec4d2fba720cd69c8cb5673619e",
+    "continuum-v33r6-candidate.js": "e5b0c41597649f728eac11582bc05cd53d250f2c72d1dc623c1cb2e542409fe1",
+    "centre-v33r6-edits.json": "3cec019d45b3333498813d5e2eef8964d16db8088764baecee3c0a81a8094c77",
+    "field_centre_v33r5.py": "270f50be7e9b5391d9f431dd1b4f6120dbd17f5dc8069d7dcd2f5472d9046b00",
+    "field_centre_v33r6.py": "270f50be7e9b5391d9f431dd1b4f6120dbd17f5dc8069d7dcd2f5472d9046b00",
+    "build_centre_v33r6.py": "f6ad34ba63b64addd23d762c5118e0e2e71a5c44f79c3a3de90f023726ab7e26"
+  }
+}

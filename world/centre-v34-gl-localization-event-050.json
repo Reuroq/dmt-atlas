@@ -1,0 +1,11 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "byte-constant",
+      "op": "read-three"
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "f99a9426f48ac2c9036b7636107a3192cd6dce0cd0e6ddd37b78e53310a4acda"
+}

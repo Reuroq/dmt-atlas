@@ -1,0 +1,161 @@
+{
+  "errors": [],
+  "fps_swiftshader": 0.0,
+  "checks": [],
+  "diagnostics": {
+    "stage": "waiting",
+    "routeIndex": 5,
+    "entered": true,
+    "paused": false,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 1.3833000000000004,
+    "animTime": 11.08339999942778,
+    "transition": false,
+    "renderReady": true,
+    "renderPending": true,
+    "renderedAnimTime": 9.700099999427795,
+    "frames": 6,
+    "position": [
+      0,
+      1.7,
+      11
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset",
+      "geometry",
+      "chrysanthemum",
+      "rush",
+      "membrane",
+      "waiting"
+    ],
+    "entities": [
+      "jester"
+    ],
+    "interactions": 0,
+    "evidence": [
+      "realm|The Waiting Room",
+      "phase|Arrival \u2014 The Waiting Room",
+      "entity|The Jester / Trickster / Clown",
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|Dimensional Layering & Space-Folding",
+      "geometry|Hyperbolic Space & Negative Curvature",
+      "geometry|Ultra-Detail & Infinite Resolution",
+      "geometry|Energy Conduits & Living Circuitry",
+      "geometry|Embedded Faces & the Pareidolia Cascade",
+      "geometry|Hyper-dimensional objects"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 46,
+    "portals": [
+      {
+        "x": 0,
+        "z": -14,
+        "width": 4,
+        "target": "next"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 16,
+    "triangles": 44506,
+    "geometries": 13,
+    "actors": [
+      {
+        "kind": "jester",
+        "engaged": false,
+        "joints": 2,
+        "arm": 0.11999026417421024,
+        "evidence": "entity|The Jester / Trickster / Clown",
+        "screen": [
+          520.9300816793206,
+          370.3487806297452
+        ]
+      }
+    ],
+    "uncitedMeshes": 0
+  },
+  "capture_diagnostics": {
+    "stage": "waiting",
+    "routeIndex": 5,
+    "entered": true,
+    "paused": true,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 2.400000000000001,
+    "animTime": 12.10009999942778,
+    "transition": false,
+    "renderReady": true,
+    "renderPending": false,
+    "renderedAnimTime": 12.10009999942778,
+    "frames": 8,
+    "position": [
+      0,
+      1.7,
+      11
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset",
+      "geometry",
+      "chrysanthemum",
+      "rush",
+      "membrane",
+      "waiting"
+    ],
+    "entities": [
+      "jester"
+    ],
+    "interactions": 0,
+    "evidence": [
+      "realm|The Waiting Room",
+      "phase|Arrival \u2014 The Waiting Room",
+      "entity|The Jester / Trickster / Clown",
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|Dimensional Layering & Space-Folding",
+      "geometry|Hyperbolic Space & Negative Curvature",
+      "geometry|Ultra-Detail & Infinite Resolution",
+      "geometry|Energy Conduits & Living Circuitry",
+      "geometry|Embedded Faces & the Pareidolia Cascade",
+      "geometry|Hyper-dimensional objects"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 46,
+    "portals": [
+      {
+        "x": 0,
+        "z": -14,
+        "width": 4,
+        "target": "next"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 16,
+    "triangles": 44506,
+    "geometries": 13,
+    "actors": [
+      {
+        "kind": "jester",
+        "engaged": false,
+        "joints": 2,
+        "arm": 0.08132997053835757,
+        "evidence": "entity|The Jester / Trickster / Clown",
+        "screen": [
+          520.9300816793206,
+          370.3487806297452
+        ]
+      }
+    ],
+    "uncitedMeshes": 0
+  },
+  "render_signature": "e96c666db8c10dc34d54ec3c5ac9dca1c204baecb6525f8f8ba7cf94124fdc56",
+  "capture_sha256": "5eb87059169e6f0636efcabd45384261fbd9bbfa8e5c7db567b342bd9e6deb10",
+  "file": "realism-waiting-v3.png",
+  "veil_opacity": 0
+}

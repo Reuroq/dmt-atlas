@@ -68,8 +68,18 @@ def hold_until(page, key, condition, timeout=18000):
 
 
 def snapshot(page, name):
-    page.screenshot(path=str(HERE / f'journey-{name}.png'))
-    page.screenshot(path=str(HERE / 'latest.png'))
+    # Settle expensive software-rendered frames using the real pause control.
+    resume = diag(page)['entered'] and not diag(page)['paused']
+    if resume:
+        page.locator('#pause').click()
+    try:
+        page.wait_for_function('!journeyDiagnostics().renderPending', timeout=90000)
+        capture = HERE / f'journey-{name}.png'
+        page.screenshot(path=str(capture), timeout=90000)
+        (HERE / 'latest.png').write_bytes(capture.read_bytes())
+    finally:
+        if resume:
+            page.locator('#pause').click()
 
 
 def evidence(page):

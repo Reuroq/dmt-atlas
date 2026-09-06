@@ -1,0 +1,10 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "childAxial",
+    "leaf": 0,
+    "arm": "uniform",
+    "op": "framebuffer-binding"
+  },
+  "previous_sha256": "85d5e782c41773790f758513b450e5dbe3a82dd933db86bd97883a16214642ed"
+}

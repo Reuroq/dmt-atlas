@@ -1,0 +1,9 @@
+{
+  "script": "probe_centre_v34_staged_arithmetic_r2.py",
+  "script_sha256": "a3af2011d0508044894b4f56a6d14681750de4e820475a447c3976b6100b7aa3",
+  "launcher_sha256": "f4fe9c9e544088aefe6f99530378066572c70fb0d2a5df454905fbad3d25d185",
+  "child_pid_parent": 874529,
+  "freeze_sha256": "6d490b0da6992decff38dcbe4b0334342c8e0f0f4f488c374f1a80aa7e818537",
+  "preparation_sha256": "2200bc601e8a59f886d2f012bb6c48b12aed32ac4e59c1b6d8e3e81e3f9781ec",
+  "mode": "foreground subprocess.run, one attempt, 180s timeout"
+}

@@ -1,0 +1,62 @@
+{
+  "integrity_passed": true,
+  "candidate_numerical_passed": true,
+  "live_unchanged": true,
+  "display_unchanged": true,
+  "ledgers_unchanged": true,
+  "overall_passed": false,
+  "render_signature": "f055d198fd1db94f4a10a751f8b92a46d7ca0a3957a9e1352d0e6e2753d797b9",
+  "geometry": "v27 adds three crossed Cartesian cap octave bands blended with angular side folds, amplitudes .30/.15/.07, frequencies 1.3/2.9/6.1. Gaussian scale 6/13/28 replaces 30/64/130. Axis pigment smoothly removes angular colour convergence. v27r2 changes only interval bounds, not this geometry or shading.",
+  "clearance": {
+    "displacement_max": 2.38,
+    "envelope_padding": 2.385,
+    "minimum_before_cap": 4.615,
+    "cap_start_z": -27.5,
+    "walk_exit_z": -22
+  },
+  "bound_derivation": "For the next .4 world units, |cap| is bounded by capLo/capHi; cw=s^2/(s^2+4) is monotone. The blend derivative is bounded by (1-cwLo)*sideSlope+cwHi*crossedSlope+2*capSlope. CrossedSlope <= k*(|rd.x|+|rd.y|)+.6*meridian. Gaussian spatial derivative sum <3.47*pixelScale. Existing base-field bounds retained.",
+  "filter_weights_at_distance_50_height_800": {
+    "old": [
+      0.04080503781226592,
+      4.755586316165976e-07,
+      8.171319242399038e-27
+    ],
+    "new": [
+      0.8798903432864124,
+      0.5484321700237721,
+      0.0616278960393933
+    ]
+  },
+  "sample_maxima": {
+    "misses": 0,
+    "max_iterations": 1562.0,
+    "max_gradient_error": 0.0018006377405710428,
+    "max_bound_ratio": 0.37328144827425574,
+    "max_field_cpu_gpu_difference": 0.00018869213964010922
+  },
+  "max_first_root_difference": 0.02156197330355525,
+  "limitations": "No fresh image, temporal grade, aliasing assessment, full-resolution performance or real-control acceptance. Filters are approximate, not local Nyquist proof. 38,160 sampled rays and 360 sign-crossing references are not universal convergence/tangency proof. Live v25 still GAME with failed coverage/numerics/45s exit. Preserve v27 failed budget and initial missing-numpy launch.",
+  "sha256": {
+    "field_centre_v27.py": "88f69b795ea481cc0fdcc26d19f53609921bf9bffc4b577937ef457f5f8d4ec2",
+    "check_centre_candidate_v27r2.py": "c09a14b864a6e0af9003db659c717241571e3aab51721fceb9b3fe251d835ce1",
+    "probe-numeric-candidate-v27.log": "63ceae256e7f8a01dc954454392ccf648931a7aa27ec127d731c8f7cfaa5341b",
+    "numeric-candidate-v26-integrity.json": "0b74cea9f3862f6eec14d351861d351136bd7907018c8294e961feb2f3cf8eb1",
+    "verification-continuum-v25.json": "902b69d1b1703e6031c320831a29da456669c69ee786fa5e99f6abccbb04ac1d",
+    "build_centre_candidate_v27.py": "e13dd2f52b0b04ad3e9ca06731bad52f7dbc4e0818a3b2d0e8f525a72a273850",
+    "continuum-v27-candidate.js": "2d7a1ce1bb49a25b71e6bde37534f53ab69655e5cddf3d89a1e38bb3b69dea3b",
+    "gpu_probe_v27_candidate.html": "724eeebcbc957eb92a524fefc6890519044bc4b6a8142a4674a69674a81decda",
+    "probe_numeric_candidate_v27.py": "bbb47339f264d66317e4d28ffa35f65488da807ac0e782f8183f26d9770815ea",
+    "build-centre-candidate-v27.log": "80f284f9564536f0e2374a75098f8af5c005c5989226027260ebe404c853c040",
+    "numeric-candidate-v27-raw.json": "e7d246d0925225a584580b421504ff3072efd7077ed75c1b423a5bcbeec1eada",
+    "numeric-candidate-v27-check.json": "2bd5a54b625571e57d553d7e3f9c2d8f2816bf58bc0f973ce9cde8d427c52edc",
+    "build_centre_candidate_v27r2.py": "8bc8fe9485aaab03801430ceb91236dc51e10e7a20212b1b611a89c0ccccfeca",
+    "continuum-v27r2-candidate.js": "90ac551780d11d0f7d4404b3d2807e2e4535cc7cc84b382f5bd242300a1074d9",
+    "gpu_probe_v27r2_candidate.html": "6ecafe503cfd3e55b7b5cf730e08819c98efa0dabd428f9b96a0ca06c60318fe",
+    "probe_numeric_candidate_v27r2.py": "1b620407d532c867ec44059f38cccc4eb87065a79bdb8ffde30a054472fd795a",
+    "build-centre-candidate-v27r2.log": "11862d7febff9cc6ab81f7dd227c08b044973afbf953546a4ffc7d00fffb5677",
+    "numeric-candidate-v27r2-raw.json": "738a72a3dce76e3d9c6ff6c28e11352973ed80fa6d9aa4243fa5aec0ae5b7b07",
+    "numeric-candidate-v27r2-check.json": "d5a7d15b8ebba20fb96efe06c9304c02fa6e9a8e26586c74469d35f04b20cb89",
+    "probe-numeric-candidate-v27-r2.log": "04892cd8d43d2ee71f3e675543242c810320ca0b3343ec53c16cc4c611d6a1e0",
+    "probe-numeric-candidate-v27r2.log": "789645adff57262538a140591b98a7e4cae0e62d1391fa8432984a5ba42f832a"
+  }
+}

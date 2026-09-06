@@ -1,0 +1,12 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "float-control",
+      "op": "shader-source",
+      "shader": "vertexShader"
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "f551a146984c03dddf0cc20edce8222f5f7e8f9287a5ed3ee8a0858759740fdf"
+}

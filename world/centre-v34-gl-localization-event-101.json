@@ -1,0 +1,13 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "byte-constant",
+      "op": "translated-source",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    "classification": "query-error"
+  },
+  "previous_sha256": "4f4affb63ea13b1371637c7ee899c4d50de75127fb8076d59f38001d214f03dd"
+}

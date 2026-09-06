@@ -1,0 +1,12 @@
+{
+  "kind": "inputs",
+  "payload": {
+    "environment": {
+      "playwright_version": "1.61.0",
+      "serializer_path": "/usr/local/lib/python3.12/dist-packages/playwright/_impl/_js_handle.py",
+      "serializer_sha256": "2db455b97af07dbf007e114ee3f546139ee09ab2f7a1d6b15293cdfb61792d79"
+    },
+    "texture_sha256": "f71caead7ec524c577ee922ab9bdecb6321d2e4b0932bdaf5e5b12390b4591ee"
+  },
+  "previous_sha256": null
+}

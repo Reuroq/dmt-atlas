@@ -1,0 +1,29 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "name": "float-row1",
+      "op": "translated-source",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [
+        1282
+      ],
+      "drained": true
+    },
+    "value": {
+      "source": "",
+      "skipped": false
+    },
+    "exception": null,
+    "skipped": false,
+    "contextLost": false
+  },
+  "previous_sha256": "e4326365e43e5ec69cdb39ef4bad8ae6ac9fe2951fbacf5dc824fbf8a96e74c0"
+}

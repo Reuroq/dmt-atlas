@@ -1,0 +1,86 @@
+{
+  "report_id": "5av2zn",
+  "is_trip_report": true,
+  "reason": "The narrator describes figures and changing surroundings during a recent personal experience.",
+  "scenes": [
+    {
+      "light": [],
+      "colour": [],
+      "motion": [],
+      "geometry": [],
+      "material": [],
+      "density": [],
+      "scale": [],
+      "affect": [
+        "panic"
+      ],
+      "place": "",
+      "order": 1,
+      "transition_trigger": [
+        "eyes-closing"
+      ],
+      "quotes": [
+        "I felt the DMT wash over me and I began to panic.",
+        "I laid down and shut my eyes. Two figures stood over me, huge Buddah-like statues."
+      ],
+      "beings": []
+    },
+    {
+      "light": [],
+      "colour": [],
+      "motion": [
+        "flowing"
+      ],
+      "geometry": [
+        "patterned"
+      ],
+      "material": [
+        "liquid"
+      ],
+      "density": [],
+      "scale": [],
+      "affect": [],
+      "place": "",
+      "order": 2,
+      "transition_trigger": [
+        "eyes-opening"
+      ],
+      "quotes": [
+        "I laid down and shut my eyes. Two figures stood over me, huge Buddah-like statues.",
+        "A liquid flowed down them from a waterfall.",
+        "The liquid was made up of all sorts of patterns and designs.",
+        "Two figures stood over me, huge Buddah-like statues.",
+        "I have no idea how much time passed and then I opened my eyes and saw the room I was in was not :9 much my room anymore."
+      ],
+      "beings": [
+        {
+          "form": [
+            "huge Buddah-like statues"
+          ],
+          "count_text": "Two",
+          "behaviour": [],
+          "communication": [],
+          "affect": []
+        }
+      ]
+    },
+    {
+      "light": [],
+      "colour": [],
+      "motion": [],
+      "geometry": [],
+      "material": [],
+      "density": [],
+      "scale": [],
+      "affect": [],
+      "place": "altered familiar room",
+      "order": 3,
+      "transition_trigger": [],
+      "quotes": [
+        "I have no idea how much time passed and then I opened my eyes and saw the room I was in was not :9 much my room anymore.",
+        "the room I was in was not :9 much my room anymore."
+      ],
+      "beings": []
+    }
+  ]
+}

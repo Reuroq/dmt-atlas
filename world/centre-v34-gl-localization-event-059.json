@@ -1,0 +1,11 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "byte-constant",
+      "op": "program-link"
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "44f99fa16b55a8957c430b9d5d1d7f3f87677903157c015a4d309bfe902af71e"
+}

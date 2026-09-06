@@ -1,0 +1,10 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "op": "float-extension"
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "301d2ee48fca51390f601f129da658009d6243530ffe957c35a7c3efbfd4a030"
+}

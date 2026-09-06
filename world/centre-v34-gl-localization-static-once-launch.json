@@ -1,0 +1,11 @@
+{
+  "script": "check_centre_v34_gl_localization.py",
+  "script_sha256": "e0d02136e1f075cce1ba79a649bea90b43d967e7f9e76d4c1cd762b8f52a8538",
+  "freeze_sha256": "46104d4b368c77cbd6bd25e98f4fd5736b5ccfb568ab15246d752e08a38ffb3b",
+  "command": [
+    "/usr/bin/python3",
+    "-B",
+    "world/check_centre_v34_gl_localization.py"
+  ],
+  "mode": "foreground static only; no browser"
+}

@@ -1,0 +1,13 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "float-constant",
+      "op": "shader-log",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "d7756cd8e8acbd0fc5cbb4beb078c97594025d5815c039f26fdfcfce5a0b6ae0"
+}

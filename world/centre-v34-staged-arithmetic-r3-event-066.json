@@ -1,0 +1,11 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "float-control",
+      "op": "read-three"
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "3c007850d8502d0688d67c1ee5f2d0f9cbb8a30f8a22fc551309e68c266566a3"
+}

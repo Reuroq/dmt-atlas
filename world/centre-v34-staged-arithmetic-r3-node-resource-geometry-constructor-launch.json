@@ -1,0 +1,10 @@
+{
+  "command": [
+    "node",
+    "/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-geometry-constructor.js"
+  ],
+  "command_sha256": "ecaf824a145c97809d4cb48915c0a91f4b80d9ccf533ee124ee3db9981427ecc",
+  "source": "centre-v34-staged-arithmetic-r3-node-resource-geometry-constructor.js",
+  "source_sha256": "6ba2007bdddc3ca0b3e89df639b8bc59400382c5e22ec6b53351d69dd0415ed1",
+  "timeout_seconds": 20
+}

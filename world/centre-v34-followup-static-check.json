@@ -1,0 +1,15 @@
+{
+  "static_passed": true,
+  "checks": [
+    "Python AST; oracle imported only inside profile runtime",
+    "Frozen binary texture, non-favourable cell selection records, neighbours, exact replay and one-ULP rejection",
+    "Four ray identities/CPU directions; 161 depths; synthetic strict/exit/zero/24-bisection and algebraic-grid contracts",
+    "Shader JS syntax and literal-to-uniform-only arms PASS; no GLSL or browser execution",
+    "Actual foreground launcher synthetic exit7/log binding and replay refusal; no retry"
+  ],
+  "inputs_sha256": "51acf5f04c2a48308be2d3612b7a83401474c781cda70d4560750bb5de709b44",
+  "new_field_samples": 0,
+  "new_browser_runs": 0,
+  "numeric_passed": false,
+  "capture_permitted": false
+}

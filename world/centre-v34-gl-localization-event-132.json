@@ -1,0 +1,8 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "float-constant",
+    "op": "read-three"
+  },
+  "previous_sha256": "3b2420a49cf50b5a059cf0986d8392460fb1d4dfb3d0c8b087dab78ffea6cc14"
+}

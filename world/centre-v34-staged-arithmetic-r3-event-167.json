@@ -1,0 +1,85 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "name": "childAxial",
+      "leaf": 0,
+      "arm": "uniform",
+      "op": "material"
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [],
+      "drained": true
+    },
+    "value": {
+      "vertexShader": "varying vec2 sampleUV; void main(){sampleUV=uv;gl_Position=vec4(position.xy,0.,1.);}",
+      "fragmentShader": "precision highp float;\nuniform sampler2D inputTex; uniform float textureRow; uniform float secondOffset;\nvarying vec2 sampleUV;\nvec4 offset(vec4 a,float b){return vec4(a.xyz,a.w+b);}\nvoid main(){\n float x=texture2D(inputTex,vec2(sampleUV.x,(textureRow+.5)/2.)).r;\n vec4 predecessor=vec4(0.,0.,0.,x);\n vec4 parent=offset(predecessor,-.62);\n vec4 child=offset(parent,secondOffset);\n float folded=x+(-.62+.20);\n gl_FragColor=vec4(x,parent.w,child.w,folded);\n}",
+      "uniforms": {
+        "inputTex": "shared frozen 128x2 RGBA32F",
+        "textureRow": 0,
+        "secondOffset": 0.20000000298023224,
+        "secondOffsetBits": 1045220557
+      },
+      "control": false
+    },
+    "exception": null,
+    "skipped": false,
+    "resources": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-1",
+        "kind": "target",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-2",
+        "kind": "texture",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-3",
+        "kind": "geometry",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-4",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-5",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-6",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "contextLost": false
+  },
+  "previous_sha256": "e2b089b2381cca84e0070381b68cc056078ff1e2fa3a72cf432e505b7f26ffe0"
+}

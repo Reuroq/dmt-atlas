@@ -1,0 +1,6 @@
+{
+  "script": "close_centre_v34_staged_arithmetic_preparation_failure.py",
+  "script_sha256": "df60650ceec088d81b5f1aa6af1b2aa0076fe2378a035ef6dfd2d199f999b5ef",
+  "mode": "inline foreground subprocess.run; one attempt; no runtime",
+  "timeout_seconds": 180
+}

@@ -1,0 +1,324 @@
+[
+  {
+    "errors": [],
+    "fps_swiftshader": 0.0,
+    "checks": [],
+    "diagnostics": {
+      "stage": "waiting",
+      "routeIndex": 5,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 1.9666000000000035,
+      "animTime": 10.168700000190725,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": true,
+      "renderedAnimTime": 8.302200000190739,
+      "frames": 5,
+      "position": [
+        0,
+        1.7,
+        10.34463999938965
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush",
+        "membrane",
+        "waiting"
+      ],
+      "entities": [
+        "jester"
+      ],
+      "interactions": 0,
+      "evidence": [
+        "realm|The Waiting Room",
+        "phase|Arrival \u2014 The Waiting Room",
+        "entity|The Jester / Trickster / Clown",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Embedded Faces & the Pareidolia Cascade",
+        "geometry|Hyper-dimensional objects"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 46,
+      "portals": [
+        {
+          "x": 0,
+          "z": -14,
+          "width": 4,
+          "target": "next"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 2,
+      "triangles": 24,
+      "geometries": 6,
+      "actors": [
+        {
+          "kind": "jester",
+          "engaged": false,
+          "joints": 0,
+          "arm": null,
+          "evidence": "entity|The Jester / Trickster / Clown",
+          "screen": [
+            487.9200943903846,
+            391.0336075512308
+          ]
+        }
+      ],
+      "uncitedMeshes": 0
+    },
+    "capture_diagnostics": {
+      "stage": "waiting",
+      "routeIndex": 5,
+      "entered": true,
+      "paused": true,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 2.983200000000002,
+      "animTime": 11.185300000190724,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 11.185300000190724,
+      "frames": 7,
+      "position": [
+        0,
+        1.7,
+        10.34463999938965
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush",
+        "membrane",
+        "waiting"
+      ],
+      "entities": [
+        "jester"
+      ],
+      "interactions": 0,
+      "evidence": [
+        "realm|The Waiting Room",
+        "phase|Arrival \u2014 The Waiting Room",
+        "entity|The Jester / Trickster / Clown",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Embedded Faces & the Pareidolia Cascade",
+        "geometry|Hyper-dimensional objects"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 46,
+      "portals": [
+        {
+          "x": 0,
+          "z": -14,
+          "width": 4,
+          "target": "next"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 2,
+      "triangles": 24,
+      "geometries": 6,
+      "actors": [
+        {
+          "kind": "jester",
+          "engaged": false,
+          "joints": 0,
+          "arm": null,
+          "evidence": "entity|The Jester / Trickster / Clown",
+          "screen": [
+            484.2446875763407,
+            390.73957500610726
+          ]
+        }
+      ],
+      "uncitedMeshes": 0
+    },
+    "render_signature": "ecd4508b91a83f448d6f04b95f05702b2c6ce85ea9cafe64f993f328e3358ee1",
+    "capture_sha256": "4bab855d11e850ad4f13abea6bf856d12112b04a70a9e5bad450db95ca176a81",
+    "file": "realism-jester-v2.png",
+    "veil_opacity": 0
+  },
+  {
+    "errors": [],
+    "fps_swiftshader": 0.0,
+    "checks": [],
+    "diagnostics": {
+      "stage": "waiting",
+      "routeIndex": 5,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 1.9666000000000035,
+      "animTime": 10.168700000190725,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": true,
+      "renderedAnimTime": 8.302200000190739,
+      "frames": 5,
+      "position": [
+        0,
+        1.7,
+        10.34463999938965
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush",
+        "membrane",
+        "waiting"
+      ],
+      "entities": [
+        "jester"
+      ],
+      "interactions": 0,
+      "evidence": [
+        "realm|The Waiting Room",
+        "phase|Arrival \u2014 The Waiting Room",
+        "entity|The Jester / Trickster / Clown",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Embedded Faces & the Pareidolia Cascade",
+        "geometry|Hyper-dimensional objects"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 46,
+      "portals": [
+        {
+          "x": 0,
+          "z": -14,
+          "width": 4,
+          "target": "next"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 2,
+      "triangles": 24,
+      "geometries": 6,
+      "actors": [
+        {
+          "kind": "jester",
+          "engaged": false,
+          "joints": 0,
+          "arm": null,
+          "evidence": "entity|The Jester / Trickster / Clown",
+          "screen": [
+            487.9200943903846,
+            391.0336075512308
+          ]
+        }
+      ],
+      "uncitedMeshes": 0
+    },
+    "capture_diagnostics": {
+      "stage": "waiting",
+      "routeIndex": 5,
+      "entered": true,
+      "paused": true,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 5.966500000000007,
+      "animTime": 14.168600000190704,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 14.168600000190704,
+      "frames": 11,
+      "position": [
+        0,
+        1.7,
+        10.34463999938965
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush",
+        "membrane",
+        "waiting"
+      ],
+      "entities": [
+        "jester"
+      ],
+      "interactions": 0,
+      "evidence": [
+        "realm|The Waiting Room",
+        "phase|Arrival \u2014 The Waiting Room",
+        "entity|The Jester / Trickster / Clown",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Embedded Faces & the Pareidolia Cascade",
+        "geometry|Hyper-dimensional objects"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 46,
+      "portals": [
+        {
+          "x": 0,
+          "z": -14,
+          "width": 4,
+          "target": "next"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 2,
+      "triangles": 24,
+      "geometries": 6,
+      "actors": [
+        {
+          "kind": "jester",
+          "engaged": false,
+          "joints": 0,
+          "arm": null,
+          "evidence": "entity|The Jester / Trickster / Clown",
+          "screen": [
+            484.2446875763407,
+            390.73957500610726
+          ]
+        }
+      ],
+      "uncitedMeshes": 0
+    },
+    "render_signature": "ecd4508b91a83f448d6f04b95f05702b2c6ce85ea9cafe64f993f328e3358ee1",
+    "capture_sha256": "2d2480fb21869aa310e2dd69b6e9c526759b16d2a88b3f21a2c5f55783a517f5",
+    "file": "realism-jester-v2-motion.png",
+    "veil_opacity": 0
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "script": "prepare_centre_v34_followup.py",
+  "script_sha256": "2e2f08d4d29bbd2c7266823bb8d2081f1f3ae1a2cd6dfa19439b84a47f2b425e",
+  "launcher_sha256": "222224402ac31e803f52e80f12f71236114ca5f4f9621b155ea7a65cf6b73fa0",
+  "label": "prepare",
+  "input_manifest": null,
+  "preparation_manifest": null
+}

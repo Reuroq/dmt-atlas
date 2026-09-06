@@ -1,0 +1,7 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "op": "renderer-extension"
+  },
+  "previous_sha256": "c08c1b59ddd3fee86594d861fe4d2d13ad4f18b23a232ed140d958de6ce08aa8"
+}

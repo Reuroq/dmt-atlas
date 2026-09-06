@@ -1,0 +1,8 @@
+{
+  "argv": [
+    "/usr/bin/python3",
+    "-B",
+    "/home/clawd/dmt-atlas/world/run_centre_v34_transport_once.py",
+    "static"
+  ]
+}

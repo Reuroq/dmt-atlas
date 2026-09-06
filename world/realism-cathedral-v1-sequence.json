@@ -1,0 +1,472 @@
+[
+  {
+    "errors": [],
+    "fps_swiftshader": 0.0,
+    "checks": [],
+    "diagnostics": {
+      "stage": "cathedral",
+      "routeIndex": 6,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 1.2333000000000023,
+      "animTime": 13.496100000762928,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": true,
+      "renderedAnimTime": 12.262800000762933,
+      "frames": 7,
+      "position": [
+        0,
+        1.7,
+        19
+      ],
+      "yaw": 0,
+      "pitch": 0.12,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush",
+        "membrane",
+        "waiting",
+        "cathedral"
+      ],
+      "entities": [
+        "elf",
+        "elf"
+      ],
+      "interactions": 0,
+      "evidence": [
+        "realm|The Domed Cathedral",
+        "phase|Breakthrough",
+        "geometry|Breathing & Liquid Surfaces",
+        "entity|Self-transforming machine elves",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Embedded Faces & the Pareidolia Cascade",
+        "geometry|Hyper-dimensional objects"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 47,
+      "portals": [
+        {
+          "x": 0,
+          "z": -25,
+          "width": 9,
+          "target": "next"
+        },
+        {
+          "x": -22,
+          "z": -6,
+          "width": 5,
+          "target": "workshop"
+        },
+        {
+          "x": -22,
+          "z": 9,
+          "width": 5,
+          "target": "garden"
+        },
+        {
+          "x": 22,
+          "z": -6,
+          "width": 5,
+          "target": "clinical"
+        },
+        {
+          "x": 22,
+          "z": 9,
+          "width": 5,
+          "target": "void"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 31,
+      "triangles": 86408,
+      "geometries": 21,
+      "actors": [
+        {
+          "kind": "elf",
+          "engaged": false,
+          "joints": 2,
+          "arm": -0.04362893050025713,
+          "evidence": "entity|Self-transforming machine elves",
+          "screen": [
+            548.8540099205708,
+            466.35484121048387
+          ]
+        },
+        {
+          "kind": "elf",
+          "engaged": false,
+          "joints": 2,
+          "arm": -0.11468658470821486,
+          "evidence": "entity|Self-transforming machine elves",
+          "screen": [
+            651.1459900794292,
+            466.35484121048387
+          ]
+        }
+      ],
+      "uncitedMeshes": 0
+    },
+    "capture_diagnostics": {
+      "stage": "cathedral",
+      "routeIndex": 6,
+      "entered": true,
+      "paused": true,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 2.249900000000001,
+      "animTime": 14.512700000762926,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 14.512700000762926,
+      "frames": 8,
+      "position": [
+        0,
+        1.7,
+        19
+      ],
+      "yaw": 0,
+      "pitch": 0.12,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush",
+        "membrane",
+        "waiting",
+        "cathedral"
+      ],
+      "entities": [
+        "elf",
+        "elf"
+      ],
+      "interactions": 0,
+      "evidence": [
+        "realm|The Domed Cathedral",
+        "phase|Breakthrough",
+        "geometry|Breathing & Liquid Surfaces",
+        "entity|Self-transforming machine elves",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Embedded Faces & the Pareidolia Cascade",
+        "geometry|Hyper-dimensional objects"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 47,
+      "portals": [
+        {
+          "x": 0,
+          "z": -25,
+          "width": 9,
+          "target": "next"
+        },
+        {
+          "x": -22,
+          "z": -6,
+          "width": 5,
+          "target": "workshop"
+        },
+        {
+          "x": -22,
+          "z": 9,
+          "width": 5,
+          "target": "garden"
+        },
+        {
+          "x": 22,
+          "z": -6,
+          "width": 5,
+          "target": "clinical"
+        },
+        {
+          "x": 22,
+          "z": 9,
+          "width": 5,
+          "target": "void"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 31,
+      "triangles": 86408,
+      "geometries": 21,
+      "actors": [
+        {
+          "kind": "elf",
+          "engaged": false,
+          "joints": 2,
+          "arm": -0.11119713166703263,
+          "evidence": "entity|Self-transforming machine elves",
+          "screen": [
+            548.8540099205708,
+            466.35484121048387
+          ]
+        },
+        {
+          "kind": "elf",
+          "engaged": false,
+          "joints": 2,
+          "arm": -0.10445960380425257,
+          "evidence": "entity|Self-transforming machine elves",
+          "screen": [
+            651.1459900794292,
+            466.35484121048387
+          ]
+        }
+      ],
+      "uncitedMeshes": 0
+    },
+    "render_signature": "4bc1c594470024bda273605eaf893e634642e457c6037ff4388d13cf11f5bb37",
+    "capture_sha256": "74dd58329905374b50208754807e90581268db869893fd50fb8d0e4c86f58fb7",
+    "file": "realism-cathedral-v1.png",
+    "veil_opacity": 0
+  },
+  {
+    "errors": [],
+    "fps_swiftshader": 0.0,
+    "checks": [],
+    "diagnostics": {
+      "stage": "cathedral",
+      "routeIndex": 6,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 1.2333000000000023,
+      "animTime": 13.496100000762928,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": true,
+      "renderedAnimTime": 12.262800000762933,
+      "frames": 7,
+      "position": [
+        0,
+        1.7,
+        19
+      ],
+      "yaw": 0,
+      "pitch": 0.12,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush",
+        "membrane",
+        "waiting",
+        "cathedral"
+      ],
+      "entities": [
+        "elf",
+        "elf"
+      ],
+      "interactions": 0,
+      "evidence": [
+        "realm|The Domed Cathedral",
+        "phase|Breakthrough",
+        "geometry|Breathing & Liquid Surfaces",
+        "entity|Self-transforming machine elves",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Embedded Faces & the Pareidolia Cascade",
+        "geometry|Hyper-dimensional objects"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 47,
+      "portals": [
+        {
+          "x": 0,
+          "z": -25,
+          "width": 9,
+          "target": "next"
+        },
+        {
+          "x": -22,
+          "z": -6,
+          "width": 5,
+          "target": "workshop"
+        },
+        {
+          "x": -22,
+          "z": 9,
+          "width": 5,
+          "target": "garden"
+        },
+        {
+          "x": 22,
+          "z": -6,
+          "width": 5,
+          "target": "clinical"
+        },
+        {
+          "x": 22,
+          "z": 9,
+          "width": 5,
+          "target": "void"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 31,
+      "triangles": 86408,
+      "geometries": 21,
+      "actors": [
+        {
+          "kind": "elf",
+          "engaged": false,
+          "joints": 2,
+          "arm": -0.04362893050025713,
+          "evidence": "entity|Self-transforming machine elves",
+          "screen": [
+            548.8540099205708,
+            466.35484121048387
+          ]
+        },
+        {
+          "kind": "elf",
+          "engaged": false,
+          "joints": 2,
+          "arm": -0.11468658470821486,
+          "evidence": "entity|Self-transforming machine elves",
+          "screen": [
+            651.1459900794292,
+            466.35484121048387
+          ]
+        }
+      ],
+      "uncitedMeshes": 0
+    },
+    "capture_diagnostics": {
+      "stage": "cathedral",
+      "routeIndex": 6,
+      "entered": true,
+      "paused": true,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 5.3832999999999975,
+      "animTime": 17.646100000762903,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 17.646100000762903,
+      "frames": 12,
+      "position": [
+        0,
+        1.7,
+        19
+      ],
+      "yaw": 0,
+      "pitch": 0.12,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush",
+        "membrane",
+        "waiting",
+        "cathedral"
+      ],
+      "entities": [
+        "elf",
+        "elf"
+      ],
+      "interactions": 0,
+      "evidence": [
+        "realm|The Domed Cathedral",
+        "phase|Breakthrough",
+        "geometry|Breathing & Liquid Surfaces",
+        "entity|Self-transforming machine elves",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Embedded Faces & the Pareidolia Cascade",
+        "geometry|Hyper-dimensional objects"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 47,
+      "portals": [
+        {
+          "x": 0,
+          "z": -25,
+          "width": 9,
+          "target": "next"
+        },
+        {
+          "x": -22,
+          "z": -6,
+          "width": 5,
+          "target": "workshop"
+        },
+        {
+          "x": -22,
+          "z": 9,
+          "width": 5,
+          "target": "garden"
+        },
+        {
+          "x": 22,
+          "z": -6,
+          "width": 5,
+          "target": "clinical"
+        },
+        {
+          "x": 22,
+          "z": 9,
+          "width": 5,
+          "target": "void"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 31,
+      "triangles": 86408,
+      "geometries": 21,
+      "actors": [
+        {
+          "kind": "elf",
+          "engaged": false,
+          "joints": 2,
+          "arm": 0.06277457104442644,
+          "evidence": "entity|Self-transforming machine elves",
+          "screen": [
+            548.8540099205708,
+            466.35484121048387
+          ]
+        },
+        {
+          "kind": "elf",
+          "engaged": false,
+          "joints": 2,
+          "arm": 0.1191329093636517,
+          "evidence": "entity|Self-transforming machine elves",
+          "screen": [
+            651.1459900794292,
+            466.35484121048387
+          ]
+        }
+      ],
+      "uncitedMeshes": 0
+    },
+    "render_signature": "4bc1c594470024bda273605eaf893e634642e457c6037ff4388d13cf11f5bb37",
+    "capture_sha256": "70a6cb5b5f73c017880529a91edea363fd2f7f8f134e00a3614369eebc86bb22",
+    "file": "realism-cathedral-v1-motion.png",
+    "veil_opacity": 0
+  }
+]

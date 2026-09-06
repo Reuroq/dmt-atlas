@@ -1,0 +1,29 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "name": "float-constant",
+      "op": "translated-source",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [
+        1282
+      ],
+      "drained": true
+    },
+    "value": {
+      "source": "",
+      "skipped": false
+    },
+    "exception": null,
+    "skipped": false,
+    "contextLost": false
+  },
+  "previous_sha256": "b481791d711231773ff15407a44528e3a10c747a0bddacfee0bd26e281de779e"
+}

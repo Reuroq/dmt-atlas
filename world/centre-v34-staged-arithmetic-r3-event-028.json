@@ -1,0 +1,8 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "float-control",
+    "op": "framebuffer-status"
+  },
+  "previous_sha256": "eab77e2f33126c1874262d078739c5c1c181dee36d327d53c8f2d6d4efa751a6"
+}

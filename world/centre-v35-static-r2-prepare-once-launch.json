@@ -1,0 +1,10 @@
+{
+  "script": "prepare_centre_v35_static_r2.py",
+  "script_sha256": "b11e0e3e6c035bd53fa7ec9349f0efec3bbb2db3ece26c7c6bfff1f412a56c22",
+  "argv": [
+    "/usr/bin/python3",
+    "-B",
+    "-u",
+    "/home/clawd/dmt-atlas/world/prepare_centre_v35_static_r2.py"
+  ]
+}

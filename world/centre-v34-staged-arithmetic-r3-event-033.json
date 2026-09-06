@@ -1,0 +1,11 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "float-control",
+      "op": "framebuffer-binding"
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "5e44e259943c8486ff5d2f0669aba103fb8e38b24a85a0470e80e720981a4ed9"
+}

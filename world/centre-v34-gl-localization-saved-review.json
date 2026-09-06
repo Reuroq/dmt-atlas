@@ -1,0 +1,172 @@
+{
+  "saved_evidence_verified": true,
+  "actual_exit": 1,
+  "stages": 117,
+  "events": 358,
+  "exact_readbacks": [
+    {
+      "step": {
+        "name": "byte-constant",
+        "op": "read-three"
+      },
+      "event": "centre-v34-gl-localization-event-049.json",
+      "exact_components": 512
+    },
+    {
+      "step": {
+        "name": "byte-constant",
+        "op": "read-raw"
+      },
+      "event": "centre-v34-gl-localization-event-052.json",
+      "exact_components": 512
+    },
+    {
+      "step": {
+        "name": "float-constant",
+        "op": "read-three"
+      },
+      "event": "centre-v34-gl-localization-event-133.json",
+      "exact_components": 512
+    },
+    {
+      "step": {
+        "name": "float-constant",
+        "op": "read-raw"
+      },
+      "event": "centre-v34-gl-localization-event-136.json",
+      "exact_components": 512
+    },
+    {
+      "step": {
+        "name": "float-row0",
+        "op": "read-three"
+      },
+      "event": "centre-v34-gl-localization-event-217.json",
+      "exact_components": 512
+    },
+    {
+      "step": {
+        "name": "float-row0",
+        "op": "read-raw"
+      },
+      "event": "centre-v34-gl-localization-event-220.json",
+      "exact_components": 512
+    },
+    {
+      "step": {
+        "name": "float-row1",
+        "op": "read-three"
+      },
+      "event": "centre-v34-gl-localization-event-301.json",
+      "exact_components": 512
+    },
+    {
+      "step": {
+        "name": "float-row1",
+        "op": "read-raw"
+      },
+      "event": "centre-v34-gl-localization-event-304.json",
+      "exact_components": 512
+    }
+  ],
+  "query_errors": [
+    {
+      "step": {
+        "name": "byte-constant",
+        "op": "translated-source",
+        "shader": "vertexShader",
+        "query": true
+      },
+      "event": "centre-v34-gl-localization-event-097.json",
+      "error": 1282
+    },
+    {
+      "step": {
+        "name": "byte-constant",
+        "op": "translated-source",
+        "shader": "fragmentShader",
+        "query": true
+      },
+      "event": "centre-v34-gl-localization-event-100.json",
+      "error": 1282
+    },
+    {
+      "step": {
+        "name": "float-constant",
+        "op": "translated-source",
+        "shader": "vertexShader",
+        "query": true
+      },
+      "event": "centre-v34-gl-localization-event-181.json",
+      "error": 1282
+    },
+    {
+      "step": {
+        "name": "float-constant",
+        "op": "translated-source",
+        "shader": "fragmentShader",
+        "query": true
+      },
+      "event": "centre-v34-gl-localization-event-184.json",
+      "error": 1282
+    },
+    {
+      "step": {
+        "name": "float-row0",
+        "op": "translated-source",
+        "shader": "vertexShader",
+        "query": true
+      },
+      "event": "centre-v34-gl-localization-event-265.json",
+      "error": 1282
+    },
+    {
+      "step": {
+        "name": "float-row0",
+        "op": "translated-source",
+        "shader": "fragmentShader",
+        "query": true
+      },
+      "event": "centre-v34-gl-localization-event-268.json",
+      "error": 1282
+    },
+    {
+      "step": {
+        "name": "float-row1",
+        "op": "translated-source",
+        "shader": "vertexShader",
+        "query": true
+      },
+      "event": "centre-v34-gl-localization-event-349.json",
+      "error": 1282
+    },
+    {
+      "step": {
+        "name": "float-row1",
+        "op": "translated-source",
+        "shader": "fragmentShader",
+        "query": true
+      },
+      "event": "centre-v34-gl-localization-event-352.json",
+      "error": 1282
+    }
+  ],
+  "framebuffer_events": [
+    "centre-v34-gl-localization-event-025.json",
+    "centre-v34-gl-localization-event-046.json",
+    "centre-v34-gl-localization-event-109.json",
+    "centre-v34-gl-localization-event-130.json",
+    "centre-v34-gl-localization-event-193.json",
+    "centre-v34-gl-localization-event-214.json",
+    "centre-v34-gl-localization-event-277.json",
+    "centre-v34-gl-localization-event-298.json"
+  ],
+  "browser_warning_count": 13,
+  "localization": "Only translated-source calls raised GL1282; browser reports deleted objects",
+  "old_failure_cause_proven": false,
+  "numeric_passed": false,
+  "synthetic_uniform_candidate_supported": false,
+  "capture_permitted": false,
+  "new_images": 0,
+  "result_sha256": "1329760de87fd275911943b7a22bd272a868279a812bda11f87b523e64c9f7e7"
+}

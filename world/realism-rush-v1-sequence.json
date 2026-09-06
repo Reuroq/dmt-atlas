@@ -1,0 +1,260 @@
+[
+  {
+    "errors": [],
+    "fps_swiftshader": 0.4,
+    "checks": [],
+    "diagnostics": {
+      "stage": "rush",
+      "routeIndex": 3,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 2.0499,
+      "animTime": 6.877699999237068,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": true,
+      "renderedAnimTime": 4.9611999992370555,
+      "frames": 4,
+      "position": [
+        0,
+        1.7,
+        8
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush"
+      ],
+      "entities": [],
+      "interactions": 0,
+      "evidence": [
+        "phase|The Rush",
+        "geometry|Zooming / Rushing Tunnel Flight",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Mandalas & symmetry fields",
+        "geometry|The Chrysanthemum",
+        "geometry|TV Static & the Signal-Noise Transition"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 41,
+      "portals": [
+        {
+          "x": 0,
+          "z": -55,
+          "width": 3.5,
+          "target": "next"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 8,
+      "triangles": 68332,
+      "geometries": 11,
+      "actors": [],
+      "uncitedMeshes": 0
+    },
+    "capture_diagnostics": {
+      "stage": "rush",
+      "routeIndex": 3,
+      "entered": true,
+      "paused": true,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 2.733300000000001,
+      "animTime": 7.5610999992370695,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 7.5610999992370695,
+      "frames": 6,
+      "position": [
+        0,
+        1.7,
+        8
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush"
+      ],
+      "entities": [],
+      "interactions": 0,
+      "evidence": [
+        "phase|The Rush",
+        "geometry|Zooming / Rushing Tunnel Flight",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Mandalas & symmetry fields",
+        "geometry|The Chrysanthemum",
+        "geometry|TV Static & the Signal-Noise Transition"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 41,
+      "portals": [
+        {
+          "x": 0,
+          "z": -55,
+          "width": 3.5,
+          "target": "next"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 8,
+      "triangles": 68332,
+      "geometries": 11,
+      "actors": [],
+      "uncitedMeshes": 0
+    },
+    "render_signature": "a68c9fd26a6b725476a49db671c4a45584204accd9a212841cc4bd44194d78c2",
+    "capture_sha256": "68a69200a2b69105f24c130e85d7227bda0761a458bcefb63a8c123e7acccf38",
+    "file": "realism-rush-v1.png",
+    "veil_opacity": 0
+  },
+  {
+    "errors": [],
+    "fps_swiftshader": 0.4,
+    "checks": [],
+    "diagnostics": {
+      "stage": "rush",
+      "routeIndex": 3,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 2.0499,
+      "animTime": 6.877699999237068,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": true,
+      "renderedAnimTime": 4.9611999992370555,
+      "frames": 4,
+      "position": [
+        0,
+        1.7,
+        8
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush"
+      ],
+      "entities": [],
+      "interactions": 0,
+      "evidence": [
+        "phase|The Rush",
+        "geometry|Zooming / Rushing Tunnel Flight",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Mandalas & symmetry fields",
+        "geometry|The Chrysanthemum",
+        "geometry|TV Static & the Signal-Noise Transition"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 41,
+      "portals": [
+        {
+          "x": 0,
+          "z": -55,
+          "width": 3.5,
+          "target": "next"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 8,
+      "triangles": 68332,
+      "geometries": 11,
+      "actors": [],
+      "uncitedMeshes": 0
+    },
+    "capture_diagnostics": {
+      "stage": "rush",
+      "routeIndex": 3,
+      "entered": true,
+      "paused": true,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 4.983300000000008,
+      "animTime": 9.811099999237046,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 9.811099999237046,
+      "frames": 13,
+      "position": [
+        0,
+        1.7,
+        8
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush"
+      ],
+      "entities": [],
+      "interactions": 0,
+      "evidence": [
+        "phase|The Rush",
+        "geometry|Zooming / Rushing Tunnel Flight",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Mandalas & symmetry fields",
+        "geometry|The Chrysanthemum",
+        "geometry|TV Static & the Signal-Noise Transition"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 41,
+      "portals": [
+        {
+          "x": 0,
+          "z": -55,
+          "width": 3.5,
+          "target": "next"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 8,
+      "triangles": 68332,
+      "geometries": 11,
+      "actors": [],
+      "uncitedMeshes": 0
+    },
+    "render_signature": "a68c9fd26a6b725476a49db671c4a45584204accd9a212841cc4bd44194d78c2",
+    "capture_sha256": "634979393cdc8c95458254bdbe6ebf4008a7d54f58ecebf8b8ad3495a5a6a669",
+    "file": "realism-rush-v1-motion.png",
+    "veil_opacity": 0
+  }
+]

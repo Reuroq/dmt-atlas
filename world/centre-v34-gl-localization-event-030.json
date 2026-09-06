@@ -1,0 +1,8 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "byte-constant",
+    "op": "attachment-type"
+  },
+  "previous_sha256": "7e362eb1f7521240f6f65ae3631c352f86ab4f4676de2308dae06166a09504eb"
+}

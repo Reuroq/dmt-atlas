@@ -1,0 +1,588 @@
+[
+  {
+    "errors": [],
+    "fps_swiftshader": 0.0,
+    "checks": [],
+    "diagnostics": {
+      "stage": "download",
+      "routeIndex": 8,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 1.0499999999999996,
+      "animTime": 18.322399999999956,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": true,
+      "renderedAnimTime": 17.272399999999987,
+      "frames": 10,
+      "position": [
+        0,
+        1.7,
+        9
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush",
+        "membrane",
+        "waiting",
+        "cathedral",
+        "contact",
+        "download"
+      ],
+      "entities": [
+        "elf",
+        "elf",
+        "elf",
+        "jester"
+      ],
+      "interactions": 0,
+      "evidence": [
+        "phase|The Download / Lesson",
+        "geometry|Living language / visible sound",
+        "entity|Self-transforming machine elves",
+        "entity|The Jester / Trickster / Clown",
+        "realm|The Domed Cathedral",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Embedded Faces & the Pareidolia Cascade",
+        "geometry|Hyper-dimensional objects",
+        "geometry|Time Geometry \u2014 Moments as Objects & Loops"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 62,
+      "portals": [
+        {
+          "x": 0,
+          "z": -25,
+          "width": 9,
+          "target": "next"
+        },
+        {
+          "x": -22,
+          "z": -6,
+          "width": 5,
+          "target": "workshop"
+        },
+        {
+          "x": -22,
+          "z": 9,
+          "width": 5,
+          "target": "garden"
+        },
+        {
+          "x": 22,
+          "z": -6,
+          "width": 5,
+          "target": "clinical"
+        },
+        {
+          "x": 22,
+          "z": 9,
+          "width": 5,
+          "target": "void"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 65,
+      "triangles": 184352,
+      "geometries": 41,
+      "actors": [
+        {
+          "kind": "elf",
+          "engaged": false,
+          "joints": 2,
+          "arm": 0.10648109017596756,
+          "evidence": "entity|Self-transforming machine elves",
+          "screen": [
+            467.709944348094,
+            363.50619154430177
+          ]
+        },
+        {
+          "kind": "elf",
+          "engaged": false,
+          "joints": 2,
+          "arm": 0.10953379365838505,
+          "evidence": "entity|Self-transforming machine elves",
+          "screen": [
+            732.2900556519061,
+            363.50619154430177
+          ]
+        },
+        {
+          "kind": "elf",
+          "engaged": false,
+          "joints": 2,
+          "arm": 0.029693505825140853,
+          "evidence": "entity|Self-transforming machine elves",
+          "screen": [
+            600,
+            388.13951225189805
+          ]
+        },
+        {
+          "kind": "jester",
+          "engaged": false,
+          "joints": 2,
+          "arm": -0.0726182352307637,
+          "evidence": "entity|The Jester / Trickster / Clown",
+          "screen": [
+            402.32520419830126,
+            356.5115449236263
+          ]
+        }
+      ],
+      "uncitedMeshes": 0
+    },
+    "capture_diagnostics": {
+      "stage": "download",
+      "routeIndex": 8,
+      "entered": true,
+      "paused": true,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 2.066700000000004,
+      "animTime": 19.33909999999996,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 19.33909999999996,
+      "frames": 12,
+      "position": [
+        0,
+        1.7,
+        9
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush",
+        "membrane",
+        "waiting",
+        "cathedral",
+        "contact",
+        "download"
+      ],
+      "entities": [
+        "elf",
+        "elf",
+        "elf",
+        "jester"
+      ],
+      "interactions": 0,
+      "evidence": [
+        "phase|The Download / Lesson",
+        "geometry|Living language / visible sound",
+        "entity|Self-transforming machine elves",
+        "entity|The Jester / Trickster / Clown",
+        "realm|The Domed Cathedral",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Embedded Faces & the Pareidolia Cascade",
+        "geometry|Hyper-dimensional objects",
+        "geometry|Time Geometry \u2014 Moments as Objects & Loops"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 62,
+      "portals": [
+        {
+          "x": 0,
+          "z": -25,
+          "width": 9,
+          "target": "next"
+        },
+        {
+          "x": -22,
+          "z": -6,
+          "width": 5,
+          "target": "workshop"
+        },
+        {
+          "x": -22,
+          "z": 9,
+          "width": 5,
+          "target": "garden"
+        },
+        {
+          "x": 22,
+          "z": -6,
+          "width": 5,
+          "target": "clinical"
+        },
+        {
+          "x": 22,
+          "z": 9,
+          "width": 5,
+          "target": "void"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 65,
+      "triangles": 184352,
+      "geometries": 41,
+      "actors": [
+        {
+          "kind": "elf",
+          "engaged": false,
+          "joints": 2,
+          "arm": 0.11336418444411746,
+          "evidence": "entity|Self-transforming machine elves",
+          "screen": [
+            467.709944348094,
+            363.50619154430177
+          ]
+        },
+        {
+          "kind": "elf",
+          "engaged": false,
+          "joints": 2,
+          "arm": 0.039643007875489925,
+          "evidence": "entity|Self-transforming machine elves",
+          "screen": [
+            732.2900556519061,
+            363.50619154430177
+          ]
+        },
+        {
+          "kind": "elf",
+          "engaged": false,
+          "joints": 2,
+          "arm": -0.06407920670884375,
+          "evidence": "entity|Self-transforming machine elves",
+          "screen": [
+            600,
+            388.13951225189805
+          ]
+        },
+        {
+          "kind": "jester",
+          "engaged": false,
+          "joints": 2,
+          "arm": -0.11930755517367708,
+          "evidence": "entity|The Jester / Trickster / Clown",
+          "screen": [
+            402.32520419830126,
+            356.5115449236263
+          ]
+        }
+      ],
+      "uncitedMeshes": 0
+    },
+    "render_signature": "792692533a5bd85ca77a604f96e8536da38071b81c7cebc02eb826bc4077cf1f",
+    "capture_sha256": "0f12dbeca032e0e52f287d3894472eb1841f6b652c0ba7196b6779b40c6bbf19",
+    "file": "realism-download-v3.png",
+    "veil_opacity": 0
+  },
+  {
+    "errors": [],
+    "fps_swiftshader": 0.0,
+    "checks": [],
+    "diagnostics": {
+      "stage": "download",
+      "routeIndex": 8,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 1.0499999999999996,
+      "animTime": 18.322399999999956,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": true,
+      "renderedAnimTime": 17.272399999999987,
+      "frames": 10,
+      "position": [
+        0,
+        1.7,
+        9
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush",
+        "membrane",
+        "waiting",
+        "cathedral",
+        "contact",
+        "download"
+      ],
+      "entities": [
+        "elf",
+        "elf",
+        "elf",
+        "jester"
+      ],
+      "interactions": 0,
+      "evidence": [
+        "phase|The Download / Lesson",
+        "geometry|Living language / visible sound",
+        "entity|Self-transforming machine elves",
+        "entity|The Jester / Trickster / Clown",
+        "realm|The Domed Cathedral",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Embedded Faces & the Pareidolia Cascade",
+        "geometry|Hyper-dimensional objects",
+        "geometry|Time Geometry \u2014 Moments as Objects & Loops"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 62,
+      "portals": [
+        {
+          "x": 0,
+          "z": -25,
+          "width": 9,
+          "target": "next"
+        },
+        {
+          "x": -22,
+          "z": -6,
+          "width": 5,
+          "target": "workshop"
+        },
+        {
+          "x": -22,
+          "z": 9,
+          "width": 5,
+          "target": "garden"
+        },
+        {
+          "x": 22,
+          "z": -6,
+          "width": 5,
+          "target": "clinical"
+        },
+        {
+          "x": 22,
+          "z": 9,
+          "width": 5,
+          "target": "void"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 65,
+      "triangles": 184352,
+      "geometries": 41,
+      "actors": [
+        {
+          "kind": "elf",
+          "engaged": false,
+          "joints": 2,
+          "arm": 0.10648109017596756,
+          "evidence": "entity|Self-transforming machine elves",
+          "screen": [
+            467.709944348094,
+            363.50619154430177
+          ]
+        },
+        {
+          "kind": "elf",
+          "engaged": false,
+          "joints": 2,
+          "arm": 0.10953379365838505,
+          "evidence": "entity|Self-transforming machine elves",
+          "screen": [
+            732.2900556519061,
+            363.50619154430177
+          ]
+        },
+        {
+          "kind": "elf",
+          "engaged": false,
+          "joints": 2,
+          "arm": 0.029693505825140853,
+          "evidence": "entity|Self-transforming machine elves",
+          "screen": [
+            600,
+            388.13951225189805
+          ]
+        },
+        {
+          "kind": "jester",
+          "engaged": false,
+          "joints": 2,
+          "arm": -0.0726182352307637,
+          "evidence": "entity|The Jester / Trickster / Clown",
+          "screen": [
+            402.32520419830126,
+            356.5115449236263
+          ]
+        }
+      ],
+      "uncitedMeshes": 0
+    },
+    "capture_diagnostics": {
+      "stage": "download",
+      "routeIndex": 8,
+      "entered": true,
+      "paused": true,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 4.100099999999996,
+      "animTime": 21.37249999999992,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 21.37249999999992,
+      "frames": 15,
+      "position": [
+        0,
+        1.7,
+        9
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush",
+        "membrane",
+        "waiting",
+        "cathedral",
+        "contact",
+        "download"
+      ],
+      "entities": [
+        "elf",
+        "elf",
+        "elf",
+        "jester"
+      ],
+      "interactions": 0,
+      "evidence": [
+        "phase|The Download / Lesson",
+        "geometry|Living language / visible sound",
+        "entity|Self-transforming machine elves",
+        "entity|The Jester / Trickster / Clown",
+        "realm|The Domed Cathedral",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Embedded Faces & the Pareidolia Cascade",
+        "geometry|Hyper-dimensional objects",
+        "geometry|Time Geometry \u2014 Moments as Objects & Loops"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 62,
+      "portals": [
+        {
+          "x": 0,
+          "z": -25,
+          "width": 9,
+          "target": "next"
+        },
+        {
+          "x": -22,
+          "z": -6,
+          "width": 5,
+          "target": "workshop"
+        },
+        {
+          "x": -22,
+          "z": 9,
+          "width": 5,
+          "target": "garden"
+        },
+        {
+          "x": 22,
+          "z": -6,
+          "width": 5,
+          "target": "clinical"
+        },
+        {
+          "x": 22,
+          "z": 9,
+          "width": 5,
+          "target": "void"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 65,
+      "triangles": 184352,
+      "geometries": 41,
+      "actors": [
+        {
+          "kind": "elf",
+          "engaged": false,
+          "joints": 2,
+          "arm": -0.045626686640808226,
+          "evidence": "entity|Self-transforming machine elves",
+          "screen": [
+            467.709944348094,
+            363.50619154430177
+          ]
+        },
+        {
+          "kind": "elf",
+          "engaged": false,
+          "joints": 2,
+          "arm": -0.11530142913311733,
+          "evidence": "entity|Self-transforming machine elves",
+          "screen": [
+            732.2900556519061,
+            363.50619154430177
+          ]
+        },
+        {
+          "kind": "elf",
+          "engaged": false,
+          "joints": 2,
+          "arm": -0.09771834876919044,
+          "evidence": "entity|Self-transforming machine elves",
+          "screen": [
+            600,
+            388.13951225189805
+          ]
+        },
+        {
+          "kind": "jester",
+          "engaged": false,
+          "joints": 2,
+          "arm": -0.006183970222639158,
+          "evidence": "entity|The Jester / Trickster / Clown",
+          "screen": [
+            402.32520419830126,
+            356.5115449236263
+          ]
+        }
+      ],
+      "uncitedMeshes": 0
+    },
+    "render_signature": "792692533a5bd85ca77a604f96e8536da38071b81c7cebc02eb826bc4077cf1f",
+    "capture_sha256": "d18ce60906f35161589bcdc786ecd16935d4d88392a4e008916dbb497c037440",
+    "file": "realism-download-v3-motion.png",
+    "veil_opacity": 0
+  }
+]

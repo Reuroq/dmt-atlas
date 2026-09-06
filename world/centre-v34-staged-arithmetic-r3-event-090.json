@@ -1,0 +1,12 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "float-control",
+      "op": "shader-log",
+      "shader": "fragmentShader"
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "ed838e5df46e0f9d91cc62e8bef9d12360dd7d51b9952c668909c5741e7c38cf"
+}

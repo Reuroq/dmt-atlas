@@ -1,0 +1,2101 @@
+{
+  "version": "0.3.0",
+  "status": "schema phase complete; API compatibility and pilot quality unmeasured",
+  "sources": [
+    "../data/atlas.json",
+    "../data/corpus/vocab.json",
+    "../data/corpus/vocab_extra.json"
+  ],
+  "slug_rule": "Lowercase; replace runs outside ASCII a-z and 0-9 with hyphen; strip boundary hyphens (app.js slug).",
+  "catalog": {
+    "realm": [
+      {
+        "slug": "hyperspace",
+        "name": "Hyperspace",
+        "aliases": [
+          "Hyperspace",
+          "another dimension",
+          "another realm",
+          "different dimension",
+          "dmt land",
+          "dmt realm",
+          "dmt space",
+          "dmt world",
+          "hyperspace",
+          "other dimension",
+          "other realm",
+          "the DMT world",
+          "the breakthrough realm",
+          "the other side"
+        ],
+        "extra_keys": [
+          "Hyperspace"
+        ]
+      },
+      {
+        "slug": "the-waiting-room",
+        "name": "The Waiting Room",
+        "aliases": [
+          "The Waiting Room",
+          "antechamber",
+          "foyer",
+          "lobby",
+          "lounge",
+          "nursery",
+          "reception",
+          "the antechamber",
+          "the lobby",
+          "the nursery",
+          "the reception",
+          "waiting room"
+        ],
+        "extra_keys": [
+          "Waiting Room"
+        ]
+      },
+      {
+        "slug": "the-domed-cathedral",
+        "name": "The Domed Cathedral",
+        "aliases": [
+          "The Domed Cathedral",
+          "cathedral",
+          "chamber",
+          "dome",
+          "domed",
+          "great hall",
+          "opera house",
+          "palace",
+          "temple",
+          "the cosmic opera house",
+          "the infinite cathedral",
+          "the temple",
+          "the vault",
+          "vault",
+          "vaulted"
+        ],
+        "extra_keys": [
+          "Domed Cathedral"
+        ]
+      },
+      {
+        "slug": "the-throne-room",
+        "name": "The Throne Room",
+        "aliases": [
+          "The Throne Room",
+          "the audience chamber",
+          "the court of the entity"
+        ],
+        "extra_keys": []
+      },
+      {
+        "slug": "the-void",
+        "name": "The Void",
+        "aliases": [
+          "The Void",
+          "a void",
+          "black void",
+          "blackness",
+          "empty space",
+          "infinite black",
+          "nothingness",
+          "pure black",
+          "the abyss",
+          "the void",
+          "the white light",
+          "the white-out",
+          "total darkness"
+        ],
+        "extra_keys": [
+          "The Void"
+        ]
+      },
+      {
+        "slug": "the-workshop-factory-market",
+        "name": "The Workshop / Factory / Market",
+        "aliases": [
+          "Factory",
+          "Market",
+          "The Workshop",
+          "conveyor belts",
+          "machine-scapes",
+          "the factory",
+          "the meme market"
+        ],
+        "extra_keys": []
+      },
+      {
+        "slug": "geometric-palaces-the-lattice",
+        "name": "Geometric Palaces & the Lattice",
+        "aliases": [
+          "Geometric Palaces & the Lattice",
+          "crystal architecture",
+          "lattice",
+          "latticework",
+          "palace",
+          "palaces",
+          "scaffolding",
+          "the blueprint of the universe",
+          "the gridwork",
+          "the jeweled palace"
+        ],
+        "extra_keys": [
+          "Geometric Palaces"
+        ]
+      },
+      {
+        "slug": "the-circus-playroom",
+        "name": "The Circus / Playroom",
+        "aliases": [
+          "Playroom",
+          "The Circus",
+          "children's world",
+          "the carnival",
+          "the cartoon realm"
+        ],
+        "extra_keys": []
+      },
+      {
+        "slug": "tunnels-corridors",
+        "name": "Tunnels & Corridors",
+        "aliases": [
+          "Tunnels & Corridors",
+          "corridor",
+          "corridors",
+          "hallway",
+          "hallways",
+          "passageway",
+          "the chute",
+          "the corridor",
+          "the hallway",
+          "the tunnel",
+          "the wormhole",
+          "tunnel",
+          "tunnels",
+          "wormhole"
+        ],
+        "extra_keys": [
+          "Tunnels"
+        ]
+      },
+      {
+        "slug": "the-membrane-veil",
+        "name": "The Membrane / Veil",
+        "aliases": [
+          "The Membrane",
+          "Veil",
+          "barrier",
+          "broke through",
+          "curtain",
+          "doorway",
+          "gateway",
+          "membrane",
+          "portal",
+          "punched through",
+          "pushed through",
+          "the chrysanthemum-as-door",
+          "the door",
+          "the doorway",
+          "the membrane",
+          "the threshold",
+          "the veil",
+          "through the veil"
+        ],
+        "extra_keys": [
+          "Membrane"
+        ]
+      },
+      {
+        "slug": "the-in-between",
+        "name": "The In-Between",
+        "aliases": [
+          "The In-Between",
+          "the solitary zone",
+          "the transit"
+        ],
+        "extra_keys": []
+      },
+      {
+        "slug": "the-deeper-realms",
+        "name": "The Deeper Realms",
+        "aliases": [
+          "Dreamtime",
+          "The Deeper Realms",
+          "culturally-themed realms",
+          "the Astral",
+          "the realms of the gods"
+        ],
+        "extra_keys": []
+      },
+      {
+        "slug": "the-hospital-operating-theater",
+        "name": "The Hospital / Operating Theater",
+        "aliases": [
+          "Operating Theater",
+          "The DMT Clinic",
+          "The Healing Table",
+          "The Hospital",
+          "The Medical Bay",
+          "The Surgery"
+        ],
+        "extra_keys": []
+      },
+      {
+        "slug": "the-testing-laboratory",
+        "name": "The Testing Laboratory",
+        "aliases": [
+          "The Alien Lab",
+          "The Examination Chamber",
+          "The Research Facility",
+          "The Testing Laboratory",
+          "a lab",
+          "a test",
+          "being tested",
+          "challenge",
+          "experiment on me",
+          "experimenting on me",
+          "failed the test",
+          "laboratory",
+          "passed the test",
+          "prove myself",
+          "test subject",
+          "tested",
+          "testing",
+          "testing me",
+          "the lab",
+          "the test"
+        ],
+        "extra_keys": [
+          "Testing Laboratory",
+          "The Test"
+        ]
+      },
+      {
+        "slug": "the-control-room-cockpit",
+        "name": "The Control Room / Cockpit",
+        "aliases": [
+          "Cockpit",
+          "Mission Control",
+          "The Bridge",
+          "The Cockpit",
+          "The Console Room",
+          "The Control Room"
+        ],
+        "extra_keys": []
+      },
+      {
+        "slug": "the-hive",
+        "name": "The Hive",
+        "aliases": [
+          "The Hive",
+          "The Honeycomb",
+          "The Insect Cathedral",
+          "The Mantis Hive"
+        ],
+        "extra_keys": []
+      },
+      {
+        "slug": "the-nursery-incubation-chamber",
+        "name": "The Nursery / Incubation Chamber",
+        "aliases": [
+          "Incubation Chamber",
+          "The Caretaker Ward",
+          "The Crèche",
+          "The Hatchery",
+          "The Nursery",
+          "cocoon",
+          "hatchery",
+          "incubation",
+          "incubator",
+          "nursery",
+          "womb"
+        ],
+        "extra_keys": [
+          "Nursery"
+        ]
+      },
+      {
+        "slug": "the-library-hall-of-records",
+        "name": "The Library / Hall of Records",
+        "aliases": [
+          "Hall of Records",
+          "The Akashic Library",
+          "The Archive",
+          "The Hall of Records",
+          "The Library"
+        ],
+        "extra_keys": []
+      },
+      {
+        "slug": "the-garden",
+        "name": "The Garden",
+        "aliases": [
+          "The Garden",
+          "The Hanging Gardens",
+          "The Living Garden",
+          "The Paradise Garden"
+        ],
+        "extra_keys": []
+      },
+      {
+        "slug": "the-city-of-lights-alien-metropolis",
+        "name": "The City of Lights / Alien Metropolis",
+        "aliases": [
+          "Alien Metropolis",
+          "The City of Lights",
+          "The Crystal City",
+          "The Futuristic City",
+          "The Infinite City",
+          "alien city",
+          "buildings",
+          "cities",
+          "city",
+          "cityscape",
+          "crystal city",
+          "futuristic city",
+          "metropolis",
+          "skyscrapers"
+        ],
+        "extra_keys": [
+          "City of Lights"
+        ]
+      },
+      {
+        "slug": "the-court-council-chamber",
+        "name": "The Court / Council Chamber",
+        "aliases": [
+          "Council Chamber",
+          "The Council of Elders",
+          "The Court",
+          "The Galactic Council",
+          "The Tribunal"
+        ],
+        "extra_keys": []
+      },
+      {
+        "slug": "the-mesoamerican-temple-complex",
+        "name": "The Mesoamerican Temple Complex",
+        "aliases": [
+          "The Aztec Temple",
+          "The Mayan Pyramid Plaza",
+          "The Mesoamerican Temple Complex",
+          "The Serpent Temple"
+        ],
+        "extra_keys": []
+      },
+      {
+        "slug": "the-egyptian-hall",
+        "name": "The Egyptian Hall",
+        "aliases": [
+          "The Egyptian Hall",
+          "The Hieroglyph Hall",
+          "The Pharaonic Court",
+          "The Temple of Columns",
+          "egypt",
+          "egyptian",
+          "pyramid",
+          "pyramids"
+        ],
+        "extra_keys": [
+          "Egyptian Hall"
+        ]
+      },
+      {
+        "slug": "the-theater-grand-stage",
+        "name": "The Theater / Grand Stage",
+        "aliases": [
+          "Grand Stage",
+          "The Opera Hall",
+          "The Performance Hall",
+          "The Show",
+          "The Theater",
+          "The Vaudeville Stage"
+        ],
+        "extra_keys": []
+      },
+      {
+        "slug": "the-grid-plain",
+        "name": "The Grid Plain",
+        "aliases": [
+          "The Blueprint Plane",
+          "The Grid Plain",
+          "The Infinite Checkerboard",
+          "The Lattice Plain",
+          "checkerboard",
+          "checkered floor",
+          "flat plane",
+          "grid lines",
+          "gridlines",
+          "infinite plain",
+          "infinite plane",
+          "the grid"
+        ],
+        "extra_keys": [
+          "Grid Plain"
+        ]
+      },
+      {
+        "slug": "the-ocean-underwater-realm",
+        "name": "The Ocean / Underwater Realm",
+        "aliases": [
+          "The Cosmic Ocean",
+          "The Deep",
+          "The Ocean",
+          "The Underwater Kingdom",
+          "Underwater Realm",
+          "aquatic",
+          "deep sea",
+          "ocean",
+          "submerged",
+          "the sea",
+          "under water",
+          "underwater"
+        ],
+        "extra_keys": [
+          "Ocean"
+        ]
+      },
+      {
+        "slug": "the-space-station-docking-bay",
+        "name": "The Space Station / Docking Bay",
+        "aliases": [
+          "Docking Bay",
+          "The Landing Bay",
+          "The Mothership Hangar",
+          "The Orbital Platform",
+          "The Space Station"
+        ],
+        "extra_keys": []
+      },
+      {
+        "slug": "the-white-room",
+        "name": "The White Room",
+        "aliases": [
+          "The Blank Chamber",
+          "The Playpen",
+          "The White Room",
+          "The White Void Room"
+        ],
+        "extra_keys": []
+      },
+      {
+        "slug": "the-bardo-crossing-hall-of-judgment",
+        "name": "The Bardo Crossing / Hall of Judgment",
+        "aliases": [
+          "Hall of Judgment",
+          "The Bardo Crossing",
+          "The Judgment Space",
+          "The Life Review Chamber",
+          "The Threshold of the Dead",
+          "afterlife",
+          "bardo",
+          "death itself",
+          "judged",
+          "judgement",
+          "judgment",
+          "limbo",
+          "purgatory",
+          "the dead"
+        ],
+        "extra_keys": [
+          "Bardo"
+        ]
+      },
+      {
+        "slug": "the-carnival-midway-fairground-machinery",
+        "name": "The Carnival Midway / Fairground Machinery",
+        "aliases": [
+          "Fairground Machinery",
+          "The Carnival Midway",
+          "The Casino",
+          "The Cosmic Carnival",
+          "The Merry-Go-Round",
+          "The Midway"
+        ],
+        "extra_keys": []
+      },
+      {
+        "slug": "the-uncanny-interior",
+        "name": "The Uncanny Interior",
+        "aliases": [
+          "The Domestic Uncanny",
+          "The False Room",
+          "The Familiar Room That Isn't",
+          "The Kitchen",
+          "The Uncanny Interior"
+        ],
+        "extra_keys": []
+      }
+    ],
+    "entity": [
+      {
+        "slug": "self-transforming-machine-elves",
+        "name": "Self-transforming machine elves",
+        "aliases": [
+          "Self-transforming machine elves",
+          "clockwork elves",
+          "elfs",
+          "elves",
+          "fractal elves",
+          "gnomes",
+          "imps",
+          "little people",
+          "machine elf",
+          "machine elves",
+          "self-dribbling basketballs",
+          "syntactical homunculi",
+          "tykes"
+        ],
+        "extra_keys": [
+          "Self-transforming machine elves"
+        ]
+      },
+      {
+        "slug": "the-divine-feminine",
+        "name": "The Divine Feminine",
+        "aliases": [
+          "Cosmic Mother",
+          "Mother Ayahuasca",
+          "Mother Goddess",
+          "The Divine Feminine",
+          "divine feminine",
+          "female entity",
+          "female presence",
+          "feminine entity",
+          "feminine presence",
+          "goddess",
+          "great mother",
+          "mother ayahuasca",
+          "mother figure",
+          "the Goddess",
+          "the feminine phenotype",
+          "the mother"
+        ],
+        "extra_keys": [
+          "Divine Feminine"
+        ]
+      },
+      {
+        "slug": "deities-god-like-presences",
+        "name": "Deities & god-like presences",
+        "aliases": [
+          "Deities & god-like presences",
+          "Supreme Being",
+          "a god",
+          "deities",
+          "deity",
+          "god-like",
+          "godhead",
+          "godlike",
+          "gods and goddesses",
+          "the Godhead",
+          "the Logos (as God",
+          "the almighty",
+          "the creator",
+          "the gods"
+        ],
+        "extra_keys": [
+          "Deities"
+        ]
+      },
+      {
+        "slug": "the-generic-other-guides-spirits-helpers",
+        "name": "The generic 'Other' — guides, spirits & helpers",
+        "aliases": [
+          "The generic 'Other' — guides",
+          "a guide",
+          "helpers",
+          "my guide",
+          "spirit guide",
+          "spirit guides",
+          "spirits & helpers",
+          "the entities were guiding",
+          "the guides",
+          "the others"
+        ],
+        "extra_keys": [
+          "generic 'Other'"
+        ]
+      },
+      {
+        "slug": "alien-grey-forms",
+        "name": "Alien & 'Grey' forms",
+        "aliases": [
+          "Alien & 'Grey' forms",
+          "alien",
+          "aliens",
+          "extraterrestrial",
+          "extraterrestrials",
+          "gray aliens",
+          "grays",
+          "grey aliens",
+          "greys",
+          "the Greys",
+          "the visitors",
+          "ufo"
+        ],
+        "extra_keys": [
+          "Alien &"
+        ]
+      },
+      {
+        "slug": "mantis-insectoid-beings",
+        "name": "Mantis & insectoid beings",
+        "aliases": [
+          "Mantis & insectoid beings",
+          "alien brain surgeons",
+          "bug like",
+          "bug-like",
+          "grasshopper",
+          "insect beings",
+          "insect entities",
+          "insect entity",
+          "insect like",
+          "insect-like",
+          "insectoid",
+          "insectoids",
+          "mantis",
+          "mantis surgeons",
+          "praying mantis",
+          "the praying mantis being"
+        ],
+        "extra_keys": [
+          "Mantis"
+        ]
+      },
+      {
+        "slug": "reptilian-beings",
+        "name": "Reptilian beings",
+        "aliases": [
+          "Reptilian beings",
+          "jewel-encrusted reptilians",
+          "lizard",
+          "lizard beings",
+          "lizard people",
+          "lizards",
+          "reptile",
+          "reptilian",
+          "reptilians",
+          "saurians",
+          "snake people"
+        ],
+        "extra_keys": [
+          "Reptilian"
+        ]
+      },
+      {
+        "slug": "the-jester-trickster-clown",
+        "name": "The Jester / Trickster / Clown",
+        "aliases": [
+          "Clown",
+          "The Jester",
+          "Trickster",
+          "circus ringleader",
+          "clown",
+          "clowns",
+          "court jester",
+          "harlequin",
+          "imps",
+          "jester",
+          "jesters",
+          "joker",
+          "the jester",
+          "the joker",
+          "trickster",
+          "tricksters"
+        ],
+        "extra_keys": [
+          "Jester"
+        ]
+      },
+      {
+        "slug": "guardians-gatekeepers-the-bouncer",
+        "name": "Guardians & gatekeepers — 'the bouncer'",
+        "aliases": [
+          "Guardians & gatekeepers — 'the bouncer",
+          "bouncer",
+          "denied entry",
+          "gatekeeper",
+          "gatekeepers",
+          "guardian",
+          "guardians",
+          "not allowed",
+          "not ready",
+          "sent me back",
+          "the bouncer",
+          "the doorman",
+          "the gatekeeper",
+          "threshold guardian",
+          "turned me away",
+          "ushers",
+          "would not let me",
+          "wouldn't let me"
+        ],
+        "extra_keys": [
+          "Guardians"
+        ]
+      },
+      {
+        "slug": "impersonal-geometric-intelligences-the-machine",
+        "name": "Impersonal geometric intelligences — 'the machine'",
+        "aliases": [
+          "Impersonal geometric intelligences — 'the machine",
+          "a computer",
+          "a machine",
+          "a program",
+          "circuitry",
+          "geometric intelligence",
+          "living geometry",
+          "machine-like",
+          "machinery",
+          "mathematical intelligence",
+          "robot entities",
+          "sentient structures",
+          "tapestries",
+          "the computer",
+          "the machine",
+          "the mainframe",
+          "the matrix",
+          "the program",
+          "the simulation"
+        ],
+        "extra_keys": [
+          "Impersonal geometric"
+        ]
+      },
+      {
+        "slug": "light-beings-angels",
+        "name": "Light beings & angels",
+        "aliases": [
+          "Light beings & angels",
+          "angel",
+          "angelic",
+          "angels",
+          "archangels",
+          "being of light",
+          "beings made of light",
+          "beings of light",
+          "light being",
+          "light beings"
+        ],
+        "extra_keys": [
+          "Light beings"
+        ]
+      },
+      {
+        "slug": "dark-entities-demons",
+        "name": "Dark entities & demons",
+        "aliases": [
+          "Dark entities & demons",
+          "cosmic horrors",
+          "dark entities",
+          "dark entity",
+          "demon",
+          "demonic",
+          "demons",
+          "evil entities",
+          "evil entity",
+          "evil presence",
+          "malevolent",
+          "shadow figure",
+          "shadow figures",
+          "shadow people",
+          "sinister",
+          "the Tormentor",
+          "the devil"
+        ],
+        "extra_keys": [
+          "Dark entities"
+        ]
+      },
+      {
+        "slug": "deceased-loved-ones-ancestors",
+        "name": "Deceased loved ones & ancestors",
+        "aliases": [
+          "Deceased loved ones & ancestors",
+          "ancestor",
+          "ancestors",
+          "deceased",
+          "departed loved ones",
+          "my dead",
+          "my grandfather",
+          "my grandma",
+          "my grandmother",
+          "my grandpa",
+          "my late",
+          "passed away",
+          "the dead",
+          "who died"
+        ],
+        "extra_keys": [
+          "Deceased"
+        ]
+      },
+      {
+        "slug": "the-cosmic-serpent",
+        "name": "The Cosmic Serpent",
+        "aliases": [
+          "Mother of ayahuasca",
+          "The Cosmic Serpent",
+          "anaconda",
+          "cobra",
+          "serpent",
+          "serpents",
+          "snake",
+          "snakes",
+          "the anaconda",
+          "the rainbow serpent",
+          "the serpent",
+          "the twin serpents",
+          "yacumama"
+        ],
+        "extra_keys": [
+          "cosmic serpent"
+        ]
+      },
+      {
+        "slug": "the-logos-the-voice",
+        "name": "The Logos — the Voice",
+        "aliases": [
+          "The Logos — the Voice",
+          "a voice",
+          "logos",
+          "spoke to me without words",
+          "telepathic",
+          "telepathically",
+          "the Gaian mind",
+          "the Voice",
+          "the interior voice",
+          "the planetary mind",
+          "the voice",
+          "voice said",
+          "voice spoke",
+          "voice told"
+        ],
+        "extra_keys": [
+          "The Logos"
+        ]
+      },
+      {
+        "slug": "the-surgeons-hyperspace-medical-team",
+        "name": "The Surgeons — hyperspace medical team",
+        "aliases": [
+          "Entities performing procedures",
+          "Hyperspace surgeons",
+          "The Doctors",
+          "The Surgeons — hyperspace medical team",
+          "The healers",
+          "doctors",
+          "healer",
+          "healers",
+          "healing me",
+          "medical",
+          "operated on",
+          "operating on me",
+          "surgeon",
+          "surgeons",
+          "surgery",
+          "the doctors",
+          "worked on my body",
+          "working on me"
+        ],
+        "extra_keys": [
+          "Surgeons"
+        ]
+      },
+      {
+        "slug": "the-operators-hidden-technicians-of-the-experience",
+        "name": "The Operators — hidden technicians of the experience",
+        "aliases": [
+          "The Director",
+          "The Operators — hidden technicians of the experience",
+          "The Technicians",
+          "The ones running the show",
+          "The stagehands",
+          "behind the scenes",
+          "busy working",
+          "controllers",
+          "engineers",
+          "operators",
+          "running the show",
+          "stagehands",
+          "technicians",
+          "the crew",
+          "the operator",
+          "the workers"
+        ],
+        "extra_keys": [
+          "The Operators"
+        ]
+      },
+      {
+        "slug": "the-teacher-professor-of-hyperspace",
+        "name": "The Teacher — professor of hyperspace",
+        "aliases": [
+          "Diplomatic anthropologists (McKenna",
+          "The Guide-Teacher",
+          "The Instructor",
+          "The Professor",
+          "The Teacher — professor of hyperspace",
+          "a lesson",
+          "explaining",
+          "instructor",
+          "professor",
+          "showing me how",
+          "taught me",
+          "teacher",
+          "teachers",
+          "teaching me"
+        ],
+        "extra_keys": [
+          "The Teacher"
+        ]
+      },
+      {
+        "slug": "the-council-tribunal-of-elders",
+        "name": "The Council — tribunal of elders",
+        "aliases": [
+          "The Committee",
+          "The Council — tribunal of elders",
+          "The Elders",
+          "The Galactic Council",
+          "The Tribunal",
+          "board of",
+          "committee",
+          "council",
+          "elders",
+          "judges",
+          "panel of",
+          "the elders",
+          "tribunal"
+        ],
+        "extra_keys": [
+          "Council"
+        ]
+      },
+      {
+        "slug": "child-sprites-hyperspace-children",
+        "name": "Child-sprites — hyperspace children",
+        "aliases": [
+          "Child-like sprites",
+          "Child-sprites — hyperspace children",
+          "Nursery elves",
+          "Playroom beings",
+          "The children",
+          "a baby",
+          "babies",
+          "child-like",
+          "childlike",
+          "children",
+          "infant",
+          "kids",
+          "little kids",
+          "playful little"
+        ],
+        "extra_keys": [
+          "Child-sprites"
+        ]
+      },
+      {
+        "slug": "the-harlequin-card-dealer-of-hyperspace",
+        "name": "The Harlequin — card-dealer of hyperspace",
+        "aliases": [
+          "Hyperspace Harlequin",
+          "Tarot-dealer",
+          "The Fool (who is no fool",
+          "The Harlequin — card-dealer of hyperspace",
+          "card dealer",
+          "dealing cards",
+          "deck of cards",
+          "harlequin",
+          "playing cards",
+          "tarot"
+        ],
+        "extra_keys": [
+          "Harlequin"
+        ]
+      },
+      {
+        "slug": "the-ringmaster-showman-of-the-circus-dimension",
+        "name": "The Ringmaster — showman of the circus dimension",
+        "aliases": [
+          "Circus Ringleader",
+          "The MC of hyperspace",
+          "The Presenter",
+          "The Ringmaster — showman of the circus dimension",
+          "carnival",
+          "circus",
+          "master of ceremonies",
+          "performance for me",
+          "putting on a show",
+          "ringmaster",
+          "showman",
+          "the show"
+        ],
+        "extra_keys": [
+          "Ringmaster"
+        ]
+      },
+      {
+        "slug": "octopoid-tentacled-beings",
+        "name": "Octopoid & tentacled beings",
+        "aliases": [
+          "Cephalopod entities",
+          "Octopoid & tentacled beings",
+          "Octopus beings",
+          "Tentacled intelligences",
+          "cephalopod",
+          "octopoid",
+          "octopus",
+          "squid",
+          "tentacle",
+          "tentacles"
+        ],
+        "extra_keys": [
+          "Octopoid"
+        ]
+      },
+      {
+        "slug": "morphos-amorphous-protean-intelligences",
+        "name": "Morphos — amorphous & protean intelligences",
+        "aliases": [
+          "Blob intelligences",
+          "Morphos — amorphous & protean intelligences",
+          "Nebulous beings",
+          "Shapeshifting masses",
+          "The formless ones",
+          "amorphous",
+          "blob",
+          "blobs",
+          "constantly changing form",
+          "formless",
+          "morphing",
+          "shape-shifting",
+          "shapeshifter",
+          "shapeshifters",
+          "shapeshifting"
+        ],
+        "extra_keys": [
+          "Morphos"
+        ]
+      },
+      {
+        "slug": "orbs-point-light-beings",
+        "name": "Orbs & point-light beings",
+        "aliases": [
+          "Giant spheres",
+          "Light orbs",
+          "Orbs & point-light beings",
+          "Spheres of consciousness",
+          "Will-o'-wisps of hyperspace",
+          "ball of light",
+          "balls of light",
+          "glowing orbs",
+          "glowing spheres",
+          "orb",
+          "orbs",
+          "points of light",
+          "sphere of light",
+          "spheres of light"
+        ],
+        "extra_keys": [
+          "Orbs"
+        ]
+      },
+      {
+        "slug": "plant-spirits-devas",
+        "name": "Plant spirits & devas",
+        "aliases": [
+          "Mother of the plant",
+          "Plant & Object Devas",
+          "Plant spirits & devas",
+          "Plant teachers",
+          "Vegetal intelligences",
+          "mother nature",
+          "plant spirit",
+          "plant spirits",
+          "plant teacher",
+          "spirit of the plant",
+          "the plant itself",
+          "the spirit of dmt",
+          "the spirit of the molecule"
+        ],
+        "extra_keys": [
+          "Plant spirits"
+        ]
+      },
+      {
+        "slug": "animal-headed-figures-egyptian-styled-beings",
+        "name": "Animal-headed figures — Egyptian-styled beings",
+        "aliases": [
+          "Animal-headed figures — Egyptian-styled beings",
+          "Anubis figures",
+          "Egyptian gods",
+          "Jackal- and bird-headed guides",
+          "Theriocephalic beings",
+          "animal headed",
+          "animal-headed",
+          "anubis",
+          "egyptian",
+          "egyptian gods",
+          "hieroglyph",
+          "hieroglyphs",
+          "ibis",
+          "jackal",
+          "pharaoh",
+          "sphinx"
+        ],
+        "extra_keys": [
+          "Animal-headed"
+        ]
+      },
+      {
+        "slug": "aztec-mayan-styled-beings",
+        "name": "Aztec & Mayan-styled beings",
+        "aliases": [
+          "Aztec & Mayan-styled beings",
+          "Aztec gods",
+          "Mesoamerican entities",
+          "Quetzal-feathered beings",
+          "The temple builders",
+          "aztec",
+          "aztec-like",
+          "inca",
+          "incan",
+          "maya",
+          "mayan",
+          "mayan-like",
+          "mayans",
+          "mesoamerican",
+          "quetzalcoatl",
+          "south american"
+        ],
+        "extra_keys": [
+          "Aztec"
+        ]
+      },
+      {
+        "slug": "robotic-drones-automatons",
+        "name": "Robotic drones & automatons",
+        "aliases": [
+          "Automatons",
+          "Machine drones",
+          "Mechanical workers",
+          "Robot beings",
+          "Robotic drones & automatons",
+          "android",
+          "androids",
+          "automaton",
+          "drone",
+          "drones",
+          "mechanical being",
+          "mechanical beings",
+          "robot",
+          "robotic",
+          "robots"
+        ],
+        "extra_keys": [
+          "Robotic"
+        ]
+      },
+      {
+        "slug": "hooded-cloaked-figures",
+        "name": "Hooded & cloaked figures",
+        "aliases": [
+          "Cloaked figures",
+          "Hooded & cloaked figures",
+          "Robed silhouettes",
+          "The hooded ones",
+          "The monks",
+          "cloak",
+          "cloaked",
+          "hooded",
+          "hooded figure",
+          "hooded figures",
+          "monk",
+          "monks",
+          "robed figure",
+          "robed figures",
+          "robes"
+        ],
+        "extra_keys": [
+          "Hooded"
+        ]
+      },
+      {
+        "slug": "embedded-faces-faces-in-the-walls",
+        "name": "Embedded faces — faces in the walls",
+        "aliases": [
+          "Embedded faces — faces in the walls",
+          "Face-filled geometry",
+          "Faces in the patterns",
+          "The watching surfaces",
+          "Wall faces",
+          "covered in faces",
+          "faces appearing",
+          "faces everywhere",
+          "faces in everything",
+          "faces in the geometry",
+          "faces in the patterns",
+          "faces in the wall",
+          "faces in the walls",
+          "faces morphing",
+          "made of faces",
+          "wall of faces"
+        ],
+        "extra_keys": [
+          "Embedded faces"
+        ]
+      },
+      {
+        "slug": "fractal-humanoids-beings-made-of-the-geometry",
+        "name": "Fractal humanoids — beings made of the geometry",
+        "aliases": [
+          "Beings of living mathematics",
+          "Fractal elves",
+          "Fractal humanoids — beings made of the geometry",
+          "Geometric beings",
+          "Pattern-people",
+          "fractal being",
+          "fractal beings",
+          "geometric being",
+          "geometric beings",
+          "made of fractals",
+          "made of geometry",
+          "made of the patterns",
+          "made out of the geometry"
+        ],
+        "extra_keys": [
+          "Fractal humanoids"
+        ]
+      },
+      {
+        "slug": "the-mimic-wearer-of-familiar-faces",
+        "name": "The Mimic — wearer of familiar faces",
+        "aliases": [
+          "False loved ones",
+          "Strange visitors in borrowed faces",
+          "The Mimic — wearer of familiar faces",
+          "The impostor",
+          "The shapeshifter",
+          "disguised as",
+          "impersonate",
+          "impersonating",
+          "looked like my",
+          "pretended to be",
+          "pretending to be",
+          "took the form of my",
+          "wasn't really my",
+          "wearing the face"
+        ],
+        "extra_keys": [
+          "The Mimic"
+        ]
+      },
+      {
+        "slug": "the-choir-singing-collectives",
+        "name": "The Choir — singing collectives",
+        "aliases": [
+          "Angelic choirs",
+          "Choral beings",
+          "The Choir — singing collectives",
+          "The humming ones",
+          "The singers",
+          "chanting",
+          "choir",
+          "chorus",
+          "harmonies",
+          "hymn",
+          "singing",
+          "singing to me",
+          "they sang"
+        ],
+        "extra_keys": [
+          "The choir"
+        ]
+      },
+      {
+        "slug": "the-hive-queen-matriarch-of-the-swarm",
+        "name": "The Hive Queen — matriarch of the swarm",
+        "aliases": [
+          "Insect queen",
+          "Mother of the hive",
+          "Queen of the Machine Elves",
+          "The Hive Queen — matriarch of the swarm",
+          "The Matriarch",
+          "hive queen",
+          "matriarch",
+          "queen bee",
+          "queen of",
+          "the queen"
+        ],
+        "extra_keys": [
+          "Hive Queen"
+        ]
+      },
+      {
+        "slug": "the-scanners-entry-examiners",
+        "name": "The Scanners — entry examiners",
+        "aliases": [
+          "Checkpoint beings",
+          "Security",
+          "The Scanners — entry examiners",
+          "The customs agents",
+          "The examiners",
+          "checked me out",
+          "examined me",
+          "examining me",
+          "inspected",
+          "inspecting me",
+          "probed",
+          "probing",
+          "scanned",
+          "scanned me",
+          "scanning"
+        ],
+        "extra_keys": [
+          "Scanners"
+        ]
+      },
+      {
+        "slug": "composite-collective-beings-the-many-as-one",
+        "name": "Composite & collective beings — the many-as-one",
+        "aliases": [
+          "Beings of beings",
+          "Collective intelligences",
+          "Composite & collective beings — the many-as-one",
+          "Merged beings",
+          "The legion",
+          "a collective",
+          "collective consciousness",
+          "hive mind",
+          "hivemind",
+          "many beings as one",
+          "one being made of many"
+        ],
+        "extra_keys": [
+          "Composite"
+        ]
+      },
+      {
+        "slug": "the-silent-witness-felt-presence-without-form",
+        "name": "The Silent Witness — felt presence without form",
+        "aliases": [
+          "Felt presence",
+          "The Observer",
+          "The Silent Witness — felt presence without form",
+          "The Watcher",
+          "a presence",
+          "being watched",
+          "felt a presence",
+          "felt presence",
+          "presence in the room",
+          "sensed a presence",
+          "someone was there",
+          "something was there",
+          "the observer",
+          "the watcher",
+          "watching me"
+        ],
+        "extra_keys": [
+          "Silent Witness"
+        ]
+      },
+      {
+        "slug": "fairies-sirens-seductresses",
+        "name": "Fairies, sirens & seductresses",
+        "aliases": [
+          "Fairies",
+          "Flirty Fairies",
+          "Succubus figures",
+          "The seductress",
+          "Winged temptresses",
+          "faerie",
+          "faeries",
+          "fairies",
+          "fairy",
+          "nymph",
+          "nymphs",
+          "pixie",
+          "pixies",
+          "seductive",
+          "seductress",
+          "siren",
+          "sirens",
+          "sirens & seductresses"
+        ],
+        "extra_keys": [
+          "Fairies"
+        ]
+      },
+      {
+        "slug": "the-dream-wizards-robed-magi-of-hyperspace",
+        "name": "The Dream Wizards — robed magi of hyperspace",
+        "aliases": [
+          "Gandalf figures",
+          "Robed scholars",
+          "The Dream Wizards — robed magi of hyperspace",
+          "The Magus",
+          "The Wizards",
+          "mage",
+          "mages",
+          "magi",
+          "magician",
+          "magicians",
+          "shaman",
+          "shamans",
+          "sorcerer",
+          "sorcerers",
+          "wizard",
+          "wizards"
+        ],
+        "extra_keys": [
+          "Dream Wizards"
+        ]
+      }
+    ],
+    "geometry": [
+      {
+        "slug": "the-chrysanthemum",
+        "name": "The Chrysanthemum",
+        "aliases": [
+          "The Chrysanthemum",
+          "a flower unfolding",
+          "chrysanthemum",
+          "flower opening",
+          "kaleidoscope",
+          "kaleidoscopic",
+          "mandala",
+          "the flower"
+        ],
+        "extra_keys": [
+          "Chrysanthemum"
+        ]
+      },
+      {
+        "slug": "fractal-lattices-jeweled-tilings",
+        "name": "Fractal lattices & jeweled tilings",
+        "aliases": [
+          "Fractal lattices & jeweled tilings",
+          "crystalline",
+          "crystals",
+          "gems",
+          "gemstones",
+          "jeweled",
+          "jewelled",
+          "jewels",
+          "mosaic",
+          "stained glass",
+          "tiles",
+          "tiling"
+        ],
+        "extra_keys": [
+          "Fractal lattices"
+        ]
+      },
+      {
+        "slug": "the-carrier-wave",
+        "name": "The Carrier Wave",
+        "aliases": [
+          "The Carrier Wave"
+        ],
+        "extra_keys": []
+      },
+      {
+        "slug": "hyper-dimensional-objects",
+        "name": "Hyper-dimensional objects",
+        "aliases": [
+          "4d",
+          "4th dimension",
+          "Hyper-dimensional objects",
+          "fourth dimension",
+          "higher dimensional",
+          "higher dimensions",
+          "hypercube",
+          "impossible geometry",
+          "impossible shapes",
+          "more than three dimensions",
+          "tesseract"
+        ],
+        "extra_keys": [
+          "Hyper-dimensional"
+        ]
+      },
+      {
+        "slug": "living-language-visible-sound",
+        "name": "Living language / visible sound",
+        "aliases": [
+          "Living language",
+          "language made of",
+          "living language",
+          "see the sound",
+          "seeing sound",
+          "synaesthesia",
+          "synesthesia",
+          "the words were",
+          "visible sound",
+          "words became"
+        ],
+        "extra_keys": [
+          "Living language"
+        ]
+      },
+      {
+        "slug": "mandalas-symmetry-fields",
+        "name": "Mandalas & symmetry fields",
+        "aliases": [
+          "Mandalas & symmetry fields",
+          "mandala",
+          "mandalas",
+          "sacred geometry",
+          "symmetrical",
+          "symmetry"
+        ],
+        "extra_keys": [
+          "Mandalas"
+        ]
+      },
+      {
+        "slug": "static-pattern-overlay-filigree",
+        "name": "Static Pattern Overlay & filigree",
+        "aliases": [
+          "Static Pattern Overlay & filigree",
+          "filigree",
+          "intricate pattern",
+          "intricate patterns",
+          "lace",
+          "overlaid",
+          "overlay"
+        ],
+        "extra_keys": [
+          "Static Pattern"
+        ]
+      },
+      {
+        "slug": "kl-ver-form-constants-the-geometric-spine",
+        "name": "Klüver Form Constants (the geometric spine)",
+        "aliases": [
+          "Klüver Form Constants (the geometric spine",
+          "cobweb",
+          "cobwebs",
+          "concentric",
+          "form constants",
+          "funnel",
+          "honeycomb",
+          "spiral",
+          "spirals",
+          "tunnel of light"
+        ],
+        "extra_keys": [
+          "Klüver"
+        ]
+      },
+      {
+        "slug": "hyperbolic-space-negative-curvature",
+        "name": "Hyperbolic Space & Negative Curvature",
+        "aliases": [
+          "Hyperbolic Space & Negative Curvature",
+          "curved space",
+          "hyperbolic",
+          "non euclidean",
+          "non-euclidean",
+          "space curved",
+          "space folded",
+          "space was folding"
+        ],
+        "extra_keys": [
+          "Hyperbolic"
+        ]
+      },
+      {
+        "slug": "the-aperture-iris-opening",
+        "name": "The Aperture / Iris Opening",
+        "aliases": [
+          "Iris Opening",
+          "The Aperture",
+          "an eye opened",
+          "aperture",
+          "eye opening",
+          "giant eye",
+          "iris",
+          "pupil",
+          "the eye"
+        ],
+        "extra_keys": [
+          "Aperture"
+        ]
+      },
+      {
+        "slug": "zooming-rushing-tunnel-flight",
+        "name": "Zooming / Rushing Tunnel Flight",
+        "aliases": [
+          "Rushing Tunnel Flight",
+          "Zooming"
+        ],
+        "extra_keys": []
+      },
+      {
+        "slug": "embedded-faces-the-pareidolia-cascade",
+        "name": "Embedded Faces & the Pareidolia Cascade",
+        "aliases": [
+          "Embedded Faces & the Pareidolia Cascade",
+          "covered in faces",
+          "faces appearing",
+          "faces everywhere",
+          "faces in everything",
+          "faces in the geometry",
+          "faces in the patterns",
+          "faces in the wall",
+          "faces in the walls",
+          "faces morphing",
+          "made of faces",
+          "wall of faces"
+        ],
+        "extra_keys": [
+          "Embedded faces",
+          "Embedded Faces &"
+        ]
+      },
+      {
+        "slug": "alien-glyphs-unreadable-writing-systems",
+        "name": "Alien Glyphs & Unreadable Writing Systems",
+        "aliases": [
+          "Alien Glyphs & Unreadable Writing Systems",
+          "alien language",
+          "alien writing",
+          "characters",
+          "glyphs",
+          "hieroglyphics",
+          "hieroglyphs",
+          "letters",
+          "script",
+          "symbols",
+          "unreadable",
+          "writing"
+        ],
+        "extra_keys": [
+          "Alien Glyphs"
+        ]
+      },
+      {
+        "slug": "impossible-colors",
+        "name": "Impossible Colors",
+        "aliases": [
+          "Impossible Colors"
+        ],
+        "extra_keys": []
+      },
+      {
+        "slug": "tv-static-the-signal-noise-transition",
+        "name": "TV Static & the Signal-Noise Transition",
+        "aliases": [
+          "TV Static & the Signal-Noise Transition",
+          "channel",
+          "frequency",
+          "signal",
+          "static",
+          "tuned in",
+          "tuning in",
+          "tv static",
+          "white noise"
+        ],
+        "extra_keys": [
+          "TV Static"
+        ]
+      },
+      {
+        "slug": "dimensional-layering-space-folding",
+        "name": "Dimensional Layering & Space-Folding",
+        "aliases": [
+          "Dimensional Layering & Space-Folding",
+          "dimensions within dimensions",
+          "folded",
+          "folding",
+          "layer upon layer",
+          "layered",
+          "layers",
+          "stacked",
+          "unfolded",
+          "unfolding"
+        ],
+        "extra_keys": [
+          "Dimensional Layering"
+        ]
+      },
+      {
+        "slug": "time-geometry-moments-as-objects-loops",
+        "name": "Time Geometry — Moments as Objects & Loops",
+        "aliases": [
+          "Time Geometry — Moments as Objects & Loops",
+          "eternal",
+          "eternity",
+          "forever",
+          "infinite",
+          "infinity",
+          "looping",
+          "loops",
+          "no time",
+          "time didn't exist",
+          "time loop",
+          "time stopped",
+          "timeless"
+        ],
+        "extra_keys": [
+          "Time Geometry"
+        ]
+      },
+      {
+        "slug": "omnidirectional-360-vision",
+        "name": "Omnidirectional 360° Vision",
+        "aliases": [
+          "360",
+          "Omnidirectional 360° Vision",
+          "all around me",
+          "all directions",
+          "every direction",
+          "omnidirectional",
+          "see everything at once",
+          "seeing in all directions"
+        ],
+        "extra_keys": [
+          "Omnidirectional"
+        ]
+      },
+      {
+        "slug": "body-dissolution-merging-with-the-geometry",
+        "name": "Body Dissolution & Merging with the Geometry",
+        "aliases": [
+          "Body Dissolution & Merging with the Geometry",
+          "became one with",
+          "dissolved",
+          "dissolving",
+          "ego death",
+          "ego loss",
+          "left my body",
+          "lost my body",
+          "melted into",
+          "merged with",
+          "no body",
+          "no longer had a body"
+        ],
+        "extra_keys": [
+          "Body Dissolution"
+        ]
+      },
+      {
+        "slug": "entity-soundscapes-the-audio-windup",
+        "name": "Entity Soundscapes & the Audio Windup",
+        "aliases": [
+          "Entity Soundscapes & the Audio Windup",
+          "buzzing",
+          "crackling",
+          "high pitched",
+          "high-pitched",
+          "humming",
+          "ringing",
+          "vibrating sound",
+          "whirring",
+          "wind up",
+          "wind-up",
+          "windup"
+        ],
+        "extra_keys": [
+          "Entity Soundscapes"
+        ]
+      },
+      {
+        "slug": "tactile-geometry-felt-textures",
+        "name": "Tactile Geometry (Felt Textures)",
+        "aliases": [
+          "Tactile Geometry (Felt Textures",
+          "could feel the",
+          "feel the patterns",
+          "felt the geometry",
+          "felt the patterns",
+          "tactile",
+          "textures",
+          "touched me",
+          "touching"
+        ],
+        "extra_keys": [
+          "Tactile Geometry"
+        ]
+      },
+      {
+        "slug": "energy-conduits-living-circuitry",
+        "name": "Energy Conduits & Living Circuitry",
+        "aliases": [
+          "Energy Conduits & Living Circuitry",
+          "circuit board",
+          "circuitry",
+          "circuits",
+          "conduits",
+          "electric",
+          "electrical",
+          "electricity",
+          "energy flowing",
+          "plugged in",
+          "wires"
+        ],
+        "extra_keys": [
+          "Energy Conduits"
+        ]
+      },
+      {
+        "slug": "ultra-detail-infinite-resolution",
+        "name": "Ultra-Detail & Infinite Resolution",
+        "aliases": [
+          "Ultra-Detail & Infinite Resolution",
+          "crisper than reality",
+          "high definition",
+          "hyper real",
+          "hyperreal",
+          "impossible detail",
+          "infinite detail",
+          "infinitely detailed",
+          "more real than real",
+          "realer than real",
+          "so much detail"
+        ],
+        "extra_keys": [
+          "Ultra-Detail"
+        ]
+      },
+      {
+        "slug": "breathing-liquid-surfaces",
+        "name": "Breathing & Liquid Surfaces",
+        "aliases": [
+          "Breathing & Liquid Surfaces",
+          "breathing",
+          "flowing",
+          "fluid",
+          "liquid",
+          "melting",
+          "morphing walls",
+          "rippling",
+          "undulating",
+          "walls breathing"
+        ],
+        "extra_keys": [
+          "Breathing & Liquid"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "light": [
+      "bright",
+      "dim",
+      "dark",
+      "glowing",
+      "flashing",
+      "pulsing",
+      "diffuse",
+      "point-like"
+    ],
+    "colour": [
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "blue",
+      "purple",
+      "pink",
+      "brown",
+      "black",
+      "white",
+      "grey",
+      "gold",
+      "silver",
+      "multicoloured",
+      "iridescent",
+      "changing",
+      "indescribable"
+    ],
+    "motion": [
+      "still",
+      "flowing",
+      "rotating",
+      "oscillating",
+      "pulsing",
+      "expanding",
+      "contracting",
+      "unfolding",
+      "morphing",
+      "rushing",
+      "floating",
+      "vibrating",
+      "looping"
+    ],
+    "geometry": [
+      "the-chrysanthemum",
+      "fractal-lattices-jeweled-tilings",
+      "the-carrier-wave",
+      "hyper-dimensional-objects",
+      "living-language-visible-sound",
+      "mandalas-symmetry-fields",
+      "static-pattern-overlay-filigree",
+      "kl-ver-form-constants-the-geometric-spine",
+      "hyperbolic-space-negative-curvature",
+      "the-aperture-iris-opening",
+      "zooming-rushing-tunnel-flight",
+      "embedded-faces-the-pareidolia-cascade",
+      "alien-glyphs-unreadable-writing-systems",
+      "impossible-colors",
+      "tv-static-the-signal-noise-transition",
+      "dimensional-layering-space-folding",
+      "time-geometry-moments-as-objects-loops",
+      "omnidirectional-360-vision",
+      "body-dissolution-merging-with-the-geometry",
+      "entity-soundscapes-the-audio-windup",
+      "tactile-geometry-felt-textures",
+      "energy-conduits-living-circuitry",
+      "ultra-detail-infinite-resolution",
+      "breathing-liquid-surfaces",
+      "lines",
+      "circles",
+      "triangles",
+      "squares",
+      "cubes",
+      "spheres",
+      "spirals",
+      "tessellation",
+      "symmetry",
+      "asymmetry",
+      "patterned",
+      "checkered",
+      "curved",
+      "folded"
+    ],
+    "material": [
+      "metallic",
+      "crystalline",
+      "glass-like",
+      "liquid-like",
+      "organic",
+      "fabric-like",
+      "plastic-like",
+      "stone-like",
+      "wood-like",
+      "smoke-like",
+      "luminous",
+      "gel-like"
+    ],
+    "density": [
+      "empty",
+      "sparse",
+      "crowded",
+      "packed"
+    ],
+    "scale": [
+      "tiny",
+      "human-scale",
+      "large",
+      "vast",
+      "boundless",
+      "changing"
+    ],
+    "sound_seen": [
+      "visible-sound",
+      "visible-speech",
+      "sound-generates-geometry",
+      "geometry-generates-sound"
+    ],
+    "form": [
+      "humanoid",
+      "insectoid",
+      "reptilian",
+      "serpentine",
+      "tentacled",
+      "animal-like",
+      "plant-like",
+      "robotic",
+      "geometric",
+      "fractal",
+      "orb",
+      "light",
+      "shadow",
+      "amorphous",
+      "face-only",
+      "disembodied-presence",
+      "changing"
+    ],
+    "behaviour": [
+      "greeting",
+      "observing",
+      "guiding",
+      "teaching",
+      "showing",
+      "offering",
+      "examining",
+      "operating",
+      "playing",
+      "dancing",
+      "singing",
+      "laughing",
+      "mocking",
+      "testing",
+      "blocking",
+      "chasing",
+      "threatening",
+      "comforting",
+      "embracing",
+      "working",
+      "transforming",
+      "sending-back",
+      "merging",
+      "ignoring"
+    ],
+    "communication": [
+      "spoken-language",
+      "unintelligible-speech",
+      "telepathic",
+      "gestural",
+      "visual-symbols",
+      "direct-knowing",
+      "musical",
+      "none"
+    ],
+    "affect": [
+      "awe",
+      "joy",
+      "love",
+      "calm",
+      "curiosity",
+      "amusement",
+      "surprise",
+      "confusion",
+      "fear",
+      "panic",
+      "sadness",
+      "anger",
+      "disgust",
+      "loneliness",
+      "neutral",
+      "mixed",
+      "overwhelmed"
+    ],
+    "trigger": [
+      "spontaneous",
+      "attention-shift",
+      "eyes-opening",
+      "eyes-closing",
+      "entity-action",
+      "movement",
+      "boundary-crossing",
+      "surrender",
+      "resistance",
+      "external-interruption",
+      "fading"
+    ],
+    "abruptness": [
+      "abrupt",
+      "gradual"
+    ],
+    "order_confidence": [
+      "high",
+      "medium",
+      "low"
+    ]
+  },
+  "descriptor_provenance": "Atlas geometry names supply named geometry values. Other values are provisional coding labels, not measured findings. Aliases use matching kind/name seed entries and normalized prefix add/remove patches; they are lookup hints, not extraction rules. Hand-reading added patterned, checkered, curved, folded, and overwhelmed in v0.2.0; see SCHEMA.md selection audit. The explicit jelly comparison in 1h6udnc also added gel-like instead of forcing a liquid label."
+}

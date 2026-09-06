@@ -1,23 +1,33 @@
-# NOTES — Through (world/)
+﻿# NOTES — Through (world/)
 
-Handoff written by the owner's assistant on Sep 5 2026, 19:40 UTC, after turns 1–80 on this server.
-The previous notes (48 KB of numerical-closure phases) are archived verbatim in
-`NOTES-archive-numerical-sep5.md`. Do not read them; they describe a method that has been withdrawn.
-Read `REDIRECT5.md` for the method now in force.
+## Final state
+- Active local experience: index.html, trip.js, continuum.js, fractal.js,
+  beings.js, trip.css, data.js and fidelity assets. No server needed.
+- REDIRECT5 target work is complete. targets.json remains driver-owned for
+  turn counts; no grades, reasons or counts changed in the closing turn.
+- Final grades: 16 GAME; return, void and chrysanthemum CLOSE; 0 RECOGNISE.
+- README.md and every scene's Sources drawer show all 19 exact grades/reasons.
+- Archived numerical work is withdrawn; do not resume it or target iteration.
 
-## State of the world on screen
-- Live runtime: `index.html` → `trip.js` (v18 controls), `continuum.js` (v25 chrysanthemum field),
-  `fractal.js`, `beings.js`, `trip.css`, `data.js`, `fidelity-*.js`. Loads with 0 page errors on a
-  real GPU (verified in Chrome on the owner's RTX, Sep 5 19:20 UTC); the paced journey runs end to end.
-- Realism grades (`REALISM.md`, `realism-grades.json`): chrysanthemum GAME (v33r6 diagnostic frame);
-  every other target PENDING, never inspected. Coverage (`FIDELITY.md`): garden 84.7 % PASS,
-  workshop 66.5 % FAIL, others unmeasured since the v18 controls.
-- `targets.json` is the ledger the driver reads. It starts with every target PENDING and 0 turns used.
-  You own `grade` and `note` per target; the driver owns `turns_used`.
-
-## What was removed from this directory
-- All `centre-*` subdirectories, `numeric-candidate-*-raw.json` and other files over 20 MB: audit
-  artifacts of the withdrawn method (about 1.8 GB). The owner holds a snapshot. Do not recreate them.
-
-## Last section (rewrite this section every turn, under 40 lines)
-No turn under REDIRECT5 has run yet. The driver will name the first target (onset).
+## Last section — closing turn
+- Ran python3 world/fidelity.py once: overall NOT PASSED. Sixteen targets
+  remain descriptor-unreviewed; garden 84.1%, chrysanthemum 84.7%, workshop
+  85.4% still have blockers. Route/legacy acceptance freshness gates fail.
+  These findings are retained, not promoted to passes by budget completion.
+- Coverage regenerated an obsolete REALISM table; restored the final table
+  from targets.json without changing grades or re-running coverage.
+- Ran python3 world/verify.py once: FAILED during desktop screenshot capture
+  at the 20-second timeout; later acceptance sections did not run.
+- Fixed snapshot handling in verify.py: pause using real controls, wait for
+  settled rendering, allow 90 seconds, copy one captured frame to latest.png,
+  then restore running state. Fix not acceptance-retested (once-only request).
+- Final foreground HIGH render completed; both frames visually inspected:
+  visual-chrysanthemum.png / visual-chrysanthemum-motion.png at animation
+  6.1138 / 8.1637 seconds, identical real entry [0,1.7,8], yaw/pitch 0.
+  latest.png is the newer frame. No page errors, missing evidence or uncited meshes.
+- Changing curls, overlapping petals and dark recesses remain visible.
+  Repeated rainbow tiers, lacquer-like blades and decorative surface detail
+  retain CLOSE, not RECOGNISE; no further target work or visual changes.
+- README, Sources table, REALISM and status finalized. Rendering finished.
+  Closing logs preserve the failed checks; completion is not a claimed pass.
+<<WORLD_DONE>>

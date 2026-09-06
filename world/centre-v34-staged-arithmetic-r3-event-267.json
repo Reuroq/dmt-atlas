@@ -1,0 +1,13 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "childAngular",
+      "leaf": 1,
+      "arm": "literal",
+      "op": "program-link"
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "f13dc54c0b49bfe1e5c61e078016e616bb14a422c068ea8961ba229c8afc90de"
+}

@@ -1,0 +1,11 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "childAxial",
+    "leaf": 0,
+    "arm": "literal",
+    "op": "shader-compiled",
+    "shader": "fragmentShader"
+  },
+  "previous_sha256": "54b4ef2ae2f7dcb10ffbe274609a15e9e7ee8be8c21f2f684be98589077c0dc4"
+}

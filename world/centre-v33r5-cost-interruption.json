@@ -1,0 +1,14 @@
+{
+  "cost_status": "INCOMPLETE",
+  "started_receipt_present": true,
+  "saved_pairs": 0,
+  "cost_log_bytes": 0,
+  "cost_review_present": false,
+  "process_check": "ps -eo pid,ppid,stat,etime,args; exact script argument match",
+  "matching_cost_processes": [],
+  "exit_code": null,
+  "session_observation": "write_stdin reported Unknown process id 50621 after new harness input",
+  "cause": "Undetermined; no termination or exit receipt was captured",
+  "interpretation": "Not a measured slowdown, numerical failure, or compile failure",
+  "action": "Hold capture. Preserve partial attempt; no replay or promotion."
+}

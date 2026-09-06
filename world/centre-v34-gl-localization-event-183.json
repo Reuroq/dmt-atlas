@@ -1,0 +1,10 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "float-constant",
+    "op": "translated-source",
+    "shader": "fragmentShader",
+    "query": true
+  },
+  "previous_sha256": "2c503c2e501a4d0a2c40087a76cf77130244bc2aac3cfb87d3acf9dd80c38f7b"
+}

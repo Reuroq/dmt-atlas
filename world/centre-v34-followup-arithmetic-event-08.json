@@ -1,0 +1,4 @@
+{
+  "event": "experiment_failed",
+  "failure": "Error('Page.evaluate: Error: GL error 1282\\n    at window.runMicroprobeArm (file:///home/clawd/dmt-atlas/world/gpu_centre_v34_offsets.html:60:61)\\n    at eval (eval at evaluate (:303:30), <anonymous>:1:4)\\n    at UtilityScript.evaluate (<anonymous>:310:18)\\n    at UtilityScript.<anonymous> (<anonymous>:1:44)')"
+}

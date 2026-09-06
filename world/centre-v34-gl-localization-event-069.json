@@ -1,0 +1,10 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "byte-constant",
+    "op": "shader-compiled",
+    "shader": "vertexShader",
+    "query": true
+  },
+  "previous_sha256": "50b1633872582f6e8a64d7387e4aedcfaf0e49886fb6db79e3b356f8e2ba570b"
+}

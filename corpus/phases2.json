@@ -1,0 +1,27 @@
+{
+ "repair": {
+  "turns_used": 3,
+  "status": "IN_PROGRESS",
+  "note": ""
+ },
+ "pilot20": {
+  "turns_used": 3,
+  "status": "IN_PROGRESS",
+  "note": ""
+ },
+ "pilot200": {
+  "turns_used": 3,
+  "status": "IN_PROGRESS",
+  "note": ""
+ },
+ "aggregate2": {
+  "turns_used": 3,
+  "status": "IN_PROGRESS",
+  "note": ""
+ },
+ "report2": {
+  "turns_used": 3,
+  "status": "IN_PROGRESS",
+  "note": ""
+ }
+}

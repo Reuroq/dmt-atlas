@@ -1,0 +1,8 @@
+{
+  "argv": [
+    "node",
+    "check_centre_v35_uniforms.cjs",
+    "continuum-v35-unshared-reference.js"
+  ],
+  "stdin_sha256": null
+}

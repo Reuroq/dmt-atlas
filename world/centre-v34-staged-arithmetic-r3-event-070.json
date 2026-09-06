@@ -1,0 +1,9 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "float-control",
+    "op": "shader-is",
+    "shader": "vertexShader"
+  },
+  "previous_sha256": "6664cccd5a7ff683d50ce3f32f4c59aa9fefdec50b8471cc8fa00a748cb0d3c2"
+}

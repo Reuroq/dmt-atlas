@@ -1,0 +1,22 @@
+{
+  "method": "Read existing raw numerical evidence only; no historical probe replay. Low-resolution SwiftShader float-target readbacks, not HIGH full-frame or hardware-GPU benchmark.",
+  "cases": [
+    {
+      "version": 30,
+      "rays": 38160,
+      "mean_iterations": 59.23398846960168,
+      "p95_iterations": 113,
+      "max_iterations": 249,
+      "median_three_readbacks_seconds": 0.1940386570058763
+    },
+    {
+      "version": 31,
+      "rays": 38160,
+      "mean_iterations": 133.22245807127882,
+      "p95_iterations": 261,
+      "max_iterations": 1244,
+      "median_three_readbacks_seconds": 0.25883290311321616
+    }
+  ],
+  "conclusion": "v31 costs more than v30 in these samples despite tighter per-leaf bounds. Full HIGH90s settling is untested; no speedup claim."
+}

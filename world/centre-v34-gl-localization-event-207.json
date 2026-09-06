@@ -1,0 +1,8 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "float-row0",
+    "op": "compile"
+  },
+  "previous_sha256": "bc860c090caa12ccb4242fde734b8bed1bd7d8fd73df571dfd8e599b602a8267"
+}

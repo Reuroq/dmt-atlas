@@ -1,0 +1,8 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "byte-constant",
+    "op": "program-log"
+  },
+  "previous_sha256": "ad5c24d413d03f88a99e0a32b9ce9b53f0e8a0760f56fceef3f65754672f41ef"
+}

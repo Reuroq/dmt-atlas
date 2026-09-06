@@ -1,0 +1,92 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "name": "childAngular",
+      "leaf": 1,
+      "arm": "literal",
+      "op": "material"
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [],
+      "drained": true
+    },
+    "value": {
+      "vertexShader": "varying vec2 sampleUV; void main(){sampleUV=uv;gl_Position=vec4(position.xy,0.,1.);}",
+      "fragmentShader": "precision highp float;\nuniform sampler2D inputTex; uniform float textureRow; uniform float secondOffset;\nvarying vec2 sampleUV;\nvec4 offset(vec4 a,float b){return vec4(a.xyz,a.w+b);}\nvoid main(){\n float x=texture2D(inputTex,vec2(sampleUV.x,(textureRow+.5)/2.)).r;\n vec4 predecessor=vec4(0.,0.,0.,x);\n vec4 parent=offset(predecessor,-.90);\n vec4 child=offset(parent,.28);\n float folded=x+(-.90+.28);\n gl_FragColor=vec4(x,parent.w,child.w,folded);\n}",
+      "uniforms": {
+        "inputTex": "shared frozen 128x2 RGBA32F",
+        "textureRow": 1,
+        "secondOffset": 0.2800000011920929,
+        "secondOffsetBits": 1049582633
+      },
+      "control": false
+    },
+    "exception": null,
+    "skipped": false,
+    "resources": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-1",
+        "kind": "target",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-2",
+        "kind": "texture",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-3",
+        "kind": "geometry",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-4",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-5",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-6",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-7",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "contextLost": false
+  },
+  "previous_sha256": "ae0b8230a9fc41318e2eff0b32a1c7d45e1541e8487ba77b816cbf4e2e8168b6"
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "case-result",
+  "payload": {
+    "ingressBits": [
+      0,
+      2147483648,
+      1065353216,
+      3212836864
+    ],
+    "cpuBits": [
+      0,
+      2147483648,
+      1065353216,
+      3212836864
+    ],
+    "negativeZeroIndices": [
+      1
+    ],
+    "jsonRoundtripBits": [
+      0,
+      0,
+      1065353216,
+      3212836864
+    ]
+  },
+  "previous_sha256": "c1a7e64a88f16ca5063af63481f25a52fcf59962c4cf67dbbc20de869b022c86"
+}

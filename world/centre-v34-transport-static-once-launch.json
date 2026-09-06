@@ -1,0 +1,13 @@
+{
+  "argv": [
+    "/usr/bin/python3",
+    "-B",
+    "-u",
+    "/home/clawd/dmt-atlas/world/probe_centre_v34_transport.py",
+    "static"
+  ],
+  "freeze_sha256": "906240343f4664f0cac8689c0363c343096b4831f8db8fa4cb9751191967e0ac",
+  "script_sha256": "4733480ac458383470d2fbd3da9de165f5a33fd1737487901999e3e8d2781a44",
+  "launcher_sha256": "b7ccdbfc99b03d5b28c3c0638b53623dc5a5851a2b45fb6ed77d88c1f26cc351",
+  "preparation_sha256": null
+}

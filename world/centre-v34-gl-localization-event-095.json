@@ -1,0 +1,12 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "byte-constant",
+      "op": "debug-extension",
+      "query": true
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "fdd1c52908df297859e357e830f4d2d4d627db6917635ce7e8e24a18df38080e"
+}

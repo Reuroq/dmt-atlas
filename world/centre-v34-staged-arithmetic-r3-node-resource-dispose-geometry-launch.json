@@ -1,0 +1,10 @@
+{
+  "command": [
+    "node",
+    "/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-geometry.js"
+  ],
+  "command_sha256": "a2d7c9062f741c6de63a75a9a3678e4075608009bbb7a5e95b573cf01ad1bedf",
+  "source": "centre-v34-staged-arithmetic-r3-node-resource-dispose-geometry.js",
+  "source_sha256": "c51731c0b43fad5b40c1f961fea971c0abb7c3c5a62d8d11dc10d63cf6cd1dab",
+  "timeout_seconds": 20
+}

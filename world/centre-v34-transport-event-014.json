@@ -1,0 +1,12 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "name": "mixed",
+    "mode": "float",
+    "changedSourceIndices": [
+      0
+    ],
+    "exactTransport": false
+  },
+  "previous_sha256": "32535fd1cac17c31ef03c1683fb4532e924c786f62cc05f0682f8e5f5e122ac1"
+}

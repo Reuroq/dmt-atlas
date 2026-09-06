@@ -1,0 +1,10 @@
+{
+ "schema": 3,
+ "harness": 3,
+ "pilot": 3,
+ "aggregate": 3,
+ "sampler": 3,
+ "fidelity": 3,
+ "refresh": 3,
+ "report": 3
+}

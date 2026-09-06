@@ -1,0 +1,161 @@
+{
+  "schema_version": "0.3.0",
+  "report_id": "1ur5apb",
+  "is_trip_report": true,
+  "reason": "The narrator describes a personally experienced overwhelming space and a jester.",
+  "quotes": [
+    {
+      "start": 95,
+      "end": 165,
+      "text": "i was in this beautiful but super overwhelming space, with the jester.",
+      "supports": [
+        "/is_trip_report",
+        "/reason"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "place": null,
+      "order_confidence": null,
+      "light": [],
+      "colour": [],
+      "motion": [],
+      "geometry": [],
+      "material": [],
+      "density": [],
+      "scale": [],
+      "sound_seen": [],
+      "beings": [
+        {
+          "entity": "the-jester-trickster-clown",
+          "form": [],
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "behaviour": [
+            "showing"
+          ],
+          "communication": [
+            "gestural"
+          ],
+          "affect": [
+            "calm",
+            "anger"
+          ]
+        }
+      ],
+      "transition": null,
+      "affect": [
+        "overwhelmed"
+      ],
+      "quotes": [
+        {
+          "start": 15,
+          "end": 28,
+          "text": "So last night",
+          "supports": [
+            "/scenes/0/episode_index"
+          ]
+        },
+        {
+          "start": 95,
+          "end": 165,
+          "text": "i was in this beautiful but super overwhelming space, with the jester.",
+          "supports": [
+            "/scenes/0/affect/0"
+          ]
+        },
+        {
+          "start": 149,
+          "end": 165,
+          "text": "with the jester.",
+          "supports": [
+            "/scenes/0/beings/0/entity",
+            "/scenes/0/beings/0/count/min",
+            "/scenes/0/beings/0/count/max"
+          ]
+        },
+        {
+          "start": 166,
+          "end": 208,
+          "text": "He was chill and was pointing at something",
+          "supports": [
+            "/scenes/0/beings/0/behaviour/0",
+            "/scenes/0/beings/0/communication/0",
+            "/scenes/0/beings/0/affect/0"
+          ]
+        },
+        {
+          "start": 421,
+          "end": 517,
+          "text": "he got mad at me, flicked me off and told me “fuck you” or atleast that’s what i think happened.",
+          "supports": [
+            "/scenes/0/beings/0/affect/1"
+          ]
+        }
+      ],
+      "episode_index": 1,
+      "dwell": null,
+      "uncertain_fields": [
+        "/scenes/0/beings/0/affect/1"
+      ]
+    },
+    {
+      "place": null,
+      "order_confidence": null,
+      "light": [],
+      "colour": [],
+      "motion": [],
+      "geometry": [],
+      "material": [],
+      "density": [],
+      "scale": [],
+      "sound_seen": [],
+      "beings": [
+        {
+          "entity": null,
+          "form": [],
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "behaviour": [
+            "showing"
+          ],
+          "communication": [
+            "gestural"
+          ],
+          "affect": []
+        }
+      ],
+      "transition": null,
+      "affect": [],
+      "quotes": [
+        {
+          "start": 628,
+          "end": 697,
+          "text": "it wasn’t the jester but some thing i cant rlly explain how it looked",
+          "supports": [
+            "/scenes/1/episode_index"
+          ]
+        },
+        {
+          "start": 653,
+          "end": 805,
+          "text": "some thing i cant rlly explain how it looked and it, once again was pointing at something behind me yet i couldn’t turn around to look around the space.",
+          "supports": [
+            "/scenes/1/beings/0/count/min",
+            "/scenes/1/beings/0/count/max",
+            "/scenes/1/beings/0/behaviour/0",
+            "/scenes/1/beings/0/communication/0"
+          ]
+        }
+      ],
+      "episode_index": 2,
+      "dwell": null,
+      "uncertain_fields": []
+    }
+  ]
+}

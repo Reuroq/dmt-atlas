@@ -1,0 +1,8 @@
+{
+  "script": "profile_centre_v34_four_rays.py",
+  "script_sha256": "c73fcbc9128db03ce51a3fb14b35b380bbd60081a1a7a7dfcbc61971d8388f6d",
+  "launcher_sha256": "222224402ac31e803f52e80f12f71236114ca5f4f9621b155ea7a65cf6b73fa0",
+  "label": "profiles",
+  "input_manifest": "51acf5f04c2a48308be2d3612b7a83401474c781cda70d4560750bb5de709b44",
+  "preparation_manifest": "bdc9a8adb8b729544d2f68ee22db51e798a449956307b4fe2a0e838a8d0ae24c"
+}

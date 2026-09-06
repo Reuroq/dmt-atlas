@@ -1,0 +1,13 @@
+{
+  "argv": [
+    "/usr/bin/python3",
+    "-B",
+    "-u",
+    "/home/clawd/dmt-atlas/world/check_centre_v35_static.py"
+  ],
+  "script": "check_centre_v35_static.py",
+  "script_sha256": "4d89e886dbd2da3f674ba8dc00db43d5b3cb8d3bed7acd4f81f4b5ca058743d3",
+  "launcher_sha256": "5f9ccd0c324b60639e008aca515a125f098ab48f9564052550158e2bc19ea2f0",
+  "history_sha256": "e1d60bdbe170e15c6d8c0a21ce21245c13c8b420d62391b262436f461639b28a",
+  "freeze_sha256": "0a4b1083d5a71924703a3ba25f888d3964778b1a3e6b76932f371fd8beacce66"
+}

@@ -1,0 +1,53 @@
+{
+  "implementation_checks_passed": true,
+  "reversal_recovers_parent_bytes": true,
+  "materials_marcher_controls_suffix_byte_equal": true,
+  "compose_envelope_positiveReach_byte_equal": true,
+  "renderer_version_only": true,
+  "python_ast_passed": true,
+  "node_check_passed": true,
+  "explicit_smooth_reach_leaves": 11,
+  "a_b_hessian_assumption_removed": true,
+  "coefficient_padding_passed": true,
+  "conditional_attachment_inequality_passed": true,
+  "browser_runs": 0,
+  "sampled_numerical_runs": 0,
+  "cost_runs": 0,
+  "capture_runs": 0,
+  "files": {
+    "centre-v34-build-started.json": "502cb3dcb1746bc8c592c4aaefe10c28f65d9d792e8008c1f8aba4c672fe18a1",
+    "continuum-v34-candidate.js": "0d15fb684ad23ca7be05e1a78391ffa29b12597ee137de2910245b7c92634d6f",
+    "centre-v34-edits.json": "2a5a1e1c7fc2c359d2731b6a39293a96ccd682aecb1319a0a2d6097cb9bbf936",
+    "render_centre_v34.py": "40c314c4008da94936544f2880110a71c45a0b41d3d00f3eac94c8853e5faefa",
+    "centre-v34-bound-design.json": "8965ad5a65a9ebc5eeda2d1d0801dca3c8044728be3bede645f8a6fc2a33b0e4",
+    "build_centre_v34.py": "9315eb1372bc737e7cf14bdc8e4922b8f3113a361b2781f52ec3178e7eea10e1",
+    "centre-v34-field.glsl": "78a64be06be0e63168e292d2ad2af994412fad3017e7633f395b21bc10be71f8",
+    "field_centre_v34.py": "7bb0a8c83e1fbbe37381aa6bd5d19fc5a866e63c9ee7e73073aaad326bcdbcd1"
+  },
+  "protected": {
+    "index.html": "37275c34171ffdca0392e0798d77beec09101c0c8a1c7056bca0ae20d50604bb",
+    "trip.js": "93dd974ec505e916e9ee121d38b57f1a4caf739a146a99035f957262c896d218",
+    "fractal.js": "fd7a14ebfc87988e95e14255adc903e079cb47bb075db7612d5d57091ed235d8",
+    "continuum.js": "6b55368f4f3d31cbd71dc0420707c8860e99a1b471f9108a53a77416f871106d",
+    "beings.js": "fc2900166510269f426b8c49c12b5d0644df816f4545972ef343ef8a02aaa60b",
+    "trip.css": "f15021f588310fc15b06b23677295dd8377284e3458e3932fe3e35c222499d59",
+    "hud-alpha-ramp-v18.png": "da9d89e627cdf4bb177830fe7d37cc62e03b818e35f0677890a3061f744ff4cf",
+    "fidelity-ui.js": "f5634f2373925ccfe42de91aeec83cc4bce5c420ff7b7e5ea5dd6ae66f0856b4",
+    "fidelity.css": "558881d68cb469dac4144b0dabcfcdef11e0fcb50e2ed7059b47a0e69f5f4656",
+    "vendor/three.min.js": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa",
+    "data.js": "87c2ecc3742af9f336ebb882e073a61762f975419412e2e6ec4e053f3cc90b43",
+    "fidelity-data.js": "23230c73ff37da052266d7d29951e18d46db069bc8d79ad7ee39b2db950d3e7c",
+    "fidelity-grades.json": "d0bf9b45b7c58166c268e788a2f192c9aff304e018ad4d65c31be0c3527585e9",
+    "realism-grades.json": "657e9a61acb5dabaeb9283da22590e031c1dde074dbc817a63f5941519f66779",
+    "visual-chrysanthemum.png": "9ab2511f859eebebdca7973cc9d4b852df6cc118dd02cf8cd4c55efd72957f2c",
+    "visual-chrysanthemum.json": "9d6136cbc55818aba257a6bffa40aafda0aa0ae89af0404c3cf5a8ad36999b46"
+  },
+  "display_before_closure": {
+    "README.md": "6f8029ea260685181f11bbf318b07b3a4dd3e4b1aae895a288ee8c345fe0a1c3",
+    "status.txt": "4b9f1a22246b1c259158b32c4e6046b31b7465c0792a9004aee4d23da4c2106d",
+    "NOTES.md": "4d75bf40a781dc911d1854da1da038000ffb3c225ab49767e5430c2ccbf0f94d",
+    "latest.png": "113598d510deb89e9b7968a82354ea466958ba389e3c0ee4d168b77242e6e356"
+  },
+  "historical_capture_integrity": "2aae7089a051b7d596f62fb4dfdc4f7cd73fd1267eb112a2e393ecd27f7f9cfb",
+  "limits": "Static checks only. CSG crease normals are selected one-sided jets. No actual GLSL compile, numerical convergence, cost, realism or promotion."
+}

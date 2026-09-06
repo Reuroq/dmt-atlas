@@ -1,0 +1,23 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "op": "float-extension"
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [],
+      "drained": true
+    },
+    "value": {
+      "supported": true
+    },
+    "exception": null,
+    "skipped": false,
+    "contextLost": false
+  },
+  "previous_sha256": "65b55ed78bfff8ed8c77456655314713fcca6f34354ab05c97ba25e3cfdc7eda"
+}

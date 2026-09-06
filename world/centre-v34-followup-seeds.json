@@ -1,0 +1,1149 @@
+{
+  "synthetic_not_recovered_gpu_intermediates": true,
+  "leaves": [
+    {
+      "name": "childAxial",
+      "row": 0,
+      "c1": -0.6200000047683716,
+      "c2": 0.20000000298023224,
+      "folded": -0.42000001668930054,
+      "theoretical_real_domain": [
+        -1.0,
+        1.0
+      ],
+      "selection": "12 evenly indexed saved mismatches, before representability filtering; all chosen cells retained",
+      "outer_cell_caveat": "Closed cells include ties; representability is not exact replay or recovered arithmetic.",
+      "all_pairs": 75996,
+      "mismatches": 36599,
+      "all_no_binary32_flat_rays": [],
+      "mismatching_no_binary32_flat_rays": [],
+      "selected_cells": [
+        {
+          "flat_ray": 0,
+          "saved_parent": 0.0378800630569458,
+          "saved_child": 0.23788005113601685,
+          "closed_outer_inverse_cell": [
+            0.6578800659626722,
+            0.6578800696879625
+          ],
+          "contains_binary32": true,
+          "chosen_predecessors": [
+            0.6578800678253174,
+            0.6578800678253174,
+            0.6578800678253174
+          ]
+        },
+        {
+          "flat_ray": 6714,
+          "saved_parent": -0.017961621284484863,
+          "saved_child": 0.18203836679458618,
+          "closed_outer_inverse_cell": [
+            0.6020383825525641,
+            0.6020383844152093
+          ],
+          "contains_binary32": true,
+          "chosen_predecessors": [
+            0.6020383834838867,
+            0.6020383834838867,
+            0.6020383834838867
+          ]
+        },
+        {
+          "flat_ray": 13483,
+          "saved_parent": -0.1813611388206482,
+          "saved_child": 0.01863884925842285,
+          "closed_outer_inverse_cell": [
+            0.4386388650164008,
+            0.43863886687904596
+          ],
+          "contains_binary32": true,
+          "chosen_predecessors": [
+            0.4386388659477234,
+            0.4386388659477234,
+            0.4386388659477234
+          ]
+        },
+        {
+          "flat_ray": 20280,
+          "saved_parent": -1.3051000833511353,
+          "saved_child": -1.105100154876709,
+          "closed_outer_inverse_cell": [
+            -0.6851001381874084,
+            -0.6851000785827637
+          ],
+          "contains_binary32": true,
+          "chosen_predecessors": [
+            -0.6851001381874084,
+            -0.6851000785827637,
+            -0.6851000785827637
+          ]
+        },
+        {
+          "flat_ray": 27262,
+          "saved_parent": -1.5788419246673584,
+          "saved_child": -1.3788419961929321,
+          "closed_outer_inverse_cell": [
+            -0.9588419795036316,
+            -0.9588419198989868
+          ],
+          "contains_binary32": true,
+          "chosen_predecessors": [
+            -0.9588419795036316,
+            -0.9588419198989868,
+            -0.9588419198989868
+          ]
+        },
+        {
+          "flat_ray": 34485,
+          "saved_parent": -0.1721767783164978,
+          "saved_child": 0.027823209762573242,
+          "closed_outer_inverse_cell": [
+            0.4478232255205512,
+            0.44782322738319635
+          ],
+          "contains_binary32": true,
+          "chosen_predecessors": [
+            0.4478232264518738,
+            0.4478232264518738,
+            0.4478232264518738
+          ]
+        },
+        {
+          "flat_ray": 41284,
+          "saved_parent": 4.267692565917969e-05,
+          "saved_child": 0.20004266500473022,
+          "closed_outer_inverse_cell": [
+            0.6200426816922118,
+            0.6200426816958498
+          ],
+          "contains_binary32": true,
+          "chosen_predecessors": [
+            0.6200426816940308,
+            0.6200426816940308,
+            0.6200426816940308
+          ]
+        },
+        {
+          "flat_ray": 48199,
+          "saved_parent": -0.24883002042770386,
+          "saved_child": -0.04883003234863281,
+          "closed_outer_inverse_cell": [
+            0.3711699824780226,
+            0.3711699862033129
+          ],
+          "contains_binary32": true,
+          "chosen_predecessors": [
+            0.3711699843406677,
+            0.3711699843406677,
+            0.3711699843406677
+          ]
+        },
+        {
+          "flat_ray": 55016,
+          "saved_parent": -0.4133334755897522,
+          "saved_child": -0.21333348751068115,
+          "closed_outer_inverse_cell": [
+            0.2066665217280388,
+            0.20666653662919998
+          ],
+          "contains_binary32": true,
+          "chosen_predecessors": [
+            0.20666652917861938,
+            0.20666652917861938,
+            0.20666652917861938
+          ]
+        },
+        {
+          "flat_ray": 61818,
+          "saved_parent": -1.4534754753112793,
+          "saved_child": -1.253475546836853,
+          "closed_outer_inverse_cell": [
+            -0.8334755301475525,
+            -0.8334754705429077
+          ],
+          "contains_binary32": true,
+          "chosen_predecessors": [
+            -0.8334755301475525,
+            -0.8334754705429077,
+            -0.8334754705429077
+          ]
+        },
+        {
+          "flat_ray": 68823,
+          "saved_parent": -0.014514386653900146,
+          "saved_child": 0.1854856014251709,
+          "closed_outer_inverse_cell": [
+            0.6054856176488101,
+            0.6054856185801327
+          ],
+          "contains_binary32": true,
+          "chosen_predecessors": [
+            0.6054856181144714,
+            0.6054856181144714,
+            0.6054856181144714
+          ]
+        },
+        {
+          "flat_ray": 75995,
+          "saved_parent": -1.506778359413147,
+          "saved_child": -1.3067784309387207,
+          "closed_outer_inverse_cell": [
+            -0.8867784142494202,
+            -0.8867783546447754
+          ],
+          "contains_binary32": true,
+          "chosen_predecessors": [
+            -0.8867784142494202,
+            -0.8867783546447754,
+            -0.8867783546447754
+          ]
+        }
+      ],
+      "count": 55,
+      "values": [
+        0.6578800082206726,
+        0.6578800678253174,
+        0.6578801274299622,
+        0.6020383238792419,
+        0.6020383834838867,
+        0.6020384430885315,
+        0.438638836145401,
+        0.4386388659477234,
+        0.4386388957500458,
+        -0.6851001977920532,
+        -0.6851001381874084,
+        -0.6851000785827637,
+        -0.6851000189781189,
+        -0.9588420391082764,
+        -0.9588419795036316,
+        -0.9588419198989868,
+        -0.958841860294342,
+        0.4478231966495514,
+        0.4478232264518738,
+        0.44782325625419617,
+        0.620042622089386,
+        0.6200426816940308,
+        0.6200427412986755,
+        0.37116995453834534,
+        0.3711699843406677,
+        0.3711700141429901,
+        0.2066665142774582,
+        0.20666652917861938,
+        0.20666654407978058,
+        -0.8334755897521973,
+        -0.8334755301475525,
+        -0.8334754705429077,
+        -0.8334754109382629,
+        0.6054855585098267,
+        0.6054856181144714,
+        0.6054856777191162,
+        -0.8867784738540649,
+        -0.8867784142494202,
+        -0.8867783546447754,
+        -0.8867782950401306,
+        -1.0000001192092896,
+        -1.0,
+        -0.9999999403953552,
+        0.9999999403953552,
+        1.0,
+        1.0000001192092896,
+        0.6199999451637268,
+        0.6200000047683716,
+        0.6200000643730164,
+        0.41999998688697815,
+        0.42000001668930054,
+        0.4200000464916229,
+        -1.401298464324817e-45,
+        0.0,
+        1.401298464324817e-45
+      ],
+      "bits": [
+        1059613395,
+        1059613396,
+        1059613397,
+        1058676527,
+        1058676528,
+        1058676529,
+        1054905669,
+        1054905670,
+        1054905671,
+        3207553722,
+        3207553721,
+        3207553720,
+        3207553719,
+        3212146348,
+        3212146347,
+        3212146346,
+        3212146345,
+        1055213845,
+        1055213846,
+        1055213847,
+        1058978589,
+        1058978590,
+        1058978591,
+        1052641789,
+        1052641790,
+        1052641791,
+        1045667939,
+        1045667940,
+        1045667941,
+        3210043048,
+        3210043047,
+        3210043046,
+        3210043045,
+        1058734362,
+        1058734363,
+        1058734364,
+        3210937322,
+        3210937321,
+        3210937320,
+        3210937319,
+        3212836865,
+        3212836864,
+        3212836863,
+        1065353215,
+        1065353216,
+        1065353217,
+        1058977873,
+        1058977874,
+        1058977875,
+        1054280253,
+        1054280254,
+        1054280255,
+        2147483649,
+        0,
+        1
+      ],
+      "labels": [
+        [
+          "inverse-cell-0:previous",
+          "inverse-cell-0:previous",
+          "inverse-cell-0:previous"
+        ],
+        [
+          "inverse-cell-0:value",
+          "inverse-cell-0:value",
+          "inverse-cell-0:value"
+        ],
+        [
+          "inverse-cell-0:next",
+          "inverse-cell-0:next",
+          "inverse-cell-0:next"
+        ],
+        [
+          "inverse-cell-6714:previous",
+          "inverse-cell-6714:previous",
+          "inverse-cell-6714:previous"
+        ],
+        [
+          "inverse-cell-6714:value",
+          "inverse-cell-6714:value",
+          "inverse-cell-6714:value"
+        ],
+        [
+          "inverse-cell-6714:next",
+          "inverse-cell-6714:next",
+          "inverse-cell-6714:next"
+        ],
+        [
+          "inverse-cell-13483:previous",
+          "inverse-cell-13483:previous",
+          "inverse-cell-13483:previous"
+        ],
+        [
+          "inverse-cell-13483:value",
+          "inverse-cell-13483:value",
+          "inverse-cell-13483:value"
+        ],
+        [
+          "inverse-cell-13483:next",
+          "inverse-cell-13483:next",
+          "inverse-cell-13483:next"
+        ],
+        [
+          "inverse-cell-20280:previous"
+        ],
+        [
+          "inverse-cell-20280:value",
+          "inverse-cell-20280:previous",
+          "inverse-cell-20280:previous"
+        ],
+        [
+          "inverse-cell-20280:next",
+          "inverse-cell-20280:value",
+          "inverse-cell-20280:value"
+        ],
+        [
+          "inverse-cell-20280:next",
+          "inverse-cell-20280:next"
+        ],
+        [
+          "inverse-cell-27262:previous"
+        ],
+        [
+          "inverse-cell-27262:value",
+          "inverse-cell-27262:previous",
+          "inverse-cell-27262:previous"
+        ],
+        [
+          "inverse-cell-27262:next",
+          "inverse-cell-27262:value",
+          "inverse-cell-27262:value"
+        ],
+        [
+          "inverse-cell-27262:next",
+          "inverse-cell-27262:next"
+        ],
+        [
+          "inverse-cell-34485:previous",
+          "inverse-cell-34485:previous",
+          "inverse-cell-34485:previous"
+        ],
+        [
+          "inverse-cell-34485:value",
+          "inverse-cell-34485:value",
+          "inverse-cell-34485:value"
+        ],
+        [
+          "inverse-cell-34485:next",
+          "inverse-cell-34485:next",
+          "inverse-cell-34485:next"
+        ],
+        [
+          "inverse-cell-41284:previous",
+          "inverse-cell-41284:previous",
+          "inverse-cell-41284:previous"
+        ],
+        [
+          "inverse-cell-41284:value",
+          "inverse-cell-41284:value",
+          "inverse-cell-41284:value"
+        ],
+        [
+          "inverse-cell-41284:next",
+          "inverse-cell-41284:next",
+          "inverse-cell-41284:next"
+        ],
+        [
+          "inverse-cell-48199:previous",
+          "inverse-cell-48199:previous",
+          "inverse-cell-48199:previous"
+        ],
+        [
+          "inverse-cell-48199:value",
+          "inverse-cell-48199:value",
+          "inverse-cell-48199:value"
+        ],
+        [
+          "inverse-cell-48199:next",
+          "inverse-cell-48199:next",
+          "inverse-cell-48199:next"
+        ],
+        [
+          "inverse-cell-55016:previous",
+          "inverse-cell-55016:previous",
+          "inverse-cell-55016:previous"
+        ],
+        [
+          "inverse-cell-55016:value",
+          "inverse-cell-55016:value",
+          "inverse-cell-55016:value"
+        ],
+        [
+          "inverse-cell-55016:next",
+          "inverse-cell-55016:next",
+          "inverse-cell-55016:next"
+        ],
+        [
+          "inverse-cell-61818:previous"
+        ],
+        [
+          "inverse-cell-61818:value",
+          "inverse-cell-61818:previous",
+          "inverse-cell-61818:previous"
+        ],
+        [
+          "inverse-cell-61818:next",
+          "inverse-cell-61818:value",
+          "inverse-cell-61818:value"
+        ],
+        [
+          "inverse-cell-61818:next",
+          "inverse-cell-61818:next"
+        ],
+        [
+          "inverse-cell-68823:previous",
+          "inverse-cell-68823:previous",
+          "inverse-cell-68823:previous"
+        ],
+        [
+          "inverse-cell-68823:value",
+          "inverse-cell-68823:value",
+          "inverse-cell-68823:value"
+        ],
+        [
+          "inverse-cell-68823:next",
+          "inverse-cell-68823:next",
+          "inverse-cell-68823:next"
+        ],
+        [
+          "inverse-cell-75995:previous"
+        ],
+        [
+          "inverse-cell-75995:value",
+          "inverse-cell-75995:previous",
+          "inverse-cell-75995:previous"
+        ],
+        [
+          "inverse-cell-75995:next",
+          "inverse-cell-75995:value",
+          "inverse-cell-75995:value"
+        ],
+        [
+          "inverse-cell-75995:next",
+          "inverse-cell-75995:next"
+        ],
+        [
+          "domain-low:previous"
+        ],
+        [
+          "domain-low:value"
+        ],
+        [
+          "domain-low:next"
+        ],
+        [
+          "domain-high:previous"
+        ],
+        [
+          "domain-high:value"
+        ],
+        [
+          "domain-high:next"
+        ],
+        [
+          "parent-cancellation:previous"
+        ],
+        [
+          "parent-cancellation:value"
+        ],
+        [
+          "parent-cancellation:next"
+        ],
+        [
+          "folded-child-cancellation:previous"
+        ],
+        [
+          "folded-child-cancellation:value"
+        ],
+        [
+          "folded-child-cancellation:next"
+        ],
+        [
+          "zero:previous"
+        ],
+        [
+          "zero:value"
+        ],
+        [
+          "zero:next"
+        ]
+      ],
+      "padding": "Remaining texels contain +0 and are recorded but excluded from the unique-input count."
+    },
+    {
+      "name": "childAngular",
+      "row": 1,
+      "c1": -0.8999999761581421,
+      "c2": 0.2800000011920929,
+      "folded": -0.6200000047683716,
+      "theoretical_real_domain": [
+        0.0,
+        2.0
+      ],
+      "selection": "12 evenly indexed saved mismatches, before representability filtering; all chosen cells retained",
+      "outer_cell_caveat": "Closed cells include ties; representability is not exact replay or recovered arithmetic.",
+      "all_pairs": 75996,
+      "mismatches": 40662,
+      "all_no_binary32_flat_rays": [],
+      "mismatching_no_binary32_flat_rays": [],
+      "selected_cells": [
+        {
+          "flat_ray": 5,
+          "saved_parent": -0.24803698062896729,
+          "saved_child": 0.03196299076080322,
+          "closed_outer_inverse_cell": [
+            0.6519629936665297,
+            0.65196299739182
+          ],
+          "contains_binary32": true,
+          "chosen_predecessors": [
+            0.6519629955291748,
+            0.6519629955291748,
+            0.6519629955291748
+          ]
+        },
+        {
+          "flat_ray": 6955,
+          "saved_parent": -0.3671640157699585,
+          "saved_child": -0.08716404438018799,
+          "closed_outer_inverse_cell": [
+            0.5328359566628933,
+            0.5328359641134739
+          ],
+          "contains_binary32": true,
+          "chosen_predecessors": [
+            0.5328359603881836,
+            0.5328359603881836,
+            0.5328359603881836
+          ]
+        },
+        {
+          "flat_ray": 13755,
+          "saved_parent": -0.7116991877555847,
+          "saved_child": -0.4316992163658142,
+          "closed_outer_inverse_cell": [
+            0.18830077350139618,
+            0.18830080330371857
+          ],
+          "contains_binary32": true,
+          "chosen_predecessors": [
+            0.18830077350139618,
+            0.18830078840255737,
+            0.18830080330371857
+          ]
+        },
+        {
+          "flat_ray": 20800,
+          "saved_parent": -0.008739709854125977,
+          "saved_child": 0.27126026153564453,
+          "closed_outer_inverse_cell": [
+            0.8912602658383548,
+            0.8912602667696774
+          ],
+          "contains_binary32": true,
+          "chosen_predecessors": [
+            0.8912602663040161,
+            0.8912602663040161,
+            0.8912602663040161
+          ]
+        },
+        {
+          "flat_ray": 27543,
+          "saved_parent": -0.017936408519744873,
+          "saved_child": 0.26206356287002563,
+          "closed_outer_inverse_cell": [
+            0.8820635667070746,
+            0.8820635685697198
+          ],
+          "contains_binary32": true,
+          "chosen_predecessors": [
+            0.8820635676383972,
+            0.8820635676383972,
+            0.8820635676383972
+          ]
+        },
+        {
+          "flat_ray": 34432,
+          "saved_parent": -0.20205414295196533,
+          "saved_child": 0.07794582843780518,
+          "closed_outer_inverse_cell": [
+            0.6979458294808865,
+            0.6979458369314671
+          ],
+          "contains_binary32": true,
+          "chosen_predecessors": [
+            0.6979458332061768,
+            0.6979458332061768,
+            0.6979458332061768
+          ]
+        },
+        {
+          "flat_ray": 41281,
+          "saved_parent": -0.660506546497345,
+          "saved_child": -0.38050657510757446,
+          "closed_outer_inverse_cell": [
+            0.23949341475963593,
+            0.2394934445619583
+          ],
+          "contains_binary32": true,
+          "chosen_predecessors": [
+            0.23949341475963593,
+            0.23949342966079712,
+            0.2394934445619583
+          ]
+        },
+        {
+          "flat_ray": 48120,
+          "saved_parent": -0.7236578464508057,
+          "saved_child": -0.44365787506103516,
+          "closed_outer_inverse_cell": [
+            0.17634211480617523,
+            0.17634214460849762
+          ],
+          "contains_binary32": true,
+          "chosen_predecessors": [
+            0.17634211480617523,
+            0.17634212970733643,
+            0.17634214460849762
+          ]
+        },
+        {
+          "flat_ray": 54885,
+          "saved_parent": -0.8907944560050964,
+          "saved_child": -0.6107944846153259,
+          "closed_outer_inverse_cell": [
+            0.009205490350723267,
+            0.009205549955368042
+          ],
+          "contains_binary32": true,
+          "chosen_predecessors": [
+            0.009205490350723267,
+            0.009205520153045654,
+            0.009205549955368042
+          ]
+        },
+        {
+          "flat_ray": 61989,
+          "saved_parent": -0.357177734375,
+          "saved_child": -0.07717776298522949,
+          "closed_outer_inverse_cell": [
+            0.5428222380578518,
+            0.5428222455084324
+          ],
+          "contains_binary32": true,
+          "chosen_predecessors": [
+            0.5428222417831421,
+            0.5428222417831421,
+            0.5428222417831421
+          ]
+        },
+        {
+          "flat_ray": 68931,
+          "saved_parent": -0.8600853085517883,
+          "saved_child": -0.5800853371620178,
+          "closed_outer_inverse_cell": [
+            0.03991463780403137,
+            0.03991469740867615
+          ],
+          "contains_binary32": true,
+          "chosen_predecessors": [
+            0.03991463780403137,
+            0.03991466760635376,
+            0.03991469740867615
+          ]
+        },
+        {
+          "flat_ray": 75995,
+          "saved_parent": 0.17274951934814453,
+          "saved_child": 0.45274949073791504,
+          "closed_outer_inverse_cell": [
+            1.072749488055706,
+            1.0727495029568672
+          ],
+          "contains_binary32": true,
+          "chosen_predecessors": [
+            1.0727494955062866,
+            1.0727494955062866,
+            1.0727494955062866
+          ]
+        }
+      ],
+      "count": 66,
+      "values": [
+        0.65196293592453,
+        0.6519629955291748,
+        0.6519630551338196,
+        0.5328359007835388,
+        0.5328359603881836,
+        0.5328360199928284,
+        0.18830075860023499,
+        0.18830077350139618,
+        0.18830078840255737,
+        0.18830080330371857,
+        0.18830081820487976,
+        0.8912602066993713,
+        0.8912602663040161,
+        0.8912603259086609,
+        0.8820635080337524,
+        0.8820635676383972,
+        0.882063627243042,
+        0.697945773601532,
+        0.6979458332061768,
+        0.6979458928108215,
+        0.23949339985847473,
+        0.23949341475963593,
+        0.23949342966079712,
+        0.2394934445619583,
+        0.2394934594631195,
+        0.17634209990501404,
+        0.17634211480617523,
+        0.17634212970733643,
+        0.17634214460849762,
+        0.1763421595096588,
+        0.009205489419400692,
+        0.009205490350723267,
+        0.009205491282045841,
+        0.00920551922172308,
+        0.009205520153045654,
+        0.009205521084368229,
+        0.009205549024045467,
+        0.009205549955368042,
+        0.009205550886690617,
+        0.5428221821784973,
+        0.5428222417831421,
+        0.5428223013877869,
+        0.039914634078741074,
+        0.03991463780403137,
+        0.03991464152932167,
+        0.03991466388106346,
+        0.03991466760635376,
+        0.03991467133164406,
+        0.03991469368338585,
+        0.03991469740867615,
+        0.039914701133966446,
+        1.072749376296997,
+        1.0727494955062866,
+        1.0727496147155762,
+        -1.401298464324817e-45,
+        0.0,
+        1.401298464324817e-45,
+        1.9999998807907104,
+        2.0,
+        2.000000238418579,
+        0.8999999165534973,
+        0.8999999761581421,
+        0.9000000357627869,
+        0.6199999451637268,
+        0.6200000047683716,
+        0.6200000643730164
+      ],
+      "bits": [
+        1059514123,
+        1059514124,
+        1059514125,
+        1057515503,
+        1057515504,
+        1057515505,
+        1044435434,
+        1044435435,
+        1044435436,
+        1044435437,
+        1044435438,
+        1063528865,
+        1063528866,
+        1063528867,
+        1063374570,
+        1063374571,
+        1063374572,
+        1060285587,
+        1060285588,
+        1060285589,
+        1047870914,
+        1047870915,
+        1047870916,
+        1047870917,
+        1047870918,
+        1043632902,
+        1043632903,
+        1043632904,
+        1043632905,
+        1043632906,
+        1008128671,
+        1008128672,
+        1008128673,
+        1008128703,
+        1008128704,
+        1008128705,
+        1008128735,
+        1008128736,
+        1008128737,
+        1057683045,
+        1057683046,
+        1057683047,
+        1025736071,
+        1025736072,
+        1025736073,
+        1025736079,
+        1025736080,
+        1025736081,
+        1025736087,
+        1025736088,
+        1025736089,
+        1065963482,
+        1065963483,
+        1065963484,
+        2147483649,
+        0,
+        1,
+        1073741823,
+        1073741824,
+        1073741825,
+        1063675493,
+        1063675494,
+        1063675495,
+        1058977873,
+        1058977874,
+        1058977875
+      ],
+      "labels": [
+        [
+          "inverse-cell-5:previous",
+          "inverse-cell-5:previous",
+          "inverse-cell-5:previous"
+        ],
+        [
+          "inverse-cell-5:value",
+          "inverse-cell-5:value",
+          "inverse-cell-5:value"
+        ],
+        [
+          "inverse-cell-5:next",
+          "inverse-cell-5:next",
+          "inverse-cell-5:next"
+        ],
+        [
+          "inverse-cell-6955:previous",
+          "inverse-cell-6955:previous",
+          "inverse-cell-6955:previous"
+        ],
+        [
+          "inverse-cell-6955:value",
+          "inverse-cell-6955:value",
+          "inverse-cell-6955:value"
+        ],
+        [
+          "inverse-cell-6955:next",
+          "inverse-cell-6955:next",
+          "inverse-cell-6955:next"
+        ],
+        [
+          "inverse-cell-13755:previous"
+        ],
+        [
+          "inverse-cell-13755:value",
+          "inverse-cell-13755:previous"
+        ],
+        [
+          "inverse-cell-13755:next",
+          "inverse-cell-13755:value",
+          "inverse-cell-13755:previous"
+        ],
+        [
+          "inverse-cell-13755:next",
+          "inverse-cell-13755:value"
+        ],
+        [
+          "inverse-cell-13755:next"
+        ],
+        [
+          "inverse-cell-20800:previous",
+          "inverse-cell-20800:previous",
+          "inverse-cell-20800:previous"
+        ],
+        [
+          "inverse-cell-20800:value",
+          "inverse-cell-20800:value",
+          "inverse-cell-20800:value"
+        ],
+        [
+          "inverse-cell-20800:next",
+          "inverse-cell-20800:next",
+          "inverse-cell-20800:next"
+        ],
+        [
+          "inverse-cell-27543:previous",
+          "inverse-cell-27543:previous",
+          "inverse-cell-27543:previous"
+        ],
+        [
+          "inverse-cell-27543:value",
+          "inverse-cell-27543:value",
+          "inverse-cell-27543:value"
+        ],
+        [
+          "inverse-cell-27543:next",
+          "inverse-cell-27543:next",
+          "inverse-cell-27543:next"
+        ],
+        [
+          "inverse-cell-34432:previous",
+          "inverse-cell-34432:previous",
+          "inverse-cell-34432:previous"
+        ],
+        [
+          "inverse-cell-34432:value",
+          "inverse-cell-34432:value",
+          "inverse-cell-34432:value"
+        ],
+        [
+          "inverse-cell-34432:next",
+          "inverse-cell-34432:next",
+          "inverse-cell-34432:next"
+        ],
+        [
+          "inverse-cell-41281:previous"
+        ],
+        [
+          "inverse-cell-41281:value",
+          "inverse-cell-41281:previous"
+        ],
+        [
+          "inverse-cell-41281:next",
+          "inverse-cell-41281:value",
+          "inverse-cell-41281:previous"
+        ],
+        [
+          "inverse-cell-41281:next",
+          "inverse-cell-41281:value"
+        ],
+        [
+          "inverse-cell-41281:next"
+        ],
+        [
+          "inverse-cell-48120:previous"
+        ],
+        [
+          "inverse-cell-48120:value",
+          "inverse-cell-48120:previous"
+        ],
+        [
+          "inverse-cell-48120:next",
+          "inverse-cell-48120:value",
+          "inverse-cell-48120:previous"
+        ],
+        [
+          "inverse-cell-48120:next",
+          "inverse-cell-48120:value"
+        ],
+        [
+          "inverse-cell-48120:next"
+        ],
+        [
+          "inverse-cell-54885:previous"
+        ],
+        [
+          "inverse-cell-54885:value"
+        ],
+        [
+          "inverse-cell-54885:next"
+        ],
+        [
+          "inverse-cell-54885:previous"
+        ],
+        [
+          "inverse-cell-54885:value"
+        ],
+        [
+          "inverse-cell-54885:next"
+        ],
+        [
+          "inverse-cell-54885:previous"
+        ],
+        [
+          "inverse-cell-54885:value"
+        ],
+        [
+          "inverse-cell-54885:next"
+        ],
+        [
+          "inverse-cell-61989:previous",
+          "inverse-cell-61989:previous",
+          "inverse-cell-61989:previous"
+        ],
+        [
+          "inverse-cell-61989:value",
+          "inverse-cell-61989:value",
+          "inverse-cell-61989:value"
+        ],
+        [
+          "inverse-cell-61989:next",
+          "inverse-cell-61989:next",
+          "inverse-cell-61989:next"
+        ],
+        [
+          "inverse-cell-68931:previous"
+        ],
+        [
+          "inverse-cell-68931:value"
+        ],
+        [
+          "inverse-cell-68931:next"
+        ],
+        [
+          "inverse-cell-68931:previous"
+        ],
+        [
+          "inverse-cell-68931:value"
+        ],
+        [
+          "inverse-cell-68931:next"
+        ],
+        [
+          "inverse-cell-68931:previous"
+        ],
+        [
+          "inverse-cell-68931:value"
+        ],
+        [
+          "inverse-cell-68931:next"
+        ],
+        [
+          "inverse-cell-75995:previous",
+          "inverse-cell-75995:previous",
+          "inverse-cell-75995:previous"
+        ],
+        [
+          "inverse-cell-75995:value",
+          "inverse-cell-75995:value",
+          "inverse-cell-75995:value"
+        ],
+        [
+          "inverse-cell-75995:next",
+          "inverse-cell-75995:next",
+          "inverse-cell-75995:next"
+        ],
+        [
+          "domain-low:previous",
+          "zero:previous"
+        ],
+        [
+          "domain-low:value",
+          "zero:value"
+        ],
+        [
+          "domain-low:next",
+          "zero:next"
+        ],
+        [
+          "domain-high:previous"
+        ],
+        [
+          "domain-high:value"
+        ],
+        [
+          "domain-high:next"
+        ],
+        [
+          "parent-cancellation:previous"
+        ],
+        [
+          "parent-cancellation:value"
+        ],
+        [
+          "parent-cancellation:next"
+        ],
+        [
+          "folded-child-cancellation:previous"
+        ],
+        [
+          "folded-child-cancellation:value"
+        ],
+        [
+          "folded-child-cancellation:next"
+        ]
+      ],
+      "padding": "Remaining texels contain +0 and are recorded but excluded from the unique-input count."
+    }
+  ]
+}

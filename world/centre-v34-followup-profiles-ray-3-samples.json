@@ -1,0 +1,4457 @@
+{
+  "identity": {
+    "width": 49,
+    "height": 33,
+    "z": -6,
+    "time": 8,
+    "high": 1,
+    "ray": 809
+  },
+  "point_arithmetic": "float64 camera + saved CPU ray * depth; NOT saved GPU points",
+  "tie_convention": "First indexed maximum/minimum for diagnostic labels only, not GPU normal selection.",
+  "samples": [
+    {
+      "depth": 34.12460488891602,
+      "point": [
+        1.4080245834642806,
+        1.7,
+        -40.095544072458964
+      ],
+      "full": 0.0031169603405646895,
+      "expanded": {
+        "parentF": -4.635266946829014,
+        "parentAxial": -0.19688303965943532,
+        "parentAngular": -0.87953317037096,
+        "parentPositive": 0.27167811065577974,
+        "parentNegative": -0.4616781106557797,
+        "childF": -4.335266946829014,
+        "childAxial": 0.0031169603405646895,
+        "childAngular": -0.59953317037096,
+        "childPositive": -0.003923347506368746,
+        "childNegative": -0.12007665249363125,
+        "backingF": 5.364733053170986
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12465488891601,
+      "point": [
+        1.40802664652785,
+        1.7,
+        -40.09559402987851
+      ],
+      "full": 0.0030781230528258985,
+      "expanded": {
+        "parentF": -4.635309489388338,
+        "parentAxial": -0.1969218769471741,
+        "parentAngular": -0.8795329356514487,
+        "parentPositive": 0.2717094609489342,
+        "parentNegative": -0.4617094609489343,
+        "childF": -4.335309489388338,
+        "childAxial": 0.0030781230528258985,
+        "childAngular": -0.5995329356514487,
+        "childPositive": -0.003882902657527998,
+        "childNegative": -0.120117097342472,
+        "backingF": 5.364690510611662
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.124704888916014,
+      "point": [
+        1.4080287095914197,
+        1.7,
+        -40.09564398729807
+      ],
+      "full": 0.0030392849874686934,
+      "expanded": {
+        "parentF": -4.635352031949114,
+        "parentAxial": -0.19696071501253132,
+        "parentAngular": -0.8795327009332968,
+        "parentPositive": 0.2717408092590472,
+        "parentNegative": -0.46174080925904715,
+        "childF": -4.335352031949114,
+        "childAxial": 0.0030392849874686934,
+        "childAngular": -0.5995327009332968,
+        "childPositive": -0.0038424620060606984,
+        "childNegative": -0.1201575379939393,
+        "backingF": 5.364647968050886
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.124754888916016,
+      "point": [
+        1.4080307726549892,
+        1.7,
+        -40.095693944717624
+      ],
+      "full": 0.003000446144561242,
+      "expanded": {
+        "parentF": -4.635394574511333,
+        "parentAxial": -0.19699955385543877,
+        "parentAngular": -0.879532466216504,
+        "parentPositive": 0.2717721555858421,
+        "parentNegative": -0.46177215558584217,
+        "childF": -4.335394574511334,
+        "childAxial": 0.003000446144561242,
+        "childAngular": -0.599532466216504,
+        "childPositive": -0.003802025551935151,
+        "childNegative": -0.12019797444806485,
+        "backingF": 5.364605425488667
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12480488891602,
+      "point": [
+        1.408032835718559,
+        1.7,
+        -40.09574390213719
+      ],
+      "full": 0.0029616065241812595,
+      "expanded": {
+        "parentF": -4.635437117075006,
+        "parentAxial": -0.19703839347581875,
+        "parentAngular": -0.8795322315010705,
+        "parentPositive": 0.2718034999290676,
+        "parentNegative": -0.46180349992906755,
+        "childF": -4.335437117075006,
+        "childAxial": 0.0029616065241812595,
+        "childAngular": -0.5995322315010705,
+        "childPositive": -0.003761593295094623,
+        "childNegative": -0.12023840670490538,
+        "backingF": 5.364562882924994
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12485488891602,
+      "point": [
+        1.4080348987821285,
+        1.7,
+        -40.09579385955674
+      ],
+      "full": 0.0029227661264033533,
+      "expanded": {
+        "parentF": -4.635479659640116,
+        "parentAxial": -0.19707723387359666,
+        "parentAngular": -0.8795319967869963,
+        "parentPositive": 0.271834842288441,
+        "parentNegative": -0.46183484228844107,
+        "childF": -4.335479659640116,
+        "childAxial": 0.0029227661264033533,
+        "childAngular": -0.5995319967869963,
+        "childPositive": -0.003721165235514745,
+        "childNegative": -0.12027883476448525,
+        "backingF": 5.364520340359884
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.124904888916014,
+      "point": [
+        1.408036961845698,
+        1.7,
+        -40.09584381697629
+      ],
+      "full": 0.0028839249512989107,
+      "expanded": {
+        "parentF": -4.635522202206667,
+        "parentAxial": -0.1971160750487011,
+        "parentAngular": -0.8795317620742812,
+        "parentPositive": 0.27186618266370277,
+        "parentNegative": -0.46186618266370283,
+        "childF": -4.3355222022066675,
+        "childAxial": 0.0028839249512989107,
+        "childAngular": -0.5995317620742812,
+        "childPositive": -0.003680741373146279,
+        "childNegative": -0.12031925862685372,
+        "backingF": 5.364477797793333
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.124954888916015,
+      "point": [
+        1.4080390249092676,
+        1.7,
+        -40.095893774395854
+      ],
+      "full": 0.002845082998923054,
+      "expanded": {
+        "parentF": -4.635564744774673,
+        "parentAxial": -0.19715491700107696,
+        "parentAngular": -0.8795315273629252,
+        "parentPositive": 0.2718975210545892,
+        "parentNegative": -0.46189752105458914,
+        "childF": -4.335564744774673,
+        "childAxial": 0.002845082998923054,
+        "childAngular": -0.5995315273629251,
+        "childPositive": -0.003640321707940708,
+        "childNegative": -0.12035967829205929,
+        "backingF": 5.364435255225327
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12500488891602,
+      "point": [
+        1.4080410879728373,
+        1.7,
+        -40.09594373181541
+      ],
+      "full": 0.0028062402693665445,
+      "expanded": {
+        "parentF": -4.63560728734412,
+        "parentAxial": -0.19719375973063347,
+        "parentAngular": -0.8795312926529283,
+        "parentPositive": 0.27192885746083817,
+        "parentNegative": -0.4619288574608382,
+        "childF": -4.3356072873441205,
+        "childAxial": 0.0028062402693665445,
+        "childAngular": -0.5995312926529283,
+        "childPositive": -0.003599906239855344,
+        "childNegative": -0.12040009376014466,
+        "backingF": 5.36439271265588
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12505488891602,
+      "point": [
+        1.4080431510364069,
+        1.7,
+        -40.095993689234966
+      ],
+      "full": 0.0027673967626942186,
+      "expanded": {
+        "parentF": -4.635649829915011,
+        "parentAxial": -0.1972326032373058,
+        "parentAngular": -0.8795310579442904,
+        "parentPositive": 0.27196019188217446,
+        "parentNegative": -0.4619601918821744,
+        "childF": -4.3356498299150115,
+        "childAxial": 0.0027673967626942186,
+        "childAngular": -0.5995310579442904,
+        "childPositive": -0.003559494968855048,
+        "childNegative": -0.12044050503114495,
+        "backingF": 5.364350170084989
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12510488891601,
+      "point": [
+        1.4080452140999764,
+        1.7,
+        -40.096043646654515
+      ],
+      "full": 0.0027285524789870674,
+      "expanded": {
+        "parentF": -4.63569237248734,
+        "parentAxial": -0.19727144752101294,
+        "parentAngular": -0.8795308232370117,
+        "parentPositive": 0.2719915243183354,
+        "parentNegative": -0.46199152431833546,
+        "childF": -4.33569237248734,
+        "childAxial": 0.0027285524789870674,
+        "childAngular": -0.5995308232370117,
+        "childPositive": -0.0035190878948952453,
+        "childNegative": -0.12048091210510475,
+        "backingF": 5.36430762751266
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.125154888916015,
+      "point": [
+        1.408047277163546,
+        1.7,
+        -40.09609360407408
+      ],
+      "full": 0.0026897074182907765,
+      "expanded": {
+        "parentF": -4.635734915061126,
+        "parentAxial": -0.19731029258170923,
+        "parentAngular": -0.879530588531092,
+        "parentPositive": 0.2720228547690634,
+        "parentNegative": -0.46202285476906346,
+        "childF": -4.335734915061126,
+        "childAxial": 0.0026897074182907765,
+        "childAngular": -0.599530588531092,
+        "childPositive": -0.003478685017919869,
+        "childNegative": -0.12052131498208013,
+        "backingF": 5.364265084938874
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.125204888916016,
+      "point": [
+        1.4080493402271157,
+        1.7,
+        -40.09614356149363
+      ],
+      "full": 0.0026508615806991598,
+      "expanded": {
+        "parentF": -4.635777457636353,
+        "parentAxial": -0.19734913841930085,
+        "parentAngular": -0.8795303538265311,
+        "parentPositive": 0.2720541832340848,
+        "parentNegative": -0.46205418323408476,
+        "childF": -4.335777457636353,
+        "childAxial": 0.0026508615806991598,
+        "childAngular": -0.5995303538265311,
+        "childPositive": -0.0034382863378970008,
+        "childNegative": -0.120561713662103,
+        "backingF": 5.364222542363647
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12525488891602,
+      "point": [
+        1.4080514032906852,
+        1.7,
+        -40.09619351891319
+      ],
+      "full": 0.00261201496627389,
+      "expanded": {
+        "parentF": -4.635820000213023,
+        "parentAxial": -0.19738798503372612,
+        "parentAngular": -0.8795301191233292,
+        "parentPositive": 0.2720855097131357,
+        "parentNegative": -0.4620855097131358,
+        "childF": -4.335820000213023,
+        "childAxial": 0.00261201496627389,
+        "childAngular": -0.5995301191233292,
+        "childPositive": -0.0033978918547792336,
+        "childNegative": -0.12060210814522077,
+        "backingF": 5.364179999786977
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12530488891601,
+      "point": [
+        1.4080534663542548,
+        1.7,
+        -40.09624347633274
+      ],
+      "full": 0.002573167575096069,
+      "expanded": {
+        "parentF": -4.635862542791135,
+        "parentAxial": -0.19742683242490394,
+        "parentAngular": -0.8795298844214863,
+        "parentPositive": 0.2721168342059499,
+        "parentNegative": -0.46211683420594984,
+        "childF": -4.335862542791135,
+        "childAxial": 0.002573167575096069,
+        "childAngular": -0.5995298844214862,
+        "childPositive": -0.003357501568525656,
+        "childNegative": -0.12064249843147434,
+        "backingF": 5.364137457208865
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.125354888916014,
+      "point": [
+        1.4080555294178243,
+        1.7,
+        -40.0962934337523
+      ],
+      "full": 0.0025343194072176,
+      "expanded": {
+        "parentF": -4.635905085370701,
+        "parentAxial": -0.1974656805927824,
+        "parentAngular": -0.8795296497210021,
+        "parentPositive": 0.2721481567122689,
+        "parentNegative": -0.46214815671226883,
+        "childF": -4.335905085370701,
+        "childAxial": 0.0025343194072176,
+        "childAngular": -0.5995296497210021,
+        "childPositive": -0.003317115479080923,
+        "childNegative": -0.12068288452091908,
+        "backingF": 5.364094914629299
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.125404888916016,
+      "point": [
+        1.408057592481394,
+        1.7,
+        -40.09634339117186
+      ],
+      "full": 0.0024954704627292434,
+      "expanded": {
+        "parentF": -4.635947627951708,
+        "parentAxial": -0.19750452953727077,
+        "parentAngular": -0.8795294150218769,
+        "parentPositive": 0.2721794772318188,
+        "parentNegative": -0.46217947723181885,
+        "childF": -4.335947627951708,
+        "childAxial": 0.0024954704627292434,
+        "childAngular": -0.5995294150218768,
+        "childPositive": -0.0032767335864130054,
+        "childNegative": -0.120723266413587,
+        "backingF": 5.364052372048292
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12545488891602,
+      "point": [
+        1.4080596555449636,
+        1.7,
+        -40.09639334859141
+      ],
+      "full": 0.0024566207416991115,
+      "expanded": {
+        "parentF": -4.635990170534157,
+        "parentAxial": -0.1975433792583009,
+        "parentAngular": -0.8795291803241104,
+        "parentPositive": 0.2722107957643344,
+        "parentNegative": -0.46221079576433444,
+        "childF": -4.335990170534157,
+        "childAxial": 0.0024566207416991115,
+        "childAngular": -0.5995291803241104,
+        "childPositive": -0.0032363558904770495,
+        "childNegative": -0.12076364410952295,
+        "backingF": 5.364009829465843
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12550488891601,
+      "point": [
+        1.4080617186085331,
+        1.7,
+        -40.09644330601097
+      ],
+      "full": 0.0024177702441920967,
+      "expanded": {
+        "parentF": -4.636032713118053,
+        "parentAxial": -0.19758222975580791,
+        "parentAngular": -0.8795289456277028,
+        "parentPositive": 0.27224211230955453,
+        "parentNegative": -0.4622421123095546,
+        "childF": -4.336032713118053,
+        "childAxial": 0.0024177702441920967,
+        "childAngular": -0.5995289456277028,
+        "childPositive": -0.003195982391222263,
+        "childNegative": -0.12080401760877774,
+        "backingF": 5.363967286881947
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.125554888916014,
+      "point": [
+        1.4080637816721027,
+        1.7,
+        -40.096493263430524
+      ],
+      "full": 0.0023789189702795865,
+      "expanded": {
+        "parentF": -4.6360752557033935,
+        "parentAxial": -0.19762108102972042,
+        "parentAngular": -0.879528710932654,
+        "parentPositive": 0.27227342686721245,
+        "parentNegative": -0.4622734268672125,
+        "childF": -4.336075255703394,
+        "childAxial": 0.0023789189702795865,
+        "childAngular": -0.5995287109326539,
+        "childPositive": -0.003155613088606235,
+        "childNegative": -0.12084438691139376,
+        "backingF": 5.3639247442966065
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.125604888916016,
+      "point": [
+        1.4080658447356724,
+        1.7,
+        -40.09654322085008
+      ],
+      "full": 0.002340066920036188,
+      "expanded": {
+        "parentF": -4.636117798290179,
+        "parentAxial": -0.19765993307996382,
+        "parentAngular": -0.8795284762389637,
+        "parentPositive": 0.2723047394370415,
+        "parentNegative": -0.4623047394370414,
+        "childF": -4.3361177982901795,
+        "childAxial": 0.002340066920036188,
+        "childAngular": -0.5995284762389637,
+        "childPositive": -0.0031152479825851676,
+        "childNegative": -0.12088475201741483,
+        "backingF": 5.363882201709821
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12565488891602,
+      "point": [
+        1.408067907799242,
+        1.7,
+        -40.096593178269636
+      ],
+      "full": 0.0023012140935396164,
+      "expanded": {
+        "parentF": -4.636160340878409,
+        "parentAxial": -0.1976987859064604,
+        "parentAngular": -0.8795282415466321,
+        "parentPositive": 0.27233605001877803,
+        "parentNegative": -0.462336050018778,
+        "childF": -4.3361603408784095,
+        "childAxial": 0.0023012140935396164,
+        "childAngular": -0.5995282415466321,
+        "childPositive": -0.003074887073113819,
+        "childNegative": -0.12092511292688618,
+        "backingF": 5.363839659121591
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12570488891602,
+      "point": [
+        1.4080699708628117,
+        1.7,
+        -40.0966431356892
+      ],
+      "full": 0.0022623604908452166,
+      "expanded": {
+        "parentF": -4.63620288346809,
+        "parentAxial": -0.1977376395091548,
+        "parentAngular": -0.8795280068556592,
+        "parentPositive": 0.27236735861215855,
+        "parentNegative": -0.4623673586121586,
+        "childF": -4.33620288346809,
+        "childAxial": 0.0022623604908452166,
+        "childAngular": -0.5995280068556592,
+        "childPositive": -0.00303453036014234,
+        "childNegative": -0.12096546963985766,
+        "backingF": 5.36379711653191
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12575488891601,
+      "point": [
+        1.408072033926381,
+        1.7,
+        -40.09669309310875
+      ],
+      "full": 0.0022235061120404187,
+      "expanded": {
+        "parentF": -4.6362454260592045,
+        "parentAxial": -0.1977764938879596,
+        "parentAngular": -0.879527772166045,
+        "parentPositive": 0.2723986652169078,
+        "parentNegative": -0.46239866521690787,
+        "childF": -4.336245426059205,
+        "childAxial": 0.0022235061120404187,
+        "childAngular": -0.599527772166045,
+        "childPositive": -0.0029941778436389788,
+        "childNegative": -0.12100582215636102,
+        "backingF": 5.3637545739407955
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.125804888916015,
+      "point": [
+        1.4080740969899508,
+        1.7,
+        -40.0967430505283
+      ],
+      "full": 0.002184650957190115,
+      "expanded": {
+        "parentF": -4.636287968651769,
+        "parentAxial": -0.1978153490428099,
+        "parentAngular": -0.8795275374777893,
+        "parentPositive": 0.2724299698327709,
+        "parentNegative": -0.46242996983277096,
+        "childF": -4.336287968651769,
+        "childAxial": 0.002184650957190115,
+        "childAngular": -0.5995275374777893,
+        "childPositive": -0.0029538295235459477,
+        "childNegative": -0.12104617047645405,
+        "backingF": 5.363712031348231
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12585488891602,
+      "point": [
+        1.4080761600535203,
+        1.7,
+        -40.096793007947866
+      ],
+      "full": 0.0021457950263560344,
+      "expanded": {
+        "parentF": -4.6363305112457835,
+        "parentAxial": -0.19785420497364398,
+        "parentAngular": -0.8795273027908922,
+        "parentPositive": 0.27246127245948526,
+        "parentNegative": -0.4624612724594852,
+        "childF": -4.336330511245784,
+        "childAxial": 0.0021457950263560344,
+        "childAngular": -0.5995273027908922,
+        "childPositive": -0.0029134853998135646,
+        "childNegative": -0.12108651460018643,
+        "backingF": 5.3636694887542165
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12590488891602,
+      "point": [
+        1.40807822311709,
+        1.7,
+        -40.09684296536742
+      ],
+      "full": 0.0021069383196224423,
+      "expanded": {
+        "parentF": -4.636373053841238,
+        "parentAxial": -0.19789306168037757,
+        "parentAngular": -0.8795270681053535,
+        "parentPositive": 0.27249257309677277,
+        "parentNegative": -0.4624925730967727,
+        "childF": -4.336373053841238,
+        "childAxial": 0.0021069383196224423,
+        "childAngular": -0.5995270681053535,
+        "childPositive": -0.0028731454724114647,
+        "childNegative": -0.12112685452758853,
+        "backingF": 5.363626946158762
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12595488891601,
+      "point": [
+        1.4080802861806594,
+        1.7,
+        -40.09689292278697
+      ],
+      "full": 0.0020680808370671655,
+      "expanded": {
+        "parentF": -4.636415596438131,
+        "parentAxial": -0.19793191916293285,
+        "parentAngular": -0.8795268334211734,
+        "parentPositive": 0.27252387174437276,
+        "parentNegative": -0.4625238717443728,
+        "childF": -4.3364155964381315,
+        "childAxial": 0.0020680808370671655,
+        "childAngular": -0.5995268334211734,
+        "childPositive": -0.0028328097412906317,
+        "childNegative": -0.12116719025870937,
+        "backingF": 5.363584403561869
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.126004888916015,
+      "point": [
+        1.4080823492442291,
+        1.7,
+        -40.09694288020653
+      ],
+      "full": 0.0020292225787454377,
+      "expanded": {
+        "parentF": -4.636458139036475,
+        "parentAxial": -0.19797077742125457,
+        "parentAngular": -0.8795265987383517,
+        "parentPositive": 0.27255516840202776,
+        "parentNegative": -0.4625551684020278,
+        "childF": -4.336458139036475,
+        "childAxial": 0.0020292225787454377,
+        "childAngular": -0.5995265987383517,
+        "childPositive": -0.002792478206394333,
+        "childNegative": -0.12120752179360567,
+        "backingF": 5.363541860963525
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.126054888916016,
+      "point": [
+        1.4080844123077987,
+        1.7,
+        -40.09699283762609
+      ],
+      "full": 0.0019903635447285906,
+      "expanded": {
+        "parentF": -4.636500681636269,
+        "parentAxial": -0.19800963645527142,
+        "parentAngular": -0.8795263640568884,
+        "parentPositive": 0.27258646306946843,
+        "parentNegative": -0.4625864630694684,
+        "childF": -4.336500681636269,
+        "childAxial": 0.0019903635447285906,
+        "childAngular": -0.5995263640568884,
+        "childPositive": -0.002752150867680714,
+        "childNegative": -0.12124784913231929,
+        "backingF": 5.363499318363731
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12610488891602,
+      "point": [
+        1.4080864753713684,
+        1.7,
+        -40.097042795045645
+      ],
+      "full": 0.001951503735097726,
+      "expanded": {
+        "parentF": -4.636543224237504,
+        "parentAxial": -0.19804849626490229,
+        "parentAngular": -0.8795261293767835,
+        "parentPositive": 0.27261775574642766,
+        "parentNegative": -0.4626177557464277,
+        "childF": -4.336543224237504,
+        "childAxial": 0.001951503735097726,
+        "childAngular": -0.5995261293767835,
+        "childPositive": -0.002711827725107141,
+        "childNegative": -0.12128817227489286,
+        "backingF": 5.363456775762496
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12615488891601,
+      "point": [
+        1.4080885384349378,
+        1.7,
+        -40.097092752465194
+      ],
+      "full": 0.001912643149927451,
+      "expanded": {
+        "parentF": -4.636585766840175,
+        "parentAxial": -0.19808735685007256,
+        "parentAngular": -0.8795258946980371,
+        "parentPositive": 0.272649046432635,
+        "parentNegative": -0.46264904643263505,
+        "childF": -4.336585766840175,
+        "childAxial": 0.001912643149927451,
+        "childAngular": -0.5995258946980371,
+        "childPositive": -0.0026715087786341463,
+        "childNegative": -0.12132849122136585,
+        "backingF": 5.363414233159825
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.126204888916014,
+      "point": [
+        1.4080906014985075,
+        1.7,
+        -40.09714270988475
+      ],
+      "full": 0.0018737817892761632,
+      "expanded": {
+        "parentF": -4.636628309444298,
+        "parentAxial": -0.19812621821072385,
+        "parentAngular": -0.8795256600206489,
+        "parentPositive": 0.2726803351278364,
+        "parentNegative": -0.46268033512783635,
+        "childF": -4.336628309444298,
+        "childAxial": 0.0018737817892761632,
+        "childAngular": -0.5995256600206489,
+        "childPositive": -0.002631194028200501,
+        "childNegative": -0.1213688059717995,
+        "backingF": 5.363371690555702
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.126254888916016,
+      "point": [
+        1.4080926645620773,
+        1.7,
+        -40.09719266730431
+      ],
+      "full": 0.001834919653215361,
+      "expanded": {
+        "parentF": -4.636670852049872,
+        "parentAxial": -0.19816508034678465,
+        "parentAngular": -0.879525425344619,
+        "parentPositive": 0.2727116218317661,
+        "parentNegative": -0.4627116218317662,
+        "childF": -4.336670852049872,
+        "childAxial": 0.001834919653215361,
+        "childAngular": -0.599525425344619,
+        "childPositive": -0.0025908834737606856,
+        "childNegative": -0.12140911652623931,
+        "backingF": 5.363329147950128
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12630488891602,
+      "point": [
+        1.4080947276256468,
+        1.7,
+        -40.09724262472387
+      ],
+      "full": 0.0017960567418291995,
+      "expanded": {
+        "parentF": -4.636713394656883,
+        "parentAxial": -0.1982039432581708,
+        "parentAngular": -0.8795251906699473,
+        "parentPositive": 0.27274290654414823,
+        "parentNegative": -0.4627429065441482,
+        "childF": -4.336713394656883,
+        "childAxial": 0.0017960567418291995,
+        "childAngular": -0.5995251906699472,
+        "childPositive": -0.002550577115281949,
+        "childNegative": -0.12144942288471805,
+        "backingF": 5.363286605343117
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12635488891602,
+      "point": [
+        1.4080967906892166,
+        1.7,
+        -40.097292582143425
+      ],
+      "full": 0.001757193055182682,
+      "expanded": {
+        "parentF": -4.63675593726534,
+        "parentAxial": -0.19824280694481733,
+        "parentAngular": -0.8795249559966339,
+        "parentPositive": 0.2727741892647275,
+        "parentNegative": -0.46277418926472746,
+        "childF": -4.33675593726534,
+        "childAxial": 0.001757193055182682,
+        "childAngular": -0.5995249559966339,
+        "childPositive": -0.0025102749527058377,
+        "childNegative": -0.12148972504729416,
+        "backingF": 5.36324406273466
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.126404888916014,
+      "point": [
+        1.4080988537527859,
+        1.7,
+        -40.09734253956298
+      ],
+      "full": 0.0017183285933471404,
+      "expanded": {
+        "parentF": -4.6367984798752415,
+        "parentAxial": -0.19828167140665287,
+        "parentAngular": -0.8795247213246787,
+        "parentPositive": 0.2728054699932351,
+        "parentNegative": -0.46280546999323513,
+        "childF": -4.336798479875242,
+        "childAxial": 0.0017183285933471404,
+        "childAngular": -0.5995247213246787,
+        "childPositive": -0.0024699769859893306,
+        "childNegative": -0.12153002301401067,
+        "backingF": 5.3632015201247585
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.126454888916015,
+      "point": [
+        1.4081009168163556,
+        1.7,
+        -40.097392496982536
+      ],
+      "full": 0.001679463356390798,
+      "expanded": {
+        "parentF": -4.636841022486586,
+        "parentAxial": -0.1983205366436092,
+        "parentAngular": -0.8795244866540816,
+        "parentPositive": 0.2728367487294041,
+        "parentNegative": -0.46283674872940417,
+        "childF": -4.3368410224865865,
+        "childAxial": 0.001679463356390798,
+        "childAngular": -0.5995244866540815,
+        "childPositive": -0.0024296832150865755,
+        "childNegative": -0.12157031678491342,
+        "backingF": 5.363158977513414
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12650488891602,
+      "point": [
+        1.4081029798799252,
+        1.7,
+        -40.09744245440209
+      ],
+      "full": 0.0016405973443914812,
+      "expanded": {
+        "parentF": -4.636883565099376,
+        "parentAxial": -0.19835940265560853,
+        "parentAngular": -0.8795242519848427,
+        "parentPositive": 0.27286802547297184,
+        "parentNegative": -0.4628680254729718,
+        "childF": -4.3368835650993764,
+        "childAxial": 0.0016405973443914812,
+        "childAngular": -0.5995242519848427,
+        "childPositive": -0.0023893936399496662,
+        "childNegative": -0.12161060636005033,
+        "backingF": 5.363116434900624
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12655488891602,
+      "point": [
+        1.408105042943495,
+        1.7,
+        -40.09749241182165
+      ],
+      "full": 0.0016017305574173024,
+      "expanded": {
+        "parentF": -4.636926107713612,
+        "parentAxial": -0.1983982694425827,
+        "parentAngular": -0.8795240173169618,
+        "parentPositive": 0.2728993002236768,
+        "parentNegative": -0.46289930022367676,
+        "childF": -4.336926107713612,
+        "childAxial": 0.0016017305574173024,
+        "childAngular": -0.5995240173169618,
+        "childPositive": -0.002349108260526256,
+        "childNegative": -0.12165089173947374,
+        "backingF": 5.363073892286388
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12660488891601,
+      "point": [
+        1.4081071060070642,
+        1.7,
+        -40.097542369241204
+      ],
+      "full": 0.0015628629955364293,
+      "expanded": {
+        "parentF": -4.636968650329291,
+        "parentAxial": -0.19843713700446358,
+        "parentAngular": -0.8795237826504391,
+        "parentPositive": 0.27293057298124923,
+        "parentNegative": -0.4629305729812492,
+        "childF": -4.3369686503292915,
+        "childAxial": 0.0015628629955364293,
+        "childAngular": -0.599523782650439,
+        "childPositive": -0.002308827076773934,
+        "childNegative": -0.12169117292322607,
+        "backingF": 5.363031349670709
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.126654888916015,
+      "point": [
+        1.408109169070634,
+        1.7,
+        -40.09759232666076
+      ],
+      "full": 0.001523994658820249,
+      "expanded": {
+        "parentF": -4.6370111929464155,
+        "parentAxial": -0.19847600534117976,
+        "parentAngular": -0.8795235479852743,
+        "parentPositive": 0.2729618437454254,
+        "parentNegative": -0.4629618437454255,
+        "childF": -4.337011192946416,
+        "childAxial": 0.001523994658820249,
+        "childAngular": -0.5995235479852743,
+        "childPositive": -0.002268550088643073,
+        "childNegative": -0.12173144991135693,
+        "backingF": 5.3629888070535845
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12670488891602,
+      "point": [
+        1.4081112321342035,
+        1.7,
+        -40.097642284080315
+      ],
+      "full": 0.001485125547346644,
+      "expanded": {
+        "parentF": -4.637053735564985,
+        "parentAxial": -0.19851487445265337,
+        "parentAngular": -0.8795233133214676,
+        "parentPositive": 0.2729931125159426,
+        "parentNegative": -0.46299311251594255,
+        "childF": -4.337053735564985,
+        "childAxial": 0.001485125547346644,
+        "childAngular": -0.5995233133214676,
+        "childPositive": -0.0022282772960857677,
+        "childNegative": -0.12177172270391423,
+        "backingF": 5.362946264435015
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12675488891602,
+      "point": [
+        1.4081132951977733,
+        1.7,
+        -40.09769224149988
+      ],
+      "full": 0.0014462556611805621,
+      "expanded": {
+        "parentF": -4.6370962781850045,
+        "parentAxial": -0.19855374433881945,
+        "parentAngular": -0.8795230786590188,
+        "parentPositive": 0.2730243792925374,
+        "parentNegative": -0.46302437929253737,
+        "childF": -4.337096278185005,
+        "childAxial": 0.0014462556611805621,
+        "childAngular": -0.5995230786590188,
+        "childPositive": -0.0021880086990507253,
+        "childNegative": -0.12181199130094927,
+        "backingF": 5.3629037218149955
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12680488891601,
+      "point": [
+        1.4081153582613426,
+        1.7,
+        -40.09774219891943
+      ],
+      "full": 0.0014073850004062138,
+      "expanded": {
+        "parentF": -4.637138820806455,
+        "parentAxial": -0.1985926149995938,
+        "parentAngular": -0.879522843997928,
+        "parentPositive": 0.273055644074932,
+        "parentNegative": -0.46305564407493194,
+        "childF": -4.337138820806455,
+        "childAxial": 0.0014073850004062138,
+        "childAngular": -0.599522843997928,
+        "childPositive": -0.0021477442975060823,
+        "childNegative": -0.12185225570249392,
+        "backingF": 5.362861179193545
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.126854888916014,
+      "point": [
+        1.4081174213249124,
+        1.7,
+        -40.09779215633898
+      ],
+      "full": 0.001368513565075724,
+      "expanded": {
+        "parentF": -4.637181363429358,
+        "parentAxial": -0.1986314864349243,
+        "parentAngular": -0.8795226093381949,
+        "parentPositive": 0.2730869068628754,
+        "parentNegative": -0.46308690686287546,
+        "childF": -4.337181363429358,
+        "childAxial": 0.001368513565075724,
+        "childAngular": -0.5995226093381949,
+        "childPositive": -0.0021074840913852255,
+        "childNegative": -0.12189251590861477,
+        "backingF": 5.362818636570642
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.126904888916016,
+      "point": [
+        1.408119484388482,
+        1.7,
+        -40.09784211375854
+      ],
+      "full": 0.0013296413552765785,
+      "expanded": {
+        "parentF": -4.637223906053705,
+        "parentAxial": -0.19867035864472343,
+        "parentAngular": -0.87952237467982,
+        "parentPositive": 0.27311816765609886,
+        "parentNegative": -0.4631181676560988,
+        "childF": -4.337223906053705,
+        "childAxial": 0.0013296413552765785,
+        "childAngular": -0.59952237467982,
+        "childPositive": -0.0020672280806475762,
+        "childNegative": -0.12193277191935242,
+        "backingF": 5.362776093946295
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12695488891602,
+      "point": [
+        1.4081215474520516,
+        1.7,
+        -40.0978920711781
+      ],
+      "full": 0.001290768371064066,
+      "expanded": {
+        "parentF": -4.637266448679502,
+        "parentAxial": -0.19870923162893595,
+        "parentAngular": -0.8795221400228027,
+        "parentPositive": 0.2731494264543436,
+        "parentNegative": -0.46314942645434354,
+        "childF": -4.337266448679502,
+        "childAxial": 0.001290768371064066,
+        "childAngular": -0.5995221400228027,
+        "childPositive": -0.0020269762652350143,
+        "childNegative": -0.12197302373476498,
+        "backingF": 5.362733551320498
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12700488891601,
+      "point": [
+        1.408123610515621,
+        1.7,
+        -40.09794202859765
+      ],
+      "full": 0.0012518946125256725,
+      "expanded": {
+        "parentF": -4.637308991306731,
+        "parentAxial": -0.19874810538747434,
+        "parentAngular": -0.8795219053671433,
+        "parentPositive": 0.273180683257329,
+        "parentNegative": -0.463180683257329,
+        "childF": -4.337308991306731,
+        "childAxial": 0.0012518946125256725,
+        "childAngular": -0.5995219053671432,
+        "childPositive": -0.0019867286451185073,
+        "childNegative": -0.12201327135488149,
+        "backingF": 5.362691008693269
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.127054888916014,
+      "point": [
+        1.4081256735791907,
+        1.7,
+        -40.097991986017206
+      ],
+      "full": 0.001213020079723126,
+      "expanded": {
+        "parentF": -4.637351533935412,
+        "parentAxial": -0.19878697992027689,
+        "parentAngular": -0.8795216707128416,
+        "parentPositive": 0.27321193806480426,
+        "parentNegative": -0.4632119380648043,
+        "childF": -4.337351533935412,
+        "childAxial": 0.001213020079723126,
+        "childAngular": -0.5995216707128416,
+        "childPositive": -0.0019464852202331073,
+        "childNegative": -0.12205351477976689,
+        "backingF": 5.362648466064588
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.127104888916016,
+      "point": [
+        1.4081277366427603,
+        1.7,
+        -40.09804194343676
+      ],
+      "full": 0.0011741447727375842,
+      "expanded": {
+        "parentF": -4.637394076565537,
+        "parentAxial": -0.19882585522726243,
+        "parentAngular": -0.8795214360598976,
+        "parentPositive": 0.27324319087650295,
+        "parentNegative": -0.463243190876503,
+        "childF": -4.337394076565537,
+        "childAxial": 0.0011741447727375842,
+        "childAngular": -0.5995214360598976,
+        "childPositive": -0.0019062459905335727,
+        "childNegative": -0.12209375400946643,
+        "backingF": 5.362605923434463
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12715488891602,
+      "point": [
+        1.40812979970633,
+        1.7,
+        -40.098091900856325
+      ],
+      "full": 0.0011352686916210053,
+      "expanded": {
+        "parentF": -4.6374366191971115,
+        "parentAxial": -0.198864731308379,
+        "parentAngular": -0.8795212014083114,
+        "parentPositive": 0.2732744416921574,
+        "parentNegative": -0.46327444169215737,
+        "childF": -4.337436619197112,
+        "childAxial": 0.0011352686916210053,
+        "childAngular": -0.5995212014083113,
+        "childPositive": -0.0018660109559703875,
+        "childNegative": -0.12213398904402961,
+        "backingF": 5.3625633808028885
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12720488891602,
+      "point": [
+        1.4081318627698995,
+        1.7,
+        -40.09814185827588
+      ],
+      "full": 0.0010963918364642056,
+      "expanded": {
+        "parentF": -4.637479161830124,
+        "parentAxial": -0.1989036081635358,
+        "parentAngular": -0.8795209667580828,
+        "parentPositive": 0.27330569051150166,
+        "parentNegative": -0.4633056905115017,
+        "childF": -4.3374791618301245,
+        "childAxial": 0.0010963918364642056,
+        "childAngular": -0.5995209667580828,
+        "childPositive": -0.0018257801164994758,
+        "childNegative": -0.12217421988350052,
+        "backingF": 5.362520838169876
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12725488891601,
+      "point": [
+        1.408133925833469,
+        1.7,
+        -40.09819181569543
+      ],
+      "full": 0.001057514207332133,
+      "expanded": {
+        "parentF": -4.637521704464576,
+        "parentAxial": -0.19894248579266788,
+        "parentAngular": -0.8795207321092119,
+        "parentPositive": 0.27333693733426667,
+        "parentNegative": -0.4633369373342666,
+        "childF": -4.337521704464576,
+        "childAxial": 0.001057514207332133,
+        "childAngular": -0.5995207321092119,
+        "childPositive": -0.0017855534720748745,
+        "childNegative": -0.12221444652792512,
+        "backingF": 5.362478295535424
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.127304888916015,
+      "point": [
+        1.4081359888970386,
+        1.7,
+        -40.09824177311499
+      ],
+      "full": 0.0010186358042961197,
+      "expanded": {
+        "parentF": -4.637564247100485,
+        "parentAxial": -0.1989813641957039,
+        "parentAngular": -0.8795204974616986,
+        "parentPositive": 0.27336818216020564,
+        "parentNegative": -0.4633681821602057,
+        "childF": -4.337564247100485,
+        "childAxial": 0.0010186358042961197,
+        "childAngular": -0.5995204974616986,
+        "childPositive": -0.0017453310226282492,
+        "childNegative": -0.12225466897737175,
+        "backingF": 5.362435752899515
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12735488891602,
+      "point": [
+        1.4081380519606084,
+        1.7,
+        -40.09829173053455
+      ],
+      "full": 0.000979756627424444,
+      "expanded": {
+        "parentF": -4.637606789737832,
+        "parentAxial": -0.19902024337257557,
+        "parentAngular": -0.8795202628155429,
+        "parentPositive": 0.2733994249890386,
+        "parentNegative": -0.4633994249890385,
+        "childF": -4.3376067897378325,
+        "childAxial": 0.000979756627424444,
+        "childAngular": -0.5995202628155428,
+        "childPositive": -0.001705112768126238,
+        "childNegative": -0.12229488723187376,
+        "backingF": 5.362393210262168
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12740488891602,
+      "point": [
+        1.408140115024178,
+        1.7,
+        -40.098341687954104
+      ],
+      "full": 0.0009408766767917132,
+      "expanded": {
+        "parentF": -4.637649332376622,
+        "parentAxial": -0.1990591233232083,
+        "parentAngular": -0.8795200281707446,
+        "parentPositive": 0.2734306658205008,
+        "parentNegative": -0.46343066582050074,
+        "childF": -4.337649332376622,
+        "childAxial": 0.0009408766767917132,
+        "childAngular": -0.5995200281707446,
+        "childPositive": -0.0016648987085199352,
+        "childNegative": -0.12233510129148006,
+        "backingF": 5.362350667623378
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12745488891601,
+      "point": [
+        1.4081421780877474,
+        1.7,
+        -40.09839164537365
+      ],
+      "full": 0.0009019959524789734,
+      "expanded": {
+        "parentF": -4.637691875016852,
+        "parentAxial": -0.19909800404752104,
+        "parentAngular": -0.8795197935273039,
+        "parentPositive": 0.2734619046543304,
+        "parentNegative": -0.46346190465433035,
+        "childF": -4.337691875016852,
+        "childAxial": 0.0009019959524789734,
+        "childAngular": -0.5995197935273039,
+        "childPositive": -0.0016246888437577711,
+        "childNegative": -0.12237531115624223,
+        "backingF": 5.362308124983148
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.127504888916015,
+      "point": [
+        1.408144241151317,
+        1.7,
+        -40.098441602793216
+      ],
+      "full": 0.0008631144545351299,
+      "expanded": {
+        "parentF": -4.637734417658537,
+        "parentAxial": -0.19913688554546488,
+        "parentAngular": -0.8795195588852207,
+        "parentPositive": 0.2734931414902725,
+        "parentNegative": -0.46349314149027254,
+        "childF": -4.337734417658537,
+        "childAxial": 0.0008631144545351299,
+        "childAngular": -0.5995195588852207,
+        "childPositive": -0.0015844831737756304,
+        "childNegative": -0.12241551682622437,
+        "backingF": 5.362265582341463
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.127554888916016,
+      "point": [
+        1.4081463042148867,
+        1.7,
+        -40.09849156021277
+      ],
+      "full": 0.0008242321830508881,
+      "expanded": {
+        "parentF": -4.637776960301661,
+        "parentAxial": -0.19917576781694912,
+        "parentAngular": -0.8795193242444949,
+        "parentPositive": 0.27352437632804927,
+        "parentNegative": -0.4635243763280493,
+        "childF": -4.337776960301661,
+        "childAxial": 0.0008242321830508881,
+        "childAngular": -0.5995193242444948,
+        "childPositive": -0.0015442816985415941,
+        "childNegative": -0.1224557183014584,
+        "backingF": 5.362223039698339
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12760488891602,
+      "point": [
+        1.4081483672784563,
+        1.7,
+        -40.09854151763233
+      ],
+      "full": 0.0007853491380847566,
+      "expanded": {
+        "parentF": -4.637819502946229,
+        "parentAxial": -0.19921465086191525,
+        "parentAngular": -0.8795190896051266,
+        "parentPositive": 0.27355560916739974,
+        "parentNegative": -0.4635556091673997,
+        "childF": -4.337819502946229,
+        "childAxial": 0.0007853491380847566,
+        "childAngular": -0.5995190896051266,
+        "childPositive": -0.001504084417999374,
+        "childNegative": -0.12249591558200063,
+        "backingF": 5.362180497053771
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12765488891601,
+      "point": [
+        1.4081504303420258,
+        1.7,
+        -40.098591475051876
+      ],
+      "full": 0.0007464653197275517,
+      "expanded": {
+        "parentF": -4.637862045592234,
+        "parentAxial": -0.19925353468027246,
+        "parentAngular": -0.8795188549671156,
+        "parentPositive": 0.273586840008057,
+        "parentNegative": -0.46358684000805706,
+        "childF": -4.337862045592234,
+        "childAxial": 0.0007464653197275517,
+        "childAngular": -0.5995188549671155,
+        "childPositive": -0.001463891332104117,
+        "childNegative": -0.12253610866789588,
+        "backingF": 5.362137954407766
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.127704888916014,
+      "point": [
+        1.4081524934055953,
+        1.7,
+        -40.09864143247144
+      ],
+      "full": 0.0007075807280249036,
+      "expanded": {
+        "parentF": -4.637904588239698,
+        "parentAxial": -0.1992924192719751,
+        "parentAngular": -0.8795186203304619,
+        "parentPositive": 0.27361806884977236,
+        "parentNegative": -0.4636180688497723,
+        "childF": -4.337904588239698,
+        "childAxial": 0.0007075807280249036,
+        "childAngular": -0.5995186203304619,
+        "childPositive": -0.0014237024407846022,
+        "childNegative": -0.1225762975592154,
+        "backingF": 5.362095411760302
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.127754888916016,
+      "point": [
+        1.408154556469165,
+        1.7,
+        -40.098691389890995
+      ],
+      "full": 0.0006686953630642978,
+      "expanded": {
+        "parentF": -4.637947130888598,
+        "parentAxial": -0.1993313046369357,
+        "parentAngular": -0.8795183856951656,
+        "parentPositive": 0.2736492956922626,
+        "parentNegative": -0.46364929569226254,
+        "childF": -4.337947130888598,
+        "childAxial": 0.0006686953630642978,
+        "childAngular": -0.5995183856951656,
+        "childPositive": -0.001383517744012852,
+        "childNegative": -0.12261648225598715,
+        "backingF": 5.362052869111402
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12780488891602,
+      "point": [
+        1.4081566195327346,
+        1.7,
+        -40.09874134731055
+      ],
+      "full": 0.0006298092249107379,
+      "expanded": {
+        "parentF": -4.637989673538945,
+        "parentAxial": -0.19937019077508927,
+        "parentAngular": -0.8795181510612265,
+        "parentPositive": 0.27368052053527003,
+        "parentNegative": -0.4636805205352701,
+        "childF": -4.337989673538945,
+        "childAxial": 0.0006298092249107379,
+        "childAngular": -0.5995181510612265,
+        "childPositive": -0.0013433372417297473,
+        "childNegative": -0.12265666275827025,
+        "backingF": 5.362010326461055
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12785488891602,
+      "point": [
+        1.4081586825963044,
+        1.7,
+        -40.09879130473011
+      ],
+      "full": 0.0005909223136356112,
+      "expanded": {
+        "parentF": -4.638032216190739,
+        "parentAxial": -0.1994090776863644,
+        "parentAngular": -0.8795179164286447,
+        "parentPositive": 0.27371174337853277,
+        "parentNegative": -0.4637117433785328,
+        "childF": -4.338032216190739,
+        "childAxial": 0.0005909223136356112,
+        "childAngular": -0.5995179164286447,
+        "childPositive": -0.0013031609338821082,
+        "childNegative": -0.12269683906611789,
+        "backingF": 5.361967783809261
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.127904888916014,
+      "point": [
+        1.4081607456598737,
+        1.7,
+        -40.09884126214966
+      ],
+      "full": 0.0005520346293265699,
+      "expanded": {
+        "parentF": -4.638074758843966,
+        "parentAxial": -0.19944796537067344,
+        "parentAngular": -0.8795176817974202,
+        "parentPositive": 0.2737429642217788,
+        "parentNegative": -0.46374296422177874,
+        "childF": -4.338074758843966,
+        "childAxial": 0.0005520346293265699,
+        "childAngular": -0.5995176817974202,
+        "childPositive": -0.001262988820429467,
+        "childNegative": -0.12273701117957053,
+        "backingF": 5.361925241156034
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.127954888916015,
+      "point": [
+        1.4081628087234435,
+        1.7,
+        -40.09889121956922
+      ],
+      "full": 0.0005131461720355723,
+      "expanded": {
+        "parentF": -4.638117301498645,
+        "parentAxial": -0.19948685382796444,
+        "parentAngular": -0.8795174471675528,
+        "parentPositive": 0.2737741830647549,
+        "parentNegative": -0.46377418306475493,
+        "childF": -4.338117301498645,
+        "childAxial": 0.0005131461720355723,
+        "childAngular": -0.5995174471675527,
+        "childPositive": -0.0012228209013060432,
+        "childNegative": -0.12277717909869396,
+        "backingF": 5.361882698501355
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12800488891602,
+      "point": [
+        1.4081648717870132,
+        1.7,
+        -40.098941176988774
+      ],
+      "full": 0.0004742569418405007,
+      "expanded": {
+        "parentF": -4.6381598441547665,
+        "parentAxial": -0.1995257430581595,
+        "parentAngular": -0.8795172125390425,
+        "parentPositive": 0.27380539990718966,
+        "parentNegative": -0.4638053999071897,
+        "childF": -4.338159844154767,
+        "childAxial": 0.0004742569418405007,
+        "childAngular": -0.5995172125390424,
+        "childPositive": -0.001182657176468871,
+        "childNegative": -0.12281734282353113,
+        "backingF": 5.3618401558452335
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12805488891602,
+      "point": [
+        1.4081669348505828,
+        1.7,
+        -40.09899113440834
+      ],
+      "full": 0.0004353669388064696,
+      "expanded": {
+        "parentF": -4.638202386812338,
+        "parentAxial": -0.19956463306119354,
+        "parentAngular": -0.8795169779118893,
+        "parentPositive": 0.2738366147488226,
+        "parentNegative": -0.46383661474882265,
+        "childF": -4.3382023868123385,
+        "childAxial": 0.0004353669388064696,
+        "childAngular": -0.5995169779118893,
+        "childPositive": -0.00114249764586144,
+        "childNegative": -0.12285750235413856,
+        "backingF": 5.361797613187662
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12810488891601,
+      "point": [
+        1.408168997914152,
+        1.7,
+        -40.099041091827885
+      ],
+      "full": 0.00039647616302085353,
+      "expanded": {
+        "parentF": -4.638244929471343,
+        "parentAxial": -0.19960352383697916,
+        "parentAngular": -0.8795167432860933,
+        "parentPositive": 0.27386782758938166,
+        "parentNegative": -0.4638678275893816,
+        "childF": -4.338244929471343,
+        "childAxial": 0.00039647616302085353,
+        "childAngular": -0.5995167432860933,
+        "childPositive": -0.0011023423094437823,
+        "childNegative": -0.12289765769055622,
+        "backingF": 5.361755070528657
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.128154888916015,
+      "point": [
+        1.4081710609777218,
+        1.7,
+        -40.09909104924744
+      ],
+      "full": 0.00035758461453905266,
+      "expanded": {
+        "parentF": -4.638287472131796,
+        "parentAxial": -0.19964241538546096,
+        "parentAngular": -0.8795165086616543,
+        "parentPositive": 0.27389903842860774,
+        "parentNegative": -0.4638990384286077,
+        "childF": -4.338287472131796,
+        "childAxial": 0.00035758461453905266,
+        "childAngular": -0.5995165086616543,
+        "childPositive": -0.0010621911671549467,
+        "childNegative": -0.12293780883284505,
+        "backingF": 5.361712527868204
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12820488891602,
+      "point": [
+        1.4081731240412916,
+        1.7,
+        -40.099141006667004
+      ],
+      "full": 0.000318692293435785,
+      "expanded": {
+        "parentF": -4.638330014793701,
+        "parentAxial": -0.19968130770656423,
+        "parentAngular": -0.8795162740385722,
+        "parentPositive": 0.27393024726624604,
+        "parentNegative": -0.463930247266246,
+        "childF": -4.338330014793701,
+        "childAxial": 0.000318692293435785,
+        "childAngular": -0.5995162740385722,
+        "childPositive": -0.0010220442189344259,
+        "childNegative": -0.12297795578106557,
+        "backingF": 5.361669985206299
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12825488891602,
+      "point": [
+        1.4081751871048611,
+        1.7,
+        -40.09919096408656
+      ],
+      "full": 0.0002797991997887661,
+      "expanded": {
+        "parentF": -4.6383725574570445,
+        "parentAxial": -0.19972020080021124,
+        "parentAngular": -0.8795160394168473,
+        "parentPositive": 0.273961454102016,
+        "parentNegative": -0.46396145410201606,
+        "childF": -4.338372557457045,
+        "childAxial": 0.0002797991997887661,
+        "childAngular": -0.5995160394168473,
+        "childPositive": -0.0009819014647485802,
+        "childNegative": -0.12301809853525142,
+        "backingF": 5.3616274425429555
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12830488891601,
+      "point": [
+        1.4081772501684304,
+        1.7,
+        -40.09924092150611
+      ],
+      "full": 0.00024090533367282507,
+      "expanded": {
+        "parentF": -4.638415100121825,
+        "parentAxial": -0.19975909466632719,
+        "parentAngular": -0.8795158047964793,
+        "parentPositive": 0.2739926589356604,
+        "parentNegative": -0.46399265893566044,
+        "childF": -4.338415100121825,
+        "childAxial": 0.00024090533367282507,
+        "childAngular": -0.5995158047964793,
+        "childPositive": -0.0009417629045387899,
+        "childNegative": -0.12305823709546121,
+        "backingF": 5.361584899878175
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.128354888916014,
+      "point": [
+        1.4081793132320002,
+        1.7,
+        -40.099290878925665
+      ],
+      "full": 0.00020201069514641512,
+      "expanded": {
+        "parentF": -4.638457642788053,
+        "parentAxial": -0.1997979893048536,
+        "parentAngular": -0.8795155701774681,
+        "parentPositive": 0.2740238617669126,
+        "parentNegative": -0.46402386176691257,
+        "childF": -4.338457642788053,
+        "childAxial": 0.00020201069514641512,
+        "childAngular": -0.599515570177468,
+        "childPositive": -0.0009016285382529854,
+        "childNegative": -0.12309837146174701,
+        "backingF": 5.361542357211947
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.128404888916016,
+      "point": [
+        1.40818137629557,
+        1.7,
+        -40.09934083634523
+      ],
+      "full": 0.00016311528428419875,
+      "expanded": {
+        "parentF": -4.638500185455736,
+        "parentAxial": -0.1998368847157158,
+        "parentAngular": -0.8795153355598139,
+        "parentPositive": 0.2740550625955247,
+        "parentNegative": -0.46405506259552476,
+        "childF": -4.338500185455736,
+        "childAxial": 0.00016311528428419875,
+        "childAngular": -0.5995153355598138,
+        "childPositive": -0.0008614983658221664,
+        "childNegative": -0.12313850163417783,
+        "backingF": 5.361499814544264
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12845488891602,
+      "point": [
+        1.4081834393591395,
+        1.7,
+        -40.09939079376478
+      ],
+      "full": 0.00012421910116733326,
+      "expanded": {
+        "parentF": -4.638542728124854,
+        "parentAxial": -0.19987578089883268,
+        "parentAngular": -0.8795151009435164,
+        "parentPositive": 0.27408626142120873,
+        "parentNegative": -0.4640862614212087,
+        "childF": -4.338542728124854,
+        "childAxial": 0.00012421910116733326,
+        "childAngular": -0.5995151009435163,
+        "childPositive": -0.0008213723872210199,
+        "childNegative": -0.12317862761277898,
+        "backingF": 5.361457271875146
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12850488891601,
+      "point": [
+        1.4081855024227088,
+        1.7,
+        -40.09944075118433
+      ],
+      "full": 8.53221458607667e-05,
+      "expanded": {
+        "parentF": -4.638585270795409,
+        "parentAxial": -0.19991467785413924,
+        "parentAngular": -0.8795148663285759,
+        "parentPositive": 0.27411745824370415,
+        "parentNegative": -0.4641174582437042,
+        "childF": -4.338585270795409,
+        "childAxial": 8.53221458607667e-05,
+        "childAngular": -0.5995148663285759,
+        "childPositive": -0.0007812506023917587,
+        "childNegative": -0.12321874939760824,
+        "backingF": 5.361414729204591
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.128554888916014,
+      "point": [
+        1.4081875654862785,
+        1.7,
+        -40.09949070860389
+      ],
+      "full": 4.642441843272227e-05,
+      "expanded": {
+        "parentF": -4.6386278134674175,
+        "parentAxial": -0.1999535755815673,
+        "parentAngular": -0.8795146317149921,
+        "parentPositive": 0.27414865306276703,
+        "parentNegative": -0.4641486530627671,
+        "childF": -4.338627813467418,
+        "childAxial": 4.642441843272227e-05,
+        "childAngular": -0.5995146317149921,
+        "childPositive": -0.0007411330112601644,
+        "childNegative": -0.12325886698873983,
+        "backingF": 5.3613721865325825
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.128604888916016,
+      "point": [
+        1.4081896285498483,
+        1.7,
+        -40.09954066602345
+      ],
+      "full": 7.525918951423183e-06,
+      "expanded": {
+        "parentF": -4.6386703561408735,
+        "parentAxial": -0.1999924740810486,
+        "parentAngular": -0.879514397102765,
+        "parentPositive": 0.2741798458781193,
+        "parentNegative": -0.46417984587811933,
+        "childF": -4.338670356140874,
+        "childAxial": 7.525918951423183e-06,
+        "childAngular": -0.599514397102765,
+        "childPositive": -0.0007010196137877678,
+        "childNegative": -0.12329898038621223,
+        "backingF": 5.3613296438591265
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12865488891602,
+      "point": [
+        1.4081916916134178,
+        1.7,
+        -40.09959062344301
+      ],
+      "full": -3.1373352498753615e-05,
+      "expanded": {
+        "parentF": -4.638712898815768,
+        "parentAxial": -0.20003137335249876,
+        "parentAngular": -0.8795141624918947,
+        "parentPositive": 0.27421103668949276,
+        "parentNegative": -0.4642110366894927,
+        "childF": -4.338712898815769,
+        "childAxial": -3.1373352498753615e-05,
+        "childAngular": -0.5995141624918947,
+        "childPositive": -0.0006609104099274954,
+        "childNegative": -0.1233390895900725,
+        "backingF": 5.361287101184232
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12870488891602,
+      "point": [
+        1.4081937546769876,
+        1.7,
+        -40.09964058086256
+      ],
+      "full": -7.027339585286008e-05,
+      "expanded": {
+        "parentF": -4.638755441492107,
+        "parentAxial": -0.20007027339585287,
+        "parentAngular": -0.879513927882381,
+        "parentPositive": 0.27424222549663313,
+        "parentNegative": -0.4642422254966332,
+        "childF": -4.338755441492107,
+        "childAxial": -7.027339585286008e-05,
+        "childAngular": -0.599513927882381,
+        "childPositive": -0.0006208053996156204,
+        "childNegative": -0.12337919460038438,
+        "backingF": 5.361244558507893
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12875488891601,
+      "point": [
+        1.408195817740557,
+        1.7,
+        -40.09969053828212
+      ],
+      "full": -0.00010917421104261749,
+      "expanded": {
+        "parentF": -4.638797984169892,
+        "parentAxial": -0.20010917421104263,
+        "parentAngular": -0.8795136932742241,
+        "parentPositive": 0.27427341229927094,
+        "parentNegative": -0.464273412299271,
+        "childF": -4.338797984169892,
+        "childAxial": -0.00010917421104261749,
+        "childAngular": -0.5995136932742241,
+        "childPositive": -0.0005807045828035706,
+        "childNegative": -0.12341929541719643,
+        "backingF": 5.361202015830108
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.128804888916015,
+      "point": [
+        1.4081978808041267,
+        1.7,
+        -40.099740495701674
+      ],
+      "full": -0.0001480757979901992,
+      "expanded": {
+        "parentF": -4.638840526849116,
+        "parentAxial": -0.2001480757979902,
+        "parentAngular": -0.8795134586674238,
+        "parentPositive": 0.2743045970971366,
+        "parentNegative": -0.4643045970971367,
+        "childF": -4.338840526849117,
+        "childAxial": -0.0001480757979901992,
+        "childAngular": -0.5995134586674238,
+        "childPositive": -0.0005406079594454938,
+        "childNegative": -0.1234593920405545,
+        "backingF": 5.361159473150884
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12885488891602,
+      "point": [
+        1.4081999438676962,
+        1.7,
+        -40.09979045312123
+      ],
+      "full": -0.00018697815663054618,
+      "expanded": {
+        "parentF": -4.638883069529786,
+        "parentAxial": -0.20018697815663056,
+        "parentAngular": -0.87951322406198,
+        "parentPositive": 0.2743357798899768,
+        "parentNegative": -0.46433577988997676,
+        "childF": -4.338883069529786,
+        "childAxial": -0.00018697815663054618,
+        "childAngular": -0.5995132240619799,
+        "childPositive": -0.0005005155294752761,
+        "childNegative": -0.12349948447052472,
+        "backingF": 5.361116930470214
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12890488891602,
+      "point": [
+        1.408202006931266,
+        1.7,
+        -40.099840410540786
+      ],
+      "full": -0.0002258812868889959,
+      "expanded": {
+        "parentF": -4.638925612211901,
+        "parentAxial": -0.200225881286889,
+        "parentAngular": -0.8795129894578928,
+        "parentPositive": 0.2743669606775243,
+        "parentNegative": -0.46436696067752425,
+        "childF": -4.338925612211901,
+        "childAxial": -0.0002258812868889959,
+        "childAngular": -0.5995129894578928,
+        "childPositive": -0.00046042729284334616,
+        "childNegative": -0.12353957270715665,
+        "backingF": 5.361074387788099
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12895488891601,
+      "point": [
+        1.4082040699948353,
+        1.7,
+        -40.09989036796034
+      ],
+      "full": -0.0002647851886876107,
+      "expanded": {
+        "parentF": -4.63896815489546,
+        "parentAxial": -0.20026478518868762,
+        "parentAngular": -0.8795127548551621,
+        "parentPositive": 0.27439813945951663,
+        "parentNegative": -0.4643981394595167,
+        "childF": -4.33896815489546,
+        "childAxial": -0.0002647851886876107,
+        "childAngular": -0.5995127548551621,
+        "childPositive": -0.00042034324949558055,
+        "childNegative": -0.12357965675050442,
+        "backingF": 5.36103184510454
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.129004888916015,
+      "point": [
+        1.408206133058405,
+        1.7,
+        -40.0999403253799
+      ],
+      "full": -0.00030368986196793735,
+      "expanded": {
+        "parentF": -4.639010697580463,
+        "parentAxial": -0.20030368986196795,
+        "parentAngular": -0.8795125202537879,
+        "parentPositive": 0.274429316235686,
+        "parentNegative": -0.46442931623568606,
+        "childF": -4.339010697580463,
+        "childAxial": -0.00030368986196793735,
+        "childAngular": -0.5995125202537879,
+        "childPositive": -0.0003802633993796878,
+        "childNegative": -0.12361973660062031,
+        "backingF": 5.360989302419537
+      },
+      "selected_branch": "child",
+      "active_leaf": "childAxial",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.129054888916016,
+      "point": [
+        1.4082081961219746,
+        1.7,
+        -40.09999028279945
+      ],
+      "full": -0.00034018774244048977,
+      "expanded": {
+        "parentF": -4.639053240266908,
+        "parentAxial": -0.20034259530665194,
+        "parentAngular": -0.8795122856537703,
+        "parentPositive": 0.2744604910057712,
+        "parentNegative": -0.46446049100577114,
+        "childF": -4.339053240266908,
+        "childAxial": -0.00034259530665192717,
+        "childAngular": -0.5995122856537702,
+        "childPositive": -0.00034018774244048977,
+        "childNegative": -0.12365981225755951,
+        "backingF": 5.360946759733092
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12910488891602,
+      "point": [
+        1.4082102591855443,
+        1.7,
+        -40.100040240219016
+      ],
+      "full": -0.00030011627862081003,
+      "expanded": {
+        "parentF": -4.639095782954803,
+        "parentAxial": -0.20038150152267148,
+        "parentAngular": -0.8795120510551089,
+        "parentPositive": 0.2744916637695102,
+        "parentNegative": -0.46449166376951023,
+        "childF": -4.339095782954804,
+        "childAxial": -0.000381501522671468,
+        "childAngular": -0.5995120510551089,
+        "childPositive": -0.00030011627862081003,
+        "childNegative": -0.12369988372137919,
+        "backingF": 5.360904217045197
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12915488891601,
+      "point": [
+        1.4082123222491136,
+        1.7,
+        -40.100090197638565
+      ],
+      "full": -0.00026004900787873764,
+      "expanded": {
+        "parentF": -4.639138325644132,
+        "parentAxial": -0.20042040850993892,
+        "parentAngular": -0.879511816457804,
+        "parentPositive": 0.2745228345266305,
+        "parentNegative": -0.46452283452663046,
+        "childF": -4.339138325644132,
+        "childAxial": -0.00042040850993890766,
+        "childAngular": -0.5995118164578039,
+        "childPositive": -0.00026004900787873764,
+        "childNegative": -0.12373995099212126,
+        "backingF": 5.360861674355868
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.129204888916014,
+      "point": [
+        1.4082143853126834,
+        1.7,
+        -40.10014015505812
+      ],
+      "full": -0.00021998593014482815,
+      "expanded": {
+        "parentF": -4.639180868334909,
+        "parentAxial": -0.2004593162684054,
+        "parentAngular": -0.8795115818618554,
+        "parentPositive": 0.27455400327687873,
+        "parentNegative": -0.4645540032768787,
+        "childF": -4.33918086833491,
+        "childAxial": -0.0004593162684053964,
+        "childAngular": -0.5995115818618554,
+        "childPositive": -0.00021998593014482815,
+        "childNegative": -0.12378001406985517,
+        "backingF": 5.360819131665091
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.129254888916016,
+      "point": [
+        1.408216448376253,
+        1.7,
+        -40.10019011247768
+      ],
+      "full": -0.00017992704537467263,
+      "expanded": {
+        "parentF": -4.63922341102713,
+        "parentAxial": -0.200498224797993,
+        "parentAngular": -0.8795113472672632,
+        "parentPositive": 0.27458517001998217,
+        "parentNegative": -0.4645851700199821,
+        "childF": -4.33922341102713,
+        "childAxial": -0.0004982247979929966,
+        "childAngular": -0.5995113472672632,
+        "childPositive": -0.00017992704537467263,
+        "childNegative": -0.12382007295462533,
+        "backingF": 5.36077658897287
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12930488891602,
+      "point": [
+        1.4082185114398227,
+        1.7,
+        -40.10024006989724
+      ],
+      "full": -0.00013987235349827154,
+      "expanded": {
+        "parentF": -4.639265953720802,
+        "parentAxial": -0.20053713409862706,
+        "parentAngular": -0.8795111126740273,
+        "parentPositive": 0.27461633475569236,
+        "parentNegative": -0.4646163347556923,
+        "childF": -4.339265953720802,
+        "childAxial": -0.0005371340986270456,
+        "childAngular": -0.5995111126740272,
+        "childPositive": -0.00013987235349827154,
+        "childNegative": -0.12386012764650173,
+        "backingF": 5.360734046279198
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12935488891601,
+      "point": [
+        1.408220574503392,
+        1.7,
+        -40.10029002731679
+      ],
+      "full": -9.982185448631498e-05,
+      "expanded": {
+        "parentF": -4.639308496415903,
+        "parentAxial": -0.20057604417022962,
+        "parentAngular": -0.8795108780821477,
+        "parentPositive": 0.27464749748372286,
+        "parentNegative": -0.4646474974837228,
+        "childF": -4.339308496415903,
+        "childAxial": -0.000576044170229606,
+        "childAngular": -0.5995108780821476,
+        "childPositive": -9.982185448631498e-05,
+        "childNegative": -0.12390017814551368,
+        "backingF": 5.360691503584097
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.129404888916014,
+      "point": [
+        1.4082226375669618,
+        1.7,
+        -40.100339984736344
+      ],
+      "full": -5.977554826214204e-05,
+      "expanded": {
+        "parentF": -4.639351039112456,
+        "parentAxial": -0.20061495501273569,
+        "parentAngular": -0.8795106434916241,
+        "parentPositive": 0.274678658203829,
+        "parentNegative": -0.46467865820382903,
+        "childF": -4.339351039112456,
+        "childAxial": -0.000614955012735674,
+        "childAngular": -0.5995106434916241,
+        "childPositive": -5.977554826214204e-05,
+        "childNegative": -0.12394022445173786,
+        "backingF": 5.360648960887544
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.129454888916015,
+      "point": [
+        1.4082247006305313,
+        1.7,
+        -40.1003899421559
+      ],
+      "full": -1.973343477706946e-05,
+      "expanded": {
+        "parentF": -4.639393581810452,
+        "parentAxial": -0.2006538666260802,
+        "parentAngular": -0.8795104089024568,
+        "parentPositive": 0.2747098169157396,
+        "parentNegative": -0.46470981691573965,
+        "childF": -4.3393935818104525,
+        "childAxial": -0.0006538666260801906,
+        "childAngular": -0.5995104089024568,
+        "childPositive": -1.973343477706946e-05,
+        "childNegative": -0.12398026656522293,
+        "backingF": 5.360606418189548
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12950488891602,
+      "point": [
+        1.408226763694101,
+        1.7,
+        -40.10043989957546
+      ],
+      "full": 2.0304486028577262e-05,
+      "expanded": {
+        "parentF": -4.639436124509898,
+        "parentAxial": -0.20069277901018528,
+        "parentAngular": -0.8795101743146457,
+        "parentPositive": 0.27474097361919725,
+        "parentNegative": -0.4647409736191972,
+        "childF": -4.3394361245098985,
+        "childAxial": -0.0006927790101852738,
+        "childAngular": -0.5995101743146457,
+        "childPositive": 2.0304486028577262e-05,
+        "childNegative": -0.12402030448602858,
+        "backingF": 5.360563875490102
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12955488891602,
+      "point": [
+        1.4082288267576706,
+        1.7,
+        -40.10048985699502
+      ],
+      "full": 6.033821420053931e-05,
+      "expanded": {
+        "parentF": -4.639478667210783,
+        "parentAxial": -0.20073169216497627,
+        "parentAngular": -0.8795099397281908,
+        "parentPositive": 0.27477212831392883,
+        "parentNegative": -0.4647721283139288,
+        "childF": -4.339478667210783,
+        "childAxial": -0.0007316921649762609,
+        "childAngular": -0.5995099397281908,
+        "childPositive": 6.033821420053931e-05,
+        "childNegative": -0.12406033821420054,
+        "backingF": 5.360521332789217
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12960488891601,
+      "point": [
+        1.4082308898212401,
+        1.7,
+        -40.10053981441457
+      ],
+      "full": 0.0001003677497916633,
+      "expanded": {
+        "parentF": -4.639521209913103,
+        "parentAxial": -0.2007706060903816,
+        "parentAngular": -0.8795097051430919,
+        "parentPositive": 0.27480328099966855,
+        "parentNegative": -0.4648032809996685,
+        "childF": -4.339521209913103,
+        "childAxial": -0.0007706060903815981,
+        "childAngular": -0.5995097051430919,
+        "childPositive": 0.0001003677497916633,
+        "childNegative": -0.12410036774979166,
+        "backingF": 5.360478790086897
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.129654888916015,
+      "point": [
+        1.4082329528848097,
+        1.7,
+        -40.10058977183413
+      ],
+      "full": 0.0001403930928760011,
+      "expanded": {
+        "parentF": -4.63956375261688,
+        "parentAxial": -0.2008095207863428,
+        "parentAngular": -0.8795094705593491,
+        "parentPositive": 0.2748344316761684,
+        "parentNegative": -0.46483443167616834,
+        "childF": -4.33956375261688,
+        "childAxial": -0.0008095207863427767,
+        "childAngular": -0.5995094705593491,
+        "childPositive": 0.0001403930928760011,
+        "childNegative": -0.124140393092876,
+        "backingF": 5.36043624738312
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12970488891602,
+      "point": [
+        1.4082350159483794,
+        1.7,
+        -40.100639729253686
+      ],
+      "full": 0.0001804142434962408,
+      "expanded": {
+        "parentF": -4.639606295322095,
+        "parentAxial": -0.20084843625277543,
+        "parentAngular": -0.8795092359769623,
+        "parentPositive": 0.2748655803431542,
+        "parentNegative": -0.46486558034315417,
+        "childF": -4.3396062953220955,
+        "childAxial": -0.0008484362527754197,
+        "childAngular": -0.5995092359769623,
+        "childPositive": 0.0001804142434962408,
+        "childNegative": -0.12418041424349624,
+        "backingF": 5.360393704677905
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12975488891602,
+      "point": [
+        1.408237079011949,
+        1.7,
+        -40.10068968667324
+      ],
+      "full": 0.0002204312017107246,
+      "expanded": {
+        "parentF": -4.639648838028754,
+        "parentAxial": -0.20088735248960476,
+        "parentAngular": -0.8795090013959316,
+        "parentPositive": 0.27489672700036527,
+        "parentNegative": -0.46489672700036533,
+        "childF": -4.339648838028754,
+        "childAxial": -0.0008873524896047535,
+        "childAngular": -0.5995090013959316,
+        "childPositive": 0.0002204312017107246,
+        "childNegative": -0.12422043120171072,
+        "backingF": 5.360351161971246
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12980488891601,
+      "point": [
+        1.4082391420755185,
+        1.7,
+        -40.10073964409279
+      ],
+      "full": 0.00026044396756375043,
+      "expanded": {
+        "parentF": -4.639691380736849,
+        "parentAxial": -0.20092626949676584,
+        "parentAngular": -0.8795087668162568,
+        "parentPositive": 0.2749278716475262,
+        "parentNegative": -0.46492787164752614,
+        "childF": -4.339691380736849,
+        "childAxial": -0.0009262694967658303,
+        "childAngular": -0.5995087668162568,
+        "childPositive": 0.00026044396756375043,
+        "childNegative": -0.12426044396756375,
+        "backingF": 5.360308619263151
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.129854888916014,
+      "point": [
+        1.408241205139088,
+        1.7,
+        -40.10078960151235
+      ],
+      "full": 0.0003004525411410275,
+      "expanded": {
+        "parentF": -4.639733923446402,
+        "parentAxial": -0.20096518727419682,
+        "parentAngular": -0.8795085322379378,
+        "parentPositive": 0.2749590142843993,
+        "parentNegative": -0.46495901428439934,
+        "childF": -4.339733923446402,
+        "childAxial": -0.0009651872741968104,
+        "childAngular": -0.5995085322379378,
+        "childPositive": 0.0003004525411410275,
+        "childNegative": -0.12430045254114103,
+        "backingF": 5.360266076553598
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.129904888916016,
+      "point": [
+        1.4082432682026578,
+        1.7,
+        -40.10083955893191
+      ],
+      "full": 0.00034045692247391957,
+      "expanded": {
+        "parentF": -4.639776466157392,
+        "parentAxial": -0.2010041058218069,
+        "parentAngular": -0.8795082976609748,
+        "parentPositive": 0.27499015491070133,
+        "parentNegative": -0.4649901549107014,
+        "childF": -4.339776466157392,
+        "childAxial": -0.0010041058218068777,
+        "childAngular": -0.5995082976609748,
+        "childPositive": 0.00034045692247391957,
+        "childNegative": -0.12434045692247392,
+        "backingF": 5.360223533842608
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.12995488891602,
+      "point": [
+        1.4082453312662275,
+        1.7,
+        -40.100889516351465
+      ],
+      "full": 0.0003804571116228783,
+      "expanded": {
+        "parentF": -4.639819008869824,
+        "parentAxial": -0.20104302513954064,
+        "parentAngular": -0.8795080630853677,
+        "parentPositive": 0.27502129352617,
+        "parentNegative": -0.46502129352616994,
+        "childF": -4.339819008869824,
+        "childAxial": -0.001043025139540632,
+        "childAngular": -0.5995080630853676,
+        "childPositive": 0.0003804571116228783,
+        "childNegative": -0.12438045711162288,
+        "backingF": 5.360180991130176
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13000488891601,
+      "point": [
+        1.4082473943297968,
+        1.7,
+        -40.10093947377102
+      ],
+      "full": 0.0004204531086460239,
+      "expanded": {
+        "parentF": -4.6398615515837,
+        "parentAxial": -0.2010819452273202,
+        "parentAngular": -0.8795078285111163,
+        "parentPositive": 0.2750524301305439,
+        "parentNegative": -0.465052430130544,
+        "childF": -4.3398615515837005,
+        "childAxial": -0.0010819452273201913,
+        "childAngular": -0.5995078285111163,
+        "childPositive": 0.0004204531086460239,
+        "childNegative": -0.12442045310864602,
+        "backingF": 5.3601384484163
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.130054888916014,
+      "point": [
+        1.4082494573933664,
+        1.7,
+        -40.10098943119058
+      ],
+      "full": 0.00046044491360835993,
+      "expanded": {
+        "parentF": -4.639904094299021,
+        "parentAxial": -0.20112086608507407,
+        "parentAngular": -0.8795075939382209,
+        "parentPositive": 0.27508356472356743,
+        "parentNegative": -0.4650835647235675,
+        "childF": -4.339904094299021,
+        "childAxial": -0.001120866085074057,
+        "childAngular": -0.5995075939382208,
+        "childPositive": 0.00046044491360835993,
+        "childNegative": -0.12446044491360836,
+        "backingF": 5.360095905700979
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.130104888916016,
+      "point": [
+        1.4082515204569361,
+        1.7,
+        -40.10103938861013
+      ],
+      "full": 0.0005004325265555165,
+      "expanded": {
+        "parentF": -4.639946637015783,
+        "parentAxial": -0.20115978771272752,
+        "parentAngular": -0.8795073593666811,
+        "parentPositive": 0.27511469730496774,
+        "parentNegative": -0.4651146973049677,
+        "childF": -4.3399466370157835,
+        "childAxial": -0.0011597877127275114,
+        "childAngular": -0.5995073593666811,
+        "childPositive": 0.0005004325265555165,
+        "childNegative": -0.12450043252655552,
+        "backingF": 5.360053362984217
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13015488891602,
+      "point": [
+        1.408253583520506,
+        1.7,
+        -40.10108934602969
+      ],
+      "full": 0.0005404159475511094,
+      "expanded": {
+        "parentF": -4.639989179733992,
+        "parentAxial": -0.20119871011021234,
+        "parentAngular": -0.8795071247964971,
+        "parentPositive": 0.27514582787448694,
+        "parentNegative": -0.4651458278744869,
+        "childF": -4.339989179733992,
+        "childAxial": -0.001198710110212331,
+        "childAngular": -0.599507124796497,
+        "childPositive": 0.0005404159475511094,
+        "childNegative": -0.12454041594755111,
+        "backingF": 5.360010820266008
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13020488891602,
+      "point": [
+        1.4082556465840754,
+        1.7,
+        -40.10113930344925
+      ],
+      "full": 0.000580395176653592,
+      "expanded": {
+        "parentF": -4.640031722453648,
+        "parentAxial": -0.20123763327746663,
+        "parentAngular": -0.8795068902276687,
+        "parentPositive": 0.2751769564318609,
+        "parentNegative": -0.46517695643186097,
+        "childF": -4.340031722453648,
+        "childAxial": -0.001237633277466621,
+        "childAngular": -0.5995068902276687,
+        "childPositive": 0.000580395176653592,
+        "childNegative": -0.12458039517665359,
+        "backingF": 5.359968277546352
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.130254888916014,
+      "point": [
+        1.4082577096476447,
+        1.7,
+        -40.1011892608688
+      ],
+      "full": 0.000620370213904986,
+      "expanded": {
+        "parentF": -4.640074265174736,
+        "parentAxial": -0.20127655721439314,
+        "parentAngular": -0.8795066556601961,
+        "parentPositive": 0.275208082976817,
+        "parentNegative": -0.46520808297681704,
+        "childF": -4.340074265174736,
+        "childAxial": -0.0012765572143931259,
+        "childAngular": -0.5995066556601961,
+        "childPositive": 0.000620370213904986,
+        "childNegative": -0.12462037021390499,
+        "backingF": 5.359925734825264
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.130304888916015,
+      "point": [
+        1.4082597727112145,
+        1.7,
+        -40.101239218288356
+      ],
+      "full": 0.000660341059384284,
+      "expanded": {
+        "parentF": -4.640116807897274,
+        "parentAxial": -0.20131548192094617,
+        "parentAngular": -0.8795064210940791,
+        "parentPositive": 0.2752392075091079,
+        "parentNegative": -0.46523920750910797,
+        "childF": -4.3401168078972745,
+        "childAxial": -0.00131548192094616,
+        "childAngular": -0.599506421094079,
+        "childPositive": 0.000660341059384284,
+        "childNegative": -0.12466034105938428,
+        "backingF": 5.359883192102726
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13035488891602,
+      "point": [
+        1.4082618357747843,
+        1.7,
+        -40.10128917570791
+      ],
+      "full": 0.0007003077131384483,
+      "expanded": {
+        "parentF": -4.640159350621255,
+        "parentAxial": -0.20135440739704458,
+        "parentAngular": -0.8795061865293177,
+        "parentPositive": 0.2752703300284617,
+        "parentNegative": -0.46527033002846174,
+        "childF": -4.3401593506212555,
+        "childAxial": -0.0013544073970445658,
+        "childAngular": -0.5995061865293176,
+        "childPositive": 0.0007003077131384483,
+        "childNegative": -0.12470030771313845,
+        "backingF": 5.359840649378745
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13040488891602,
+      "point": [
+        1.4082638988383538,
+        1.7,
+        -40.101339133127475
+      ],
+      "full": 0.0007402701752289853,
+      "expanded": {
+        "parentF": -4.640201893346686,
+        "parentAxial": -0.2013933336426233,
+        "parentAngular": -0.8795059519659117,
+        "parentPositive": 0.27530145053461785,
+        "parentNegative": -0.4653014505346178,
+        "childF": -4.340201893346686,
+        "childAxial": -0.0013933336426232845,
+        "childAngular": -0.5995059519659117,
+        "childPositive": 0.0007402701752289853,
+        "childNegative": -0.12474027017522898,
+        "backingF": 5.359798106653314
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13045488891601,
+      "point": [
+        1.408265961901923,
+        1.7,
+        -40.10138909054702
+      ],
+      "full": 0.0007802284457025799,
+      "expanded": {
+        "parentF": -4.640244436073548,
+        "parentAxial": -0.20143226065758824,
+        "parentAngular": -0.8795057174038614,
+        "parentPositive": 0.27533256902730685,
+        "parentNegative": -0.4653325690273068,
+        "childF": -4.340244436073548,
+        "childAxial": -0.0014322606575882246,
+        "childAngular": -0.5995057174038614,
+        "childPositive": 0.0007802284457025799,
+        "childNegative": -0.12478022844570258,
+        "backingF": 5.359755563926452
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.130504888916015,
+      "point": [
+        1.4082680249654929,
+        1.7,
+        -40.10143904796658
+      ],
+      "full": 0.0008201825246300642,
+      "expanded": {
+        "parentF": -4.64028697880186,
+        "parentAxial": -0.20147118844189377,
+        "parentAngular": -0.8795054828431665,
+        "parentPositive": 0.27536368550627255,
+        "parentNegative": -0.4653636855062726,
+        "childF": -4.34028697880186,
+        "childAxial": -0.001471188441893756,
+        "childAngular": -0.5995054828431665,
+        "childPositive": 0.0008201825246300642,
+        "childNegative": -0.12482018252463006,
+        "backingF": 5.35971302119814
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.130554888916016,
+      "point": [
+        1.4082700880290626,
+        1.7,
+        -40.10148900538614
+      ],
+      "full": 0.0008601324120703358,
+      "expanded": {
+        "parentF": -4.640329521531621,
+        "parentAxial": -0.2015101169954619,
+        "parentAngular": -0.8795052482838273,
+        "parentPositive": 0.27539479997125427,
+        "parentNegative": -0.4653947999712542,
+        "childF": -4.340329521531621,
+        "childAxial": -0.0015101169954618854,
+        "childAngular": -0.5995052482838272,
+        "childPositive": 0.0008601324120703358,
+        "childNegative": -0.12486013241207033,
+        "backingF": 5.359670478468379
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13060488891602,
+      "point": [
+        1.4082721510926322,
+        1.7,
+        -40.1015389628057
+      ],
+      "full": 0.0009000781080681364,
+      "expanded": {
+        "parentF": -4.640372064262818,
+        "parentAxial": -0.20154904631821463,
+        "parentAngular": -0.8795050137258433,
+        "parentPositive": 0.27542591242197734,
+        "parentNegative": -0.4654259124219774,
+        "childF": -4.3403720642628185,
+        "childAxial": -0.0015490463182146197,
+        "childAngular": -0.5995050137258433,
+        "childPositive": 0.0009000781080681364,
+        "childNegative": -0.12490007810806814,
+        "backingF": 5.359627935737182
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13065488891601,
+      "point": [
+        1.4082742141562015,
+        1.7,
+        -40.10158892022525
+      ],
+      "full": 0.0009400196126863603,
+      "expanded": {
+        "parentF": -4.640414606995454,
+        "parentAxial": -0.20158797641007725,
+        "parentAngular": -0.8795047791692148,
+        "parentPositive": 0.2754570228581834,
+        "parentNegative": -0.46545702285818336,
+        "childF": -4.340414606995454,
+        "childAxial": -0.0015879764100772409,
+        "childAngular": -0.5995047791692147,
+        "childPositive": 0.0009400196126863603,
+        "childNegative": -0.12494001961268636,
+        "backingF": 5.359585393004546
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.130704888916014,
+      "point": [
+        1.4082762772197712,
+        1.7,
+        -40.1016388776448
+      ],
+      "full": 0.000979956925992398,
+      "expanded": {
+        "parentF": -4.6404571497295395,
+        "parentAxial": -0.20162690727099125,
+        "parentAngular": -0.8795045446139416,
+        "parentPositive": 0.27548813127961524,
+        "parentNegative": -0.4654881312796152,
+        "childF": -4.34045714972954,
+        "childAxial": -0.0016269072709912402,
+        "childAngular": -0.5995045446139415,
+        "childPositive": 0.000979956925992398,
+        "childNegative": -0.1249799569259924,
+        "backingF": 5.3595428502704605
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.130754888916016,
+      "point": [
+        1.408278340283341,
+        1.7,
+        -40.101688835064365
+      ],
+      "full": 0.0010198900480455353,
+      "expanded": {
+        "parentF": -4.640499692465075,
+        "parentAxial": -0.20166583890088502,
+        "parentAngular": -0.8795043100600236,
+        "parentPositive": 0.27551923768601105,
+        "parentNegative": -0.4655192376860111,
+        "childF": -4.340499692465075,
+        "childAxial": -0.0016658389008850083,
+        "childAngular": -0.5995043100600236,
+        "childPositive": 0.0010198900480455353,
+        "childNegative": -0.12501989004804553,
+        "backingF": 5.359500307534925
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13080488891602,
+      "point": [
+        1.4082804033469105,
+        1.7,
+        -40.10173879248392
+      ],
+      "full": 0.0010598189788900148,
+      "expanded": {
+        "parentF": -4.640542235202045,
+        "parentAxial": -0.20170477129967102,
+        "parentAngular": -0.8795040755074611,
+        "parentPositive": 0.2755503420770965,
+        "parentNegative": -0.46555034207709656,
+        "childF": -4.3405422352020455,
+        "childAxial": -0.001704771299671004,
+        "childAngular": -0.5995040755074611,
+        "childPositive": 0.0010598189788900148,
+        "childNegative": -0.12505981897889,
+        "backingF": 5.359457764797955
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13085488891601,
+      "point": [
+        1.4082824664104798,
+        1.7,
+        -40.10178874990347
+      ],
+      "full": 0.001099743718588564,
+      "expanded": {
+        "parentF": -4.640584777940455,
+        "parentAxial": -0.20174370446728407,
+        "parentAngular": -0.8795038409562539,
+        "parentPositive": 0.27558144445261146,
+        "parentNegative": -0.4655814444526115,
+        "childF": -4.340584777940455,
+        "childAxial": -0.0017437044672840574,
+        "childAngular": -0.5995038409562539,
+        "childPositive": 0.001099743718588564,
+        "childNegative": -0.12509974371858856,
+        "backingF": 5.359415222059545
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.130904888916014,
+      "point": [
+        1.4082845294740496,
+        1.7,
+        -40.10183870732303
+      ],
+      "full": 0.001139664267217122,
+      "expanded": {
+        "parentF": -4.640627320680319,
+        "parentAxial": -0.2017826384036689,
+        "parentAngular": -0.8795036064064018,
+        "parentPositive": 0.2756125448123059,
+        "parentNegative": -0.46561254481230585,
+        "childF": -4.340627320680319,
+        "childAxial": -0.0017826384036688792,
+        "childAngular": -0.5995036064064018,
+        "childPositive": 0.001139664267217122,
+        "childNegative": -0.12513966426721712,
+        "backingF": 5.359372679319681
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.130954888916015,
+      "point": [
+        1.4082865925376193,
+        1.7,
+        -40.10188866474259
+      ],
+      "full": 0.0011795806248160456,
+      "expanded": {
+        "parentF": -4.640669863421621,
+        "parentAxial": -0.20182157310873455,
+        "parentAngular": -0.879503371857905,
+        "parentPositive": 0.2756436431559024,
+        "parentNegative": -0.46564364315590234,
+        "childF": -4.340669863421621,
+        "childAxial": -0.0018215731087345421,
+        "childAngular": -0.5995033718579049,
+        "childPositive": 0.0011795806248160456,
+        "childNegative": -0.12517958062481604,
+        "backingF": 5.359330136578379
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13100488891602,
+      "point": [
+        1.4082886556011889,
+        1.7,
+        -40.101938622162145
+      ],
+      "full": 0.0012194927914511156,
+      "expanded": {
+        "parentF": -4.640712406164367,
+        "parentAxial": -0.20186050858241283,
+        "parentAngular": -0.8795031373107632,
+        "parentPositive": 0.275674739483144,
+        "parentNegative": -0.4656747394831441,
+        "childF": -4.340712406164367,
+        "childAxial": -0.0018605085824128231,
+        "childAngular": -0.5995031373107632,
+        "childPositive": 0.0012194927914511156,
+        "childNegative": -0.12521949279145111,
+        "backingF": 5.359287593835633
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13105488891602,
+      "point": [
+        1.4082907186647586,
+        1.7,
+        -40.1019885795817
+      ],
+      "full": 0.0012594007671835605,
+      "expanded": {
+        "parentF": -4.6407549489085556,
+        "parentAxial": -0.20189944482463867,
+        "parentAngular": -0.8795029027649767,
+        "parentPositive": 0.2757058337937681,
+        "parentNegative": -0.4657058337937682,
+        "childF": -4.340754948908556,
+        "childAxial": -0.001899444824638663,
+        "childAngular": -0.5995029027649766,
+        "childPositive": 0.0012594007671835605,
+        "childNegative": -0.12525940076718356,
+        "backingF": 5.3592450510914444
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13110488891601,
+      "point": [
+        1.408292781728328,
+        1.7,
+        -40.102038537001256
+      ],
+      "full": 0.001299304552065117,
+      "expanded": {
+        "parentF": -4.640797491654187,
+        "parentAxial": -0.20193838183533724,
+        "parentAngular": -0.8795026682205451,
+        "parentPositive": 0.2757369260875052,
+        "parentNegative": -0.46573692608750517,
+        "childF": -4.340797491654187,
+        "childAxial": -0.0019383818353372329,
+        "childAngular": -0.5995026682205451,
+        "childPositive": 0.001299304552065117,
+        "childNegative": -0.12529930455206512,
+        "backingF": 5.359202508345813
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.131154888916015,
+      "point": [
+        1.4082948447918977,
+        1.7,
+        -40.10208849442081
+      ],
+      "full": 0.0013392041461635085,
+      "expanded": {
+        "parentF": -4.64084003440126,
+        "parentAxial": -0.20197731961444032,
+        "parentAngular": -0.8795024336774688,
+        "parentPositive": 0.2757680163640994,
+        "parentNegative": -0.46576801636409937,
+        "childF": -4.3408400344012605,
+        "childAxial": -0.0019773196144403093,
+        "childAngular": -0.5995024336774688,
+        "childPositive": 0.0013392041461635085,
+        "childNegative": -0.1253392041461635,
+        "backingF": 5.35915996559874
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13120488891602,
+      "point": [
+        1.4082969078554672,
+        1.7,
+        -40.10213845184037
+      ],
+      "full": 0.0013790995495390757,
+      "expanded": {
+        "parentF": -4.64088257714978,
+        "parentAxial": -0.2020162581618667,
+        "parentAngular": -0.8795021991357475,
+        "parentPositive": 0.27579910462329027,
+        "parentNegative": -0.4657991046232903,
+        "childF": -4.34088257714978,
+        "childAxial": -0.0020162581618666797,
+        "childAngular": -0.5995021991357474,
+        "childPositive": 0.0013790995495390757,
+        "childNegative": -0.12537909954953907,
+        "backingF": 5.35911742285022
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13125488891602,
+      "point": [
+        1.408298970919037,
+        1.7,
+        -40.102188409259924
+      ],
+      "full": 0.001418990762246497,
+      "expanded": {
+        "parentF": -4.640925119899742,
+        "parentAxial": -0.20205519747755452,
+        "parentAngular": -0.8795019645953811,
+        "parentPositive": 0.275830190864808,
+        "parentNegative": -0.4658301908648079,
+        "childF": -4.340925119899742,
+        "childAxial": -0.0020551974775545045,
+        "childAngular": -0.5995019645953811,
+        "childPositive": 0.001418990762246497,
+        "childNegative": -0.1254189907622465,
+        "backingF": 5.359074880100258
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13130488891601,
+      "point": [
+        1.4083010339826063,
+        1.7,
+        -40.10223836667948
+      ],
+      "full": 0.00145887778434306,
+      "expanded": {
+        "parentF": -4.640967662651144,
+        "parentAxial": -0.20209413756142902,
+        "parentAngular": -0.8795017300563697,
+        "parentPositive": 0.27586127508838787,
+        "parentNegative": -0.4658612750883878,
+        "childF": -4.340967662651144,
+        "childAxial": -0.0020941375614290103,
+        "childAngular": -0.5995017300563696,
+        "childPositive": 0.00145887778434306,
+        "childNegative": -0.12545887778434306,
+        "backingF": 5.359032337348856
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.131354888916015,
+      "point": [
+        1.408303097046176,
+        1.7,
+        -40.102288324099035
+      ],
+      "full": 0.0014987606159033717,
+      "expanded": {
+        "parentF": -4.641010205403992,
+        "parentAxial": -0.20213307841341877,
+        "parentAngular": -0.8795014955187132,
+        "parentPositive": 0.2758923572937807,
+        "parentNegative": -0.46589235729378076,
+        "childF": -4.341010205403992,
+        "childAxial": -0.002133078413418754,
+        "childAngular": -0.5995014955187131,
+        "childPositive": 0.0014987606159033717,
+        "childNegative": -0.12549876061590337,
+        "backingF": 5.358989794596008
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.131404888916016,
+      "point": [
+        1.4083051601097456,
+        1.7,
+        -40.10233828151859
+      ],
+      "full": 0.0015386392569748386,
+      "expanded": {
+        "parentF": -4.641052748158284,
+        "parentAxial": -0.20217202003344892,
+        "parentAngular": -0.8795012609824115,
+        "parentPositive": 0.27592343748071235,
+        "parentNegative": -0.4659234374807124,
+        "childF": -4.341052748158284,
+        "childAxial": -0.002172020033448907,
+        "childAngular": -0.5995012609824115,
+        "childPositive": 0.0015386392569748386,
+        "childNegative": -0.12553863925697484,
+        "backingF": 5.358947251841716
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13145488891602,
+      "point": [
+        1.4083072231733154,
+        1.7,
+        -40.102388238938154
+      ],
+      "full": 0.0015785137076271272,
+      "expanded": {
+        "parentF": -4.6410952909140235,
+        "parentAxial": -0.20221096242146086,
+        "parentAngular": -0.8795010264474649,
+        "parentPositive": 0.2759545156489265,
+        "parentNegative": -0.4659545156489264,
+        "childF": -4.341095290914024,
+        "childAxial": -0.002210962421460849,
+        "childAngular": -0.5995010264474648,
+        "childPositive": 0.0015785137076271272,
+        "childNegative": -0.12557851370762713,
+        "backingF": 5.3589047090859765
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13150488891601,
+      "point": [
+        1.4083092862368847,
+        1.7,
+        -40.1024381963577
+      ],
+      "full": 0.001618383967900594,
+      "expanded": {
+        "parentF": -4.641137833671195,
+        "parentAxial": -0.20224990557736378,
+        "parentAngular": -0.879500791913873,
+        "parentPositive": 0.27598559179814464,
+        "parentNegative": -0.4659855917981447,
+        "childF": -4.341137833671195,
+        "childAxial": -0.0022499055773637644,
+        "childAngular": -0.599500791913873,
+        "childPositive": 0.001618383967900594,
+        "childNegative": -0.1256183839679006,
+        "backingF": 5.358862166328805
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.131554888916014,
+      "point": [
+        1.4083113493004544,
+        1.7,
+        -40.10248815377726
+      ],
+      "full": 0.0016582500378798937,
+      "expanded": {
+        "parentF": -4.641180376429815,
+        "parentAxial": -0.20228884950109577,
+        "parentAngular": -0.8795005573816359,
+        "parentPositive": 0.2760166659281247,
+        "parentNegative": -0.46601666592812463,
+        "childF": -4.341180376429815,
+        "childAxial": -0.0022888495010957577,
+        "childAngular": -0.5995005573816359,
+        "childPositive": 0.0016582500378798937,
+        "childNegative": -0.1256582500378799,
+        "backingF": 5.358819623570185
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.131604888916016,
+      "point": [
+        1.408313412364024,
+        1.7,
+        -40.102538111196814
+      ],
+      "full": 0.0016981119176170956,
+      "expanded": {
+        "parentF": -4.64122291918988,
+        "parentAxial": -0.2023277941925885,
+        "parentAngular": -0.8795003228507536,
+        "parentPositive": 0.2760477380385955,
+        "parentNegative": -0.46604773803859556,
+        "childF": -4.34122291918988,
+        "childAxial": -0.002327794192588495,
+        "childAngular": -0.5995003228507536,
+        "childPositive": 0.0016981119176170956,
+        "childNegative": -0.1256981119176171,
+        "backingF": 5.35877708081012
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13165488891602,
+      "point": [
+        1.4083154754275937,
+        1.7,
+        -40.10258806861638
+      ],
+      "full": 0.0017379696071760375,
+      "expanded": {
+        "parentF": -4.641265461951392,
+        "parentAxial": -0.20236673965177054,
+        "parentAngular": -0.879500088321226,
+        "parentPositive": 0.2760788081292974,
+        "parentNegative": -0.4660788081292975,
+        "childF": -4.341265461951392,
+        "childAxial": -0.002366739651770533,
+        "childAngular": -0.5995000883212259,
+        "childPositive": 0.0017379696071760375,
+        "childNegative": -0.12573796960717604,
+        "backingF": 5.358734538048608
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13170488891602,
+      "point": [
+        1.4083175384911635,
+        1.7,
+        -40.10263802603593
+      ],
+      "full": 0.0017778231066100103,
+      "expanded": {
+        "parentF": -4.6413080047143405,
+        "parentAxial": -0.20240568587856705,
+        "parentAngular": -0.8794998537930531,
+        "parentPositive": 0.2761098761999602,
+        "parentNegative": -0.46610987619996025,
+        "childF": -4.341308004714341,
+        "childAxial": -0.002405685878567043,
+        "childAngular": -0.599499853793053,
+        "childPositive": 0.0017778231066100103,
+        "childNegative": -0.12577782310661,
+        "backingF": 5.3586919952856595
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.131754888916014,
+      "point": [
+        1.4083196015547328,
+        1.7,
+        -40.10268798345548
+      ],
+      "full": 0.0018176724159792434,
+      "expanded": {
+        "parentF": -4.641350547478726,
+        "parentAxial": -0.20244463287289682,
+        "parentAngular": -0.8794996192662349,
+        "parentPositive": 0.27614094225032293,
+        "parentNegative": -0.4661409422503229,
+        "childF": -4.341350547478727,
+        "childAxial": -0.0024446328728968125,
+        "childAngular": -0.5994996192662349,
+        "childPositive": 0.0018176724159792434,
+        "childNegative": -0.12581767241597924,
+        "backingF": 5.358649452521274
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.131804888916015,
+      "point": [
+        1.4083216646183023,
+        1.7,
+        -40.102737940875045
+      ],
+      "full": 0.0018575175353617857,
+      "expanded": {
+        "parentF": -4.641393090244569,
+        "parentAxial": -0.20248358063470773,
+        "parentAngular": -0.8794993847407713,
+        "parentPositive": 0.27617200628013483,
+        "parentNegative": -0.4661720062801349,
+        "childF": -4.341393090244569,
+        "childAxial": -0.002483580634707716,
+        "childAngular": -0.5994993847407712,
+        "childPositive": 0.0018575175353617857,
+        "childNegative": -0.12585751753536178,
+        "backingF": 5.358606909755431
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13185488891602,
+      "point": [
+        1.408323727681872,
+        1.7,
+        -40.1027878982946
+      ],
+      "full": 0.00189735846479816,
+      "expanded": {
+        "parentF": -4.641435633011847,
+        "parentAxial": -0.20252252916391528,
+        "parentAngular": -0.8794991502166623,
+        "parentPositive": 0.27620306828911567,
+        "parentNegative": -0.4662030682891156,
+        "childF": -4.341435633011847,
+        "childAxial": -0.002522529163915266,
+        "childAngular": -0.5994991502166622,
+        "childPositive": 0.00189735846479816,
+        "childNegative": -0.12589735846479816,
+        "backingF": 5.358564366988153
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13190488891602,
+      "point": [
+        1.4083257907454418,
+        1.7,
+        -40.10283785571416
+      ],
+      "full": 0.001937195204367026,
+      "expanded": {
+        "parentF": -4.64147817578057,
+        "parentAxial": -0.2025614784604512,
+        "parentAngular": -0.8794989156939078,
+        "parentPositive": 0.2762341282770191,
+        "parentNegative": -0.46623412827701904,
+        "childF": -4.34147817578057,
+        "childAxial": -0.002561478460451183,
+        "childAngular": -0.5994989156939078,
+        "childPositive": 0.001937195204367026,
+        "childNegative": -0.12593719520436703,
+        "backingF": 5.35852182421943
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13195488891601,
+      "point": [
+        1.4083278538090112,
+        1.7,
+        -40.102887813133705
+      ],
+      "full": 0.0019770277541111825,
+      "expanded": {
+        "parentF": -4.641520718550729,
+        "parentAxial": -0.20260042852423743,
+        "parentAngular": -0.879498681172508,
+        "parentPositive": 0.2762651862435651,
+        "parentNegative": -0.46626518624356506,
+        "childF": -4.341520718550729,
+        "childAxial": -0.002600428524237419,
+        "childAngular": -0.5994986811725079,
+        "childPositive": 0.0019770277541111825,
+        "childNegative": -0.12597702775411118,
+        "backingF": 5.358479281449271
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.132004888916015,
+      "point": [
+        1.4083299168725807,
+        1.7,
+        -40.10293777055327
+      ],
+      "full": 0.0020168561141178376,
+      "expanded": {
+        "parentF": -4.641563261322342,
+        "parentAxial": -0.20263937935521864,
+        "parentAngular": -0.8794984466524626,
+        "parentPositive": 0.2762962421885128,
+        "parentNegative": -0.46629624218851273,
+        "childF": -4.341563261322342,
+        "childAxial": -0.0026393793552186295,
+        "childAngular": -0.5994984466524625,
+        "childPositive": 0.0020168561141178376,
+        "childNegative": -0.12601685611411784,
+        "backingF": 5.358436738677658
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13205488891602,
+      "point": [
+        1.4083319799361504,
+        1.7,
+        -40.102987727972824
+      ],
+      "full": 0.002056680284429291,
+      "expanded": {
+        "parentF": -4.641605804095392,
+        "parentAxial": -0.2026783309533136,
+        "parentAngular": -0.8794982121337716,
+        "parentPositive": 0.2763272961115827,
+        "parentNegative": -0.46632729611158263,
+        "childF": -4.341605804095392,
+        "childAxial": -0.0026783309533136013,
+        "childAngular": -0.5994982121337715,
+        "childPositive": 0.002056680284429291,
+        "childNegative": -0.1260566802844293,
+        "backingF": 5.358394195904608
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13210488891602,
+      "point": [
+        1.4083340429997202,
+        1.7,
+        -40.10303768539238
+      ],
+      "full": 0.002096500265115153,
+      "expanded": {
+        "parentF": -4.641648346869887,
+        "parentAxial": -0.20271728331844752,
+        "parentAngular": -0.879497977616435,
+        "parentPositive": 0.2763583480125197,
+        "parentNegative": -0.46635834801251963,
+        "childF": -4.341648346869887,
+        "childAxial": -0.0027172833184475054,
+        "childAngular": -0.599497977616435,
+        "childPositive": 0.002096500265115153,
+        "childNegative": -0.12609650026511515,
+        "backingF": 5.358351653130113
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13215488891601,
+      "point": [
+        1.4083361060632895,
+        1.7,
+        -40.10308764281193
+      ],
+      "full": 0.0021363160562306027,
+      "expanded": {
+        "parentF": -4.641690889645817,
+        "parentAxial": -0.20275623645054236,
+        "parentAngular": -0.8794977431004529,
+        "parentPositive": 0.276389397891056,
+        "parentNegative": -0.46638939789105605,
+        "childF": -4.341690889645817,
+        "childAxial": -0.0027562364505423487,
+        "childAngular": -0.5994977431004529,
+        "childPositive": 0.0021363160562306027,
+        "childNegative": -0.1261363160562306,
+        "backingF": 5.358309110354183
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.132204888916014,
+      "point": [
+        1.408338169126859,
+        1.7,
+        -40.10313760023149
+      ],
+      "full": 0.002176127657852911,
+      "expanded": {
+        "parentF": -4.6417334324232025,
+        "parentAxial": -0.20279519034955246,
+        "parentAngular": -0.8794975085858252,
+        "parentPositive": 0.2764204457469386,
+        "parentNegative": -0.46642044574693864,
+        "childF": -4.341733432423203,
+        "childAxial": -0.0027951903495524455,
+        "childAngular": -0.5994975085858252,
+        "childPositive": 0.002176127657852911,
+        "childNegative": -0.1261761276578529,
+        "backingF": 5.3582665675767975
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.132254888916016,
+      "point": [
+        1.4083402321904288,
+        1.7,
+        -40.10318755765105
+      ],
+      "full": 0.0022159350700337033,
+      "expanded": {
+        "parentF": -4.641775975202026,
+        "parentAxial": -0.2028341450153836,
+        "parentAngular": -0.8794972740725517,
+        "parentPositive": 0.2764514915798991,
+        "parentNegative": -0.4664514915798992,
+        "childF": -4.341775975202026,
+        "childAxial": -0.0028341450153835934,
+        "childAngular": -0.5994972740725517,
+        "childPositive": 0.0022159350700337033,
+        "childNegative": -0.1262159350700337,
+        "backingF": 5.358224024797974
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13230488891602,
+      "point": [
+        1.4083422952539986,
+        1.7,
+        -40.1032375150706
+      ],
+      "full": 0.0022557382928352077,
+      "expanded": {
+        "parentF": -4.641818517982291,
+        "parentAxial": -0.2028731004479643,
+        "parentAngular": -0.8794970395606325,
+        "parentPositive": 0.2764825353896745,
+        "parentNegative": -0.46648253538967444,
+        "childF": -4.341818517982291,
+        "childAxial": -0.002873100447964294,
+        "childAngular": -0.5994970395606325,
+        "childPositive": 0.0022557382928352077,
+        "childNegative": -0.1262557382928352,
+        "backingF": 5.358181482017709
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13235488891601,
+      "point": [
+        1.4083443583175679,
+        1.7,
+        -40.10328747249016
+      ],
+      "full": 0.0022955373263227052,
+      "expanded": {
+        "parentF": -4.641861060764,
+        "parentAxial": -0.20291205664723916,
+        "parentAngular": -0.8794968050500677,
+        "parentPositive": 0.2765135771760021,
+        "parentNegative": -0.46651357717600206,
+        "childF": -4.341861060764,
+        "childAxial": -0.0029120566472391474,
+        "childAngular": -0.5994968050500676,
+        "childPositive": 0.0022955373263227052,
+        "childNegative": -0.1262955373263227,
+        "backingF": 5.358138939236
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.132404888916014,
+      "point": [
+        1.4083464213811374,
+        1.7,
+        -40.103337429909715
+      ],
+      "full": 0.002335332170558202,
+      "expanded": {
+        "parentF": -4.64190360354715,
+        "parentAxial": -0.20295101361312368,
+        "parentAngular": -0.8794965705408571,
+        "parentPositive": 0.27654461693862065,
+        "parentNegative": -0.4665446169386206,
+        "childF": -4.34190360354715,
+        "childAxial": -0.0029510136131236653,
+        "childAngular": -0.599496570540857,
+        "childPositive": 0.002335332170558202,
+        "childNegative": -0.1263353321705582,
+        "backingF": 5.35809639645285
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.132454888916016,
+      "point": [
+        1.4083484844447072,
+        1.7,
+        -40.10338738732927
+      ],
+      "full": 0.002375122825605702,
+      "expanded": {
+        "parentF": -4.641946146331744,
+        "parentAxial": -0.20298997134554958,
+        "parentAngular": -0.8794963360330006,
+        "parentPositive": 0.2765756546772685,
+        "parentNegative": -0.46657565467726847,
+        "childF": -4.341946146331744,
+        "childAxial": -0.002989971345549569,
+        "childAngular": -0.5994963360330006,
+        "childPositive": 0.002375122825605702,
+        "childNegative": -0.1263751228256057,
+        "backingF": 5.358053853668256
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13250488891602,
+      "point": [
+        1.408350547508277,
+        1.7,
+        -40.103437344748826
+      ],
+      "full": 0.002414909291531653,
+      "expanded": {
+        "parentF": -4.641988689117783,
+        "parentAxial": -0.20302892984444199,
+        "parentAngular": -0.8794961015264983,
+        "parentPositive": 0.27660669039168695,
+        "parentNegative": -0.4666066903916869,
+        "childF": -4.341988689117783,
+        "childAxial": -0.0030289298444419743,
+        "childAngular": -0.5994961015264982,
+        "childPositive": 0.002414909291531653,
+        "childNegative": -0.12641490929153165,
+        "backingF": 5.358011310882217
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13255488891602,
+      "point": [
+        1.4083526105718465,
+        1.7,
+        -40.10348730216839
+      ],
+      "full": 0.002454691568399947,
+      "expanded": {
+        "parentF": -4.642031231905268,
+        "parentAxial": -0.2030678891097391,
+        "parentAngular": -0.8794958670213502,
+        "parentPositive": 0.2766377240816127,
+        "parentNegative": -0.46663772408161264,
+        "childF": -4.342031231905268,
+        "childAxial": -0.003067889109739097,
+        "childAngular": -0.5994958670213502,
+        "childPositive": 0.002454691568399947,
+        "childNegative": -0.12645469156839995,
+        "backingF": 5.357968768094732
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    },
+    {
+      "depth": 34.13260488891601,
+      "point": [
+        1.4083546736354158,
+        1.7,
+        -40.10353725958794
+      ],
+      "full": 0.002494469656256215,
+      "expanded": {
+        "parentF": -4.642073774694184,
+        "parentAxial": -0.2031068491413564,
+        "parentAngular": -0.8794956325175561,
+        "parentPositive": 0.27666875574676875,
+        "parentNegative": -0.4666687557467688,
+        "childF": -4.342073774694184,
+        "childAxial": -0.0031068491413563937,
+        "childAngular": -0.5994956325175561,
+        "childPositive": 0.002494469656256215,
+        "childNegative": -0.12649446965625621,
+        "backingF": 5.357926225305816
+      },
+      "selected_branch": "child",
+      "active_leaf": "childPositive",
+      "branch_ties": [
+        1
+      ]
+    }
+  ],
+  "exact_saved_gpu_point_float64_oracle": {
+    "point": [
+      1.4081889390945435,
+      1.7000000476837158,
+      -40.09954071044922
+    ],
+    "full": 7.519944361988884e-06,
+    "expanded": {
+      "parentF": -4.638670242419332,
+      "parentAxial": -0.19999248005563802,
+      "parentAngular": -0.8795144596071545,
+      "parentPositive": 0.274179791414194,
+      "parentNegative": -0.4641797914141941,
+      "childF": -4.338670242419332,
+      "childAxial": 7.519944361988884e-06,
+      "childAngular": -0.5995144596071544,
+      "childPositive": -0.0007010754070688741,
+      "childNegative": -0.12329892459293113,
+      "backingF": 5.361329757580668
+    },
+    "selected_branch": "child",
+    "active_leaf": "childAxial"
+  },
+  "cpu_centre_point_minus_saved_gpu_point": [
+    6.894553048475416e-07,
+    -4.768371586472142e-08,
+    4.4425767953271134e-08
+  ],
+  "saved_gpu_expanded_jets": {
+    "parentF": [
+      -0.21388466656208038,
+      0.07753641903400421,
+      0.8427460789680481,
+      -4.638670444488525
+    ],
+    "parentAxial": [
+      -0.044347431510686874,
+      -0.04277846962213516,
+      0.7768088579177856,
+      -0.1999911665916443
+    ],
+    "parentAngular": [
+      0.09287118911743164,
+      0.03120490536093712,
+      -0.0008609723881818354,
+      -0.8795144557952881
+    ],
+    "parentPositive": [
+      0.1197945773601532,
+      0.012809278443455696,
+      -0.619422435760498,
+      0.27418026328086853
+    ],
+    "parentNegative": [
+      -0.1197945773601532,
+      -0.012809278443455696,
+      0.619422435760498,
+      -0.46418026089668274
+    ],
+    "childF": [
+      -0.21388466656208038,
+      0.07753641903400421,
+      0.8427460789680481,
+      -4.338670253753662
+    ],
+    "childAxial": [
+      -0.044347431510686874,
+      -0.04277846962213516,
+      0.7768088579177856,
+      8.821487426757812e-06
+    ],
+    "childAngular": [
+      0.09287118911743164,
+      0.03120490536093712,
+      -0.0008609723881818354,
+      -0.5995144844055176
+    ],
+    "childPositive": [
+      0.13382337987422943,
+      0.0219682976603508,
+      -0.7973854541778564,
+      -0.0007008537650108337
+    ],
+    "childNegative": [
+      -0.13382337987422943,
+      -0.0219682976603508,
+      0.7973854541778564,
+      -0.12329914420843124
+    ],
+    "backingF": [
+      -0.21388466656208038,
+      0.07753641903400421,
+      0.8427460789680481,
+      5.361329555511475
+    ]
+  }
+}

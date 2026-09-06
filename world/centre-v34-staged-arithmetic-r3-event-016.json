@@ -1,0 +1,7 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "op": "float-extension"
+  },
+  "previous_sha256": "fcdd17f4c1460a0ece7c31aa2fe8aeee155b05a2c57e44ba9d764a5ddf84216f"
+}

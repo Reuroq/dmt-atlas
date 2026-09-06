@@ -1,0 +1,162 @@
+[
+  {
+    "source": "gpu_probe_v35r2_candidate.html",
+    "target": "gpu_probe_additive_v35r2_candidate.html",
+    "edits": [
+      [
+        "const output={z,time,high,width,height};",
+        "const output={z,time,high,width,height,words:{}};"
+      ],
+      [
+        "  output[['hits','gradientSlope','points','counts'][mode]]=Array.from(pixels);",
+        "  output[['hits','gradientSlope','points','counts'][mode]]=Array.from(pixels);\n  output.words[['hits','gradientSlope','points','counts'][mode]]=Array.from(new Uint32Array(pixels.buffer));"
+      ]
+    ],
+    "source_sha256": "75bbf3ada55452b00ddf913b5e174365cc32effa9aa43ca4468aabc1aa4e2701",
+    "target_sha256": "3401dd950f22a57a97433a24aaf9f7ff4757083396cdf070345de00d00e5c9cc"
+  },
+  {
+    "source": "gpu_probe_v35r2_leaves.html",
+    "target": "gpu_probe_additive_v35r2_leaves.html",
+    "edits": [
+      [
+        "new Float32Array(caseData.points)",
+        "new Float32Array(new Uint32Array(caseData.words.points).buffer)"
+      ],
+      [
+        "const result={};",
+        "const result={words:{}};"
+      ],
+      [
+        "  result[[\"f\", \"axial\", \"angular\", \"parent_shell\", \"child_shell\", \"parentF\", \"parentAxial\", \"parentAngular\", \"parentPositive\", \"parentNegative\", \"childF\", \"childAxial\", \"childAngular\", \"childPositive\", \"childNegative\", \"backingF\", \"apertureA\", \"apertureB\", \"composed\", \"cheapF\", \"cheapA\", \"cheapB\"][mode]]=Array.from(pixels);",
+        "  result[[\"f\", \"axial\", \"angular\", \"parent_shell\", \"child_shell\", \"parentF\", \"parentAxial\", \"parentAngular\", \"parentPositive\", \"parentNegative\", \"childF\", \"childAxial\", \"childAngular\", \"childPositive\", \"childNegative\", \"backingF\", \"apertureA\", \"apertureB\", \"composed\", \"cheapF\", \"cheapA\", \"cheapB\"][mode]]=Array.from(pixels);\n  result.words[[\"f\", \"axial\", \"angular\", \"parent_shell\", \"child_shell\", \"parentF\", \"parentAxial\", \"parentAngular\", \"parentPositive\", \"parentNegative\", \"childF\", \"childAxial\", \"childAngular\", \"childPositive\", \"childNegative\", \"backingF\", \"apertureA\", \"apertureB\", \"composed\", \"cheapF\", \"cheapA\", \"cheapB\"][mode]]=Array.from(new Uint32Array(pixels.buffer));"
+      ]
+    ],
+    "source_sha256": "ddfbb5f81db503a26d0f133a43075fecf773c6a4b8e42abe042963ba11dacd9c",
+    "target_sha256": "088708fdfff3699b211ffa62ae48d62d9511df9aa30391846f9abb6def0eb4e6"
+  },
+  {
+    "source": "probe_numeric_candidate_v35r2.py",
+    "target": "numeric_additive_v35r2.py",
+    "edits": [
+      [
+        "from runtime_centre_v35r2 import fixture_gate, passed, one_shot\nfrom cost_lifecycle_v35r2 import atomic_json, Lifecycle",
+        "from additive_runtime_v35r2 import fixture_gate, stage_receipt, worker, atomic_json, Journal as Lifecycle\nfrom additive_evidence_v35r2 import transport, finish_numeric"
+      ],
+      [
+        "    destination = HERE/'numeric-candidate-v35r2-check.json'",
+        "    destination = HERE/'centre-v35r2-additive-numerical/legacy-check.json'"
+      ],
+      [
+        "    passed('centre-v35r2-bounds-check.json')",
+        "    stage_receipt('bounds')"
+      ],
+      [
+        "    journal = Lifecycle(HERE/'centre-v35r2-gpu-lifecycle')",
+        "    journal = Lifecycle(HERE/'centre-v35r2-additive-numerical/browser')\n    scans = Lifecycle(HERE/'centre-v35r2-additive-numerical/scans')"
+      ],
+      [
+        "page.goto((HERE/'gpu_probe_v35r2_candidate.html').as_uri())",
+        "page.goto((HERE/'gpu_probe_additive_v35r2_candidate.html').as_uri())"
+      ],
+      [
+        "leaf_page.goto((HERE/'gpu_probe_v35r2_leaves.html').as_uri())",
+        "leaf_page.goto((HERE/'gpu_probe_additive_v35r2_leaves.html').as_uri())"
+      ],
+      [
+        "                        case['leaves']=leaf_page.evaluate('c=>auditLeaves(c)',case)",
+        "                        journal.record('gpu_readback_saved', case=case)\n                        case['leaves']=leaf_page.evaluate('c=>auditLeaves(c)',case)\n                        journal.record('leaf_readback_saved', case=case)"
+      ],
+      [
+        "    atomic_json(HERE/'numeric-candidate-v35r2-raw.json', cases)",
+        "    atomic_json(HERE/'centre-v35r2-additive-numerical/raw.json', cases)"
+      ],
+      [
+        "    for case in cases:\n        z,t,high",
+        "    for case in cases:\n        transport(case)\n        z,t,high"
+      ],
+      [
+        "            crossings = np.flatnonzero(values[:-1]*values[1:]<0)",
+        "            scan = {'key':[w,h,z,t,high,index], 'distances':distances.tolist(), 'values':values.tolist(), 'steps':[]}\n            crossings = np.flatnonzero(values[:-1]*values[1:]<0)"
+      ],
+      [
+        "                references.append({'ray':index,'missing_reference':True})",
+        "                scans.record('legacy_scan_saved', scan=scan)\n                references.append({'ray':index,'missing_reference':True})"
+      ],
+      [
+        "                if mv*lv>0: lo,lv = mid,mv\n                else: hi = mid",
+        "                step = {'before':[lo,hi,lv], 'mid':mid, 'value':float(mv)}\n                if mv*lv>0: lo,lv = mid,mv\n                else: hi = mid\n                step['after']=[lo,hi,lv]; scan['steps'].append(step)"
+      ],
+      [
+        "            difference = float(abs((lo+hi)/2-hits[index,0]))",
+        "            scans.record('legacy_scan_saved', scan=scan)\n            difference = float(abs((lo+hi)/2-hits[index,0]))"
+      ],
+      [
+        "        summary['passed'] = (cheap_scalar_error",
+        "        summary['non_reference_checks_passed'] = (cheap_scalar_error < 0.001 and cheap_gradient_error < 0.005 and (cheap_full_error < 1e-05) and count_valid and (lower_scalar_error < 0.001) and (lower_gradient_error < 0.005) and (domination <= 0) and (summary['misses'] == 0) and (leaf_gradient_error < 0.005) and (leaf_scalar_error < 0.001) and (csg_error == 0) and (replay_error == 0) and (expanded_replay_error == 0) and (aperture_replay_error == 0) and (summary['max_bound_ratio'] <= 1.001) and (summary['max_field_cpu_gpu_difference'] < 0.001))\n        summary['passed'] = (cheap_scalar_error"
+      ],
+      [
+        "           'files':{name:digest(HERE/name) for name in ['continuum.js','trip.js','continuum-v25.js','continuum-v35r2-candidate.js','build_centre_v35r2.py','centre-v35r2-bound-design.json','centre-v35r2-fixture-integrity.json','gpu_csg_v35r2.py','runtime_centre_v35r2.py','cost_lifecycle_v35r2.py','centre-v35r2-bounds-check.json','centre-v35r2-gpu-started.json','gpu_probe_v35r2_leaves.html','gpu_probe_v35r2_candidate.html','probe_numeric_candidate_v35r2.py','field_centre_v35r2.py','numeric-candidate-v35r2-raw.json']},",
+        "           'files':{name:digest(HERE/name) for name in ['continuum.js','trip.js','continuum-v25.js','continuum-v35r2-candidate.js','build_centre_v35r2.py','centre-v35r2-bound-design.json','centre-v35r2-fixture-integrity.json','gpu_csg_v35r2.py','runtime_centre_v35r2.py','cost_lifecycle_v35r2.py','centre-v35r2-additive-bounds/result.json','centre-v35r2-additive-numerical/started.json','gpu_probe_additive_v35r2_leaves.html','gpu_probe_additive_v35r2_candidate.html','numeric_additive_v35r2.py','additive_runtime_v35r2.py','additive_evidence_v35r2.py','field_centre_v35r2.py','centre-v35r2-additive-numerical/raw.json']},"
+      ],
+      [
+        "    assert out['passed']",
+        "    result = finish_numeric(out, cases, scans, journal)\n    assert result['non_reference_checks_passed']"
+      ],
+      [
+        "    one_shot('gpu', main)",
+        "    worker('numerical', main)"
+      ]
+    ],
+    "source_sha256": "80e368a74d916eaf8d8e972ede5e25bb81c919bc4c2d1214488cd34362e0c6d1",
+    "target_sha256": "264fa6e334b448b85cbdb3430f25bd2766f1508f93a11f9e92959121cd7b0cd1"
+  },
+  {
+    "source": "check_centre_v35r2_bounds.py",
+    "target": "bounds_additive_v35r2.py",
+    "edits": [
+      [
+        "OUT = HERE/'centre-v35r2-bounds-check.json'",
+        "OUT = HERE/'centre-v35r2-additive-bounds/result.json'"
+      ],
+      [
+        "START = HERE/'centre-v35r2-bounds-started.json'",
+        "START = HERE/'centre-v35r2-additive-bounds/bounds-started.json'"
+      ],
+      [
+        "FAILURE = HERE/'centre-v35r2-bounds-failure.json'",
+        "FAILURE = HERE/'centre-v35r2-additive-bounds/bounds-failure.json'"
+      ],
+      [
+        "    gate = json.loads((HERE/'centre-v35r2-fixture-integrity.json').read_text())\n    assert gate['static_passed'] and gate['fixtures_complete'] and not gate['numerical_run']\n    for group in ['files', 'protected', 'display']:\n        verify(gate[group])\n",
+        "    from additive_runtime_v35r2 import fixture_gate\n    gate = fixture_gate()\n"
+      ],
+      [
+        "def save(path, value):\n    with path.open('x') as stream:\n        json.dump(value, stream, indent=2)\n        stream.write('\\n'); stream.flush(); os.fsync(stream.fileno())",
+        "def save(path, value):\n    from additive_runtime_v35r2 import atomic_json\n    atomic_json(path, value)"
+      ],
+      [
+        "'centre-v35r2-bound-design.json', 'centre-v35r2-fixture-integrity.json', START.name]",
+        "'centre-v35r2-bound-design.json', 'centre-v35r2-fixture-integrity.json', str(START.relative_to(HERE)), 'additive_runtime_v35r2.py']"
+      ],
+      [
+        "if __name__ == '__main__':\n    try:\n        main()\n    except BaseException as exc:\n        if START.exists() and not FAILURE.exists() and not OUT.exists():\n            save(FAILURE, {'passed': False, 'exception': repr(exc), 'traceback': traceback.format_exc()})\n        raise\n",
+        "if __name__ == '__main__':\n    from additive_runtime_v35r2 import worker\n    worker('bounds', main)\n"
+      ]
+    ],
+    "source_sha256": "c16fd8de7e4124860b6e0bb00c6dd8fa9bc7a8bdf5e2991e99af1737807ac729",
+    "target_sha256": "abd67bf0b6e7d3f5b0132672b1bc6754b81640f3d81be7c78717f5a9e5ea1ead"
+  },
+  {
+    "source": "audit_centre_v35r2_first_roots.py",
+    "target": "global_additive_v35r2.py",
+    "edits": [
+      [
+        "\"\"\"Offline first-entry interval audit of every saved reference ray; no GPU replay.\n\nRetains the independent fixed-grid receipt. Uses independent float64 leaves with their\nprospective analytic curvature bound to exclude intervals, then refines the\nfirst possible occupied interval. This is not a floating-point interval library.\n\"\"\"\nimport hashlib\nimport json\nfrom pathlib import Path\nimport numpy as np\nfrom field_centre_v35r2 import PIXEL,smooth_parts,expanded_leaves,compose_expanded\nfrom csg_interval_v35r2 import enclosure\nfrom runtime_centre_v35r2 import fixture_gate,one_shot\nfrom cost_lifecycle_v35r2 import atomic_json\n\nHERE=Path(__file__).resolve().parent\nOUT=HERE/'centre-v35r2-first-root-check.json'\nassert not OUT.exists()\ndef digest(name):\n    return hashlib.sha256((HERE/name).read_bytes()).hexdigest()\ndef main():\n    baseline=json.loads((HERE/'numeric-candidate-v35r2-check.json').read_text())\n    assert baseline['passed'] and not baseline['errors']\n    assert all(digest(n)==h for n,h in baseline['files'].items())\n    bounds=json.loads((HERE/'centre-v35r2-bounds-check.json').read_text())\n    assert bounds['passed'] and all(digest(n)==h for n,h in bounds['source_hashes'].items())\n    cases=json.loads((HERE/'numeric-candidate-v35r2-raw.json').read_text())\n    design=json.loads((HERE/'centre-v35r2-bound-design.json').read_text())\n    H=np.array(design['declared_H'])@np.array([1.,PIXEL,PIXEL**2])\n    expanded_hessian=H[np.array(design['expanded_leaf_ids'])]\n    \n    def composed(v):\n        return compose_expanded(expanded_leaves(v))\n    \n    def lower_bound(left,right,width):\n        return enclosure(left,right,width,expanded_hessian)[0]\n    \n    results=[]\n    assert len(cases)==len(baseline['cases'])==48\n    for case,old in zip(cases,baseline['cases']):\n        assert all(case[k]==old[k] for k in ['z','time','high','width','height'])\n        z,t,high=case['z'],case['time'],case['high'];w,h=case['width'],case['height']\n        camera=np.array([0,1.7,z]);hits=np.array(case['hits']).reshape(-1,4)\n        case_results=[]\n        for reference in old['references']:\n            index=reference['ray']\n            ray=np.array([((index%w+.5)/w*2-1)*np.tan(np.radians(34))*1.5,\n                ((index//w+.5)/h*2-1)*np.tan(np.radians(34)),-1])\n            ray/=np.linalg.norm(ray)\n            distances=np.arange(0,hits[index,0]+1,.003)\n            points=camera+distances[:,None]*ray\n            leaves=smooth_parts(points,t,camera,high)\n            lower=lower_bound(leaves[:-1],leaves[1:],np.diff(distances))\n            rho=np.linalg.norm(np.column_stack([points[:,0],points[:,1]-1.7,\n                .85*np.minimum(points[:,2]+27.5,0)]),axis=1)\n            # Free ball allows skipping axis segments without a radial Hessian claim.\n            envelope_free=np.maximum(rho[:-1],rho[1:])+.003<5.45\n            assert np.all(np.minimum(rho[:-1],rho[1:])[~envelope_free]-.003>=4.965), \"Taylor domain\"\n            potential=np.flatnonzero((lower<=0)&~envelope_free)\n            subdivisions=0;excluded=0;unresolved=[]\n            def sample(depth):\n                return smooth_parts(camera+depth*ray,t,camera,high)\n            def first(lo,hi,lv,hv,depth=0):\n                nonlocal subdivisions,excluded\n                if lower_bound(lv,hv,hi-lo)>0:\n                    excluded+=1;return None\n                fl,fh=float(composed(lv)),float(composed(hv))\n                if hi-lo<=1e-7:\n                    if fl>0 and fh<0:return [lo,hi,fl,fh]\n                    # No forced root, no acceptance of a tiny residual as crossing.\n                    unresolved.append({'lo':lo,'hi':hi,'values':[fl,fh]})\n                    return None\n                if depth>=32:raise AssertionError('Refinement budget exhausted')\n                subdivisions+=1\n                mid=(lo+hi)/2;mv=sample(mid)\n                left=first(lo,mid,lv,mv,depth+1)\n                if left is not None:return left\n                if unresolved:return None\n                return first(mid,hi,mv,hv,depth+1)\n            bracket=None\n            for k in potential:\n                bracket=first(distances[k],distances[k+1],leaves[k],leaves[k+1])\n                if bracket is not None or unresolved:break\n            difference=None if bracket is None else abs((bracket[0]+bracket[1])/2-hits[index,0])\n            result={'ray':index,'gpu_depth':hits[index,0],'original_reference':reference,\n                'first_bracket':bracket,'difference':difference,'subdivisions':subdivisions,\n                'refined_intervals_excluded':excluded,'coarse_intervals':len(distances)-1,\n                'potential_intervals':len(potential),'unresolved':unresolved,\n                'passed':bool(bracket is not None and not unresolved and difference<.03)}\n            case_results.append(result)\n        result={k:case[k] for k in ['z','time','high','width','height']}\n        result.update({'references':case_results,'passed':all(r['passed'] for r in case_results)})\n        results.append(result)\n        print(json.dumps({k:v for k,v in result.items() if k!='references'}),flush=True)\n    \n    other_gpu_checks=baseline['passed'] and not baseline['errors'] and all(c['misses']==0 and c['max_all_leaf_gradient_error']<.005\n        and c['max_all_leaf_scalar_error']<.001 and c['max_csg_replay_error']==0\n        and c['max_saved_gradient_replay_error']==0 and c['max_field_cpu_gpu_difference']<.001\n        and c['max_bound_ratio']<=1.001 for c in baseline['cases'])\n    flat=[r for c in results for r in c['references']]\n    files=['numeric-candidate-v35r2-check.json','numeric-candidate-v35r2-raw.json',\n        'centre-v35r2-bounds-check.json',\n        'field_centre_v35r2.py','csg_interval_v35r2.py','centre-v35r2-bound-design.json',\n        'runtime_centre_v35r2.py','cost_lifecycle_v35r2.py','centre-v35r2-fixture-integrity.json',\n        'centre-v35r2-first-root-started.json',Path(__file__).name]\n    out={'passed':other_gpu_checks and all(c['passed'] for c in results) and len(flat)==720,\n        'other_gpu_checks_passed':other_gpu_checks,'original_fixed_grid_passed':baseline['passed'],\n        'cases':results,'reference_rays':len(flat),\n        'max_reference_difference':max((r['difference'] for r in flat if r['difference'] is not None),default=None),\n        'unresolved_intervals':sum(len(r['unresolved']) for r in flat),\n        'source_hashes':{n:digest(n) for n in files},\n        'method':'Independent float64 CSG interval exclusion expanding five bases to eleven signed leaves before endpoint extrema and smooth-leaf linear-interpolation error M*h\u00b2/8; envelope excludes singular axis. Refine earliest potential interval left-first to actual positive/negative bracket <=1e-7. Original .003 grid result retained separately. No GPU replay, changed tolerance, forced root or minimum step.',\n        'limits':'Analytic leaf bounds plus ordinary float64 arithmetic with1e-12 outward pad, not formally directed-rounding interval proof. Sparse saved rays only; grazing tangencies without sign change may be unresolved and fail. No temporal filtering or realism credit.'}\n    fixture_gate()\n    atomic_json(OUT,out)\n    print(json.dumps({k:v for k,v in out.items() if k not in ['cases','source_hashes']}),flush=True)\n    assert out['passed']\n\nif __name__ == '__main__':\n    one_shot('first-root', main)\n",
+        "\"\"\"Independent global search from depth zero. No local hints are accepted.\"\"\"\nimport json\nfrom pathlib import Path\nimport numpy as np\nfrom field_centre_v35r2 import PIXEL,smooth_parts,expanded_leaves,compose_expanded\nfrom csg_interval_v35r2 import enclosure\nfrom additive_runtime_v35r2 import HERE, artifact, read, worker, Journal, expected_cases, bijection, key\nfrom additive_evidence_v35r2 import finish_global\n\n\ndef main():\n    baseline=read(artifact('numerical','legacy-check.json'))\n    cases=read(artifact('numerical','raw.json'))\n    case_map=bijection(expected_cases(),cases,key)\n    summary_map=bijection(expected_cases(),baseline['cases'],key)\n    journal=Journal(HERE/artifact('global','rays'))\n    design=json.loads((HERE/'centre-v35r2-bound-design.json').read_text())\n    H=np.array(design['declared_H'])@np.array([1.,PIXEL,PIXEL**2])\n    expanded_hessian=H[np.array(design['expanded_leaf_ids'])]\n    \n    def composed(v):\n        return compose_expanded(expanded_leaves(v))\n    \n    def lower_bound(left,right,width):\n        return enclosure(left,right,width,expanded_hessian)[0]\n    \n    results=[]\n    assert len(cases)==len(baseline['cases'])==48\n    for identity in expected_cases():\n        case,old=case_map[identity],summary_map[identity]\n        assert all(case[k]==old[k] for k in ['z','time','high','width','height'])\n        z,t,high=case['z'],case['time'],case['high'];w,h=case['width'],case['height']\n        camera=np.array([0,1.7,z]);hits=np.array(case['hits']).reshape(-1,4)\n        case_results=[]\n        for reference in old['references']:\n            index=reference['ray']\n            ray=np.array([((index%w+.5)/w*2-1)*np.tan(np.radians(34))*1.5,\n                ((index//w+.5)/h*2-1)*np.tan(np.radians(34)),-1])\n            ray/=np.linalg.norm(ray)\n            distances=np.arange(0,hits[index,0]+1,.003)\n            points=camera+distances[:,None]*ray\n            leaves=smooth_parts(points,t,camera,high)\n            lower=lower_bound(leaves[:-1],leaves[1:],np.diff(distances))\n            rho=np.linalg.norm(np.column_stack([points[:,0],points[:,1]-1.7,\n                .85*np.minimum(points[:,2]+27.5,0)]),axis=1)\n            # Free ball allows skipping axis segments without a radial Hessian claim.\n            envelope_free=np.maximum(rho[:-1],rho[1:])+.003<5.45\n            assert np.all(np.minimum(rho[:-1],rho[1:])[~envelope_free]-.003>=4.965), \"Taylor domain\"\n            potential=np.flatnonzero((lower<=0)&~envelope_free)\n            subdivisions=0;excluded=0;unresolved=[]\n            def sample(depth):\n                return smooth_parts(camera+depth*ray,t,camera,high)\n            def first(lo,hi,lv,hv,depth=0):\n                nonlocal subdivisions,excluded\n                if lower_bound(lv,hv,hi-lo)>0:\n                    excluded+=1;return None\n                fl,fh=float(composed(lv)),float(composed(hv))\n                if hi-lo<=1e-7:\n                    if fl>0 and fh<0:return [lo,hi,fl,fh]\n                    # No forced root, no acceptance of a tiny residual as crossing.\n                    unresolved.append({'lo':lo,'hi':hi,'values':[fl,fh]})\n                    return None\n                if depth>=32:raise AssertionError('Refinement budget exhausted')\n                subdivisions+=1\n                mid=(lo+hi)/2;mv=sample(mid)\n                left=first(lo,mid,lv,mv,depth+1)\n                if left is not None:return left\n                if unresolved:return None\n                return first(mid,hi,mv,hv,depth+1)\n            bracket=None\n            for k in potential:\n                bracket=first(distances[k],distances[k+1],leaves[k],leaves[k+1])\n                if bracket is not None or unresolved:break\n            difference=None if bracket is None else abs((bracket[0]+bracket[1])/2-hits[index,0])\n            result={'ray':index,'gpu_depth':hits[index,0],'original_reference':reference,\n                'first_bracket':bracket,'difference':difference,'subdivisions':subdivisions,\n                'refined_intervals_excluded':excluded,'coarse_intervals':len(distances)-1,\n                'potential_intervals':len(potential),'unresolved':unresolved,\n                'passed':bool(bracket is not None and not unresolved and difference<.03)}\n            journal.record('independent_ray_saved', key=[w,h,z,t,high,index], result=result)\n            case_results.append(result)\n        result={k:case[k] for k in ['z','time','high','width','height']}\n        result.update({'references':case_results,'passed':all(r['passed'] for r in case_results)})\n        results.append(result)\n        print(json.dumps({k:v for k,v in result.items() if k!='references'}),flush=True)\n    \n    finish_global(results, journal)\n\n\nif __name__=='__main__':\n    worker('global', main)\n"
+      ]
+    ],
+    "source_sha256": "7c25fdf4763676f12a2c3a66590e8a6ec3a2a40a4696d4340f6c87eeebb24ef3",
+    "target_sha256": "741602b58e84935e51bce92fd3faa42d1919c1597641b8badc9439ba646e3311"
+  }
+]

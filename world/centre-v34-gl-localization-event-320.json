@@ -1,0 +1,13 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "float-row1",
+      "op": "shader-deleted",
+      "shader": "vertexShader",
+      "query": true
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "5fdfc3b785f4ee6e3565a45040b7742efe38ad6b75d793a38bc37e2359b05f84"
+}

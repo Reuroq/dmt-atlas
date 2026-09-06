@@ -1,0 +1,93 @@
+{
+  "passed": true,
+  "leaf_gradient_bound": 12.020235255505273,
+  "leaf_curvature_bound": 100.2709408110852,
+  "cases": [
+    {
+      "camera_z": 8,
+      "high": 1,
+      "samples": 6000,
+      "max_leaf_gradient_ratio": 0.19839577161627978,
+      "max_leaf_curvature_ratio": 0.09433733675281576,
+      "free_side_samples": 4239,
+      "min_sampled_advanced_field": 4.449903422731882e-05,
+      "passed": true
+    },
+    {
+      "camera_z": 8,
+      "high": 0,
+      "samples": 6000,
+      "max_leaf_gradient_ratio": 0.19839577161627978,
+      "max_leaf_curvature_ratio": 0.09433733675281576,
+      "free_side_samples": 4239,
+      "min_sampled_advanced_field": 0.0003406486983678139,
+      "passed": true
+    },
+    {
+      "camera_z": -6,
+      "high": 1,
+      "samples": 6000,
+      "max_leaf_gradient_ratio": 0.20236423459096325,
+      "max_leaf_curvature_ratio": 0.0965968733069121,
+      "free_side_samples": 4240,
+      "min_sampled_advanced_field": 0.0007823028157181097,
+      "passed": true
+    },
+    {
+      "camera_z": -6,
+      "high": 0,
+      "samples": 6000,
+      "max_leaf_gradient_ratio": 0.20236423459096325,
+      "max_leaf_curvature_ratio": 0.0965968733069121,
+      "free_side_samples": 4244,
+      "min_sampled_advanced_field": 0.0007823028157181097,
+      "passed": true
+    }
+  ],
+  "source_hashes": {
+    "continuum-v29-candidate.js": "0a73e3e99e6ca7a989301b245a48144e34bb61d09bade85506d1b44010087323",
+    "build_centre_candidate_v29.py": "2be1bb1097017dbdb1ee8ca7fc9ba92472608cd4361e100daeaee5d0788b6a24",
+    "field_centre_v29.py": "ed4d7ac12717f8f2c89cc478aab5de219a4cc9c77c94377b5e7b948c70c200a1",
+    "centre-v29-bounds.md": "31382f846b30b6f924515c265c49e9f6bed6ed0c67a96e45c13176a1834712d1",
+    "check_centre_v29_bounds.py": "63def54b965c9117ffd114797994595099ca0c87b65c4fdbef72b4308b63ffb0",
+    "gpu_probe_v29_candidate.html": "c3a5db205dc4c7794066f23b5139b4f774c13694ffd54bdd0a676646a1382de9",
+    "probe_numeric_candidate_v29.py": "818ab67de02e06e2c574e48783a72f84720f0d6f23ad91f1a7ff9729c7605131"
+  },
+  "protected_before": {
+    "index.html": "37275c34171ffdca0392e0798d77beec09101c0c8a1c7056bca0ae20d50604bb",
+    "trip.js": "9ea2c7f086d93d8b049f1113a676930b195bc522e5e4f2e87a857e6553b90c5a",
+    "fractal.js": "fd7a14ebfc87988e95e14255adc903e079cb47bb075db7612d5d57091ed235d8",
+    "continuum.js": "6b55368f4f3d31cbd71dc0420707c8860e99a1b471f9108a53a77416f871106d",
+    "beings.js": "fc2900166510269f426b8c49c12b5d0644df816f4545972ef343ef8a02aaa60b",
+    "trip.css": "bb47a370d2d3128caf8afaf6bd732facc953181a8985f9cbe82ceafe7e7a4f00",
+    "fidelity-ui.js": "f5634f2373925ccfe42de91aeec83cc4bce5c420ff7b7e5ea5dd6ae66f0856b4",
+    "fidelity.css": "558881d68cb469dac4144b0dabcfcdef11e0fcb50e2ed7059b47a0e69f5f4656",
+    "vendor/three.min.js": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa",
+    "data.js": "87c2ecc3742af9f336ebb882e073a61762f975419412e2e6ec4e053f3cc90b43",
+    "fidelity-data.js": "824b51fc8a939112e827fd9931faa6997831d95dd1a46acbfa8a0c7301b40172",
+    "fidelity-grades.json": "d0bf9b45b7c58166c268e788a2f192c9aff304e018ad4d65c31be0c3527585e9",
+    "realism-grades.json": "657e9a61acb5dabaeb9283da22590e031c1dde074dbc817a63f5941519f66779",
+    "latest.png": "cb0d8f0b5159dc03bec373abf1571076beb079b08d3495bb23a959bf6b4d9954",
+    "visual-chrysanthemum.png": "9ab2511f859eebebdca7973cc9d4b852df6cc118dd02cf8cd4c55efd72957f2c",
+    "visual-chrysanthemum.json": "9d6136cbc55818aba257a6bffa40aafda0aa0ae89af0404c3cf5a8ad36999b46"
+  },
+  "protected_after": {
+    "index.html": "37275c34171ffdca0392e0798d77beec09101c0c8a1c7056bca0ae20d50604bb",
+    "trip.js": "9ea2c7f086d93d8b049f1113a676930b195bc522e5e4f2e87a857e6553b90c5a",
+    "fractal.js": "fd7a14ebfc87988e95e14255adc903e079cb47bb075db7612d5d57091ed235d8",
+    "continuum.js": "6b55368f4f3d31cbd71dc0420707c8860e99a1b471f9108a53a77416f871106d",
+    "beings.js": "fc2900166510269f426b8c49c12b5d0644df816f4545972ef343ef8a02aaa60b",
+    "trip.css": "bb47a370d2d3128caf8afaf6bd732facc953181a8985f9cbe82ceafe7e7a4f00",
+    "fidelity-ui.js": "f5634f2373925ccfe42de91aeec83cc4bce5c420ff7b7e5ea5dd6ae66f0856b4",
+    "fidelity.css": "558881d68cb469dac4144b0dabcfcdef11e0fcb50e2ed7059b47a0e69f5f4656",
+    "vendor/three.min.js": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa",
+    "data.js": "87c2ecc3742af9f336ebb882e073a61762f975419412e2e6ec4e053f3cc90b43",
+    "fidelity-data.js": "824b51fc8a939112e827fd9931faa6997831d95dd1a46acbfa8a0c7301b40172",
+    "fidelity-grades.json": "d0bf9b45b7c58166c268e788a2f192c9aff304e018ad4d65c31be0c3527585e9",
+    "realism-grades.json": "657e9a61acb5dabaeb9283da22590e031c1dde074dbc817a63f5941519f66779",
+    "latest.png": "cb0d8f0b5159dc03bec373abf1571076beb079b08d3495bb23a959bf6b4d9954",
+    "visual-chrysanthemum.png": "9ab2511f859eebebdca7973cc9d4b852df6cc118dd02cf8cd4c55efd72957f2c",
+    "visual-chrysanthemum.json": "9d6136cbc55818aba257a6bffa40aafda0aa0ae89af0404c3cf5a8ad36999b46"
+  },
+  "limitations": "Deterministic finite-difference smooth-leaf and four-point CSG interval samples, not universal proof; actual GPU gradients and first-root references still required. No renders or live promotion."
+}

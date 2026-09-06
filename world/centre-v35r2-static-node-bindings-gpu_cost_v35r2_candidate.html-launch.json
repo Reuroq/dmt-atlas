@@ -1,0 +1,9 @@
+{
+  "argv": [
+    "node",
+    "check_centre_v35r2_uniforms.cjs",
+    "continuum-v35r2-candidate.js",
+    "gpu_cost_v35r2_candidate.html"
+  ],
+  "stdin_sha256": null
+}

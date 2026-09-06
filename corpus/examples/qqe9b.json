@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.3.0",
+  "report_id": "qqe9b",
+  "is_trip_report": true,
+  "reason": "A personal visual and emotional experience in the narrator’s room appears within a question.",
+  "quotes": [
+    {
+      "start": 778,
+      "end": 834,
+      "text": "i got open eye visuals and it was generally very dreamy.",
+      "supports": [
+        "/is_trip_report",
+        "/reason"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "place": "other:my room",
+      "order_confidence": null,
+      "light": [],
+      "colour": [],
+      "motion": [
+        "floating"
+      ],
+      "geometry": [],
+      "material": [],
+      "density": [],
+      "scale": [],
+      "sound_seen": [],
+      "beings": [],
+      "transition": null,
+      "affect": [
+        "panic",
+        "overwhelmed",
+        "fear"
+      ],
+      "quotes": [
+        {
+          "start": 318,
+          "end": 356,
+          "text": "anyway, i started tripping in seconds.",
+          "supports": [
+            "/scenes/0/episode_index"
+          ]
+        },
+        {
+          "start": 1065,
+          "end": 1088,
+          "text": "i was still in my room.",
+          "supports": [
+            "/scenes/0/place"
+          ]
+        },
+        {
+          "start": 357,
+          "end": 562,
+          "text": "first 10 seconds or so i panicked. it was very intense and overwhelmed me. it started going to the direction toward a bad trip. i started thinking about myself and unfortunately went down the road of fear.",
+          "supports": [
+            "/scenes/0/affect/0",
+            "/scenes/0/affect/1",
+            "/scenes/0/affect/2"
+          ]
+        },
+        {
+          "start": 728,
+          "end": 776,
+          "text": "at one point, i felt like i was really floating.",
+          "supports": [
+            "/scenes/0/motion/0"
+          ]
+        }
+      ],
+      "episode_index": 1,
+      "dwell": null,
+      "uncertain_fields": []
+    }
+  ]
+}

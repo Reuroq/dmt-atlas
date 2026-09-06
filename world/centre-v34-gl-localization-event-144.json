@@ -1,0 +1,8 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "float-constant",
+    "op": "program-log"
+  },
+  "previous_sha256": "d5911478870afa9c6d02aad30c4cd7d25618c8b3d339a6c28ae784c4f69b74f3"
+}

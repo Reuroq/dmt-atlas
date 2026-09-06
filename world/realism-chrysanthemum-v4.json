@@ -1,6 +1,6 @@
 {
   "errors": [],
-  "fps_swiftshader": 1.6,
+  "fps_swiftshader": 0.0,
   "checks": [],
   "diagnostics": {
     "stage": "chrysanthemum",
@@ -9,11 +9,13 @@
     "paused": false,
     "paced": false,
     "reduced": false,
-    "elapsed": 2.1,
-    "animTime": 6.3130999999999995,
+    "elapsed": 1.1000000000000008,
+    "animTime": 4.321300000381472,
     "transition": false,
     "renderReady": true,
-    "frames": 39,
+    "renderPending": true,
+    "renderedAnimTime": 3.2213000003814685,
+    "frames": 3,
     "position": [
       0,
       1.7,
@@ -64,11 +66,13 @@
     "paused": true,
     "paced": false,
     "reduced": false,
-    "elapsed": 3.3165999999999993,
-    "animTime": 7.529699999999999,
+    "elapsed": 2.1168000000000036,
+    "animTime": 5.338100000381474,
     "transition": false,
     "renderReady": true,
-    "frames": 41,
+    "renderPending": false,
+    "renderedAnimTime": 5.338100000381474,
+    "frames": 5,
     "position": [
       0,
       1.7,
@@ -112,8 +116,8 @@
     "actors": [],
     "uncitedMeshes": 0
   },
-  "render_signature": "66fdd62f932f691fdca3620ebfacc299285ed688339307575eb84d2c5a024aaa",
-  "capture_sha256": "f5b56ac7d03eb9e18bc5fdea6892f005864d308121b883d50f19cef57c39cb5b",
+  "render_signature": "2f73bbb6963cab0d2bbe8a47b70cf6c544fa29805d7f040614c8d64f5ac32ee1",
+  "capture_sha256": "aa7f0671da7b8257c20b128fe592a206ff95df1a69bdf523f8f7250c65df629b",
   "file": "realism-chrysanthemum-v4.png",
   "veil_opacity": 0
 }

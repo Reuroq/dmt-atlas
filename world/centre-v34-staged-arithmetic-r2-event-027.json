@@ -1,0 +1,7 @@
+{
+  "kind": "failure",
+  "payload": {
+    "error": "fatal-input: {\"op\": \"shared\"}"
+  },
+  "previous_sha256": "775995baf449afc3314c1aa296008eb812b277ff27410e96b0637dc67b3bd96a"
+}

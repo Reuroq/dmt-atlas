@@ -1,0 +1,41 @@
+{
+  "integrity_passed": true,
+  "numeric_passed": true,
+  "original_composite_fd_passed": false,
+  "numeric_basis": "Fresh v29 smooth-leaf bounds/CSG interval samples; 38160 actual GPU rays and 360 first-crossing references; independent all-leaf float64 gradient/scalar audit at saved GPU roots and exact GPU-normal replay. CSG one-sided normal verification replaces mathematically inapplicable central differences across creases; old failures remain saved.",
+  "candidate_promoted": false,
+  "visual_review_pending": true,
+  "overall_passed": false,
+  "protected": {
+    "index.html": "37275c34171ffdca0392e0798d77beec09101c0c8a1c7056bca0ae20d50604bb",
+    "trip.js": "9ea2c7f086d93d8b049f1113a676930b195bc522e5e4f2e87a857e6553b90c5a",
+    "fractal.js": "fd7a14ebfc87988e95e14255adc903e079cb47bb075db7612d5d57091ed235d8",
+    "continuum.js": "6b55368f4f3d31cbd71dc0420707c8860e99a1b471f9108a53a77416f871106d",
+    "beings.js": "fc2900166510269f426b8c49c12b5d0644df816f4545972ef343ef8a02aaa60b",
+    "trip.css": "bb47a370d2d3128caf8afaf6bd732facc953181a8985f9cbe82ceafe7e7a4f00",
+    "fidelity-ui.js": "f5634f2373925ccfe42de91aeec83cc4bce5c420ff7b7e5ea5dd6ae66f0856b4",
+    "fidelity.css": "558881d68cb469dac4144b0dabcfcdef11e0fcb50e2ed7059b47a0e69f5f4656",
+    "vendor/three.min.js": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa",
+    "data.js": "87c2ecc3742af9f336ebb882e073a61762f975419412e2e6ec4e053f3cc90b43",
+    "fidelity-data.js": "824b51fc8a939112e827fd9931faa6997831d95dd1a46acbfa8a0c7301b40172",
+    "fidelity-grades.json": "d0bf9b45b7c58166c268e788a2f192c9aff304e018ad4d65c31be0c3527585e9",
+    "realism-grades.json": "657e9a61acb5dabaeb9283da22590e031c1dde074dbc817a63f5941519f66779",
+    "latest.png": "cb0d8f0b5159dc03bec373abf1571076beb079b08d3495bb23a959bf6b4d9954",
+    "visual-chrysanthemum.png": "9ab2511f859eebebdca7973cc9d4b852df6cc118dd02cf8cd4c55efd72957f2c",
+    "visual-chrysanthemum.json": "9d6136cbc55818aba257a6bffa40aafda0aa0ae89af0404c3cf5a8ad36999b46"
+  },
+  "files": {
+    "centre-v29-bounds-check.json": "d8770c3bb739b6a84febdcf566710c14bdfe627b52f742225b8eee3d02bd81c2",
+    "numeric-candidate-v29-check.json": "f51d8f568932a415228d9dc94ce3dfeeb25fd346ebf926a314eccbf4d5e7b524",
+    "centre-v29-leaf-check.json": "9cee8f8e905f293ff4eae77937c389f407376782f3e5b2f41cd55090b0777357",
+    "continuum-v29-candidate.js": "0a73e3e99e6ca7a989301b245a48144e34bb61d09bade85506d1b44010087323",
+    "centre-v29-bounds.md": "31382f846b30b6f924515c265c49e9f6bed6ed0c67a96e45c13176a1834712d1",
+    "render_centre_v29.py": "1e53fd2995bff136c17bc638f4809e03ec83228c2c820de2e6169e2b611dd359",
+    "centre-v29-numerical-review.md": "aec8ebef1f4d02c71b8a47bfd41aae62de027bb49338f02953d7957ba96015c2",
+    "NOTES.md": "6fca256dd5453eb37eb36e35e9be762e5050447b650ef70035c02c956bc808e9",
+    "README.md": "350f93f44b45d95953ee9b3972371eadf0e44a03e1c7885030f8aa72132c858d",
+    "status.txt": "4ce530d705e8b09dcd003006c02e20c0fb4458f85c89b6aee5339eba4d711222",
+    "check_centre_v29_integrity.py": "70e35eccaa9442839b04bdf2431312d7a3b79953a8691e038d3ba6993ddb105c"
+  },
+  "limits": "Sampled numerical evidence only; no new image, realism, full-resolution performance, smooth-motion, coverage, source, original45s exit or full acceptance pass."
+}

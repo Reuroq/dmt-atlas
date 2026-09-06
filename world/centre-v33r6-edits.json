@@ -1,0 +1,10 @@
+[
+  {
+    "old": "vec3 preciseCos(vec3 x)",
+    "new": "// Shared range reduction for the analytic jet; original polynomials unchanged.\nvec2 preciseSinCos(float x){\n x-=TAU*floor((x+3.14159265359)/TAU);float s=1.;\n if(x>1.57079632679){x=3.14159265359-x;s=-1.;}\n else if(x< -1.57079632679){x=-3.14159265359-x;s=-1.;}\n float q=x*x;\n float sine=x*(1.+q*(-.166666666667+q*(.00833333333333+q*(-.000198412698413+q*(.0000027557319224+q*(-.0000000250521083854+q*.000000000160590438368))))));\n float cosine=s*(1.+q*(-.5+q*(.0416666666667+q*(-.00138888888889+q*(.0000248015873016+q*(-.00000027557319224+q*.00000000208767569879))))));\n return vec2(sine,cosine);\n}\nvec3 preciseCos(vec3 x)"
+  },
+  {
+    "old": "vec4 jc(vec4 q){return vec4(-preciseSin(q.w)*q.xyz,preciseCos(q.w));}",
+    "new": "vec4 jc(vec4 q){vec2 sc=preciseSinCos(q.w);return vec4(-sc.x*q.xyz,sc.y);}"
+  }
+]

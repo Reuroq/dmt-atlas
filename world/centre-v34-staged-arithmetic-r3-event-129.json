@@ -1,0 +1,13 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "childAxial",
+      "leaf": 0,
+      "arm": "literal",
+      "op": "render"
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "c03eff5ea3fd27f2c2dd395c998627db7521931253d44ba3cbc4d1b1f17f7312"
+}

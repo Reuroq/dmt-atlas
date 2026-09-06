@@ -1,0 +1,15 @@
+{
+  "sources": {
+    "probe_centre_v34_transport.py": "4733480ac458383470d2fbd3da9de165f5a33fd1737487901999e3e8d2781a44",
+    "run_centre_v34_transport_once.py": "b7ccdbfc99b03d5b28c3c0638b53623dc5a5851a2b45fb6ed77d88c1f26cc351",
+    "prepare_centre_v34_transport.py": "c56b8620b5b91e4d3e81020ea02e40cc953c339683b8cdb8e55326dbe1dbc60b",
+    "centre-v34-transport.js": "1704b072e3a2aea64f664ca427e33178c2732720d4e877c41fd174d27716a758",
+    "centre-v34-transport-protocol.md": "9a7ef182ef1ba881173f0cdf40e865ce1652e73d7595e748eb3b9762f7a04403"
+  },
+  "history_sha256": "e1e4a3495483ec7d967b76be74091e14fe5d9129b8e26f20cbe1e2b1710b510e",
+  "environment": {
+    "playwright_version": "1.61.0",
+    "serializer_path": "/usr/local/lib/python3.12/dist-packages/playwright/_impl/_js_handle.py",
+    "serializer_sha256": "2db455b97af07dbf007e114ee3f546139ee09ab2f7a1d6b15293cdfb61792d79"
+  }
+}

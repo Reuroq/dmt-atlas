@@ -1,0 +1,7 @@
+{
+  "event": "resources_closed",
+  "result": {
+    "materialsDisposed": 1,
+    "resourcesDisposed": true
+  }
+}

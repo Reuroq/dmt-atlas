@@ -1,0 +1,151 @@
+{
+  "schema_version": "0.3.0",
+  "report_id": "hph7yi",
+  "is_trip_report": true,
+  "reason": "The narrator explicitly recounts a first trip, visual shapes, and a perceived being.",
+  "quotes": [
+    {
+      "start": 3011,
+      "end": 3192,
+      "text": "My first trip was so eye opening. I got to the waiting room and watched checkered geometrical shapes shift and transform. And met a mayan (?) God who told me it was time to go back.",
+      "supports": [
+        "/is_trip_report",
+        "/reason"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "place": null,
+      "order_confidence": null,
+      "light": [],
+      "colour": [],
+      "motion": [
+        "vibrating"
+      ],
+      "geometry": [],
+      "material": [],
+      "density": [],
+      "scale": [],
+      "sound_seen": [],
+      "beings": [],
+      "transition": {
+        "trigger": [],
+        "abruptness": null
+      },
+      "affect": [],
+      "quotes": [
+        {
+          "start": 3011,
+          "end": 3044,
+          "text": "My first trip was so eye opening.",
+          "supports": [
+            "/scenes/0/episode_index"
+          ]
+        },
+        {
+          "start": 3315,
+          "end": 3426,
+          "text": "I got this tunnel vision as everything around me seemed to vibrate faster and harder until it no longer exists.",
+          "supports": [
+            "/scenes/0/motion/0"
+          ]
+        },
+        {
+          "start": 3011,
+          "end": 3132,
+          "text": "My first trip was so eye opening. I got to the waiting room and watched checkered geometrical shapes shift and transform.",
+          "supports": [
+            "/scenes/0/transition"
+          ]
+        }
+      ],
+      "episode_index": 1,
+      "dwell": null,
+      "uncertain_fields": []
+    },
+    {
+      "place": "the-waiting-room",
+      "order_confidence": "medium",
+      "light": [],
+      "colour": [],
+      "motion": [
+        "morphing"
+      ],
+      "geometry": [
+        "checkered"
+      ],
+      "material": [],
+      "density": [],
+      "scale": [],
+      "sound_seen": [],
+      "beings": [
+        {
+          "entity": "deities-god-like-presences",
+          "form": [],
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "behaviour": [
+            "sending-back"
+          ],
+          "communication": [],
+          "affect": []
+        }
+      ],
+      "transition": null,
+      "affect": [],
+      "quotes": [
+        {
+          "start": 3011,
+          "end": 3044,
+          "text": "My first trip was so eye opening.",
+          "supports": [
+            "/scenes/1/episode_index"
+          ]
+        },
+        {
+          "start": 3045,
+          "end": 3070,
+          "text": "I got to the waiting room",
+          "supports": [
+            "/scenes/1/place",
+            "/scenes/1/order_confidence"
+          ]
+        },
+        {
+          "start": 3193,
+          "end": 3314,
+          "text": "But the eye opening experience was that blast off was SO SIMILAR to watch it feels like when you’re going into a seizure.",
+          "supports": [
+            "/scenes/1/order_confidence"
+          ]
+        },
+        {
+          "start": 3075,
+          "end": 3132,
+          "text": "watched checkered geometrical shapes shift and transform.",
+          "supports": [
+            "/scenes/1/geometry/0",
+            "/scenes/1/motion/0"
+          ]
+        },
+        {
+          "start": 3133,
+          "end": 3192,
+          "text": "And met a mayan (?) God who told me it was time to go back.",
+          "supports": [
+            "/scenes/1/beings/0/entity",
+            "/scenes/1/beings/0/count/min",
+            "/scenes/1/beings/0/count/max",
+            "/scenes/1/beings/0/behaviour/0"
+          ]
+        }
+      ],
+      "episode_index": 1,
+      "dwell": null,
+      "uncertain_fields": []
+    }
+  ]
+}

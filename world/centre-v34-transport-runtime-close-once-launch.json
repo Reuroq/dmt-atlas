@@ -1,0 +1,12 @@
+{
+  "argv": [
+    "/usr/bin/python3",
+    "-B",
+    "-u",
+    "/home/clawd/dmt-atlas/world/close_centre_v34_transport_runtime.py"
+  ],
+  "script": "close_centre_v34_transport_runtime.py",
+  "script_sha256": "da638dde839474740ca99bdb43d335e4f7fd1500eb83ce13f1d7687ed55a814d",
+  "launcher_sha256": "6d7143eeb82df72bd7dfdc965726bfa71a8ff29629d0242c5bc413f7aa8385cf",
+  "preparation_sha256": "3ab34d6cc68045658a62dcb085ade03e3f22d6a5bbe4730a9207bf487213b8c9"
+}

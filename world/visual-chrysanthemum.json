@@ -1,14 +1,7 @@
 {
   "errors": [],
-  "fps_swiftshader": 0.4,
-  "checks": [
-    "paused pixel stillness",
-    "paused resize restores stable canvas",
-    "reduced-motion pixel stillness",
-    "detail toggle preserves route and pose",
-    "restored-detail reduced pixel stillness",
-    "Sources fidelity table and existing provenance"
-  ],
+  "fps_swiftshader": 0.0,
+  "checks": [],
   "diagnostics": {
     "stage": "chrysanthemum",
     "routeIndex": 2,
@@ -16,12 +9,12 @@
     "paused": false,
     "paced": false,
     "reduced": false,
-    "elapsed": 2.3331999999999984,
-    "animTime": 5.355600000190742,
+    "elapsed": 1.0998999999999999,
+    "animTime": 5.097200000381479,
     "transition": false,
     "renderReady": true,
     "renderPending": true,
-    "renderedAnimTime": 4.288900000190731,
+    "renderedAnimTime": 3.9973000003814665,
     "frames": 4,
     "position": [
       0,
@@ -72,14 +65,14 @@
     "entered": true,
     "paused": true,
     "paced": false,
-    "reduced": true,
-    "elapsed": 9.116600000000005,
-    "animTime": 6.372300000190743,
+    "reduced": false,
+    "elapsed": 2.1164999999999985,
+    "animTime": 6.113800000381477,
     "transition": false,
     "renderReady": true,
     "renderPending": false,
-    "renderedAnimTime": 6.372300000190743,
-    "frames": 10,
+    "renderedAnimTime": 6.113800000381477,
+    "frames": 6,
     "position": [
       0,
       1.7,
@@ -123,8 +116,8 @@
     "actors": [],
     "uncitedMeshes": 0
   },
-  "render_signature": "f055d198fd1db94f4a10a751f8b92a46d7ca0a3957a9e1352d0e6e2753d797b9",
-  "capture_sha256": "9ab2511f859eebebdca7973cc9d4b852df6cc118dd02cf8cd4c55efd72957f2c",
-  "file": "accessibility-chrysanthemum-v25.png",
+  "render_signature": "05e97cc62d6ce6c3f921512e2814d97a3b52db1d99b032bde68f0c13a9c8e1fa",
+  "capture_sha256": "412fea5a611ecfac16defe5317d5ab60e0c4701d4b0e68128f16cf01b8efbac6",
+  "file": "visual-chrysanthemum.png",
   "veil_opacity": 0
 }

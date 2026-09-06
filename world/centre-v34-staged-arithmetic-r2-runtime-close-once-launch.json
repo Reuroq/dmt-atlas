@@ -1,0 +1,12 @@
+{
+  "argv": [
+    "/usr/bin/python3",
+    "-B",
+    "-u",
+    "/home/clawd/dmt-atlas/world/close_centre_v34_staged_arithmetic_r2_runtime.py"
+  ],
+  "script": "close_centre_v34_staged_arithmetic_r2_runtime.py",
+  "script_sha256": "883129c1cb903f664ec3c5a6caae7c19d88582d566c0f373fb6e5d255ae1d3aa",
+  "launcher_sha256": "067b7bff854e564a127c96de979427b4aa2283b8373fd36a23545fafb9836c34",
+  "preparation_sha256": "2200bc601e8a59f886d2f012bb6c48b12aed32ac4e59c1b6d8e3e81e3f9781ec"
+}

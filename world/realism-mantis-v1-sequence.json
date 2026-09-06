@@ -1,0 +1,328 @@
+[
+  {
+    "errors": [],
+    "fps_swiftshader": 0.0,
+    "checks": [],
+    "diagnostics": {
+      "stage": "clinical",
+      "routeIndex": 6,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 3.516599999999994,
+      "animTime": 16.71909999961846,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": true,
+      "renderedAnimTime": 13.202499999618526,
+      "frames": 7,
+      "position": [
+        0,
+        1.7,
+        11
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush",
+        "membrane",
+        "waiting",
+        "cathedral",
+        "clinical"
+      ],
+      "entities": [
+        "mantis"
+      ],
+      "interactions": 0,
+      "evidence": [
+        "realm|The Hospital / Operating Theater",
+        "entity|Mantis & insectoid beings",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Embedded Faces & the Pareidolia Cascade",
+        "geometry|Hyper-dimensional objects"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 44,
+      "portals": [
+        {
+          "x": 0,
+          "z": -14,
+          "width": 4,
+          "target": "next"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 3,
+      "triangles": 24,
+      "geometries": 7,
+      "actors": [
+        {
+          "kind": "mantis",
+          "engaged": false,
+          "joints": 0,
+          "arm": null,
+          "evidence": "entity|Mantis & insectoid beings",
+          "screen": [
+            600,
+            299.01396301434954
+          ]
+        }
+      ],
+      "uncitedMeshes": 0
+    },
+    "capture_diagnostics": {
+      "stage": "clinical",
+      "routeIndex": 6,
+      "entered": true,
+      "paused": true,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 3.566599999999994,
+      "animTime": 16.769099999618458,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 16.769099999618458,
+      "frames": 8,
+      "position": [
+        0,
+        1.7,
+        11
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush",
+        "membrane",
+        "waiting",
+        "cathedral",
+        "clinical"
+      ],
+      "entities": [
+        "mantis"
+      ],
+      "interactions": 0,
+      "evidence": [
+        "realm|The Hospital / Operating Theater",
+        "entity|Mantis & insectoid beings",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Embedded Faces & the Pareidolia Cascade",
+        "geometry|Hyper-dimensional objects"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 44,
+      "portals": [
+        {
+          "x": 0,
+          "z": -14,
+          "width": 4,
+          "target": "next"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 3,
+      "triangles": 24,
+      "geometries": 7,
+      "actors": [
+        {
+          "kind": "mantis",
+          "engaged": false,
+          "joints": 0,
+          "arm": null,
+          "evidence": "entity|Mantis & insectoid beings",
+          "screen": [
+            600,
+            299.01396301434954
+          ]
+        }
+      ],
+      "uncitedMeshes": 0
+    },
+    "render_signature": "9d8258cf58203971c6473ac1d6df29539cae2be17f414468625471790d316ac0",
+    "capture_sha256": "3a04cdc55a5a698b446e0d36ccf636534f41dde4f7f7bceeb0a912c8e5209c7c",
+    "file": "realism-mantis-v1.png",
+    "veil_opacity": 0
+  },
+  {
+    "errors": [],
+    "fps_swiftshader": 0.0,
+    "checks": [],
+    "diagnostics": {
+      "stage": "clinical",
+      "routeIndex": 6,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 3.516599999999994,
+      "animTime": 16.71909999961846,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": true,
+      "renderedAnimTime": 13.202499999618526,
+      "frames": 7,
+      "position": [
+        0,
+        1.7,
+        11
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush",
+        "membrane",
+        "waiting",
+        "cathedral",
+        "clinical"
+      ],
+      "entities": [
+        "mantis"
+      ],
+      "interactions": 0,
+      "evidence": [
+        "realm|The Hospital / Operating Theater",
+        "entity|Mantis & insectoid beings",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Embedded Faces & the Pareidolia Cascade",
+        "geometry|Hyper-dimensional objects"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 44,
+      "portals": [
+        {
+          "x": 0,
+          "z": -14,
+          "width": 4,
+          "target": "next"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 3,
+      "triangles": 24,
+      "geometries": 7,
+      "actors": [
+        {
+          "kind": "mantis",
+          "engaged": false,
+          "joints": 0,
+          "arm": null,
+          "evidence": "entity|Mantis & insectoid beings",
+          "screen": [
+            600,
+            299.01396301434954
+          ]
+        }
+      ],
+      "uncitedMeshes": 0
+    },
+    "capture_diagnostics": {
+      "stage": "clinical",
+      "routeIndex": 6,
+      "entered": true,
+      "paused": true,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 5.616500000000013,
+      "animTime": 18.81899999961836,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 18.81899999961836,
+      "frames": 10,
+      "position": [
+        0,
+        1.7,
+        11
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset",
+        "geometry",
+        "chrysanthemum",
+        "rush",
+        "membrane",
+        "waiting",
+        "cathedral",
+        "clinical"
+      ],
+      "entities": [
+        "mantis"
+      ],
+      "interactions": 0,
+      "evidence": [
+        "realm|The Hospital / Operating Theater",
+        "entity|Mantis & insectoid beings",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Dimensional Layering & Space-Folding",
+        "geometry|Hyperbolic Space & Negative Curvature",
+        "geometry|Ultra-Detail & Infinite Resolution",
+        "geometry|Energy Conduits & Living Circuitry",
+        "geometry|Embedded Faces & the Pareidolia Cascade",
+        "geometry|Hyper-dimensional objects"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 44,
+      "portals": [
+        {
+          "x": 0,
+          "z": -14,
+          "width": 4,
+          "target": "next"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 3,
+      "triangles": 24,
+      "geometries": 7,
+      "actors": [
+        {
+          "kind": "mantis",
+          "engaged": false,
+          "joints": 0,
+          "arm": null,
+          "evidence": "entity|Mantis & insectoid beings",
+          "screen": [
+            600,
+            299.01396301434954
+          ]
+        }
+      ],
+      "uncitedMeshes": 0
+    },
+    "render_signature": "9d8258cf58203971c6473ac1d6df29539cae2be17f414468625471790d316ac0",
+    "capture_sha256": "c48372200f1bddfa8c3cab9430faccaa4a32f096f011f2ac3b452376a49a56c3",
+    "file": "realism-mantis-v1-motion.png",
+    "veil_opacity": 0
+  }
+]

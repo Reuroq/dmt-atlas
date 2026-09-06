@@ -1,0 +1,24 @@
+{
+  "cases": [
+    {
+      "version": 31,
+      "mean_iterations": 133.22245807127882,
+      "p95_iterations": 261.0,
+      "max_iterations": 1244.0,
+      "median_readback_wall_seconds": 0.25883290311321616
+    },
+    {
+      "version": 32,
+      "mean_iterations": 67.64433962264151,
+      "p95_iterations": 142.0,
+      "max_iterations": 531.0,
+      "median_readback_wall_seconds": 0.18613218050450087
+    }
+  ],
+  "source_hashes": {
+    "numeric-candidate-v31-raw.json": "9023aeffa34a7f7c0c79bb8f23d9869eb582396bbcf3c9a86b154fd2cb1c3a0f",
+    "numeric-candidate-v32-raw.json": "d277777180076efd69c900e2bd527840ff9e68efb3148eb755a3f12edfcabe6a"
+  },
+  "method": "Read saved raw only; no old probes replayed.",
+  "limits": "Fewer iterations in these sparse rays, not a hardware-GPU benchmark or full-resolution90s settling pass."
+}

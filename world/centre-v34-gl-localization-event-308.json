@@ -1,0 +1,11 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "float-row1",
+      "op": "program-reference"
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "7f4240158aa81f25dd5162e830e62569ef9c91961313b56c333f394e2cedbf34"
+}

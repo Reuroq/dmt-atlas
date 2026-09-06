@@ -1,0 +1,10 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "childAxial",
+    "leaf": 0,
+    "arm": "uniform",
+    "op": "read-three"
+  },
+  "previous_sha256": "d738769ce936e70c7e85b55f617e351a168fe61b02dd31c0635cdbd006365571"
+}

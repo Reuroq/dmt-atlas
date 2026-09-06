@@ -1,0 +1,8 @@
+{
+  "argv": [
+    "node",
+    "--check",
+    "/home/clawd/dmt-atlas/world/continuum-v35-candidate.js"
+  ],
+  "stdin_sha256": null
+}
