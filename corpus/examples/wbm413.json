@@ -1,0 +1,49 @@
+{
+  "report_id": "wbm413",
+  "is_trip_report": true,
+  "reason": "The narrator recounts geometric beings and visual patterns during a specific experience.",
+  "scenes": [
+    {
+      "light": [],
+      "colour": [
+        "purple",
+        "blue"
+      ],
+      "motion": [
+        "morphing"
+      ],
+      "geometry": [
+        "folded",
+        "patterned"
+      ],
+      "material": [],
+      "density": [],
+      "scale": [],
+      "affect": [],
+      "place": "",
+      "order": 1,
+      "transition_trigger": [],
+      "quotes": [
+        "2nd dmt breakthrough",
+        "purple and blue hues",
+        "impossible geometric shapes folding inside themselves constantly forming new patterns",
+        "I saw what I can only describe as geometric sentience…cosmic co devious non physical beings surrounded me in a circle",
+        "They were all trying to hand me delicious cosmic cheeseburgers"
+      ],
+      "beings": [
+        {
+          "form": [
+            "geometric sentience",
+            "non physical beings"
+          ],
+          "count_text": "multiple (They were all)",
+          "behaviour": [
+            "offering"
+          ],
+          "communication": [],
+          "affect": []
+        }
+      ]
+    }
+  ]
+}

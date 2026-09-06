@@ -1,0 +1,8 @@
+{
+  "script": "probe_centre_v34_gl_localization.py",
+  "script_sha256": "6fe0a36e60a1891359a0b4dfee654e25bc294f431ad98774cfa4468916af7784",
+  "launcher_sha256": "d12f3c6d645efc3f995e65f6d929ffa0e42ca9cab1bfe001704f77c1f25bff02",
+  "child_pid_parent": 871149,
+  "preparation_sha256": "02ce5f1e4360ed19f5ed67e0315b65d8217fbf3d73b699e5c19cb7a8e0552620",
+  "mode": "foreground subprocess.run, one attempt, 180s timeout"
+}

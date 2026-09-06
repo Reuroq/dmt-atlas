@@ -1,0 +1,10 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "float-row1",
+    "op": "translated-source",
+    "shader": "vertexShader",
+    "query": true
+  },
+  "previous_sha256": "a21466db91d77d8da5caca4cf9834510113765a2eec4ab0ad938055ae2a200fc"
+}

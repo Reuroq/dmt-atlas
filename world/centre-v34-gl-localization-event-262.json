@@ -1,0 +1,25 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "name": "float-row0",
+      "op": "debug-extension",
+      "query": true
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [],
+      "drained": true
+    },
+    "value": {
+      "supported": true
+    },
+    "exception": null,
+    "skipped": false,
+    "contextLost": false
+  },
+  "previous_sha256": "e0c80cbea1a20e9cc0821e959e0001a34a38c11242d7f3aef380ad5471caf597"
+}

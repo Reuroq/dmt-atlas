@@ -1,0 +1,12 @@
+{
+  "candidate": "continuum-v33-candidate.js",
+  "sha256": "2fe06120bfe8e9600da122e69c28a8ee699b75da5cfdae5ffd9adef6e7140da0",
+  "parent": "continuum-v32-candidate.js",
+  "live_modified": false,
+  "structure": "Closed tapered curled petal cells:12 angular parent petals and36 child petals, radial/depth3x coordinates; nonnegative angular/axial costs eliminate annular sheets; physical gaps",
+  "clearance_lower_bound": 5.8,
+  "excluded_bright_axis_radius": 2.78,
+  "cap_begins_z": -27.5,
+  "unchanged": "materials,2048/1536 budgets,14 bisections,.00015 residual,directional-depth gate,no forced minimum step,actual camera/shared clock",
+  "state": "Unvalidated; no realism or promotion"
+}

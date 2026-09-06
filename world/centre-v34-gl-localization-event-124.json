@@ -1,0 +1,24 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "name": "float-constant",
+      "op": "compile"
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [],
+      "drained": true
+    },
+    "value": {
+      "callbacks": []
+    },
+    "exception": null,
+    "skipped": false,
+    "contextLost": false
+  },
+  "previous_sha256": "1ad2aafcdd1bd7dede9ecf9f4dd4ca0848607edb43b74c8aa64f66270c77d3c4"
+}

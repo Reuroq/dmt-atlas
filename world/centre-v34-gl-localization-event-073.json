@@ -1,0 +1,26 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "name": "byte-constant",
+      "op": "shader-log",
+      "shader": "vertexShader",
+      "query": true
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [],
+      "drained": true
+    },
+    "value": {
+      "log": ""
+    },
+    "exception": null,
+    "skipped": false,
+    "contextLost": false
+  },
+  "previous_sha256": "8af5dae4631e41fb821d244001abf1b37d6a4f395e172df8341ecf2bafc3a363"
+}

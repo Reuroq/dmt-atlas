@@ -1,0 +1,109 @@
+{
+  "errors": [],
+  "fps_swiftshader": 2.78,
+  "checks": [],
+  "diagnostics": {
+    "stage": "onset",
+    "routeIndex": 0,
+    "entered": true,
+    "paused": false,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 2.533199999999999,
+    "animTime": 2.926099999618527,
+    "transition": false,
+    "renderReady": true,
+    "renderPending": true,
+    "renderedAnimTime": 2.859399999618527,
+    "frames": 8,
+    "position": [
+      0,
+      1.7,
+      6.5
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset"
+    ],
+    "entities": [],
+    "interactions": 0,
+    "evidence": [
+      "phase|Inhalation / Onset",
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|TV Static & the Signal-Noise Transition"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 17,
+    "portals": [
+      {
+        "x": 0,
+        "z": -8.95,
+        "width": 3,
+        "target": "next"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 80,
+    "triangles": 97826,
+    "geometries": 40,
+    "actors": [],
+    "uncitedMeshes": 0
+  },
+  "capture_diagnostics": {
+    "stage": "onset",
+    "routeIndex": 0,
+    "entered": true,
+    "paused": true,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 4.616700000000004,
+    "animTime": 5.009599999618536,
+    "transition": false,
+    "renderReady": true,
+    "renderPending": false,
+    "renderedAnimTime": 5.009599999618536,
+    "frames": 17,
+    "position": [
+      0,
+      1.7,
+      6.5
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset"
+    ],
+    "entities": [],
+    "interactions": 0,
+    "evidence": [
+      "phase|Inhalation / Onset",
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|TV Static & the Signal-Noise Transition"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 17,
+    "portals": [
+      {
+        "x": 0,
+        "z": -8.95,
+        "width": 3,
+        "target": "next"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 80,
+    "triangles": 97826,
+    "geometries": 40,
+    "actors": [],
+    "uncitedMeshes": 0
+  },
+  "render_signature": "7df065ecf395df8fd3f05fb40992e3e6e9e6f6a8654131ad468a69a10b5917b1",
+  "capture_sha256": "d15ee70c61bc33e2c864c5f520d82bde2f739b32f22831f03382ecd290927502",
+  "file": "realism-onset-v4-motion.png",
+  "veil_opacity": 0
+}

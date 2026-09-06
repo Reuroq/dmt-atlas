@@ -1,0 +1,26 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "name": "float-row1",
+      "op": "shader-compiled",
+      "shader": "vertexShader",
+      "query": true
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [],
+      "drained": true
+    },
+    "value": {
+      "compiled": true
+    },
+    "exception": null,
+    "skipped": false,
+    "contextLost": false
+  },
+  "previous_sha256": "b88dc5db6f5f498b73d42cf3890d5b4d3ce44e38f4d13286ac7487d25322b3af"
+}

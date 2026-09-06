@@ -1,0 +1,9 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "float-constant",
+    "op": "debug-extension",
+    "query": true
+  },
+  "previous_sha256": "797b6000c9eff30f4b8bd5fc4f4d2bd17c8aeba81d70a5a7c6942f038086dca0"
+}

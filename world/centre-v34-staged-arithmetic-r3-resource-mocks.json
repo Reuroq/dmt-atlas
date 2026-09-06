@@ -1,0 +1,2717 @@
+[
+  {
+    "mode": "empty",
+    "v": {
+      "registered": [],
+      "attempted": [],
+      "succeeded": [],
+      "errors": [],
+      "rendererDisposed": false,
+      "complete": true
+    }
+  },
+  {
+    "mode": "normal",
+    "before": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-1",
+        "kind": "target",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-2",
+        "kind": "texture",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-3",
+        "kind": "geometry",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-4",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "result": {
+      "step": {
+        "op": "dispose"
+      },
+      "before": {
+        "errors": [],
+        "drained": true
+      },
+      "after": {
+        "errors": [],
+        "drained": true
+      },
+      "value": {
+        "registered": [
+          {
+            "id": "resource-0",
+            "kind": "renderer",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-1",
+            "kind": "target",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-2",
+            "kind": "texture",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-3",
+            "kind": "geometry",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-4",
+            "kind": "material",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          }
+        ],
+        "attempted": [
+          "resource-1",
+          "resource-2",
+          "resource-3",
+          "resource-4",
+          "resource-0"
+        ],
+        "succeeded": [
+          "resource-0",
+          "resource-1",
+          "resource-2",
+          "resource-3",
+          "resource-4"
+        ],
+        "errors": [],
+        "rendererDisposed": true,
+        "complete": true
+      },
+      "exception": null,
+      "skipped": false,
+      "resources": [
+        {
+          "id": "resource-0",
+          "kind": "renderer",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-1",
+          "kind": "target",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-2",
+          "kind": "texture",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-3",
+          "kind": "geometry",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-4",
+          "kind": "material",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        }
+      ],
+      "contextLost": false
+    }
+  },
+  {
+    "mode": "renderer-setup",
+    "before": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "result": {
+      "step": {
+        "op": "dispose"
+      },
+      "before": {
+        "errors": [],
+        "drained": true
+      },
+      "after": {
+        "errors": [],
+        "drained": true
+      },
+      "value": {
+        "registered": [
+          {
+            "id": "resource-0",
+            "kind": "renderer",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          }
+        ],
+        "attempted": [
+          "resource-0"
+        ],
+        "succeeded": [
+          "resource-0"
+        ],
+        "errors": [],
+        "rendererDisposed": true,
+        "complete": true
+      },
+      "exception": null,
+      "skipped": false,
+      "resources": [
+        {
+          "id": "resource-0",
+          "kind": "renderer",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        }
+      ],
+      "contextLost": false
+    }
+  },
+  {
+    "mode": "target-constructor",
+    "before": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "result": {
+      "step": {
+        "op": "dispose"
+      },
+      "before": {
+        "errors": [],
+        "drained": true
+      },
+      "after": {
+        "errors": [],
+        "drained": true
+      },
+      "value": {
+        "registered": [
+          {
+            "id": "resource-0",
+            "kind": "renderer",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          }
+        ],
+        "attempted": [
+          "resource-0"
+        ],
+        "succeeded": [
+          "resource-0"
+        ],
+        "errors": [],
+        "rendererDisposed": true,
+        "complete": true
+      },
+      "exception": null,
+      "skipped": false,
+      "resources": [
+        {
+          "id": "resource-0",
+          "kind": "renderer",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        }
+      ],
+      "contextLost": false
+    }
+  },
+  {
+    "mode": "texture-setter",
+    "before": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-1",
+        "kind": "target",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-2",
+        "kind": "texture",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "result": {
+      "step": {
+        "op": "dispose"
+      },
+      "before": {
+        "errors": [],
+        "drained": true
+      },
+      "after": {
+        "errors": [],
+        "drained": true
+      },
+      "value": {
+        "registered": [
+          {
+            "id": "resource-0",
+            "kind": "renderer",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-1",
+            "kind": "target",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-2",
+            "kind": "texture",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          }
+        ],
+        "attempted": [
+          "resource-1",
+          "resource-2",
+          "resource-0"
+        ],
+        "succeeded": [
+          "resource-0",
+          "resource-1",
+          "resource-2"
+        ],
+        "errors": [],
+        "rendererDisposed": true,
+        "complete": true
+      },
+      "exception": null,
+      "skipped": false,
+      "resources": [
+        {
+          "id": "resource-0",
+          "kind": "renderer",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-1",
+          "kind": "target",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-2",
+          "kind": "texture",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        }
+      ],
+      "contextLost": false
+    }
+  },
+  {
+    "mode": "geometry-constructor",
+    "before": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-1",
+        "kind": "target",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-2",
+        "kind": "texture",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "result": {
+      "step": {
+        "op": "dispose"
+      },
+      "before": {
+        "errors": [],
+        "drained": true
+      },
+      "after": {
+        "errors": [],
+        "drained": true
+      },
+      "value": {
+        "registered": [
+          {
+            "id": "resource-0",
+            "kind": "renderer",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-1",
+            "kind": "target",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-2",
+            "kind": "texture",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          }
+        ],
+        "attempted": [
+          "resource-1",
+          "resource-2",
+          "resource-0"
+        ],
+        "succeeded": [
+          "resource-0",
+          "resource-1",
+          "resource-2"
+        ],
+        "errors": [],
+        "rendererDisposed": true,
+        "complete": true
+      },
+      "exception": null,
+      "skipped": false,
+      "resources": [
+        {
+          "id": "resource-0",
+          "kind": "renderer",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-1",
+          "kind": "target",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-2",
+          "kind": "texture",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        }
+      ],
+      "contextLost": false
+    }
+  },
+  {
+    "mode": "scene-add",
+    "before": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-1",
+        "kind": "target",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-2",
+        "kind": "texture",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-3",
+        "kind": "geometry",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "result": {
+      "step": {
+        "op": "dispose"
+      },
+      "before": {
+        "errors": [],
+        "drained": true
+      },
+      "after": {
+        "errors": [],
+        "drained": true
+      },
+      "value": {
+        "registered": [
+          {
+            "id": "resource-0",
+            "kind": "renderer",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-1",
+            "kind": "target",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-2",
+            "kind": "texture",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-3",
+            "kind": "geometry",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          }
+        ],
+        "attempted": [
+          "resource-1",
+          "resource-2",
+          "resource-3",
+          "resource-0"
+        ],
+        "succeeded": [
+          "resource-0",
+          "resource-1",
+          "resource-2",
+          "resource-3"
+        ],
+        "errors": [],
+        "rendererDisposed": true,
+        "complete": true
+      },
+      "exception": null,
+      "skipped": false,
+      "resources": [
+        {
+          "id": "resource-0",
+          "kind": "renderer",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-1",
+          "kind": "target",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-2",
+          "kind": "texture",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-3",
+          "kind": "geometry",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        }
+      ],
+      "contextLost": false
+    }
+  },
+  {
+    "mode": "material-constructor",
+    "before": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-1",
+        "kind": "target",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-2",
+        "kind": "texture",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-3",
+        "kind": "geometry",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "result": {
+      "step": {
+        "op": "dispose"
+      },
+      "before": {
+        "errors": [],
+        "drained": true
+      },
+      "after": {
+        "errors": [],
+        "drained": true
+      },
+      "value": {
+        "registered": [
+          {
+            "id": "resource-0",
+            "kind": "renderer",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-1",
+            "kind": "target",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-2",
+            "kind": "texture",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-3",
+            "kind": "geometry",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          }
+        ],
+        "attempted": [
+          "resource-1",
+          "resource-2",
+          "resource-3",
+          "resource-0"
+        ],
+        "succeeded": [
+          "resource-0",
+          "resource-1",
+          "resource-2",
+          "resource-3"
+        ],
+        "errors": [],
+        "rendererDisposed": true,
+        "complete": true
+      },
+      "exception": null,
+      "skipped": false,
+      "resources": [
+        {
+          "id": "resource-0",
+          "kind": "renderer",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-1",
+          "kind": "target",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-2",
+          "kind": "texture",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-3",
+          "kind": "geometry",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        }
+      ],
+      "contextLost": false
+    }
+  },
+  {
+    "mode": "duplicate",
+    "before": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-1",
+        "kind": "target",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-2",
+        "kind": "texture",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-3",
+        "kind": "geometry",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-4",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "result": {
+      "step": {
+        "op": "dispose"
+      },
+      "before": {
+        "errors": [],
+        "drained": true
+      },
+      "after": {
+        "errors": [],
+        "drained": true
+      },
+      "value": {
+        "registered": [
+          {
+            "id": "resource-0",
+            "kind": "renderer",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-1",
+            "kind": "target",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-2",
+            "kind": "texture",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-3",
+            "kind": "geometry",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-4",
+            "kind": "material",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          }
+        ],
+        "attempted": [
+          "resource-1",
+          "resource-2",
+          "resource-3",
+          "resource-4",
+          "resource-0"
+        ],
+        "succeeded": [
+          "resource-0",
+          "resource-1",
+          "resource-2",
+          "resource-3",
+          "resource-4"
+        ],
+        "errors": [],
+        "rendererDisposed": true,
+        "complete": true
+      },
+      "exception": null,
+      "skipped": false,
+      "resources": [
+        {
+          "id": "resource-0",
+          "kind": "renderer",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-1",
+          "kind": "target",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-2",
+          "kind": "texture",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-3",
+          "kind": "geometry",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-4",
+          "kind": "material",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        }
+      ],
+      "contextLost": false
+    }
+  },
+  {
+    "mode": "dirty",
+    "before": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-1",
+        "kind": "target",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-2",
+        "kind": "texture",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-3",
+        "kind": "geometry",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-4",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "result": {
+      "step": {
+        "op": "dispose"
+      },
+      "before": {
+        "errors": [
+          1282
+        ],
+        "drained": true
+      },
+      "after": {
+        "errors": [],
+        "drained": true
+      },
+      "value": {
+        "registered": [
+          {
+            "id": "resource-0",
+            "kind": "renderer",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-1",
+            "kind": "target",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-2",
+            "kind": "texture",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-3",
+            "kind": "geometry",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-4",
+            "kind": "material",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          }
+        ],
+        "attempted": [
+          "resource-1",
+          "resource-2",
+          "resource-3",
+          "resource-4",
+          "resource-0"
+        ],
+        "succeeded": [
+          "resource-0",
+          "resource-1",
+          "resource-2",
+          "resource-3",
+          "resource-4"
+        ],
+        "errors": [],
+        "rendererDisposed": true,
+        "complete": true
+      },
+      "exception": null,
+      "skipped": false,
+      "resources": [
+        {
+          "id": "resource-0",
+          "kind": "renderer",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-1",
+          "kind": "target",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-2",
+          "kind": "texture",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-3",
+          "kind": "geometry",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-4",
+          "kind": "material",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        }
+      ],
+      "contextLost": false
+    }
+  },
+  {
+    "mode": "dispose-target",
+    "before": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-1",
+        "kind": "target",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-2",
+        "kind": "texture",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-3",
+        "kind": "geometry",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-4",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "result": {
+      "step": {
+        "op": "dispose"
+      },
+      "before": {
+        "errors": [],
+        "drained": true
+      },
+      "after": {
+        "errors": [],
+        "drained": true
+      },
+      "value": {
+        "registered": [
+          {
+            "id": "resource-0",
+            "kind": "renderer",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-1",
+            "kind": "target",
+            "attempted": true,
+            "succeeded": false,
+            "error": "Error: injected target\n    at WebGLRenderTarget.dispose (evalmachine.<anonymous>:5:94)\n    at cleanup (evalmachine.<anonymous>:20:19)\n    at perform (evalmachine.<anonymous>:125:25)\n    at window.arithmeticStep (evalmachine.<anonymous>:134:15)\n    at evalmachine.<anonymous>:31:43\n    at Script.runInContext (node:vm:149:12)\n    at Object.runInContext (node:vm:301:6)\n    at run (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-target.js:19:5)\n    at Object.<anonymous> (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-target.js:65:37)\n    at Module._compile (node:internal/modules/cjs/loader:1529:14)"
+          },
+          {
+            "id": "resource-2",
+            "kind": "texture",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-3",
+            "kind": "geometry",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-4",
+            "kind": "material",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          }
+        ],
+        "attempted": [
+          "resource-1",
+          "resource-2",
+          "resource-3",
+          "resource-4",
+          "resource-0"
+        ],
+        "succeeded": [
+          "resource-0",
+          "resource-2",
+          "resource-3",
+          "resource-4"
+        ],
+        "errors": [
+          {
+            "id": "resource-1",
+            "error": "Error: injected target\n    at WebGLRenderTarget.dispose (evalmachine.<anonymous>:5:94)\n    at cleanup (evalmachine.<anonymous>:20:19)\n    at perform (evalmachine.<anonymous>:125:25)\n    at window.arithmeticStep (evalmachine.<anonymous>:134:15)\n    at evalmachine.<anonymous>:31:43\n    at Script.runInContext (node:vm:149:12)\n    at Object.runInContext (node:vm:301:6)\n    at run (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-target.js:19:5)\n    at Object.<anonymous> (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-target.js:65:37)\n    at Module._compile (node:internal/modules/cjs/loader:1529:14)"
+          }
+        ],
+        "rendererDisposed": true,
+        "complete": false
+      },
+      "exception": null,
+      "skipped": false,
+      "resources": [
+        {
+          "id": "resource-0",
+          "kind": "renderer",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-1",
+          "kind": "target",
+          "attempted": true,
+          "succeeded": false,
+          "error": "Error: injected target\n    at WebGLRenderTarget.dispose (evalmachine.<anonymous>:5:94)\n    at cleanup (evalmachine.<anonymous>:20:19)\n    at perform (evalmachine.<anonymous>:125:25)\n    at window.arithmeticStep (evalmachine.<anonymous>:134:15)\n    at evalmachine.<anonymous>:31:43\n    at Script.runInContext (node:vm:149:12)\n    at Object.runInContext (node:vm:301:6)\n    at run (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-target.js:19:5)\n    at Object.<anonymous> (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-target.js:65:37)\n    at Module._compile (node:internal/modules/cjs/loader:1529:14)"
+        },
+        {
+          "id": "resource-2",
+          "kind": "texture",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-3",
+          "kind": "geometry",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-4",
+          "kind": "material",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        }
+      ],
+      "contextLost": false
+    }
+  },
+  {
+    "mode": "dispose-texture",
+    "before": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-1",
+        "kind": "target",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-2",
+        "kind": "texture",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-3",
+        "kind": "geometry",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-4",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "result": {
+      "step": {
+        "op": "dispose"
+      },
+      "before": {
+        "errors": [],
+        "drained": true
+      },
+      "after": {
+        "errors": [],
+        "drained": true
+      },
+      "value": {
+        "registered": [
+          {
+            "id": "resource-0",
+            "kind": "renderer",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-1",
+            "kind": "target",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-2",
+            "kind": "texture",
+            "attempted": true,
+            "succeeded": false,
+            "error": "Error: injected texture\n    at DataTexture.dispose (evalmachine.<anonymous>:5:94)\n    at cleanup (evalmachine.<anonymous>:20:19)\n    at perform (evalmachine.<anonymous>:125:25)\n    at window.arithmeticStep (evalmachine.<anonymous>:134:15)\n    at evalmachine.<anonymous>:31:43\n    at Script.runInContext (node:vm:149:12)\n    at Object.runInContext (node:vm:301:6)\n    at run (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-texture.js:19:5)\n    at Object.<anonymous> (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-texture.js:65:37)\n    at Module._compile (node:internal/modules/cjs/loader:1529:14)"
+          },
+          {
+            "id": "resource-3",
+            "kind": "geometry",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-4",
+            "kind": "material",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          }
+        ],
+        "attempted": [
+          "resource-1",
+          "resource-2",
+          "resource-3",
+          "resource-4",
+          "resource-0"
+        ],
+        "succeeded": [
+          "resource-0",
+          "resource-1",
+          "resource-3",
+          "resource-4"
+        ],
+        "errors": [
+          {
+            "id": "resource-2",
+            "error": "Error: injected texture\n    at DataTexture.dispose (evalmachine.<anonymous>:5:94)\n    at cleanup (evalmachine.<anonymous>:20:19)\n    at perform (evalmachine.<anonymous>:125:25)\n    at window.arithmeticStep (evalmachine.<anonymous>:134:15)\n    at evalmachine.<anonymous>:31:43\n    at Script.runInContext (node:vm:149:12)\n    at Object.runInContext (node:vm:301:6)\n    at run (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-texture.js:19:5)\n    at Object.<anonymous> (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-texture.js:65:37)\n    at Module._compile (node:internal/modules/cjs/loader:1529:14)"
+          }
+        ],
+        "rendererDisposed": true,
+        "complete": false
+      },
+      "exception": null,
+      "skipped": false,
+      "resources": [
+        {
+          "id": "resource-0",
+          "kind": "renderer",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-1",
+          "kind": "target",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-2",
+          "kind": "texture",
+          "attempted": true,
+          "succeeded": false,
+          "error": "Error: injected texture\n    at DataTexture.dispose (evalmachine.<anonymous>:5:94)\n    at cleanup (evalmachine.<anonymous>:20:19)\n    at perform (evalmachine.<anonymous>:125:25)\n    at window.arithmeticStep (evalmachine.<anonymous>:134:15)\n    at evalmachine.<anonymous>:31:43\n    at Script.runInContext (node:vm:149:12)\n    at Object.runInContext (node:vm:301:6)\n    at run (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-texture.js:19:5)\n    at Object.<anonymous> (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-texture.js:65:37)\n    at Module._compile (node:internal/modules/cjs/loader:1529:14)"
+        },
+        {
+          "id": "resource-3",
+          "kind": "geometry",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-4",
+          "kind": "material",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        }
+      ],
+      "contextLost": false
+    }
+  },
+  {
+    "mode": "dispose-geometry",
+    "before": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-1",
+        "kind": "target",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-2",
+        "kind": "texture",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-3",
+        "kind": "geometry",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-4",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "result": {
+      "step": {
+        "op": "dispose"
+      },
+      "before": {
+        "errors": [],
+        "drained": true
+      },
+      "after": {
+        "errors": [],
+        "drained": true
+      },
+      "value": {
+        "registered": [
+          {
+            "id": "resource-0",
+            "kind": "renderer",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-1",
+            "kind": "target",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-2",
+            "kind": "texture",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-3",
+            "kind": "geometry",
+            "attempted": true,
+            "succeeded": false,
+            "error": "Error: injected geometry\n    at PlaneGeometry.dispose (evalmachine.<anonymous>:5:94)\n    at cleanup (evalmachine.<anonymous>:20:19)\n    at perform (evalmachine.<anonymous>:125:25)\n    at window.arithmeticStep (evalmachine.<anonymous>:134:15)\n    at evalmachine.<anonymous>:31:43\n    at Script.runInContext (node:vm:149:12)\n    at Object.runInContext (node:vm:301:6)\n    at run (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-geometry.js:19:5)\n    at Object.<anonymous> (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-geometry.js:65:37)\n    at Module._compile (node:internal/modules/cjs/loader:1529:14)"
+          },
+          {
+            "id": "resource-4",
+            "kind": "material",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          }
+        ],
+        "attempted": [
+          "resource-1",
+          "resource-2",
+          "resource-3",
+          "resource-4",
+          "resource-0"
+        ],
+        "succeeded": [
+          "resource-0",
+          "resource-1",
+          "resource-2",
+          "resource-4"
+        ],
+        "errors": [
+          {
+            "id": "resource-3",
+            "error": "Error: injected geometry\n    at PlaneGeometry.dispose (evalmachine.<anonymous>:5:94)\n    at cleanup (evalmachine.<anonymous>:20:19)\n    at perform (evalmachine.<anonymous>:125:25)\n    at window.arithmeticStep (evalmachine.<anonymous>:134:15)\n    at evalmachine.<anonymous>:31:43\n    at Script.runInContext (node:vm:149:12)\n    at Object.runInContext (node:vm:301:6)\n    at run (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-geometry.js:19:5)\n    at Object.<anonymous> (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-geometry.js:65:37)\n    at Module._compile (node:internal/modules/cjs/loader:1529:14)"
+          }
+        ],
+        "rendererDisposed": true,
+        "complete": false
+      },
+      "exception": null,
+      "skipped": false,
+      "resources": [
+        {
+          "id": "resource-0",
+          "kind": "renderer",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-1",
+          "kind": "target",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-2",
+          "kind": "texture",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-3",
+          "kind": "geometry",
+          "attempted": true,
+          "succeeded": false,
+          "error": "Error: injected geometry\n    at PlaneGeometry.dispose (evalmachine.<anonymous>:5:94)\n    at cleanup (evalmachine.<anonymous>:20:19)\n    at perform (evalmachine.<anonymous>:125:25)\n    at window.arithmeticStep (evalmachine.<anonymous>:134:15)\n    at evalmachine.<anonymous>:31:43\n    at Script.runInContext (node:vm:149:12)\n    at Object.runInContext (node:vm:301:6)\n    at run (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-geometry.js:19:5)\n    at Object.<anonymous> (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-geometry.js:65:37)\n    at Module._compile (node:internal/modules/cjs/loader:1529:14)"
+        },
+        {
+          "id": "resource-4",
+          "kind": "material",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        }
+      ],
+      "contextLost": false
+    }
+  },
+  {
+    "mode": "dispose-material",
+    "before": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-1",
+        "kind": "target",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-2",
+        "kind": "texture",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-3",
+        "kind": "geometry",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-4",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "result": {
+      "step": {
+        "op": "dispose"
+      },
+      "before": {
+        "errors": [],
+        "drained": true
+      },
+      "after": {
+        "errors": [],
+        "drained": true
+      },
+      "value": {
+        "registered": [
+          {
+            "id": "resource-0",
+            "kind": "renderer",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-1",
+            "kind": "target",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-2",
+            "kind": "texture",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-3",
+            "kind": "geometry",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-4",
+            "kind": "material",
+            "attempted": true,
+            "succeeded": false,
+            "error": "Error: injected material\n    at ShaderMaterial.dispose (evalmachine.<anonymous>:5:94)\n    at cleanup (evalmachine.<anonymous>:20:19)\n    at perform (evalmachine.<anonymous>:125:25)\n    at window.arithmeticStep (evalmachine.<anonymous>:134:15)\n    at evalmachine.<anonymous>:31:43\n    at Script.runInContext (node:vm:149:12)\n    at Object.runInContext (node:vm:301:6)\n    at run (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-material.js:19:5)\n    at Object.<anonymous> (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-material.js:65:37)\n    at Module._compile (node:internal/modules/cjs/loader:1529:14)"
+          }
+        ],
+        "attempted": [
+          "resource-1",
+          "resource-2",
+          "resource-3",
+          "resource-4",
+          "resource-0"
+        ],
+        "succeeded": [
+          "resource-0",
+          "resource-1",
+          "resource-2",
+          "resource-3"
+        ],
+        "errors": [
+          {
+            "id": "resource-4",
+            "error": "Error: injected material\n    at ShaderMaterial.dispose (evalmachine.<anonymous>:5:94)\n    at cleanup (evalmachine.<anonymous>:20:19)\n    at perform (evalmachine.<anonymous>:125:25)\n    at window.arithmeticStep (evalmachine.<anonymous>:134:15)\n    at evalmachine.<anonymous>:31:43\n    at Script.runInContext (node:vm:149:12)\n    at Object.runInContext (node:vm:301:6)\n    at run (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-material.js:19:5)\n    at Object.<anonymous> (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-material.js:65:37)\n    at Module._compile (node:internal/modules/cjs/loader:1529:14)"
+          }
+        ],
+        "rendererDisposed": true,
+        "complete": false
+      },
+      "exception": null,
+      "skipped": false,
+      "resources": [
+        {
+          "id": "resource-0",
+          "kind": "renderer",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-1",
+          "kind": "target",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-2",
+          "kind": "texture",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-3",
+          "kind": "geometry",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-4",
+          "kind": "material",
+          "attempted": true,
+          "succeeded": false,
+          "error": "Error: injected material\n    at ShaderMaterial.dispose (evalmachine.<anonymous>:5:94)\n    at cleanup (evalmachine.<anonymous>:20:19)\n    at perform (evalmachine.<anonymous>:125:25)\n    at window.arithmeticStep (evalmachine.<anonymous>:134:15)\n    at evalmachine.<anonymous>:31:43\n    at Script.runInContext (node:vm:149:12)\n    at Object.runInContext (node:vm:301:6)\n    at run (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-material.js:19:5)\n    at Object.<anonymous> (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-material.js:65:37)\n    at Module._compile (node:internal/modules/cjs/loader:1529:14)"
+        }
+      ],
+      "contextLost": false
+    }
+  },
+  {
+    "mode": "dispose-renderer",
+    "before": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-1",
+        "kind": "target",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-2",
+        "kind": "texture",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-3",
+        "kind": "geometry",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-4",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "result": {
+      "step": {
+        "op": "dispose"
+      },
+      "before": {
+        "errors": [],
+        "drained": true
+      },
+      "after": {
+        "errors": [],
+        "drained": true
+      },
+      "value": {
+        "registered": [
+          {
+            "id": "resource-0",
+            "kind": "renderer",
+            "attempted": true,
+            "succeeded": false,
+            "error": "Error: injected renderer\n    at WebGLRenderer.dispose (evalmachine.<anonymous>:5:94)\n    at cleanup (evalmachine.<anonymous>:20:19)\n    at perform (evalmachine.<anonymous>:125:25)\n    at window.arithmeticStep (evalmachine.<anonymous>:134:15)\n    at evalmachine.<anonymous>:31:43\n    at Script.runInContext (node:vm:149:12)\n    at Object.runInContext (node:vm:301:6)\n    at run (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-renderer.js:19:5)\n    at Object.<anonymous> (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-renderer.js:65:37)\n    at Module._compile (node:internal/modules/cjs/loader:1529:14)"
+          },
+          {
+            "id": "resource-1",
+            "kind": "target",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-2",
+            "kind": "texture",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-3",
+            "kind": "geometry",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-4",
+            "kind": "material",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          }
+        ],
+        "attempted": [
+          "resource-1",
+          "resource-2",
+          "resource-3",
+          "resource-4",
+          "resource-0"
+        ],
+        "succeeded": [
+          "resource-1",
+          "resource-2",
+          "resource-3",
+          "resource-4"
+        ],
+        "errors": [
+          {
+            "id": "resource-0",
+            "error": "Error: injected renderer\n    at WebGLRenderer.dispose (evalmachine.<anonymous>:5:94)\n    at cleanup (evalmachine.<anonymous>:20:19)\n    at perform (evalmachine.<anonymous>:125:25)\n    at window.arithmeticStep (evalmachine.<anonymous>:134:15)\n    at evalmachine.<anonymous>:31:43\n    at Script.runInContext (node:vm:149:12)\n    at Object.runInContext (node:vm:301:6)\n    at run (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-renderer.js:19:5)\n    at Object.<anonymous> (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-renderer.js:65:37)\n    at Module._compile (node:internal/modules/cjs/loader:1529:14)"
+          }
+        ],
+        "rendererDisposed": false,
+        "complete": false
+      },
+      "exception": null,
+      "skipped": false,
+      "resources": [
+        {
+          "id": "resource-0",
+          "kind": "renderer",
+          "attempted": true,
+          "succeeded": false,
+          "error": "Error: injected renderer\n    at WebGLRenderer.dispose (evalmachine.<anonymous>:5:94)\n    at cleanup (evalmachine.<anonymous>:20:19)\n    at perform (evalmachine.<anonymous>:125:25)\n    at window.arithmeticStep (evalmachine.<anonymous>:134:15)\n    at evalmachine.<anonymous>:31:43\n    at Script.runInContext (node:vm:149:12)\n    at Object.runInContext (node:vm:301:6)\n    at run (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-renderer.js:19:5)\n    at Object.<anonymous> (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-dispose-renderer.js:65:37)\n    at Module._compile (node:internal/modules/cjs/loader:1529:14)"
+        },
+        {
+          "id": "resource-1",
+          "kind": "target",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-2",
+          "kind": "texture",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-3",
+          "kind": "geometry",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-4",
+          "kind": "material",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        }
+      ],
+      "contextLost": false
+    }
+  },
+  {
+    "mode": "drain-throws",
+    "before": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-1",
+        "kind": "target",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-2",
+        "kind": "texture",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-3",
+        "kind": "geometry",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-4",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "result": {
+      "step": {
+        "op": "dispose"
+      },
+      "before": {
+        "errors": [],
+        "drained": false,
+        "exception": "Error: injected drain\n    at gl.getError (evalmachine.<anonymous>:30:50)\n    at drainErrors (evalmachine.<anonymous>:52:39)\n    at cleanupDrain (evalmachine.<anonymous>:29:13)\n    at window.arithmeticStep (evalmachine.<anonymous>:131:52)\n    at evalmachine.<anonymous>:31:43\n    at Script.runInContext (node:vm:149:12)\n    at Object.runInContext (node:vm:301:6)\n    at run (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-drain-throws.js:19:5)\n    at Object.<anonymous> (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-drain-throws.js:65:37)\n    at Module._compile (node:internal/modules/cjs/loader:1529:14)"
+      },
+      "after": {
+        "errors": [],
+        "drained": false,
+        "exception": "Error: injected drain\n    at gl.getError (evalmachine.<anonymous>:30:50)\n    at drainErrors (evalmachine.<anonymous>:52:39)\n    at cleanupDrain (evalmachine.<anonymous>:29:13)\n    at window.arithmeticStep (evalmachine.<anonymous>:136:52)\n    at evalmachine.<anonymous>:31:43\n    at Script.runInContext (node:vm:149:12)\n    at Object.runInContext (node:vm:301:6)\n    at run (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-drain-throws.js:19:5)\n    at Object.<anonymous> (/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-drain-throws.js:65:37)\n    at Module._compile (node:internal/modules/cjs/loader:1529:14)"
+      },
+      "value": {
+        "registered": [
+          {
+            "id": "resource-0",
+            "kind": "renderer",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-1",
+            "kind": "target",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-2",
+            "kind": "texture",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-3",
+            "kind": "geometry",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-4",
+            "kind": "material",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          }
+        ],
+        "attempted": [
+          "resource-1",
+          "resource-2",
+          "resource-3",
+          "resource-4",
+          "resource-0"
+        ],
+        "succeeded": [
+          "resource-0",
+          "resource-1",
+          "resource-2",
+          "resource-3",
+          "resource-4"
+        ],
+        "errors": [],
+        "rendererDisposed": true,
+        "complete": true
+      },
+      "exception": null,
+      "skipped": false,
+      "resources": [
+        {
+          "id": "resource-0",
+          "kind": "renderer",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-1",
+          "kind": "target",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-2",
+          "kind": "texture",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-3",
+          "kind": "geometry",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-4",
+          "kind": "material",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        }
+      ],
+      "contextLost": false
+    }
+  },
+  {
+    "mode": "mixed-bits",
+    "before": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-1",
+        "kind": "target",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-2",
+        "kind": "texture",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-3",
+        "kind": "geometry",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-4",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "result": {
+      "step": {
+        "op": "dispose"
+      },
+      "before": {
+        "errors": [],
+        "drained": true
+      },
+      "after": {
+        "errors": [],
+        "drained": true
+      },
+      "value": {
+        "registered": [
+          {
+            "id": "resource-0",
+            "kind": "renderer",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-1",
+            "kind": "target",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-2",
+            "kind": "texture",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-3",
+            "kind": "geometry",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-4",
+            "kind": "material",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          }
+        ],
+        "attempted": [
+          "resource-1",
+          "resource-2",
+          "resource-3",
+          "resource-4",
+          "resource-0"
+        ],
+        "succeeded": [
+          "resource-0",
+          "resource-1",
+          "resource-2",
+          "resource-3",
+          "resource-4"
+        ],
+        "errors": [],
+        "rendererDisposed": true,
+        "complete": true
+      },
+      "exception": null,
+      "skipped": false,
+      "resources": [
+        {
+          "id": "resource-0",
+          "kind": "renderer",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-1",
+          "kind": "target",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-2",
+          "kind": "texture",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-3",
+          "kind": "geometry",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-4",
+          "kind": "material",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        }
+      ],
+      "contextLost": false
+    }
+  },
+  {
+    "mode": "bad-length",
+    "before": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "result": {
+      "step": {
+        "op": "dispose"
+      },
+      "before": {
+        "errors": [],
+        "drained": true
+      },
+      "after": {
+        "errors": [],
+        "drained": true
+      },
+      "value": {
+        "registered": [
+          {
+            "id": "resource-0",
+            "kind": "renderer",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          }
+        ],
+        "attempted": [
+          "resource-0"
+        ],
+        "succeeded": [
+          "resource-0"
+        ],
+        "errors": [],
+        "rendererDisposed": true,
+        "complete": true
+      },
+      "exception": null,
+      "skipped": false,
+      "resources": [
+        {
+          "id": "resource-0",
+          "kind": "renderer",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        }
+      ],
+      "contextLost": false
+    }
+  },
+  {
+    "mode": "bad-word",
+    "before": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "result": {
+      "step": {
+        "op": "dispose"
+      },
+      "before": {
+        "errors": [],
+        "drained": true
+      },
+      "after": {
+        "errors": [],
+        "drained": true
+      },
+      "value": {
+        "registered": [
+          {
+            "id": "resource-0",
+            "kind": "renderer",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          }
+        ],
+        "attempted": [
+          "resource-0"
+        ],
+        "succeeded": [
+          "resource-0"
+        ],
+        "errors": [],
+        "rendererDisposed": true,
+        "complete": true
+      },
+      "exception": null,
+      "skipped": false,
+      "resources": [
+        {
+          "id": "resource-0",
+          "kind": "renderer",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        }
+      ],
+      "contextLost": false
+    }
+  },
+  {
+    "mode": "bad-float",
+    "before": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "result": {
+      "step": {
+        "op": "dispose"
+      },
+      "before": {
+        "errors": [],
+        "drained": true
+      },
+      "after": {
+        "errors": [],
+        "drained": true
+      },
+      "value": {
+        "registered": [
+          {
+            "id": "resource-0",
+            "kind": "renderer",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          }
+        ],
+        "attempted": [
+          "resource-0"
+        ],
+        "succeeded": [
+          "resource-0"
+        ],
+        "errors": [],
+        "rendererDisposed": true,
+        "complete": true
+      },
+      "exception": null,
+      "skipped": false,
+      "resources": [
+        {
+          "id": "resource-0",
+          "kind": "renderer",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        }
+      ],
+      "contextLost": false
+    }
+  },
+  {
+    "mode": "bad-bool",
+    "before": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "result": {
+      "step": {
+        "op": "dispose"
+      },
+      "before": {
+        "errors": [],
+        "drained": true
+      },
+      "after": {
+        "errors": [],
+        "drained": true
+      },
+      "value": {
+        "registered": [
+          {
+            "id": "resource-0",
+            "kind": "renderer",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          }
+        ],
+        "attempted": [
+          "resource-0"
+        ],
+        "succeeded": [
+          "resource-0"
+        ],
+        "errors": [],
+        "rendererDisposed": true,
+        "complete": true
+      },
+      "exception": null,
+      "skipped": false,
+      "resources": [
+        {
+          "id": "resource-0",
+          "kind": "renderer",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        }
+      ],
+      "contextLost": false
+    }
+  },
+  {
+    "mode": "full",
+    "before": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-1",
+        "kind": "target",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-2",
+        "kind": "texture",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-3",
+        "kind": "geometry",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-4",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-5",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-6",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-7",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-8",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "result": {
+      "step": {
+        "op": "dispose"
+      },
+      "before": {
+        "errors": [],
+        "drained": true
+      },
+      "after": {
+        "errors": [],
+        "drained": true
+      },
+      "value": {
+        "registered": [
+          {
+            "id": "resource-0",
+            "kind": "renderer",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-1",
+            "kind": "target",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-2",
+            "kind": "texture",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-3",
+            "kind": "geometry",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-4",
+            "kind": "material",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-5",
+            "kind": "material",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-6",
+            "kind": "material",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-7",
+            "kind": "material",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-8",
+            "kind": "material",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          }
+        ],
+        "attempted": [
+          "resource-1",
+          "resource-2",
+          "resource-3",
+          "resource-4",
+          "resource-5",
+          "resource-6",
+          "resource-7",
+          "resource-8",
+          "resource-0"
+        ],
+        "succeeded": [
+          "resource-0",
+          "resource-1",
+          "resource-2",
+          "resource-3",
+          "resource-4",
+          "resource-5",
+          "resource-6",
+          "resource-7",
+          "resource-8"
+        ],
+        "errors": [],
+        "rendererDisposed": true,
+        "complete": true
+      },
+      "exception": null,
+      "skipped": false,
+      "resources": [
+        {
+          "id": "resource-0",
+          "kind": "renderer",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-1",
+          "kind": "target",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-2",
+          "kind": "texture",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-3",
+          "kind": "geometry",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-4",
+          "kind": "material",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-5",
+          "kind": "material",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-6",
+          "kind": "material",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-7",
+          "kind": "material",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-8",
+          "kind": "material",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        }
+      ],
+      "contextLost": false
+    }
+  },
+  {
+    "mode": "material-setter",
+    "before": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-1",
+        "kind": "target",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-2",
+        "kind": "texture",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-3",
+        "kind": "geometry",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-4",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "result": {
+      "step": {
+        "op": "dispose"
+      },
+      "before": {
+        "errors": [],
+        "drained": true
+      },
+      "after": {
+        "errors": [],
+        "drained": true
+      },
+      "value": {
+        "registered": [
+          {
+            "id": "resource-0",
+            "kind": "renderer",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-1",
+            "kind": "target",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-2",
+            "kind": "texture",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-3",
+            "kind": "geometry",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          },
+          {
+            "id": "resource-4",
+            "kind": "material",
+            "attempted": true,
+            "succeeded": true,
+            "error": null
+          }
+        ],
+        "attempted": [
+          "resource-1",
+          "resource-2",
+          "resource-3",
+          "resource-4",
+          "resource-0"
+        ],
+        "succeeded": [
+          "resource-0",
+          "resource-1",
+          "resource-2",
+          "resource-3",
+          "resource-4"
+        ],
+        "errors": [],
+        "rendererDisposed": true,
+        "complete": true
+      },
+      "exception": null,
+      "skipped": false,
+      "resources": [
+        {
+          "id": "resource-0",
+          "kind": "renderer",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-1",
+          "kind": "target",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-2",
+          "kind": "texture",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-3",
+          "kind": "geometry",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        },
+        {
+          "id": "resource-4",
+          "kind": "material",
+          "attempted": true,
+          "succeeded": true,
+          "error": null
+        }
+      ],
+      "contextLost": false
+    }
+  }
+]

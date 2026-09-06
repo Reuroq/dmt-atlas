@@ -1,0 +1,8 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "float-row0",
+    "op": "program-log"
+  },
+  "previous_sha256": "e1251b46403ea29faf598d208442d95be9da55686cd4d90ca790289d2e8fd0e7"
+}

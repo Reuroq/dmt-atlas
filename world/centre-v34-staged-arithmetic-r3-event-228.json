@@ -1,0 +1,14 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "childAxial",
+      "leaf": 0,
+      "arm": "uniform",
+      "op": "shader-is",
+      "shader": "fragmentShader"
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "331e4116f24f4d53dfd808c1394d45405141c989c9b4177c1246997cab34e6c1"
+}

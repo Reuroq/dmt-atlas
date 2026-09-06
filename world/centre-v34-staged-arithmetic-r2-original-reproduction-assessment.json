@@ -1,0 +1,5 @@
+{
+  "classification": "missing arithmeticStep reproduced on frozen original source",
+  "exit_receipt_sha256": "eff34deead857517ffbd6f944d610d0c126cae72b27994dd096a70b279f658d0",
+  "historical_stderr_recovered": false
+}

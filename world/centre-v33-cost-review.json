@@ -1,0 +1,24 @@
+{
+  "cases": [
+    {
+      "version": 32,
+      "mean_iterations": 67.64433962264151,
+      "p95_iterations": 142.0,
+      "max_iterations": 531.0,
+      "median_readback_wall_seconds": 0.18613218050450087
+    },
+    {
+      "version": 33,
+      "mean_iterations": 586.1907756813417,
+      "p95_iterations": 929.0,
+      "max_iterations": 1220.0,
+      "median_readback_wall_seconds": 0.9692288911901414
+    }
+  ],
+  "source_hashes": {
+    "numeric-candidate-v32-raw.json": "d277777180076efd69c900e2bd527840ff9e68efb3148eb755a3f12edfcabe6a",
+    "numeric-candidate-v33-raw.json": "9990c38c6de858f9b44aaf4f60aa90de872004b71a257d2b40aaac1cde481c74"
+  },
+  "method": "Read saved raw only; no old probes replayed.",
+  "limits": "Materially higher sparse-ray cost. Not hardware-GPU benchmark or proof of full-resolution timeout; unchanged90s HIGH capture gate remains required."
+}

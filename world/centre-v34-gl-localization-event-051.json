@@ -1,0 +1,8 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "byte-constant",
+    "op": "read-raw"
+  },
+  "previous_sha256": "a7de2bc3e6489ed159f010a531325b6c41dff030779e7965fcc2b540724db4bc"
+}

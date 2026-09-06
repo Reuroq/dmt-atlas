@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "version": "33",
+      "mean_iterations": 586.1907756813417,
+      "p95_iterations": 929.0,
+      "max_iterations": 1220.0,
+      "median_readback_wall_seconds": 0.9692288911901414
+    },
+    {
+      "version": "33r2",
+      "mean_iterations": 166.9232180293501,
+      "p95_iterations": 252.04999999999563,
+      "max_iterations": 476.0,
+      "median_readback_wall_seconds": 0.41566840512678027
+    }
+  ],
+  "maximum_saved_ray_depth_delta": 0.0005645751953125,
+  "source_hashes": {
+    "numeric-candidate-v33-raw.json": "9990c38c6de858f9b44aaf4f60aa90de872004b71a257d2b40aaac1cde481c74",
+    "numeric-candidate-v33r2-raw.json": "890ace840372ca4bd9e3916bcc7ed42b1fd590535a83afe7f054972c2fec6888"
+  },
+  "method": "Compare saved raw only; no v33 replay. Identical ray/camera/clock/detail grids.",
+  "limits": "Sparse SwiftShader probes, not hardware-GPU benchmark or full-resolution capture acceptance."
+}

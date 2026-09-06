@@ -1,0 +1,8 @@
+{
+  "argv": [
+    "node",
+    "--check",
+    "/home/clawd/dmt-atlas/world/check_centre_v35r2_uniforms.cjs"
+  ],
+  "stdin_sha256": null
+}

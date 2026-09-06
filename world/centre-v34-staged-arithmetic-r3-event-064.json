@@ -1,0 +1,8 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "float-control",
+    "op": "read-three"
+  },
+  "previous_sha256": "146d5b1d20fcf4a7f414117a1751b3287745e3f1569206b59742de78ff39f88d"
+}

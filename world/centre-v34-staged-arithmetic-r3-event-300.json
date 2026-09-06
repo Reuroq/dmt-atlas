@@ -1,0 +1,14 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "childAngular",
+      "leaf": 1,
+      "arm": "literal",
+      "op": "shader-is",
+      "shader": "fragmentShader"
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "8c1a613d66c47e56427f0eca285de4303982cece71d958941c3af9886be14a98"
+}

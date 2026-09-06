@@ -1,0 +1,149 @@
+{
+  "continuum-v35r2-candidate.js": {
+    "base": "continuum-v34-candidate.js",
+    "base_sha256": "0d15fb684ad23ca7be05e1a78391ffa29b12597ee137de2910245b7c92634d6f",
+    "edits": [
+      [
+        "time:{value:0},high:{value:1}",
+        "childAxialOffset:{value:Math.fround(.20)},childAngularOffset:{value:Math.fround(.28)},time:{value:0},high:{value:1}"
+      ],
+      [
+        "uniform float time,high,pixelScale;",
+        "uniform float time,high,pixelScale;\n   uniform float childAxialOffset,childAngularOffset;"
+      ],
+      [
+        "axB=offset(axA,.20);",
+        "axB=offset(axA,childAxialOffset);"
+      ],
+      [
+        "angB=offset(angA,.28);",
+        "angB=offset(angA,childAngularOffset);"
+      ]
+    ],
+    "sha256": "5f9cb17a7450da2b30f1d89f18c691b47cfeba56f12655bf5490d0edd04765c6"
+  },
+  "continuum-v35r2-unshared-reference.js": {
+    "base": "continuum-v34-unshared-reference.js",
+    "base_sha256": "3358371ab6f9a0debfcc155293556e6a8d8eaf1c5c9bc936afb517ff2dc4debc",
+    "edits": [
+      [
+        "time:{value:0},high:{value:1}",
+        "childAxialOffset:{value:Math.fround(.20)},childAngularOffset:{value:Math.fround(.28)},time:{value:0},high:{value:1}"
+      ],
+      [
+        "uniform float time,high,pixelScale;",
+        "uniform float time,high,pixelScale;\n   uniform float childAxialOffset,childAngularOffset;"
+      ],
+      [
+        "axB=offset(axA,.20);",
+        "axB=offset(axA,childAxialOffset);"
+      ],
+      [
+        "angB=offset(angA,.28);",
+        "angB=offset(angA,childAngularOffset);"
+      ]
+    ],
+    "sha256": "38c52bd83a0b3e3a63824739a237c2210c912bd95e13e3b70405e1f7495c37e4"
+  },
+  "field_centre_v35r2.py": {
+    "base": "field_centre_v34.py",
+    "base_sha256": "7bb0a8c83e1fbbe37381aa6bd5d19fc5a866e63c9ee7e73073aaad326bcdbcd1",
+    "edits": [],
+    "sha256": "bed19fa51bbfde27a030f6ec9132350ce3500567d42fb13e1e7a007f163d594d"
+  },
+  "csg_interval_v35r2.py": {
+    "base": "csg_interval_v34.py",
+    "base_sha256": "910304e1b2f9a3176312eff57f70efb74880696de561ce26a879d47b6f7acc93",
+    "edits": [],
+    "sha256": "18eb7134f2b7d921be895d301140a83fcd4e348ad7e76295e1d4914402c3e59e"
+  },
+  "gpu_csg_v35r2.py": {
+    "base": "gpu_csg_v34.py",
+    "base_sha256": "2bec039b02165cfccd759b04e6ba95ed74347f72472dea1825aed92a023f76b2",
+    "edits": [],
+    "sha256": "430edc29731f74be32476f47e5f48f69eccab1ef720ebee6f622e335b42547ae"
+  },
+  "centre-v35r2-bound-design.json": {
+    "base": "centre-v34-bound-design.json",
+    "base_sha256": "8965ad5a65a9ebc5eeda2d1d0801dca3c8044728be3bede645f8a6fc2a33b0e4",
+    "edits": [],
+    "sha256": "8965ad5a65a9ebc5eeda2d1d0801dca3c8044728be3bede645f8a6fc2a33b0e4"
+  },
+  "check_centre_v35r2_bounds.py": {
+    "base": "check_centre_v34_bounds.py",
+    "base_sha256": "9ae27a8276064da8aa657c2a0d53b6d5a89e13154e7d2fac69c27df5e607df51",
+    "edits": [],
+    "sha256": "c16fd8de7e4124860b6e0bb00c6dd8fa9bc7a8bdf5e2991e99af1737807ac729"
+  },
+  "cost_lifecycle_v35r2.py": {
+    "base": "cost_lifecycle_v34.py",
+    "base_sha256": "c2b191bc64c735d122df549a941e16d994c1e5f9198b007cc492162ce42389f5",
+    "edits": [],
+    "sha256": "c2b191bc64c735d122df549a941e16d994c1e5f9198b007cc492162ce42389f5"
+  },
+  "runtime_centre_v35r2.py": {
+    "base": "runtime_centre_v34.py",
+    "base_sha256": "6f5a4f4e7039aa366d05b4637ee13eae44f929127fd5c53c1808fb14307951b1",
+    "edits": [
+      [
+        "def fixture_gate():\n",
+        "def fixture_gate():\n    from v35r2_preparation import closed\n    closed()\n"
+      ]
+    ],
+    "sha256": "25461238bd69441ecfa500ebd32f288840cc3b1f034120b6def08b1cd461179f"
+  },
+  "run_centre_v35r2_gate_once.py": {
+    "base": "run_centre_v34_gate_once.py",
+    "base_sha256": "d3198897b5a16071f95b2358913d57133d598fcbbeb1ebf87c758cca9e70afe0",
+    "edits": [],
+    "sha256": "cf6855a3fc67f9163d7af5c25e278218625f45469cdce61480bccfa6c5c1607f"
+  },
+  "gpu_probe_v35r2_candidate.html": {
+    "base": "gpu_probe_v34_candidate.html",
+    "base_sha256": "76b95ac4c9b3cbbdd829e9399f641b147faba41ccebf5d54d4327aaa54f7bf9d",
+    "edits": [],
+    "sha256": "75bbf3ada55452b00ddf913b5e174365cc32effa9aa43ca4468aabc1aa4e2701"
+  },
+  "gpu_probe_v35r2_leaves.html": {
+    "base": "gpu_probe_v34_leaves.html",
+    "base_sha256": "edfe51d8625401ff0107d54519706c0728c41d165774ec04d781f70229a3cc12",
+    "edits": [],
+    "sha256": "ddfbb5f81db503a26d0f133a43075fecf773c6a4b8e42abe042963ba11dacd9c"
+  },
+  "gpu_cost_v35r2_candidate.html": {
+    "base": "gpu_cost_v34_candidate.html",
+    "base_sha256": "76b95ac4c9b3cbbdd829e9399f641b147faba41ccebf5d54d4327aaa54f7bf9d",
+    "edits": [],
+    "sha256": "75bbf3ada55452b00ddf913b5e174365cc32effa9aa43ca4468aabc1aa4e2701"
+  },
+  "gpu_cost_v35r2_parent.html": {
+    "base": "gpu_cost_v34_parent.html",
+    "base_sha256": "b9ecbd89f63a54c3441543de46cbdedf5acbc8515449b18430d1ba2093620363",
+    "edits": [],
+    "sha256": "2c9b24cbda0f1249ebb9b0fce06ee36008794ee6a2cc30d25192498547137214"
+  },
+  "probe_numeric_candidate_v35r2.py": {
+    "base": "probe_numeric_candidate_v34.py",
+    "base_sha256": "b7296850aeeffcbe678a7a8dc1f4cfdba1667622c457c918dd793fdba98c41b5",
+    "edits": [],
+    "sha256": "80e368a74d916eaf8d8e972ede5e25bb81c919bc4c2d1214488cd34362e0c6d1"
+  },
+  "audit_centre_v35r2_first_roots.py": {
+    "base": "audit_centre_v34_first_roots.py",
+    "base_sha256": "2a8784190f4c6fc784c9b33d65e0f2823c60cf0acd77768340758bfdc042cdcd",
+    "edits": [],
+    "sha256": "7c25fdf4763676f12a2c3a66590e8a6ec3a2a40a4696d4340f6c87eeebb24ef3"
+  },
+  "measure_centre_v35r2_cost.py": {
+    "base": "measure_centre_v34_cost.py",
+    "base_sha256": "f2a704166b79250319bde65271a9e1e08acab71727fc1852c5e275cd1ff1b193",
+    "edits": [],
+    "sha256": "7e7660ddf4d7b7b86b5d63b969fe0ab30ff98d1819bd148d2753a74d668a36c9"
+  },
+  "render_centre_v35r2.py": {
+    "base": "render_centre_v34.py",
+    "base_sha256": "40c314c4008da94936544f2880110a71c45a0b41d3d00f3eac94c8853e5faefa",
+    "edits": [],
+    "sha256": "aa686baacec8ab1ddc064c10c628f79fbba909addaba590094ec88abcd5d28e3"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "name": "childAngular",
+      "leaf": 1,
+      "arm": "uniform",
+      "op": "shader-compiled",
+      "shader": "fragmentShader"
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [],
+      "drained": true
+    },
+    "value": {
+      "compiled": true
+    },
+    "exception": null,
+    "skipped": false,
+    "resources": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-1",
+        "kind": "target",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-2",
+        "kind": "texture",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-3",
+        "kind": "geometry",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-4",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-5",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-6",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-7",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-8",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "contextLost": false
+  },
+  "previous_sha256": "244d2ad873fc674522978e5c13b0868750131737af50391508395f54ca92886c"
+}

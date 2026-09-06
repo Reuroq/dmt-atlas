@@ -1,0 +1,133 @@
+{
+  "errors": [],
+  "fps_swiftshader": 0.0,
+  "checks": [],
+  "diagnostics": {
+    "stage": "membrane",
+    "routeIndex": 4,
+    "entered": true,
+    "paused": false,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 0,
+    "animTime": 6.454199999237066,
+    "transition": false,
+    "renderReady": false,
+    "renderPending": true,
+    "renderedAnimTime": 5.0708999992370565,
+    "frames": 4,
+    "position": [
+      0,
+      1.7,
+      8
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset",
+      "geometry",
+      "chrysanthemum",
+      "rush",
+      "membrane"
+    ],
+    "entities": [],
+    "interactions": 0,
+    "evidence": [
+      "phase|Through the Membrane",
+      "geometry|The Aperture / Iris Opening",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|Dimensional Layering & Space-Folding",
+      "geometry|Hyperbolic Space & Negative Curvature",
+      "geometry|Ultra-Detail & Infinite Resolution",
+      "geometry|Energy Conduits & Living Circuitry",
+      "geometry|Mandalas & symmetry fields",
+      "geometry|The Chrysanthemum",
+      "geometry|TV Static & the Signal-Noise Transition",
+      "geometry|Time Geometry \u2014 Moments as Objects & Loops"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 44,
+    "portals": [
+      {
+        "x": 0,
+        "z": -23,
+        "width": 3.5,
+        "target": "next"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 1,
+    "triangles": 12,
+    "geometries": 4,
+    "actors": [],
+    "uncitedMeshes": 0
+  },
+  "capture_diagnostics": {
+    "stage": "membrane",
+    "routeIndex": 4,
+    "entered": true,
+    "paused": true,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 1.15,
+    "animTime": 7.604199999237067,
+    "transition": false,
+    "renderReady": true,
+    "renderPending": false,
+    "renderedAnimTime": 7.604199999237067,
+    "frames": 6,
+    "position": [
+      0,
+      1.7,
+      8
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset",
+      "geometry",
+      "chrysanthemum",
+      "rush",
+      "membrane"
+    ],
+    "entities": [],
+    "interactions": 0,
+    "evidence": [
+      "phase|Through the Membrane",
+      "geometry|The Aperture / Iris Opening",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|Dimensional Layering & Space-Folding",
+      "geometry|Hyperbolic Space & Negative Curvature",
+      "geometry|Ultra-Detail & Infinite Resolution",
+      "geometry|Energy Conduits & Living Circuitry",
+      "geometry|Mandalas & symmetry fields",
+      "geometry|The Chrysanthemum",
+      "geometry|TV Static & the Signal-Noise Transition",
+      "geometry|Time Geometry \u2014 Moments as Objects & Loops"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 44,
+    "portals": [
+      {
+        "x": 0,
+        "z": -23,
+        "width": 3.5,
+        "target": "next"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 16,
+    "triangles": 210980,
+    "geometries": 19,
+    "actors": [],
+    "uncitedMeshes": 0
+  },
+  "render_signature": "2605f7ab01d96c033a84565fa576776ef99832c14461dc2dcbc4657d6b92a2c0",
+  "capture_sha256": "bae7edd45eb24ba595ad900168c513297912af96a300a97b6b7f25db12f1b79a",
+  "file": "realism-membrane-v1.png",
+  "veil_opacity": 0
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "op": "metadata"
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "151d1efce06dae46c584ce255093456aefbfedb68c1547f5f76cd3afdbab4b93"
+}

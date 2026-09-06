@@ -1,0 +1,11 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "byte-constant",
+      "op": "framebuffer-status"
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "e3e50c3a3d0cbef1c858e0e46f0acba9bd13c68ef871ca5e5b526b78ec5f3fd1"
+}

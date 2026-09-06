@@ -1,0 +1,11 @@
+{
+  "candidate": "continuum-v32-candidate.js",
+  "sha256": "c42e79f75876f424e3865640d658c68bb8237cb0c870bb9809bbe4a115ded877",
+  "parent": "continuum-v31-candidate.js",
+  "live_modified": false,
+  "structure": "Local radius/depth curled petal cups; 3x and 9x parent-following folded surfaces; narrow split openings and connecting branch volumes; excluded bright axis, dark backing",
+  "clearance_lower_bound": 5.45,
+  "cap_begins_z": -27.5,
+  "unchanged": "materials,2048/1536 budgets,14 bisections,.00015 residual,no forced minimum step,actual camera and shared clock",
+  "state": "Unvalidated; no realism or promotion"
+}

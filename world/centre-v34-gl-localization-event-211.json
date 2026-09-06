@@ -1,0 +1,24 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "name": "float-row0",
+      "op": "render"
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [],
+      "drained": true
+    },
+    "value": {
+      "callbacks": []
+    },
+    "exception": null,
+    "skipped": false,
+    "contextLost": false
+  },
+  "previous_sha256": "6590417e531eba22be9fc92bf21ff3e2a49a0ad769ab61c8df54ab408c4dd964"
+}

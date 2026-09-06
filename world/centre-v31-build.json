@@ -1,0 +1,12 @@
+{
+  "candidate": "continuum-v31-candidate.js",
+  "sha256": "af6f57f0ce2e15fe4a0080448c13ce1828c1cf9a1ea3006522e4f65a63ad8c93",
+  "parent": "continuum-v30-candidate.js",
+  "live_modified": false,
+  "structure": "Regularized complex 6/18/54-fold swept petal fins; nested phase bending and true split/branch volumes; excluded bright axis, deeper dark backing",
+  "clearance_lower_bound": 4.9,
+  "cap_begins_z": -27.5,
+  "cost_change": "Per-leaf curvature reaches 11/22/140 instead of shared160; algebraic powers replace Cartesian rose products",
+  "unchanged": "2048/1536 budgets,14 bisections,.00015 residual,no forced minimum step,actual camera and shared clock",
+  "state": "Unvalidated; no realism or promotion"
+}

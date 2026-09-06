@@ -1,0 +1,54 @@
+[
+  {
+    "old": "from verify import ARGS",
+    "new": "from verify import ARGS\nfrom cost_lifecycle_v33r6 import Lifecycle, atomic_json, install_signal_receipts, restore_signals"
+  },
+  {
+    "old": "         Path(__file__).name]",
+    "new": "         'cost_lifecycle_v33r6.py', Path(__file__).name]"
+  },
+  {
+    "old": "RAW.write_text(json.dumps({'started': True, 'pairs': [], 'source_hashes': source_hashes}) + '\\n')",
+    "new": "journal = Lifecycle(HERE / 'centre-v33r6-cost-lifecycle')\natomic_json(RAW, {'started': True, 'pairs': [], 'source_hashes': source_hashes})\njournal.record('runner_started', source_hashes=source_hashes)\nactive = {'stage': 'browser_launch'}\nold_signals = install_signal_receipts()"
+  },
+  {
+    "old": "        browser = p.chromium.launch(headless=True, args=ARGS)",
+    "new": "        journal.record('browser_launch_started')\n        browser = p.chromium.launch(headless=True, args=ARGS)\n        journal.record('browser_launched')"
+  },
+  {
+    "old": "            page = browser.new_page()",
+    "new": "            active = {'stage': 'page_setup', 'arm': arm}\n            journal.record('page_setup_started', **active)\n            page = browser.new_page()"
+  },
+  {
+    "old": "            pages[arm] = page",
+    "new": "            pages[arm] = page\n            journal.record('page_setup_completed', **active)"
+  },
+  {
+    "old": "                        start = time.monotonic()\n                        case = pages[arm].evaluate('a=>runCase(...a)', [z, t, high, 49, 33])\n                        case['outer_four_readbacks_seconds'] = time.monotonic() - start",
+    "new": "                        assert not errors, 'Browser errors invalidate this experiment: '+repr(errors)\n                        active = {'stage': 'arm', 'pair': len(pairs)+1, 'arm': arm, 'time': t, 'z': z, 'high': high}\n                        case = journal.arm(active, lambda: pages[arm].evaluate('a=>runCase(...a)', [z, t, high, 49, 33]))\n                        assert not errors, 'Browser errors invalidate readbacks: '+repr(errors)"
+  },
+  {
+    "old": "                    RAW.write_text(json.dumps({'started': True, 'pairs': pairs, 'errors': errors,\n                                               'source_hashes': source_hashes}) + '\\n')",
+    "new": "                    atomic_json(RAW, {'started': True, 'pairs': pairs, 'errors': errors,\n                                      'source_hashes': source_hashes})\n                    journal.record('pair_completed', pair=len(pairs))"
+  },
+  {
+    "old": "        browser.close()\nexcept Exception as exc:\n    failure = repr(exc)",
+    "new": "        active = {'stage': 'browser_close'}\n        journal.record('browser_close_started')\n        browser.close()\n        journal.record('browser_closed')\nexcept BaseException as exc:\n    failure = repr(exc)\n    journal.record('runner_failed', active=active, failure=failure, errors=errors)\nfinally:\n    restore_signals(old_signals)\n    atomic_json(RAW, {'started': True, 'pairs': pairs, 'errors': errors,\n                      'failure': failure, 'last_active': active, 'source_hashes': source_hashes})\n    journal.record('browser_phase_finished', failure=failure, complete_pairs=len(pairs), last_active=active)"
+  },
+  {
+    "old": "result = {'complete': complete",
+    "new": "journal.record('review_ready', complete=complete, capture_cost_gate_passed=bool(work and not_slower and unchanged))\nresult = {'complete': complete"
+  },
+  {
+    "old": "'source_hashes': {**source_hashes, RAW.name: digest(RAW.name)}",
+    "new": "'source_hashes': {**source_hashes, **journal.hashes(), RAW.name: digest(RAW.name)}"
+  },
+  {
+    "old": "OUT.write_text(json.dumps(result, indent=2) + '\\n')",
+    "new": "atomic_json(OUT, result)"
+  },
+  {
+    "old": "          'Prefix counts are source-level evaluation estimates, not GPU instruction counts.')",
+    "new": "          'Prefix counts are source-level evaluation estimates, not GPU instruction counts. '\n          'Per-arm receipt I/O is outside both timed boundaries, but can perturb between-arm host/cache/queue state. '\n          'Catchable failures are recorded; a hard kill leaves the last durable lifecycle event incomplete, with unknown cause.')"
+  }
+]

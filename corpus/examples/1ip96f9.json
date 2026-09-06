@@ -1,0 +1,55 @@
+{
+  "schema_version": "0.3.0",
+  "report_id": "1ip96f9",
+  "is_trip_report": true,
+  "reason": "The narrator describes personally experienced changes in room textures.",
+  "quotes": [
+    {
+      "start": 394,
+      "end": 473,
+      "text": "the textures in my room kinda changed and it looked like from another dimension",
+      "supports": [
+        "/is_trip_report",
+        "/reason"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "place": "other:my room",
+      "order_confidence": null,
+      "light": [],
+      "colour": [],
+      "motion": [],
+      "geometry": [],
+      "material": [],
+      "density": [],
+      "scale": [],
+      "sound_seen": [],
+      "beings": [],
+      "transition": null,
+      "affect": [],
+      "quotes": [
+        {
+          "start": 274,
+          "end": 282,
+          "text": "Next day",
+          "supports": [
+            "/scenes/0/episode_index"
+          ]
+        },
+        {
+          "start": 394,
+          "end": 473,
+          "text": "the textures in my room kinda changed and it looked like from another dimension",
+          "supports": [
+            "/scenes/0/place"
+          ]
+        }
+      ],
+      "episode_index": 1,
+      "dwell": null,
+      "uncertain_fields": []
+    }
+  ]
+}

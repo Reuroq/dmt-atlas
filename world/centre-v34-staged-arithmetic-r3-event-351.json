@@ -1,0 +1,13 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "childAngular",
+      "leaf": 1,
+      "arm": "uniform",
+      "op": "framebuffer-binding"
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "1c1059c8da6f0390b91653271f419d7c57643452a82ae38d5ee5b0b38a1ebe07"
+}

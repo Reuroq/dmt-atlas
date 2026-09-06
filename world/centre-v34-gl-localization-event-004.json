@@ -1,0 +1,24 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "op": "renderer"
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [],
+      "drained": true
+    },
+    "value": {
+      "three": "160",
+      "webgl2": true
+    },
+    "exception": null,
+    "skipped": false,
+    "contextLost": false
+  },
+  "previous_sha256": "86a66ba9aa38414c0a1c3a2340335e82d65efbc15540e622afd8235c6d018087"
+}

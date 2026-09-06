@@ -1,0 +1,24 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "name": "float-row0",
+      "op": "program-link"
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [],
+      "drained": true
+    },
+    "value": {
+      "linked": true
+    },
+    "exception": null,
+    "skipped": false,
+    "contextLost": false
+  },
+  "previous_sha256": "9869e629d39079a3cc3cda7104a3b53880f97d9a916212ae5db85d7340c68f96"
+}

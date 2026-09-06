@@ -1,0 +1,92 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "name": "childAngular",
+      "leaf": 1,
+      "arm": "uniform",
+      "op": "framebuffer-status"
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [],
+      "drained": true
+    },
+    "value": {
+      "status": 36053,
+      "completeEnum": 36053
+    },
+    "exception": null,
+    "skipped": false,
+    "resources": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-1",
+        "kind": "target",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-2",
+        "kind": "texture",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-3",
+        "kind": "geometry",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-4",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-5",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-6",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-7",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-8",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "contextLost": false
+  },
+  "previous_sha256": "f0c41e3e5a9ccc4c23fb4e1e063abcfdc39867c324d4616a57973ee7d81e5ab5"
+}

@@ -1,0 +1,9 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "float-row1",
+    "op": "debug-extension",
+    "query": true
+  },
+  "previous_sha256": "4a770264d01e0e841b1ba19c9b03659aaface1eff8f65bf84cbbc0b9fcf071af"
+}

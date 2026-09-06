@@ -1,0 +1,10 @@
+{
+  "kind": "inputs",
+  "payload": {
+    "seeds_sha256": "e4abe702d9e7efdeae48d4d6923e5c4c4ac58d1c4d27b53430f32527309c9d25",
+    "texture_sha256": "f71caead7ec524c577ee922ab9bdecb6321d2e4b0932bdaf5e5b12390b4591ee",
+    "synthetic_not_recovered_gpu_intermediates": true,
+    "translated_queries": "omitted by protocol"
+  },
+  "previous_sha256": null
+}

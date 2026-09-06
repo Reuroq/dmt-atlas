@@ -1,0 +1,11 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "float-row1",
+      "op": "framebuffer-status"
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "986d420088e87903822d512ec510b6cac94b8e66a5070e790849023dcbc1c747"
+}

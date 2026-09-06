@@ -1,0 +1,26 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "name": "float-row1",
+      "op": "bind"
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [],
+      "drained": true
+    },
+    "value": {
+      "width": 128,
+      "height": 1,
+      "type": 1015
+    },
+    "exception": null,
+    "skipped": false,
+    "contextLost": false
+  },
+  "previous_sha256": "b3ac17e014d3ddbe2ac0179dc9afd1a5d98c66775f5957de914f7976ada8a0ee"
+}

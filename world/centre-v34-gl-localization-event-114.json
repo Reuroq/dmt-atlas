@@ -1,0 +1,8 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "float-constant",
+    "op": "attachment-type"
+  },
+  "previous_sha256": "c758e6b8ec449df564b760f573115c8048dc9606338596c7e938811cdf3df114"
+}

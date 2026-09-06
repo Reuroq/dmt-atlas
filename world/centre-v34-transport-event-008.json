@@ -1,0 +1,10 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "name": "original",
+    "mode": "bits",
+    "changedSourceIndices": [],
+    "exactTransport": true
+  },
+  "previous_sha256": "464aaf2f3fb3d1d3601d42a583a67ed2397224b9a89165199ac3dfa2c65dc928"
+}

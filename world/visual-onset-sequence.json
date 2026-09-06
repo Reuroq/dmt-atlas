@@ -1,0 +1,220 @@
+[
+  {
+    "errors": [],
+    "fps_swiftshader": 2.39,
+    "checks": [],
+    "diagnostics": {
+      "stage": "onset",
+      "routeIndex": 0,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 2.5166999999999966,
+      "animTime": 2.8752000001907305,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": true,
+      "renderedAnimTime": 2.6251000001907316,
+      "frames": 7,
+      "position": [
+        0,
+        1.7,
+        6.5
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset"
+      ],
+      "entities": [],
+      "interactions": 0,
+      "evidence": [
+        "phase|Inhalation / Onset",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|TV Static & the Signal-Noise Transition"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 17,
+      "portals": [
+        {
+          "x": 0,
+          "z": -8.95,
+          "width": 3,
+          "target": "next"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 80,
+      "triangles": 97826,
+      "geometries": 40,
+      "actors": [],
+      "uncitedMeshes": 0
+    },
+    "capture_diagnostics": {
+      "stage": "onset",
+      "routeIndex": 0,
+      "entered": true,
+      "paused": true,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 2.5665999999999967,
+      "animTime": 2.9251000001907306,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 2.9251000001907306,
+      "frames": 8,
+      "position": [
+        0,
+        1.7,
+        6.5
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset"
+      ],
+      "entities": [],
+      "interactions": 0,
+      "evidence": [
+        "phase|Inhalation / Onset",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|TV Static & the Signal-Noise Transition"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 17,
+      "portals": [
+        {
+          "x": 0,
+          "z": -8.95,
+          "width": 3,
+          "target": "next"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 80,
+      "triangles": 97826,
+      "geometries": 40,
+      "actors": [],
+      "uncitedMeshes": 0
+    },
+    "render_signature": "f01f32670846e2d5bb5f3e60920e0940bd7282e52d0a6e15244e73898d551833",
+    "capture_sha256": "40742df34dd82dc9c00b2b5bac77d859ac2ca64e89f42abc488b4cf77f214640",
+    "file": "visual-onset.png",
+    "veil_opacity": 0
+  },
+  {
+    "errors": [],
+    "fps_swiftshader": 2.39,
+    "checks": [],
+    "diagnostics": {
+      "stage": "onset",
+      "routeIndex": 0,
+      "entered": true,
+      "paused": false,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 2.5166999999999966,
+      "animTime": 2.8752000001907305,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": true,
+      "renderedAnimTime": 2.6251000001907316,
+      "frames": 7,
+      "position": [
+        0,
+        1.7,
+        6.5
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset"
+      ],
+      "entities": [],
+      "interactions": 0,
+      "evidence": [
+        "phase|Inhalation / Onset",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|TV Static & the Signal-Noise Transition"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 17,
+      "portals": [
+        {
+          "x": 0,
+          "z": -8.95,
+          "width": 3,
+          "target": "next"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 80,
+      "triangles": 97826,
+      "geometries": 40,
+      "actors": [],
+      "uncitedMeshes": 0
+    },
+    "capture_diagnostics": {
+      "stage": "onset",
+      "routeIndex": 0,
+      "entered": true,
+      "paused": true,
+      "paced": false,
+      "reduced": false,
+      "elapsed": 4.633199999999998,
+      "animTime": 4.991700000190738,
+      "transition": false,
+      "renderReady": true,
+      "renderPending": false,
+      "renderedAnimTime": 4.991700000190738,
+      "frames": 16,
+      "position": [
+        0,
+        1.7,
+        6.5
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "visited": [
+        "onset"
+      ],
+      "entities": [],
+      "interactions": 0,
+      "evidence": [
+        "phase|Inhalation / Onset",
+        "geometry|Breathing & Liquid Surfaces",
+        "geometry|Fractal lattices & jeweled tilings",
+        "geometry|Static Pattern Overlay & filigree",
+        "geometry|TV Static & the Signal-Noise Transition"
+      ],
+      "missingEvidence": [],
+      "sourceCount": 17,
+      "portals": [
+        {
+          "x": 0,
+          "z": -8.95,
+          "width": 3,
+          "target": "next"
+        }
+      ],
+      "detail": "high",
+      "drawCalls": 80,
+      "triangles": 97826,
+      "geometries": 40,
+      "actors": [],
+      "uncitedMeshes": 0
+    },
+    "render_signature": "f01f32670846e2d5bb5f3e60920e0940bd7282e52d0a6e15244e73898d551833",
+    "capture_sha256": "b078b4943b37290d303522f9fe078cc74d55b4b4330f3bb6e0ba75a19423133c",
+    "file": "visual-onset-motion.png",
+    "veil_opacity": 0
+  }
+]

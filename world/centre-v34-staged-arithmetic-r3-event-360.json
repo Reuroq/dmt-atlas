@@ -1,0 +1,14 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "childAngular",
+      "leaf": 1,
+      "arm": "uniform",
+      "op": "shader-is",
+      "shader": "vertexShader"
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "61a80f87b294f0535ca896d9624e263520655170a2486c5cfce9092decde63c4"
+}

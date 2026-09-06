@@ -1,0 +1,13 @@
+{
+  "argv": [
+    "/usr/bin/python3",
+    "-B",
+    "-u",
+    "/home/clawd/dmt-atlas/world/build_centre_v35r2.py"
+  ],
+  "script": "build_centre_v35r2.py",
+  "script_sha256": "8c180e6932807b048fd3b919784e034c9d45cac11835ae1d3aebed0b5d0cbadd",
+  "launcher_sha256": "7734a3f6b684d018c9009147a8af097c2206a760650af389d08d8cd00035d08c",
+  "history_sha256": "e1d60bdbe170e15c6d8c0a21ce21245c13c8b420d62391b262436f461639b28a",
+  "freeze_sha256": null
+}

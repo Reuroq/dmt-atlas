@@ -1,0 +1,13 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "byte-constant",
+      "op": "shader-deleted",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "51f4143890d8d8cfd9d74f7f656e41c31ccee61813d6ba347f81415fe7f15da6"
+}

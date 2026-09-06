@@ -1,0 +1,10 @@
+{
+  "command": [
+    "node",
+    "/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-texture-setter.js"
+  ],
+  "command_sha256": "ad2a419799e270681643a20a60d16be59a63edcaeca32e777555a60e19f79561",
+  "source": "centre-v34-staged-arithmetic-r3-node-resource-texture-setter.js",
+  "source_sha256": "eccfa72fd70b0862a5b002801ea0d4441b7950b38adebfa38c90645e6a8bfd5e",
+  "timeout_seconds": 20
+}

@@ -1,0 +1,161 @@
+{
+  "errors": [],
+  "fps_swiftshader": 0.0,
+  "checks": [],
+  "diagnostics": {
+    "stage": "waiting",
+    "routeIndex": 5,
+    "entered": true,
+    "paused": false,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 1.799899999999999,
+    "animTime": 10.532600000381466,
+    "transition": false,
+    "renderReady": true,
+    "renderPending": true,
+    "renderedAnimTime": 8.616100000381476,
+    "frames": 5,
+    "position": [
+      0,
+      1.7,
+      11
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset",
+      "geometry",
+      "chrysanthemum",
+      "rush",
+      "membrane",
+      "waiting"
+    ],
+    "entities": [
+      "jester"
+    ],
+    "interactions": 0,
+    "evidence": [
+      "realm|The Waiting Room",
+      "phase|Arrival \u2014 The Waiting Room",
+      "entity|The Jester / Trickster / Clown",
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|Dimensional Layering & Space-Folding",
+      "geometry|Hyperbolic Space & Negative Curvature",
+      "geometry|Ultra-Detail & Infinite Resolution",
+      "geometry|Energy Conduits & Living Circuitry",
+      "geometry|Embedded Faces & the Pareidolia Cascade",
+      "geometry|Hyper-dimensional objects"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 46,
+    "portals": [
+      {
+        "x": 0,
+        "z": -14,
+        "width": 4,
+        "target": "next"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 2,
+    "triangles": 24,
+    "geometries": 6,
+    "actors": [
+      {
+        "kind": "jester",
+        "engaged": false,
+        "joints": 0,
+        "arm": null,
+        "evidence": "entity|The Jester / Trickster / Clown",
+        "screen": [
+          489.3021143510487,
+          391.1441691480839
+        ]
+      }
+    ],
+    "uncitedMeshes": 0
+  },
+  "capture_diagnostics": {
+    "stage": "waiting",
+    "routeIndex": 5,
+    "entered": true,
+    "paused": true,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 4.850000000000001,
+    "animTime": 13.58270000038145,
+    "transition": false,
+    "renderReady": true,
+    "renderPending": false,
+    "renderedAnimTime": 13.58270000038145,
+    "frames": 10,
+    "position": [
+      0,
+      1.7,
+      11
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset",
+      "geometry",
+      "chrysanthemum",
+      "rush",
+      "membrane",
+      "waiting"
+    ],
+    "entities": [
+      "jester"
+    ],
+    "interactions": 0,
+    "evidence": [
+      "realm|The Waiting Room",
+      "phase|Arrival \u2014 The Waiting Room",
+      "entity|The Jester / Trickster / Clown",
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|Dimensional Layering & Space-Folding",
+      "geometry|Hyperbolic Space & Negative Curvature",
+      "geometry|Ultra-Detail & Infinite Resolution",
+      "geometry|Energy Conduits & Living Circuitry",
+      "geometry|Embedded Faces & the Pareidolia Cascade",
+      "geometry|Hyper-dimensional objects"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 46,
+    "portals": [
+      {
+        "x": 0,
+        "z": -14,
+        "width": 4,
+        "target": "next"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 2,
+    "triangles": 24,
+    "geometries": 6,
+    "actors": [
+      {
+        "kind": "jester",
+        "engaged": false,
+        "joints": 0,
+        "arm": null,
+        "evidence": "entity|The Jester / Trickster / Clown",
+        "screen": [
+          489.3021143510487,
+          391.1441691480839
+        ]
+      }
+    ],
+    "uncitedMeshes": 0
+  },
+  "render_signature": "0d12540aa0c127c2c0e3ae1433dfb001a3b9065a0a45d94a075e3c6641e46b49",
+  "capture_sha256": "4a547f32f06b3b77c63648bf02da519adc6a254b2874b5bd02abb57ac2dcc162",
+  "file": "realism-jester-v4-motion.png",
+  "veil_opacity": 0
+}

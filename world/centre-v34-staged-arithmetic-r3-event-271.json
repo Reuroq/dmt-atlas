@@ -1,0 +1,10 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "childAngular",
+    "leaf": 1,
+    "arm": "literal",
+    "op": "render"
+  },
+  "previous_sha256": "3da5a4eb2be048f03a3b17ae5f33615d79593aab3af246a920fe5fee75495634"
+}

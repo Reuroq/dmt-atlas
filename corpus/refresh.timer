@@ -1,0 +1,11 @@
+[Unit]
+Description=Weekly DMT corpus refresh (owner installs units)
+
+[Timer]
+OnCalendar=Sun *-*-* 04:00:00 UTC
+RandomizedDelaySec=30m
+Persistent=true
+Unit=refresh.service
+
+[Install]
+WantedBy=timers.target

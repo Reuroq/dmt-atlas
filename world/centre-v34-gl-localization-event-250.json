@@ -1,0 +1,26 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "name": "float-row0",
+      "op": "shader-deleted",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [],
+      "drained": true
+    },
+    "value": {
+      "deleted": true
+    },
+    "exception": null,
+    "skipped": false,
+    "contextLost": false
+  },
+  "previous_sha256": "a12e08261522f2d9a5fd38bfc34607779122519bee012cf6362616529c07d626"
+}

@@ -1,0 +1,14 @@
+{
+  "sources": {
+    "gpu_centre_v34_gl_localization.html": "d5852253e0140defce680eb4100af1bb53ddc5393b2c9ab9132a1bd7524c49bf",
+    "probe_centre_v34_gl_localization.py": "6fe0a36e60a1891359a0b4dfee654e25bc294f431ad98774cfa4468916af7784",
+    "run_centre_v34_gl_localization_once.py": "d12f3c6d645efc3f995e65f6d929ffa0e42ca9cab1bfe001704f77c1f25bff02",
+    "check_centre_v34_gl_localization.py": "e0d02136e1f075cce1ba79a649bea90b43d967e7f9e76d4c1cd762b8f52a8538",
+    "centre-v34-gl-localization-design.md": "639b838f564d802a6c1ff73def81555ec5b1c8cae6281f7269619a7aa9acdb7a",
+    "vendor/three.min.js": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa"
+  },
+  "history_sha256": "18a153b95bcc736d55196c0270ca56f6514940c7e32ea56022e32d0fa601eed9",
+  "scope": "infrastructure only; frozen before static and runtime",
+  "numeric_passed": false,
+  "runtime_run": false
+}

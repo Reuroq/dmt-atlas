@@ -1,0 +1,13 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "float-constant",
+      "op": "shader-compiled",
+      "shader": "vertexShader",
+      "query": true
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "37dabb28975370abf96a4f817fec2760cbdc2a759f672819e9710decc2b011ff"
+}

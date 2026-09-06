@@ -1,0 +1,13 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "float-row1",
+      "op": "shader-deleted",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "2b6d58e6b1b993021153c29a663b91f476cb49fa3cc571f19b607ffe1b78c06e"
+}

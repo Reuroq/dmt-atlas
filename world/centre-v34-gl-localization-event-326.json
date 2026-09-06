@@ -1,0 +1,13 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "float-row1",
+      "op": "shader-log",
+      "shader": "vertexShader",
+      "query": true
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "61767908e3443eb4246e42aeceb34eff1af4415d41f15b54c7843a8ed8f0996e"
+}

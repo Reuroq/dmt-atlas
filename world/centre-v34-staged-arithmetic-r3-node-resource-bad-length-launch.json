@@ -1,0 +1,10 @@
+{
+  "command": [
+    "node",
+    "/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-bad-length.js"
+  ],
+  "command_sha256": "676fd31f0582f1630e83a3b8a51c5c4f2e9e42817a44e37ad804bed8e5068eaf",
+  "source": "centre-v34-staged-arithmetic-r3-node-resource-bad-length.js",
+  "source_sha256": "fbfdb34b40bf2cfc1460fe65d4a70ea54a213c8e6d9950c5af124a9e76b72891",
+  "timeout_seconds": 20
+}

@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": [
+    "I/O outside both clock calls",
+    "completed arm saved before next arm",
+    "durable result roundtrip",
+    "partial journal blocks replay",
+    "exception saved and rethrown",
+    "interrupt saved and rethrown",
+    "signal saved and rethrown",
+    "actual self-SIGTERM caught; handlers restored"
+  ],
+  "browser_runs": 0,
+  "limits": "SIGKILL, process/container loss and filesystem failure cannot guarantee a terminal receipt; last durable started event remains incomplete, never a measured regression."
+}

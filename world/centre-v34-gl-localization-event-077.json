@@ -1,0 +1,13 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "byte-constant",
+      "op": "shader-source",
+      "shader": "vertexShader",
+      "query": true
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "9f2963135e01e8173c461165efeb7641faeeaa6ae78f719835e08f2bcf7e124f"
+}

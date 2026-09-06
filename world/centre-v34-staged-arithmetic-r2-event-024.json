@@ -1,0 +1,10 @@
+{
+  "kind": "dispose-assessment",
+  "payload": {
+    "step": {
+      "op": "dispose"
+    },
+    "classification": "fatal-disposal"
+  },
+  "previous_sha256": "b89a076096ff19066caac83b27f2ed1637b8e363c89266e000ad83c7f254d6de"
+}

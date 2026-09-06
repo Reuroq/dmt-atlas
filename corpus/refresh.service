@@ -1,0 +1,16 @@
+[Unit]
+Description=Refresh DMT corpus overlay (no extraction)
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=clawd
+WorkingDirectory=/home/clawd/dmt-atlas/corpus
+ExecStart=/home/clawd/corpus-venv/bin/python -B /home/clawd/dmt-atlas/corpus/refresh.py --fetch --max-requests 100
+UMask=0077
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/home/clawd/dmt-atlas/corpus
+ProtectHome=read-only
+TimeoutStartSec=2h

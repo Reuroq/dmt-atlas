@@ -1,0 +1,10 @@
+{
+  "command": [
+    "node",
+    "/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r3-node-resource-bad-word.js"
+  ],
+  "command_sha256": "2d36ad6256cbad19555c1b493765fe5d5572b63b548994fee25c17f96d554637",
+  "source": "centre-v34-staged-arithmetic-r3-node-resource-bad-word.js",
+  "source_sha256": "6b1e7d3ec6b61f6e383b2ca07a84148a13dc51d8ef55caa87a46e53b38ee8d96",
+  "timeout_seconds": 20
+}

@@ -1,0 +1,123 @@
+{
+  "errors": [],
+  "fps_swiftshader": 1.59,
+  "checks": [],
+  "diagnostics": {
+    "stage": "afterglow",
+    "routeIndex": 10,
+    "entered": true,
+    "paused": false,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 2.499899999999999,
+    "animTime": 22.08940000038138,
+    "transition": false,
+    "renderReady": true,
+    "renderPending": true,
+    "renderedAnimTime": 22.072700000381385,
+    "frames": 14,
+    "position": [
+      0,
+      1.7,
+      6.5
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset",
+      "geometry",
+      "chrysanthemum",
+      "rush",
+      "membrane",
+      "waiting",
+      "cathedral",
+      "contact",
+      "download",
+      "return",
+      "afterglow"
+    ],
+    "entities": [],
+    "interactions": 0,
+    "evidence": [
+      "phase|Afterglow / Integration",
+      "phase|The Return"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 4,
+    "portals": [
+      {
+        "x": 0,
+        "z": -8.95,
+        "width": 3,
+        "target": "next"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 99,
+    "triangles": 102850,
+    "geometries": 44,
+    "actors": [],
+    "uncitedMeshes": 0
+  },
+  "capture_diagnostics": {
+    "stage": "afterglow",
+    "routeIndex": 10,
+    "entered": true,
+    "paused": true,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 4.616599999999999,
+    "animTime": 24.206100000381277,
+    "transition": false,
+    "renderReady": true,
+    "renderPending": false,
+    "renderedAnimTime": 24.206100000381277,
+    "frames": 22,
+    "position": [
+      0,
+      1.7,
+      6.5
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset",
+      "geometry",
+      "chrysanthemum",
+      "rush",
+      "membrane",
+      "waiting",
+      "cathedral",
+      "contact",
+      "download",
+      "return",
+      "afterglow"
+    ],
+    "entities": [],
+    "interactions": 0,
+    "evidence": [
+      "phase|Afterglow / Integration",
+      "phase|The Return"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 4,
+    "portals": [
+      {
+        "x": 0,
+        "z": -8.95,
+        "width": 3,
+        "target": "next"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 99,
+    "triangles": 102850,
+    "geometries": 44,
+    "actors": [],
+    "uncitedMeshes": 0
+  },
+  "render_signature": "7e877ab20ec1771cf1e4975c1af2a66d16222124ac06eb4c60953b77656dabc0",
+  "capture_sha256": "474dee65e5aad3da87ec85f4ade6c0a3f92ed0cd7f09d843241eedb84b6d8ddb",
+  "file": "realism-afterglow-v1-motion.png",
+  "veil_opacity": 0
+}

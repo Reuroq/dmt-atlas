@@ -1,0 +1,29 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "name": "byte-constant",
+      "op": "translated-source",
+      "shader": "vertexShader",
+      "query": true
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [
+        1282
+      ],
+      "drained": true
+    },
+    "value": {
+      "source": "",
+      "skipped": false
+    },
+    "exception": null,
+    "skipped": false,
+    "contextLost": false
+  },
+  "previous_sha256": "c87037f820e49bc9d7cb6cc0a9aaeba255b8119e3a9ec889a9b508e7d575924f"
+}

@@ -1,0 +1,69 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "name": "float-control",
+      "op": "material"
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [],
+      "drained": true
+    },
+    "value": {
+      "vertexShader": "varying vec2 sampleUV; void main(){sampleUV=uv;gl_Position=vec4(position.xy,0.,1.);}",
+      "fragmentShader": "precision highp float; void main(){gl_FragColor=vec4(.125,-.5,2.,1.);}",
+      "uniforms": {
+        "inputTex": "shared frozen 128x2 RGBA32F",
+        "textureRow": 0,
+        "secondOffset": 0.2800000011920929,
+        "secondOffsetBits": 1049582633
+      },
+      "control": true
+    },
+    "exception": null,
+    "skipped": false,
+    "resources": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-1",
+        "kind": "target",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-2",
+        "kind": "texture",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-3",
+        "kind": "geometry",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      },
+      {
+        "id": "resource-4",
+        "kind": "material",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "contextLost": false
+  },
+  "previous_sha256": "3f3ced9c9a6dc36d66d667d26dd8bc6c5c6ef0e4da368a95631de753552b9a91"
+}

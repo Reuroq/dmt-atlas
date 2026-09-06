@@ -1,0 +1,34 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "op": "renderer"
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [],
+      "drained": true
+    },
+    "value": {
+      "three": "160",
+      "webgl2": true,
+      "precision": "highp"
+    },
+    "exception": null,
+    "skipped": false,
+    "resources": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": false,
+        "succeeded": false,
+        "error": null
+      }
+    ],
+    "contextLost": false
+  },
+  "previous_sha256": "810bdd05c52e1bd9214fa97d47122eb7d5369f08b1383014ad4962440626e80c"
+}

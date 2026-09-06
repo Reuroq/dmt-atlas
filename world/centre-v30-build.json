@@ -1,0 +1,11 @@
+{
+  "candidate": "continuum-v30-candidate.js",
+  "sha256": "607fe7e36fa1020056247264df2139bbebe92e6c43be43b49a38ecc25525c660",
+  "parent": "continuum-v29-candidate.js",
+  "live_modified": false,
+  "structure": "Volumetric split petals and transverse nested branches, replacing two coaxial sheets",
+  "clearance_lower_bound": 5.48,
+  "cap_begins_z": -27.5,
+  "unchanged": "2048/1536 budgets,14 bisections,.00015 residual,no forced minimum step,actual camera and shared clock",
+  "state": "Unvalidated; no visual grade or promotion"
+}

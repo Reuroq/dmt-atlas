@@ -1,0 +1,45 @@
+{
+  "matched_v33r2": {
+    "rays": 38160,
+    "mean_steps": 166.9232180293501,
+    "p95_steps": 252.04999999999563,
+    "max_steps": 476.0,
+    "median_three_readbacks_seconds": 0.41566840512678027
+  },
+  "matched_v33r3": {
+    "rays": 38160,
+    "mean_steps": 170.71027253668763,
+    "p95_steps": 258.0,
+    "max_steps": 480.0,
+    "median_three_readbacks_seconds": 0.4875499997138977,
+    "mean_cheap_calls": 163.2559748427673,
+    "mean_full_trace_calls": 105.4585429769392,
+    "mean_certified_skips": 57.797431865828095,
+    "mean_refinement_calls": 0.0033018867924528303,
+    "mean_envelope_skips": 7.454297693920336,
+    "mean_full_field_evaluations_in_probe": 106.46184486373166
+  },
+  "all_v33r3": {
+    "rays": 50772,
+    "mean_steps": 171.22209091625305,
+    "p95_steps": 258.0,
+    "max_steps": 480.0,
+    "median_three_readbacks_seconds": 0.4729500002861023,
+    "mean_cheap_calls": 163.76802174426848,
+    "mean_full_trace_calls": 105.73985661388167,
+    "mean_certified_skips": 58.028165130386824,
+    "mean_refinement_calls": 0.0024816828173008744,
+    "mean_envelope_skips": 7.454069171984559,
+    "mean_full_field_evaluations_in_probe": 106.74233829669897
+  },
+  "max_matched_depth_delta": 0.0006561279296875,
+  "source_hashes": {
+    "numeric-candidate-v33r2-raw.json": "890ace840372ca4bd9e3916bcc7ed42b1fd590535a83afe7f054972c2fec6888",
+    "numeric-candidate-v33r3-raw.json": "77d0f779eaf182dc7397169c350ee1f2d5b2d18fbcd1da9e957e884e24cba2ab",
+    "centre-v33r3-bounds-check.json": "208a2f83d6f07e2b65f62c4475840b53a99b7005c13fe3cf5a4c59a713b55842",
+    "numeric-candidate-v33r3-check.json": "c115c04dee26ff0afba5b89509a3945b5b79191ac379ab0c5c4ffd3cd4e28a4e",
+    "centre-v33r3-first-root-check.json": "9d9b4df6f65a559bbdf76cdee44b185c283d990b1f4a175b9602782c9fe05b28",
+    "measure_centre_v33r3_cost.py": "aad5c56681cf08a49cf60948bbe48353dd025dbc6efda7c42c6db0f216e35bd8"
+  },
+  "limitations": "Saved sparse SwiftShader rays only. Old timing surrounds page.evaluate; new timing is inside JS around the first three readbacks, excluding RPC and the separate fourth counter readback. Shader instrumentation/compilation and timing boundary differ, so wall-time comparison is indicative, not a controlled benchmark. Main-loop full trace counts omit shaded-frame work. No old replay, no full-resolution or realism acceptance."
+}

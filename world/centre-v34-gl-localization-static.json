@@ -1,0 +1,585 @@
+{
+  "passed": true,
+  "freeze_sha256": "46104d4b368c77cbd6bd25e98f4fd5736b5ccfb568ab15246d752e08a38ffb3b",
+  "plan": [
+    {
+      "op": "renderer"
+    },
+    {
+      "op": "metadata"
+    },
+    {
+      "op": "renderer-extension"
+    },
+    {
+      "op": "unmasked-renderer"
+    },
+    {
+      "op": "float-extension"
+    },
+    {
+      "name": "byte-constant",
+      "op": "objects"
+    },
+    {
+      "name": "byte-constant",
+      "op": "bind"
+    },
+    {
+      "name": "byte-constant",
+      "op": "framebuffer-status"
+    },
+    {
+      "name": "byte-constant",
+      "op": "framebuffer-binding"
+    },
+    {
+      "name": "byte-constant",
+      "op": "attachment-type"
+    },
+    {
+      "name": "byte-constant",
+      "op": "implementation-format"
+    },
+    {
+      "name": "byte-constant",
+      "op": "implementation-type"
+    },
+    {
+      "name": "byte-constant",
+      "op": "compile"
+    },
+    {
+      "name": "byte-constant",
+      "op": "render"
+    },
+    {
+      "name": "byte-constant",
+      "op": "framebuffer-status"
+    },
+    {
+      "name": "byte-constant",
+      "op": "read-three"
+    },
+    {
+      "name": "byte-constant",
+      "op": "read-raw"
+    },
+    {
+      "name": "byte-constant",
+      "op": "program-reference"
+    },
+    {
+      "name": "byte-constant",
+      "op": "program-link"
+    },
+    {
+      "name": "byte-constant",
+      "op": "program-log"
+    },
+    {
+      "name": "byte-constant",
+      "op": "shader-is",
+      "shader": "vertexShader",
+      "query": true
+    },
+    {
+      "name": "byte-constant",
+      "op": "shader-deleted",
+      "shader": "vertexShader",
+      "query": true
+    },
+    {
+      "name": "byte-constant",
+      "op": "shader-compiled",
+      "shader": "vertexShader",
+      "query": true
+    },
+    {
+      "name": "byte-constant",
+      "op": "shader-log",
+      "shader": "vertexShader",
+      "query": true
+    },
+    {
+      "name": "byte-constant",
+      "op": "shader-source",
+      "shader": "vertexShader",
+      "query": true
+    },
+    {
+      "name": "byte-constant",
+      "op": "shader-is",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    {
+      "name": "byte-constant",
+      "op": "shader-deleted",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    {
+      "name": "byte-constant",
+      "op": "shader-compiled",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    {
+      "name": "byte-constant",
+      "op": "shader-log",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    {
+      "name": "byte-constant",
+      "op": "shader-source",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    {
+      "name": "byte-constant",
+      "op": "debug-extension",
+      "query": true
+    },
+    {
+      "name": "byte-constant",
+      "op": "translated-source",
+      "shader": "vertexShader",
+      "query": true
+    },
+    {
+      "name": "byte-constant",
+      "op": "translated-source",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    {
+      "name": "float-constant",
+      "op": "objects"
+    },
+    {
+      "name": "float-constant",
+      "op": "bind"
+    },
+    {
+      "name": "float-constant",
+      "op": "framebuffer-status"
+    },
+    {
+      "name": "float-constant",
+      "op": "framebuffer-binding"
+    },
+    {
+      "name": "float-constant",
+      "op": "attachment-type"
+    },
+    {
+      "name": "float-constant",
+      "op": "implementation-format"
+    },
+    {
+      "name": "float-constant",
+      "op": "implementation-type"
+    },
+    {
+      "name": "float-constant",
+      "op": "compile"
+    },
+    {
+      "name": "float-constant",
+      "op": "render"
+    },
+    {
+      "name": "float-constant",
+      "op": "framebuffer-status"
+    },
+    {
+      "name": "float-constant",
+      "op": "read-three"
+    },
+    {
+      "name": "float-constant",
+      "op": "read-raw"
+    },
+    {
+      "name": "float-constant",
+      "op": "program-reference"
+    },
+    {
+      "name": "float-constant",
+      "op": "program-link"
+    },
+    {
+      "name": "float-constant",
+      "op": "program-log"
+    },
+    {
+      "name": "float-constant",
+      "op": "shader-is",
+      "shader": "vertexShader",
+      "query": true
+    },
+    {
+      "name": "float-constant",
+      "op": "shader-deleted",
+      "shader": "vertexShader",
+      "query": true
+    },
+    {
+      "name": "float-constant",
+      "op": "shader-compiled",
+      "shader": "vertexShader",
+      "query": true
+    },
+    {
+      "name": "float-constant",
+      "op": "shader-log",
+      "shader": "vertexShader",
+      "query": true
+    },
+    {
+      "name": "float-constant",
+      "op": "shader-source",
+      "shader": "vertexShader",
+      "query": true
+    },
+    {
+      "name": "float-constant",
+      "op": "shader-is",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    {
+      "name": "float-constant",
+      "op": "shader-deleted",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    {
+      "name": "float-constant",
+      "op": "shader-compiled",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    {
+      "name": "float-constant",
+      "op": "shader-log",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    {
+      "name": "float-constant",
+      "op": "shader-source",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    {
+      "name": "float-constant",
+      "op": "debug-extension",
+      "query": true
+    },
+    {
+      "name": "float-constant",
+      "op": "translated-source",
+      "shader": "vertexShader",
+      "query": true
+    },
+    {
+      "name": "float-constant",
+      "op": "translated-source",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    {
+      "name": "float-row0",
+      "op": "objects"
+    },
+    {
+      "name": "float-row0",
+      "op": "bind"
+    },
+    {
+      "name": "float-row0",
+      "op": "framebuffer-status"
+    },
+    {
+      "name": "float-row0",
+      "op": "framebuffer-binding"
+    },
+    {
+      "name": "float-row0",
+      "op": "attachment-type"
+    },
+    {
+      "name": "float-row0",
+      "op": "implementation-format"
+    },
+    {
+      "name": "float-row0",
+      "op": "implementation-type"
+    },
+    {
+      "name": "float-row0",
+      "op": "compile"
+    },
+    {
+      "name": "float-row0",
+      "op": "render"
+    },
+    {
+      "name": "float-row0",
+      "op": "framebuffer-status"
+    },
+    {
+      "name": "float-row0",
+      "op": "read-three"
+    },
+    {
+      "name": "float-row0",
+      "op": "read-raw"
+    },
+    {
+      "name": "float-row0",
+      "op": "program-reference"
+    },
+    {
+      "name": "float-row0",
+      "op": "program-link"
+    },
+    {
+      "name": "float-row0",
+      "op": "program-log"
+    },
+    {
+      "name": "float-row0",
+      "op": "shader-is",
+      "shader": "vertexShader",
+      "query": true
+    },
+    {
+      "name": "float-row0",
+      "op": "shader-deleted",
+      "shader": "vertexShader",
+      "query": true
+    },
+    {
+      "name": "float-row0",
+      "op": "shader-compiled",
+      "shader": "vertexShader",
+      "query": true
+    },
+    {
+      "name": "float-row0",
+      "op": "shader-log",
+      "shader": "vertexShader",
+      "query": true
+    },
+    {
+      "name": "float-row0",
+      "op": "shader-source",
+      "shader": "vertexShader",
+      "query": true
+    },
+    {
+      "name": "float-row0",
+      "op": "shader-is",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    {
+      "name": "float-row0",
+      "op": "shader-deleted",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    {
+      "name": "float-row0",
+      "op": "shader-compiled",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    {
+      "name": "float-row0",
+      "op": "shader-log",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    {
+      "name": "float-row0",
+      "op": "shader-source",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    {
+      "name": "float-row0",
+      "op": "debug-extension",
+      "query": true
+    },
+    {
+      "name": "float-row0",
+      "op": "translated-source",
+      "shader": "vertexShader",
+      "query": true
+    },
+    {
+      "name": "float-row0",
+      "op": "translated-source",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    {
+      "name": "float-row1",
+      "op": "objects"
+    },
+    {
+      "name": "float-row1",
+      "op": "bind"
+    },
+    {
+      "name": "float-row1",
+      "op": "framebuffer-status"
+    },
+    {
+      "name": "float-row1",
+      "op": "framebuffer-binding"
+    },
+    {
+      "name": "float-row1",
+      "op": "attachment-type"
+    },
+    {
+      "name": "float-row1",
+      "op": "implementation-format"
+    },
+    {
+      "name": "float-row1",
+      "op": "implementation-type"
+    },
+    {
+      "name": "float-row1",
+      "op": "compile"
+    },
+    {
+      "name": "float-row1",
+      "op": "render"
+    },
+    {
+      "name": "float-row1",
+      "op": "framebuffer-status"
+    },
+    {
+      "name": "float-row1",
+      "op": "read-three"
+    },
+    {
+      "name": "float-row1",
+      "op": "read-raw"
+    },
+    {
+      "name": "float-row1",
+      "op": "program-reference"
+    },
+    {
+      "name": "float-row1",
+      "op": "program-link"
+    },
+    {
+      "name": "float-row1",
+      "op": "program-log"
+    },
+    {
+      "name": "float-row1",
+      "op": "shader-is",
+      "shader": "vertexShader",
+      "query": true
+    },
+    {
+      "name": "float-row1",
+      "op": "shader-deleted",
+      "shader": "vertexShader",
+      "query": true
+    },
+    {
+      "name": "float-row1",
+      "op": "shader-compiled",
+      "shader": "vertexShader",
+      "query": true
+    },
+    {
+      "name": "float-row1",
+      "op": "shader-log",
+      "shader": "vertexShader",
+      "query": true
+    },
+    {
+      "name": "float-row1",
+      "op": "shader-source",
+      "shader": "vertexShader",
+      "query": true
+    },
+    {
+      "name": "float-row1",
+      "op": "shader-is",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    {
+      "name": "float-row1",
+      "op": "shader-deleted",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    {
+      "name": "float-row1",
+      "op": "shader-compiled",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    {
+      "name": "float-row1",
+      "op": "shader-log",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    {
+      "name": "float-row1",
+      "op": "shader-source",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    {
+      "name": "float-row1",
+      "op": "debug-extension",
+      "query": true
+    },
+    {
+      "name": "float-row1",
+      "op": "translated-source",
+      "shader": "vertexShader",
+      "query": true
+    },
+    {
+      "name": "float-row1",
+      "op": "translated-source",
+      "shader": "fragmentShader",
+      "query": true
+    }
+  ],
+  "control_count": 4,
+  "components_per_readback": 512,
+  "checks": [
+    "Python AST",
+    "Node syntax",
+    "mocked staged errors/exception/context/bound",
+    "nonfinite and signed-zero evidence",
+    "independent CPU controls",
+    "query ordering",
+    "one-bit/sentinel/NaN rejection",
+    "fatal/query classifications",
+    "synthetic mocked exit7 receipt and replay refusal"
+  ],
+  "browser_runs": 0,
+  "field_evaluations": 0,
+  "new_images": 0
+}

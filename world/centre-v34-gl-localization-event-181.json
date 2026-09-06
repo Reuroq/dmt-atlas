@@ -1,0 +1,29 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "name": "float-constant",
+      "op": "translated-source",
+      "shader": "vertexShader",
+      "query": true
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [
+        1282
+      ],
+      "drained": true
+    },
+    "value": {
+      "source": "",
+      "skipped": false
+    },
+    "exception": null,
+    "skipped": false,
+    "contextLost": false
+  },
+  "previous_sha256": "d3831ae848cf69e7b90fb1c875a865658a0ed18d228fdc7c897fe5dab92d1e1c"
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "dispose-result",
+  "payload": {
+    "step": {
+      "op": "dispose"
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [],
+      "drained": true
+    },
+    "value": {
+      "resourcesDisposed": 16,
+      "rendererDisposed": true
+    },
+    "exception": null,
+    "skipped": false,
+    "contextLost": false
+  },
+  "previous_sha256": "df15703637fc9c57f76edcb621547c25edc24fa96b95762f3d0720ebb11aaf97"
+}

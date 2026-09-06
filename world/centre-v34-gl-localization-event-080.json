@@ -1,0 +1,13 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "byte-constant",
+      "op": "shader-is",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "6721adb31ac1f2becffc8e375d49957fde7fc0655967077adae0b92bfe2260c1"
+}

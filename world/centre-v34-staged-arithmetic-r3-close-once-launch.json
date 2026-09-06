@@ -1,0 +1,9 @@
+{
+  "script": "close_centre_v34_staged_arithmetic_r3_preparation.py",
+  "script_sha256": "43619c492850bfedaa5bf648d3691f4d699076259c95a1b5615069516959343c",
+  "launcher_sha256": "820ed6aa064a03772d06c68777e524b2089a42700c47e541c427ff171fd4fd5e",
+  "child_pid_parent": 878420,
+  "freeze_sha256": "6ea5e15dda06201151f72b2ec79d8a5e87cd1e8e60525840996c8f3be486acd9",
+  "preparation_sha256": null,
+  "mode": "foreground subprocess.run, one attempt, 180s timeout"
+}

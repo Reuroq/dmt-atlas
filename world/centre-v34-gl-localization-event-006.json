@@ -1,0 +1,7 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "op": "metadata"
+  },
+  "previous_sha256": "eff9d8c85132236ef82995d97210789868c4847ccd5bded928951a350edce4ec"
+}

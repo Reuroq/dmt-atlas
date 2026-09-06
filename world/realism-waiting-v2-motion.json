@@ -1,0 +1,161 @@
+{
+  "errors": [],
+  "fps_swiftshader": 0.0,
+  "checks": [],
+  "diagnostics": {
+    "stage": "waiting",
+    "routeIndex": 5,
+    "entered": true,
+    "paused": false,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 0.08329999999999928,
+    "animTime": 8.423500000572213,
+    "transition": false,
+    "renderReady": false,
+    "renderPending": true,
+    "renderedAnimTime": 7.073600000572211,
+    "frames": 5,
+    "position": [
+      0,
+      1.7,
+      11
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset",
+      "geometry",
+      "chrysanthemum",
+      "rush",
+      "membrane",
+      "waiting"
+    ],
+    "entities": [
+      "jester"
+    ],
+    "interactions": 0,
+    "evidence": [
+      "realm|The Waiting Room",
+      "phase|Arrival \u2014 The Waiting Room",
+      "entity|The Jester / Trickster / Clown",
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|Dimensional Layering & Space-Folding",
+      "geometry|Hyperbolic Space & Negative Curvature",
+      "geometry|Ultra-Detail & Infinite Resolution",
+      "geometry|Energy Conduits & Living Circuitry",
+      "geometry|Embedded Faces & the Pareidolia Cascade",
+      "geometry|Hyper-dimensional objects"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 46,
+    "portals": [
+      {
+        "x": 0,
+        "z": -14,
+        "width": 4,
+        "target": "next"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 1,
+    "triangles": 12,
+    "geometries": 4,
+    "actors": [
+      {
+        "kind": "jester",
+        "engaged": false,
+        "joints": 2,
+        "arm": -0.06214708219180954,
+        "evidence": "entity|The Jester / Trickster / Clown",
+        "screen": [
+          505.11609801518466,
+          364.4185367556942
+        ]
+      }
+    ],
+    "uncitedMeshes": 0
+  },
+  "capture_diagnostics": {
+    "stage": "waiting",
+    "routeIndex": 5,
+    "entered": true,
+    "paused": true,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 4.2665,
+    "animTime": 12.606700000572193,
+    "transition": false,
+    "renderReady": true,
+    "renderPending": false,
+    "renderedAnimTime": 12.606700000572193,
+    "frames": 11,
+    "position": [
+      0,
+      1.7,
+      11
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset",
+      "geometry",
+      "chrysanthemum",
+      "rush",
+      "membrane",
+      "waiting"
+    ],
+    "entities": [
+      "jester"
+    ],
+    "interactions": 0,
+    "evidence": [
+      "realm|The Waiting Room",
+      "phase|Arrival \u2014 The Waiting Room",
+      "entity|The Jester / Trickster / Clown",
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|Dimensional Layering & Space-Folding",
+      "geometry|Hyperbolic Space & Negative Curvature",
+      "geometry|Ultra-Detail & Infinite Resolution",
+      "geometry|Energy Conduits & Living Circuitry",
+      "geometry|Embedded Faces & the Pareidolia Cascade",
+      "geometry|Hyper-dimensional objects"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 46,
+    "portals": [
+      {
+        "x": 0,
+        "z": -14,
+        "width": 4,
+        "target": "next"
+      }
+    ],
+    "detail": "high",
+    "drawCalls": 16,
+    "triangles": 44506,
+    "geometries": 13,
+    "actors": [
+      {
+        "kind": "jester",
+        "engaged": false,
+        "joints": 2,
+        "arm": 0.03995259780627786,
+        "evidence": "entity|The Jester / Trickster / Clown",
+        "screen": [
+          520.9300816793206,
+          370.3487806297452
+        ]
+      }
+    ],
+    "uncitedMeshes": 0
+  },
+  "render_signature": "e96c666db8c10dc34d54ec3c5ac9dca1c204baecb6525f8f8ba7cf94124fdc56",
+  "capture_sha256": "9d8e5137e4c4372e88d77fd18ddd5c712c24cdbc4b690d4b374f7b39f9d275cf",
+  "file": "realism-waiting-v2-motion.png",
+  "veil_opacity": 0
+}

@@ -1,0 +1,13 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "childAngular",
+      "leaf": 1,
+      "arm": "uniform",
+      "op": "bind"
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "349a7a6b4a3e64d1326e75b8e39a4304fe8b4c98bac955938c82d7dd425f43f8"
+}

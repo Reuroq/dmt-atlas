@@ -1,0 +1,8 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "byte-constant",
+    "op": "framebuffer-status"
+  },
+  "previous_sha256": "79061b8fb88796de0a4cdf6643bdefb234a63b6759ff1694cb5fcda5488ac8df"
+}

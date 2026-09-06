@@ -1,0 +1,81 @@
+{
+  "v35r2_preparation.py": {
+    "base": "v35_preparation.py",
+    "base_sha256": "6b0ef6cdf572cae9164627a304368a14f1db9d28c8313033228749a45fd32752",
+    "rename": [
+      "v35",
+      "v35r2"
+    ],
+    "edits": [],
+    "sha256": "210a3c74f4031c208d94b272ce0451203d44be456638ba31230467e181c8cd94"
+  },
+  "build_centre_v35r2.py": {
+    "base": "build_centre_v35.py",
+    "base_sha256": "3d3fd59c978fc3a7ac5495539d8f54af156cdedf4e24a3ab2ad0a5f6dee85103",
+    "rename": [
+      "v35",
+      "v35r2"
+    ],
+    "edits": [
+      [
+        "sources = list(delta) + CONTROL + [p.PREFIX + '-source-delta.json']",
+        "failure = p.read('centre-v35-preparation-failure.json')\n    p.verify(failure['files'])\n    extras = list(failure['files']) + ['centre-v35-preparation-failure.json',\n        'prepare_centre_v35_static_r2.py', 'centre-v35-static-r2-source-delta.json']\n    extras += [path.name for path in p.HERE.glob('centre-v35-static-r2-prepare-once*') if path.is_file()]\n    sources = list(delta) + CONTROL + [p.PREFIX + '-source-delta.json'] + extras"
+      ]
+    ],
+    "sha256": "69be81b1ac604e723eddee8000d4bfecacbe2c2f44479e0b68ad9bead6062c50"
+  },
+  "check_centre_v35r2_static.py": {
+    "base": "check_centre_v35_static.py",
+    "base_sha256": "4d89e886dbd2da3f674ba8dc00db43d5b3cb8d3bed7acd4f81f4b5ca058743d3",
+    "rename": [
+      "v35",
+      "v35r2"
+    ],
+    "edits": [
+      [
+        "for old, new in reversed(EDITS[1:]):",
+        "for old, new in reversed([('', '\\n   uniform float childAxialOffset,childAngularOffset;')] + EDITS[2:]):"
+      ]
+    ],
+    "sha256": "bf10f5f275c989fd4093f3d9ebde8442996f0d9b6d0a0799d5e57f54597010b4"
+  },
+  "check_centre_v35r2_uniforms.cjs": {
+    "base": "check_centre_v35_uniforms.cjs",
+    "base_sha256": "1d5105e6bb8723413f408253fd63d002d1c020c99ebe2299d30b1665a1f768f5",
+    "rename": [
+      "v35",
+      "v35r2"
+    ],
+    "edits": [],
+    "sha256": "1d5105e6bb8723413f408253fd63d002d1c020c99ebe2299d30b1665a1f768f5"
+  },
+  "run_centre_v35r2_preparation_once.py": {
+    "base": "run_centre_v35_preparation_once.py",
+    "base_sha256": "5f9ccd0c324b60639e008aca515a125f098ab48f9564052550158e2bc19ea2f0",
+    "rename": [
+      "v35",
+      "v35r2"
+    ],
+    "edits": [],
+    "sha256": "7734a3f6b684d018c9009147a8af097c2206a760650af389d08d8cd00035d08c"
+  },
+  "close_centre_v35r2_preparation.py": {
+    "base": "close_centre_v35_preparation.py",
+    "base_sha256": "5687255a482c2443ac8c5cb062597623a7b24d52ffc78691f38e6bebf9793e58",
+    "rename": [
+      "v35",
+      "v35r2"
+    ],
+    "edits": [
+      [
+        "Four reversible source edits per candidate/reference:",
+        "The first frozen v35 static run exited1 at its declaration-reversal checker:\ninstrumentation adds probeMode to the existing declaration. All six binding\npaths had passed, but the complete static gate had not. Its source, receipts\nand outputs are preserved in centre-v35-preparation-failure.json. This distinct\nv35r2 successor corrects only that checker reversal to remove the inserted\nline, not the existing instrumented declaration. Runtime sources are\nversion-only equivalents of the unexecuted v35 candidate/fixtures.\n\nFour reversible source edits per candidate/reference:"
+      ],
+      [
+        "- Frozen18derived files plus preparation controls before static.",
+        "- Frozen v35 static actual exit1 at checker declaration reversal (probeMode instrumentation changes the existing declaration); all source/log/exit/Node evidence retained in centre-v35-preparation-failure.json. Distinct v35r2 corrects only that checker reversal, with version-only runtime sources; no frozen attempt edited or replayed.\n- Frozen18derived files plus preparation controls before static."
+      ]
+    ],
+    "sha256": "ccd28f3342e33aef7f37abc454aaae15a648062cb16b2121bdae5484eb201b60"
+  }
+}

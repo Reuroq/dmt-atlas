@@ -1,0 +1,25 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "name": "byte-constant",
+      "op": "debug-extension",
+      "query": true
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [],
+      "drained": true
+    },
+    "value": {
+      "supported": true
+    },
+    "exception": null,
+    "skipped": false,
+    "contextLost": false
+  },
+  "previous_sha256": "fb6ed5660a1d56a7f66d7e5cf38af07659e5c9adb96a6fe9e48e69137e40a0a1"
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "name": "byte-constant",
+      "op": "shader-compiled",
+      "shader": "fragmentShader",
+      "query": true
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [],
+      "drained": true
+    },
+    "value": {
+      "compiled": true
+    },
+    "exception": null,
+    "skipped": false,
+    "contextLost": false
+  },
+  "previous_sha256": "d0bf8c746c6817b53c24dd5bd351c0ac896eaa8e18840153be223191d9594fa9"
+}

@@ -1,0 +1,11 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "float-constant",
+      "op": "program-reference"
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "aad38e3ea379710235e53c107b8e84cc77f981ad1b104010a44823bde51404e9"
+}

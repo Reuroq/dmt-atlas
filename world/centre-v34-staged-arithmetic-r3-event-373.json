@@ -1,0 +1,11 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "childAngular",
+    "leaf": 1,
+    "arm": "uniform",
+    "op": "shader-compiled",
+    "shader": "fragmentShader"
+  },
+  "previous_sha256": "af858c9026a6d6ca9d52ba086ad2aca30ecd752e0ec0f9b8b31afeb56eaf9be5"
+}

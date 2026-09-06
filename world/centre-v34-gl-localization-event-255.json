@@ -1,0 +1,10 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "float-row0",
+    "op": "shader-log",
+    "shader": "fragmentShader",
+    "query": true
+  },
+  "previous_sha256": "b216b3e435b4c307d8c8e17b6726e24a705635da076c8a21790124187fb3a08f"
+}

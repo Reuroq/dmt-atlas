@@ -1,0 +1,14 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "childAxial",
+      "leaf": 0,
+      "arm": "literal",
+      "op": "shader-source",
+      "shader": "vertexShader"
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "d7e9c887924c75310e89c9778c79b86514dac80a5eb9e7ac4a4d58deadbd26c9"
+}

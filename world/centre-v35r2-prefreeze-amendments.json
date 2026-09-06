@@ -1,0 +1,26 @@
+{
+  "build_centre_v35r2.py": {
+    "before_sha256": "69be81b1ac604e723eddee8000d4bfecacbe2c2f44479e0b68ad9bead6062c50",
+    "edits": [
+      [
+        "p.read('centre-v35-preparation-failure.json')",
+        "p.read('centre-v35-preparation-failure-finalization.json')"
+      ],
+      [
+        "'prepare_centre_v35_static_r2.py', 'centre-v35-static-r2-source-delta.json']",
+        "'prepare_centre_v35_static_r2.py', 'centre-v35-static-r2-source-delta.json',\n        'centre-v35-preparation-failure-finalization.json', 'centre-v35r2-prefreeze-amendments.json']"
+      ]
+    ],
+    "after_sha256": "8c180e6932807b048fd3b919784e034c9d45cac11835ae1d3aebed0b5d0cbadd"
+  },
+  "check_centre_v35r2_static.py": {
+    "before_sha256": "bf10f5f275c989fd4093f3d9ebde8442996f0d9b6d0a0799d5e57f54597010b4",
+    "edits": [
+      [
+        "    delta = p.read(p.PREFIX + '-source-delta.json')",
+        "    control_delta = p.read('centre-v35-static-r2-source-delta.json')\n    amendments = p.read('centre-v35r2-prefreeze-amendments.json')\n    for name, entry in control_delta.items():\n        assert p.digest(entry['base']) == entry['base_sha256']\n        source = (p.HERE / entry['base']).read_text().replace(*entry['rename'])\n        for before, after in entry['edits']:\n            assert source.count(before) == 1\n            source = source.replace(before, after, 1)\n        assert hashlib.sha256(source.encode()).hexdigest() == entry['sha256']\n        if name in amendments:\n            amendment = amendments[name]\n            assert amendment['before_sha256'] == entry['sha256']\n            for before, after in amendment['edits']:\n                assert source.count(before) == 1\n                source = source.replace(before, after, 1)\n            assert hashlib.sha256(source.encode()).hexdigest() == amendment['after_sha256']\n        assert source == (p.HERE / name).read_text(), name\n    delta = p.read(p.PREFIX + '-source-delta.json')"
+      ]
+    ],
+    "after_sha256": "b3063fe7961eebe48c4e04511b61d83dbc92e45d5775535f17cbe90967c2ee2b"
+  }
+}

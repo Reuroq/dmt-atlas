@@ -1,0 +1,11 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "float-control",
+      "op": "material"
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "ac2aff4bb7e06b1cbe16fff699d0b0561cbccb4aca544d7c18e8cd323a766122"
+}

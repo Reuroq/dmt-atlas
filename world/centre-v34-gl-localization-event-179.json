@@ -1,0 +1,12 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "float-constant",
+      "op": "debug-extension",
+      "query": true
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "b95ba6f02284b7774a008a29c26b8c71fd5595f7761bf2874a151528bf1f90ab"
+}

@@ -230,5 +230,595 @@ function offering(x,y,z,size,parent,materials,motions,evidence){
  });
  g.traverse(o=>{if(o.isMesh)o.userData.evidence=evidence;});return g;
 }
-window.GeometricBeings={create,offering};
+// Waiting-only continuous usher. Shared entity appearances remain unchanged.
+function createWaitingUsher(kind,x,y,z,size,root,materials,motions,evidence,seed){
+ if(kind==='jester')return createContactBeing(kind,x,y,z,size*.74,root,materials,motions,evidence,seed);
+ const g=new T.Group(),body=new T.Group(),joints=[];
+ g.position.set(x,y,z);g.scale.setScalar(size);g.userData.entityKey=evidence;g.add(body);root.add(g);
+ const skin=new T.ShaderMaterial({uniforms:{time:{value:0}},vertexShader:`
+ varying vec3 p,n,v;uniform float time;
+ void main(){p=position;vec3 q=position+normal*.012*sin(position.y*8.+position.x*6.+time*.7);
+ n=normalize(normalMatrix*normal);vec4 mv=modelViewMatrix*vec4(q,1.);v=mv.xyz;gl_Position=projectionMatrix*mv;}`,
+ fragmentShader:`precision highp float;uniform float time;varying vec3 p,n,v;
+ void main(){vec3 N=normalize(n),V=normalize(-v),L=normalize(vec3(-.5,.8,1.));
+ vec3 q=p*9.+.5*sin(p.yzx*5.+time*.24);
+ float a=dot(sin(q),cos(q.zxy));float b=dot(sin(q*3.1),cos(q.yzx*3.1));
+ float rim=pow(1.-abs(dot(N,V)),2.);float ridge=exp(-a*a*15.);
+ vec3 col=mix(vec3(.015,.16,.14),vec3(.48,.22,.065),ridge*(.55+.45*exp(-b*b*4.)));
+ col*=.5+.8*max(dot(N,L),0.);col+=vec3(.25,.17,.48)*rim;
+ col+=vec3(.85,.75,.45)*pow(max(dot(N,normalize(L+V)),0.),52.)*.55;
+ gl_FragColor=vec4(col,1.);
+ #include <tonemapping_fragment>
+ #include <colorspace_fragment>
+ }`});materials.push(skin);
+ const dark=new T.MeshBasicMaterial({color:0x090b19}),iris=new T.MeshBasicMaterial({color:0xc0e5c2});
+ const sphere=new T.SphereGeometry(1,40,28);
+ function ell(parent,at,scale,mat=skin){const o=new T.Mesh(sphere,mat);o.position.set(...at);o.scale.set(...scale);parent.add(o);return o;}
+ function tube(parent,points,r,mat=skin){const curve=new T.CatmullRomCurve3(points.map(p=>new T.Vector3(...p)));const o=new T.Mesh(new T.TubeGeometry(curve,40,r,12,false),mat);parent.add(o);return o;}
+ // One closed flowing mantle, widening into the room's floor rather than dotted legs.
+ const profile=[[0,0],[.92,.02],[.74,.16],[.56,.55],[.43,1.1],[.36,1.65],[.43,2.15],[.58,2.55],[.45,2.75],[.21,2.9],[.18,3.15],[0,3.2]].map(p=>new T.Vector2(...p));
+ body.add(new T.Mesh(new T.LatheGeometry(profile,72),skin));
+ const head=ell(body,[0,3.42,0],[.42,.65,.33]);
+ // Brow, almond sockets, raised nose, parted lips and a pointed chin form an actual face.
+ for(const s of [-1,1]){
+  const eye=ell(body,[s*.17,3.54,.285],[.145,.082,.063],dark);eye.rotation.z=s*.17;
+  ell(body,[s*.16,3.535,.341],[.044,.052,.018],iris);
+  ell(body,[s*.16,3.535,.359],[.016,.039,.006],dark);
+  tube(body,[[s*.04,3.61,.3],[s*.17,3.65,.32],[s*.3,3.6,.25]],.036);
+  tube(body,[[s*.055,3.48,.3],[s*.17,3.45,.34],[s*.3,3.51,.25]],.025);
+  tube(body,[[s*.31,3.38,.24],[s*.23,3.28,.31],[s*.13,3.13,.24]],.043);
+  // Swept crown folds connect to the skull; no detached jewels or antenna dots.
+  tube(body,[[s*.3,3.77,0],[s*.42,4.03,-.08],[s*.31,4.28,-.16],[s*.12,4.4,-.2]],.075);
+ }
+ ell(body,[0,3.4,.33],[.068,.18,.1]);ell(body,[0,3.29,.38],[.08,.06,.06]);
+ ell(body,[0,3.17,.303],[.135,.039,.025],dark);
+ tube(body,[[-.14,3.18,.29],[0,3.205,.33],[.14,3.18,.29]],.021);
+ tube(body,[[-.12,3.15,.29],[0,3.125,.325],[.12,3.15,.29]],.022);
+ for(const s of [-1,1]){
+  const arm=new T.Group();arm.position.set(s*.43,2.61,0);body.add(arm);joints.push({o:arm,side:s,mantis:false,mother:false});
+  // Right palm offers the passage; left palm is raised toward the arriving viewer.
+  const py=s>0?-.1:.15,pz=s>0?.05:.42;
+  tube(arm,[[0,0,0],[s*.32,-.16,.04],[s*.65,-.38,.15],[s*.9,py,pz]],.135);
+  ell(arm,[s*.98,py,pz],[.16,.21,.09]);
+  for(let f=0;f<4;f++){
+   const fx=s*(.88+f*.066),len=.27+Math.sin((f+1)*.7)*.09;
+   tube(arm,[[fx,py+.12,pz],[fx+s*(f-1.5)*.025,py+.25,pz+.03],[fx+s*(f-1.5)*.046,py+len+.15,pz+.09]],.028);
+  }
+  tube(arm,[[s*.87,py-.035,pz],[s*.73,py+.08,pz+.05],[s*.7,py+.2,pz+.08]],.043);
+  for(let f=0;f<3;f++)tube(body,[[s*.4,.5,-.1-f*.12],[s*(.7+f*.2),.12,-.2-f*.24],[s*(1.25+f*.22),.035,-.45-f*.4]],.055-f*.009);
+ }
+ motions.push(t=>{head.scale.x=.42*(1.+.035*Math.sin(t*.7));head.scale.y=.65*(1.+.025*Math.cos(t*.6));});
+ g.traverse(o=>{if(o.isMesh)o.userData.evidence=[evidence];});
+ return {kind,g,body,joints,engaged:false,evidence,seed};
+}
+// Continuous implicit body; the mother variant is used only by the garden.
+function createContactBeing(kind,x,y,z,size,root,materials,motions,evidence,seed){
+ const g=new T.Group(),body=new T.Group(),joints=[];
+ g.position.set(x,y,z);g.scale.setScalar(size);g.userData.entityKey=evidence;g.add(body);root.add(g);
+ const skin=new T.ShaderMaterial({side:T.BackSide,extensions:{fragDepth:true},uniforms:{
+  time:{value:0},seed:{value:seed},jester:{value:kind==='jester'?1:0},gardenMother:{value:kind==='mother'?1:0},elf:{value:kind==='elf'?1:0},
+  localFromWorld:{value:new T.Matrix4()},worldFromLocal:{value:new T.Matrix4()}
+ },vertexShader:`varying vec3 localSurface;void main(){localSurface=position;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}`,
+ fragmentShader:`precision highp float;
+ uniform float time,seed,jester,gardenMother,elf;uniform mat4 localFromWorld,worldFromLocal,projectionMatrix;
+ varying vec3 localSurface;
+ float join(float a,float b,float k){float h=max(k-abs(a-b),0.)/k;return min(a,b)-h*h*k*.25;}
+ float ell(vec3 p,vec3 r){float k0=length(p/r),k1=length(p/(r*r));return k0*(k0-1.)/max(k1,.00001);}
+ float limb(vec3 p,vec3 a,vec3 b,float r){vec3 ab=b-a;return length(p-a-ab*clamp(dot(p-a,ab)/dot(ab,ab),0.,1.))-r;}
+ vec3 living(vec3 p){
+  float rise=smoothstep(0.,3.,p.y);p.x-=rise*.09*sin(p.y*.85+time*.75+seed);
+  p.xz/=1.+.055*sin(time*.9+seed)*exp(-pow(p.y-3.1,2.));
+  if(jester>.5){
+   float head=smoothstep(4.25,4.7,p.y),t=time*.85+seed;
+   p.x/=1.+head*.13*sin(t*.83);
+   p.y-=head*.055*sin(p.x*4.+t*.9);
+   p.z-=head*.025*sin(p.x*5.+p.y*2.-t);
+  }
+  return p;
+ }
+ float elfBody(vec3 p,float t){
+  // A continuous branching sheet fills the torso; smaller openings reveal its depth.
+  vec3 q=p-vec3(0.,2.65,0.);
+  q.xz/=1.+.19*sin(t*.72+q.y*.8);
+  float twist=q.y*.38+.42*sin(t*.6);
+  q.xz=mat2(cos(twist),-sin(twist),sin(twist),cos(twist))*q.xz;
+  float envelope=ell(q,vec3(.72,1.23,.48));
+  envelope=join(envelope,ell(q-vec3(0.,.98,0.),vec3(.61,.30,.34)),.18);
+  vec3 cell=q*4.2+vec3(.30*sin(t*.5),t*.19,.35*cos(t*.6));
+  float sheet=abs(dot(sin(cell),cos(cell.zxy)))/7.35-.115;
+  float d=max(envelope,sheet);
+  vec3 inner=cell.yzx*2.65+.22*sin(cell.zxy);
+  float openings=(length(sin(inner))-.88)/11.13;
+  d=max(d,-openings);
+  d=join(d,ell(p-vec3(0.,2.7,-.08),vec3(.13,1.16,.15)),.085);
+  d=join(d,limb(p,vec3(0.,3.4,0.),vec3(0.,4.12,0.),.12),.12);
+  return d;
+ }
+ float motherHead(vec3 p,float t){
+  p.x-=.04*sin(t*.65)*smoothstep(4.45,5.5,p.y);
+  float d=ell(p-vec3(0.,5.12,0.),vec3(.425,.61,.32));
+  d=join(d,ell(p-vec3(0.,4.77,.065),vec3(.27,.29,.265)),.14);
+  for(int i=0;i<2;i++){
+   float s=i==0?-1.:1.,expression=.028*sin(t*.85+s*.4);
+   vec3 q=p;q.x*=s;
+   d=join(d,ell(q-vec3(.255,5.0+expression,.255),vec3(.145,.18,.13)),.08);
+   d=join(d,limb(q,vec3(.07,5.34+expression,.305),vec3(.34,5.32-expression,.245),.046),.04);
+   vec3 eye=q-vec3(.20,5.19+expression*.35,.315);eye.y-=eye.x*.12;
+   d=-join(-d,ell(eye,vec3(.132,.060,.10)),.022);
+   d=join(d,ell(eye-vec3(0.,-.018,-.065),vec3(.107,.030,.035)),.016);
+   d=max(d,-ell(q-vec3(.062,4.98,.371),vec3(.028,.023,.033)));
+  }
+  d=join(d,ell(p-vec3(0.,5.115,.306),vec3(.054,.20,.081)),.035);
+  d=join(d,ell(p-vec3(0.,5.0,.367),vec3(.077,.066,.064)),.03);
+  vec3 lips=p-vec3(0.,4.80,.303);lips.y-=(.9+.25*sin(t*.7))*lips.x*lips.x;
+  d=join(d,ell(lips-vec3(0.,.022,0.),vec3(.15,.035,.045)),.025);
+  d=join(d,ell(lips+vec3(0.,.029,0.),vec3(.14,.035,.044)),.024);
+  d=max(d,-ell(lips,vec3(.137,.012+.006*(.5+.5*sin(t*.8)),.065)));
+  return d;
+ }
+ float form(vec3 point){
+  vec3 p=living(point);float t=time*.85+seed,face=.5+.5*sin(seed*2.3);
+  // A fluted mantle grows directly out of a buried, spreading base.
+  float angle=atan(p.z,p.x),flare=.29+1.38*exp(-max(p.y,0.)*1.85)+gardenMother*.32*exp(-pow((p.y-1.4)/1.35,2.));
+  float folds=.045*cos(angle*9.+p.y*1.8+.35*sin(t))+.018*cos(angle*18.-p.y*3.);
+  float d=max(length(p.xz/vec2(1.,.68))-flare-folds,max(-p.y-.48,p.y-2.9));
+  d=join(d,ell(p-vec3(0.,3.12,0.),vec3(.37+gardenMother*.09,1.03,.26+gardenMother*.045)),.25);
+  d=join(d,ell(p-vec3(0.,3.73,-.035),vec3(.54,.27,.25)),.16);
+  if(gardenMother>.5){
+   // A living calyx: rounded overlapping lobes enclose deep, smaller chambers.
+   // The same volume grows from the waist into the buried roots.
+   vec3 mantle=p;mantle.xz/=1.+.07*sin(t*.65+p.y*1.2);
+   float a=atan(mantle.z/.68,mantle.x)+.22*sin(p.y*1.6-t*.42);
+   float radius=length(mantle.xz/vec2(1.,.68));
+   float spread=.31+1.38*exp(-max(p.y,0.)*1.85)+.43*exp(-pow((p.y-1.7)/1.35,2.));
+   float petals=.105*cos(a*7.+p.y*2.-t*.36)+.025*cos(a*21.-p.y*3.+t*.5);
+   d=max(radius-spread-petals,max(-p.y-.48,p.y-3.4));
+   for(int layer=0;layer<3;layer++){
+    float f=float(layer),yy=.95+f*.88+.10*sin(t*.7+f);
+    float phase=a+f*.40+.12*sin(t*.5+f);
+    float arc=atan(sin(phase*7.),cos(phase*7.))/7.;
+    vec3 chamber=vec3(arc*max(spread,.35),p.y-yy,radius-spread+.045);
+    float hollow=ell(chamber,vec3(.14-f*.018,.35-f*.025,.23));
+    d=-join(-d,hollow,.065);
+    // A smaller recessed bud sits inside each chamber, joined at its base.
+    vec3 bud=chamber-vec3(0.,-.12,-.17);
+    d=join(d,ell(bud,vec3(.062,.18,.095)),.06);
+   }
+   d=join(d,ell(p-vec3(0.,3.12,0.),vec3(.46,1.03,.305)),.25);
+   d=join(d,ell(p-vec3(0.,3.73,-.035),vec3(.54,.27,.25)),.16);
+  }
+  if(elf>.5)d=elfBody(p,t);
+  if(jester>.5){
+   // Thick rounded folds enclose unequal nested windows, without cut ribbon edges.
+   vec3 mantle=p;
+   float twist=.30*(p.y-2.)+.24*sin(t*.55+p.y*.6);
+   mantle.xz=mat2(cos(twist),-sin(twist),sin(twist),cos(twist))*mantle.xz;
+   d=ell(mantle-vec3(0.,2.42,0.),vec3(.78,1.42,.46));
+   d=join(d,ell(mantle-vec3(0.,1.04,0.),vec3(.38,.89,.30)),.20);
+   for(int k=0;k<2;k++){
+    float s=k==0?-1.:1.;vec3 q=mantle;q.x*=s;
+    float breathe=.07*sin(t*.8+s);
+    float window=ell(q-vec3(.40,2.45+breathe,.07),vec3(.21+breathe*.3,.64,.64));
+    d=-join(-d,window,.075);
+    window=ell(q-vec3(.43,3.32-breathe,.04),vec3(.15,.22,.53));
+    d=-join(-d,window,.045);
+    window=ell(q-vec3(.20,1.33+breathe,.10),vec3(.115,.30,.42));
+    d=-join(-d,window,.035);
+   }
+   d=join(d,ell(p-vec3(0.,3.60,0.),vec3(.47,.26,.30)),.15);
+   for(int k=0;k<3;k++){
+    float f=float(k),yy=4.02+f*.13;
+    vec3 r=p-vec3(0.,yy,0.);
+    float a=atan(r.z,r.x),flute=.07*cos(a*10.+t*.5+f*.8);
+    float collar=max(length(r.xz)-(.67-f*.12+flute),abs(r.y-.055*cos(a*10.+t*.5))-.055);
+    d=join(d,collar,.045);
+   }
+  }
+  d=join(d,limb(p,vec3(0.,3.7,0.),vec3(0.,4.75,0.),.125),.16);
+  if(gardenMother>.5)d=join(d,motherHead(p,t),.13);
+  else{
+   d=join(d,ell(p-vec3(0.,5.14,0.),vec3(.31+face*.055+jester*.13,.76-jester*.08,.28+jester*.035)),.14);
+   d=join(d,ell(p-vec3(0.,4.66,.08),vec3(.16+face*.025,.36,.21)),.1);
+  }
+  for(int i=0;i<2;i++){
+   float s=i==0?-1.:1.;vec3 q=p;q.x*=s;
+   if(elf>.5){
+    vec3 hip=vec3(.32,1.65,0.),knee=vec3(.62+.16*sin(t*.7+s),.84,.19*cos(t*.7+s));
+    vec3 ankle=vec3(.51+.13*sin(t*.7+s),.13,.12);
+    d=join(d,limb(q,hip,knee,.14),.12);
+    d=join(d,limb(q,knee,ankle,.085),.08);
+    for(int toe=0;toe<3;toe++){
+     float f=float(toe)-1.;
+     vec3 fork=ankle+vec3(f*.28,-.14,.27);
+     vec3 tip=ankle+vec3(f*.65+.15,-.32,.70-abs(f)*.15);
+     d=join(d,limb(q,ankle,fork,.065),.085);
+     d=join(d,limb(q,fork,tip,.03),.06);
+     d=join(d,limb(q,mix(fork,tip,.55),tip+vec3(.18,-.035,-.14),.018),.025);
+    }
+   }else if(jester>.5){
+    vec3 knee=vec3(.53,.20,.12);
+    d=join(d,limb(q,vec3(.19,1.02,0.),knee,.16),.17);
+    d=join(d,limb(q,knee,vec3(1.60,-.43,.31),.085),.13);
+    d=join(d,limb(q,vec3(.36,.42,-.06),vec3(1.04,-.44,-.64),.085),.13);
+   }else{
+    d=join(d,limb(q,vec3(.25,1.1,.04),vec3(1.83,-.32,.3),.16),.3);
+    d=join(d,limb(q,vec3(.2,.65,-.1),vec3(1.32,-.35,-.72),.18),.28);
+   }
+   vec3 shoulder=vec3(.46,3.73,0.),elbow=vec3(.91+gardenMother*.16,3.08+.18*sin(t+s),.17);
+   vec3 palm=vec3(1.42+gardenMother*.16,3.57+.32*sin(t+s*1.2),.53+.17*cos(t+s));
+   d=join(d,limb(q,shoulder,elbow,.103),.14);d=join(d,limb(q,elbow,palm,.075),.095);
+   d=join(d,ell(q-palm,vec3(.155,.27,.08)),.065);
+   for(int f=0;f<4;f++){
+    float fi=float(f),spread=fi-1.5;
+    vec3 a=palm+vec3(spread*.082,.19,0.);
+    vec3 b=a+vec3(spread*.039,.25+.06*sin(fi),.035);
+    vec3 c=b+vec3(spread*.022,.17+.05*sin(fi),.08+.065*sin(t+fi*.55));
+    d=join(d,limb(q,a,b,.031),.03);d=join(d,limb(q,b,c,.024),.025);
+   }
+   vec3 thumb=palm+vec3(-.24,.015,.09);
+   d=join(d,limb(q,palm+vec3(-.1,-.07,0.),thumb,.054),.055);
+   d=join(d,limb(q,thumb,thumb+vec3(-.065,.15,.045),.04),.04);
+   // Swept temple planes replace horns; each face has different orbital proportions.
+   if(gardenMother<.5)d=join(d,ell(q-vec3(.24,5.35,-.08),vec3(.105,.65+jester*.12,.21)),.055);
+   if(jester>.5){
+    vec3 bend=vec3(.53+.09*sin(t*.65+s),5.93,-.07);
+    vec3 tip=vec3(.76+.10*sin(t*.65+s),5.60+.13*cos(t*.8+s),-.02);
+    d=join(d,limb(q,vec3(.25,5.55,-.08),bend,.13),.12);
+    d=join(d,limb(q,bend,tip,.085),.08);
+    d=join(d,ell(q-tip,vec3(.085,.15,.10)),.06);
+    d=join(d,ell(q-vec3(.30,4.96,.20),vec3(.16,.25,.11)),.08);
+    float expression=.045*sin(t*.8+s*.7);
+    d=join(d,limb(q,vec3(.06,5.42+expression,.28),vec3(.34,5.47-expression,.22),.068),.055);
+    d=join(d,ell(q-vec3(.32,5.04+expression,.27),vec3(.15,.15,.12)),.055);
+    d=-join(-d,ell(q-vec3(.29,4.83+expression,.30),vec3(.065,.15,.095)),.025);
+    d=max(d,-ell(q-vec3(.07,4.90,.356),vec3(.035,.035,.053)));
+   }
+   if(gardenMother>.5){
+    // One tapered sweep carries nested longitudinal folds from crown into torso.
+    float u=clamp((5.78-q.y)/2.78,0.,1.);
+    float taper=sqrt(max(.002,1.-pow((q.y-4.39)/1.39,2.)));
+    float sweep=.10+.53*sin(u*2.8)+.025*sin(u*8.-t*.45)*sin(u*3.14159);
+    vec2 hair=vec2(q.x-sweep,q.z+.10+.15*u);
+    vec2 radii=vec2(.09+.065*sin(u*3.14159),.20-.065*u)*taper;
+    float theta=atan(hair.y/radii.y,hair.x/radii.x);
+    float flow=theta+u*2.4+.15*sin(u*9.-t*.35);
+    float folds=(.019*cos(flow*7.)+.007*cos(flow*19.+u*3.)
+                +.0025*cos(flow*43.-u*6.))*taper;
+    float lock=(length(hair/radii)-1.)*min(radii.x,radii.y)+folds;
+    lock=max(lock,abs(q.y-4.39)-1.39);
+    d=join(d,lock,.055+.045*smoothstep(.6,1.,u));
+   }
+   if(gardenMother<.5){
+   vec3 eye=q-vec3(.15+face*.025+jester*.045,5.21+face*.055,.245);
+   eye.xy=mat2(.94,-.34,.34,.94)*eye.xy;
+   d=max(d,-ell(eye,vec3(.13,.10+face*.025,.12)));
+   d=join(d,limb(q,vec3(.035,5.34,.26),vec3(.29,5.42,.17),.038),.025);
+   d=join(d,ell(q-vec3(.2,4.99,.205),vec3(.095,.27,.085)),.035);
+   d=max(d,-ell(q-vec3(.17,4.83,.255),vec3(.065,.16,.065)));
+   }
+  }
+  if(gardenMother<.5){
+  d=join(d,ell(p-vec3(0.,5.05,.267),vec3(.046,.31,.08+face*.035)),.025);
+  d=join(d,ell(p-vec3(0.,4.88,.315),vec3(.065,.065,.07)),.022);
+  vec3 mouth=p-vec3(0.,4.67,.236);mouth.y-=(.18+jester*(2.+.7*sin(t*.72)))*mouth.x*mouth.x;
+  d=max(d,-ell(mouth,vec3(.113+face*.02+jester*.15,.033+jester*(.025+.012*sin(t)),.065)));
+  if(jester>.5){
+   vec3 grin=p-vec3(0.,4.73,.29);
+   grin.y-=(1.8+.6*sin(t*.72))*grin.x*grin.x;
+   float gape=.075+.025*sin(t*.9);
+   d=-join(-d,ell(grin,vec3(.27,gape,.14)),.022);
+   d=join(d,ell(grin+vec3(0.,gape+.02,-.018),vec3(.255,.033,.055)),.023);
+   for(int tooth=0;tooth<5;tooth++){
+    float x=(float(tooth)-2.)*.086;
+    d=join(d,ell(grin-vec3(x,gape*.65,.012),vec3(.034,.045,.042)),.008);
+   }
+  }
+  d=join(d,ell(p-vec3(0.,4.615,.223),vec3(.105,.024,.029)),.016);
+  }
+  if(jester>.5){
+   float body=smoothstep(.6,1.1,p.y)*(1.-smoothstep(3.7,4.15,p.y));
+   vec3 relief=p*8.+.35*sin(p.yzx*3.+t*.4);
+   float carving=sin(relief.x)*sin(relief.y)*sin(relief.z);
+   carving+=.38*sin(relief.x*2.3+carving)*sin(relief.y*2.3)*sin(relief.z*2.3);
+   carving+=.12*sin(relief.x*5.1)*sin(relief.y*5.1+carving)*sin(relief.z*5.1);
+   d+=body*.038*carving;
+  }
+  if(gardenMother>.5){
+   float mantle=smoothstep(.05,.6,p.y)*(1.-smoothstep(3.5,3.9,p.y));
+   vec3 vein=p*13.+.35*sin(p.yzx*5.+t*.4);
+   d+=mantle*(.016*sin(vein.x)*sin(vein.y)*sin(vein.z)
+      +.005*sin(vein.x*2.7)*sin(vein.y*2.7)*sin(vein.z*2.7));
+  }
+  return d*.72;
+ }
+ vec3 normalAt(vec3 p){vec2 e=vec2(.003,0.);return normalize(vec3(form(p+e.xyy)-form(p-e.xyy),form(p+e.yxy)-form(p-e.yxy),form(p+e.yyx)-form(p-e.yyx)));}
+ void main(){
+  vec3 ro=(localFromWorld*vec4(cameraPosition,1.)).xyz,rd=normalize(localSurface-ro);
+  vec3 inv=1./rd,ta=(vec3(-2.2,-.6,-1.3)-ro)*inv,tb=(vec3(2.2,6.3,1.3)-ro)*inv;
+  vec3 lo=min(ta,tb),hi=max(ta,tb);float travel=max(0.,max(lo.x,max(lo.y,lo.z))),end=min(hi.x,min(hi.y,hi.z));
+  bool hit=false;vec3 p;
+  for(int i=0;i<144;i++){p=ro+rd*travel;float d=form(p);if(d<.002){hit=true;break;}travel+=max(d,.0015);if(travel>end)break;}
+  if(!hit)discard;
+  vec3 n=normalAt(p),v=-rd,q=living(p),l=normalize(vec3(-.6,1.,1.4));
+  vec3 domain=q*11.+.6*sin(q.yzx*4.+time*.3);
+  float weave=dot(sin(domain),cos(domain.zxy));
+  float finer=dot(sin(domain*2.8),cos(domain.yzx*2.8));
+  float gold=exp(-weave*weave*9.)*(.5+.5*exp(-finer*finer*3.));
+  vec3 col=mix(vec3(.018,.34,.26),vec3(.83,.42,.095),gold);
+  if(gardenMother>.5){
+   float face=smoothstep(4.3,4.85,q.y)*smoothstep(-.05,.19,q.z);
+   float silk=.5+.5*sin(q.y*2.3+atan(q.z,q.x)*7.+time*.28);
+   col=mix(vec3(.018,.20,.15),vec3(.24,.075,.18),silk*.7);
+   col+=vec3(.53,.33,.10)*gold*.25*(1.-face);
+   col=mix(col,vec3(.52,.30,.22),face*.87);
+  }
+  col=mix(col,vec3(.38,.045,.32),jester*(.3+.25*sin(q.y*3.+time*.4)));
+  float diffuse=.32+.75*max(dot(n,l),0.);float rim=pow(1.-max(dot(n,v),0.),3.);
+  vec3 film=.5+.5*cos(vec3(.1,2.1,4.3)+dot(n,v)*6.+q.y*.7+time*.25);
+  col*=diffuse;col+=film*rim*.32;
+  col+=mix(vec3(.85,1.,.9),film,.3)*pow(max(dot(n,normalize(l+v)),0.),48.)*.85;
+  col+=vec3(.1,.85,.6)*gold*.11;
+  if(gardenMother>.5){
+   float mantle=1.-smoothstep(3.6,4.3,q.y);
+   float petals=.5+.5*cos(atan(q.z/.68,q.x)*7.+q.y*2.-time*.306);
+   vec3 jewel=mix(vec3(.025,.18,.12),vec3(.22,.035,.15),petals);
+   float cavity=clamp(form(p+n*.09)/.0648,.15,1.);
+   vec3 organic=jewel*(.32+.85*max(dot(n,l),0.))*cavity;
+   organic+=film*rim*.29+vec3(.8,.63,.33)*pow(max(dot(n,normalize(l+v)),0.),32.)*.45;
+   organic+=vec3(.16,.38,.22)*gold*.075;
+   col=mix(col,organic,mantle);
+   float face=smoothstep(4.50,4.85,q.y)*smoothstep(.10,.27,q.z);
+   vec3 pearl=mix(vec3(.40,.17,.13),vec3(.64,.40,.23),max(dot(n,l),0.));
+   pearl*=.48+.58*max(dot(n,l),0.);
+   pearl+=film*rim*.24+vec3(.9,.75,.48)*pow(max(dot(n,normalize(l+v)),0.),28.)*.24;
+   col=mix(col,pearl,face);
+   vec3 head=q;head.x-=.04*sin((time*.85+seed)*.65)*smoothstep(4.45,5.5,head.y);
+   for(int i=0;i<2;i++){
+    float s=i==0?-1.:1.,expression=.028*sin((time*.85+seed)*.85+s*.4);
+    vec2 eye=head.xy-vec2(s*.20,5.19+expression*.35);
+    col+=vec3(.28,.65,.38)*exp(-dot(eye/vec2(.025,.026),eye/vec2(.025,.026)))*step(.20,q.z)*.7;
+   }
+  }
+  for(int i=0;i<2;i++){
+   float s=i==0?-1.:1.,face=.5+.5*sin(seed*2.3);vec3 eye=q-vec3(s*(.15+face*.025+jester*.045),5.21+face*.055,.19);
+   float iris=exp(-dot(eye.xy/vec2(.021,.053),eye.xy/vec2(.021,.053))*1.4)*step(.13,q.z);
+   col+=vec3(.9,1.,.55)*iris*1.1*(1.-gardenMother);
+  }
+  if(jester>.5){
+   float mask=smoothstep(4.45,4.95,q.y)*smoothstep(.03,.22,q.z);
+   float fold=.5+.5*sin(atan(q.z,q.x)*6.+q.y*2.1+time*.47+seed);
+   float a=atan(q.z,q.x)+q.y*.65+.35*sin(q.y*1.4-(time*.85+seed)*.6);
+   float rib=pow(.5+.5*cos(a*10.-q.y*3.+(time*.85+seed)*.7),5.);
+   vec3 enamel=mix(vec3(.025,.12,.14),vec3(.20,.025,.16),fold);
+   enamel=mix(enamel,vec3(.52,.30,.085),rib*.18);
+   vec3 base=mix(enamel,vec3(.40,.29,.17),mask);
+   col=base*(.28+.8*max(dot(n,l),0.));
+   col+=film*rim*.38;
+   col+=vec3(.75,.82,.9)*pow(max(dot(n,normalize(l+v)),0.),64.)*.8;
+   col+=vec3(.06,.32,.31)*pow(1.-abs(n.z),3.)*(1.-mask)*.45;
+   for(int i=0;i<2;i++){
+    float s=i==0?-1.:1.,variation=.5+.5*sin(seed*2.3);
+    vec3 eye=q-vec3(s*(.195+variation*.025),5.21+variation*.055,.19);
+    col+=vec3(.48,.9,.75)*exp(-dot(eye.xy/vec2(.025,.044),eye.xy/vec2(.025,.044))*1.4)*step(.13,q.z);
+   }
+  }
+  if(elf>.5){
+   // Jewel interiors and metallic edges follow the branching volume, not painted bands.
+   float face=smoothstep(4.3,4.8,q.y)*smoothstep(.04,.19,q.z);
+   float depth=smoothstep(-.3,.4,q.z);
+   float inlay=pow(1.-abs(n.z),2.)*.72;
+   vec3 jewel=mix(vec3(.055,.018,.12),vec3(.025,.31,.25),depth);
+   vec3 metal=vec3(.57,.35,.11);
+   vec3 base=mix(jewel,metal,inlay);
+   base=mix(base,vec3(.34,.27,.18),face*.96);
+   vec3 reflected=reflect(-v,n);
+   float cool=pow(max(dot(reflected,normalize(vec3(-.8,.5,1.))),0.),18.);
+   float warm=pow(max(dot(reflected,normalize(vec3(.7,.25,1.))),0.),32.);
+   col=base*(.3+.76*max(dot(n,l),0.));
+   col+=vec3(.34,.67,.85)*cool*.75+vec3(.95,.66,.3)*warm*.65;
+   col+=film*rim*.26+base*(1.-face)*(.08+.15*depth);
+   for(int i=0;i<2;i++){
+    float s=i==0?-1.:1.,variation=.5+.5*sin(seed*2.3);
+    vec3 eye=q-vec3(s*(.15+variation*.025),5.21+variation*.055,.19);
+    col+=vec3(.38,.85,.8)*exp(-dot(eye.xy/vec2(.022,.045),eye.xy/vec2(.022,.045))*1.4)*step(.13,q.z);
+   }
+  }
+  vec4 world=worldFromLocal*vec4(p,1.);vec4 clip=projectionMatrix*viewMatrix*world;
+  gl_FragDepthEXT=clamp(clip.z/clip.w*.5+.5,0.,1.);
+  gl_FragColor=vec4(col,1.);
+  #include <tonemapping_fragment>
+  #include <colorspace_fragment>
+ }`});
+ const volume=new T.Mesh(new T.BoxGeometry(4.4,6.9,2.6).translate(0,2.85,0),skin);
+ volume.userData.evidence=[evidence];body.add(volume);materials.push(skin);
+ volume.onBeforeRender=()=>{skin.uniforms.worldFromLocal.value.copy(volume.matrixWorld);skin.uniforms.localFromWorld.value.copy(volume.matrixWorld).invert();};
+ return {kind,g,body,joints,engaged:false,evidence,seed};
+}
+// Solid insectoid examiner, scoped to the clinical branch only.
+function createClinicalBeing(kind,x,y,z,size,root,materials,motions,evidence,seed){
+ const g=new T.Group(),body=new T.Group(),joints=[];
+ g.position.set(x,y,z);g.scale.setScalar(size);g.userData.entityKey=evidence;g.add(body);root.add(g);
+ const skin=new T.ShaderMaterial({side:T.BackSide,extensions:{fragDepth:true},uniforms:{
+  time:{value:0},localFromWorld:{value:new T.Matrix4()},worldFromLocal:{value:new T.Matrix4()}
+ },vertexShader:'varying vec3 localSurface;void main(){localSurface=position;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}',
+ fragmentShader:`precision highp float;
+ uniform float time;uniform mat4 localFromWorld,worldFromLocal,projectionMatrix;varying vec3 localSurface;
+ float join(float a,float b,float k){float h=max(k-abs(a-b),0.)/k;return min(a,b)-h*h*k*.25;}
+ float ell(vec3 p,vec3 r){float a=length(p/r),b=length(p/(r*r));return a*(a-1.)/max(b,.00001);}
+ float limb(vec3 p,vec3 a,vec3 b,float r){vec3 ab=b-a;return length(p-a-ab*clamp(dot(p-a,ab)/dot(ab,ab),0.,1.))-r;}
+ // Long overlapping chitin plates: broad at the root, keeled and pointed distally.
+ float plate(vec3 p,vec3 a,vec3 b,float width,float depth){
+  vec3 axis=normalize(b-a),side=normalize(cross(axis,vec3(0.,0.,1.))),front=cross(side,axis);
+  vec3 v=p-mix(a,b,.46);float len=length(b-a),u=dot(p-a,axis)/len;
+  vec3 q=vec3(dot(v,side),dot(v,axis),dot(v,front));
+  q.x/=clamp(1.25-.85*u,.35,1.25);
+  float shell=ell(q,vec3(width,len*.58,depth));
+  return max(shell,(abs(q.x)*.52+q.z-depth*.86)*.65);
+ }
+ // Rounded tapered exoskeletons carry nested longitudinal flutes around their full depth.
+ float chitinLimb(vec3 p,vec3 a,vec3 b,float width,float depth){
+  vec3 axis=normalize(b-a),side=normalize(cross(axis,vec3(0.,0.,1.))),front=cross(side,axis);
+  vec3 v=p-mix(a,b,.46);float len=length(b-a),u=dot(p-a,axis)/len;
+  vec3 q=vec3(dot(v,side),dot(v,axis),dot(v,front));
+  float taper=clamp(1.22-.68*u,.5,1.22);q.xz/=taper;
+  float angle=atan(q.z/depth,q.x/width);
+  float flute=pow(.5+.5*cos(angle*7.+u*1.8),6.);
+  float fine=pow(.5+.5*cos(angle*21.-u*3.6),8.);
+  return ell(q,vec3(width,len*.56,depth))+(flute*.012+fine*.004)*sin(clamp(u,0.,1.)*3.14159);
+ }
+ // Swept tarsal fans grow out of the lower shin and disappear beneath the room floor.
+ vec3 tarsalPath(float s,float fan,float u,float t){
+  float sway=.045*sin(t*.55+fan*1.8+s)*sin(u*3.14159);
+  return vec3(s*(.85+fan*.61*pow(u,.8))+sway,
+   .34*(1.-u)*(1.-u)+.10*sin(u*3.14159)-.14*u,
+   .18+(1.02+abs(fan)*.22)*u+.11*sin(u*3.14159+fan)*u);
+ }
+ vec3 living(vec3 p){p.x-=.055*sin(time*.65+p.y*.7)*smoothstep(.2,3.,p.y);p.z-=(.16+.08*sin(time*.8))*smoothstep(2.8,4.7,p.y);return p;}
+ float compoundLens(vec3 eye){
+  vec2 uv=vec2(atan(eye.x,eye.z),atan(eye.y,length(eye.xz)))*6.;
+  vec2 period=vec2(1.73205,1.);
+  vec2 a=mod(uv,period)-period*.5,b=mod(uv-period*.5,period)-period*.5;
+  return 1.-smoothstep(.10,.24,min(dot(a,a),dot(b,b)));
+ }
+ vec2 form(vec3 point){
+  vec3 p=living(point);float t=time*.82;
+  // Oblique overlapping shell plates grow around a narrow living core.
+  float d=ell(p-vec3(0.,1.99,-.10),vec3(.21,.72,.19));
+  d=join(d,ell(p-vec3(0.,3.13,0.),vec3(.16,.78,.17)),.15);
+  for(int j=0;j<6;j++){
+   float f=float(j)/5.,yy=1.48+f*1.04;
+   float width=.18+.065*sin(f*3.14159);
+   vec3 shell=vec3(abs(p.x)-width*.64,p.y-yy,p.z+.015);
+   shell.y-=shell.x*.65;
+   shell.z+=.018*sin(f*5.+t*.65);
+   float scale=ell(shell,vec3(width,.16,.245-.045*f));
+   float ridge=sin(shell.x*48.+shell.y*12.+f*2.);
+   scale+=.008*ridge+.003*sin(shell.x*113.+shell.y*31.);
+   d=join(d,scale,.035);
+  }
+  vec3 chest=p;chest.x=abs(chest.x);
+  d=join(d,limb(chest,vec3(.055,2.58,.16),vec3(.14,3.45,.12),.055),.045);
+  d=join(d,limb(chest,vec3(.14,3.45,.12),vec3(.055,3.72,.07),.040),.035);
+  // Nested lengthwise recesses interrupt the broad smooth thorax highlight.
+  float thorax=exp(-pow((p.y-3.14)/.48,4.));
+  d+=thorax*(.009*cos(atan(p.z,p.x)*12.+p.y*2.)
+             +.003*cos(atan(p.z,p.x)*31.-p.y*5.));
+  d=join(d,limb(p,vec3(0.,3.55,0.),vec3(0.,4.02,.05),.13),.14);
+  vec3 face=p-vec3(0.,4.28,.05);
+  face.x/=clamp(.65+face.y*1.12,.23,1.05);
+  d=join(d,ell(face,vec3(.78,.46,.29)),.055);
+  // Thin central facial keel and swept brow replace the rounded mask.
+  d=join(d,plate(p,vec3(0.,4.53,.20),vec3(0.,4.02,.22),.085,.065),.028);
+  for(int i=0;i<2;i++){
+   float s=i==0?-1.:1.;
+   vec3 hip=vec3(s*.24,1.95,-.08),knee=vec3(s*.81,1.03,-.31),ankle=vec3(s*.85,.13,.18);
+   d=join(d,chitinLimb(p,hip,knee,.16,.14),.065);d=join(d,chitinLimb(p,knee,ankle,.085,.085),.045);
+   d=join(d,ell(p-knee,vec3(.11,.115,.105)),.025);
+   d=join(d,limb(p,mix(hip,knee,.83),mix(knee,ankle,.15),.062),.028);
+   for(int f=0;f<3;f++){
+    float fan=float(f)-1.;
+    for(int j=0;j<6;j++){
+     float u=float(j)/6.,v=float(j+1)/6.;
+     vec3 a=tarsalPath(s,fan,u,t),b=tarsalPath(s,fan,v,t);
+     float r=mix(.095,.026,v)+.027*sin(v*3.14159);
+     d=join(d,limb(p,a,b,r),.055);
+    }
+    // Smaller lateral offshoots split from the sweep, ending below floor level.
+    vec3 a=tarsalPath(s,fan,.48,t),b=tarsalPath(s,fan,.72,t);
+    b.x+=s*(fan==0.?-.19:fan*.14);b.z+=.11;b.y-=.045;
+    vec3 c=b+vec3(s*(fan==0.?-.12:fan*.08),-.20,.25);
+    d=join(d,limb(p,a,b,.042),.035);
+    d=join(d,limb(p,b,c,.023),.028);
+   }
+   vec3 shoulder=vec3(s*.24,3.46,0.);
+   vec3 elbow=vec3(s*(1.05+.06*sin(t+s)),2.88+s*.17,.20);
+   vec3 wrist=vec3(s*(.54+.14*sin(t*.7+s)),3.06+s*.25+.14*cos(t+s),1.22+.16*sin(t+s));
+   d=join(d,chitinLimb(p,shoulder,elbow,.125,.12),.065);
+   d=join(d,ell(p-elbow,vec3(.11,.10,.115)),.025);
+   d=join(d,limb(p,mix(shoulder,elbow,.86),mix(elbow,wrist,.13),.061),.028);
+   d=join(d,chitinLimb(p,elbow,wrist,.15,.135),.045);
+   // Smaller overlapping distal plate leaves a narrow flexing joint membrane.
+   d=join(d,chitinLimb(p,mix(elbow,wrist,.53)+vec3(0.,0.,.055),wrist+vec3(0.,.015,.04),.105,.10),.025);
+   vec3 palm=wrist+vec3(s*.025,-.055,.12);
+   d=join(d,plate(p,wrist,palm+vec3(0.,-.13,.12),.14,.068),.04);
+   // Three long independently curling fingers and an opposing grasping digit.
+   for(int f=0;f<3;f++){
+    float k=float(f)-1.,curl=.08*sin(t*1.15+s+float(f)*.8);
+    vec3 a=palm+vec3(k*.105,-.08,.08);
+    vec3 b=a+vec3(k*.068,-.11+curl,.24);
+    vec3 c=b+vec3(-k*.024,-.13-curl,.16);
+    d=join(d,plate(p,a,b,.039,.027),.026);d=join(d,plate(p,b,c,.027,.021),.022);
+   }
+   vec3 thumb=palm+vec3(-s*.14,.025,.035),knuckle=thumb+vec3(-s*.14,-.095,.13);
+   d=join(d,limb(p,thumb,knuckle,.050),.065);
+   d=join(d,limb(p,knuckle,knuckle+vec3(s*.015,-.14,.11),.034),.055);
+   for(int f=0;f<4;f++){
+    float k=(float(f)+1.)/5.;vec3 a=mix(elbow,wrist,k);
+    d=join(d,plate(p,a,a+vec3(-s*.14,.065,.13),.038,.024),.025);
+   }
+   // Recessed cheeks frame independently opening, forward-projecting mandibles.
+   d=-join(-d,ell(p-vec3(s*.17,4.18,.30),vec3(.07,.12,.10)),.018);
+   vec3 jaw=vec3(s*.16,4.16,.31),tip=vec3(s*(.045+.04*sin(t+s*.4)),3.99,.39);
+   d=join(d,plate(p,jaw,tip,.073,.049),.026);
+   d=join(d,limb(p,tip,tip+vec3(-s*.035,.07,.05),.027),.022);
+   d=join(d,plate(p,vec3(s*.14,4.51,.19),vec3(s*.63,4.47,.12),.072,.052),.027);
+   // Swept antennae remain continuous and taper along their curves.
+   for(int j=0;j<5;j++){
+    float v=float(j)/5.,v2=(float(j)+1.)/5.;
+    vec3 a=vec3(s*(.29+.41*v),4.60+v*.95,.01-.24*v*v+.05*sin(t+v*2.));
+    vec3 b=vec3(s*(.29+.41*v2),4.60+v2*.95,.01-.24*v2*v2+.05*sin(t+v2*2.));
+    d=join(d,limb(p,a,b,.028-v*.017),.035);
+   }
+  }
+  float id=0.;
+  for(int i=0;i<2;i++){
+   float s=i==0?-1.:1.;vec3 eye=p-vec3(s*.445,4.44,.25);
+   eye.xy=mat2(.94,s*.342,-s*.342,.94)*eye.xy;
+   float orbit=ell(eye,vec3(.29,.235,.19));
+   orbit=max(orbit,-ell(eye-vec3(0.,0.,.045),vec3(.255,.195,.18)));
+   d=join(d,orbit,.026);
+   eye.z-=.045;
+   float ed=ell(eye,vec3(.252,.186,.16))-.007*compoundLens(eye);
+   if(ed<d){d=ed;id=1.;}
+  }
+  return vec2(d*.70,id);
+ }
+ vec3 normalAt(vec3 p){vec2 e=vec2(.0025,0.);return normalize(vec3(form(p+e.xyy).x-form(p-e.xyy).x,form(p+e.yxy).x-form(p-e.yxy).x,form(p+e.yyx).x-form(p-e.yyx).x));}
+ void main(){
+  vec3 ro=(localFromWorld*vec4(cameraPosition,1.)).xyz,rd=normalize(localSurface-ro);
+  vec3 inv=1./rd,ta=(vec3(-1.7,-.2,-.8)-ro)*inv,tb=(vec3(1.7,5.8,2.5)-ro)*inv;
+  vec3 lo=min(ta,tb),hi=max(ta,tb);float travel=max(0.,max(lo.x,max(lo.y,lo.z))),end=min(hi.x,min(hi.y,hi.z));
+  vec3 p=ro;vec2 d;bool hit=false;
+  for(int i=0;i<180;i++){p=ro+rd*travel;d=form(p);if(d.x<.0018){hit=true;break;}travel+=max(d.x,.0012);if(travel>end)break;}
+  if(!hit)discard;
+  vec3 q=living(p),n=normalAt(p),v=-rd,l=normalize(vec3(-.6,1.,1.5));
+  vec3 film=.5+.5*cos(vec3(.2,2.3,4.2)+dot(n,v)*5.+q.y*.7-time*.28);
+  float grain=dot(sin(q*38.+.25*sin(q.yzx*9.+time*.2)),cos(q.zxy*38.));
+  float vein=exp(-pow(dot(sin(q*9.),cos(q.yzx*9.))*5.,2.));
+  vec3 col=mix(vec3(.025,.12,.085),vec3(.10,.35,.23),.5+.5*sin(q.y*2.8+time*.25));
+  col+=film*.07+vec3(.19,.22,.06)*vein*.12;
+  col*=.98+.02*grain;
+  if(d.y>.5){
+   col=vec3(.008,.055,.044)+film*.035;
+   float s=q.x<0.?-1.:1.;vec3 eye=q-vec3(s*.445,4.44,.25);
+   eye.xy=mat2(.94,s*.342,-s*.342,.94)*eye.xy;eye.z-=.045;
+   float cells=compoundLens(eye);
+   col+=vec3(.045,.18,.12)*cells;
+  }
+  float diffuse=.30+.75*max(dot(n,l),0.);
+  float ao=clamp(form(p+n*.09).x/.063,.3,1.);
+  col*=diffuse*ao;
+  col+=mix(vec3(.42,.73,.62),film,.35)*pow(max(dot(n,normalize(l+v)),0.),d.y>.5?80.:38.)*.7;
+  col+=film*pow(1.-abs(dot(n,v)),3.)*.17;
+  vec4 world=worldFromLocal*vec4(p,1.);vec4 clip=projectionMatrix*viewMatrix*world;
+  gl_FragDepthEXT=clamp(clip.z/clip.w*.5+.5,0.,1.);gl_FragColor=vec4(col,1.);
+  #include <tonemapping_fragment>
+  #include <colorspace_fragment>
+ }`});
+ const volume=new T.Mesh(new T.BoxGeometry(3.4,6.,3.3).translate(0,2.8,.85),skin);
+ volume.userData.evidence=[evidence];body.add(volume);materials.push(skin);
+ volume.onBeforeRender=()=>{skin.uniforms.worldFromLocal.value.copy(volume.matrixWorld);skin.uniforms.localFromWorld.value.copy(volume.matrixWorld).invert();};
+ return {kind,g,body,joints,engaged:false,evidence,seed};
+}
+window.GeometricBeings={create,offering,createWaitingUsher,createContactBeing,createClinicalBeing};
 })();

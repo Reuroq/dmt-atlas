@@ -1,0 +1,272 @@
+{
+  "analytic": {
+    "leaf_names": [
+      "f",
+      "axial",
+      "angular",
+      "parent_shell",
+      "child_shell"
+    ],
+    "L": [
+      [
+        1.7685759983183806,
+        0.0
+      ],
+      [
+        1.1305727994955141,
+        0.0
+      ],
+      [
+        7.293903151190047,
+        0.0
+      ],
+      [
+        3.557860934604676,
+        0.163763278122411
+      ],
+      [
+        4.841530824511266,
+        0.7423935274882633
+      ]
+    ],
+    "H": [
+      [
+        3.1530839925403753,
+        0.0,
+        0.0
+      ],
+      [
+        2.220091855339565,
+        0.0,
+        0.0
+      ],
+      [
+        43.02641285144353,
+        0.0,
+        0.0
+      ],
+      [
+        12.876057127780676,
+        2.194992319528018,
+        1.6199999999999999
+      ],
+      [
+        19.784309075645883,
+        8.776658580013576,
+        7.3260000000000005
+      ]
+    ],
+    "harmonics": {
+      "6": {
+        "L": [
+          1.9214399957959518,
+          0.0
+        ],
+        "H": [
+          7.379185308641976,
+          0.0,
+          0.0
+        ]
+      },
+      "12": {
+        "L": [
+          2.751839543877293,
+          0.0
+        ],
+        "H": [
+          15.148335296958855,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "rho_domain": 4.965,
+    "modes": "HIGH bounds dominate LOW"
+  },
+  "declared_L": [
+    [
+      3.0,
+      1.0
+    ],
+    [
+      3.0,
+      1.0
+    ],
+    [
+      9.0,
+      1.0
+    ],
+    [
+      5.0,
+      2.0
+    ],
+    [
+      7.0,
+      2.0
+    ]
+  ],
+  "declared_H": [
+    [
+      5.0,
+      1.0,
+      1.0
+    ],
+    [
+      4.0,
+      1.0,
+      1.0
+    ],
+    [
+      47.0,
+      1.0,
+      1.0
+    ],
+    [
+      15.0,
+      4.0,
+      3.0
+    ],
+    [
+      22.0,
+      11.0,
+      9.0
+    ]
+  ],
+  "expanded_leaf_groups": [
+    5,
+    5,
+    1
+  ],
+  "expanded_leaf_ids": [
+    0,
+    1,
+    2,
+    3,
+    3,
+    0,
+    1,
+    2,
+    4,
+    4,
+    0
+  ],
+  "expanded_H": [
+    [
+      5.0,
+      1.0,
+      1.0
+    ],
+    [
+      4.0,
+      1.0,
+      1.0
+    ],
+    [
+      47.0,
+      1.0,
+      1.0
+    ],
+    [
+      15.0,
+      4.0,
+      3.0
+    ],
+    [
+      15.0,
+      4.0,
+      3.0
+    ],
+    [
+      5.0,
+      1.0,
+      1.0
+    ],
+    [
+      4.0,
+      1.0,
+      1.0
+    ],
+    [
+      47.0,
+      1.0,
+      1.0
+    ],
+    [
+      22.0,
+      11.0,
+      9.0
+    ],
+    [
+      22.0,
+      11.0,
+      9.0
+    ],
+    [
+      5.0,
+      1.0,
+      1.0
+    ]
+  ],
+  "expanded_L": [
+    [
+      3.0,
+      1.0
+    ],
+    [
+      3.0,
+      1.0
+    ],
+    [
+      9.0,
+      1.0
+    ],
+    [
+      5.0,
+      2.0
+    ],
+    [
+      5.0,
+      2.0
+    ],
+    [
+      3.0,
+      1.0
+    ],
+    [
+      3.0,
+      1.0
+    ],
+    [
+      9.0,
+      1.0
+    ],
+    [
+      7.0,
+      2.0
+    ],
+    [
+      7.0,
+      2.0
+    ],
+    [
+      3.0,
+      1.0
+    ]
+  ],
+  "shader_functions": "float raySlope(vec3 p,vec3 rd){return 9.0+2.0*pixelScale;}\n   vec3 leafCurvature(){float s=pixelScale;return vec3(5.0,15.0,22.0)+vec3(1.0,4.0,11.0)*s+vec3(1.0,3.0,9.0)*s*s;}\n   vec2 gateCurvature(){float s=pixelScale;return vec2(4.0,47.0)+vec2(1.0,1.0)*s+vec2(1.0,1.0)*s*s;}",
+  "coefficient_domination": true,
+  "numeric_bounds_gate_run": false,
+  "gpu_roundoff_proof": false,
+  "attachment": {
+    "scale_range": [
+      0.69,
+      1.31
+    ],
+    "root_cos_local": 1,
+    "overlap_cos_local_at_least": 0.61,
+    "maximum_shift_in_band": 0.15327,
+    "combined_shell_halfwidths": 0.157,
+    "scope": "Shell interval overlap where child silhouette and f+.3 permit; no global topology or visual claim"
+  },
+  "limits": "Prospective real-arithmetic Taylor certificate, ordinary float64 coefficient calculation. No sampled bounds, GPU compile/root, runtime/cost, visual or temporal result."
+}

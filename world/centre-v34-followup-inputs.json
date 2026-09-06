@@ -1,0 +1,24 @@
+{
+  "historical_manifest": "d19540d598ef675f7aca38e429ec8f176be1dcf8be6c64048b5c006b0f56dba4",
+  "files": {
+    "centre_v34_followup_common.py": "158e06d2bbb253ee684580d588018e5a92d33c081549484576866697fdcbbf14",
+    "prepare_centre_v34_followup.py": "2e2f08d4d29bbd2c7266823bb8d2081f1f3ae1a2cd6dfa19439b84a47f2b425e",
+    "check_centre_v34_followup.py": "426fc02a8c63e3f1e3e794266d7a4d491d784c759b0b2338696439900cf75b7f",
+    "run_centre_v34_followup_once.py": "222224402ac31e803f52e80f12f71236114ca5f4f9621b155ea7a65cf6b73fa0",
+    "microprobe_centre_v34_offsets.py": "fc3a8ecb81d1d4847bbe9120fd7b25be2bbf1242cdd32ec7ca5b4b5638f359c6",
+    "profile_centre_v34_four_rays.py": "c73fcbc9128db03ce51a3fb14b35b380bbd60081a1a7a7dfcbc61971d8388f6d",
+    "close_centre_v34_followup_preparation.py": "d3ab09323d5ba26642ad7cc410700c178967641bd3230b3be1b20fef6b488ec1",
+    "gpu_centre_v34_offsets.html": "0fc3e4a20119978f281e4a7000aaba997c8dfeefd23472db9be95dbc5e4135d6",
+    "field_centre_v34.py": "7bb0a8c83e1fbbe37381aa6bd5d19fc5a866e63c9ee7e73073aaad326bcdbcd1",
+    "vendor/three.min.js": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa",
+    "centre-v34-followup-experiment-design.md": "f51a5d3a7e358027f412ab0a62b52390eb4b4972149f2670fb6040a3130cb176",
+    "centre-v34-followup-texture.f32": "f71caead7ec524c577ee922ab9bdecb6321d2e4b0932bdaf5e5b12390b4591ee",
+    "centre-v34-followup-seeds.json": "e4abe702d9e7efdeae48d4d6923e5c4c4ac58d1c4d27b53430f32527309c9d25",
+    "centre-v34-followup-rays.json": "dfe163e66bfc4767db11328376d06dc5d8b6afaea388db28ebf6e95f502bf0d2",
+    "centre-v34-followup-prepare-started.json": "a3a9652adb861814c0ba5371f6c0ca8c309c0a848eab4cf950c42dfddd6cad92"
+  },
+  "new_field_samples": 0,
+  "new_browser_runs": 0,
+  "numeric_passed": false,
+  "capture_permitted": false
+}

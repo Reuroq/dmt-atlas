@@ -1,0 +1,8 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "float-constant",
+    "op": "compile"
+  },
+  "previous_sha256": "e65da2e1cfe9188777da78fda216c323cc53fcb10f997fc74c17ea3e96cc73e6"
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "op": "metadata"
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [],
+      "drained": true
+    },
+    "value": {
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "shadingLanguage": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+      "vendor": "WebKit",
+      "renderer": "WebKit WebGL",
+      "highFloat": {
+        "precision": 23,
+        "rangeMin": 127,
+        "rangeMax": 127
+      }
+    },
+    "exception": null,
+    "skipped": false,
+    "contextLost": false
+  },
+  "previous_sha256": "ef90bb39daf21cf96028e49b9d7108942fc033c0c6053b9924171d10ecfb91ce"
+}

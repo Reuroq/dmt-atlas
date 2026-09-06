@@ -1,0 +1,11 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "float-constant",
+      "op": "program-log"
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "b2184c8ae2ac91bb69eacce0885eec36cce148ae588a05ddb59626ca7d2f49c3"
+}

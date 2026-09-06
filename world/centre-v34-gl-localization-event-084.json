@@ -1,0 +1,10 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "byte-constant",
+    "op": "shader-compiled",
+    "shader": "fragmentShader",
+    "query": true
+  },
+  "previous_sha256": "e076b7fc870bb540e68817e72630cdcf08964d3935bc3256c447ab95f5862025"
+}

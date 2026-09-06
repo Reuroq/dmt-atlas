@@ -1,0 +1,25 @@
+{
+  "sources": {
+    "prepare_centre_v34_staged_arithmetic_r3.py": "bd6caeb800e06f6a369c0d74174081ea2129fe8bb1d5a42e5b6015c486a02587",
+    "freeze_centre_v34_staged_arithmetic_r3.py": "e79cb3fbd5f80e54d91b114359f451fadcbee7b2907b7e5ea59a255b0ec6fdcc",
+    "probe_centre_v34_staged_arithmetic_r3.py": "1e927608bc6aa8fd8cfb63d885f2e24823cc413384fb0b470146e93b4a18d854",
+    "check_centre_v34_staged_arithmetic_r3.py": "3f37234ac1decbfdc7d19158a728a3e33e3c2d04210244c59fba845994229db8",
+    "checks_centre_v34_staged_arithmetic_r3.py": "88e0b95a8277d245a5e9734829ee87ba356d6d56c9dedf6d6ac8f1450d7b16d8",
+    "static_centre_v34_staged_arithmetic_r3.py": "c04964a3ee1c0070eefa208467343d63657d12cef42c241bef98dc77c7d1af92",
+    "run_centre_v34_staged_arithmetic_r3_once.py": "820ed6aa064a03772d06c68777e524b2089a42700c47e541c427ff171fd4fd5e",
+    "close_centre_v34_staged_arithmetic_r3_preparation.py": "43619c492850bfedaa5bf648d3691f4d699076259c95a1b5615069516959343c",
+    "gpu_centre_v34_staged_arithmetic_r3.html": "d718bb6f77e25c0f06668e564a0583c16a983749b00daa69938120366b6def34",
+    "centre-v34-staged-arithmetic-r3-source-delta.json": "9ee515f83988f224ce47006b1fc1910a257116260ec3f6408d42de33f3983dbb",
+    "centre-v34-staged-arithmetic-r3-protocol.md": "84bd9c2e32eaeaec96cdd65832193736b823792521cf5f2a52e3b1df2c2ffb07",
+    "centre-v34-followup-seeds.json": "e4abe702d9e7efdeae48d4d6923e5c4c4ac58d1c4d27b53430f32527309c9d25",
+    "centre-v34-followup-texture.f32": "f71caead7ec524c577ee922ab9bdecb6321d2e4b0932bdaf5e5b12390b4591ee",
+    "gpu_centre_v34_offsets.html": "0fc3e4a20119978f281e4a7000aaba997c8dfeefd23472db9be95dbc5e4135d6",
+    "vendor/three.min.js": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa",
+    "centre-v34-transport-runtime-close-once-launch.json": "cd119425591cd7362ec6758a259aa7c8675ce135629374774b54fcba9049bd83",
+    "centre-v34-transport-runtime-close-once-exit.json": "bdaae95cc03040e3a9f5433e1d94d249558f2dacb60365179ca6ee4d4583ba6e",
+    "centre-v34-transport-runtime-close-once.log": "dfbc61a764876f52676ccd3828de86a56abeaf9f0fd4d5f37d729c031fc32177",
+    "run_centre_v34_transport_runtime_close_once.py": "6d7143eeb82df72bd7dfdc965726bfa71a8ff29629d0242c5bc413f7aa8385cf"
+  },
+  "history_sha256": "bd4b921c16edafc6a2aec0ca4f8d5012ca784cd9bf537db795ae079a3c9d1de8",
+  "runtime_run": false
+}

@@ -1,0 +1,6 @@
+{
+  "script": "close_centre_v34_followup_runtime.py",
+  "script_sha256": "782ee80e4e565d6fbf0fdab41848083e70dd1d371d5848235950ebbdf198dd7e",
+  "mode": "foreground subprocess.run; no retry",
+  "preparation_manifest": "bdc9a8adb8b729544d2f68ee22db51e798a449956307b4fe2a0e838a8d0ae24c"
+}

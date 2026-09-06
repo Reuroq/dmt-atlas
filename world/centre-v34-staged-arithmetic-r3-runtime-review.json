@@ -1,0 +1,317 @@
+{
+  "saved_evidence_verified": true,
+  "summary": "Distinct staged arithmetic r3 runtime CLOSED actual exit0; 126 stages/387 chained events verified saved-only. All 1024 source/request/CPU uint32 words exact, including 905 positive-zero components. Both read APIs agree. Literal arms fail only child channel: 39 axial and 49 angular unique samples; both uniform arms exact over all 128 texels against independent rational binary32 oracle. Unchanged both-leaf synthetic support criterion PASS. All GL intervals clean; nine registered disposable identities attempted successfully once, renderer last; page/browser close recorded. One Three deprecation and four ReadPixels stall warnings; no page/console errors. Disposal calls returning successfully are not a GPU leak proof. Synthetic support is not compiler attribution or field/root/cost/visual acceptance. Frozen r2 and original exact-jet/716-of-720 failures unchanged. latest unchanged inspected REJECTED GAME v33r6; all19 unfinished.",
+  "next_work": "Verify centre-v34-staged-arithmetic-r3-runtime-integrity.json files/protected/display and runtime-close-once actual-exit0 receipt hashes. Synthetic both-leaf support now permits STATIC preparation of an isolated v35 candidate per centre-v34-followup-experiment-design.md section A: change only the two second-offset literals to runtime uniforms, with declarations/bindings covered everywhere, preserving v34 shape, materials and all strict numerical gates. Freeze new versioned fixtures/runners and close static checks before any field runtime. Do not presume the four original root failures fixed; review existing local-profile evidence and section B before designing any additive strict root isolation. No historical replay, tolerance relaxation, live promotion or roots/cost/capture/acceptance bypass.",
+  "observations": [
+    {
+      "step": {
+        "name": "childAxial",
+        "leaf": 0,
+        "arm": "literal",
+        "op": "read-three"
+      },
+      "unique_components": 220,
+      "unique_mismatches_per_channel": [
+        0,
+        0,
+        39,
+        0
+      ],
+      "full_mismatches_per_channel": [
+        0,
+        0,
+        39,
+        0
+      ],
+      "child_vs_parent_mismatches": 39,
+      "full_exact": false
+    },
+    {
+      "step": {
+        "name": "childAxial",
+        "leaf": 0,
+        "arm": "literal",
+        "op": "read-raw"
+      },
+      "unique_components": 220,
+      "unique_mismatches_per_channel": [
+        0,
+        0,
+        39,
+        0
+      ],
+      "full_mismatches_per_channel": [
+        0,
+        0,
+        39,
+        0
+      ],
+      "child_vs_parent_mismatches": 39,
+      "full_exact": false
+    },
+    {
+      "step": {
+        "name": "childAxial",
+        "leaf": 0,
+        "arm": "uniform",
+        "op": "read-three"
+      },
+      "unique_components": 220,
+      "unique_mismatches_per_channel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_mismatches_per_channel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "child_vs_parent_mismatches": 0,
+      "full_exact": true
+    },
+    {
+      "step": {
+        "name": "childAxial",
+        "leaf": 0,
+        "arm": "uniform",
+        "op": "read-raw"
+      },
+      "unique_components": 220,
+      "unique_mismatches_per_channel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_mismatches_per_channel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "child_vs_parent_mismatches": 0,
+      "full_exact": true
+    },
+    {
+      "step": {
+        "name": "childAngular",
+        "leaf": 1,
+        "arm": "literal",
+        "op": "read-three"
+      },
+      "unique_components": 264,
+      "unique_mismatches_per_channel": [
+        0,
+        0,
+        49,
+        0
+      ],
+      "full_mismatches_per_channel": [
+        0,
+        0,
+        49,
+        0
+      ],
+      "child_vs_parent_mismatches": 49,
+      "full_exact": false
+    },
+    {
+      "step": {
+        "name": "childAngular",
+        "leaf": 1,
+        "arm": "literal",
+        "op": "read-raw"
+      },
+      "unique_components": 264,
+      "unique_mismatches_per_channel": [
+        0,
+        0,
+        49,
+        0
+      ],
+      "full_mismatches_per_channel": [
+        0,
+        0,
+        49,
+        0
+      ],
+      "child_vs_parent_mismatches": 49,
+      "full_exact": false
+    },
+    {
+      "step": {
+        "name": "childAngular",
+        "leaf": 1,
+        "arm": "uniform",
+        "op": "read-three"
+      },
+      "unique_components": 264,
+      "unique_mismatches_per_channel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_mismatches_per_channel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "child_vs_parent_mismatches": 0,
+      "full_exact": true
+    },
+    {
+      "step": {
+        "name": "childAngular",
+        "leaf": 1,
+        "arm": "uniform",
+        "op": "read-raw"
+      },
+      "unique_components": 264,
+      "unique_mismatches_per_channel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_mismatches_per_channel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "child_vs_parent_mismatches": 0,
+      "full_exact": true
+    }
+  ],
+  "events": 387,
+  "stages": 126,
+  "resource_disposal": {
+    "registered": [
+      {
+        "id": "resource-0",
+        "kind": "renderer",
+        "attempted": true,
+        "succeeded": true,
+        "error": null
+      },
+      {
+        "id": "resource-1",
+        "kind": "target",
+        "attempted": true,
+        "succeeded": true,
+        "error": null
+      },
+      {
+        "id": "resource-2",
+        "kind": "texture",
+        "attempted": true,
+        "succeeded": true,
+        "error": null
+      },
+      {
+        "id": "resource-3",
+        "kind": "geometry",
+        "attempted": true,
+        "succeeded": true,
+        "error": null
+      },
+      {
+        "id": "resource-4",
+        "kind": "material",
+        "attempted": true,
+        "succeeded": true,
+        "error": null
+      },
+      {
+        "id": "resource-5",
+        "kind": "material",
+        "attempted": true,
+        "succeeded": true,
+        "error": null
+      },
+      {
+        "id": "resource-6",
+        "kind": "material",
+        "attempted": true,
+        "succeeded": true,
+        "error": null
+      },
+      {
+        "id": "resource-7",
+        "kind": "material",
+        "attempted": true,
+        "succeeded": true,
+        "error": null
+      },
+      {
+        "id": "resource-8",
+        "kind": "material",
+        "attempted": true,
+        "succeeded": true,
+        "error": null
+      }
+    ],
+    "attempted": [
+      "resource-1",
+      "resource-2",
+      "resource-3",
+      "resource-4",
+      "resource-5",
+      "resource-6",
+      "resource-7",
+      "resource-8",
+      "resource-0"
+    ],
+    "succeeded": [
+      "resource-0",
+      "resource-1",
+      "resource-2",
+      "resource-3",
+      "resource-4",
+      "resource-5",
+      "resource-6",
+      "resource-7",
+      "resource-8"
+    ],
+    "errors": [],
+    "rendererDisposed": true,
+    "complete": true
+  },
+  "browser_messages": [
+    {
+      "kind": "console",
+      "type": "warning",
+      "text": "Scripts \"build/three.js\" and \"build/three.min.js\" are deprecated with r150+, and will be removed with r160. Please use ES Modules or alternatives: https://threejs.org/docs/index.html#manual/en/introduction/Installation"
+    },
+    {
+      "kind": "console",
+      "type": "warning",
+      "text": "[.WebGL-0x22540015c200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "kind": "console",
+      "type": "warning",
+      "text": "[.WebGL-0x22540015c200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "kind": "console",
+      "type": "warning",
+      "text": "[.WebGL-0x22540015c200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "kind": "console",
+      "type": "warning",
+      "text": "[.WebGL-0x22540015c200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+    }
+  ],
+  "synthetic_uniform_candidate_supported": true,
+  "numeric_passed": false,
+  "first_root_certified": false,
+  "capture_permitted": false,
+  "new_images": 0
+}

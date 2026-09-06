@@ -1,0 +1,22 @@
+{
+  "sources": {
+    "prepare_centre_v34_staged_arithmetic_r2.py": "ffcd0dde87ab0e842be6ebf6741c7fbc19031080fa4b7da4ef4f8256dbdc1979",
+    "static_centre_v34_staged_arithmetic_r2.py": "5fdea5c06b28a1d9008048d454406b48dec6fe608c71b4654dfd9b81a57e5c62",
+    "probe_centre_v34_staged_arithmetic_r2.py": "a3af2011d0508044894b4f56a6d14681750de4e820475a447c3976b6100b7aa3",
+    "check_centre_v34_staged_arithmetic_r2.py": "fb8f11bb00445572fecc0374a3fdd6677c0f1691b414eddef73694c882f23410",
+    "run_centre_v34_staged_arithmetic_r2_once.py": "f4fe9c9e544088aefe6f99530378066572c70fb0d2a5df454905fbad3d25d185",
+    "close_centre_v34_staged_arithmetic_r2_preparation.py": "098e0584b096527f2a948ba9bf61d81aa1bf890c0fd1b978b1cee1b7b28f7729",
+    "gpu_centre_v34_staged_arithmetic_r2.html": "28487fcbc58b0d802933b43e8bafd8792cb447fbeb066ac75b6efd7b72658454",
+    "centre-v34-staged-arithmetic-r2-protocol.md": "d0292c8cb8c4b5f718c5b0896fb22e7415107c86503b321626ad5f0ee13d07f4",
+    "centre-v34-staged-arithmetic-failure-close-once-exit.json": "5a856c441fcb05694df310647df2dd90dd675e2ae9e29460e2174c570717da28",
+    "centre-v34-staged-arithmetic-failure-close-once.log": "edbb1c8f4cb60331639d6778387c9a2cef2336865d39c07e2cc288a7325ee217",
+    "centre-v34-followup-seeds.json": "e4abe702d9e7efdeae48d4d6923e5c4c4ac58d1c4d27b53430f32527309c9d25",
+    "centre-v34-followup-texture.f32": "f71caead7ec524c577ee922ab9bdecb6321d2e4b0932bdaf5e5b12390b4591ee",
+    "gpu_centre_v34_offsets.html": "0fc3e4a20119978f281e4a7000aaba997c8dfeefd23472db9be95dbc5e4135d6",
+    "vendor/three.min.js": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa"
+  },
+  "history_sha256": "98f6c867a148a33c2a3effbabb9070a17d21975ee639f782bbd69291ae060447",
+  "runtime_run": false,
+  "synthetic_not_recovered_gpu_intermediates": true,
+  "revision": "r2: operation wrapper insertion and durable staged Node static evidence"
+}

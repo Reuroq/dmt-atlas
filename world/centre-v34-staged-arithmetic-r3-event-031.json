@@ -1,0 +1,8 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "float-control",
+    "op": "framebuffer-binding"
+  },
+  "previous_sha256": "5bdc0b83b3c5d6c2f7202bfabf37c30c73fa28e93d8049cc834e80ae87b8ca55"
+}

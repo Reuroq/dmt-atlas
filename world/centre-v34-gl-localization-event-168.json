@@ -1,0 +1,10 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "float-constant",
+    "op": "shader-compiled",
+    "shader": "fragmentShader",
+    "query": true
+  },
+  "previous_sha256": "5920e9afc0c5d5f0753899c93c290ed71ae858fb8cd318fec583ae7065da4cc2"
+}

@@ -1,0 +1,149 @@
+{
+  "continuum-v35-candidate.js": {
+    "base": "continuum-v34-candidate.js",
+    "base_sha256": "0d15fb684ad23ca7be05e1a78391ffa29b12597ee137de2910245b7c92634d6f",
+    "edits": [
+      [
+        "time:{value:0},high:{value:1}",
+        "childAxialOffset:{value:Math.fround(.20)},childAngularOffset:{value:Math.fround(.28)},time:{value:0},high:{value:1}"
+      ],
+      [
+        "uniform float time,high,pixelScale;",
+        "uniform float time,high,pixelScale;\n   uniform float childAxialOffset,childAngularOffset;"
+      ],
+      [
+        "axB=offset(axA,.20);",
+        "axB=offset(axA,childAxialOffset);"
+      ],
+      [
+        "angB=offset(angA,.28);",
+        "angB=offset(angA,childAngularOffset);"
+      ]
+    ],
+    "sha256": "288e907d19bfb3d33a061a2bc1d3e720ca94ac8bb919b6082b3abadd31515581"
+  },
+  "continuum-v35-unshared-reference.js": {
+    "base": "continuum-v34-unshared-reference.js",
+    "base_sha256": "3358371ab6f9a0debfcc155293556e6a8d8eaf1c5c9bc936afb517ff2dc4debc",
+    "edits": [
+      [
+        "time:{value:0},high:{value:1}",
+        "childAxialOffset:{value:Math.fround(.20)},childAngularOffset:{value:Math.fround(.28)},time:{value:0},high:{value:1}"
+      ],
+      [
+        "uniform float time,high,pixelScale;",
+        "uniform float time,high,pixelScale;\n   uniform float childAxialOffset,childAngularOffset;"
+      ],
+      [
+        "axB=offset(axA,.20);",
+        "axB=offset(axA,childAxialOffset);"
+      ],
+      [
+        "angB=offset(angA,.28);",
+        "angB=offset(angA,childAngularOffset);"
+      ]
+    ],
+    "sha256": "5565f72ca26c5dcff0b9631c93eecd7e288abe45d33e052f6a6365dd0066ffbd"
+  },
+  "field_centre_v35.py": {
+    "base": "field_centre_v34.py",
+    "base_sha256": "7bb0a8c83e1fbbe37381aa6bd5d19fc5a866e63c9ee7e73073aaad326bcdbcd1",
+    "edits": [],
+    "sha256": "4c0131256b4d81dd93aa5d6ab76661131edb02d7bfd7c8f588d7ba003f854d29"
+  },
+  "csg_interval_v35.py": {
+    "base": "csg_interval_v34.py",
+    "base_sha256": "910304e1b2f9a3176312eff57f70efb74880696de561ce26a879d47b6f7acc93",
+    "edits": [],
+    "sha256": "d930bea81870c36a1982b06d2e025d47758744e5c4c5ca5f4a88f85a20ed03d2"
+  },
+  "gpu_csg_v35.py": {
+    "base": "gpu_csg_v34.py",
+    "base_sha256": "2bec039b02165cfccd759b04e6ba95ed74347f72472dea1825aed92a023f76b2",
+    "edits": [],
+    "sha256": "5f9caac027a1267a854fab684e06aa9b5015a5f7f28749912fe78c7000880f02"
+  },
+  "centre-v35-bound-design.json": {
+    "base": "centre-v34-bound-design.json",
+    "base_sha256": "8965ad5a65a9ebc5eeda2d1d0801dca3c8044728be3bede645f8a6fc2a33b0e4",
+    "edits": [],
+    "sha256": "8965ad5a65a9ebc5eeda2d1d0801dca3c8044728be3bede645f8a6fc2a33b0e4"
+  },
+  "check_centre_v35_bounds.py": {
+    "base": "check_centre_v34_bounds.py",
+    "base_sha256": "9ae27a8276064da8aa657c2a0d53b6d5a89e13154e7d2fac69c27df5e607df51",
+    "edits": [],
+    "sha256": "590f55782f26647ec2e1020c103e0ecccf07806c12a2bd82e493da740369acef"
+  },
+  "cost_lifecycle_v35.py": {
+    "base": "cost_lifecycle_v34.py",
+    "base_sha256": "c2b191bc64c735d122df549a941e16d994c1e5f9198b007cc492162ce42389f5",
+    "edits": [],
+    "sha256": "c2b191bc64c735d122df549a941e16d994c1e5f9198b007cc492162ce42389f5"
+  },
+  "runtime_centre_v35.py": {
+    "base": "runtime_centre_v34.py",
+    "base_sha256": "6f5a4f4e7039aa366d05b4637ee13eae44f929127fd5c53c1808fb14307951b1",
+    "edits": [
+      [
+        "def fixture_gate():\n",
+        "def fixture_gate():\n    from v35_preparation import closed\n    closed()\n"
+      ]
+    ],
+    "sha256": "28fdfb162d5de19d5a8865b1a4292254744597de8c26f1185da609ceb6cf75d3"
+  },
+  "run_centre_v35_gate_once.py": {
+    "base": "run_centre_v34_gate_once.py",
+    "base_sha256": "d3198897b5a16071f95b2358913d57133d598fcbbeb1ebf87c758cca9e70afe0",
+    "edits": [],
+    "sha256": "eafa7b3c06e7d204d59d240bb57a5475add38598f30db088c6aff25b22f98ba8"
+  },
+  "gpu_probe_v35_candidate.html": {
+    "base": "gpu_probe_v34_candidate.html",
+    "base_sha256": "76b95ac4c9b3cbbdd829e9399f641b147faba41ccebf5d54d4327aaa54f7bf9d",
+    "edits": [],
+    "sha256": "c64ebc8d1cc5d323a6f7ab21501e4769efb2f49cb07d08639fa2dc7c06086310"
+  },
+  "gpu_probe_v35_leaves.html": {
+    "base": "gpu_probe_v34_leaves.html",
+    "base_sha256": "edfe51d8625401ff0107d54519706c0728c41d165774ec04d781f70229a3cc12",
+    "edits": [],
+    "sha256": "ec793b7d6e619349384d049c283d36543c6091fea20948588910062235799474"
+  },
+  "gpu_cost_v35_candidate.html": {
+    "base": "gpu_cost_v34_candidate.html",
+    "base_sha256": "76b95ac4c9b3cbbdd829e9399f641b147faba41ccebf5d54d4327aaa54f7bf9d",
+    "edits": [],
+    "sha256": "c64ebc8d1cc5d323a6f7ab21501e4769efb2f49cb07d08639fa2dc7c06086310"
+  },
+  "gpu_cost_v35_parent.html": {
+    "base": "gpu_cost_v34_parent.html",
+    "base_sha256": "b9ecbd89f63a54c3441543de46cbdedf5acbc8515449b18430d1ba2093620363",
+    "edits": [],
+    "sha256": "63dce3306a61fe6d870b30a19924de6cf7b2078d2abb47c25618d2a7808d1d9f"
+  },
+  "probe_numeric_candidate_v35.py": {
+    "base": "probe_numeric_candidate_v34.py",
+    "base_sha256": "b7296850aeeffcbe678a7a8dc1f4cfdba1667622c457c918dd793fdba98c41b5",
+    "edits": [],
+    "sha256": "40d4738ccdae7f4fb166b569e2d97d9198cd2aad29eb60133602b2c6cf3c4468"
+  },
+  "audit_centre_v35_first_roots.py": {
+    "base": "audit_centre_v34_first_roots.py",
+    "base_sha256": "2a8784190f4c6fc784c9b33d65e0f2823c60cf0acd77768340758bfdc042cdcd",
+    "edits": [],
+    "sha256": "9f047f5d057a138092d2543bc53d4085bbe776518a38ee4a502088996c01671d"
+  },
+  "measure_centre_v35_cost.py": {
+    "base": "measure_centre_v34_cost.py",
+    "base_sha256": "f2a704166b79250319bde65271a9e1e08acab71727fc1852c5e275cd1ff1b193",
+    "edits": [],
+    "sha256": "5acb79d64350d557b38336cb7a929a27e6c444322774555e5b2a7ae1b80c003f"
+  },
+  "render_centre_v35.py": {
+    "base": "render_centre_v34.py",
+    "base_sha256": "40c314c4008da94936544f2880110a71c45a0b41d3d00f3eac94c8853e5faefa",
+    "edits": [],
+    "sha256": "ef59427f090889b5e4b5fabea64ad50a465effa0f163eb51cef837b2a51ffbca"
+  }
+}

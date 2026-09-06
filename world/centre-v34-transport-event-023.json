@@ -1,0 +1,10 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "name": "local",
+    "mode": "local",
+    "changedSourceIndices": [],
+    "exactTransport": true
+  },
+  "previous_sha256": "56e5580079fa6a7d77fdc2faaa98a7db72c05025f89776dba421170c3206071f"
+}

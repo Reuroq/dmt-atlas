@@ -1,0 +1,25 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "name": "float-row1",
+      "op": "framebuffer-status"
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [],
+      "drained": true
+    },
+    "value": {
+      "status": 36053,
+      "completeEnum": 36053
+    },
+    "exception": null,
+    "skipped": false,
+    "contextLost": false
+  },
+  "previous_sha256": "dee2c2ff6fceac8ea7fc47837b71cb78ec7b5c02257d7b6380023a5f24e83d92"
+}

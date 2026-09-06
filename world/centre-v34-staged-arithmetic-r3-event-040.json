@@ -1,0 +1,8 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "float-control",
+    "op": "implementation-type"
+  },
+  "previous_sha256": "d06e9a50e5e22e1ca4705afc3dae3c4ccc44bfee3a0b0bc2ee9a32c397237d80"
+}

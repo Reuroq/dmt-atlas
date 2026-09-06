@@ -1,0 +1,53 @@
+{
+  "integrity_passed": true,
+  "numeric_passed": true,
+  "curvature_sampling_passed": true,
+  "previous_report": "centre-candidate-v28r3-integrity.json",
+  "previous_source_hashes_valid": {
+    "build_centre_candidate_v28.py": true,
+    "build_centre_candidate_v28r2.py": true,
+    "build_centre_candidate_v28r3.py": true,
+    "centre-v28-curvature.md": true,
+    "check-centre-candidate-v28r3.log": true,
+    "check_centre_candidate_v28r3.py": true,
+    "check_centre_candidate_v28r3_initial.py": true,
+    "continuum-v28-candidate.js": true,
+    "continuum-v28r2-candidate.js": true,
+    "continuum-v28r3-candidate.js": true,
+    "field_centre_v28.py": true,
+    "gpu_probe_v28_candidate.html": true,
+    "gpu_probe_v28r2_candidate.html": true,
+    "gpu_probe_v28r3_candidate.html": true,
+    "numeric-candidate-v28-check.json": true,
+    "numeric-candidate-v28-raw.json": true,
+    "numeric-candidate-v28r2-check.json": true,
+    "numeric-candidate-v28r2-raw.json": true,
+    "numeric-candidate-v28r3-check.json": true,
+    "numeric-candidate-v28r3-raw.json": true,
+    "probe-numeric-candidate-v28.log": true,
+    "probe-numeric-candidate-v28r2.log": true,
+    "probe-numeric-candidate-v28r3.log": true,
+    "probe_numeric_candidate_v28.py": true,
+    "probe_numeric_candidate_v28r2.py": true,
+    "probe_numeric_candidate_v28r3.py": true
+  },
+  "baseline_correction": "The previous render receipts predate the prior phase latest.png update. The prior phase integrity receipt and isolated entry image establish the current display baseline. Only that mistaken comparison is corrected; no numerical or curvature checks repeated.",
+  "preserved_checker_failures": [
+    "Initial checker broadcasting error before receipt creation; script/log preserved.",
+    "Completed checker failed solely on historical latest.png baseline; report/log preserved."
+  ],
+  "live_assets_ledgers_and_default_unchanged": true,
+  "latest_still_previous_labelled_diagnostic": true,
+  "files": {
+    "centre-candidate-v28r3-integrity.json": "857bf791fab1fd2442a67e08e2fa2b2cfc9c89a38703b24f83db3f371717d638",
+    "check_centre_candidate_v28r3_final.py": "05b1cbda87933b090bd5f45fef4f02d0816a7b20352a667b863e692d7d914700",
+    "check-centre-candidate-v28r3.log": "a0b4c2b89fdb976600a9e7288cd4b3d7eb1ee3bdb3bc790e3336048de2908ac8",
+    "check-centre-candidate-v28r3-r2.log": "3359031840177bbcdde3176c344f08d284911ca4ddef92ac6e506118974e1895",
+    "diagnostic-centre-v27r2-integrity.json": "696222d2cd43e562dbd7a31bb9b9ee07b91d8e982af4c8a888000695e566d609",
+    "diagnostic-centre-v27r2-entry.png": "1f4b2282ed9a45f1ce3d3d133152bf95cd2380d84748ec5110a093a39fc53a8f",
+    "latest.png": "1f4b2282ed9a45f1ce3d3d133152bf95cd2380d84748ec5110a093a39fc53a8f"
+  },
+  "candidate_promoted": false,
+  "visual_sequence_passed": false,
+  "overall_passed": false
+}

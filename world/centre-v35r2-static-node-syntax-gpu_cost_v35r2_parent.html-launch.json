@@ -1,0 +1,7 @@
+{
+  "argv": [
+    "node",
+    "--check"
+  ],
+  "stdin_sha256": "4a0c4c35c9706b846791ab4ddf16d9c12d3cb71a2a0045b52b1830b18292406a"
+}

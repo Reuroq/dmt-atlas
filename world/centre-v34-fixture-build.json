@@ -1,0 +1,21 @@
+{
+  "prepared": true,
+  "numerical_run": false,
+  "files": {
+    "centre-v34-fixture-build-started.json": "bd653375d59fe7d0e84617966a782c3dfa7c4310c5951523d0a2368498746e1c",
+    "continuum-v34-unshared-reference.js": "3358371ab6f9a0debfcc155293556e6a8d8eaf1c5c9bc936afb517ff2dc4debc",
+    "cost_lifecycle_v34.py": "c2b191bc64c735d122df549a941e16d994c1e5f9198b007cc492162ce42389f5",
+    "check_cost_lifecycle_v34.py": "4d9d29a4c6554238a03b53e148a1b10640f50f80c9b3348e9f9149361e4196f4",
+    "gpu_probe_v34_candidate.html": "76b95ac4c9b3cbbdd829e9399f641b147faba41ccebf5d54d4327aaa54f7bf9d",
+    "gpu_cost_v34_candidate.html": "76b95ac4c9b3cbbdd829e9399f641b147faba41ccebf5d54d4327aaa54f7bf9d",
+    "gpu_cost_v34_parent.html": "b9ecbd89f63a54c3441543de46cbdedf5acbc8515449b18430d1ba2093620363",
+    "gpu_probe_v34_leaves.html": "edfe51d8625401ff0107d54519706c0728c41d165774ec04d781f70229a3cc12",
+    "probe_numeric_candidate_v34.py": "b7296850aeeffcbe678a7a8dc1f4cfdba1667622c457c918dd793fdba98c41b5",
+    "audit_centre_v34_first_roots.py": "2a8784190f4c6fc784c9b33d65e0f2823c60cf0acd77768340758bfdc042cdcd",
+    "measure_centre_v34_cost.py": "f2a704166b79250319bde65271a9e1e08acab71727fc1852c5e275cd1ff1b193"
+  },
+  "unshared_edit": {
+    "old": "fieldPartsReachShared(p,sharedJetsState,f,a,b,axA,axB,angA,angB,shellA,shellB);",
+    "new": "fieldPartsReach(p,f,a,b,axA,axB,angA,angB,shellA,shellB);"
+  }
+}

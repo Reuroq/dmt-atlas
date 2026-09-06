@@ -1,0 +1,25 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "name": "byte-constant",
+      "op": "framebuffer-status"
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [],
+      "drained": true
+    },
+    "value": {
+      "status": 36053,
+      "completeEnum": 36053
+    },
+    "exception": null,
+    "skipped": false,
+    "contextLost": false
+  },
+  "previous_sha256": "1aa6d3162c6d622d1ee6582f089c9bf9ea3d0b1ac79978b2d42c6286d608d437"
+}

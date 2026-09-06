@@ -1,0 +1,7 @@
+{
+  "script": "audit_centre_v30_first_roots.py",
+  "log": "audit-centre-v30-first-roots.log",
+  "failure": "numpy.bool_ in reference passed field cannot be serialized",
+  "numerical_rules_changed": false,
+  "recovery": "r2 explicitly converts result to bool; offline saved-ray audit only, no GPU replay"
+}

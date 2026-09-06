@@ -1,0 +1,10 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "childAngular",
+    "leaf": 1,
+    "arm": "uniform",
+    "op": "framebuffer-status"
+  },
+  "previous_sha256": "5c4f6ea3e4d6be43873ef66dbcc50cf8611d40a4fc8ea7cb8cbd062cdb9e55f4"
+}

@@ -1,0 +1,11 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "float-control",
+      "op": "framebuffer-status"
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "635dcc14bd69f5eb83923e743bf673f35f7dcbc403606d80cd7533c3c4483636"
+}

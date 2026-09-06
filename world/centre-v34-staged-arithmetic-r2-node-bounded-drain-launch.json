@@ -1,0 +1,10 @@
+{
+  "command": [
+    "node",
+    "/home/clawd/dmt-atlas/world/centre-v34-staged-arithmetic-r2-node-bounded-drain.js"
+  ],
+  "command_sha256": "53904742d51e28d136e0ad1b1ea85fd79be2d0ccb755c5a95ad33bbfae9260a7",
+  "source": "centre-v34-staged-arithmetic-r2-node-bounded-drain.js",
+  "source_sha256": "83ad3f60ea99a14f1d406be10808f535497edaf2c9bc5617f6da6d20ff2f1ed5",
+  "timeout_seconds": 20
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "scope": "Post-closure hashes and actual closure exit; no runtime or acceptance rerun. Numerical FAIL remains.",
+  "files": {
+    "centre-v34-numerical-failure-integrity.json": "148a0c8079757f2e0dd0620d3f0b4a79f76f61f468d22fd829e078f171557ce9",
+    "close-centre-v34-numerical-failure-r2-once.log": "30b508ffec37ea31f5d8fa7c526cb6190e9290424d7ba787a6d5805b45ccf407",
+    "close-centre-v34-numerical-failure-r2-once-launch.json": "b8c271b3438beb550f19ea1971e34ec10dea9efb6878821e61de9d3516b805a8",
+    "close-centre-v34-numerical-failure-r2-once-exit.json": "98303af969d0d2afa2faeafc3194f7b93eca486cf78d79c9839e352d40fb961d"
+  },
+  "manifest_files_verified": 340,
+  "protected_verified": 16,
+  "display_verified": 4,
+  "prior_notes_byte_exact": true,
+  "latest_unchanged": true,
+  "numeric_passed": false,
+  "capture_permitted": false
+}

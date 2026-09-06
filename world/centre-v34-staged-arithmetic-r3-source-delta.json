@@ -1,0 +1,157 @@
+{
+  "gpu_centre_v34_staged_arithmetic_r3.html": {
+    "base": "gpu_centre_v34_staged_arithmetic_r2.html",
+    "base_sha256": "28487fcbc58b0d802933b43e8bafd8792cb447fbeb066ac75b6efd7b72658454",
+    "edits": [
+      [
+        "const vertexShader=",
+        "\nconst identities=new Map(), cleanupOrder=[];\nfunction register(resource,kind) {\n if(identities.has(resource))throw Error('Duplicate resource identity');\n const entry={id:'resource-'+resources.length,kind,resource,attempted:false,succeeded:false,error:null};\n identities.set(resource,entry);resources.push(entry);return resource;\n}\nfunction resourceSnapshot() {\n return resources.map(({resource,...entry})=>({...entry}));\n}\nfunction cleanup() {\n for(const e of [...resources.filter(e=>e.kind!=='renderer'),...resources.filter(e=>e.kind==='renderer')]) {\n  if(e.attempted)continue;\n  e.attempted=true;cleanupOrder.push(e.id);\n  try {e.resource.dispose();e.succeeded=true;}catch(error){e.error=String(error.stack||error);}\n }\n const registered=resourceSnapshot();\n return {registered,attempted:cleanupOrder.slice(),succeeded:registered.filter(e=>e.succeeded).map(e=>e.id),\n  errors:registered.filter(e=>e.error!==null).map(e=>({id:e.id,error:e.error})),\n  rendererDisposed:registered.some(e=>e.kind==='renderer'&&e.succeeded),\n  complete:registered.every(e=>e.attempted&&e.succeeded&&e.error===null)};\n}\nfunction cleanupDrain() {\n try{return drainErrors();}catch(error){return {errors:[],drained:false,exception:String(error.stack||error)};}\n}\n\nconst vertexShader="
+      ],
+      [
+        "renderer=new THREE.WebGLRenderer({antialias:false});",
+        "renderer=register(new THREE.WebGLRenderer({antialias:false}),'renderer');"
+      ],
+      [
+        "const data=new Float32Array(s.data);",
+        "if(!Array.isArray(s.dataBits)||s.dataBits.length!==1024||!s.dataBits.every(b=>Number.isInteger(b)&&b>=0&&b<=0xffffffff))throw Error('Invalid uint32 input');\n  const words=new Uint32Array(s.dataBits),data=new Float32Array(words.buffer);"
+      ],
+      [
+        "target=new THREE.WebGLRenderTarget(W,1,{type:THREE.FloatType,minFilter:THREE.NearestFilter,magFilter:THREE.NearestFilter,depthBuffer:false});resources.push(target);",
+        "target=register(new THREE.WebGLRenderTarget(W,1,{type:THREE.FloatType,minFilter:THREE.NearestFilter,magFilter:THREE.NearestFilter,depthBuffer:false}),'target');"
+      ],
+      [
+        "texture=new THREE.DataTexture(data,W,2,THREE.RGBAFormat,THREE.FloatType);",
+        "texture=register(new THREE.DataTexture(data,W,2,THREE.RGBAFormat,THREE.FloatType),'texture');"
+      ],
+      [
+        "texture.needsUpdate=true;resources.push(texture);",
+        "texture.needsUpdate=true;"
+      ],
+      [
+        "geometry=new THREE.PlaneGeometry(2,2);resources.push(geometry);",
+        "geometry=register(new THREE.PlaneGeometry(2,2),'geometry');"
+      ],
+      [
+        "mesh=new THREE.Mesh(geometry);",
+        "mesh=new THREE.Mesh(geometry,null);"
+      ],
+      [
+        "material=new THREE.ShaderMaterial({vertexShader,fragmentShader,uniforms,depthTest:false,depthWrite:false,blending:THREE.NoBlending});\n  resources.push(material);",
+        "material=register(new THREE.ShaderMaterial({vertexShader,fragmentShader,uniforms,depthTest:false,depthWrite:false,blending:THREE.NoBlending}),'material');\n  "
+      ],
+      [
+        "case 'dispose': for(const resource of resources)resource.dispose();if(renderer)renderer.dispose();return {resourcesDisposed:resources.length,rendererDisposed:!!renderer};",
+        "case 'dispose': return cleanup();"
+      ],
+      [
+        "const before=drainErrors();\n const r=",
+        "const disposing=s.op==='dispose',before=disposing?cleanupDrain():drainErrors();\n const r="
+      ],
+      [
+        "if(!before.drained||before.errors.length){r.skipped=true;r.reason='dirty pre-operation error queue';return r;}",
+        "if(!disposing&&(!before.drained||before.errors.length)){r.skipped=true;r.reason='dirty pre-operation error queue';r.resources=resourceSnapshot();return r;}"
+      ],
+      [
+        "finally {r.after=drainErrors();r.contextLost=gl?gl.isContextLost():false;}",
+        "finally {\n  r.resources=resourceSnapshot();r.after=disposing?cleanupDrain():drainErrors();\n  try{r.contextLost=gl?gl.isContextLost():false;}catch(error){r.contextLost=true;r.contextException=String(error.stack||error);}\n }"
+      ]
+    ],
+    "sha256": "d718bb6f77e25c0f06668e564a0583c16a983749b00daa69938120366b6def34"
+  },
+  "probe_centre_v34_staged_arithmetic_r3.py": {
+    "base": "probe_centre_v34_staged_arithmetic_r2.py",
+    "base_sha256": "a3af2011d0508044894b4f56a6d14681750de4e820475a447c3976b6100b7aa3",
+    "edits": [
+      [
+        "HISTORY = 'centre-v34-staged-arithmetic-preparation-failure-integrity.json'",
+        "HISTORY = 'centre-v34-transport-runtime-integrity.json'"
+      ],
+      [
+        "def gate(prepared=True):\n    freeze = read(PREFIX + '-freeze.json')\n    verify(freeze['sources'])\n    assert digest(HISTORY) == freeze['history_sha256']\n    history = read(HISTORY)\n    verify(history['files']); verify(history['protected'])\n    assert not history['static_passed'] and history['static_actual_exit'] == 1\n    prior = read('centre-v34-staged-arithmetic-static-once-exit.json')\n    assert prior['actual_exit'] == 1 and prior['launcher_error'] is None\n    assert prior['log_sha256'] == digest('centre-v34-staged-arithmetic-static-once.log')\n    assert prior['launch_sha256'] == digest('centre-v34-staged-arithmetic-static-once-launch.json')\n    if prepared:\n        prep = read(PREFIX + '-preparation-integrity.json')\n        verify(prep['files']); verify(prep['display']); verify(prep['protected'])\n        assert prep['static_passed'] and not prep['runtime_run']\n        assert read(PREFIX + '-static.json')['passed']\n        receipt('static')\n        receipt('close')\n    else:\n        verify(history['display'])\n\n\n",
+        "def prior(display=False):\n    import probe_centre_v34_transport as t\n    history = read(HISTORY)\n    for key in ('files', 'protected') + (('display',) if display else ()):\n        verify(history[key])\n    stem = t.PREFIX + '-runtime-close-once'\n    r, launch = read(stem + '-exit.json'), read(stem + '-launch.json')\n    assert r['actual_exit'] == 0 and r['launcher_error'] is None\n    for key, name in [('log_sha256', stem + '.log'), ('launch_sha256', stem + '-launch.json'), ('manifest_sha256', HISTORY)]:\n        assert r[key] == digest(name)\n    assert launch['script_sha256'] == digest(launch['script'])\n    assert launch['launcher_sha256'] == digest('run_centre_v34_transport_runtime_close_once.py')\n    assert launch['preparation_sha256'] == digest(t.PREFIX + '-preparation-integrity.json')\n    assert read(t.PREFIX + '-freeze.json')['environment'] == t.environment()\n    return history\n\n\ndef gate(prepared=True):\n    freeze = read(PREFIX + '-freeze.json')\n    verify(freeze['sources'])\n    assert digest(HISTORY) == freeze['history_sha256']\n    prior(display=not prepared)\n    if prepared:\n        prep = read(PREFIX + '-preparation-integrity.json')\n        for key in ('files', 'display', 'protected'): verify(prep[key])\n        assert prep['static_passed'] and not prep['runtime_run']\n        assert read(PREFIX + '-static.json')['passed']\n        receipt('static'); receipt('close')\n        assert read(PREFIX + '-close-once-exit.json')['manifest_sha256'] == digest(PREFIX + '-preparation-integrity.json')\n\n\n"
+      ],
+      [
+        "def assess(",
+        "def source_bits():\n    return list(struct.unpack('<1024I', (HERE / TEXTURE).read_bytes()))\n\n\ndef exact_words(words, expected):\n    return isinstance(words, list) and len(words) == len(expected) and all(type(b) is int and 0 <= b <= 0xffffffff for b in words) and words == expected\n\n\ndef resource_valid(entries):\n    if not isinstance(entries, list): return False\n    kinds = ('renderer', 'target', 'texture', 'geometry', 'material')\n    for i, e in enumerate(entries):\n        if not isinstance(e, dict) or set(e) != {'id','kind','attempted','succeeded','error'}: return False\n        if e['id'] != 'resource-' + str(i) or e['kind'] not in kinds: return False\n        if type(e['attempted']) is not bool or type(e['succeeded']) is not bool: return False\n        if e['error'] is not None and (type(e['error']) is not str or not e['error']): return False\n        if e['succeeded'] and (not e['attempted'] or e['error'] is not None): return False\n        if e['error'] is not None and (not e['attempted'] or e['succeeded']): return False\n    return sum(e['kind'] == 'renderer' for e in entries) <= 1\n\n\ndef cleanup_valid(v, entries):\n    if not resource_valid(entries) or not isinstance(v, dict) or v.get('registered') != entries: return False\n    expected_order = [e['id'] for e in entries if e['kind'] != 'renderer'] + [e['id'] for e in entries if e['kind'] == 'renderer']\n    return (v.get('attempted') == expected_order and v.get('succeeded') == [e['id'] for e in entries]\n            and v.get('errors') == [] and v.get('complete') is True\n            and v.get('rendererDisposed') is any(e['kind'] == 'renderer' for e in entries)\n            and all(e['attempted'] and e['succeeded'] and e['error'] is None for e in entries))\n\n\ndef assess("
+      ],
+      [
+        "if op == 'dispose' and (not v['rendererDisposed'] or v['resourcesDisposed'] != 8):",
+        "if op == 'dispose' and not cleanup_valid(v, r.get('resources')):"
+      ],
+      [
+        "if op == 'shared' and (v['input']['values'] != texels or v['input']['bits'] != [bit(x) for x in texels]",
+        "if op == 'shared' and (not exact_words(s.get('dataBits'), source_bits()) or v['input']['values'] != texels\n                           or not exact_words(v['input']['bits'], source_bits())"
+      ],
+      [
+        "request['data'] = texels",
+        "request['dataBits'] = source_bits()"
+      ],
+      [
+        "readbacks = {}\n    for step in plan:",
+        "readbacks = {}\n    previous_resources = []\n    for step in plan:"
+      ],
+      [
+        "a = assess(r, leaves, texels, readbacks)\n        assessments.append(a);",
+        "resources = r.get('resources')\n        identity_ok = resource_valid(resources) and resources[:len(previous_resources)] == previous_resources\n        a = assess(r, leaves, texels, readbacks) if identity_ok else {'step': r['step'], 'classification': 'fatal-resource-identity'}\n        if identity_ok: previous_resources = resources\n        assessments.append(a);"
+      ],
+      [
+        "failure = None\n    leaves,",
+        "failure = cleanup_failure = None\n    leaves,"
+      ],
+      [
+        "failure = 'Resource disposal failed; see durable evidence'",
+        "cleanup_failure = failure = 'Resource disposal failed; see durable evidence'"
+      ],
+      [
+        "failure = 'Resource disposal incomplete'",
+        "cleanup_failure = failure = 'Resource disposal incomplete'"
+      ],
+      [
+        "a = assess(r, leaves, texels, {})\n                        event",
+        "prior_steps = [read(n)['payload'] for n in events if read(n)['kind'] == 'step-result']\n                        prior_resources = prior_steps[-1].get('resources', []) if prior_steps else []\n                        ids = lambda es: [(e['id'], e['kind']) for e in es]\n                        registry_ok = resource_valid(r.get('resources')) and ids(r['resources']) == ids(prior_resources)\n                        a = assess(r, leaves, texels, {}) if registry_ok else {'step': r['step'], 'classification': 'fatal-resource-identity'}\n                        event"
+      ],
+      [
+        "'browser_messages': messages,",
+        "'cleanup_failure': cleanup_failure, 'browser_messages': messages,"
+      ]
+    ],
+    "sha256": "1e927608bc6aa8fd8cfb63d885f2e24823cc413384fb0b470146e93b4a18d854"
+  },
+  "run_centre_v34_staged_arithmetic_r3_once.py": {
+    "base": "run_centre_v34_staged_arithmetic_r2_once.py",
+    "base_sha256": "f4fe9c9e544088aefe6f99530378066572c70fb0d2a5df454905fbad3d25d185",
+    "edits": [
+      [
+        "'launch_sha256': digest(stem + '-launch.json')})",
+        "'launch_sha256': digest(stem + '-launch.json'),\n         'manifest_sha256': digest(PREFIX + '-preparation-integrity.json') if label == 'close' and (HERE / (PREFIX + '-preparation-integrity.json')).exists() else None})"
+      ]
+    ],
+    "sha256": "820ed6aa064a03772d06c68777e524b2089a42700c47e541c427ff171fd4fd5e"
+  },
+  "static_centre_v34_staged_arithmetic_r3.py": {
+    "base": "static_centre_v34_staged_arithmetic_r2.py",
+    "base_sha256": "5fdea5c06b28a1d9008048d454406b48dec6fe608c71b4654dfd9b81a57e5c62",
+    "edits": [
+      [
+        "    old_html = (p.HERE / 'gpu_centre_v34_staged_arithmetic.html').read_text()\n    old_js = old_html.split('<script>')[1].split('</script>')[0]\n    assert combined.count(json.dumps(js)) == 1\n    baseline = combined.replace(json.dumps(js), json.dumps(old_js), 1)\n    stdout, stderr = durable_node('original-reproduction', baseline, expected_exit=1)\n    assert not stdout and 'TypeError: window.arithmeticStep is not a function' in stderr\n    p.save(p.PREFIX + '-original-reproduction-assessment.json', {\n        'classification': 'missing arithmeticStep reproduced on frozen original source',\n        'exit_receipt_sha256': p.digest(p.PREFIX + '-node-original-reproduction-exit.json'),\n        'historical_stderr_recovered': False})\n",
+        ""
+      ]
+    ],
+    "sha256": "c04964a3ee1c0070eefa208467343d63657d12cef42c241bef98dc77c7d1af92"
+  },
+  "check_centre_v34_staged_arithmetic_r3.py": {
+    "base": "check_centre_v34_staged_arithmetic_r2.py",
+    "base_sha256": "fb8f11bb00445572fecc0374a3fdd6677c0f1691b414eddef73694c882f23410",
+    "edits": [
+      [
+        "    baseline = (p.HERE / 'gpu_centre_v34_staged_arithmetic.html').read_text()\n    start = html.index('window.arithmeticStep=')\n    end = html.index('</script>', start)\n    assert html[:start] + html[end:] == baseline\n    prior_tree = ast.parse((p.HERE / 'probe_centre_v34_staged_arithmetic.py').read_text())\n    current_tree = ast.parse((p.HERE / 'probe_centre_v34_staged_arithmetic_r3.py').read_text())\n    for name in ('f32','bit','inputs','expected','compare','assess','supported','run_steps','main'):\n        pick = lambda tree: next(n for n in tree.body if isinstance(n,ast.FunctionDef) and n.name==name)\n        assert ast.dump(pick(prior_tree)) == ast.dump(pick(current_tree)), name\n\n",
+        "    from checks_centre_v34_staged_arithmetic_r3 import check_changes, extra_checks\n    check_changes()\n    prior_tree = ast.parse((p.HERE / 'probe_centre_v34_staged_arithmetic_r2.py').read_text())\n    current_tree = ast.parse((p.HERE / 'probe_centre_v34_staged_arithmetic_r3.py').read_text())\n    for name in ('f32','bit','inputs','expected','compare','supported'):\n        pick = lambda tree: next(n for n in tree.body if isinstance(n, ast.FunctionDef) and n.name == name)\n        assert ast.dump(pick(prior_tree)) == ast.dump(pick(current_tree)), name\n    extra_checks(js)\n\n"
+      ],
+      [
+        "'skipped': False, 'contextLost': False, 'exception': None,",
+        "'skipped': False, 'contextLost': False, 'exception': None, 'resources': [],"
+      ]
+    ],
+    "sha256": "3f37234ac1decbfdc7d19158a728a3e33e3c2d04210244c59fba845994229db8"
+  }
+}

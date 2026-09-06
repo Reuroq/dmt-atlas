@@ -1,0 +1,533 @@
+{
+  "passed": true,
+  "method": "Actual GPU smooth jets at all saved root coordinates, independent float64 finite differences of EVERY smooth leaf, CPU CSG selection replay using actual GPU leaf values, and agreement with original GPU composite normals. Original ray/reference evidence is reused, never rerun. CSG derivative is one selected one-sided surface normal at a crease, not a nonexistent unique gradient there.",
+  "limits": {
+    "gradient": 0.005,
+    "bound_ratio": 1.001,
+    "scalar": 0.001,
+    "root": 0.03
+  },
+  "original_composite_fd_passed": false,
+  "cases": [
+    {
+      "z": 8,
+      "time": 4,
+      "high": 1,
+      "width": 48,
+      "height": 32,
+      "roots": 1536,
+      "max_all_leaf_scalar_error": 3.3109192305591506e-06,
+      "max_all_leaf_gradient_error": 1.3220226549037761e-05,
+      "max_composition_selection_error": 1.0251998910915106e-07,
+      "max_saved_gradient_replay_error": 0.0,
+      "original_composite_fd_discrepancies": [],
+      "passed": true
+    },
+    {
+      "z": 8,
+      "time": 4,
+      "high": 0,
+      "width": 48,
+      "height": 32,
+      "roots": 1536,
+      "max_all_leaf_scalar_error": 4.578075678107751e-06,
+      "max_all_leaf_gradient_error": 1.1713924027212386e-05,
+      "max_composition_selection_error": 1.0251998910915106e-07,
+      "max_saved_gradient_replay_error": 0.0,
+      "original_composite_fd_discrepancies": [],
+      "passed": true
+    },
+    {
+      "z": 8,
+      "time": 8,
+      "high": 1,
+      "width": 48,
+      "height": 32,
+      "roots": 1536,
+      "max_all_leaf_scalar_error": 3.016157974045086e-06,
+      "max_all_leaf_gradient_error": 9.189114961838385e-06,
+      "max_composition_selection_error": 1.0251998910915106e-07,
+      "max_saved_gradient_replay_error": 0.0,
+      "original_composite_fd_discrepancies": [],
+      "passed": true
+    },
+    {
+      "z": 8,
+      "time": 8,
+      "high": 0,
+      "width": 48,
+      "height": 32,
+      "roots": 1536,
+      "max_all_leaf_scalar_error": 2.66161605910753e-06,
+      "max_all_leaf_gradient_error": 8.667627658276444e-06,
+      "max_composition_selection_error": 1.0251998910915106e-07,
+      "max_saved_gradient_replay_error": 0.0,
+      "original_composite_fd_discrepancies": [],
+      "passed": true
+    },
+    {
+      "z": -6,
+      "time": 4,
+      "high": 1,
+      "width": 48,
+      "height": 32,
+      "roots": 1536,
+      "max_all_leaf_scalar_error": 2.6295498984918453e-06,
+      "max_all_leaf_gradient_error": 1.3198991786311787e-05,
+      "max_composition_selection_error": 1.0251998910915106e-07,
+      "max_saved_gradient_replay_error": 0.0,
+      "original_composite_fd_discrepancies": [
+        {
+          "ray": 231,
+          "old_composite_fd_error": 0.18879239595129005,
+          "inner_shell_minus_aperture": 5.5868774652467756e-05,
+          "outer_shell_minus_aperture": 2.359372509717941,
+          "verified_selected_gradient_error": 0.0
+        },
+        {
+          "ray": 1304,
+          "old_composite_fd_error": 0.18879221713735572,
+          "inner_shell_minus_aperture": 5.569741129873851e-05,
+          "outer_shell_minus_aperture": 2.3593726289272308,
+          "verified_selected_gradient_error": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "z": -6,
+      "time": 4,
+      "high": 0,
+      "width": 48,
+      "height": 32,
+      "roots": 1536,
+      "max_all_leaf_scalar_error": 3.6520720786414884e-06,
+      "max_all_leaf_gradient_error": 8.727402495800618e-06,
+      "max_composition_selection_error": 1.0251998910915106e-07,
+      "max_saved_gradient_replay_error": 0.0,
+      "original_composite_fd_discrepancies": [],
+      "passed": true
+    },
+    {
+      "z": -6,
+      "time": 8,
+      "high": 1,
+      "width": 48,
+      "height": 32,
+      "roots": 1536,
+      "max_all_leaf_scalar_error": 3.8877096799616595e-06,
+      "max_all_leaf_gradient_error": 1.1392180285230147e-05,
+      "max_composition_selection_error": 1.0251998910915106e-07,
+      "max_saved_gradient_replay_error": 0.0,
+      "original_composite_fd_discrepancies": [],
+      "passed": true
+    },
+    {
+      "z": -6,
+      "time": 8,
+      "high": 0,
+      "width": 48,
+      "height": 32,
+      "roots": 1536,
+      "max_all_leaf_scalar_error": 3.7573101550059107e-06,
+      "max_all_leaf_gradient_error": 8.993483762820276e-06,
+      "max_composition_selection_error": 1.0251998910915106e-07,
+      "max_saved_gradient_replay_error": 0.0,
+      "original_composite_fd_discrepancies": [],
+      "passed": true
+    },
+    {
+      "z": 8,
+      "time": 4,
+      "high": 1,
+      "width": 49,
+      "height": 33,
+      "roots": 1617,
+      "max_all_leaf_scalar_error": 4.587413550416475e-06,
+      "max_all_leaf_gradient_error": 9.150595648321769e-06,
+      "max_composition_selection_error": 1.0251998910915106e-07,
+      "max_saved_gradient_replay_error": 0.0,
+      "original_composite_fd_discrepancies": [
+        {
+          "ray": 330,
+          "old_composite_fd_error": 0.5754906695468966,
+          "inner_shell_minus_aperture": 2.1230642056465148,
+          "outer_shell_minus_aperture": 4.593849182138454e-05,
+          "verified_selected_gradient_error": 0.0
+        },
+        {
+          "ray": 1286,
+          "old_composite_fd_error": 0.5921326770122797,
+          "inner_shell_minus_aperture": 2.1230643546581267,
+          "outer_shell_minus_aperture": 4.4269561767673604e-05,
+          "verified_selected_gradient_error": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "z": 8,
+      "time": 4,
+      "high": 0,
+      "width": 49,
+      "height": 33,
+      "roots": 1617,
+      "max_all_leaf_scalar_error": 2.974295583935138e-06,
+      "max_all_leaf_gradient_error": 8.720855546373585e-06,
+      "max_composition_selection_error": 1.0251998910915106e-07,
+      "max_saved_gradient_replay_error": 0.0,
+      "original_composite_fd_discrepancies": [],
+      "passed": true
+    },
+    {
+      "z": 8,
+      "time": 8,
+      "high": 1,
+      "width": 49,
+      "height": 33,
+      "roots": 1617,
+      "max_all_leaf_scalar_error": 3.250781916319667e-06,
+      "max_all_leaf_gradient_error": 8.268999630578477e-06,
+      "max_composition_selection_error": 1.0251998910915106e-07,
+      "max_saved_gradient_replay_error": 0.0,
+      "original_composite_fd_discrepancies": [
+        {
+          "ray": 784,
+          "old_composite_fd_error": 0.2933658229934307,
+          "inner_shell_minus_aperture": 7.148146629332164e-05,
+          "outer_shell_minus_aperture": 2.5559320133924484,
+          "verified_selected_gradient_error": 0.0
+        },
+        {
+          "ray": 832,
+          "old_composite_fd_error": 0.2933658229934307,
+          "inner_shell_minus_aperture": 7.148146629332164e-05,
+          "outer_shell_minus_aperture": 2.5559320133924484,
+          "verified_selected_gradient_error": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "z": 8,
+      "time": 8,
+      "high": 0,
+      "width": 49,
+      "height": 33,
+      "roots": 1617,
+      "max_all_leaf_scalar_error": 4.8176205011407625e-06,
+      "max_all_leaf_gradient_error": 8.50864786450245e-06,
+      "max_composition_selection_error": 1.0251998910915106e-07,
+      "max_saved_gradient_replay_error": 0.0,
+      "original_composite_fd_discrepancies": [],
+      "passed": true
+    },
+    {
+      "z": 8,
+      "time": 221,
+      "high": 1,
+      "width": 49,
+      "height": 33,
+      "roots": 1617,
+      "max_all_leaf_scalar_error": 2.0885676694115674e-05,
+      "max_all_leaf_gradient_error": 5.717855228137836e-05,
+      "max_composition_selection_error": 1.0251998910915106e-07,
+      "max_saved_gradient_replay_error": 0.0,
+      "original_composite_fd_discrepancies": [
+        {
+          "ray": 428,
+          "old_composite_fd_error": 0.4060161486276249,
+          "inner_shell_minus_aperture": 1.6555786132799177e-05,
+          "outer_shell_minus_aperture": 2.4289482963085174,
+          "verified_selected_gradient_error": 0.0
+        },
+        {
+          "ray": 1188,
+          "old_composite_fd_error": 0.4174974363205668,
+          "inner_shell_minus_aperture": 7.775276899324446e-06,
+          "outer_shell_minus_aperture": 2.428939653635025,
+          "verified_selected_gradient_error": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "z": 8,
+      "time": 221,
+      "high": 0,
+      "width": 49,
+      "height": 33,
+      "roots": 1617,
+      "max_all_leaf_scalar_error": 2.0338656828045032e-05,
+      "max_all_leaf_gradient_error": 5.3629546180822274e-05,
+      "max_composition_selection_error": 1.0251998910915106e-07,
+      "max_saved_gradient_replay_error": 0.0,
+      "original_composite_fd_discrepancies": [],
+      "passed": true
+    },
+    {
+      "z": 8,
+      "time": 900,
+      "high": 1,
+      "width": 49,
+      "height": 33,
+      "roots": 1617,
+      "max_all_leaf_scalar_error": 0.00012103159717979928,
+      "max_all_leaf_gradient_error": 0.0004626722570528763,
+      "max_composition_selection_error": 1.0251998910915106e-07,
+      "max_saved_gradient_replay_error": 0.0,
+      "original_composite_fd_discrepancies": [
+        {
+          "ray": 245,
+          "old_composite_fd_error": 0.6474181923141573,
+          "inner_shell_minus_aperture": 2.7002995094656943,
+          "outer_shell_minus_aperture": 8.416295051566491e-05,
+          "verified_selected_gradient_error": 0.0
+        },
+        {
+          "ray": 1371,
+          "old_composite_fd_error": 0.6474174770477341,
+          "inner_shell_minus_aperture": 2.7003008691966532,
+          "outer_shell_minus_aperture": 8.671104907981286e-05,
+          "verified_selected_gradient_error": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "z": 8,
+      "time": 900,
+      "high": 0,
+      "width": 49,
+      "height": 33,
+      "roots": 1617,
+      "max_all_leaf_scalar_error": 0.00011993638611096369,
+      "max_all_leaf_gradient_error": 0.00046298945930134394,
+      "max_composition_selection_error": 1.0251998910915106e-07,
+      "max_saved_gradient_replay_error": 0.0,
+      "original_composite_fd_discrepancies": [],
+      "passed": true
+    },
+    {
+      "z": -6,
+      "time": 4,
+      "high": 1,
+      "width": 49,
+      "height": 33,
+      "roots": 1617,
+      "max_all_leaf_scalar_error": 2.7189693430074158e-06,
+      "max_all_leaf_gradient_error": 9.168437905771043e-06,
+      "max_composition_selection_error": 1.0251998910915106e-07,
+      "max_saved_gradient_replay_error": 0.0,
+      "original_composite_fd_discrepancies": [],
+      "passed": true
+    },
+    {
+      "z": -6,
+      "time": 4,
+      "high": 0,
+      "width": 49,
+      "height": 33,
+      "roots": 1617,
+      "max_all_leaf_scalar_error": 3.108049996092266e-06,
+      "max_all_leaf_gradient_error": 1.0076878977471893e-05,
+      "max_composition_selection_error": 1.0251998910915106e-07,
+      "max_saved_gradient_replay_error": 0.0,
+      "original_composite_fd_discrepancies": [
+        {
+          "ray": 31,
+          "old_composite_fd_error": 0.16216653368547573,
+          "inner_shell_minus_aperture": 6.989449262617686e-05,
+          "outer_shell_minus_aperture": 2.5037438255548476,
+          "verified_selected_gradient_error": 0.0
+        },
+        {
+          "ray": 1585,
+          "old_composite_fd_error": 0.16216701051236437,
+          "inner_shell_minus_aperture": 6.879925727842906e-05,
+          "outer_shell_minus_aperture": 2.5037439745664596,
+          "verified_selected_gradient_error": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "z": -6,
+      "time": 8,
+      "high": 1,
+      "width": 49,
+      "height": 33,
+      "roots": 1617,
+      "max_all_leaf_scalar_error": 4.516865857645547e-06,
+      "max_all_leaf_gradient_error": 1.1192650298252893e-05,
+      "max_composition_selection_error": 1.0251998910915106e-07,
+      "max_saved_gradient_replay_error": 0.0,
+      "original_composite_fd_discrepancies": [],
+      "passed": true
+    },
+    {
+      "z": -6,
+      "time": 8,
+      "high": 0,
+      "width": 49,
+      "height": 33,
+      "roots": 1617,
+      "max_all_leaf_scalar_error": 3.2887396990699536e-06,
+      "max_all_leaf_gradient_error": 1.2419753155468172e-05,
+      "max_composition_selection_error": 1.0251998910915106e-07,
+      "max_saved_gradient_replay_error": 0.0,
+      "original_composite_fd_discrepancies": [
+        {
+          "ray": 199,
+          "old_composite_fd_error": 0.05545609715449662,
+          "inner_shell_minus_aperture": 8.050039410589793e-05,
+          "outer_shell_minus_aperture": 3.008516980409622,
+          "verified_selected_gradient_error": 0.0
+        },
+        {
+          "ray": 1417,
+          "old_composite_fd_error": 0.05545609715449662,
+          "inner_shell_minus_aperture": 8.093252778051951e-05,
+          "outer_shell_minus_aperture": 3.0085174125432967,
+          "verified_selected_gradient_error": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "z": -6,
+      "time": 221,
+      "high": 1,
+      "width": 49,
+      "height": 33,
+      "roots": 1617,
+      "max_all_leaf_scalar_error": 1.7378599400874606e-05,
+      "max_all_leaf_gradient_error": 6.725369997706565e-05,
+      "max_composition_selection_error": 1.0251998910915106e-07,
+      "max_saved_gradient_replay_error": 0.0,
+      "original_composite_fd_discrepancies": [
+        {
+          "ray": 370,
+          "old_composite_fd_error": 0.48759836427597536,
+          "inner_shell_minus_aperture": 2.0050108432756453e-05,
+          "outer_shell_minus_aperture": 3.292657835483551,
+          "verified_selected_gradient_error": 0.0
+        },
+        {
+          "ray": 1246,
+          "old_composite_fd_error": 0.4798885100683271,
+          "inner_shell_minus_aperture": 1.9915997982011824e-05,
+          "outer_shell_minus_aperture": 3.292655138373375,
+          "verified_selected_gradient_error": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "z": -6,
+      "time": 221,
+      "high": 0,
+      "width": 49,
+      "height": 33,
+      "roots": 1617,
+      "max_all_leaf_scalar_error": 1.6969113562304017e-05,
+      "max_all_leaf_gradient_error": 6.442924892624546e-05,
+      "max_composition_selection_error": 1.0251998910915106e-07,
+      "max_saved_gradient_replay_error": 0.0,
+      "original_composite_fd_discrepancies": [],
+      "passed": true
+    },
+    {
+      "z": -6,
+      "time": 900,
+      "high": 1,
+      "width": 49,
+      "height": 33,
+      "roots": 1617,
+      "max_all_leaf_scalar_error": 9.386252418219776e-05,
+      "max_all_leaf_gradient_error": 0.0003364116136364004,
+      "max_composition_selection_error": 1.0251998910915106e-07,
+      "max_saved_gradient_replay_error": 0.0,
+      "original_composite_fd_discrepancies": [],
+      "passed": true
+    },
+    {
+      "z": -6,
+      "time": 900,
+      "high": 0,
+      "width": 49,
+      "height": 33,
+      "roots": 1617,
+      "max_all_leaf_scalar_error": 9.24011291011384e-05,
+      "max_all_leaf_gradient_error": 0.00035581259799499776,
+      "max_composition_selection_error": 1.0251998910915106e-07,
+      "max_saved_gradient_replay_error": 0.0,
+      "original_composite_fd_discrepancies": [
+        {
+          "ray": 687,
+          "old_composite_fd_error": 0.5557581354372809,
+          "inner_shell_minus_aperture": 2.5869011878953962e-05,
+          "outer_shell_minus_aperture": 2.526375813484192,
+          "verified_selected_gradient_error": 0.0
+        },
+        {
+          "ray": 929,
+          "old_composite_fd_error": 0.5486386607246994,
+          "inner_shell_minus_aperture": 2.5869011878953962e-05,
+          "outer_shell_minus_aperture": 2.526375813484192,
+          "verified_selected_gradient_error": 0.0
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "source_hashes": {
+    "continuum-v29-candidate.js": "0a73e3e99e6ca7a989301b245a48144e34bb61d09bade85506d1b44010087323",
+    "centre-v29-bounds-check.json": "d8770c3bb739b6a84febdcf566710c14bdfe627b52f742225b8eee3d02bd81c2",
+    "numeric-candidate-v29-check.json": "f51d8f568932a415228d9dc94ce3dfeeb25fd346ebf926a314eccbf4d5e7b524",
+    "numeric-candidate-v29-raw.json": "e970b0727b9cdd657aafcd269a127fcdc58fc88d0745f23b602bef1d2b12977e",
+    "field_centre_v29.py": "ed4d7ac12717f8f2c89cc478aab5de219a4cc9c77c94377b5e7b948c70c200a1",
+    "gpu_probe_v29_leaves.html": "1ec7f8a2744860ec86bb7fb2fb9b6aebbe6d87565af041f045d9c8cec4e2fed3",
+    "centre-v29-leaf-raw.json": "458d035e3fd6871562e98664f9cda9b9c05edb92ce1cdb7f63795d8cfd13b1bd",
+    "check_centre_v29_leaves.py": "5349fab230eff8df0f66acad685727367eaf2932e9628395958d6f0c72fd640f"
+  },
+  "protected_before": {
+    "index.html": "37275c34171ffdca0392e0798d77beec09101c0c8a1c7056bca0ae20d50604bb",
+    "trip.js": "9ea2c7f086d93d8b049f1113a676930b195bc522e5e4f2e87a857e6553b90c5a",
+    "fractal.js": "fd7a14ebfc87988e95e14255adc903e079cb47bb075db7612d5d57091ed235d8",
+    "continuum.js": "6b55368f4f3d31cbd71dc0420707c8860e99a1b471f9108a53a77416f871106d",
+    "beings.js": "fc2900166510269f426b8c49c12b5d0644df816f4545972ef343ef8a02aaa60b",
+    "trip.css": "bb47a370d2d3128caf8afaf6bd732facc953181a8985f9cbe82ceafe7e7a4f00",
+    "fidelity-ui.js": "f5634f2373925ccfe42de91aeec83cc4bce5c420ff7b7e5ea5dd6ae66f0856b4",
+    "fidelity.css": "558881d68cb469dac4144b0dabcfcdef11e0fcb50e2ed7059b47a0e69f5f4656",
+    "vendor/three.min.js": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa",
+    "data.js": "87c2ecc3742af9f336ebb882e073a61762f975419412e2e6ec4e053f3cc90b43",
+    "fidelity-data.js": "824b51fc8a939112e827fd9931faa6997831d95dd1a46acbfa8a0c7301b40172",
+    "fidelity-grades.json": "d0bf9b45b7c58166c268e788a2f192c9aff304e018ad4d65c31be0c3527585e9",
+    "realism-grades.json": "657e9a61acb5dabaeb9283da22590e031c1dde074dbc817a63f5941519f66779",
+    "latest.png": "cb0d8f0b5159dc03bec373abf1571076beb079b08d3495bb23a959bf6b4d9954",
+    "visual-chrysanthemum.png": "9ab2511f859eebebdca7973cc9d4b852df6cc118dd02cf8cd4c55efd72957f2c",
+    "visual-chrysanthemum.json": "9d6136cbc55818aba257a6bffa40aafda0aa0ae89af0404c3cf5a8ad36999b46"
+  },
+  "protected_after": {
+    "index.html": "37275c34171ffdca0392e0798d77beec09101c0c8a1c7056bca0ae20d50604bb",
+    "trip.js": "9ea2c7f086d93d8b049f1113a676930b195bc522e5e4f2e87a857e6553b90c5a",
+    "fractal.js": "fd7a14ebfc87988e95e14255adc903e079cb47bb075db7612d5d57091ed235d8",
+    "continuum.js": "6b55368f4f3d31cbd71dc0420707c8860e99a1b471f9108a53a77416f871106d",
+    "beings.js": "fc2900166510269f426b8c49c12b5d0644df816f4545972ef343ef8a02aaa60b",
+    "trip.css": "bb47a370d2d3128caf8afaf6bd732facc953181a8985f9cbe82ceafe7e7a4f00",
+    "fidelity-ui.js": "f5634f2373925ccfe42de91aeec83cc4bce5c420ff7b7e5ea5dd6ae66f0856b4",
+    "fidelity.css": "558881d68cb469dac4144b0dabcfcdef11e0fcb50e2ed7059b47a0e69f5f4656",
+    "vendor/three.min.js": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa",
+    "data.js": "87c2ecc3742af9f336ebb882e073a61762f975419412e2e6ec4e053f3cc90b43",
+    "fidelity-data.js": "824b51fc8a939112e827fd9931faa6997831d95dd1a46acbfa8a0c7301b40172",
+    "fidelity-grades.json": "d0bf9b45b7c58166c268e788a2f192c9aff304e018ad4d65c31be0c3527585e9",
+    "realism-grades.json": "657e9a61acb5dabaeb9283da22590e031c1dde074dbc817a63f5941519f66779",
+    "latest.png": "cb0d8f0b5159dc03bec373abf1571076beb079b08d3495bb23a959bf6b4d9954",
+    "visual-chrysanthemum.png": "9ab2511f859eebebdca7973cc9d4b852df6cc118dd02cf8cd4c55efd72957f2c",
+    "visual-chrysanthemum.json": "9d6136cbc55818aba257a6bffa40aafda0aa0ae89af0404c3cf5a8ad36999b46"
+  },
+  "candidate_promoted": false,
+  "limitations": "Finite-difference central stencils across a CSG crease are not analytic surface normals. The original failures remain saved. This branch-aware audit keeps scalar/gradient/bound/first-root tolerances unchanged; no visual, performance, universal numerical or original-exit pass is claimed."
+}

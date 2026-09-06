@@ -38,17 +38,33 @@
     vec3 gw=vec3(-2.21*sin(x)*cos(y)+1.275*cos(xx)*cos(yy),
                  -2.21*cos(x)*sin(y)-1.275*sin(xx)*sin(yy),0.);
     float shear=1.8+.22*sin(time*.61);
-    float v=p.z*.72+shear*u-time*.57+cw*warp;
-    vec3 gv=vec3(0.,0.,.72)+shear*gu+gcw*warp+cw*gw;
-    float petal=8.*a+.32*sin(v*.5+time*.31);
-    vec3 gt=8.*ga+.16*cos(v*.5+time*.31)*gv;
-    float phase=v+.65*pole*cos(petal);
-    vec3 gphase=gv+.65*(gp*cos(petal)-pole*sin(petal)*gt);
-    float f=u-1.18*sin(phase);
-    vec3 g=gu-1.18*cos(phase)*gphase;
-    phase=petal+.6*sin(v);gphase=gt+.6*cos(v)*gv;
+    // Stagger the depth of petal families so the corolla is not stacked rings.
+    float v=p.z*1.18+shear*u-time*.57+cw*warp;
+    vec3 gv=vec3(0.,0.,1.18)+shear*gu+gcw*warp+cw*gw;
+    float stagger=5.*a+.45*p.z+time*.37;
+    vec3 gs=5.*ga+vec3(0.,0.,.45);
+    v+=1.4*pole*sin(stagger);
+    gv+=1.4*(gp*sin(stagger)+pole*cos(stagger)*gs);
+    float petal=18.*a+.32*sin(v*.5+time*.31);
+    vec3 gt=18.*ga+.16*cos(v*.5+time*.31)*gv;
+    float phase=v+1.25*pole*cos(petal);
+    vec3 gphase=gv+1.25*(gp*cos(petal)-pole*sin(petal)*gt);
+    float f=u-1.55*sin(phase);
+    vec3 g=gu-1.55*cos(phase)*gphase;
+    phase=petal+1.2*sin(v);gphase=gt+1.2*cos(v)*gv;
     f-=.4*pole*cos(phase);
     g-=.4*(gp*cos(phase)-pole*sin(phase)*gphase);
+    // Each lip divides into smaller curled lobes that cross its parent fold.
+    float branch=petal+.8*v-time*.43;
+    vec3 gb=gt+.8*gv;
+    phase=2.*petal-1.7*v+1.4*sin(branch);
+    gphase=2.*gt-1.7*gv+1.4*cos(branch)*gb;
+    f-=.52*pole*sin(phase);
+    g-=.52*(gp*sin(phase)+pole*cos(phase)*gphase);
+    phase=3.*petal+2.3*v+.8*sin(branch);
+    gphase=3.*gt+2.3*gv+.8*cos(branch)*gb;
+    f-=.24*pole*cos(phase);
+    g-=.24*(gp*cos(phase)-pole*sin(phase)*gphase);
     // Nested crossed lobes, continuous and nonzero at the cap axis.
     float cx=1.7*p.x+.4*sin(v),cy=1.7*p.y-.4*cos(v);
     vec3 gx=vec3(1.7,0.,0.)+.4*cos(v)*gv;
@@ -76,9 +92,9 @@
    float envelope(vec3 p){
     float r=length(p.xy-vec2(0.,1.7));
     float rho=length(vec2(r,.45*min(p.z+27.5,0.)));
-    // |displacement| <=2.155. Clearance >=4.84 for z>=-27.5.
+    // |displacement| <=3.285. Clearance >=3.71 for z>=-27.5.
     // Scaled z is a contraction, so this remains a safe world-space bound.
-    return abs(rho-7.)-2.16;
+    return abs(rho-7.)-3.29;
    }
    float raySlope(vec3 p,vec3 rd){
     // Directional derivative bound throughout the next .4 world units.
@@ -89,11 +105,14 @@
     bool cap=p.z-.4*abs(rd.z)<-27.5;
     float radial=cap?length(vec3(rd.xy,.45*rd.z)):transverse;
     float capSlope=cap?.325*abs(rd.z):0.;
-    float meridian=.72*abs(rd.z)+(1.8+.22*sin(time*.61))*radial;
+    float meridian=1.18*abs(rd.z)+(1.8+.22*sin(time*.61))*radial;
     if(cap)meridian+=3.35*capSlope+3.485*crosswise;
-    float petalSlope=8.*angular+.16*meridian;
-    float result=radial+1.18*(meridian+.65*(poleSlope+petalSlope));
-    result+=.4*(poleSlope+petalSlope+.6*meridian);
+    meridian+=1.4*(poleSlope+5.*angular+.45*abs(rd.z));
+    float petalSlope=18.*angular+.16*meridian;
+    float result=radial+1.55*(meridian+1.25*(poleSlope+petalSlope));
+    result+=.4*(poleSlope+petalSlope+1.2*meridian);
+    result+=.52*(poleSlope+3.4*petalSlope+2.82*meridian);
+    result+=.24*(poleSlope+3.8*petalSlope+2.94*meridian);
     if(cap)result+=.28*(capSlope+1.7*crosswise+.8*meridian);
     float chartSlope=poleSlope+petalSlope;
     if(cap)chartSlope+=2.*capSlope+.8*crosswise;
@@ -106,8 +125,8 @@
    }
    vec3 spectrum(float x){return .5+.5*cos(TAU*(x+vec3(0.,.333,.667)));}
    vec3 radiance(vec3 d,float roughness){
-    // Broad spherical area-light lobes: no periodic angular bands/seams.
-    float power=mix(5.,1.4,roughness),energy=1./(1.+2.*roughness);
+    // Coloured jewel reflections stay narrow instead of washing petals white.
+    float power=mix(38.,5.,roughness),energy=1./(1.+roughness);
     vec3 jewel=vec3(.008,.012,.024);
     jewel+=vec3(1.4,.46,.07)*pow(max(0.,dot(d,normalize(vec3(-.7,.5,.4)))),power);
     jewel+=vec3(.08,.75,1.3)*pow(max(0.,dot(d,normalize(vec3(.6,-.3,.7)))),power);
@@ -154,36 +173,62 @@
      p=ro+rd*distanceAlong;
      vec3 normal=normalize(sheetSample(p).xyz);
      if(dot(normal,rd)>0.)normal=-normal;
+     vec3 geometricNormal=normal,relief=vec3(0.);
+     float engraving=0.,reliefWeight=0.;
+     // Nested, flowing intaglio: surface relief, not extra silhouette geometry.
+     vec3 axisX=vec3(.8,.6,0.),axisY=vec3(-.36,.48,.8),axisZ=vec3(.48,-.64,.6);
+     for(int layer=0;layer<4;layer++){
+      if(layer==3&&high<.5)break;
+      float scale=2.2*pow(2.17,float(layer));
+      float detailFilter=exp(-.5*pow(distanceAlong*pixelScale*scale,2.));
+      float weight=detailFilter*pow(.72,float(layer));
+      vec3 q=vec3(dot(p,axisX),dot(p,axisY),dot(p,axisZ))*scale;
+      q+=vec3(.17,-.23,.13)*time*(mod(float(layer),2.)<.5?1.:-1.);
+      float warp=q.z*.7+time*.11;
+      q.x+=.7*sin(warp);
+      vec3 s=sin(q),c=cos(q);
+      float cell=s.x*s.y+.45*c.z;
+      vec3 slope=vec3(c.x*s.y,s.x*c.y,.49*cos(warp)*c.x*s.y-.45*s.z);
+      relief+=weight*(axisX*slope.x+axisY*slope.y+axisZ*slope.z);
+      engraving+=weight*exp(-14.*abs(cell));
+      reliefWeight+=weight;
+     }
+     engraving/=max(reliefWeight,.001);
+     normal=normalize(normal-.65*(relief-normal*dot(relief,normal)));
+     if(dot(normal,rd)>0.)normal=-normal;
      float a=atan(p.y-1.7,p.x),facing=max(0.,dot(normal,-rd));
      float hue=.14*sin(a*3.+time*.12)+p.z*.039+time*.025;
      vec3 pigment=pow(spectrum(hue),vec3(2.2))*1.25+vec3(.012,.004,.018);
-     float roughness=.32+.18*(1.-facing);
+     float roughness=.08+.16*engraving;
      vec3 reflected=radiance(reflect(rd,normal),roughness);
      float fresnel=pow(1.-facing,3.);
-     // Normalized local field clearance estimates smooth near-field AO.
-     // Bounded ambient attenuation only; never square it across material.
-     float side=sign(dot(sheetSample(p).xyz,normal)),occlusion=0.;
+     // Fold recesses suppress both ambient reflection and etched emission.
+     float side=sign(dot(sheetSample(p).xyz,geometricNormal)),occlusion=0.;
      for(int j=0;j<3;j++){
       float reach=.12*pow(2.4,float(j));
-      vec4 nearby=sheetSample(p+normal*reach);
+      vec4 nearby=sheetSample(p+geometricNormal*reach);
       float clearance=side*nearby.w/max(1.,length(nearby.xyz));
       occlusion+=pow(.5,float(j))*clamp(1.-clearance/reach,0.,1.);
      }
-     float openness=1.-.24*occlusion/1.75;
+     float openness=1.-.82*occlusion/1.75;
      vec3 key=normalize(vec3(.6,.9,.7));
      float visibility=1.;
      for(int j=0;j<4;j++){
       float reach=.24*pow(1.9,float(j));
-      vec4 blocker=sheetSample(p+normal*.07+key*reach);
+      vec4 blocker=sheetSample(p+geometricNormal*.07+key*reach);
       float clearance=side*blocker.w/max(1.,length(blocker.xyz));
       visibility=min(visibility,mix(.18,1.,smoothstep(-reach*.25,reach*.2,clearance)));
      }
-     float light=max(0.,dot(normal,key));
-     // Emission and broad environment reflection are independent of key
-     // visibility. Only diffuse/specular light from that key is shadowed.
-     color=pigment*(.19+(.16+.12*facing)*openness+.68*light*visibility);
-     color+=reflected*(.25+.55*fresnel)*mix(.85,1.,openness);
-     color+=mix(pigment,vec3(1.),.4)*pow(max(0.,dot(reflect(rd,normal),key)),9.)*.42*visibility;
+     // Broad lighting follows the actual sheet, not the tiny engraved normals.
+     float light=max(0.,dot(geometricNormal,key));
+     float foldRadius=length(vec2(length(p.xy-vec2(0.,1.7)),.45*min(p.z+27.5,0.)));
+     float raisedLip=smoothstep(-.6,1.7,7.-foldRadius);
+     float ridgeExposure=(.12+.88*raisedLip)*openness*(.35+.65*light);
+     color=pigment*(.035+.12*openness+.62*light*visibility);
+     color+=reflected*mix(vec3(.32),pigment,.7)*(1.1+1.8*fresnel)*openness;
+     color+=pigment*pow(max(0.,dot(reflect(rd,normal),key)),56.)*1.3*visibility;
+     vec3 ridge=spectrum(hue+.16+.12*fresnel);
+     color+=ridge*engraving*(1.1+.7*fresnel)*ridgeExposure;
      float haze=1.-exp(-distanceAlong*.005);
      color=mix(color,vec3(.018,.002,.009),haze);
      vec4 clip=viewProjection*vec4(p,1.);

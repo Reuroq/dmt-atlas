@@ -1,0 +1,9 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "byte-constant",
+    "op": "debug-extension",
+    "query": true
+  },
+  "previous_sha256": "71189de657af56fb7b02fb4ae9777fdaad27f6a70a9a5c612c90bd96e4919f65"
+}

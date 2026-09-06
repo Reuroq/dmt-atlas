@@ -1,0 +1,23 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "op": "renderer-extension"
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [],
+      "drained": true
+    },
+    "value": {
+      "supported": true
+    },
+    "exception": null,
+    "skipped": false,
+    "contextLost": false
+  },
+  "previous_sha256": "96b0b2607d4798fd27b12747b5ca314edc09882c9ec11e25c09b637611b3e926"
+}

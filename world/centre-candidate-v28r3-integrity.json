@@ -1,0 +1,138 @@
+{
+  "integrity_passed": false,
+  "numeric_passed": true,
+  "curvature_sampling": [
+    {
+      "high": 1,
+      "points": 9024,
+      "max_second_derivative": 14.619936910875708,
+      "curvature_bound": 160.04241838530274,
+      "max_taylor_remainder_ratio": 0.07654303009107756,
+      "quadratic_endpoint_sign_crossings": 0,
+      "passed": true
+    },
+    {
+      "high": 0,
+      "points": 9024,
+      "max_second_derivative": 14.669209414508444,
+      "curvature_bound": 160.04241838530274,
+      "max_taylor_remainder_ratio": 0.07556155609180759,
+      "quadratic_endpoint_sign_crossings": 0,
+      "passed": true
+    }
+  ],
+  "protected_unchanged": {
+    "index.html": true,
+    "trip.js": true,
+    "fractal.js": true,
+    "continuum.js": true,
+    "beings.js": true,
+    "trip.css": true,
+    "fidelity-ui.js": true,
+    "fidelity.css": true,
+    "vendor/three.min.js": true,
+    "data.js": true,
+    "fidelity-data.js": true,
+    "fidelity-grades.json": true,
+    "realism-grades.json": true,
+    "latest.png": false,
+    "visual-chrysanthemum.png": true,
+    "visual-chrysanthemum.json": true
+  },
+  "numeric_receipt_hashes_valid": {
+    "continuum.js": true,
+    "trip.js": true,
+    "continuum-v25.js": true,
+    "continuum-v28r3-candidate.js": true,
+    "build_centre_candidate_v28r3.py": true,
+    "gpu_probe_v28r3_candidate.html": true,
+    "probe_numeric_candidate_v28r3.py": true,
+    "field_centre_v28.py": true,
+    "numeric-candidate-v28r3-raw.json": true
+  },
+  "prior_visual_evidence_hashes_valid": {
+    "render_centre_v27r2.py": true,
+    "render-centre-v27r2.log": true,
+    "diagnostic-centre-v27r2.html": true,
+    "diagnostic-centre-v27r2-entry.png": true,
+    "diagnostic-centre-v27r2-entry.json": true,
+    "diagnostic-centre-v27r2-receipts.json": true,
+    "diagnostic-centre-v27r2-review.md": true
+  },
+  "syntax_passed": [
+    "continuum-v28-candidate.js",
+    "continuum-v28r2-candidate.js",
+    "continuum-v28r3-candidate.js"
+  ],
+  "sampled_cost_comparison": [
+    {
+      "version": "v27r2",
+      "passed": true,
+      "misses": 0,
+      "max_iterations": 1562,
+      "mean_iterations": 105.74882075471699,
+      "gpu_three_readbacks_total_seconds": 8.97535982914269,
+      "max_reference_difference": 0.02156197330355525
+    },
+    {
+      "version": "v28",
+      "passed": false,
+      "misses": 0,
+      "max_iterations": 1030,
+      "mean_iterations": 65.84559748427672,
+      "gpu_three_readbacks_total_seconds": 5.344681825488806,
+      "max_reference_difference": 0.0309788232147703
+    },
+    {
+      "version": "v28r2",
+      "passed": false,
+      "misses": 4,
+      "max_iterations": 2048,
+      "mean_iterations": 87.10773060796646,
+      "gpu_three_readbacks_total_seconds": 6.08208611048758,
+      "max_reference_difference": 0.0027433877289304576
+    },
+    {
+      "version": "v28r3",
+      "passed": true,
+      "misses": 0,
+      "max_iterations": 349,
+      "mean_iterations": 47.92845911949686,
+      "gpu_three_readbacks_total_seconds": 4.539324856363237,
+      "max_reference_difference": 0.0014425759613523326
+    }
+  ],
+  "live_render_signature": "f055d198fd1db94f4a10a751f8b92a46d7ca0a3957a9e1352d0e6e2753d797b9",
+  "source_hashes": {
+    "build_centre_candidate_v28.py": "4fc9888ebf8934eec6893c24e6df2c517cd4b2d41d31bd7e388ae5139d97a68f",
+    "build_centre_candidate_v28r2.py": "3d0529ac669ab8437870c03c960df0903c0825c8570457551a7def0ddd774543",
+    "build_centre_candidate_v28r3.py": "26ef77ea8d2910070705d87c1d7257220b300c2ee8b0c9d03ce5441e7693254f",
+    "centre-v28-curvature.md": "acb53d4e524b2addae9fc0ccfa137a91cffe0c7486de249b6ba00b62076b4d13",
+    "check-centre-candidate-v28r3.log": "a0b4c2b89fdb976600a9e7288cd4b3d7eb1ee3bdb3bc790e3336048de2908ac8",
+    "check_centre_candidate_v28r3.py": "ca4211781c5c655f63882af44dfaea6515c8b5522dcc888184a4c5fc2cc4e844",
+    "check_centre_candidate_v28r3_initial.py": "251473f1f8f527f535bea4188db874885ec515da5e5237a2d2057492e009c6c0",
+    "continuum-v28-candidate.js": "f51389513f4f3d1ce0f5202f08a803674cc83f8ac5430235d4de333bfa33123d",
+    "continuum-v28r2-candidate.js": "98e2bf61511ddbe4e39ff335fb33b92db85d59f9ec43506da19e95cc99237b80",
+    "continuum-v28r3-candidate.js": "db40f0c8ad98e441a7f51c1991dafcb9620039f3f0a595dc46501ee6a9b2ce88",
+    "field_centre_v28.py": "2f2b02ebcedb5aecb2fd668f334b3a98a275b2ea788e5e5badaa8525209cad3d",
+    "gpu_probe_v28_candidate.html": "fc0bcd38f1786d6a2173b02df7f0309603fb6758bedd3b95f9d83baf3608bada",
+    "gpu_probe_v28r2_candidate.html": "67eab6abc0be48924646ebbd979ec0969112eb556f8830ab328826f1dda3dc00",
+    "gpu_probe_v28r3_candidate.html": "ecbe984b9f8a928c62d3262d81e2b33ece6d6e941deec9ef6824aae8420e0afd",
+    "numeric-candidate-v28-check.json": "6a215e096e3cb5b3fbd474b9248c9922bafeb4b46d68db7e28924e0b8574496f",
+    "numeric-candidate-v28-raw.json": "409b3eab4a5b6a7eea2d0d1fbb8a55fd2423b91c42c7643eeb9b16d705e69146",
+    "numeric-candidate-v28r2-check.json": "e54cfdbcd67496afc3228eedfb727cc6e39ac3e3ada935e07b89ad0c03ad7dcc",
+    "numeric-candidate-v28r2-raw.json": "c7ac3eb9f219fcaafdfcefd5cd697dcab3b1441bdc134f035f9ce73d6463199b",
+    "numeric-candidate-v28r3-check.json": "1938151558a4e3ebbadd667c16fdd6741abb483c8fb917144782932c6e18a996",
+    "numeric-candidate-v28r3-raw.json": "0fc07328ed77d15c75fcfc96b01eaabeb816a888086e057a3dc23c6c0ab3f032",
+    "probe-numeric-candidate-v28.log": "3a26036f7d5d603263b2d89087ae3f9f6f836d8b7088401cc540611ff7af7f03",
+    "probe-numeric-candidate-v28r2.log": "ca268ea90b940e772446b6704317889da192939538bd0b25b21fd114af517ae9",
+    "probe-numeric-candidate-v28r3.log": "4beeabc0712d066859cde2a9c0b1bd04a6d30b324eacd22ef2a03838389487e9",
+    "probe_numeric_candidate_v28.py": "2992964bc306bb15a58a1a85f1f2dcbdb41b19f0e7e9539b476aa087d4167122",
+    "probe_numeric_candidate_v28r2.py": "9808a68b628443ef545a927c5f31445131a88550ba3c9444b728ae5e5abe0c51",
+    "probe_numeric_candidate_v28r3.py": "c30c4f81ebe9eee00eb45e52a57a12cb71cbcd7792ea6252792f310e403f7cec"
+  },
+  "limits": "Finite samples and ideal-field bound derivation, not universal float32 root proof. Small probe readback times are not full-resolution rendering, temporal quality, frame rate or hardware-GPU benchmarks.",
+  "candidate_promoted": false,
+  "visual_sequence_passed": false,
+  "overall_passed": false
+}

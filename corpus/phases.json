@@ -1,0 +1,42 @@
+{
+ "schema": {
+  "turns_used": 3,
+  "status": "IN_PROGRESS",
+  "note": ""
+ },
+ "harness": {
+  "turns_used": 3,
+  "status": "IN_PROGRESS",
+  "note": ""
+ },
+ "pilot": {
+  "turns_used": 3,
+  "status": "IN_PROGRESS",
+  "note": ""
+ },
+ "aggregate": {
+  "turns_used": 3,
+  "status": "IN_PROGRESS",
+  "note": ""
+ },
+ "sampler": {
+  "turns_used": 3,
+  "status": "IN_PROGRESS",
+  "note": ""
+ },
+ "fidelity": {
+  "turns_used": 3,
+  "status": "IN_PROGRESS",
+  "note": ""
+ },
+ "refresh": {
+  "turns_used": 3,
+  "status": "IN_PROGRESS",
+  "note": ""
+ },
+ "report": {
+  "turns_used": 3,
+  "status": "IN_PROGRESS",
+  "note": ""
+ }
+}

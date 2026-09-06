@@ -1,0 +1,11 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "float-row0",
+      "op": "program-log"
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "4ef79d0a4c0018a30ced3bce7d141e974cd5c630a3f1ec577936008c4b9a9f9f"
+}

@@ -1,0 +1,12 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "float-row1",
+      "op": "debug-extension",
+      "query": true
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "dff79cf7937f3933456b14f0f3a1d32ec27b37f5d562146db692799f7c418a03"
+}

@@ -1,0 +1,251 @@
+{
+  "schema_version": "0.3.0",
+  "report_id": "1h6udnc",
+  "is_trip_report": true,
+  "reason": "The narrator recounts personally perceived interaction without a visible being.",
+  "quotes": [
+    {
+      "start": 2544,
+      "end": 2647,
+      "text": "I was interacting and communicating with something, but I didn't see anything that resembled a \"being\".",
+      "supports": [
+        "/is_trip_report",
+        "/reason"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "place": null,
+      "order_confidence": null,
+      "light": [
+        "bright"
+      ],
+      "colour": [],
+      "motion": [],
+      "geometry": [
+        "alien-glyphs-unreadable-writing-systems"
+      ],
+      "material": [
+        "plastic-like"
+      ],
+      "density": [],
+      "scale": [],
+      "sound_seen": [],
+      "beings": [],
+      "transition": {
+        "trigger": [],
+        "abruptness": null
+      },
+      "affect": [],
+      "quotes": [
+        {
+          "start": 410,
+          "end": 487,
+          "text": "Initially everything became very bright and shiny some things looked plastic,",
+          "supports": [
+            "/scenes/0/episode_index",
+            "/scenes/0/light/0",
+            "/scenes/0/material/0"
+          ]
+        },
+        {
+          "start": 644,
+          "end": 681,
+          "text": "could see shimmering codes on things.",
+          "supports": [
+            "/scenes/0/geometry/0"
+          ]
+        },
+        {
+          "start": 955,
+          "end": 1008,
+          "text": "then I saw the fabric of the non-physical universe...",
+          "supports": [
+            "/scenes/0/transition"
+          ]
+        }
+      ],
+      "episode_index": 1,
+      "dwell": null,
+      "uncertain_fields": []
+    },
+    {
+      "place": "other:room-like space with ceiling and walls",
+      "order_confidence": "high",
+      "light": [],
+      "colour": [
+        "multicoloured",
+        "pink"
+      ],
+      "motion": [
+        "morphing"
+      ],
+      "geometry": [
+        "curved",
+        "alien-glyphs-unreadable-writing-systems"
+      ],
+      "material": [
+        "organic",
+        "glass-like",
+        "gel-like"
+      ],
+      "density": [],
+      "scale": [
+        "boundless"
+      ],
+      "sound_seen": [],
+      "beings": [
+        {
+          "entity": null,
+          "form": [
+            "disembodied-presence"
+          ],
+          "count": null,
+          "behaviour": [],
+          "communication": [],
+          "affect": []
+        }
+      ],
+      "transition": {
+        "trigger": [
+          "fading"
+        ],
+        "abruptness": "gradual"
+      },
+      "affect": [],
+      "quotes": [
+        {
+          "start": 955,
+          "end": 1008,
+          "text": "then I saw the fabric of the non-physical universe...",
+          "supports": [
+            "/scenes/1/episode_index",
+            "/scenes/1/order_confidence"
+          ]
+        },
+        {
+          "start": 1214,
+          "end": 1300,
+          "text": "on the ceiling and there were these alien looking hieroglyphs shimmering on the walls.",
+          "supports": [
+            "/scenes/1/place"
+          ]
+        },
+        {
+          "start": 1010,
+          "end": 1074,
+          "text": "It was organic and geometric, made of every colour and infinite.",
+          "supports": [
+            "/scenes/1/colour/0",
+            "/scenes/1/scale/0",
+            "/scenes/1/material/0"
+          ]
+        },
+        {
+          "start": 1301,
+          "end": 1328,
+          "text": "I think the walls were pink",
+          "supports": [
+            "/scenes/1/colour/1"
+          ]
+        },
+        {
+          "start": 1135,
+          "end": 1213,
+          "text": "looked like part of a stained glass window made out of butterfly-wing material",
+          "supports": [
+            "/scenes/1/material/1"
+          ]
+        },
+        {
+          "start": 1353,
+          "end": 1387,
+          "text": "maybe more jelly like, translucent",
+          "supports": [
+            "/scenes/1/material/2"
+          ]
+        },
+        {
+          "start": 1075,
+          "end": 1300,
+          "text": "There were teardrop looking shapes but curved above me that looked like part of a stained glass window made out of butterfly-wing material on the ceiling and there were these alien looking hieroglyphs shimmering on the walls.",
+          "supports": [
+            "/scenes/1/geometry/0",
+            "/scenes/1/geometry/1"
+          ]
+        },
+        {
+          "start": 1774,
+          "end": 1796,
+          "text": "it was always changing",
+          "supports": [
+            "/scenes/1/motion/0"
+          ]
+        },
+        {
+          "start": 2544,
+          "end": 2647,
+          "text": "I was interacting and communicating with something, but I didn't see anything that resembled a \"being\".",
+          "supports": [
+            "/scenes/1/beings/0/form/0"
+          ]
+        },
+        {
+          "start": 4057,
+          "end": 4202,
+          "text": "Once things started to wear off about 20 minutes later I felt and generally positive, things looked brighter and shiny, new and more interesting,",
+          "supports": [
+            "/scenes/1/transition/trigger/0",
+            "/scenes/1/transition/abruptness"
+          ]
+        }
+      ],
+      "episode_index": 1,
+      "dwell": null,
+      "uncertain_fields": [
+        "/scenes/1/colour/1",
+        "/scenes/1/material/2"
+      ]
+    },
+    {
+      "place": null,
+      "order_confidence": "high",
+      "light": [
+        "bright"
+      ],
+      "colour": [],
+      "motion": [],
+      "geometry": [],
+      "material": [],
+      "density": [],
+      "scale": [],
+      "sound_seen": [],
+      "beings": [],
+      "transition": null,
+      "affect": [],
+      "quotes": [
+        {
+          "start": 4057,
+          "end": 4111,
+          "text": "Once things started to wear off about 20 minutes later",
+          "supports": [
+            "/scenes/2/episode_index",
+            "/scenes/2/order_confidence"
+          ]
+        },
+        {
+          "start": 4143,
+          "end": 4202,
+          "text": "things looked brighter and shiny, new and more interesting,",
+          "supports": [
+            "/scenes/2/light/0"
+          ]
+        }
+      ],
+      "episode_index": 1,
+      "dwell": null,
+      "uncertain_fields": []
+    }
+  ]
+}

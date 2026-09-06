@@ -1,0 +1,23 @@
+{
+  "kind": "step-result",
+  "payload": {
+    "step": {
+      "op": "unmasked-renderer"
+    },
+    "before": {
+      "errors": [],
+      "drained": true
+    },
+    "after": {
+      "errors": [],
+      "drained": true
+    },
+    "value": {
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+    },
+    "exception": null,
+    "skipped": false,
+    "contextLost": false
+  },
+  "previous_sha256": "e8db8d2b519d9b1a2289ea07a592f3f942726cb2016850e5363f112631813734"
+}

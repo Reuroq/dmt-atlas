@@ -1,0 +1,12 @@
+{
+  "kind": "browser-launch-intent",
+  "payload": {
+    "args": [
+      "--enable-webgl",
+      "--use-angle=swiftshader",
+      "--enable-unsafe-swiftshader",
+      "--allow-file-access-from-files"
+    ]
+  },
+  "previous_sha256": null
+}

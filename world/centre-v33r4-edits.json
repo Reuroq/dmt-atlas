@@ -1,0 +1,30 @@
+[
+  {
+    "old": "   void fieldPartsReach(vec3 p,out vec4 f,out vec4 a,out vec4 b,out vec4 axA,out vec4 axB,out vec4 angA,out vec4 angB,out vec4 shellA,out vec4 shellB){\n    vec3 q=p-vec3(0.,1.7,0.);\n    float angle=time*.075,c=preciseCos(angle),s=preciseSin(angle);\n    vec4 x=vec4(c,-s,0.,c*q.x-s*q.y),y=vec4(s,c,0.,s*q.x+c*q.y);\n    vec4 z=vec4(0.,0.,1.,q.z);\n    float cap=min(q.z+27.5,0.),rho=length(vec3(q.xy,.85*cap));\n    vec4 radius=vec4(vec3(q.xy,.7225*cap)/max(rho,.00001),rho);\n    vec4 inv=jis(offset(jm(x,x)+jm(y,y),2.25));\n    vec4 u=jm(x,inv),v=jm(y,inv),r3,i3;\n    cubePair(u,v,r3,i3);\n    vec4 r6=jm(r3,r3)-jm(i3,i3),i6=2.*jm(r3,i3),r18,i18;\n",
+    "new": "   // Same five jets at the same p: retain once across a failed cheap test.\n   // No full-only harmonics or shell work on the certified-skip path.\n   struct CommonJets { vec4 z; vec4 radius; vec4 inv; vec4 r6; vec4 i6; };\n   CommonJets commonParts(vec3 p){\n    vec3 q=p-vec3(0.,1.7,0.);\n    float angle=time*.075,c=preciseCos(angle),s=preciseSin(angle);\n    vec4 x=vec4(c,-s,0.,c*q.x-s*q.y),y=vec4(s,c,0.,s*q.x+c*q.y);\n    vec4 z=vec4(0.,0.,1.,q.z);\n    float cap=min(q.z+27.5,0.),rho=length(vec3(q.xy,.85*cap));\n    vec4 radius=vec4(vec3(q.xy,.7225*cap)/max(rho,.00001),rho);\n    vec4 inv=jis(offset(jm(x,x)+jm(y,y),2.25));\n    vec4 u=jm(x,inv),v=jm(y,inv),r3,i3;\n    cubePair(u,v,r3,i3);\n    vec4 r6=jm(r3,r3)-jm(i3,i3),i6=2.*jm(r3,i3);\n    return CommonJets(z,radius,inv,r6,i6);\n   }\n   void fieldPartsReachShared(vec3 p,CommonJets common,out vec4 f,out vec4 a,out vec4 b,out vec4 axA,out vec4 axB,out vec4 angA,out vec4 angB,out vec4 shellA,out vec4 shellB){\n    vec4 z=common.z,radius=common.radius,inv=common.inv,r6=common.r6,i6=common.i6;\n    vec4 r18,i18;\n"
+  },
+  {
+    "old": "   void fieldParts(vec3 p,",
+    "new": "   void fieldPartsReach(vec3 p,out vec4 f,out vec4 a,out vec4 b,out vec4 axA,out vec4 axB,out vec4 angA,out vec4 angB,out vec4 shellA,out vec4 shellB){\n    fieldPartsReachShared(p,commonParts(p),f,a,b,axA,axB,angA,angB,shellA,shellB);\n   }\n\n   void fieldParts(vec3 p,"
+  },
+  {
+    "old": "   void cheapParts(vec3 p,out vec4 f,out vec4 axA,out vec4 axB){\n    vec3 q=p-vec3(0.,1.7,0.);\n    float angle=time*.075,c=preciseCos(angle),s=preciseSin(angle);\n    vec4 x=vec4(c,-s,0.,c*q.x-s*q.y),y=vec4(s,c,0.,s*q.x+c*q.y);\n    vec4 z=vec4(0.,0.,1.,q.z);\n    float cap=min(q.z+27.5,0.),rho=length(vec3(q.xy,.85*cap));\n    vec4 radius=vec4(vec3(q.xy,.7225*cap)/max(rho,.00001),rho);\n    vec4 inv=jis(offset(jm(x,x)+jm(y,y),2.25));\n    vec4 u=jm(x,inv),v=jm(y,inv),r3,i3;\n    cubePair(u,v,r3,i3);\n    vec4 r6=jm(r3,r3)-jm(i3,i3),i6=2.*jm(r3,i3);\n",
+    "new": "   void cheapPartsShared(vec3 p,CommonJets common,out vec4 f,out vec4 axA,out vec4 axB){\n    vec4 z=common.z,radius=common.radius,inv=common.inv,r6=common.r6,i6=common.i6;\n"
+  },
+  {
+    "old": "   float cheapReach(vec3 p,vec3 rd){\n    vec4 f,axA,axB;cheapParts(p,f,axA,axB);",
+    "new": "   void cheapParts(vec3 p,out vec4 f,out vec4 axA,out vec4 axB){\n    cheapPartsShared(p,commonParts(p),f,axA,axB);\n   }\n   float cheapReach(vec3 p,vec3 rd,CommonJets common){\n    vec4 f,axA,axB;cheapPartsShared(p,common,f,axA,axB);"
+  },
+  {
+    "old": "   vec4 traceSample(vec3 p,vec3 rd,out float safeStep){\n    vec4 f,a,b,axA,axB,angA,angB,shellA,shellB;float layer;\n    fieldPartsReach(p,f,a,b,axA,axB,angA,angB,shellA,shellB);",
+    "new": "   vec4 traceSample(vec3 p,vec3 rd,CommonJets common,out float safeStep){\n    vec4 f,a,b,axA,axB,angA,angB,shellA,shellB;float layer;\n    fieldPartsReachShared(p,common,f,a,b,axA,axB,angA,angB,shellA,shellB);"
+  },
+  {
+    "old": "     float fastStep=cheapReach(p,rd);",
+    "new": "     CommonJets common=commonParts(p);\n     float fastStep=cheapReach(p,rd,common);"
+  },
+  {
+    "old": "     float safeStep;sampleValue=traceSample(p,rd,safeStep);",
+    "new": "     float safeStep;sampleValue=traceSample(p,rd,common,safeStep);"
+  }
+]

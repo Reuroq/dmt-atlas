@@ -1,0 +1,12 @@
+{
+  "sources": {
+    "root_reference_contract_v35r2.py": "3a0985766b37691a18e7925bad8c57f05a04328bde901e746c8ab8a441fa0579",
+    "check_root_reference_contract_v35r2.py": "2f147c7cd8808b3d60bb57fc4ff5a16ed695abfea714df941c77ca0bfcc422e4",
+    "prepare_root_contract_v35r2.py": "e526adcdef6bd20ce151c2eb963d6c1e9f050e717fb1986b77eabb945cb2afa8",
+    "run_root_contract_v35r2_once.py": "7edd0913b89e14f00ed2128580019aa33b6c64c3a19a0dd81fbad3e824561347",
+    "centre-v35r2-root-contract-design.md": "f0dd782f5c7b0a62ee4b63205bef9a510b2591744fa1e671bc12b02ceab70842"
+  },
+  "history_sha256": "0896d2bf0d2e3bace65981455a252638d454e0f4e166eb91538c35cdf0d6e039",
+  "runtime_fixtures_complete": false,
+  "field_runtime_permitted": false
+}

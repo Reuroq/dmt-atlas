@@ -1,0 +1,633 @@
+{
+  "method": "Saved readbacks only; no field evaluation, new scan, browser, roots, cost or capture.",
+  "failure_manifest": "148a0c8079757f2e0dd0620d3f0b4a79f76f61f468d22fd829e078f171557ce9",
+  "script_sha256": "46254d8afd243455de697b627e6111bccee8856b18c0b60ae9e0422511c415b9",
+  "numeric_passed": false,
+  "capture_permitted": false,
+  "arithmetic": {
+    "childAxial": {
+      "rays": 75996,
+      "mismatches_xyzw": [
+        0,
+        0,
+        0,
+        36599
+      ],
+      "max_absolute_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.1920928955078125e-07
+      ],
+      "restricted_constant_folding_models": {
+        "sum_of_binary32_constants": {
+          "folded_constant": -0.42000001668930054,
+          "disjoint_outer_cells_all": 0,
+          "disjoint_outer_cells_mismatches": 0,
+          "boundary_only_all": 0,
+          "strictly_overlapping_all": 75996,
+          "interpretation": "Disjoint refutes this restricted model; overlap is compatibility only, not attribution."
+        },
+        "rounded_decimal_sum": {
+          "folded_constant": -0.41999998688697815,
+          "disjoint_outer_cells_all": 26124,
+          "disjoint_outer_cells_mismatches": 23268,
+          "boundary_only_all": 3952,
+          "strictly_overlapping_all": 45920,
+          "interpretation": "Disjoint refutes this restricted model; overlap is compatibility only, not attribution."
+        }
+      },
+      "examples": [
+        {
+          "flat_ray": 0,
+          "base": 0.0378800630569458,
+          "expected_offset": 0.23788006603717804,
+          "saved_child": 0.23788005113601685
+        },
+        {
+          "flat_ray": 5,
+          "base": -0.205389142036438,
+          "expected_offset": -0.0053891390562057495,
+          "saved_child": -0.005389153957366943
+        },
+        {
+          "flat_ray": 7,
+          "base": -1.2353979349136353,
+          "expected_offset": -1.0353978872299194,
+          "saved_child": -1.035398006439209
+        },
+        {
+          "flat_ray": 12,
+          "base": -0.3035160303115845,
+          "expected_offset": -0.10351602733135223,
+          "saved_child": -0.10351604223251343
+        },
+        {
+          "flat_ray": 13,
+          "base": -0.14692914485931396,
+          "expected_offset": 0.053070858120918274,
+          "saved_child": 0.05307084321975708
+        },
+        {
+          "flat_ray": 15,
+          "base": -1.1721153259277344,
+          "expected_offset": -0.9721153378486633,
+          "saved_child": -0.9721153974533081
+        }
+      ]
+    },
+    "childAngular": {
+      "rays": 75996,
+      "mismatches_xyzw": [
+        0,
+        0,
+        0,
+        40662
+      ],
+      "max_absolute_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        5.960464477539063e-08
+      ],
+      "restricted_constant_folding_models": {
+        "sum_of_binary32_constants": {
+          "folded_constant": -0.6200000047683716,
+          "disjoint_outer_cells_all": 0,
+          "disjoint_outer_cells_mismatches": 0,
+          "boundary_only_all": 0,
+          "strictly_overlapping_all": 75996,
+          "interpretation": "Disjoint refutes this restricted model; overlap is compatibility only, not attribution."
+        },
+        "rounded_decimal_sum": {
+          "folded_constant": -0.6200000047683716,
+          "disjoint_outer_cells_all": 0,
+          "disjoint_outer_cells_mismatches": 0,
+          "boundary_only_all": 0,
+          "strictly_overlapping_all": 75996,
+          "interpretation": "Disjoint refutes this restricted model; overlap is compatibility only, not attribution."
+        }
+      },
+      "examples": [
+        {
+          "flat_ray": 5,
+          "base": -0.24803698062896729,
+          "expected_offset": 0.03196302056312561,
+          "saved_child": 0.03196299076080322
+        },
+        {
+          "flat_ray": 6,
+          "base": -0.5413229465484619,
+          "expected_offset": -0.261322945356369,
+          "saved_child": -0.2613229751586914
+        },
+        {
+          "flat_ray": 7,
+          "base": -0.4337635934352875,
+          "expected_offset": -0.15376359224319458,
+          "saved_child": -0.15376362204551697
+        },
+        {
+          "flat_ray": 8,
+          "base": -0.659993052482605,
+          "expected_offset": -0.3799930512905121,
+          "saved_child": -0.3799930810928345
+        },
+        {
+          "flat_ray": 10,
+          "base": -0.8996168971061707,
+          "expected_offset": -0.6196168661117554,
+          "saved_child": -0.6196169257164001
+        },
+        {
+          "flat_ray": 11,
+          "base": -0.8005446791648865,
+          "expected_offset": -0.5205446481704712,
+          "saved_child": -0.520544707775116
+        }
+      ]
+    }
+  },
+  "missing_references": [
+    {
+      "width": 48,
+      "height": 32,
+      "z": 8,
+      "time": 4.895,
+      "high": 0,
+      "ray": 839,
+      "gpu_depth_hit_iterations_residual": [
+        42.23194885253906,
+        1.0,
+        21.0,
+        3.135204315185547e-05
+      ],
+      "saved_gradient_directional_bound": [
+        0.44504886865615845,
+        -0.26984137296676636,
+        0.7609400153160095,
+        9.003372192382812
+      ],
+      "saved_point_footprint": [
+        -0.8882097601890564,
+        4.364631652832031,
+        -34.13844680786133,
+        0.07121452689170837
+      ],
+      "cpu_ray": [
+        -0.02103172111400246,
+        0.06309516334200725,
+        -0.9977858823764887
+      ],
+      "cpu_ray_point_minus_saved_gpu_point": [
+        -8.10178361398961e-07,
+        5.827021620774531e-08,
+        4.4575519027034716e-06
+      ],
+      "counts_cheap_full_skips_refinements": [
+        8,
+        4,
+        4,
+        0
+      ],
+      "termination_inference": "No bisection branch: zero refinement calls and saved hit flag.",
+      "saved_residual_over_cpu_ray_slope": 3.99063208293078e-05,
+      "expanded_leaf_jets": {
+        "parentF": [
+          0.44504886865615845,
+          -0.26984137296676636,
+          0.7609400153160095,
+          3.135204315185547e-05
+        ],
+        "parentAxial": [
+          -0.02937895990908146,
+          -0.11428088694810867,
+          0.8068559765815735,
+          -0.868853747844696
+        ],
+        "parentAngular": [
+          0.18784454464912415,
+          0.49635618925094604,
+          -0.011284706182777882,
+          -0.4704129099845886
+        ],
+        "parentPositive": [
+          0.057434454560279846,
+          -0.5357295274734497,
+          1.027569055557251,
+          -0.1890200525522232
+        ],
+        "parentNegative": [
+          -0.057434454560279846,
+          0.5357295274734497,
+          -1.027569055557251,
+          -0.0009799450635910034
+        ],
+        "childF": [
+          0.44504886865615845,
+          -0.26984137296676636,
+          0.7609400153160095,
+          0.3000313639640808
+        ],
+        "childAxial": [
+          -0.02937895990908146,
+          -0.11428088694810867,
+          0.8068559765815735,
+          -0.668853759765625
+        ],
+        "childAngular": [
+          0.18784454464912415,
+          0.49635618925094604,
+          -0.011284706182777882,
+          -0.19041293859481812
+        ],
+        "childPositive": [
+          0.06779690831899643,
+          -0.43840426206588745,
+          0.7021807432174683,
+          -0.3885611593723297
+        ],
+        "childNegative": [
+          -0.06779690831899643,
+          0.43840426206588745,
+          -0.7021807432174683,
+          0.26456114649772644
+        ],
+        "backingF": [
+          0.44504886865615845,
+          -0.26984137296676636,
+          0.7609400153160095,
+          10.000031471252441
+        ]
+      },
+      "not_recorded": [
+        "GPU ray vector",
+        "termination-time sampleValue",
+        "pre-hit bracket/history",
+        "CPU reference scan values or minimum",
+        "CPU leaves at missing reference"
+      ],
+      "cause": "Unresolved; local residual acceptance is not a first-root existence certificate."
+    },
+    {
+      "width": 48,
+      "height": 32,
+      "z": -6,
+      "time": 8,
+      "high": 0,
+      "ray": 745,
+      "gpu_depth_hit_iterations_residual": [
+        31.51067352294922,
+        1.0,
+        43.0,
+        2.6620924472808838e-05
+      ],
+      "saved_gradient_directional_bound": [
+        -0.24600619077682495,
+        0.2062501162290573,
+        0.8568418025970459,
+        9.003372192382812
+      ],
+      "saved_point_footprint": [
+        1.9881712198257446,
+        1.037276268005371,
+        -37.44091033935547,
+        0.05313555523753166
+      ],
+      "cpu_ray": [
+        0.06309516334200725,
+        -0.021031721114002422,
+        -0.9977858823764887
+      ],
+      "cpu_ray_point_minus_saved_gpu_point": [
+        -1.26878600514857e-07,
+        3.434558060178006e-08,
+        5.153982122862999e-06
+      ],
+      "counts_cheap_full_skips_refinements": [
+        35,
+        31,
+        4,
+        0
+      ],
+      "termination_inference": "No bisection branch: zero refinement calls and saved hit flag.",
+      "saved_residual_over_cpu_ray_slope": 3.0430721478125752e-05,
+      "expanded_leaf_jets": {
+        "parentF": [
+          -0.34305548667907715,
+          -0.23296970129013062,
+          0.8250040411949158,
+          -2.5171823501586914
+        ],
+        "parentAxial": [
+          0.03201873227953911,
+          -0.0013070240383967757,
+          -0.772491991519928,
+          -0.20047765970230103
+        ],
+        "parentAngular": [
+          0.04643350839614868,
+          -0.5057657957077026,
+          0.004682763945311308,
+          -0.7959480285644531
+        ],
+        "parentPositive": [
+          -0.1963513195514679,
+          0.15307681262493134,
+          0.45396894216537476,
+          0.42357030510902405
+        ],
+        "parentNegative": [
+          0.1963513195514679,
+          -0.15307681262493134,
+          -0.45396894216537476,
+          -0.6135703325271606
+        ],
+        "childF": [
+          -0.34305548667907715,
+          -0.23296970129013062,
+          0.8250040411949158,
+          -2.2171823978424072
+        ],
+        "childAxial": [
+          0.03201873227953911,
+          -0.0013070240383967757,
+          -0.772491991519928,
+          -0.00047767162322998047
+        ],
+        "childAngular": [
+          0.04643350839614868,
+          -0.5057657957077026,
+          0.004682763945311308,
+          -0.5159480571746826
+        ],
+        "childPositive": [
+          -0.24600619077682495,
+          0.2062501162290573,
+          0.8568418025970459,
+          2.6620924472808838e-05
+        ],
+        "childNegative": [
+          0.24600619077682495,
+          -0.2062501162290573,
+          -0.8568418025970459,
+          -0.12402661889791489
+        ],
+        "backingF": [
+          -0.34305548667907715,
+          -0.23296970129013062,
+          0.8250040411949158,
+          7.482817649841309
+        ]
+      },
+      "not_recorded": [
+        "GPU ray vector",
+        "termination-time sampleValue",
+        "pre-hit bracket/history",
+        "CPU reference scan values or minimum",
+        "CPU leaves at missing reference"
+      ],
+      "cause": "Unresolved; local residual acceptance is not a first-root existence certificate."
+    },
+    {
+      "width": 49,
+      "height": 33,
+      "z": -6,
+      "time": 8,
+      "high": 1,
+      "ray": 807,
+      "gpu_depth_hit_iterations_residual": [
+        34.128604888916016,
+        1.0,
+        51.0,
+        8.821487426757812e-06
+      ],
+      "saved_gradient_directional_bound": [
+        0.044347360730171204,
+        0.042778339236974716,
+        0.7768088579177856,
+        9.003372192382812
+      ],
+      "saved_point_footprint": [
+        -1.408186912536621,
+        1.7000000476837158,
+        -40.09954071044922,
+        0.057550087571144104
+      ],
+      "cpu_ray": [
+        -0.04126127139193983,
+        0.0,
+        -0.9991483911227205
+      ],
+      "cpu_ray_point_minus_saved_gpu_point": [
+        -2.716013227210823e-06,
+        -4.768371586472142e-08,
+        4.4425767953271134e-08
+      ],
+      "counts_cheap_full_skips_refinements": [
+        43,
+        32,
+        11,
+        0
+      ],
+      "termination_inference": "No bisection branch: zero refinement calls and saved hit flag.",
+      "saved_residual_over_cpu_ray_slope": 1.1339005827012502e-05,
+      "expanded_leaf_jets": {
+        "parentF": [
+          0.21388432383537292,
+          -0.07753618061542511,
+          0.8427460789680481,
+          -4.638670444488525
+        ],
+        "parentAxial": [
+          0.044347360730171204,
+          0.042778339236974716,
+          0.7768088579177856,
+          -0.1999911665916443
+        ],
+        "parentAngular": [
+          -0.09287060797214508,
+          -0.031204670667648315,
+          -0.0008609643555246294,
+          -0.8795146346092224
+        ],
+        "parentPositive": [
+          -0.11979440599679947,
+          -0.012809240259230137,
+          -0.619422435760498,
+          0.27418026328086853
+        ],
+        "parentNegative": [
+          0.11979440599679947,
+          0.012809240259230137,
+          0.619422435760498,
+          -0.46418026089668274
+        ],
+        "childF": [
+          0.21388432383537292,
+          -0.07753618061542511,
+          0.8427460789680481,
+          -4.338670253753662
+        ],
+        "childAxial": [
+          0.044347360730171204,
+          0.042778339236974716,
+          0.7768088579177856,
+          8.821487426757812e-06
+        ],
+        "childAngular": [
+          -0.09287060797214508,
+          -0.031204670667648315,
+          -0.0008609643555246294,
+          -0.5995146632194519
+        ],
+        "childPositive": [
+          -0.1338231861591339,
+          -0.021968230605125427,
+          -0.7973854541778564,
+          -0.0007008537650108337
+        ],
+        "childNegative": [
+          0.1338231861591339,
+          0.021968230605125427,
+          0.7973854541778564,
+          -0.12329914420843124
+        ],
+        "backingF": [
+          0.21388432383537292,
+          -0.07753618061542511,
+          0.8427460789680481,
+          5.361329555511475
+        ]
+      },
+      "not_recorded": [
+        "GPU ray vector",
+        "termination-time sampleValue",
+        "pre-hit bracket/history",
+        "CPU reference scan values or minimum",
+        "CPU leaves at missing reference"
+      ],
+      "cause": "Unresolved; local residual acceptance is not a first-root existence certificate."
+    },
+    {
+      "width": 49,
+      "height": 33,
+      "z": -6,
+      "time": 8,
+      "high": 1,
+      "ray": 809,
+      "gpu_depth_hit_iterations_residual": [
+        34.128604888916016,
+        1.0,
+        51.0,
+        8.821487426757812e-06
+      ],
+      "saved_gradient_directional_bound": [
+        -0.044347431510686874,
+        -0.04277846962213516,
+        0.7768088579177856,
+        9.003372192382812
+      ],
+      "saved_point_footprint": [
+        1.4081889390945435,
+        1.7000000476837158,
+        -40.09954071044922,
+        0.057550087571144104
+      ],
+      "cpu_ray": [
+        0.04126127139193983,
+        0.0,
+        -0.9991483911227205
+      ],
+      "cpu_ray_point_minus_saved_gpu_point": [
+        6.894553048475416e-07,
+        -4.768371586472142e-08,
+        4.4425767953271134e-08
+      ],
+      "counts_cheap_full_skips_refinements": [
+        43,
+        32,
+        11,
+        0
+      ],
+      "termination_inference": "No bisection branch: zero refinement calls and saved hit flag.",
+      "saved_residual_over_cpu_ray_slope": 1.1339005784446343e-05,
+      "expanded_leaf_jets": {
+        "parentF": [
+          -0.21388466656208038,
+          0.07753641903400421,
+          0.8427460789680481,
+          -4.638670444488525
+        ],
+        "parentAxial": [
+          -0.044347431510686874,
+          -0.04277846962213516,
+          0.7768088579177856,
+          -0.1999911665916443
+        ],
+        "parentAngular": [
+          0.09287118911743164,
+          0.03120490536093712,
+          -0.0008609723881818354,
+          -0.8795144557952881
+        ],
+        "parentPositive": [
+          0.1197945773601532,
+          0.012809278443455696,
+          -0.619422435760498,
+          0.27418026328086853
+        ],
+        "parentNegative": [
+          -0.1197945773601532,
+          -0.012809278443455696,
+          0.619422435760498,
+          -0.46418026089668274
+        ],
+        "childF": [
+          -0.21388466656208038,
+          0.07753641903400421,
+          0.8427460789680481,
+          -4.338670253753662
+        ],
+        "childAxial": [
+          -0.044347431510686874,
+          -0.04277846962213516,
+          0.7768088579177856,
+          8.821487426757812e-06
+        ],
+        "childAngular": [
+          0.09287118911743164,
+          0.03120490536093712,
+          -0.0008609723881818354,
+          -0.5995144844055176
+        ],
+        "childPositive": [
+          0.13382337987422943,
+          0.0219682976603508,
+          -0.7973854541778564,
+          -0.0007008537650108337
+        ],
+        "childNegative": [
+          -0.13382337987422943,
+          -0.0219682976603508,
+          0.7973854541778564,
+          -0.12329914420843124
+        ],
+        "backingF": [
+          -0.21388466656208038,
+          0.07753641903400421,
+          0.8427460789680481,
+          5.361329555511475
+        ]
+      },
+      "not_recorded": [
+        "GPU ray vector",
+        "termination-time sampleValue",
+        "pre-hit bracket/history",
+        "CPU reference scan values or minimum",
+        "CPU leaves at missing reference"
+      ],
+      "cause": "Unresolved; local residual acceptance is not a first-root existence certificate."
+    }
+  ]
+}

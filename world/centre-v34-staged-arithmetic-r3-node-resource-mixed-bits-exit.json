@@ -1,0 +1,9 @@
+{
+  "actual_exit": 0,
+  "launcher_error": null,
+  "timed_out": false,
+  "launch_sha256": "ae5e4c5e359417579c57d826a3bd315bc61ea997d5d60635c35e0fa4f538577e",
+  "source_sha256": "e991d1747efa582c1accedc68e9a7c32a81d9aeec34163179f938a3fdd33b52b",
+  "stdout_sha256": "44836231f7d8c5d47cabd6abf6c404aed6c680452a58461ed8169c5719d50fe3",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

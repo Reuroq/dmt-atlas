@@ -1,0 +1,13 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "float-constant",
+      "op": "shader-deleted",
+      "shader": "vertexShader",
+      "query": true
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "347f4be5c9c99587f4735c5344ed7ea4425ae7fe9503c97b9f8b75a882dcb349"
+}

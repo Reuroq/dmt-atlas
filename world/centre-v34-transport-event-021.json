@@ -1,0 +1,27 @@
+{
+  "kind": "case-intent",
+  "payload": {
+    "name": "local",
+    "mode": "local",
+    "payload": null,
+    "wire": {
+      "value": {
+        "v": "null"
+      },
+      "handles": []
+    },
+    "sourceBits": [
+      0,
+      2147483648,
+      1065353216,
+      3212836864
+    ],
+    "wireDecodedBits": [
+      0,
+      2147483648,
+      1065353216,
+      3212836864
+    ]
+  },
+  "previous_sha256": "c8e88c703f1a3d6baf2db36bc185fd261611e420b08fd14e2f93069235613943"
+}

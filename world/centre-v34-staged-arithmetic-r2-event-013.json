@@ -1,0 +1,7 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "op": "unmasked-renderer"
+  },
+  "previous_sha256": "9b4e917158939283fcabd25717b3ee49ce28d9072fcd2bcf6308f77b152ff58e"
+}

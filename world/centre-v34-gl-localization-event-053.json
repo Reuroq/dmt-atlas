@@ -1,0 +1,11 @@
+{
+  "kind": "assessment",
+  "payload": {
+    "step": {
+      "name": "byte-constant",
+      "op": "read-raw"
+    },
+    "classification": "ok"
+  },
+  "previous_sha256": "6a13bdba2f4752e8ec969cfeb891645df96ef54a080baf04dd9ed496d194d262"
+}

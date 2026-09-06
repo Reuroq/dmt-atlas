@@ -1,0 +1,11 @@
+{
+  "kind": "step-intent",
+  "payload": {
+    "name": "childAngular",
+    "leaf": 1,
+    "arm": "uniform",
+    "op": "shader-log",
+    "shader": "vertexShader"
+  },
+  "previous_sha256": "42d9077134ca94067ae40016ec43c4bdc16c340eca27c38d9e8c6ef5981f1029"
+}
