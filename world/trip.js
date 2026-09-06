@@ -37,7 +37,7 @@ renderer.setPixelRatio(Math.min(devicePixelRatio,F.quality==='high'?1.5:1)); ren
 // Adaptive render scale: the stage shaders were tuned on a software renderer, so a
 // real GPU meets a few (the chrysanthemum fold field) that cannot hold 60 Hz at full
 // resolution. Step the pixel ratio down while frames run long, back up when they don't.
-let prTarget=Math.min(devicePixelRatio,F.quality==='high'?1.5:1),prNow=prTarget,frameEma=16,prCooldown=0;const prMemo={};
+let prTarget=Math.min(devicePixelRatio,F.quality==='high'?1.5:1),prNow=prTarget,frameEma=16,prCooldown=0;const prMemo={},prBad={};
 function setPR(v){prNow=v;renderer.setPixelRatio(v);renderer.setSize(innerWidth,innerHeight);if(typeof composite!=='undefined')composite.resize();drawInvalidated=true;}
 renderer.outputColorSpace=T.SRGBColorSpace; renderer.toneMapping=T.ACESFilmicToneMapping; renderer.toneMappingExposure=1.2;
 const scene=new T.Scene(), camera=new T.PerspectiveCamera(68,innerWidth/innerHeight,.06,180);
@@ -668,7 +668,7 @@ document.querySelectorAll('[data-move]').forEach(b=>{b.addEventListener('pointer
 function resize(){camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight);composite.resize();drawInvalidated=true;}
 addEventListener('resize',resize);
 function detailUI(){$('detail').textContent=`Detail: ${F.quality==='high'?'high':'lower'}`;$('detail').setAttribute('aria-pressed',String(F.quality==='high'));}
-$('detail').addEventListener('click',()=>{F.setQuality(F.quality==='high'?'low':'high');prTarget=Math.min(devicePixelRatio,F.quality==='high'?1.5:.85);setPR(prTarget);frameEma=16;for(const m of materials)if(m.uniforms.detail)m.uniforms.detail.value=F.quality==='high'?6:4;resize();detailUI();});detailUI();
+$('detail').addEventListener('click',()=>{F.setQuality(F.quality==='high'?'low':'high');prTarget=Math.min(devicePixelRatio,F.quality==='high'?1.5:.85);for(const k in prBad)delete prBad[k];for(const k in prMemo)delete prMemo[k];setPR(prTarget);frameEma=16;for(const m of materials)if(m.uniforms.detail)m.uniforms.detail.value=F.quality==='high'?6:4;resize();detailUI();});detailUI();
 $('world').addEventListener('webglcontextlost',e=>{e.preventDefault();paused=true;$('failure').hidden=false;});
 function frame(now){
  requestAnimationFrame(frame);const dt=Math.min((now-lastFrame)/1000,1);lastFrame=now;
@@ -713,8 +713,10 @@ function frame(now){
    if(prCooldown<=0){
     // 60 Hz sits at 16.7 ms; step down once frames run long enough to drop below ~52 fps,
     // step back up only while the display rate is actually being held.
-    if(frameEma>19.5&&prNow>.6){setPR(Math.max(.6,prNow-(frameEma>40?.5:.25)));prMemo[stage.id]=prNow;prCooldown=.6;frameEma=16;}
-    else if(frameEma<17.2&&prNow<prTarget){setPR(Math.min(prTarget,prNow+.25));prMemo[stage.id]=prNow;prCooldown=2.5;frameEma=16;}
+    if(frameEma>19.5&&prNow>.6){prBad[stage.id]=Math.min(prBad[stage.id]??9,prNow);setPR(Math.max(.6,prNow-(frameEma>40?.5:.25)));prMemo[stage.id]=prNow;prCooldown=.6;frameEma=16;}
+    else if(frameEma<17.2&&prNow<prTarget){const next=Math.min(prTarget,prNow+.25);
+     // a level that failed on this stage is never retried: no oscillation between two scales
+     if(next>=(prBad[stage.id]??9)){prCooldown=4;}else{setPR(next);prMemo[stage.id]=prNow;prCooldown=2.5;frameEma=16;}}
    }
   }
  }
