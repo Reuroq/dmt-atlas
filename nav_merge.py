@@ -44,6 +44,7 @@ NAV_ITEMS = [
     ("/motifs/",          "Motifs"),
     ("/crossings/",       "Crossings"),
     ("/journey.html",     "Journey"),
+    ("/world/",           "Walk Through"),  # NEW - the 3D walkthrough (world/index.html)
     ("/themes.html",      "Themes"),
     ("/research/",        "Research"),
     ("/evidence.html",    "Evidence"),

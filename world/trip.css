@@ -2,3 +2,6 @@
 button,a,input{touch-action:manipulation}
 #hud::before{content:"";position:fixed;inset:48% 0 0;pointer-events:none;background:url("hud-alpha-ramp-v18.png") center / 100% 100% no-repeat}.scene-copy{text-shadow:0 1px 3px #000,0 0 10px #000}
 @media (pointer:coarse) and (max-height:500px){.scene-copy{left:18px;top:100px;bottom:auto;max-width:calc(100% - 490px)}.scene-copy h2{font-size:23px}.scene-copy p{font-size:11px}#touchControls{right:18px;bottom:112px}#branchPaths{right:180px;top:90px;bottom:auto;width:245px}#paths{display:grid;grid-template-columns:1fr 1fr}#branchPaths button{font-size:10px;padding:8px}#welcome{top:85px;left:7%;right:7%}#welcome h1{font-size:38px;margin:8px 0}#welcome>.eyebrow{display:none}#welcome p{font-size:11px;margin:8px 0}#welcome .primary{position:absolute;right:0;top:0;margin:0;width:250px}#welcome .check{position:absolute;right:0;top:70px;width:250px;margin:0;font-size:10px}#welcome .small{position:absolute;right:0;top:103px;width:250px;font-size:9px}}
+.backlink{font-size:11px;letter-spacing:.06em;color:#e8d3a6cf;text-decoration:none;white-space:nowrap}
+.backlink:hover{color:#ffe6b4;text-decoration:underline}
+@media(max-width:600px){.backlink{font-size:10px}}

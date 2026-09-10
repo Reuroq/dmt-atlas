@@ -17,4 +17,13 @@ User-agent: CCBot
 User-agent: Amazonbot
 Allow: /
 
+# --- /world/ ('Through'): the experience is crawlable; its build receipts are not ---
+User-agent: *
+Disallow: /world/diagnostic-
+Disallow: /world/gpu_
+Disallow: /world/NOTES
+Disallow: /world/*-candidate.html
+Disallow: /world/*-parent.html
+Disallow: /world/wall.html
+
 Sitemap: https://dmtatlas.com/sitemap.xml

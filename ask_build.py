@@ -25,7 +25,7 @@ OUT_DIR = os.path.join(ROOT, "ask")
 
 NAV = ('<nav class="site-nav"><a href="/entities/">Entities</a><a href="/realms/">Realms</a>'
        '<a href="/geometry/">Geometry</a><a href="/motifs/">Motifs</a><a href="/crossings/">Crossings</a>'
-       '<a href="/journey.html">Journey</a><a href="/themes.html">Themes</a><a href="/research/">Research</a>'
+       '<a href="/journey.html">Journey</a><a href="/world/">Walk Through</a><a href="/themes.html">Themes</a><a href="/research/">Research</a>'
        '<a href="/evidence.html">Evidence</a>'
        '<a href="/library.html">Library</a><a href="/questions.html">Questions</a>'
        '<a href="/identify.html">Identify</a><a href="/ask/" class="active">Ask</a><a class="cta" href="/explore.html">✦ Explore</a></nav>')

@@ -55,6 +55,7 @@ def pct_of(freq: str):
 NAV = [
     ("Entities", "/entities/"), ("Realms", "/realms/"), ("Geometry", "/geometry/"),
     ("Motifs", "/motifs/"), ("Crossings", "/crossings/"), ("Journey", "/journey.html"),
+    ("Walk Through", "/world/"),
     ("Themes", "/themes.html"), ("Research", "/research/"), ("Evidence", "/evidence.html"),
     ("Ownership", "/who-owns-dmt.html"), ("Library", "/library.html"),
 ]
@@ -973,6 +974,7 @@ landscape, and the cited history of the science — searchable and linked to the
     <a class="btn primary" href="/explore.html">✦ Enter the interactive Atlas</a>
     <a class="btn ghost" href="/entities/">Browse the 40 entities</a>
     <a class="btn ghost" href="/identify.html">What did <i>you</i> meet?</a>
+    <a class="btn ghost" href="/world/">▶ Walk through it (3D)</a>
   </div>
   <div class="stats-strip">{stats}</div>
 </div></section>
@@ -981,6 +983,15 @@ landscape, and the cited history of the science — searchable and linked to the
   <p class="sub">Everything in the Atlas is drawn from published books, peer-reviewed studies, and community
   archives — then cross-linked, so every entity knows its realm, its phase, and its sources.</p>
   <div class="grid">{cards}</div>
+</section>
+<section class="home-section section-cards" id="walk-through">
+  <h2>Walk through it</h2>
+  <p class="sub">The same cited material, rendered as a place you move through: a first-person passage of about
+  four minutes, from the chrysanthemum to the return, with every scene's sources one key away. It runs in the
+  browser — nothing to install, no substance involved.</p>
+  <div class="grid"><a class="card" style="--card-accent:var(--c-geometry)" href="/world/">
+<h3>Through — the 3D walkthrough</h3><p>Drag to look, WASD to walk, or let it carry you — the reported
+journey as a place you move through, synthesised from cited descriptions.</p><div class="meta"><span class="count-pill">interactive · ~4 min</span></div></a></div>
 </section>
 {research_promo}
 <section class="home-section section-cards">

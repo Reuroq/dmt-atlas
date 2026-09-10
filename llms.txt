@@ -8,6 +8,7 @@ The DMT Atlas maps what people report and write about the DMT experience, synthe
 - https://dmtatlas.com/ (interactive atlas: constellation, map, journey)
 - https://dmtatlas.com/explore.html
 - https://dmtatlas.com/journey.html
+- https://dmtatlas.com/world/ ("Through" — the journey as a first-person 3D walkthrough in the browser; each scene names the reports it was built from. A synthesis of cited descriptions, not a witness image)
 - https://dmtatlas.com/entities/ (40 reported entity types)
 - https://dmtatlas.com/realms/ (31 reported realms)
 - https://dmtatlas.com/geometry/
