@@ -35,7 +35,16 @@ def open_page(browser, **options):
     page = browser.new_page(**options)
     page.set_default_timeout(20000)
     page.on('pageerror', lambda e: results['errors'].append(str(e)))
-    page.on('console', lambda m: results['errors'].append(m.text) if m.type == 'error' else None)
+    # The routes below deliberately abort every off-origin request so acceptance stays offline.
+    # Chromium reports each abort as a console error ("Failed to load resource: net::ERR_FAILED"),
+    # so counting those makes the harness fail on its own blocking. Harmless while the page had no
+    # external references; once world/index.html gained the site GA tag (c978eea, the go-live
+    # commit) every run tripped `assert not results['errors']`. d054f73 fixed exactly this in
+    # render_visual.py and missed verify.py, which was already dead upstream and so never showed
+    # it. Only this self-inflicted signature is ignored; real page and console errors still count.
+    blocked = lambda t: 'Failed to load resource' in t and 'ERR_FAILED' in t
+    page.on('console', lambda m: results['errors'].append(m.text)
+            if m.type == 'error' and not blocked(m.text) else None)
     # Verify the journey needs no network, without fetching report/depiction links.
     page.route('https://**/*', lambda r: r.abort())
     page.route('http://**/*', lambda r: r.abort())
@@ -69,11 +78,24 @@ def hold_until(page, key, condition, timeout=18000):
 
 def snapshot(page, name):
     # Settle expensive software-rendered frames using the real pause control.
-    resume = diag(page)['entered'] and not diag(page)['paused']
+    entered = diag(page)['entered']
+    resume = entered and not diag(page)['paused']
     if resume:
         page.locator('#pause').click()
     try:
-        page.wait_for_function('!journeyDiagnostics().renderPending', timeout=90000)
+        if entered:
+            page.wait_for_function('!journeyDiagnostics().renderPending', timeout=90000)
+        else:
+            # Before begin() the welcome scene animates by design and togglePause() returns
+            # early while `entered` is false, so nothing can freeze it: 6b6f046 forces
+            # drawInvalidated true on every unfrozen frame, which pins renderPending true
+            # forever. Waiting for a settled frame here could never return and timed out at
+            # 90 s on the FIRST call, so the whole desktop suite has been dead since that
+            # commit. A pre-entry capture only needs a completed frame, not a settled one.
+            start = page.evaluate('journeyDiagnostics().frames')
+            page.wait_for_function(
+                '(n) => journeyDiagnostics().renderReady && journeyDiagnostics().frames > n + 1',
+                arg=start, timeout=90000)
         capture = HERE / f'journey-{name}.png'
         page.screenshot(path=str(capture), timeout=90000)
         (HERE / 'latest.png').write_bytes(capture.read_bytes())
@@ -85,7 +107,17 @@ def snapshot(page, name):
 def evidence(page):
     d = diag(page)
     assert not d['missingEvidence'], d['missingEvidence']
-    assert d['sourceCount'] > 0 and d['uncitedMeshes'] == 0, d
+    assert d['sourceCount'] > 0, d
+    # uncitedMeshes can never be non-zero: build() stamps the scene bundle onto every drawable
+    # that lacks its own keys, so this asserts the stamp still runs - NOT that anything is
+    # traceable to a specific entry. Never quote it as evidence of provenance coverage.
+    assert d['uncitedMeshes'] == 0, d
+    # The real, falsifiable checks. A drawable carrying a key that resolves to no atlas node is
+    # a broken citation and must fail. The generic/specific split is REPORTED, not asserted:
+    # stages legitimately sit at 100% generic (afterglow is 159 drawables / 1 evidence set) and
+    # authoring per-furnishing provenance by inference would be fabrication (HANDOFF.md D7).
+    assert d['danglingMeshEvidence'] == 0, d
+    assert d['genericMeshes'] + d['specificMeshes'] > 0, d
     assert all(a['evidence'] in d['evidence'] for a in d['actors']), d
     page.locator('#sources').click()
     text = page.locator('#evidenceContent').inner_text()
@@ -180,7 +212,17 @@ def desktop(browser):
         d = stage(page, name)
         out['evidence'].append(evidence(page))
         if name != 'void':
-            assert d['actors'] and all(a['joints'] >= 2 for a in d['actors'])
+            # Articulation is per-builder, not universal. workshop uses create(), which pushes a
+            # pair of arm joints. garden (createContactBeing, "continuous implicit body") and
+            # clinical (createClinicalBeing, "solid insectoid examiner") deliberately push none.
+            # Both landed in decc304 on Sep 6 - the day AFTER 6b6f046 blinded this suite at its
+            # first snapshot - so the old blanket `joints >= 2` never once ran against them and
+            # would have failed if it had. Assert what is actually true: every branch has a being,
+            # and an articulated one is articulated in pairs (a lone joint is a broken rig).
+            assert d['actors'], (name, d)
+            assert all(a['joints'] == 0 or a['joints'] >= 2 for a in d['actors']), (name, d)
+            out.setdefault('branchActors', {})[name] = [
+                {'kind': a['kind'], 'joints': a['joints']} for a in d['actors']]
             if name in ['garden', 'clinical']:
                 hold_until(page, 'w', 'journeyDiagnostics().position[2] < 4')
             else:
@@ -195,8 +237,17 @@ def desktop(browser):
             assert diag(page)['interactions'] > before, (name, a)
             arm = diag(page)['actors'][actor_index]['arm']
             page.wait_for_timeout(750)
-            assert diag(page)['actors'][actor_index]['arm'] != arm
-            assert diag(page)['actors'][actor_index]['engaged']
+            if arm is None:
+                # A continuous-body being has no arm joint, so `arm` is undefined and the old
+                # `!= arm` compared undefined to undefined and could only ever FAIL - it never
+                # ran, because the suite died upstream before decc304 introduced these beings.
+                # Engagement is still checked below; their surface animation is shader-driven
+                # and this suite measures NO per-actor motion for them. Recorded, not faked.
+                out.setdefault('unarticulatedBeings', []).append(
+                    {'branch': name, 'kind': a['kind'], 'motionCovered': False})
+            else:
+                assert diag(page)['actors'][actor_index]['arm'] != arm, (name, a)
+            assert diag(page)['actors'][actor_index]['engaged'], (name, a)
             snapshot(page, name)
         if name == 'workshop':
             # Factory stations must block lateral walking but leave the original exit lane open.
@@ -249,7 +300,20 @@ def desktop(browser):
         out['evidence'].append(evidence(page))
         if name in ['contact', 'download']:
             hold_until(page, 'w', 'journeyDiagnostics().position[2] < 2')
-            assert any(a['engaged'] for a in diag(page)['actors'])
+            # Proximity engages a being within 8 units (animateBeings). A bare assert here
+            # said nothing about WHICH stage or how far away the beings actually were.
+            # Sampling immediately after the walk RACES the page: movement measures held wall
+            # time, so hold_until's keyboard.up() advances the camera inside the key handler,
+            # after the last animation frame. Engagement is evaluated per frame, so the final
+            # step that brings a being inside 8 units can land with no frame left to notice.
+            # Under SwiftShader only ~2 frames render across the whole walk, which is why this
+            # failed on one run and passed on the next. Give it one more frame, then assert.
+            page.wait_for_function('(n) => journeyDiagnostics().frames > n',
+                                   arg=diag(page)['frames'], timeout=20000)
+            d_eng = diag(page)
+            assert any(a['engaged'] for a in d_eng['actors']), (
+                name, d_eng['position'],
+                [(a['kind'], a['dist'], a['engaged']) for a in d_eng['actors']])
         snapshot(page, name)
     assert set(diag(page)['visited']) == set(ROUTE + BRANCHES)
     assert page.locator('#stateText').inner_text() == 'Journey complete'
@@ -395,8 +459,15 @@ def fallback(browser):
       };''')
     page.goto((HERE / 'index.html').as_uri(), wait_until='load')
     assert page.locator('#failure').is_visible()
-    assert page.locator('#failure a').get_attribute('href') == 'evidence.html'
-    page.locator('#failure a').click()
+    # c978eea (go-live) added a second link, "The DMT Atlas" -> /, beside the evidence escape
+    # hatch, so a bare '#failure a' is now two elements and raises a strict-mode violation
+    # instead of checking anything. That commit broke this file twice - the GA tag it also
+    # added made the offline routes log console errors - and neither showed, because 6b6f046
+    # had already killed the run a day earlier. Assert the escape hatch is present among the
+    # links, then click that one specifically.
+    hrefs = page.locator('#failure a').evaluate_all('els => els.map(a => a.getAttribute("href"))')
+    assert 'evidence.html' in hrefs, hrefs
+    page.locator('#failure a[href="evidence.html"]').click()
     assert page.url.endswith('/evidence.html')
     page.close()
     return {'unavailableWebGL': 'visible fallback and working local evidence link'}
