@@ -1,6 +1,6 @@
 {
   "errors": [],
-  "fps_swiftshader": 0.4,
+  "fps_swiftshader": 0.79,
   "checks": [],
   "diagnostics": {
     "stage": "workshop",
@@ -9,13 +9,13 @@
     "paused": false,
     "paced": false,
     "reduced": false,
-    "elapsed": 2.516599999999997,
-    "animTime": 18.304799999809138,
+    "elapsed": 2.516599999999999,
+    "animTime": 15.176200000017833,
     "transition": false,
     "renderReady": true,
     "renderPending": true,
-    "renderedAnimTime": 15.888299999809238,
-    "frames": 9,
+    "renderedAnimTime": 14.559500000017842,
+    "frames": 17,
     "position": [
       0,
       1.7,
@@ -66,16 +66,22 @@
       }
     ],
     "detail": "high",
+    "pixelRatio": 1,
+    "frameEma": 16,
+    "prCooldown": 2,
+    "prBad": {},
+    "prMemo": {},
     "drawCalls": 964,
     "triangles": 2463138,
-    "geometries": 521,
+    "geometries": 527,
     "actors": [
       {
         "kind": "elf",
         "engaged": false,
         "joints": 2,
-        "arm": 0.10569146804736783,
+        "arm": -0.11873401196859437,
         "evidence": "entity|Self-transforming machine elves",
+        "dist": 14.34,
         "screen": [
           489.8668994819107,
           366.1128921482802
@@ -85,8 +91,9 @@
         "kind": "elf",
         "engaged": false,
         "joints": 2,
-        "arm": 0.11021302735438152,
+        "arm": -0.06018819322007282,
         "evidence": "entity|Self-transforming machine elves",
+        "dist": 14.34,
         "screen": [
           710.1331005180892,
           366.1128921482802
@@ -96,8 +103,9 @@
         "kind": "elf",
         "engaged": false,
         "joints": 2,
-        "arm": 0.031327564826174256,
+        "arm": 0.043906850212998214,
         "evidence": "entity|Self-transforming machine elves",
+        "dist": 17.08,
         "screen": [
           600,
           382.5581062527913
@@ -107,8 +115,9 @@
         "kind": "elf",
         "engaged": false,
         "joints": 2,
-        "arm": -0.07126597419919106,
+        "arm": 0.11477406475560602,
         "evidence": "entity|Self-transforming machine elves",
+        "dist": 9.59,
         "screen": [
           229.35975787181496,
           392.58719515743627
@@ -118,14 +127,18 @@
         "kind": "elf",
         "engaged": false,
         "joints": 2,
-        "arm": -0.11992684474764831,
+        "arm": 0.0987825552890568,
         "evidence": "entity|Self-transforming machine elves",
+        "dist": 9.59,
         "screen": [
           970.640242128185,
           392.58719515743627
         ]
       }
     ],
+    "danglingMeshEvidence": 0,
+    "genericMeshes": 4,
+    "specificMeshes": 1074,
     "uncitedMeshes": 0
   },
   "capture_diagnostics": {
@@ -135,13 +148,13 @@
     "paused": true,
     "paced": false,
     "reduced": false,
-    "elapsed": 2.5498999999999996,
-    "animTime": 18.33809999980914,
+    "elapsed": 2.5665000000000004,
+    "animTime": 15.226100000017833,
     "transition": false,
     "renderReady": true,
     "renderPending": false,
-    "renderedAnimTime": 18.33809999980914,
-    "frames": 10,
+    "renderedAnimTime": 15.226100000017833,
+    "frames": 18,
     "position": [
       0,
       1.7,
@@ -192,16 +205,22 @@
       }
     ],
     "detail": "high",
-    "drawCalls": 972,
-    "triangles": 2487522,
+    "pixelRatio": 1,
+    "frameEma": 16,
+    "prCooldown": 2,
+    "prBad": {},
+    "prMemo": {},
+    "drawCalls": 964,
+    "triangles": 2463138,
     "geometries": 527,
     "actors": [
       {
         "kind": "elf",
         "engaged": false,
         "joints": 2,
-        "arm": 0.10716765974561097,
+        "arm": -0.11794559639436171,
         "evidence": "entity|Self-transforming machine elves",
+        "dist": 14.34,
         "screen": [
           489.8668994819107,
           366.1128921482802
@@ -211,8 +230,9 @@
         "kind": "elf",
         "engaged": false,
         "joints": 2,
-        "arm": 0.10890955754440929,
+        "arm": -0.05599708050517541,
         "evidence": "entity|Self-transforming machine elves",
+        "dist": 14.34,
         "screen": [
           710.1331005180892,
           366.1128921482802
@@ -222,8 +242,9 @@
         "kind": "elf",
         "engaged": false,
         "joints": 2,
-        "arm": 0.028230873473493883,
+        "arm": 0.04832890952221788,
         "evidence": "entity|Self-transforming machine elves",
+        "dist": 17.08,
         "screen": [
           600,
           382.5581062527913
@@ -233,8 +254,9 @@
         "kind": "elf",
         "engaged": false,
         "joints": 2,
-        "arm": -0.0738123728161862,
+        "arm": 0.11608054433449873,
         "evidence": "entity|Self-transforming machine elves",
+        "dist": 9.59,
         "screen": [
           229.35975787181496,
           392.58719515743627
@@ -244,18 +266,22 @@
         "kind": "elf",
         "engaged": false,
         "joints": 2,
-        "arm": -0.11999588692199756,
+        "arm": 0.0959847374390006,
         "evidence": "entity|Self-transforming machine elves",
+        "dist": 9.59,
         "screen": [
           970.640242128185,
           392.58719515743627
         ]
       }
     ],
+    "danglingMeshEvidence": 0,
+    "genericMeshes": 4,
+    "specificMeshes": 1074,
     "uncitedMeshes": 0
   },
-  "render_signature": "67cb023e08a7d28610a78558deffd91cda1628bcc02c4c254d54a53689b3235e",
-  "capture_sha256": "e0067758dab2f2abe564f3bc8e5eda17f9bad9694620169ab64ebff7ad632d0b",
-  "file": "realism-workshop-v4.png",
+  "render_signature": "1996affc500c9ce4cc977ea1ab70a6d97371040389b69d97c1d87545ce279fc7",
+  "capture_sha256": "5118961394a5cbf923ac3488b57b0cdf68aaefcdad41863dbfbb592cde222f90",
+  "file": "visual-workshop.png",
   "veil_opacity": 0
 }

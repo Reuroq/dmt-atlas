@@ -167,7 +167,12 @@ with sync_playwright() as p:
         page.wait_for_function('!journeyDiagnostics().renderPending && journeyDiagnostics().renderedAnimTime===journeyDiagnostics().animTime')
         capture_diagnostics = page.evaluate('journeyDiagnostics()')
         assert capture_diagnostics['paused'], 'Capture must be paused'
-        assert not capture_diagnostics['missingEvidence'] and capture_diagnostics['uncitedMeshes'] == 0, 'Uncited capture geometry'
+        assert not capture_diagnostics['missingEvidence'], 'Unresolved evidence keys'
+        # uncitedMeshes is 0 by construction - build() stamps the scene bundle onto every
+        # unlabelled drawable - so it asserts the stamp ran, NOT that anything is traceable.
+        # danglingMeshEvidence can actually fail: a drawable citing a key no atlas node has.
+        assert capture_diagnostics['uncitedMeshes'] == 0, 'Evidence stamp did not run'
+        assert capture_diagnostics['danglingMeshEvidence'] == 0, 'Broken citation on capture geometry'
         if args.temporal_seconds or args.exit_sequence:
             assert capture_diagnostics['detail'] == 'high', 'Temporal review needs actual HIGH detail'
         image_path = HERE / f'{prefix}{label}.png'

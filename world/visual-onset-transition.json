@@ -1,6 +1,6 @@
 {
   "errors": [],
-  "fps_swiftshader": 3.57,
+  "fps_swiftshader": 9.57,
   "checks": [],
   "diagnostics": {
     "stage": "onset",
@@ -9,11 +9,13 @@
     "paused": true,
     "paced": false,
     "reduced": false,
-    "elapsed": 2.9165000000000005,
-    "animTime": 3.8286,
+    "elapsed": 2.549899999999997,
+    "animTime": 2.9104999999761527,
     "transition": true,
     "renderReady": true,
-    "frames": 22,
+    "renderPending": true,
+    "renderedAnimTime": 2.8938999999761528,
+    "frames": 26,
     "position": [
       0,
       1.7,
@@ -44,10 +46,80 @@
       }
     ],
     "detail": "high",
-    "drawCalls": 69,
-    "triangles": 21622,
-    "geometries": 22,
+    "pixelRatio": 1,
+    "frameEma": 16,
+    "prCooldown": 2,
+    "prBad": {},
+    "prMemo": {},
+    "drawCalls": 99,
+    "triangles": 102850,
+    "geometries": 44,
     "actors": [],
+    "danglingMeshEvidence": 0,
+    "genericMeshes": 98,
+    "specificMeshes": 0,
     "uncitedMeshes": 0
-  }
+  },
+  "capture_diagnostics": {
+    "stage": "onset",
+    "routeIndex": 0,
+    "entered": true,
+    "paused": true,
+    "paced": false,
+    "reduced": false,
+    "elapsed": 2.549899999999997,
+    "animTime": 2.9104999999761527,
+    "transition": true,
+    "renderReady": true,
+    "renderPending": false,
+    "renderedAnimTime": 2.9104999999761527,
+    "frames": 27,
+    "position": [
+      0,
+      1.7,
+      6.5
+    ],
+    "yaw": 0,
+    "pitch": 0,
+    "visited": [
+      "onset"
+    ],
+    "entities": [],
+    "interactions": 0,
+    "evidence": [
+      "phase|Inhalation / Onset",
+      "geometry|Breathing & Liquid Surfaces",
+      "geometry|Fractal lattices & jeweled tilings",
+      "geometry|Static Pattern Overlay & filigree",
+      "geometry|TV Static & the Signal-Noise Transition"
+    ],
+    "missingEvidence": [],
+    "sourceCount": 17,
+    "portals": [
+      {
+        "x": 0,
+        "z": -8.95,
+        "width": 3,
+        "target": "next"
+      }
+    ],
+    "detail": "high",
+    "pixelRatio": 1,
+    "frameEma": 16,
+    "prCooldown": 2,
+    "prBad": {},
+    "prMemo": {},
+    "drawCalls": 99,
+    "triangles": 102850,
+    "geometries": 44,
+    "actors": [],
+    "danglingMeshEvidence": 0,
+    "genericMeshes": 98,
+    "specificMeshes": 0,
+    "uncitedMeshes": 0
+  },
+  "render_signature": "1996affc500c9ce4cc977ea1ab70a6d97371040389b69d97c1d87545ce279fc7",
+  "capture_sha256": "a41a8a0a883c896971a9f6fb8f79710608eafddf83eb158ca9852926cf4b8182",
+  "file": "visual-onset-transition.png",
+  "veil_opacity": 0.0510769
 }

@@ -1,6 +1,6 @@
 {
   "errors": [],
-  "fps_swiftshader": 0.0,
+  "fps_swiftshader": 0.4,
   "checks": [],
   "diagnostics": {
     "stage": "clinical",
@@ -9,17 +9,17 @@
     "paused": false,
     "paced": false,
     "reduced": false,
-    "elapsed": 4.816500000000005,
-    "animTime": 18.283400000381352,
+    "elapsed": 2.5166000000000013,
+    "animTime": 16.065199999994,
     "transition": false,
     "renderReady": true,
     "renderPending": true,
-    "renderedAnimTime": 13.466900000381463,
-    "frames": 7,
+    "renderedAnimTime": 15.04849999999401,
+    "frames": 16,
     "position": [
       0,
       1.7,
-      6.9286399993896595
+      11
     ],
     "yaw": 0,
     "pitch": 0,
@@ -61,6 +61,11 @@
       }
     ],
     "detail": "high",
+    "pixelRatio": 1,
+    "frameEma": 16,
+    "prCooldown": 2,
+    "prBad": {},
+    "prMemo": {},
     "drawCalls": 3,
     "triangles": 24,
     "geometries": 7,
@@ -71,12 +76,16 @@
         "joints": 0,
         "arm": null,
         "evidence": "entity|Mantis & insectoid beings",
+        "dist": 13.9,
         "screen": [
           600,
           299.01396301434954
         ]
       }
     ],
+    "danglingMeshEvidence": 0,
+    "genericMeshes": 2,
+    "specificMeshes": 1,
     "uncitedMeshes": 0
   },
   "capture_diagnostics": {
@@ -86,17 +95,17 @@
     "paused": true,
     "paced": false,
     "reduced": false,
-    "elapsed": 4.866500000000006,
-    "animTime": 18.333400000381353,
+    "elapsed": 2.5499000000000005,
+    "animTime": 16.098499999993997,
     "transition": false,
     "renderReady": true,
     "renderPending": false,
-    "renderedAnimTime": 18.333400000381353,
-    "frames": 8,
+    "renderedAnimTime": 16.098499999993997,
+    "frames": 17,
     "position": [
       0,
       1.7,
-      6.9286399993896595
+      11
     ],
     "yaw": 0,
     "pitch": 0,
@@ -138,6 +147,11 @@
       }
     ],
     "detail": "high",
+    "pixelRatio": 1,
+    "frameEma": 16,
+    "prCooldown": 2,
+    "prBad": {},
+    "prMemo": {},
     "drawCalls": 3,
     "triangles": 24,
     "geometries": 7,
@@ -148,16 +162,20 @@
         "joints": 0,
         "arm": null,
         "evidence": "entity|Mantis & insectoid beings",
+        "dist": 13.9,
         "screen": [
           600,
-          256.75209376753526
+          299.01396301434954
         ]
       }
     ],
+    "danglingMeshEvidence": 0,
+    "genericMeshes": 2,
+    "specificMeshes": 1,
     "uncitedMeshes": 0
   },
-  "render_signature": "1c04885e4a0b26e89316b2c24cb48544259b6e30f2478d656bb4be5d8081f023",
-  "capture_sha256": "a177b6d0f121e504ac09a1287f2c36ad226ab3a067a783b6456df9761c487479",
-  "file": "realism-mantis-v4.png",
+  "render_signature": "1996affc500c9ce4cc977ea1ab70a6d97371040389b69d97c1d87545ce279fc7",
+  "capture_sha256": "9d600435d6d4e0b0cf2788e68b7e3c483fd7e794cf7ac069b24cbe400c8438f1",
+  "file": "visual-clinical.png",
   "veil_opacity": 0
 }

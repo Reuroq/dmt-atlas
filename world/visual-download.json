@@ -1,6 +1,6 @@
 {
   "errors": [],
-  "fps_swiftshader": 0.0,
+  "fps_swiftshader": 0.4,
   "checks": [],
   "diagnostics": {
     "stage": "download",
@@ -9,13 +9,13 @@
     "paused": false,
     "paced": false,
     "reduced": false,
-    "elapsed": 1.0666999999999964,
-    "animTime": 17.131800000190683,
+    "elapsed": 2.2832999999999952,
+    "animTime": 17.954899999994005,
     "transition": false,
     "renderReady": true,
     "renderPending": true,
-    "renderedAnimTime": 16.06510000019071,
-    "frames": 9,
+    "renderedAnimTime": 17.554899999994028,
+    "frames": 17,
     "position": [
       0,
       1.7,
@@ -93,6 +93,11 @@
       }
     ],
     "detail": "high",
+    "pixelRatio": 1,
+    "frameEma": 16,
+    "prCooldown": 2,
+    "prBad": {},
+    "prMemo": {},
     "drawCalls": 9,
     "triangles": 10312,
     "geometries": 13,
@@ -103,6 +108,7 @@
         "joints": 0,
         "arm": null,
         "evidence": "entity|Self-transforming machine elves",
+        "dist": 13.43,
         "screen": [
           467.709944348094,
           363.50619154430177
@@ -114,6 +120,7 @@
         "joints": 0,
         "arm": null,
         "evidence": "entity|Self-transforming machine elves",
+        "dist": 13.43,
         "screen": [
           732.2900556519061,
           363.50619154430177
@@ -125,6 +132,7 @@
         "joints": 0,
         "arm": null,
         "evidence": "entity|Self-transforming machine elves",
+        "dist": 15.1,
         "screen": [
           600,
           388.13951225189805
@@ -136,12 +144,16 @@
         "joints": 0,
         "arm": null,
         "evidence": "entity|The Jester / Trickster / Clown",
+        "dist": 15.9,
         "screen": [
           402.32520419830126,
           356.5115449236263
         ]
       }
     ],
+    "danglingMeshEvidence": 0,
+    "genericMeshes": 2,
+    "specificMeshes": 7,
     "uncitedMeshes": 0
   },
   "capture_diagnostics": {
@@ -151,13 +163,13 @@
     "paused": true,
     "paced": false,
     "reduced": false,
-    "elapsed": 3.083299999999995,
-    "animTime": 19.14840000019068,
+    "elapsed": 2.333299999999995,
+    "animTime": 18.004899999994002,
     "transition": false,
     "renderReady": true,
     "renderPending": false,
-    "renderedAnimTime": 19.14840000019068,
-    "frames": 11,
+    "renderedAnimTime": 18.004899999994002,
+    "frames": 18,
     "position": [
       0,
       1.7,
@@ -235,6 +247,11 @@
       }
     ],
     "detail": "high",
+    "pixelRatio": 1,
+    "frameEma": 16,
+    "prCooldown": 2,
+    "prBad": {},
+    "prMemo": {},
     "drawCalls": 9,
     "triangles": 10312,
     "geometries": 13,
@@ -245,6 +262,7 @@
         "joints": 0,
         "arm": null,
         "evidence": "entity|Self-transforming machine elves",
+        "dist": 13.43,
         "screen": [
           467.709944348094,
           363.50619154430177
@@ -256,6 +274,7 @@
         "joints": 0,
         "arm": null,
         "evidence": "entity|Self-transforming machine elves",
+        "dist": 13.43,
         "screen": [
           732.2900556519061,
           363.50619154430177
@@ -267,6 +286,7 @@
         "joints": 0,
         "arm": null,
         "evidence": "entity|Self-transforming machine elves",
+        "dist": 15.1,
         "screen": [
           600,
           388.13951225189805
@@ -278,16 +298,20 @@
         "joints": 0,
         "arm": null,
         "evidence": "entity|The Jester / Trickster / Clown",
+        "dist": 15.9,
         "screen": [
           402.32520419830126,
           356.5115449236263
         ]
       }
     ],
+    "danglingMeshEvidence": 0,
+    "genericMeshes": 2,
+    "specificMeshes": 7,
     "uncitedMeshes": 0
   },
-  "render_signature": "bda15238ea2af172f3490a0380bdcfb61aae402706e8472fe3485b6ed074f3e7",
-  "capture_sha256": "6f4c0f27dac5ebbe5fcaceefb99e54554b33d0a3cfccbd205bc731554e5a17c7",
-  "file": "realism-download-v4.png",
+  "render_signature": "1996affc500c9ce4cc977ea1ab70a6d97371040389b69d97c1d87545ce279fc7",
+  "capture_sha256": "c6608191808883ec9403fe21325b59c57314e02d2856062e8eb5e9f862760a6b",
+  "file": "visual-download.png",
   "veil_opacity": 0
 }

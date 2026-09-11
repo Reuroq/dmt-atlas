@@ -1,6 +1,6 @@
 {
   "errors": [],
-  "fps_swiftshader": 0.0,
+  "fps_swiftshader": 0.4,
   "checks": [],
   "diagnostics": {
     "stage": "contact",
@@ -9,13 +9,13 @@
     "paused": false,
     "paced": false,
     "reduced": false,
-    "elapsed": 0.9998999999999972,
-    "animTime": 13.350599999999988,
+    "elapsed": 1.8333000000000046,
+    "animTime": 15.46550000001787,
     "transition": false,
     "renderReady": true,
     "renderPending": true,
-    "renderedAnimTime": 11.6507,
-    "frames": 6,
+    "renderedAnimTime": 14.998800000017871,
+    "frames": 16,
     "position": [
       0,
       1.7,
@@ -90,6 +90,11 @@
       }
     ],
     "detail": "high",
+    "pixelRatio": 1,
+    "frameEma": 16,
+    "prCooldown": 2,
+    "prBad": {},
+    "prMemo": {},
     "drawCalls": 7,
     "triangles": 10300,
     "geometries": 11,
@@ -100,6 +105,7 @@
         "joints": 0,
         "arm": null,
         "evidence": "entity|Self-transforming machine elves",
+        "dist": 13.43,
         "screen": [
           467.709944348094,
           363.50619154430177
@@ -111,6 +117,7 @@
         "joints": 0,
         "arm": null,
         "evidence": "entity|Self-transforming machine elves",
+        "dist": 13.43,
         "screen": [
           732.2900556519061,
           363.50619154430177
@@ -122,6 +129,7 @@
         "joints": 0,
         "arm": null,
         "evidence": "entity|Self-transforming machine elves",
+        "dist": 15.1,
         "screen": [
           600,
           388.13951225189805
@@ -133,12 +141,16 @@
         "joints": 0,
         "arm": null,
         "evidence": "entity|The Jester / Trickster / Clown",
+        "dist": 15.9,
         "screen": [
           402.32520419830126,
           356.5115449236263
         ]
       }
     ],
+    "danglingMeshEvidence": 0,
+    "genericMeshes": 1,
+    "specificMeshes": 6,
     "uncitedMeshes": 0
   },
   "capture_diagnostics": {
@@ -148,13 +160,13 @@
     "paused": true,
     "paced": false,
     "reduced": false,
-    "elapsed": 2.0166000000000013,
-    "animTime": 14.367299999999991,
+    "elapsed": 2.4333000000000045,
+    "animTime": 16.06550000001787,
     "transition": false,
     "renderReady": true,
     "renderPending": false,
-    "renderedAnimTime": 14.367299999999991,
-    "frames": 8,
+    "renderedAnimTime": 16.06550000001787,
+    "frames": 17,
     "position": [
       0,
       1.7,
@@ -229,6 +241,11 @@
       }
     ],
     "detail": "high",
+    "pixelRatio": 1,
+    "frameEma": 16,
+    "prCooldown": 2,
+    "prBad": {},
+    "prMemo": {},
     "drawCalls": 7,
     "triangles": 10300,
     "geometries": 11,
@@ -239,6 +256,7 @@
         "joints": 0,
         "arm": null,
         "evidence": "entity|Self-transforming machine elves",
+        "dist": 13.43,
         "screen": [
           467.709944348094,
           363.50619154430177
@@ -250,6 +268,7 @@
         "joints": 0,
         "arm": null,
         "evidence": "entity|Self-transforming machine elves",
+        "dist": 13.43,
         "screen": [
           732.2900556519061,
           363.50619154430177
@@ -261,6 +280,7 @@
         "joints": 0,
         "arm": null,
         "evidence": "entity|Self-transforming machine elves",
+        "dist": 15.1,
         "screen": [
           600,
           388.13951225189805
@@ -272,16 +292,20 @@
         "joints": 0,
         "arm": null,
         "evidence": "entity|The Jester / Trickster / Clown",
+        "dist": 15.9,
         "screen": [
           402.32520419830126,
           356.5115449236263
         ]
       }
     ],
+    "danglingMeshEvidence": 0,
+    "genericMeshes": 1,
+    "specificMeshes": 6,
     "uncitedMeshes": 0
   },
-  "render_signature": "22fe4d8926b9a03e365055656553bed9fac4c15616574ee0abc9ca6f20ef72c1",
-  "capture_sha256": "80f99db48f0f6ca08ffbcc3726fd1b4a0a892e1916f5e84270ebd1f77170b3d6",
-  "file": "realism-elf-v4.png",
+  "render_signature": "1996affc500c9ce4cc977ea1ab70a6d97371040389b69d97c1d87545ce279fc7",
+  "capture_sha256": "094d8641075136d325962eb7fbdd5da5c1ca2fd6c01ca9a95db052c2039edc48",
+  "file": "visual-contact.png",
   "veil_opacity": 0
 }

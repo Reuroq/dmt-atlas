@@ -1,6 +1,6 @@
 {
   "errors": [],
-  "fps_swiftshader": 0.0,
+  "fps_swiftshader": 0.4,
   "checks": [],
   "diagnostics": {
     "stage": "cathedral",
@@ -9,13 +9,13 @@
     "paused": false,
     "paced": false,
     "reduced": false,
-    "elapsed": 1.0332000000000003,
-    "animTime": 11.048099999618527,
+    "elapsed": 1.666700000000003,
+    "animTime": 13.22330000001191,
     "transition": false,
     "renderReady": true,
     "renderPending": true,
-    "renderedAnimTime": 9.598199999618542,
-    "frames": 6,
+    "renderedAnimTime": 12.80670000001192,
+    "frames": 16,
     "position": [
       0,
       1.7,
@@ -86,6 +86,11 @@
       }
     ],
     "detail": "high",
+    "pixelRatio": 1,
+    "frameEma": 16,
+    "prCooldown": 2,
+    "prBad": {},
+    "prMemo": {},
     "drawCalls": 31,
     "triangles": 86408,
     "geometries": 21,
@@ -94,8 +99,9 @@
         "kind": "elf",
         "engaged": false,
         "joints": 2,
-        "arm": 0.11998558224879931,
+        "arm": -0.0183906817468671,
         "evidence": "entity|Self-transforming machine elves",
+        "dist": 35.17,
         "screen": [
           548.8540099205708,
           466.35484121048387
@@ -105,14 +111,18 @@
         "kind": "elf",
         "engaged": false,
         "joints": 2,
-        "arm": 0.07604131728956434,
+        "arm": -0.10432060689330633,
         "evidence": "entity|Self-transforming machine elves",
+        "dist": 35.17,
         "screen": [
           651.1459900794292,
           466.35484121048387
         ]
       }
     ],
+    "danglingMeshEvidence": 0,
+    "genericMeshes": 1,
+    "specificMeshes": 30,
     "uncitedMeshes": 0
   },
   "capture_diagnostics": {
@@ -122,13 +132,13 @@
     "paused": true,
     "paced": false,
     "reduced": false,
-    "elapsed": 2.049900000000001,
-    "animTime": 12.064799999618527,
+    "elapsed": 2.400000000000002,
+    "animTime": 13.95660000001191,
     "transition": false,
     "renderReady": true,
     "renderPending": false,
-    "renderedAnimTime": 12.064799999618527,
-    "frames": 8,
+    "renderedAnimTime": 13.95660000001191,
+    "frames": 17,
     "position": [
       0,
       1.7,
@@ -199,6 +209,11 @@
       }
     ],
     "detail": "high",
+    "pixelRatio": 1,
+    "frameEma": 16,
+    "prCooldown": 2,
+    "prBad": {},
+    "prMemo": {},
     "drawCalls": 31,
     "triangles": 86408,
     "geometries": 21,
@@ -207,8 +222,9 @@
         "kind": "elf",
         "engaged": false,
         "joints": 2,
-        "arm": 0.08378897097741297,
+        "arm": -0.08095902801981163,
         "evidence": "entity|Self-transforming machine elves",
+        "dist": 35.17,
         "screen": [
           548.8540099205708,
           466.35484121048387
@@ -218,18 +234,22 @@
         "kind": "elf",
         "engaged": false,
         "joints": 2,
-        "arm": -0.015206450050586184,
+        "arm": -0.1197085848439156,
         "evidence": "entity|Self-transforming machine elves",
+        "dist": 35.17,
         "screen": [
           651.1459900794292,
           466.35484121048387
         ]
       }
     ],
+    "danglingMeshEvidence": 0,
+    "genericMeshes": 1,
+    "specificMeshes": 30,
     "uncitedMeshes": 0
   },
-  "render_signature": "f6253fdbab7d3f01e7e9da65d5a0b728ada402e5f0408abe67f253ebf89919c2",
-  "capture_sha256": "483b6aa6c767774125ae248fcd5bd9d918cbb761359ea23219c818d2ffe005b9",
-  "file": "realism-cathedral-v4.png",
+  "render_signature": "1996affc500c9ce4cc977ea1ab70a6d97371040389b69d97c1d87545ce279fc7",
+  "capture_sha256": "bdb28e40f42fa1897408582936129ec24550ed5bc94a529f9066e2a797d89795",
+  "file": "visual-cathedral.png",
   "veil_opacity": 0
 }

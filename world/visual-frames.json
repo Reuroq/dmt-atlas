@@ -1,0 +1,61 @@
+{
+  "rendered_at_commit": "e7048f90a9f6648b388e8bd21683996894b3b537",
+  "scene_sources": {
+    "trip.js": "38120c948cf270026d02b61b60832206658e784e474adab52a4d73c42b577bf4",
+    "fractal.js": "380a8e434558261e48977656278b49081622064a543e9b5c4a3f6d96258e1de4",
+    "continuum.js": "5d880790694194431be24d5b2cb527088fcd330189681d1afea7c212a02d8a56",
+    "beings.js": "69b2c71b7a1b570dba5cbf1aacb4b169cc74dc36f0804aaada2020fef817cb2f",
+    "index.html": "f183646052011b1c4206a4f24006fad58bb4fed1cfb1c2c1001f32251b1473c1"
+  },
+  "frames": {
+    "visual-cathedral.png": {
+      "sha256": "bdb28e40f42fa1897408582936129ec24550ed5bc94a529f9066e2a797d89795",
+      "bytes": 1483985
+    },
+    "visual-chrysanthemum.png": {
+      "sha256": "fb69b3aaa9b8e9013b161626082824b2c8b88ecc87870468c268c8ac8c35c1e5",
+      "bytes": 1745606
+    },
+    "visual-clinical.png": {
+      "sha256": "9d600435d6d4e0b0cf2788e68b7e3c483fd7e794cf7ac069b24cbe400c8438f1",
+      "bytes": 1223371
+    },
+    "visual-contact.png": {
+      "sha256": "094d8641075136d325962eb7fbdd5da5c1ca2fd6c01ca9a95db052c2039edc48",
+      "bytes": 1599866
+    },
+    "visual-download.png": {
+      "sha256": "c6608191808883ec9403fe21325b59c57314e02d2856062e8eb5e9f862760a6b",
+      "bytes": 1596590
+    },
+    "visual-garden.png": {
+      "sha256": "80dc85cf21aaea2393dd8a521e6dd66ed1756bbab51368f597c4ac34a436c928",
+      "bytes": 1346315
+    },
+    "visual-geometry.png": {
+      "sha256": "7c8e2449634e3473be7ae0c809c2fa1c9a151c09cf1b358abcad03b983c613a3",
+      "bytes": 1643353
+    },
+    "visual-membrane.png": {
+      "sha256": "6970fba6a7a8f85ab7f4ba7afbd33d58a38bce604d3d256054cd43d600e95f36",
+      "bytes": 1550741
+    },
+    "visual-onset-transition.png": {
+      "sha256": "a41a8a0a883c896971a9f6fb8f79710608eafddf83eb158ca9852926cf4b8182",
+      "bytes": 886594
+    },
+    "visual-rush.png": {
+      "sha256": "881c4e8f3a0c68c34f8c2bf04534cc0d4fc20c0772249669c610dedc443978d2",
+      "bytes": 1516245
+    },
+    "visual-void.png": {
+      "sha256": "3168474f552a55d2a9941ac4662068bac725470bfb279719a4802ddebf24389d",
+      "bytes": 185117
+    },
+    "visual-workshop.png": {
+      "sha256": "5118961394a5cbf923ac3488b57b0cdf68aaefcdad41863dbfbb592cde222f90",
+      "bytes": 2127940
+    }
+  },
+  "note": "Frames are only comparable to the scenes that produced them. If any scene_sources hash no longer matches the working tree, RE-RENDER before measuring. The set committed on 2026-09-04 went stale in BOTH directions: across 9 stages MATERIAL measured +0.094 and VARIETY +0.036 against fresh renders, but DETAIL -0.107."
+}
