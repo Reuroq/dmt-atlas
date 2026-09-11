@@ -1,5 +1,5 @@
 {
-  "rendered_at_commit": "e7048f90a9f6648b388e8bd21683996894b3b537",
+  "rendered_at_commit": "34f148fafe78c6a50095ec6ac77037a14567d9a2",
   "scene_sources": {
     "trip.js": "38120c948cf270026d02b61b60832206658e784e474adab52a4d73c42b577bf4",
     "fractal.js": "380a8e434558261e48977656278b49081622064a543e9b5c4a3f6d96258e1de4",
@@ -37,8 +37,8 @@
       "bytes": 1643353
     },
     "visual-membrane.png": {
-      "sha256": "6970fba6a7a8f85ab7f4ba7afbd33d58a38bce604d3d256054cd43d600e95f36",
-      "bytes": 1550741
+      "sha256": "387b2b43c6ed29dba9044365ec2235eca91b524a6224ddd6ff9d922aad8ff27f",
+      "bytes": 1556198
     },
     "visual-onset-transition.png": {
       "sha256": "a41a8a0a883c896971a9f6fb8f79710608eafddf83eb158ca9852926cf4b8182",
@@ -49,8 +49,8 @@
       "bytes": 1516245
     },
     "visual-void.png": {
-      "sha256": "3168474f552a55d2a9941ac4662068bac725470bfb279719a4802ddebf24389d",
-      "bytes": 185117
+      "sha256": "fec83a52df1d227dc570e564a9c5e030be1d87023e06cdeab4d7339ccf5ac94a",
+      "bytes": 185913
     },
     "visual-workshop.png": {
       "sha256": "5118961394a5cbf923ac3488b57b0cdf68aaefcdad41863dbfbb592cde222f90",
