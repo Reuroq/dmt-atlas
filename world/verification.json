@@ -1,6 +1,10 @@
 {
   "errors": [],
   "sections": {
+    "assets": {
+      "referencedSameOrigin": 18,
+      "allCommitted": true
+    },
     "desktop": {
       "evidence": [
         {
@@ -357,13 +361,13 @@
         "paused": false,
         "paced": false,
         "reduced": false,
-        "elapsed": 0.09989999999999417,
-        "animTime": 109.98860000000668,
+        "elapsed": 0.3997999999999884,
+        "animTime": 109.1671000000125,
         "transition": false,
         "renderReady": true,
         "renderPending": false,
-        "renderedAnimTime": 109.98860000000668,
-        "frames": 205,
+        "renderedAnimTime": 109.1671000000125,
+        "frames": 198,
         "position": [
           0,
           1.7,
@@ -462,7 +466,7 @@
         "return",
         "afterglow"
       ],
-      "wallSeconds": 244.8,
+      "wallSeconds": 246.2,
       "complete": {
         "stage": "afterglow",
         "routeIndex": 10,
@@ -470,13 +474,13 @@
         "paused": false,
         "paced": true,
         "reduced": false,
-        "elapsed": 0.7498999999999942,
-        "animTime": 215.4926000000084,
+        "elapsed": 0.7666000000000057,
+        "animTime": 215.40760000000265,
         "transition": false,
         "renderReady": true,
         "renderPending": true,
-        "renderedAnimTime": 215.47600000000838,
-        "frames": 898,
+        "renderedAnimTime": 215.39090000000263,
+        "frames": 848,
         "position": [
           0,
           1.7,
@@ -533,6 +537,6 @@
       "unavailableWebGL": "visible fallback and working local evidence link"
     }
   },
-  "render_signature": "599d4b779a7db10dfd2ed785f353bc6f8f21404bcd3ef849bfdfb2cf07463db7",
+  "render_signature": "42257aa7d319a331e42a0e67fcba30b898b435e397eb3ba830a911ab2f2fa187",
   "passed": true
 }

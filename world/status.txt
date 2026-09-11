@@ -1,1 +1,1 @@
-Journey acceptance passed: desktop, mobile, paced, fallback
+Journey acceptance passed: assets, desktop, mobile, paced, fallback

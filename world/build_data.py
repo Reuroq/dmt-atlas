@@ -42,14 +42,19 @@ used_depictions = {i for n in nodes for i in n['depiction_ids']}
 art = {i: {k: depictions['items'][i].get(k) for k in ['title', 'author', 'permalink', 'kind', 'score']} for i in sorted(used_depictions)}
 bundle = {
     'meta': atlas['meta'], 'nodes': nodes, 'sources': atlas['sources'],
-    'reports': compact_reports, 'n_reports': summary['reports'],
+    'n_reports': summary['reports'],
     'transitions': transitions['transitions'], 'cooccurrence': transitions['cooccurrence'],
-    'saturation': saturation, 'discovery': discovery, 'depictions': art,
+    'saturation': saturation, 'discovery': discovery,
     'depiction_total': depictions['candidates'],
     # Retain only relevant, non-procedural phenomenological study context.
     'study_context': [x for x in atlas['data_points'] if x['source_key'] in ['davis2020', 'lawrence2022', 'lyke2019'] and not any(w in json.dumps(x).lower() for w in ['dose', 'mg', 'synthesis'])],
 }
 (HERE / 'data.js').write_text('window.WORLD_DATA=' + json.dumps(bundle, ensure_ascii=False, separators=(',', ':')) + ';\n', encoding='utf-8')
+# reports + depictions are read ONLY by dossier(), i.e. only once a reader opens the
+# evidence drawer, and they were 69% of the bundle every visitor downloaded up front.
+# They ship separately and trip.js fetches this on idle, so first render does not wait.
+trail = {'reports': compact_reports, 'depictions': art}
+(HERE / 'data-reports.js').write_text('window.WORLD_REPORTS=' + json.dumps(trail, ensure_ascii=False, separators=(',', ':')) + ';\n', encoding='utf-8')
 files = ['data/atlas.json', 'data/corpus/summary.json', 'data/corpus/transitions.json', 'data/corpus/saturation.json', 'data/corpus/discovery.json', 'data/corpus/depictions.json', 'data/corpus/reports.jsonl', 'BUILD.md']
 manifest = {'inputs': {f: hashlib.sha256((ROOT / f).read_bytes()).hexdigest() for f in files}, 'nodes': len(nodes), 'reports': len(reports), 'credited_depictions': len(art)}
 (HERE / 'manifest.json').write_text(json.dumps(manifest, indent=2), encoding='utf-8')

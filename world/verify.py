@@ -76,6 +76,26 @@ def hold_until(page, key, condition, timeout=18000):
         page.keyboard.up(key)
 
 
+def settle_z(page, lo, hi, attempts=10):
+    """Park the camera's z between lo and hi using short taps.
+
+    hold_until cannot do this: it releases the key once the condition is met and the release
+    handler credits the remaining held wall time, so it overshoots by a load-dependent amount
+    (measured 0.119 on an idle machine, 1.056 under load). Short taps keep each correction
+    smaller than the lane, so a narrow approach is reproducible instead of a coin flip.
+    """
+    for _ in range(attempts):
+        z = diag(page)['position'][2]
+        if lo <= z <= hi:
+            return z
+        page.keyboard.down('w' if z > hi else 's')
+        page.wait_for_timeout(60)
+        page.keyboard.up('w' if z > hi else 's')
+    z = diag(page)['position'][2]
+    assert lo <= z <= hi, ('could not park between', lo, hi, 'ended at', z, diag(page))
+    return z
+
+
 def snapshot(page, name):
     # Settle expensive software-rendered frames using the real pause control.
     entered = diag(page)['entered']
@@ -120,6 +140,11 @@ def evidence(page):
     assert d['genericMeshes'] + d['specificMeshes'] > 0, d
     assert all(a['evidence'] in d['evidence'] for a in d['actors']), d
     page.locator('#sources').click()
+    # openEvidence() is async now: the report trail (data-reports.js, 3.35 MB) is fetched
+    # on idle rather than up front, and the drawer awaits it if a reader gets there first.
+    # Reading innerText immediately would race an empty drawer.
+    page.wait_for_function("() => document.querySelectorAll('#evidenceContent .node').length > 0",
+                           timeout=30000)
     text = page.locator('#evidenceContent').inner_text()
     assert 'Evidence entry unavailable' not in text and 'Unresolved citation' not in text, text
     assert page.locator('#evidenceContent .node').count() == len(d['evidence'])
@@ -199,7 +224,14 @@ def desktop(browser):
     page.keyboard.up('d')
     assert diag(page)['position'][0] <= 11.86, diag(page)
     hold_until(page, 'a', 'journeyDiagnostics().position[0] < .1')
-    hold_until(page, 'w', 'journeyDiagnostics().position[2] < 7.6')
+    # The garden side door is the portal at x -22, z 9, width 5, but the band's centre is
+    # NOT walkable - a column base blocks it, and a strafe from z 9.36 stops dead at
+    # x -11.85. The clear lane is around z 7.5, which is what the 7.6 target below has
+    # always encoded. A single hold overshoots it by a load-dependent amount, so park
+    # with taps instead: at z 6.544 the strafe reaches the wall and the portal never
+    # fires. Nothing about the door changed here, only the reliability of the approach.
+    hold_until(page, 'w', 'journeyDiagnostics().position[2] < 8.4')
+    settle_z(page, 7.0, 7.8)
     hold_until(page, 'a', 'journeyDiagnostics().transition')
     stage(page, 'garden')
     out['physicalSideDoor'] = True
@@ -463,18 +495,24 @@ def assets(browser):
     import re
     import subprocess
     referenced = set()
-    for name in ['index.html', 'trip.css', 'fidelity.css']:
+    for name in ['index.html', 'trip.css', 'fidelity.css', 'evidence.html']:
         text = (HERE / name).read_text(encoding='utf-8', errors='ignore')
         referenced |= set(re.findall(r'url\("([^"]+)"\)', text))
         referenced |= set(re.findall(r'(?:src|href)="([^"]+)"', text))
-    local = sorted(r for r in referenced
-                   if not r.startswith(('http', '//', '#', '/', 'data:', 'mailto:')))
-    listing = subprocess.run(['git', 'ls-files', 'world/'], cwd=HERE.parent,
+    # trip.js injects data-reports.js at runtime, so it appears in no markup. A dynamic
+    # src that was never committed 404s exactly like a static one.
+    referenced |= set(re.findall(r"\.src\s*=\s*'([^']+)'", (HERE / 'trip.js').read_text(encoding='utf-8')))
+    # Normalise: references are relative to world/ and may use ./ or ../, so compare
+    # repo-relative paths rather than naive string concatenation.
+    import posixpath
+    local = sorted({posixpath.normpath('world/' + r) for r in referenced
+                    if not r.startswith(('http', '//', '#', '/', 'data:', 'mailto:'))})
+    listing = subprocess.run(['git', 'ls-files'], cwd=HERE.parent,
                              capture_output=True, text=True, check=True)
     tracked = set(listing.stdout.splitlines())
-    missing = [r for r in local if 'world/' + r not in tracked]
+    missing = [r for r in local if r not in tracked]
     assert not missing, ('referenced but not committed - these 404 in production', missing)
-    absent = [r for r in local if not (HERE / r).exists()]
+    absent = [r for r in local if not (HERE.parent / r).exists()]
     assert not absent, ('referenced but not on disk', absent)
     return {'referencedSameOrigin': len(local), 'allCommitted': True}
 
