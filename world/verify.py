@@ -450,6 +450,35 @@ def paced(browser):
     return out
 
 
+def assets(browser):
+    """Every same-origin asset the page references must be COMMITTED, not merely on disk.
+
+    No browser test can catch this class of failure: the file is present locally, so file://
+    acceptance and every local run pass, while production 404s because the file was never
+    added. That is exactly what happened to world/hud-alpha-ramp-v18.png - .gitignore carries
+    a blanket `world/*.png`, the #hud::before readability scrim that references it shipped in
+    6b6f046, and the asset never did. Found on 2026-09-11 by fetching the DEPLOYED page; this
+    check exists so the next one is caught here instead.
+    """
+    import re
+    import subprocess
+    referenced = set()
+    for name in ['index.html', 'trip.css', 'fidelity.css']:
+        text = (HERE / name).read_text(encoding='utf-8', errors='ignore')
+        referenced |= set(re.findall(r'url\("([^"]+)"\)', text))
+        referenced |= set(re.findall(r'(?:src|href)="([^"]+)"', text))
+    local = sorted(r for r in referenced
+                   if not r.startswith(('http', '//', '#', '/', 'data:', 'mailto:')))
+    listing = subprocess.run(['git', 'ls-files', 'world/'], cwd=HERE.parent,
+                             capture_output=True, text=True, check=True)
+    tracked = set(listing.stdout.splitlines())
+    missing = [r for r in local if 'world/' + r not in tracked]
+    assert not missing, ('referenced but not committed - these 404 in production', missing)
+    absent = [r for r in local if not (HERE / r).exists()]
+    assert not absent, ('referenced but not on disk', absent)
+    return {'referencedSameOrigin': len(local), 'allCommitted': True}
+
+
 def fallback(browser):
     page = browser.new_page(viewport={'width': 1000, 'height': 800})
     # Simulate an actual unavailable WebGL context, not application navigation.
@@ -475,9 +504,9 @@ def fallback(browser):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--only', choices=['desktop', 'mobile', 'paced', 'fallback'])
+    parser.add_argument('--only', choices=['desktop', 'mobile', 'paced', 'fallback', 'assets'])
     args = parser.parse_args()
-    sections = [args.only] if args.only else ['desktop', 'mobile', 'paced', 'fallback']
+    sections = [args.only] if args.only else ['assets', 'desktop', 'mobile', 'paced', 'fallback']
     destination = HERE / (f'verification-{args.only}.json' if args.only else 'verification.json')
     try:
         with sync_playwright() as p:
