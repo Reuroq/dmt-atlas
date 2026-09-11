@@ -963,7 +963,7 @@ landscape, and the cited history of the science — searchable and linked to the
 </section>"""
     body = f"""<main>
 <section class="hero"><div class="hero-inner">
-  <img class="flower" src="/assets/img/chrysanthemum.png" alt="" aria-hidden="true"/>
+  <img class="flower" src="/assets/img/chrysanthemum.jpg" width="1024" height="1024" fetchpriority="high" decoding="async" alt="" aria-hidden="true"/>
   <p class="kicker">✦ A CARTOGRAPHY OF THE COLLECTIVE EXPERIENCE ✦</p>
   <h1>The DMT Atlas</h1>
   <p class="lede">The recurring entities, realms, geometry, and journey of the reported DMT experience —
