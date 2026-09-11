@@ -1,0 +1,152 @@
+{
+  "surface": {
+    "options": [],
+    "takes_motions": false
+  },
+  "returnField": {
+    "options": [],
+    "takes_motions": false
+  },
+  "geometryField": {
+    "options": [],
+    "takes_motions": false
+  },
+  "rushField": {
+    "options": [],
+    "takes_motions": false
+  },
+  "membraneField": {
+    "options": [],
+    "takes_motions": false
+  },
+  "waitingField": {
+    "options": [],
+    "takes_motions": false
+  },
+  "cathedralField": {
+    "options": [],
+    "takes_motions": false
+  },
+  "vault": {
+    "options": [
+      "length",
+      "palette",
+      "radius",
+      "rush",
+      "z"
+    ],
+    "takes_motions": true
+  },
+  "mandala": {
+    "options": [
+      "palette",
+      "radius",
+      "z"
+    ],
+    "takes_motions": true
+  },
+  "lattice": {
+    "options": [
+      "height",
+      "palette",
+      "radius",
+      "z"
+    ],
+    "takes_motions": true
+  },
+  "veinMaterial": {
+    "options": [
+      "floral"
+    ],
+    "takes_motions": false
+  },
+  "growth": {
+    "options": [
+      "height",
+      "organic",
+      "palette",
+      "seed",
+      "spread",
+      "x",
+      "y",
+      "z"
+    ],
+    "takes_motions": true
+  },
+  "gardenGround": {
+    "options": [],
+    "takes_motions": false
+  },
+  "gardenDetails": {
+    "options": [],
+    "takes_motions": true
+  },
+  "workshopShell": {
+    "options": [],
+    "takes_motions": false
+  },
+  "workshopDetails": {
+    "options": [],
+    "takes_motions": true
+  },
+  "arcade": {
+    "options": [
+      "height",
+      "palette",
+      "ry",
+      "width",
+      "x",
+      "z"
+    ],
+    "takes_motions": true
+  },
+  "panel": {
+    "options": [
+      "depth",
+      "ground",
+      "h",
+      "palette",
+      "rx",
+      "ry",
+      "w",
+      "x",
+      "y",
+      "z"
+    ],
+    "takes_motions": false
+  },
+  "language": {
+    "options": [],
+    "takes_motions": true
+  },
+  "clinicalField": {
+    "options": [],
+    "takes_motions": false
+  },
+  "cabinet": {
+    "options": [
+      "d",
+      "h",
+      "w",
+      "x",
+      "z"
+    ],
+    "takes_motions": false
+  },
+  "timeLayers": {
+    "options": [
+      "loosening",
+      "palette",
+      "z"
+    ],
+    "takes_motions": true
+  },
+  "compositor": {
+    "options": [],
+    "takes_motions": false
+  },
+  "contactField": {
+    "options": [],
+    "takes_motions": false
+  }
+}

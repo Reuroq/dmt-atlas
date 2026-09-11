@@ -1,0 +1,153 @@
+{
+  "id": "library",
+  "name": "The Library / Hall of Records",
+  "atlas_node": "realm|The Library / Hall of Records",
+  "palette": 0,
+  "hint": "Stacks recede past seeing. The script on the spines will not hold still.",
+  "duration": 24,
+  "entry": {
+    "z": 12
+  },
+  "bounds": {
+    "x": 8,
+    "zMin": -16,
+    "zMax": 11
+  },
+  "evidence": [
+    "realm|The Library / Hall of Records",
+    "geometry|Living language / visible sound",
+    "theme|Information, language & the Logos",
+    "motif|The Download — compressed information transfer"
+  ],
+  "expect": {
+    "VARIETY": [
+      0.6,
+      0.95
+    ],
+    "DETAIL": [
+      0.15,
+      0.75
+    ],
+    "DEPTH": [
+      0.42,
+      0.65
+    ],
+    "MATERIAL": [
+      0.35,
+      0.85
+    ]
+  },
+  "elements": [
+    {
+      "primitive": "panel",
+      "options": {
+        "w": 26,
+        "h": 40,
+        "x": 0,
+        "y": 0,
+        "z": -6,
+        "rx": -1.5708,
+        "palette": 0,
+        "depth": 0.35,
+        "ground": true
+      },
+      "cites": "realm|The Library / Hall of Records",
+      "because": "A reading room is walked, not floated through; a ground plane gives the stacks something to stand on and the traveller a floor to cross."
+    },
+    {
+      "primitive": "lattice",
+      "options": {
+        "radius": 13,
+        "z": -8,
+        "height": 12,
+        "palette": 0
+      },
+      "cites": "realm|The Library / Hall of Records",
+      "because": "\"tiered galleries\" rising around the reader - a lattice gives the storeys their repeating vertical structure without enclosing the hall in a tunnel the way a vault does."
+    },
+    {
+      "primitive": "arcade",
+      "options": {
+        "x": -7.5,
+        "z": -4,
+        "width": 15,
+        "height": 11,
+        "ry": 1.5708,
+        "palette": 0
+      },
+      "cites": "realm|The Library / Hall of Records",
+      "because": "\"tiered galleries\" - a repeating bay structure down one side reads as stacked reading levels rather than a single storey."
+    },
+    {
+      "primitive": "arcade",
+      "options": {
+        "x": 7.5,
+        "z": -4,
+        "width": 15,
+        "height": 11,
+        "ry": -1.5708,
+        "palette": 0
+      },
+      "cites": "realm|The Library / Hall of Records",
+      "because": "\"tiered galleries\" - the facing side, so the traveller walks a nave between two galleries as the reports describe wandering among the stacks."
+    },
+    {
+      "primitive": "cabinet",
+      "options": {
+        "x": -5.2,
+        "z": -6,
+        "w": 2.2,
+        "h": 6.5,
+        "d": 26
+      },
+      "cites": "realm|The Library / Hall of Records",
+      "because": "\"shelves and stacks\" - a long shelf block running with the hall; depth is set from the vault length so the stacks run out past where the eye resolves them."
+    },
+    {
+      "primitive": "cabinet",
+      "options": {
+        "x": 5.2,
+        "z": -6,
+        "w": 2.2,
+        "h": 6.5,
+        "d": 26
+      },
+      "cites": "realm|The Library / Hall of Records",
+      "because": "\"stacks receding beyond sight\" - the opposing rank, which is what makes the recession legible as repetition rather than as one wall."
+    },
+    {
+      "primitive": "panel",
+      "options": {
+        "w": 13,
+        "h": 9,
+        "x": 0,
+        "y": 4.2,
+        "z": -15.4,
+        "palette": 0,
+        "depth": 0.9
+      },
+      "cites": "realm|The Library / Hall of Records",
+      "because": "\"volumes whose covers and pages carry living, self-rearranging script\" - a deep relief face closing the far end, so the recession terminates in worked surface instead of empty fog."
+    },
+    {
+      "primitive": "language",
+      "options": {},
+      "cites": "geometry|Living language / visible sound",
+      "because": "The atlas records \"ancient language or hieroglyphics repeatedly observed\" in the 36-interview field corpus, and this realm's description makes that script \"the substance of an entire place\" - so the living-script primitive is the room's content, not decoration on it."
+    },
+    {
+      "primitive": "panel",
+      "options": {
+        "w": 22,
+        "h": 13,
+        "x": 0,
+        "y": 5,
+        "z": -19,
+        "palette": 0,
+        "depth": 1.1
+      },
+      "cites": "realm|The Library / Hall of Records",
+      "because": "\"stacks receding beyond sight\" needs the recession to end in worked surface rather than fog, so a wide deep-relief face closes the far end of the hall."
+    }
+  ]
+}
