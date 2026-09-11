@@ -42,7 +42,14 @@ with sync_playwright() as p:
     page = browser.new_page(viewport={'width': args.width, 'height': args.height}, device_scale_factor=1)
     page.set_default_timeout(90000)
     page.on('pageerror', lambda e: errors.append(str(e)))
-    page.on('console', lambda m: errors.append(m.text) if m.type == 'error' else None)
+    # The two routes below deliberately abort every off-origin request so the capture stays offline.
+    # Chromium reports each abort as a console error ("Failed to load resource: net::ERR_FAILED"),
+    # so counting those would make the harness fail on its own blocking. Harmless while the page had
+    # no external references; once world/index.html gained the site GA tag (commit c978eea, the
+    # go-live wiring) every run tripped `assert not errors` and branch stages were never reached.
+    # Only this exact self-inflicted signature is ignored; real page and console errors still count.
+    blocked = lambda t: 'Failed to load resource' in t and 'ERR_FAILED' in t
+    page.on('console', lambda m: errors.append(m.text) if m.type == 'error' and not blocked(m.text) else None)
     page.route('https://**/*', lambda r: r.abort())
     page.route('http://**/*', lambda r: r.abort())
     page.goto((HERE / 'index.html').as_uri())
