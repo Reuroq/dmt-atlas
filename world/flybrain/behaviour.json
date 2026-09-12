@@ -1,0 +1,326 @@
+{
+  "elf": {
+    "being": "elf",
+    "entity": "Self-transforming machine elves",
+    "cites": "entity|Self-transforming machine elves",
+    "ladder": [
+      {
+        "rung": 0,
+        "descendingRate": [
+          0.0005,
+          0.01598
+        ],
+        "says": "Greet the visitor with exuberant delight ('we're so glad to see you')",
+        "from_field": "behavior",
+        "cites": "entity|Self-transforming machine elves",
+        "reached_at_distance": 4.24
+      },
+      {
+        "rung": 1,
+        "descendingRate": [
+          0.01598,
+          0.03135
+        ],
+        "says": "crowd forward",
+        "from_field": "behavior",
+        "cites": "entity|Self-transforming machine elves",
+        "reached_at_distance": 3.59
+      },
+      {
+        "rung": 2,
+        "descendingRate": [
+          0.03135,
+          0.04995
+        ],
+        "says": "leap in and out of the chest to reassure",
+        "from_field": "behavior",
+        "cites": "entity|Self-transforming machine elves",
+        "reached_at_distance": 2.94
+      },
+      {
+        "rung": 3,
+        "descendingRate": [
+          0.04995,
+          0.07387
+        ],
+        "says": "frantically sing impossible objects into existence",
+        "from_field": "behavior",
+        "cites": "entity|Self-transforming machine elves",
+        "reached_at_distance": 2.5
+      },
+      {
+        "rung": 4,
+        "descendingRate": [
+          0.07387,
+          1
+        ],
+        "says": "urging the visitor to do the same",
+        "from_field": "behavior",
+        "cites": "entity|Self-transforming machine elves",
+        "reached_at_distance": 1.85
+      }
+    ],
+    "ambient": {
+      "communication": [
+        "A visible language: 'it is sound, but you see it.' Objects condensed out of colored speech",
+        "a telepathic 'upload.'"
+      ],
+      "emotional_tone": [
+        "Joyful",
+        "comic",
+        "frantic",
+        "overwhelming",
+        "bordering on McKenna's 'death by astonishment.'"
+      ]
+    },
+    "all_cited_phrases": 5,
+    "calibration": {
+      "method": "measured sweep of the FlyWire slice across the approach, not an assumed curve",
+      "samples": 60,
+      "far": 14,
+      "near": 1.2,
+      "maxDescendingRate": 0.07688,
+      "firstResponseAtDistance": 4.24
+    }
+  },
+  "jester": {
+    "being": "jester",
+    "entity": "The Jester / Trickster / Clown",
+    "cites": "entity|The Jester / Trickster / Clown",
+    "ladder": [
+      {
+        "rung": 0,
+        "descendingRate": [
+          0.0005,
+          0.01156
+        ],
+        "says": "Playful",
+        "from_field": "behavior",
+        "cites": "entity|The Jester / Trickster / Clown",
+        "reached_at_distance": 4.24
+      },
+      {
+        "rung": 1,
+        "descendingRate": [
+          0.01156,
+          0.02534
+        ],
+        "says": "mischievous",
+        "from_field": "behavior",
+        "cites": "entity|The Jester / Trickster / Clown",
+        "reached_at_distance": 3.8
+      },
+      {
+        "rung": 2,
+        "descendingRate": [
+          0.02534,
+          0.04046
+        ],
+        "says": "performative",
+        "from_field": "behavior",
+        "cites": "entity|The Jester / Trickster / Clown",
+        "reached_at_distance": 3.15
+      },
+      {
+        "rung": 3,
+        "descendingRate": [
+          0.04046,
+          0.05779
+        ],
+        "says": "pull the visitor into a shared 'show,' flash information-dense cards/objects",
+        "from_field": "behavior",
+        "cites": "entity|The Jester / Trickster / Clown",
+        "reached_at_distance": 2.72
+      },
+      {
+        "rung": 4,
+        "descendingRate": [
+          0.05779,
+          0.07661
+        ],
+        "says": "direct attention",
+        "from_field": "behavior",
+        "cites": "entity|The Jester / Trickster / Clown",
+        "reached_at_distance": 2.28
+      },
+      {
+        "rung": 5,
+        "descendingRate": [
+          0.07661,
+          1
+        ],
+        "says": "can tip from liberating fun into mockery or cruelty",
+        "from_field": "behavior",
+        "cites": "entity|The Jester / Trickster / Clown",
+        "reached_at_distance": 1.63
+      }
+    ],
+    "ambient": {
+      "communication": [
+        "Telepathy plus visual metaphor",
+        "flashing 'hyperspace tarot cards'",
+        "objects that carry information"
+      ],
+      "emotional_tone": [
+        "Mischief",
+        "hilarity",
+        "occasional unease",
+        "humor that can liberate or humble"
+      ]
+    },
+    "all_cited_phrases": 6,
+    "calibration": {
+      "method": "measured sweep of the FlyWire slice across the approach, not an assumed curve",
+      "samples": 60,
+      "far": 14,
+      "near": 1.2,
+      "maxDescendingRate": 0.07688,
+      "firstResponseAtDistance": 4.24
+    }
+  },
+  "mother": {
+    "being": "mother",
+    "entity": "The Divine Feminine",
+    "cites": "entity|The Divine Feminine",
+    "ladder": [
+      {
+        "rung": 0,
+        "descendingRate": [
+          0.0005,
+          0.01598
+        ],
+        "says": "Enfolds",
+        "from_field": "behavior",
+        "cites": "entity|The Divine Feminine",
+        "reached_at_distance": 4.24
+      },
+      {
+        "rung": 1,
+        "descendingRate": [
+          0.01598,
+          0.03135
+        ],
+        "says": "reassures",
+        "from_field": "behavior",
+        "cites": "entity|The Divine Feminine",
+        "reached_at_distance": 3.59
+      },
+      {
+        "rung": 2,
+        "descendingRate": [
+          0.03135,
+          0.04995
+        ],
+        "says": "heals",
+        "from_field": "behavior",
+        "cites": "entity|The Divine Feminine",
+        "reached_at_distance": 2.94
+      },
+      {
+        "rung": 3,
+        "descendingRate": [
+          0.04995,
+          0.07387
+        ],
+        "says": "'caresses away all pain and tears,' shows the visitor their wounds",
+        "from_field": "behavior",
+        "cites": "entity|The Divine Feminine",
+        "reached_at_distance": 2.5
+      },
+      {
+        "rung": 4,
+        "descendingRate": [
+          0.07387,
+          1
+        ],
+        "says": "holds them so the pain can dissolve",
+        "from_field": "behavior",
+        "cites": "entity|The Divine Feminine",
+        "reached_at_distance": 1.85
+      }
+    ],
+    "ambient": {
+      "communication": [
+        "Wordless transmission of love",
+        "knowing",
+        "acceptance"
+      ],
+      "emotional_tone": [
+        "Overwhelming love",
+        "tenderness",
+        "homecoming",
+        "sometimes stern correction"
+      ]
+    },
+    "all_cited_phrases": 5,
+    "calibration": {
+      "method": "measured sweep of the FlyWire slice across the approach, not an assumed curve",
+      "samples": 60,
+      "far": 14,
+      "near": 1.2,
+      "maxDescendingRate": 0.07688,
+      "firstResponseAtDistance": 4.24
+    }
+  },
+  "mantis": {
+    "being": "mantis",
+    "entity": "Mantis & insectoid beings",
+    "cites": "entity|Mantis & insectoid beings",
+    "ladder": [
+      {
+        "rung": 0,
+        "descendingRate": [
+          0.0005,
+          0.02534
+        ],
+        "says": "Clinical and surgeon-like",
+        "from_field": "behavior",
+        "cites": "entity|Mantis & insectoid beings",
+        "reached_at_distance": 4.24
+      },
+      {
+        "rung": 1,
+        "descendingRate": [
+          0.02534,
+          0.05779
+        ],
+        "says": "'leaning over you doing some weird operation on your brain,' performing examinations or procedures",
+        "from_field": "behavior",
+        "cites": "entity|Mantis & insectoid beings",
+        "reached_at_distance": 3.15
+      },
+      {
+        "rung": 2,
+        "descendingRate": [
+          0.05779,
+          1
+        ],
+        "says": "sometimes 'harvesting emotions.'",
+        "from_field": "behavior",
+        "cites": "entity|Mantis & insectoid beings",
+        "reached_at_distance": 2.28
+      }
+    ],
+    "ambient": {
+      "communication": [
+        "Telepathic and businesslike",
+        "can 'telepathically reassure everything will be alright' even mid-procedure"
+      ],
+      "emotional_tone": [
+        "detached",
+        "awe shaded with apprehension",
+        "not warm",
+        "but often not hostile"
+      ]
+    },
+    "all_cited_phrases": 3,
+    "calibration": {
+      "method": "measured sweep of the FlyWire slice across the approach, not an assumed curve",
+      "samples": 60,
+      "far": 14,
+      "near": 1.2,
+      "maxDescendingRate": 0.07688,
+      "firstResponseAtDistance": 4.24
+    }
+  }
+}
