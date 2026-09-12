@@ -92,8 +92,32 @@
     }
     this.vpIndex = Int32Array.from(this.vpIndex);
     this.dnIndex = Int32Array.from(this.dnIndex);
+
+    // Where this individual's sensory drive lands on the visual sheet, and how broadly.
+    // All entities share one wiring diagram - there is only one fly connectome, and
+    // pretending otherwise would be a lie - so what makes them different individuals is
+    // physiology: excitability, leak, noise floor, and this receptive patch.
+    this.sensoryPhase = opts.sensoryPhase != null ? opts.sensoryPhase : 0.5;
+    this.sensorySpread = opts.sensorySpread != null ? opts.sensorySpread : 0.75;
+    this.sensoryWeight = new Float32Array(this.vpIndex.length);
+    this.retune();
     this.steps = 0;
   }
+
+  // A stable position in 0..1 for each visual neuron, so a given entity always sees through
+  // the same part of the sheet. Hash-derived rather than anatomical: this export carries no
+  // retinotopic coordinates, so it must not be described as a visual field position.
+  Brain.prototype.retune = function () {
+    const vp = this.vpIndex, w = this.sensoryWeight;
+    const phase = this.sensoryPhase;
+    const sigma = Math.max(0.06, this.sensorySpread * 0.5);
+    for (let k = 0; k < vp.length; k++) {
+      const u = (((vp[k] * 2654435761) >>> 8) & 1023) / 1023;
+      let d = Math.abs(u - phase);
+      if (d > 0.5) d = 1 - d;                       // the sheet wraps
+      w[k] = Math.exp(-(d * d) / (2 * sigma * sigma));
+    }
+  };
 
   // drive: 0..1, how strongly the visual layer is being excited this step. The caller decides
   // what that means physically; this function only knows it as current into the visual sheet.
@@ -101,14 +125,11 @@
     const n = this.n, v = this.v, inbox = this.inbox, ref = this.refractory;
     const spiked = this.spiked, rate = this.rate, csr = this.csr;
 
-    // Sensory current. Spread across the visual projection layer with a fixed per-neuron
-    // offset so the sheet does not fire as one block - a real optic lobe does not.
+    // Sensory current, landing on this individual's receptive patch rather than on the whole
+    // sheet at once - a real optic lobe does not fire as one block.
     if (drive > 0) {
-      const vp = this.vpIndex;
-      for (let k = 0; k < vp.length; k++) {
-        const i = vp[k];
-        inbox[i] += drive * (0.55 + 0.9 * (((i * 2654435761) >>> 8 & 1023) / 1023));
-      }
+      const vp = this.vpIndex, sw = this.sensoryWeight;
+      for (let k = 0; k < vp.length; k++) inbox[vp[k]] += drive * sw[k];
     }
 
     let fired = 0;
@@ -165,5 +186,74 @@
     return fired;
   };
 
-  return { Brain: Brain, parse: parse, LAYER: LAYER };
+  // Selecting a rung by which rate-band you happen to land in loses actions: the descending
+  // response saturates on approach, so adjacent thresholds collapse together and a walk steps
+  // straight over the rungs between them. 23 of 40 entities lost cited actions that way.
+  //
+  // The cited text does not read as a set of bands, it reads as an escalation - "greet, crowd
+  // forward, leap in and out, sing, urge". So the ladder is a ratchet: rising drive advances
+  // it, it will not skip a rung, and each action is held briefly before the next can start.
+  // Falling drive lets it settle back down, but only after sustained quiet, so a being does
+  // not flicker between two actions at a threshold.
+  function Ladder(rungs, opts) {
+    opts = opts || {};
+    this.rungs = rungs;
+    this.at = 0;
+    this.dwell = 0;
+    this.quiet = 0;
+    this.minDwell = opts.minDwell != null ? opts.minDwell : 25;
+    this.releaseAfter = opts.releaseAfter != null ? opts.releaseAfter : 60;
+    this.reached = { 0: true };
+  }
+
+  Ladder.prototype.update = function (rate) {
+    this.dwell++;
+    const next = this.rungs[this.at + 1];
+    if (next && rate >= next.descendingRate[0] && this.dwell >= this.minDwell) {
+      this.at++;
+      this.dwell = 0;
+      this.quiet = 0;
+      this.reached[this.at] = true;
+    } else if (rate < this.rungs[this.at].descendingRate[0] * 0.7) {
+      if (++this.quiet >= this.releaseAfter) {
+        if (this.at > 0) this.at--;
+        this.quiet = 0;
+        this.dwell = 0;
+      }
+    } else {
+      this.quiet = 0;
+    }
+    return this.rungs[this.at];
+  };
+
+  Ladder.prototype.reachedCount = function () {
+    return Object.keys(this.reached).length;
+  };
+
+  // Looming: an object of fixed size subtends an angle growing as 1/distance, and it is the
+  // rate of that growth a visual system reacts to. Saturates rather than diverging.
+  //
+  // K is set from the world, not from taste. In the walkthrough a traveller meets the beings
+  // at roughly 15 units and can close to about 6.5; the first K here was tuned on a bench
+  // where the approach ran to arm's length, so in the actual scene NOTHING ever woke up - the
+  // beings were driven, reported, and silent. One definition, used by the page, the
+  // calibrator and the tests alike, so those three can never drift apart again.
+  // FAR is where a traveller meets the beings in the walkthrough and NEAR is as close as the
+  // scene lets them get. That is a span of only about 2.5x in distance, so raw inverse-square
+  // covers barely 6x in drive - which left two entities unable to wake at all and thirteen
+  // unable to finish their repertoire. The curve keeps the inverse-square SHAPE but is
+  // referenced to that span: nothing at FAR, full drive at NEAR. Choosing the scale is the
+  // same as choosing how large the being is, which in a procedural scene is arbitrary anyway.
+  const LOOM_FAR = 16.0, LOOM_NEAR = 6.5, LOOM_MAX = 0.5;
+  const LOOM_BASE = 1 / (LOOM_FAR * LOOM_FAR);
+  const LOOM_K = LOOM_MAX / (1 / (LOOM_NEAR * LOOM_NEAR) - LOOM_BASE);
+  function loomingDrive(distance) {
+    const d = Math.max(1.0, distance);
+    const v = LOOM_K * (1 / (d * d) - LOOM_BASE);
+    return v <= 0 ? 0 : Math.min(LOOM_MAX, v);
+  }
+
+  return { Brain: Brain, Ladder: Ladder, parse: parse, LAYER: LAYER,
+           loomingDrive: loomingDrive, LOOM_K: LOOM_K,
+           LOOM_FAR: LOOM_FAR, LOOM_NEAR: LOOM_NEAR, LOOM_MAX: LOOM_MAX, LOOM_BASE: LOOM_BASE };
 }));

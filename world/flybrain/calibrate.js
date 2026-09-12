@@ -1,81 +1,109 @@
-// Space each being's cited actions across the actual approach, measured rather than assumed.
+// Space every entity's cited actions across the approach, measured per individual.
 //
-// The first pass spread the rungs evenly in descending-rate, which looked reasonable and was
-// wrong: rate against distance is steeply nonlinear, so an even split in rate collapsed most
-// of the walk into the top rung and two of the elf's five cited actions were never reachable
-// at any distance. Evenly spacing in RATE is not evenly spacing in EXPERIENCE.
+// The first pass spread rungs evenly in descending-rate. That looked reasonable and was wrong:
+// rate against distance is steeply nonlinear, so most of the walk collapsed into the top rung
+// and two of the elf's five cited actions were unreachable at ANY distance. Evenly spacing in
+// RATE is not evenly spacing in EXPERIENCE.
 //
-// So: sweep the real slice across the real approach, read the rate at each distance, then set
-// each rung boundary at the rate the slice actually produces at that fraction of the walk.
-// The thresholds become a property of the circuit instead of a guess about it.
+// And since every entity now has its own physiology over the shared wiring, one global curve
+// will not do either: a more excitable individual responds from further away. So each entity
+// is swept separately and gets thresholds measured from its own body.
 //
-// Run: node calibrate.js   (rewrites behaviour.json thresholds, then behaviour.js)
+// Run: node calibrate.js
 const fs = require('fs');
 const zlib = require('zlib');
 const S = require('./sim.js');
 
-const NEAR = 1.2, FAR = 14, SAMPLES = 60, SETTLE = 90;
+// The range a traveller actually covers in the walkthrough: the beings stand about 15 units
+// off on arrival and can be closed to roughly 6.5. Calibrating over an approach the scene
+// never offers is how every entity ended up silent in the real page.
+const NEAR = 6.5, FAR = 16, SAMPLES = 48, SETTLE = 70;
 
-function loomingDrive(distance) {
-  const d = Math.max(0.6, distance);
-  return Math.min(0.5, 1.6 / (d * d));
-}
+const loomingDrive = S.loomingDrive;  // one definition, shared with the page
 
 const raw = zlib.gunzipSync(fs.readFileSync(__dirname + '/data/circuit.bin.gz'));
 const buf = raw.buffer.slice(raw.byteOffset, raw.byteOffset + raw.byteLength);
-const brain = new S.Brain(buf);
-
-// One sweep from far to near, exactly as a traveller would walk it.
-const curve = [];
-for (let i = 0; i < SAMPLES; i++) {
-  const distance = FAR + (NEAR - FAR) * (i / (SAMPLES - 1));
-  const drive = loomingDrive(distance);
-  for (let s = 0; s < SETTLE; s++) brain.step(drive);
-  curve.push({ distance: distance, rate: brain.readout().descendingRate });
-}
-const maxRate = Math.max.apply(null, curve.map(p => p.rate));
-const onset = curve.find(p => p.rate > 0.0005);
-console.log('measured approach: %d samples, %s to %s units', SAMPLES, FAR, NEAR);
-console.log('  descending rate 0 -> %s, first response at %s units',
-  maxRate.toFixed(5), onset ? onset.distance.toFixed(1) : 'never');
-
-// Rung k begins at the rate the slice produces k/N of the way through the RESPONSIVE part of
-// the walk - from where it first responds to where the traveller is at arm's length.
-const live = curve.filter(p => p.rate > 0.0005);
-function rateAtFraction(f) {
-  if (!live.length) return 0;
-  const i = Math.min(live.length - 1, Math.max(0, Math.round(f * (live.length - 1))));
-  return live[i].rate;
-}
-
 const behaviour = JSON.parse(fs.readFileSync(__dirname + '/behaviour.json', 'utf8'));
-for (const key of Object.keys(behaviour)) {
-  const ladder = behaviour[key].ladder;
-  const n = ladder.length;
-  ladder.forEach((rung, i) => {
-    const lo = i === 0 ? 0.0005 : rateAtFraction(i / n);
-    const hi = i === n - 1 ? 1.0 : rateAtFraction((i + 1) / n);
+
+const keys = Object.keys(behaviour);
+console.log('calibrating %d entities against one shared wiring diagram\n', keys.length);
+
+let unreachable = 0, quiet = 0;
+const started = Date.now();
+
+for (const key of keys) {
+  const rec = behaviour[key];
+  const brain = new S.Brain(buf, rec.physiology);
+
+  const curve = [];
+  for (let i = 0; i < SAMPLES; i++) {
+    const distance = FAR + (NEAR - FAR) * (i / (SAMPLES - 1));
+    const drive = loomingDrive(distance);
+    for (let s = 0; s < SETTLE; s++) brain.step(drive);
+    curve.push({ distance: distance, rate: brain.readout().descendingRate });
+  }
+  const maxRate = Math.max.apply(null, curve.map(p => p.rate));
+  const live = curve.filter(p => p.rate > 0.0005);
+  const onset = live.length ? live[0].distance : null;
+
+  if (!live.length) {
+    // An individual so unexcitable it never responds is a bug, not a personality.
+    quiet++;
+    console.log('  %s  SILENT across the whole approach - physiology too weak', key);
+    continue;
+  }
+
+  const at = f => live[Math.min(live.length - 1, Math.max(0, Math.round(f * (live.length - 1))))];
+  const n = rec.ladder.length;
+  // Thresholds sit just UNDER the rate measured at that point in the walk. The readout is a
+  // leaky estimate over a noisy slice, so a threshold set exactly at the measured peak is a
+  // coin flip on the next run - which is what was locking the final rungs of six entities out
+  // of their own repertoire. The margin costs nothing and makes the ladder reproducible.
+  const MARGIN = 0.94;
+  rec.ladder.forEach((rung, i) => {
+    const lo = i === 0 ? 0.0005 : at(i / n).rate * MARGIN;
+    const hi = i === n - 1 ? 1.0 : at((i + 1) / n).rate * MARGIN;
     rung.descendingRate = [Number(lo.toFixed(5)), Number(hi.toFixed(5))];
-    rung.reached_at_distance = Number((live.length
-      ? live[Math.min(live.length - 1, Math.round((i / n) * (live.length - 1)))].distance
-      : 0).toFixed(2));
+    rung.reached_at_distance = Number(at(i / n).distance.toFixed(2));
   });
-  behaviour[key].calibration = {
-    method: 'measured sweep of the FlyWire slice across the approach, not an assumed curve',
-    samples: SAMPLES, far: FAR, near: NEAR, maxDescendingRate: Number(maxRate.toFixed(5)),
-    firstResponseAtDistance: onset ? Number(onset.distance.toFixed(2)) : null
+
+  // How many rungs a real walk actually reaches, which is the only number that matters.
+  // Driven through the same ratchet the page will use, not by band lookup - band lookup is
+  // what was losing actions in the first place.
+  const walk = new S.Brain(buf, rec.physiology);
+  const ladder = new S.Ladder(rec.ladder);
+  for (let i = 0; i < SAMPLES; i++) {
+    const distance = FAR + (NEAR - FAR) * (i / (SAMPLES - 1));
+    for (let s = 0; s < SETTLE; s++) {
+      walk.step(loomingDrive(distance));
+      ladder.update(walk.readout().descendingRate);
+    }
+  }
+  const reached = { size: ladder.reachedCount() };
+  if (reached.size < n) unreachable++;
+
+  rec.calibration = {
+    method: 'measured sweep of this entity\'s own physiology over the shared FlyWire slice',
+    samples: SAMPLES, far: FAR, near: NEAR,
+    maxDescendingRate: Number(maxRate.toFixed(5)),
+    firstResponseAtDistance: Number(onset.toFixed(2)),
+    rungsReachedOnAWalk: reached.size,
   };
-  // Node's format takes %s/%d, not printf width specifiers - %-7s printed literally.
-  console.log('  %s %d rungs, first response at %s units, last at %s units',
-    (key + '       ').slice(0, 7), n,
-    ladder[0].reached_at_distance, ladder[n - 1].reached_at_distance);
+  console.log('  %s %s rungs %s reached, wakes at %s units, peak %s',
+    (key + '                                   ').slice(0, 35),
+    String(n).padStart(2), String(reached.size).padStart(2),
+    onset.toFixed(1).padStart(4), maxRate.toFixed(4));
 }
 
 fs.writeFileSync(__dirname + '/behaviour.json', JSON.stringify(behaviour, null, 2), 'utf8');
 fs.writeFileSync(__dirname + '/behaviour.js',
   '// GENERATED by flybrain/build_behaviour.py + calibrate.js - do not hand-edit.\n'
-  + '// Phrases are verbatim from the cited entity record; thresholds are measured from the\n'
-  + '// FlyWire slice sweeping a real approach. The simulation selects among these; it never\n'
-  + '// writes one.\n'
+  + '// Phrases are verbatim from the cited entity record; thresholds are measured by sweeping\n'
+  + '// each entity\'s own physiology over the shared FlyWire slice. The simulation selects\n'
+  + '// among these phrases; it never writes one.\n'
   + 'window.FlyBehaviour=' + JSON.stringify(behaviour) + ';\n', 'utf8');
-console.log('\nrewrote behaviour.json and behaviour.js with measured thresholds');
+
+console.log('\n%d entities calibrated in %ss', keys.length - quiet, ((Date.now() - started) / 1000).toFixed(1));
+console.log('  entities that never respond:            %d', quiet);
+console.log('  entities not reaching every rung:       %d', unreachable);
+process.exit(quiet ? 1 : 0);

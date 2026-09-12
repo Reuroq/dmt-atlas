@@ -28,3 +28,4 @@ world/wall.html
 world/*.png
 !world/latest.png
 world/*.rgba
+world/flybrain/__pycache__/

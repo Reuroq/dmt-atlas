@@ -100,7 +100,7 @@ function build(s){
    echoes.traverse(o=>{if(o.isMesh)o.userData.evidence=['geometry|Time Geometry — Moments as Objects & Loops','geometry|Dimensional Layering & Space-Folding'];});
   }
  }
- currentEvidence=[...new Set([...s.evidence,...motifs])];pointedAt=null;root.userData.evidence=currentEvidence;
+ flySync();currentEvidence=[...new Set([...s.evidence,...motifs])];pointedAt=null;root.userData.evidence=currentEvidence;
  root.traverse(o=>{if(o.isMesh||o.isPoints||o.isLine)o.userData.evidence=o.userData.evidence||currentEvidence;});
  if(actors.length)for(const m of materials)if(m.uniforms.radiance&&!m.userData.entity)m.uniforms.radiance.value=.3;
  camera.position.set(0,1.7,entryZ);yaw=0;pitch=s.id==='cathedral'?.12:0;camera.rotation.set(pitch,yaw,0);elapsed=0;stageAnimStart=animTime;renderReady=false;frameEma=16;prCooldown=2;if(!GPU_FENCE){const want=prMemo[s.id]??prTarget;if(want!==prNow)setPR(want);}
@@ -575,9 +575,57 @@ function visibleLanguage(){
  const g=F.language(root,materials,motions);
  g.traverse(o=>{if(o.isMesh)o.userData.evidence=[keys.language,'phase|The Download / Lesson'];});
 }
+
+// ---- beings driven by a real fly connectome (opt-in) ------------------------------------
+// A depicted being normally moves because a sine wave says so. Switched on, each one instead
+// runs its own physiology over a slice of the FlyWire Drosophila connectome, and the action
+// it performs is chosen from that entity's OWN cited record in the atlas. The fly decides
+// when and how hard; the atlas decides what. It is not a claim that these beings are insects,
+// and the drawer says so.
+let flyOn=false,flyLoading=false,flyState={},flyTick=0;
+const flySpawned=new Set();
+function flyKey(a,i){return a.kind+'#'+i;}
+function flyUI(){const b=$('flybrain');if(!b)return;
+ b.hidden=!(window.FlyBrain&&FlyBrain.available());
+ b.textContent='Fly-brain beings: '+(flyLoading?'loading\u2026':flyOn?'on':'off');
+ b.setAttribute('aria-pressed',flyOn?'true':'false');}
+function flySync(){
+ if(!flyOn||!window.FlyBrain||!FlyBrain.loaded())return;
+ const want=new Set();
+ actors.forEach((a,i)=>{const k=flyKey(a,i);want.add(k);
+  if(!flySpawned.has(k)){try{FlyBrain.spawn(k,a.kind);flySpawned.add(k);}catch(e){}}});
+ for(const k of[...flySpawned])if(!want.has(k)){FlyBrain.despawn(k);flySpawned.delete(k);delete flyState[k];}
+}
+function flyStep(){
+ if(!flyOn||!window.FlyBrain||!FlyBrain.loaded()||!actors.length)return;
+ // Once every few frames: the readout is a leaky estimate, so it does not need a message per
+ // frame, and the worker should never be the reason a draw waits.
+ if((flyTick++)%3)return;
+ const drives={};
+ actors.forEach((a,i)=>{drives[flyKey(a,i)]=FlyBrain.drive(camera.position.distanceTo(a.g.position));});
+ FlyBrain.tick(drives,10);
+}
+function flyFor(a,i){return flyOn?flyState[flyKey(a,i)]:null;}
+if(window.FlyBrain){
+ FlyBrain.on(ev=>{if(ev.type==='state'){flyState=ev.beings;drawInvalidated=true;}
+  else if(ev.type==='error'){flyOn=false;flyLoading=false;flyUI();}});
+ $('flybrain').onclick=()=>{
+  if(flyLoading)return;
+  if(flyOn){flyOn=false;for(const k of flySpawned)FlyBrain.despawn(k);flySpawned.clear();flyState={};flyUI();return;}
+  if(FlyBrain.loaded()){flyOn=true;flySync();flyUI();return;}
+  flyLoading=true;flyUI();
+  FlyBrain.load().then(()=>{flyLoading=false;flyOn=true;flySync();flyUI();})
+   .catch(()=>{flyLoading=false;flyOn=false;flyUI();});
+ };
+ flyUI();
+}
 function animateBeings(t){for(const a of actors){const near=camera.position.distanceTo(a.g.position)<8;
  if(entered&&near&&!a.engaged){a.engaged=true;interactionCount++;}
- const attentive=a.engaged?1:0,w=Math.sin(t*.65+a.seed);
+ const fly=flyFor(a,actors.indexOf(a));
+ // With the connectome driving, attention is how hard that individual's descending
+ // population is firing, not a binary the click sets. A being that has not noticed you
+ // yet stays still even if you clicked it.
+ const attentive=fly?Math.min(1,fly.descendingRate/0.05):(a.engaged?1:0),w=Math.sin(t*.65+a.seed);
  a.body.position.y=w*(a.kind==='mother'?.035:.055);a.body.rotation.y=Math.max(-.35,Math.min(.35,Math.atan2(camera.position.x-a.g.position.x,camera.position.z-a.g.position.z)))*attentive;
  a.body.rotation.x=a.kind==='mantis'?.06+attentive*.08+Math.sin(t*.4)*.025:0;
  for(const j of a.joints){j.o.rotation.x=Math.sin(t*.8+a.seed+j.side)*.12-attentive*.13;j.o.rotation.z=j.side*(j.mother?-.12+w*.05:j.mantis?.04+w*.06:.08+w*.1);}
@@ -656,7 +704,7 @@ function dossier(key,i){
  const fields=['description','appearance','behavior','communication','emotional_tone','message_or_purpose','what_happens_there'];
  return `<details class="node" ${i===0?'open':''}><summary>${esc(n.name)} <small>${esc(n.kind)}</small></summary>${fields.filter(f=>n[f]).map(f=>`${f==='description'?'':`<h4>${esc(f.replaceAll('_',' '))}</h4>`}<p>${esc(n[f])}</p>`).join('')}<h4>Citations</h4>${(n.sources||[]).map(sourceHTML).join('')}<h4>Tagged report trail</h4><small>${n.report_count==null?'Outside the tagged vocabulary; not a count of zero.':`${Number(n.report_count).toLocaleString()} tagged reports in this archive; not population prevalence.`} Only dates, tags and mention order are stored locally. Open originals for context.</small>${(n.report_ids||[]).slice(0,8).map(id=>{const r=(window.WORLD_REPORTS||{reports:{}}).reports[id];if(!r)return '';return `${link(`https://www.reddit.com/r/${encodeURIComponent(r.sub)}/comments/${encodeURIComponent(id)}/`,`${id} · r/${r.sub}`,'report-link')}<small>${esc(r.seq.map(k=>k.split('|')[1]).join(' → '))}</small>`;}).join('')||'<p>No report tags indexed for this entry.</p>'}<h4>Credited depiction candidates</h4>${(n.depiction_ids||[]).slice(0,5).map(id=>{const a=(window.WORLD_REPORTS||{depictions:{}}).depictions[id];return a?link(a.permalink,`${a.title} · u/${a.author||'[unknown]'} · ${a.kind}`,'art-link'):'';}).join('')||'<p>No depiction links indexed for this entry.</p>'}</details>`;
 }
-async function openEvidence(){syncMovement();input.clear();await loadTrail();$('evidenceTitle').textContent=stage.name;$('evidenceContent').innerHTML=`<p>Procedural surfaces, architecture, gestures and forms in this scene are interpreted from the entries below. Individual character designs are not witness likenesses. ${['onset','afterglow','return'].includes(stage.id)?'The familiar room and its furnishings are an editorial grounding device, not a universal reported setting.':''}</p>${window.fidelityHTML?window.fidelityHTML(stage.id):''}${pointedAt&&currentEvidence.includes(pointedAt)?'<p class="pointed">You pointed at:</p>'+dossier(pointedAt):''}${currentEvidence.filter(k=>k!==pointedAt).map(dossier).join('')}`;$('evidence').showModal();}
+async function openEvidence(){syncMovement();input.clear();await loadTrail();$('evidenceTitle').textContent=stage.name;$('evidenceContent').innerHTML=`<p>Procedural surfaces, architecture, gestures and forms in this scene are interpreted from the entries below. Individual character designs are not witness likenesses. ${['onset','afterglow','return'].includes(stage.id)?'The familiar room and its furnishings are an editorial grounding device, not a universal reported setting.':''}</p>${window.fidelityHTML?window.fidelityHTML(stage.id):''}${flyOn?'<p class="notice">The beings in this scene are being moved by a slice of the FlyWire <em>Drosophila</em> connectome — a real fruit-fly wiring diagram — running live in your browser. It decides only WHEN and HOW HARD each one acts; WHAT it does is chosen, verbatim, from the cited record for that entity below. This is not a claim that these beings are insects, or that a fly brain explains anything about them. Switch it off in the bar at the foot of the page.</p>':''}${pointedAt&&currentEvidence.includes(pointedAt)?'<p class="pointed">You pointed at:</p>'+dossier(pointedAt):''}${currentEvidence.filter(k=>k!==pointedAt).map(dossier).join('')}`;$('evidence').showModal();}
 function closeEvidence(){lastMovement=performance.now();$('evidence').close();$('sources').focus();}
 $('begin').onclick=begin;$('next').onclick=onward;$('restart').onclick=restart;$('pause').onclick=togglePause;
 $('pace').onclick=()=>{paced=!paced;elapsed=0;entryZ=camera.position.z;updateUI();};
@@ -676,7 +724,7 @@ document.addEventListener('visibilitychange',()=>{input.clear();lastMovement=las
 let drag=null;
 $('world').addEventListener('pointerdown',e=>{if(!entered||paused||transition)return;drag={id:e.pointerId,x:e.clientX,y:e.clientY,startX:e.clientX,startY:e.clientY};$('world').setPointerCapture(e.pointerId);});
 $('world').addEventListener('pointermove',e=>{if(!drag||drag.id!==e.pointerId||paused)return;syncMovement();yaw-=(e.clientX-drag.x)*.0035;pitch=T.MathUtils.clamp(pitch-(e.clientY-drag.y)*.003,-1.25,1.25);drag.x=e.clientX;drag.y=e.clientY;camera.rotation.set(pitch,yaw,0);if(!camera.quaternion.equals(drawnRotation))drawInvalidated=true;});
-$('world').addEventListener('pointerup',e=>{if(drag&&Math.hypot(e.clientX-drag.startX,e.clientY-drag.startY)<7){const ray=new T.Raycaster();ray.setFromCamera(new T.Vector2(e.clientX/innerWidth*2-1,1-e.clientY/innerHeight*2),camera);const hit=ray.intersectObjects(actors.map(a=>a.g),true)[0];if(hit){let o=hit.object;while(o&&!o.userData.entityKey)o=o.parent;const a=actors.find(a=>a.g===o);if(a){a.engaged=true;interactionCount++;drawInvalidated=true;pointedAt=a.evidence||null;$('sceneHint').textContent=(a.kind==='mantis'?'The examiner inclines its head and extends its forelimbs.':a.kind==='mother'?'The presence turns toward you, her arms held open.':'The figure turns toward you and lifts its changing forms.')+(pointedAt?' Drawn from the atlas entry \u201c'+pointedAt.split('|').slice(1).join('|')+'\u201d \u2014 open Sources for the reports behind it.':'');}}}drag=null;});
+$('world').addEventListener('pointerup',e=>{if(drag&&Math.hypot(e.clientX-drag.startX,e.clientY-drag.startY)<7){const ray=new T.Raycaster();ray.setFromCamera(new T.Vector2(e.clientX/innerWidth*2-1,1-e.clientY/innerHeight*2),camera);const hit=ray.intersectObjects(actors.map(a=>a.g),true)[0];if(hit){let o=hit.object;while(o&&!o.userData.entityKey)o=o.parent;const a=actors.find(a=>a.g===o);if(a){a.engaged=true;interactionCount++;drawInvalidated=true;pointedAt=a.evidence||null;$('sceneHint').textContent=((()=>{const f=flyFor(a,actors.indexOf(a));return f&&f.awake&&f.says?'It is '+f.says.charAt(0).toLowerCase()+f.says.slice(1).replace(/[.’']+$/,'')+' — its own reported behaviour, driven by a fly connectome.':a.kind==='mantis'?'The examiner inclines its head and extends its forelimbs.':a.kind==='mother'?'The presence turns toward you, her arms held open.':'The figure turns toward you and lifts its changing forms.';})())+(pointedAt?' Drawn from the atlas entry \u201c'+pointedAt.split('|').slice(1).join('|')+'\u201d \u2014 open Sources for the reports behind it.':'');}}}drag=null;});
 $('world').addEventListener('pointercancel',()=>{drag=null;});
 document.querySelectorAll('[data-move]').forEach(b=>{b.addEventListener('pointerdown',e=>{e.preventDefault();if(paused)return;syncMovement();b.setPointerCapture(e.pointerId);input.add(b.dataset.move);scheduleMovement();});for(const name of ['pointerup','pointercancel','lostpointercapture'])b.addEventListener(name,()=>{syncMovement();input.delete(b.dataset.move);});});
 function resize(){camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight);composite.resize();drawInvalidated=true;}
@@ -697,7 +745,7 @@ function frame(now){
    }
   }
  }
- if(!paused&&!$('evidence').open&&!document.hidden){if(!reduced){animTime+=dt;for(const m of materials)m.uniforms.time.value=animTime;for(const fn of motions)fn(animTime);}animateBeings(animTime);}
+ if(!paused&&!$('evidence').open&&!document.hidden){if(!reduced){animTime+=dt;for(const m of materials)m.uniforms.time.value=animTime;for(const fn of motions)fn(animTime);}animateBeings(animTime);flyStep();}
  const progress=branches[stage.id]?(routeIndex+.5)/route.length:(routeIndex+(stage.duration?Math.min(1,elapsed/stage.duration):1))/route.length;$('progress').firstElementChild.style.width=`${progress*100}%`;
  const age=animTime-stageAnimStart,signal=signalStages.includes(stage.id);
  const grain=signal?(stage.id==='onset'?.025+.12*Math.min(1,age/18):stage.id==='return'?.045+.12*Math.min(1,age/20):.035):0;

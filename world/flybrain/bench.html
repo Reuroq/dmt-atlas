@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Fly-brain bench</title>
+  <style>
+    body{margin:0;padding:22px;background:#0b0a14;color:#e9e4da;
+      font:13px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}
+    h1{font:400 21px Georgia,serif;margin:0 0 4px}
+    .note{color:#b9b4c6;max-width:68ch;font-size:12px}
+    table{border-collapse:collapse;margin-top:16px;width:100%;max-width:900px}
+    th,td{text-align:left;padding:6px 10px;border-bottom:1px solid #ffffff14;vertical-align:top}
+    th{color:#efd5a6;font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:600}
+    td.says{color:#f2e7cf}
+    .dist{color:#9fd9c8}
+    #status{margin-top:12px;color:#efd5a6}
+  </style>
+</head>
+<body>
+<!-- A bench, not a page. Nothing links here; robots.txt disallows /world/flybrain/. -->
+<h1>Fly-brain bench</h1>
+<p class="note">
+  A traveller walks in from 14 units. Each being runs its own physiology over one shared slice
+  of the FlyWire fruit-fly connectome, and every phrase below is verbatim from that entity's
+  cited record in the atlas. The fly decides when and how hard; the atlas decides what.
+  This is not a claim that these beings are insects.
+</p>
+<div id="status">loading the circuit…</div>
+<table id="out"><thead><tr>
+  <th>being</th><th>distance</th><th>descending</th><th>what it does (cited)</th><th>actions</th>
+</tr></thead><tbody></tbody></table>
+
+<script src="bridge.js"></script>
+<script>
+(async () => {
+  const status = document.getElementById('status');
+  const body = document.querySelector('#out tbody');
+  if (!FlyBrain.available()) { status.textContent = 'no Worker/fetch in this browser'; return; }
+  try {
+    const info = await FlyBrain.load();
+    status.textContent = 'circuit loaded: ' + info.neurons.toLocaleString() + ' neurons, '
+      + info.connections.toLocaleString() + ' connections, '
+      + info.visual + ' visual in, ' + info.descending + ' descending out';
+  } catch (e) {
+    status.textContent = 'failed: ' + e.message;
+    window.__benchError = e.message;
+    return;
+  }
+
+  const params = new URLSearchParams(location.search);
+  const picked = (params.get('beings') || 'elf,jester,mother,mantis').split(',');
+  picked.forEach(k => FlyBrain.spawn(k, k));
+
+  const rows = {};
+  picked.forEach(k => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = '<td>' + k + '</td><td class="dist"></td><td></td><td class="says"></td><td></td>';
+    body.appendChild(tr);
+    rows[k] = tr;
+  });
+
+  FlyBrain.on(ev => {
+    if (ev.type !== 'state') return;
+    for (const k of picked) {
+      const s = ev.beings[k];
+      if (!s || !rows[k]) continue;
+      const td = rows[k].children;
+      td[2].textContent = s.descendingRate.toFixed(5);
+      td[3].textContent = s.awake ? '"' + s.says + '"' : '(still)';
+      td[4].textContent = s.reached + ' / ' + s.of;
+    }
+  });
+
+  // Walk in, then hold at arm's length so the top of each ladder is actually reached.
+  let distance = 14;
+  const step = () => {
+    distance = distance > 1.2 ? distance - 0.06 : 1.2;
+    const drives = {};
+    picked.forEach(k => { drives[k] = FlyBrain.drive(distance); });
+    picked.forEach(k => { if (rows[k]) rows[k].children[1].textContent = distance.toFixed(1); });
+    FlyBrain.tick(drives, 8);
+    requestAnimationFrame(step);
+  };
+  requestAnimationFrame(step);
+
+  // Machine-readable, so the headless driver never has to read the table.
+  window.benchState = () => ({
+    loaded: FlyBrain.loaded(), info: FlyBrain.info(),
+    distance: distance, beings: FlyBrain.state()
+  });
+})();
+</script>
+</body>
+</html>

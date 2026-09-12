@@ -2,7 +2,7 @@
   "errors": [],
   "sections": {
     "assets": {
-      "referencedSameOrigin": 18,
+      "referencedSameOrigin": 19,
       "allCommitted": true
     },
     "desktop": {
@@ -18,7 +18,7 @@
           ],
           "sources": 17,
           "links": 92,
-          "drawCalls": 87,
+          "drawCalls": 86,
           "geometries": 44
         },
         {
@@ -361,13 +361,13 @@
         "paused": false,
         "paced": false,
         "reduced": false,
-        "elapsed": 0.3997999999999884,
-        "animTime": 109.1671000000125,
+        "elapsed": 0.08330000000001747,
+        "animTime": 111.48060000001277,
         "transition": false,
         "renderReady": true,
         "renderPending": false,
-        "renderedAnimTime": 109.1671000000125,
-        "frames": 198,
+        "renderedAnimTime": 111.48060000001277,
+        "frames": 178,
         "position": [
           0,
           1.7,
@@ -466,7 +466,7 @@
         "return",
         "afterglow"
       ],
-      "wallSeconds": 246.2,
+      "wallSeconds": 249.2,
       "complete": {
         "stage": "afterglow",
         "routeIndex": 10,
@@ -474,13 +474,13 @@
         "paused": false,
         "paced": true,
         "reduced": false,
-        "elapsed": 0.7666000000000057,
-        "animTime": 215.40760000000265,
+        "elapsed": 0.8833000000000172,
+        "animTime": 216.38730000002263,
         "transition": false,
         "renderReady": true,
         "renderPending": true,
-        "renderedAnimTime": 215.39090000000263,
-        "frames": 848,
+        "renderedAnimTime": 216.38730000002263,
+        "frames": 785,
         "position": [
           0,
           1.7,
@@ -537,6 +537,6 @@
       "unavailableWebGL": "visible fallback and working local evidence link"
     }
   },
-  "render_signature": "42257aa7d319a331e42a0e67fcba30b898b435e397eb3ba830a911ab2f2fa187",
+  "render_signature": "cd4a34529f369e05fe8406024e3a269f497408986a1c0c402c43e82f1f47feca",
   "passed": true
 }

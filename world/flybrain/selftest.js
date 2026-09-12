@@ -77,7 +77,35 @@ console.log('   %sms for 600 steps = %sms/step -> %d steps/sec',
   p.ms, perStep.toFixed(3), Math.round(1000 / perStep));
 console.log('   a 60fps frame budget of 16.7ms allows ~%d steps/frame', Math.floor(16.7 / perStep));
 
-const ok = monotone && spread > 0.001 && differs && perStep < 8;
+console.log('');
+console.log('4. are the 40 entities actually different individuals?');
+const behaviour = JSON.parse(fs.readFileSync(__dirname + '/behaviour.json', 'utf8'));
+const keys = Object.keys(behaviour);
+const peaks = [], wakes = [];
+for (const k of keys) {
+  const cal = behaviour[k].calibration;
+  if (!cal) continue;
+  peaks.push(cal.maxDescendingRate);
+  wakes.push(cal.firstResponseAtDistance);
+}
+function spreadOf(a) {
+  const mu = a.reduce((x, y) => x + y, 0) / a.length;
+  const sd = Math.sqrt(a.reduce((x, y) => x + (y - mu) * (y - mu), 0) / a.length);
+  return { mu: mu, sd: sd, min: Math.min.apply(null, a), max: Math.max.apply(null, a) };
+}
+const P = spreadOf(peaks), W = spreadOf(wakes);
+console.log('   entities calibrated      %d', peaks.length);
+console.log('   peak descending rate     %s .. %s  (sd %s)', P.min.toFixed(4), P.max.toFixed(4), P.sd.toFixed(4));
+console.log('   wakes at distance        %s .. %s  (sd %s)', W.min.toFixed(1), W.max.toFixed(1), W.sd.toFixed(2));
+const everyRung = keys.every(k => !behaviour[k].calibration
+  || behaviour[k].calibration.rungsReachedOnAWalk === behaviour[k].ladder.length);
+console.log('   every cited action reachable on a walk: %s', everyRung);
+// Individuals of ONE species should differ, but not wildly - a huge spread would mean the
+// physiology knobs are just noise wearing a costume.
+const distinct = P.sd > 0.002 && P.sd < 0.02 && W.sd > 0.05;
+console.log('   distinct but same species: %s', distinct);
+
+const ok = monotone && spread > 0.001 && differs && perStep < 8 && distinct && everyRung;
 console.log('\n%s', ok ? 'PASS - the slice responds, the wiring matters, and it runs in budget'
   : 'FAIL - see above');
 process.exit(ok ? 0 : 1);

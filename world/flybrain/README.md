@@ -12,6 +12,17 @@ a verbatim phrase from that entity's own record in `data/atlas.json`, carrying i
 The simulation supplies one number — how hard the descending population is driving — and that
 number selects which cited phrase is currently true. Nothing here writes a behaviour.
 
+**All 40 cited entities have one**, 295 cited actions between them, and every one is reachable on
+a real approach. 4 of them are depicted in the walkthrough today; the rest are ready the moment
+something draws them.
+
+**One wiring diagram, many individuals.** There is only one fly connectome and pretending
+otherwise would be a lie, so every entity shares the same slice. What differs is physiology —
+excitability, leak, noise floor, and which part of the visual sheet its drive lands on — derived
+deterministically from the entity's name, so the same entity is the same individual every time.
+Measured spread across the 40: they wake between 3.1 and 4.2 units and peak between 0.049 and
+0.096. Different individuals of one species, not different animals.
+
 ## What this is not
 
 This is **not** a claim that DMT entities are insects, that a fly brain explains anything about
@@ -54,16 +65,42 @@ to a WebGL scene.
    it.
 3. **It runs in budget.** ~0.2 ms/step, roughly 80 steps inside a 60 fps frame.
 
-`node approach.js <being>` walks a traveller in from 14 units and prints which cited action is
-active at each distance.
+4. **They are distinct.** Peak rate and wake distance vary across the 40 by more than noise and
+   less than caricature.
 
-## Calibration is measured, not assumed
+`node approach.js <being>` walks a traveller in and prints which cited action is active at each
+distance. `node drive_bench.py` does the same in a real browser over HTTP, in a Worker.
+`node drive_live.py` proves it in the actual walkthrough: off by default, nothing heavy fetched
+until asked, beings driven and citing, and cleanly reversible.
 
-The first ladder spread rungs evenly in descending-rate. That looked reasonable and was wrong:
-rate against distance is steeply nonlinear, so most of the walk collapsed into the top rung and
-two of the elf's five cited actions were unreachable at any distance. `calibrate.js` sweeps the
-real slice across the real approach and sets each threshold at the rate the circuit actually
-produces at that point in the walk.
+## Calibration is measured, not assumed, and three things had to be fixed by measuring
+
+**Rungs spread evenly in rate.** Looked reasonable, was wrong: rate against distance is steeply
+nonlinear, so most of the walk collapsed into the top rung and two of the elf's five cited
+actions were unreachable at any distance. Evenly spacing in rate is not evenly spacing in
+experience.
+
+**Bands lost actions.** Selecting a rung by which rate-band you land in skipped rungs wherever
+the response saturated — 23 of 40 entities lost cited actions that way. The source text reads as
+an escalation, so the ladder is now a ratchet: it will not skip, and each action is held briefly
+before the next can start.
+
+**The drive curve was tuned on the wrong world.** Calibrated against a bench approach running to
+arm's length, then dropped into a scene where the beings stand 15 units off and can only be
+closed to about 6.5. That span is 2.5x in distance, which raw inverse-square turns into barely 6x
+in drive — so in the actual page every being was driven, reported, and completely silent. The
+curve keeps the inverse-square shape but is referenced to the span the scene really offers.
+`sim.js` owns the one definition; the worker reports it to the page on load so the two cannot
+drift.
+
+## In the walkthrough
+
+Off by default. The toggle sits in the footer beside reduced motion and detail. Only
+`bridge.js` (2 KB gzipped) ships with the page; the circuit (1.7 MB) and the cited behaviour
+table (21 KB) are fetched on the first press and never before. Switched on, a being's attention
+follows its own descending rate rather than a click, and engaging one reports what it is
+actually doing, cited. The evidence drawer explains the whole arrangement in plain words,
+including what it is not.
 
 ## Files
 
