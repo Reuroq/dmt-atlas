@@ -29,8 +29,10 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         # compressed bytes and the parse fails on a bad magic number. Only on a real hit:
         # labelling a 404's HTML body as gzip produces ERR_CONTENT_DECODING_FAILED, which
         # hides the actual 404 behind a decoding error.
+        # Deliberately NOT sending Content-Encoding: gzip. dmtatlas.com does not, and a test
+        # server that is kinder than production is how a broken build passes locally and fails
+        # live - which is exactly what happened here. Serve it the way the real server does.
         if self.path.endswith('.gz') and getattr(self, '_code', 200) == 200:
-            self.send_header('Content-Encoding', 'gzip')
             self.send_header('Content-Type', 'application/octet-stream')
         super().end_headers()
 

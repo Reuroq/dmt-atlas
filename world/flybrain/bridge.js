@@ -27,8 +27,21 @@
 
   function emit(ev) { listeners.forEach(function (fn) { try { fn(ev); } catch (e) {} }); }
 
-  // gzip is undone by the transport, not by us: the server sends Content-Encoding: gzip and
-  // the browser hands back the decoded bytes.
+  // Do NOT assume the transport undoes the gzip. dmtatlas.com serves circuit.bin.gz as
+  // application/octet-stream with no Content-Encoding, so the browser hands back the raw
+  // compressed bytes and the parse fails on a bad magic number. The local test server was
+  // setting that header, which made the harness kinder than production and hid the bug until
+  // it was live. So: look at the bytes and decide, rather than trusting either server.
+  function maybeGunzip(buf) {
+    const head = new Uint8Array(buf, 0, Math.min(2, buf.byteLength));
+    if (!(head[0] === 0x1f && head[1] === 0x8b)) return Promise.resolve(buf);  // already FLYW
+    if (typeof DecompressionStream !== 'function') {
+      return Promise.reject(new Error('circuit arrived gzipped and this browser cannot inflate it'));
+    }
+    return new Response(
+      new Blob([buf]).stream().pipeThrough(new DecompressionStream('gzip'))
+    ).arrayBuffer();
+  }
   // The cited-behaviour table is 21 KB gzipped - four per cent of the walkthrough's whole
   // critical path, for a feature most visitors will never switch on. So it is fetched with
   // the circuit, not shipped with the page. Only this file (2 KB) is always present.
@@ -51,6 +64,7 @@
         if (!r.ok) throw new Error('circuit fetch failed: HTTP ' + r.status);
         return r.arrayBuffer();
       })
+      .then(maybeGunzip)
       .then(function (buf) {
         return new Promise(function (resolve, reject) {
           worker = new Worker(DIR + 'worker.js');

@@ -27,8 +27,10 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         super().send_response(code, message)
 
     def end_headers(self):
+        # Deliberately NOT sending Content-Encoding: gzip. dmtatlas.com does not, and a test
+        # server that is kinder than production is how a broken build passes locally and fails
+        # live - which is exactly what happened here. Serve it the way the real server does.
         if self.path.endswith('.gz') and getattr(self, '_code', 200) == 200:
-            self.send_header('Content-Encoding', 'gzip')
             self.send_header('Content-Type', 'application/octet-stream')
         super().end_headers()
 
