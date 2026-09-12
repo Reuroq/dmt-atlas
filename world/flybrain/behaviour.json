@@ -18,55 +18,105 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.01497
+          0.01226
         ],
         "says": "Investigative and clinical",
         "from_field": "behavior",
         "cites": "entity|Alien & 'Grey' forms",
+        "motion": {
+          "step": 0.7,
+          "lift": -0.2,
+          "lean": 1,
+          "arms": 0.6,
+          "spread": -0.3,
+          "tempo": 0.8,
+          "name": "loom",
+          "matched": "clinical"
+        },
         "reached_at_distance": 11.35
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.01497,
-          0.02484
+          0.01226,
+          0.02386
         ],
         "says": "observe",
         "from_field": "behavior",
         "cites": "entity|Alien & 'Grey' forms",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.1,
+          "lift": 0.08000000000000002,
+          "lean": 0.12,
+          "arms": 0.32000000000000006,
+          "spread": 0.12,
+          "tempo": 1.08
+        },
         "reached_at_distance": 10.34
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.02484,
-          0.03572
+          0.02386,
+          0.03521
         ],
         "says": "examine",
         "from_field": "behavior",
         "cites": "entity|Alien & 'Grey' forms",
+        "motion": {
+          "step": 0.7,
+          "lift": -0.2,
+          "lean": 1,
+          "arms": 0.6,
+          "spread": -0.3,
+          "tempo": 0.8,
+          "name": "loom",
+          "matched": "examin"
+        },
         "reached_at_distance": 9.33
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.03572,
-          0.05538
+          0.03521,
+          0.04901
         ],
         "says": "'process,' or conduct experiments/probes",
         "from_field": "behavior",
         "cites": "entity|Alien & 'Grey' forms",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.2,
+          "lift": 0.16000000000000003,
+          "lean": 0.24,
+          "arms": 0.6400000000000001,
+          "spread": 0.24,
+          "tempo": 1.3599999999999999
+        },
         "reached_at_distance": 8.52
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.05538,
+          0.04901,
           1
         ],
         "says": "can be neutral-curious or unsettling",
         "from_field": "behavior",
         "cites": "entity|Alien & 'Grey' forms",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.25,
+          "lift": 0.2,
+          "lean": 0.3,
+          "arms": 0.8,
+          "spread": 0.3,
+          "tempo": 1.5
+        },
         "reached_at_distance": 7.51
       }
     ],
@@ -88,7 +138,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.07158,
+      "maxDescendingRate": 0.06825,
       "firstResponseAtDistance": 11.35,
       "rungsReachedOnAWalk": 5
     }
@@ -112,77 +162,147 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.01295
+          0.01243
         ],
         "says": "Ceremonial and psychopomp-like: standing in attendance",
         "from_field": "behavior",
         "cites": "entity|Animal-headed figures — Egyptian-styled beings",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.03571428571428571,
+          "lift": 0.02857142857142857,
+          "lean": 0.04285714285714285,
+          "arms": 0.11428571428571428,
+          "spread": 0.04285714285714285,
+          "tempo": 0.9
+        },
         "reached_at_distance": 10.54
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.01295,
-          0.01792
+          0.01243,
+          0.02044
         ],
         "says": "conducting the experiencer through gates or halls",
         "from_field": "behavior",
         "cites": "entity|Animal-headed figures — Egyptian-styled beings",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.07142857142857142,
+          "lift": 0.05714285714285714,
+          "lean": 0.0857142857142857,
+          "arms": 0.22857142857142856,
+          "spread": 0.0857142857142857,
+          "tempo": 1
+        },
         "reached_at_distance": 9.94
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.01792,
-          0.02809
+          0.02044,
+          0.02905
         ],
         "says": "weighing/assessing gestures reminiscent of judgment scenes",
         "from_field": "behavior",
         "cites": "entity|Animal-headed figures — Egyptian-styled beings",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "sing"
+        },
         "reached_at_distance": 9.33
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.02809,
-          0.034
+          0.02905,
+          0.03547
         ],
         "says": "presiding silently over thresholds",
         "from_field": "behavior",
         "cites": "entity|Animal-headed figures — Egyptian-styled beings",
+        "motion": {
+          "step": 0.45,
+          "lift": 0.15,
+          "lean": 0.45,
+          "arms": 0.85,
+          "spread": -0.6,
+          "tempo": 0.7,
+          "name": "enfold",
+          "matched": "hold"
+        },
         "reached_at_distance": 8.72
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.034,
-          0.04523
+          0.03547,
+          0.04624
         ],
         "says": "More formal and less interactive than elves or tricksters",
         "from_field": "behavior",
         "cites": "entity|Animal-headed figures — Egyptian-styled beings",
+        "motion": {
+          "step": 0.3,
+          "lift": 0.6,
+          "lean": 0.2,
+          "arms": 0.7,
+          "spread": 1,
+          "tempo": 2,
+          "name": "play",
+          "matched": "trick"
+        },
         "reached_at_distance": 8.32
       },
       {
         "rung": 5,
         "descendingRate": [
-          0.04523,
-          0.05517
+          0.04624,
+          0.05619
         ],
         "says": "they are encountered in office",
         "from_field": "behavior",
         "cites": "entity|Animal-headed figures — Egyptian-styled beings",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.21428571428571427,
+          "lift": 0.17142857142857143,
+          "lean": 0.2571428571428571,
+          "arms": 0.6857142857142857,
+          "spread": 0.2571428571428571,
+          "tempo": 1.4
+        },
         "reached_at_distance": 7.71
       },
       {
         "rung": 6,
         "descendingRate": [
-          0.05517,
+          0.05619,
           1
         ],
         "says": "as functionaries of some standing order",
         "from_field": "behavior",
         "cites": "entity|Animal-headed figures — Egyptian-styled beings",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.25,
+          "lift": 0.2,
+          "lean": 0.3,
+          "arms": 0.8,
+          "spread": 0.3,
+          "tempo": 1.5
+        },
         "reached_at_distance": 7.11
       }
     ],
@@ -207,7 +327,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.06518,
+      "maxDescendingRate": 0.06867,
       "firstResponseAtDistance": 10.54,
       "rungsReachedOnAWalk": 7
     }
@@ -231,66 +351,126 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.00848
+          0.0077
         ],
         "says": "Ceremonial display",
         "from_field": "behavior",
         "cites": "entity|Aztec & Mayan-styled beings",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "display"
+        },
         "reached_at_distance": 11.15
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.00848,
-          0.01555
+          0.0077,
+          0.01621
         ],
         "says": "presiding presence: standing atop or within pyramid-temple structures",
         "from_field": "behavior",
         "cites": "entity|Aztec & Mayan-styled beings",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.08333333333333333,
+          "lift": 0.06666666666666667,
+          "lean": 0.09999999999999999,
+          "arms": 0.26666666666666666,
+          "spread": 0.09999999999999999,
+          "tempo": 1.0333333333333334
+        },
         "reached_at_distance": 10.34
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.01555,
-          0.02307
+          0.01621,
+          0.02461
         ],
         "says": "conducting rites",
         "from_field": "behavior",
         "cites": "entity|Aztec & Mayan-styled beings",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.125,
+          "lift": 0.1,
+          "lean": 0.15,
+          "arms": 0.4,
+          "spread": 0.15,
+          "tempo": 1.15
+        },
         "reached_at_distance": 9.53
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.02307,
-          0.03067
+          0.02461,
+          0.03196
         ],
         "says": "animating glyph-patterned surfaces",
         "from_field": "behavior",
         "cites": "entity|Aztec & Mayan-styled beings",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.16666666666666666,
+          "lift": 0.13333333333333333,
+          "lean": 0.19999999999999998,
+          "arms": 0.5333333333333333,
+          "spread": 0.19999999999999998,
+          "tempo": 1.2666666666666666
+        },
         "reached_at_distance": 8.72
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.03067,
-          0.04144
+          0.03196,
+          0.04311
         ],
         "says": "McKenna repeatedly reached for Mesoamerican comparisons in describing hyperspace decor",
         "from_field": "behavior",
         "cites": "entity|Aztec & Mayan-styled beings",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.20833333333333334,
+          "lift": 0.16666666666666669,
+          "lean": 0.25,
+          "arms": 0.6666666666666667,
+          "spread": 0.25,
+          "tempo": 1.3833333333333333
+        },
         "reached_at_distance": 8.12
       },
       {
         "rung": 5,
         "descendingRate": [
-          0.04144,
+          0.04311,
           1
         ],
         "says": "community reports treat 'Aztec patterning' as one of the canonical DMT visual signatures that then peoples itself with matching entities",
         "from_field": "behavior",
         "cites": "entity|Aztec & Mayan-styled beings",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.25,
+          "lift": 0.2,
+          "lean": 0.3,
+          "arms": 0.8,
+          "spread": 0.3,
+          "tempo": 1.5
+        },
         "reached_at_distance": 7.31
       }
     ],
@@ -315,7 +495,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.05274,
+      "maxDescendingRate": 0.05406,
       "firstResponseAtDistance": 11.15,
       "rungsReachedOnAWalk": 6
     }
@@ -339,110 +519,210 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.00722
+          0.00691
         ],
         "says": "Play as first contact: they giggle",
         "from_field": "behavior",
         "cites": "entity|Child-sprites — hyperspace children",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.025,
+          "lift": 0.020000000000000004,
+          "lean": 0.03,
+          "arms": 0.08000000000000002,
+          "spread": 0.03,
+          "tempo": 0.87
+        },
         "reached_at_distance": 11.15
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.00722,
-          0.01275
+          0.00691,
+          0.01362
         ],
         "says": "chase",
         "from_field": "behavior",
         "cites": "entity|Child-sprites — hyperspace children",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.05,
+          "lift": 0.04000000000000001,
+          "lean": 0.06,
+          "arms": 0.16000000000000003,
+          "spread": 0.06,
+          "tempo": 0.9400000000000001
+        },
         "reached_at_distance": 10.74
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.01275,
-          0.01727
+          0.01362,
+          0.01881
         ],
         "says": "tumble",
         "from_field": "behavior",
         "cites": "entity|Child-sprites — hyperspace children",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.075,
+          "lift": 0.06,
+          "lean": 0.09,
+          "arms": 0.24,
+          "spread": 0.09,
+          "tempo": 1.01
+        },
         "reached_at_distance": 10.14
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.01727,
-          0.02166
+          0.01881,
+          0.02434
         ],
         "says": "tug at the experiencer",
         "from_field": "behavior",
         "cites": "entity|Child-sprites — hyperspace children",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.1,
+          "lift": 0.08000000000000002,
+          "lean": 0.12,
+          "arms": 0.32000000000000006,
+          "spread": 0.12,
+          "tempo": 1.08
+        },
         "reached_at_distance": 9.73
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.02166,
-          0.03344
+          0.02434,
+          0.03008
         ],
         "says": "show off toys or tricks",
         "from_field": "behavior",
         "cites": "entity|Child-sprites — hyperspace children",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "show"
+        },
         "reached_at_distance": 9.33
       },
       {
         "rung": 5,
         "descendingRate": [
-          0.03344,
-          0.03805
+          0.03008,
+          0.03669
         ],
         "says": "invite participation in games",
         "from_field": "behavior",
         "cites": "entity|Child-sprites — hyperspace children",
+        "motion": {
+          "step": 0.3,
+          "lift": 0.6,
+          "lean": 0.2,
+          "arms": 0.7,
+          "spread": 1,
+          "tempo": 2,
+          "name": "play",
+          "matched": "game"
+        },
         "reached_at_distance": 8.72
       },
       {
         "rung": 6,
         "descendingRate": [
-          0.03805,
-          0.04385
+          0.03669,
+          0.0447
         ],
         "says": "Strassman's volunteers reported nursery and playroom scenes; Michael et al. noted powerful entities displaying 'childish' qualities — one participant described a faerie-like being simultaneously 'all-powerful' yet 'infantile'",
         "from_field": "behavior",
         "cites": "entity|Child-sprites — hyperspace children",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "display"
+        },
         "reached_at_distance": 8.32
       },
       {
         "rung": 7,
         "descendingRate": [
-          0.04385,
-          0.04996
+          0.0447,
+          0.05096
         ],
         "says": "giggling as it ran the space",
         "from_field": "behavior",
         "cites": "entity|Child-sprites — hyperspace children",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.2,
+          "lift": 0.16000000000000003,
+          "lean": 0.24,
+          "arms": 0.6400000000000001,
+          "spread": 0.24,
+          "tempo": 1.3599999999999999
+        },
         "reached_at_distance": 7.91
       },
       {
         "rung": 8,
         "descendingRate": [
-          0.04996,
-          0.05532
+          0.05096,
+          0.05868
         ],
         "says": "Some accounts describe the childlike surface as a mask over something older",
         "from_field": "behavior",
         "cites": "entity|Child-sprites — hyperspace children",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.225,
+          "lift": 0.18000000000000002,
+          "lean": 0.27,
+          "arms": 0.7200000000000001,
+          "spread": 0.27,
+          "tempo": 1.4300000000000002
+        },
         "reached_at_distance": 7.51
       },
       {
         "rung": 9,
         "descendingRate": [
-          0.05532,
+          0.05868,
           1
         ],
         "says": "more knowing",
         "from_field": "behavior",
         "cites": "entity|Child-sprites — hyperspace children",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.25,
+          "lift": 0.2,
+          "lean": 0.3,
+          "arms": 0.8,
+          "spread": 0.3,
+          "tempo": 1.5
+        },
         "reached_at_distance": 6.9
       }
     ],
@@ -468,7 +748,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.0632,
+      "maxDescendingRate": 0.0642,
       "firstResponseAtDistance": 11.15,
       "rungsReachedOnAWalk": 10
     }
@@ -492,88 +772,168 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.00941
+          0.01001
         ],
         "says": "Unified multiplicity: the components move",
         "from_field": "behavior",
         "cites": "entity|Composite & collective beings — the many-as-one",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.03125,
+          "lift": 0.025,
+          "lean": 0.0375,
+          "arms": 0.1,
+          "spread": 0.0375,
+          "tempo": 0.8875000000000001
+        },
         "reached_at_distance": 10.34
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.00941,
-          0.01741
+          0.01001,
+          0.01729
         ],
         "says": "speak",
         "from_field": "behavior",
         "cites": "entity|Composite & collective beings — the many-as-one",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.0625,
+          "lift": 0.05,
+          "lean": 0.075,
+          "arms": 0.2,
+          "spread": 0.075,
+          "tempo": 0.9750000000000001
+        },
         "reached_at_distance": 9.94
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.01741,
-          0.02419
+          0.01729,
+          0.02392
         ],
         "says": "attend in perfect coordination",
         "from_field": "behavior",
         "cites": "entity|Composite & collective beings — the many-as-one",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.09375,
+          "lift": 0.07500000000000001,
+          "lean": 0.11249999999999999,
+          "arms": 0.30000000000000004,
+          "spread": 0.11249999999999999,
+          "tempo": 1.0625
+        },
         "reached_at_distance": 9.33
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.02419,
-          0.03401
+          0.02392,
+          0.03463
         ],
         "says": "parts may detach to interact and then rejoin",
         "from_field": "behavior",
         "cites": "entity|Composite & collective beings — the many-as-one",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.125,
+          "lift": 0.1,
+          "lean": 0.15,
+          "arms": 0.4,
+          "spread": 0.15,
+          "tempo": 1.15
+        },
         "reached_at_distance": 8.93
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.03401,
-          0.04048
+          0.03463,
+          0.0423
         ],
         "says": "Some composites form during the encounter",
         "from_field": "behavior",
         "cites": "entity|Composite & collective beings — the many-as-one",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.15625,
+          "lift": 0.125,
+          "lean": 0.1875,
+          "arms": 0.5,
+          "spread": 0.1875,
+          "tempo": 1.2375
+        },
         "reached_at_distance": 8.32
       },
       {
         "rung": 5,
         "descendingRate": [
-          0.04048,
-          0.04731
+          0.0423,
+          0.04918
         ],
         "says": "separate beings merging in front of the experiencer",
         "from_field": "behavior",
         "cites": "entity|Composite & collective beings — the many-as-one",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.1875,
+          "lift": 0.15000000000000002,
+          "lean": 0.22499999999999998,
+          "arms": 0.6000000000000001,
+          "spread": 0.22499999999999998,
+          "tempo": 1.325
+        },
         "reached_at_distance": 7.91
       },
       {
         "rung": 6,
         "descendingRate": [
-          0.04731,
-          0.06113
+          0.04918,
+          0.06061
         ],
         "says": "occasionally inviting the experiencer into the merge (overlapping with ego-dissolution",
         "from_field": "behavior",
         "cites": "entity|Composite & collective beings — the many-as-one",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.21875,
+          "lift": 0.17500000000000002,
+          "lean": 0.2625,
+          "arms": 0.7000000000000001,
+          "spread": 0.2625,
+          "tempo": 1.4125
+        },
         "reached_at_distance": 7.51
       },
       {
         "rung": 7,
         "descendingRate": [
-          0.06113,
+          0.06061,
           1
         ],
         "says": "unity experiences at peak)",
         "from_field": "behavior",
         "cites": "entity|Composite & collective beings — the many-as-one",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.25,
+          "lift": 0.2,
+          "lean": 0.3,
+          "arms": 0.8,
+          "spread": 0.3,
+          "tempo": 1.5
+        },
         "reached_at_distance": 6.9
       }
     ],
@@ -596,7 +956,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.06905,
+      "maxDescendingRate": 0.06664,
       "firstResponseAtDistance": 10.34,
       "rungsReachedOnAWalk": 8
     }
@@ -620,77 +980,147 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.01405
+          0.01191
         ],
         "says": "Chase",
         "from_field": "behavior",
         "cites": "entity|Dark entities & demons",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.03571428571428571,
+          "lift": 0.02857142857142857,
+          "lean": 0.04285714285714285,
+          "arms": 0.11428571428571428,
+          "spread": 0.04285714285714285,
+          "tempo": 0.9
+        },
         "reached_at_distance": 11.15
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.01405,
-          0.02383
+          0.01191,
+          0.0235
         ],
         "says": "intimidate",
         "from_field": "behavior",
         "cites": "entity|Dark entities & demons",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.07142857142857142,
+          "lift": 0.05714285714285714,
+          "lean": 0.0857142857142857,
+          "arms": 0.22857142857142856,
+          "spread": 0.0857142857142857,
+          "tempo": 1
+        },
         "reached_at_distance": 10.54
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.02383,
-          0.03442
+          0.0235,
+          0.03591
         ],
         "says": "torment",
         "from_field": "behavior",
         "cites": "entity|Dark entities & demons",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.10714285714285714,
+          "lift": 0.08571428571428572,
+          "lean": 0.12857142857142856,
+          "arms": 0.34285714285714286,
+          "spread": 0.12857142857142856,
+          "tempo": 1.1
+        },
         "reached_at_distance": 9.73
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.03442,
-          0.0448
+          0.03591,
+          0.04378
         ],
         "says": "or attract negative attention",
         "from_field": "behavior",
         "cites": "entity|Dark entities & demons",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.14285714285714285,
+          "lift": 0.11428571428571428,
+          "lean": 0.1714285714285714,
+          "arms": 0.45714285714285713,
+          "spread": 0.1714285714285714,
+          "tempo": 1.2
+        },
         "reached_at_distance": 9.13
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.0448,
-          0.05266
+          0.04378,
+          0.05334
         ],
         "says": "the community advises NOT to study",
         "from_field": "behavior",
         "cites": "entity|Dark entities & demons",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.17857142857142858,
+          "lift": 0.14285714285714288,
+          "lean": 0.21428571428571427,
+          "arms": 0.5714285714285715,
+          "spread": 0.21428571428571427,
+          "tempo": 1.3
+        },
         "reached_at_distance": 8.52
       },
       {
         "rung": 5,
         "descendingRate": [
-          0.05266,
-          0.06784
+          0.05334,
+          0.06746
         ],
         "says": "dwell on",
         "from_field": "behavior",
         "cites": "entity|Dark entities & demons",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.21428571428571427,
+          "lift": 0.17142857142857143,
+          "lean": 0.2571428571428571,
+          "arms": 0.6857142857142857,
+          "spread": 0.2571428571428571,
+          "tempo": 1.4
+        },
         "reached_at_distance": 7.91
       },
       {
         "rung": 6,
         "descendingRate": [
-          0.06784,
+          0.06746,
           1
         ],
         "says": "or seek them",
         "from_field": "behavior",
         "cites": "entity|Dark entities & demons",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.25,
+          "lift": 0.2,
+          "lean": 0.3,
+          "arms": 0.8,
+          "spread": 0.3,
+          "tempo": 1.5
+        },
         "reached_at_distance": 7.11
       }
     ],
@@ -710,7 +1140,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.0791,
+      "maxDescendingRate": 0.08023,
       "firstResponseAtDistance": 11.15,
       "rungsReachedOnAWalk": 7
     }
@@ -734,33 +1164,63 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.03057
+          0.03056
         ],
         "says": "Greet",
         "from_field": "behavior",
         "cites": "entity|Deceased loved ones & ancestors",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.08333333333333333,
+          "lift": 0.06666666666666667,
+          "lean": 0.09999999999999999,
+          "arms": 0.26666666666666666,
+          "spread": 0.09999999999999999,
+          "tempo": 1.0333333333333334
+        },
         "reached_at_distance": 10.74
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.03057,
-          0.06091
+          0.03056,
+          0.05899
         ],
         "says": "reassure",
         "from_field": "behavior",
         "cites": "entity|Deceased loved ones & ancestors",
+        "motion": {
+          "step": 0.45,
+          "lift": 0.15,
+          "lean": 0.45,
+          "arms": 0.85,
+          "spread": -0.6,
+          "tempo": 0.7,
+          "name": "enfold",
+          "matched": "reassur"
+        },
         "reached_at_distance": 9.33
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.06091,
+          0.05899,
           1
         ],
         "says": "or deliver a terse message ('There is nothing here for you, kid!') before the scene shifts",
         "from_field": "behavior",
         "cites": "entity|Deceased loved ones & ancestors",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.25,
+          "lift": 0.2,
+          "lean": 0.3,
+          "arms": 0.8,
+          "spread": 0.3,
+          "tempo": 1.5
+        },
         "reached_at_distance": 7.91
       }
     ],
@@ -782,7 +1242,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.09118,
+      "maxDescendingRate": 0.08947,
       "firstResponseAtDistance": 10.74,
       "rungsReachedOnAWalk": 3
     }
@@ -806,33 +1266,63 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.01638
+          0.01747
         ],
         "says": "Radiate authority and cosmic knowledge",
         "from_field": "behavior",
         "cites": "entity|Deities & god-like presences",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.08333333333333333,
+          "lift": 0.06666666666666667,
+          "lean": 0.09999999999999999,
+          "arms": 0.26666666666666666,
+          "spread": 0.09999999999999999,
+          "tempo": 1.0333333333333334
+        },
         "reached_at_distance": 10.54
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.01638,
-          0.03287
+          0.01747,
+          0.03279
         ],
         "says": "may take keen interest or remain transcendent and aloof",
         "from_field": "behavior",
         "cites": "entity|Deities & god-like presences",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.16666666666666666,
+          "lift": 0.13333333333333333,
+          "lean": 0.19999999999999998,
+          "arms": 0.5333333333333333,
+          "spread": 0.19999999999999998,
+          "tempo": 1.2666666666666666
+        },
         "reached_at_distance": 9.13
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.03287,
+          0.03279,
           1
         ],
         "says": "range from infinitely compassionate to judging",
         "from_field": "behavior",
         "cites": "entity|Deities & god-like presences",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.25,
+          "lift": 0.2,
+          "lean": 0.3,
+          "arms": 0.8,
+          "spread": 0.3,
+          "tempo": 1.5
+        },
         "reached_at_distance": 7.91
       }
     ],
@@ -854,7 +1344,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.05346,
+      "maxDescendingRate": 0.05358,
       "firstResponseAtDistance": 10.54,
       "rungsReachedOnAWalk": 3
     }
@@ -878,99 +1368,189 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.00758
+          0.00814
         ],
         "says": "Watching and reacting: the faces track the experiencer",
         "from_field": "behavior",
         "cites": "entity|Embedded faces — faces in the walls",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.027777777777777776,
+          "lift": 0.022222222222222223,
+          "lean": 0.03333333333333333,
+          "arms": 0.08888888888888889,
+          "spread": 0.03333333333333333,
+          "tempo": 0.8777777777777778
+        },
         "reached_at_distance": 10.74
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.00758,
-          0.01341
+          0.00814,
+          0.01335
         ],
         "says": "change expression in response to attention",
         "from_field": "behavior",
         "cites": "entity|Embedded faces — faces in the walls",
+        "motion": {
+          "step": 1,
+          "lift": 0,
+          "lean": 0.35,
+          "arms": 0.3,
+          "spread": 0.2,
+          "tempo": 1.1,
+          "name": "approach",
+          "matched": "press"
+        },
         "reached_at_distance": 10.34
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.01341,
-          0.01696
+          0.01335,
+          0.01687
         ],
         "says": "whisper",
         "from_field": "behavior",
         "cites": "entity|Embedded faces — faces in the walls",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.08333333333333333,
+          "lift": 0.06666666666666667,
+          "lean": 0.09999999999999999,
+          "arms": 0.26666666666666666,
+          "spread": 0.09999999999999999,
+          "tempo": 1.0333333333333334
+        },
         "reached_at_distance": 9.73
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.01696,
-          0.02375
+          0.01687,
+          0.02426
         ],
         "says": "giggle",
         "from_field": "behavior",
         "cites": "entity|Embedded faces — faces in the walls",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.1111111111111111,
+          "lift": 0.08888888888888889,
+          "lean": 0.13333333333333333,
+          "arms": 0.35555555555555557,
+          "spread": 0.13333333333333333,
+          "tempo": 1.1111111111111112
+        },
         "reached_at_distance": 9.33
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.02375,
-          0.03254
+          0.02426,
+          0.03401
         ],
         "says": "or simply regard",
         "from_field": "behavior",
         "cites": "entity|Embedded faces — faces in the walls",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.1388888888888889,
+          "lift": 0.11111111111111112,
+          "lean": 0.16666666666666666,
+          "arms": 0.4444444444444445,
+          "spread": 0.16666666666666666,
+          "tempo": 1.1888888888888889
+        },
         "reached_at_distance": 8.93
       },
       {
         "rung": 5,
         "descendingRate": [
-          0.03254,
-          0.03822
+          0.03401,
+          0.03884
         ],
         "says": "They rarely detach from their surface",
         "from_field": "behavior",
         "cites": "entity|Embedded faces — faces in the walls",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.16666666666666666,
+          "lift": 0.13333333333333333,
+          "lean": 0.19999999999999998,
+          "arms": 0.5333333333333333,
+          "spread": 0.19999999999999998,
+          "tempo": 1.2666666666666666
+        },
         "reached_at_distance": 8.32
       },
       {
         "rung": 6,
         "descendingRate": [
-          0.03822,
-          0.04671
+          0.03884,
+          0.0447
         ],
         "says": "the wall itself has become populous",
         "from_field": "behavior",
         "cites": "entity|Embedded faces — faces in the walls",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.19444444444444445,
+          "lift": 0.15555555555555556,
+          "lean": 0.23333333333333334,
+          "arms": 0.6222222222222222,
+          "spread": 0.23333333333333334,
+          "tempo": 1.3444444444444446
+        },
         "reached_at_distance": 7.91
       },
       {
         "rung": 7,
         "descendingRate": [
-          0.04671,
-          0.05869
+          0.0447,
+          0.05834
         ],
         "says": "Often experienced as the first sign that the space is inhabited",
         "from_field": "behavior",
         "cites": "entity|Embedded faces — faces in the walls",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.2222222222222222,
+          "lift": 0.17777777777777778,
+          "lean": 0.26666666666666666,
+          "arms": 0.7111111111111111,
+          "spread": 0.26666666666666666,
+          "tempo": 1.422222222222222
+        },
         "reached_at_distance": 7.51
       },
       {
         "rung": 8,
         "descendingRate": [
-          0.05869,
+          0.05834,
           1
         ],
         "says": "before any free-standing entity appears",
         "from_field": "behavior",
         "cites": "entity|Embedded faces — faces in the walls",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.25,
+          "lift": 0.2,
+          "lean": 0.3,
+          "arms": 0.8,
+          "spread": 0.3,
+          "tempo": 1.5
+        },
         "reached_at_distance": 6.9
       }
     ],
@@ -993,7 +1573,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.07027,
+      "maxDescendingRate": 0.07293,
       "firstResponseAtDistance": 10.74,
       "rungsReachedOnAWalk": 9
     }
@@ -1017,110 +1597,210 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.00542
+          0.00604
         ],
         "says": "Flirtation",
         "from_field": "behavior",
         "cites": "entity|Fairies, sirens & seductresses",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.025,
+          "lift": 0.020000000000000004,
+          "lean": 0.03,
+          "arms": 0.08000000000000002,
+          "spread": 0.03,
+          "tempo": 0.87
+        },
         "reached_at_distance": 10.95
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.00542,
-          0.00997
+          0.00604,
+          0.00884
         ],
         "says": "luring",
         "from_field": "behavior",
         "cites": "entity|Fairies, sirens & seductresses",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.05,
+          "lift": 0.04000000000000001,
+          "lean": 0.06,
+          "arms": 0.16000000000000003,
+          "spread": 0.06,
+          "tempo": 0.9400000000000001
+        },
         "reached_at_distance": 10.54
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.00997,
-          0.01419
+          0.00884,
+          0.01417
         ],
         "says": "delight: beckoning the experiencer deeper",
         "from_field": "behavior",
         "cites": "entity|Fairies, sirens & seductresses",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.075,
+          "lift": 0.06,
+          "lean": 0.09,
+          "arms": 0.24,
+          "spread": 0.09,
+          "tempo": 1.01
+        },
         "reached_at_distance": 10.14
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.01419,
-          0.01856
+          0.01417,
+          0.01744
         ],
         "says": "dancing for and with them",
         "from_field": "behavior",
         "cites": "entity|Fairies, sirens & seductresses",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.1,
+          "lift": 0.08000000000000002,
+          "lean": 0.12,
+          "arms": 0.32000000000000006,
+          "spread": 0.12,
+          "tempo": 1.08
+        },
         "reached_at_distance": 9.53
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.01856,
-          0.02563
+          0.01744,
+          0.02283
         ],
         "says": "showering charm and playful affection",
         "from_field": "behavior",
         "cites": "entity|Fairies, sirens & seductresses",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "show"
+        },
         "reached_at_distance": 9.13
       },
       {
         "rung": 5,
         "descendingRate": [
-          0.02563,
-          0.02733
+          0.02283,
+          0.02753
         ],
         "says": "In benign accounts the flirtation is pure exuberant welcome",
         "from_field": "behavior",
         "cites": "entity|Fairies, sirens & seductresses",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.15,
+          "lift": 0.12,
+          "lean": 0.18,
+          "arms": 0.48,
+          "spread": 0.18,
+          "tempo": 1.22
+        },
         "reached_at_distance": 8.72
       },
       {
         "rung": 6,
         "descendingRate": [
-          0.02733,
-          0.03495
+          0.02753,
+          0.03544
         ],
         "says": "in cautionary accounts it is bait",
         "from_field": "behavior",
         "cites": "entity|Fairies, sirens & seductresses",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.175,
+          "lift": 0.13999999999999999,
+          "lean": 0.21,
+          "arms": 0.5599999999999999,
+          "spread": 0.21,
+          "tempo": 1.29
+        },
         "reached_at_distance": 8.32
       },
       {
         "rung": 7,
         "descendingRate": [
-          0.03495,
-          0.04444
+          0.03544,
+          0.04369
         ],
         "says": "distraction from the lesson",
         "from_field": "behavior",
         "cites": "entity|Fairies, sirens & seductresses",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.2,
+          "lift": 0.16000000000000003,
+          "lean": 0.24,
+          "arms": 0.6400000000000001,
+          "spread": 0.24,
+          "tempo": 1.3599999999999999
+        },
         "reached_at_distance": 7.91
       },
       {
         "rung": 8,
         "descendingRate": [
-          0.04444,
-          0.04973
+          0.04369,
+          0.04955
         ],
         "says": "or a lure toward entanglement",
         "from_field": "behavior",
         "cites": "entity|Fairies, sirens & seductresses",
+        "motion": {
+          "step": 1,
+          "lift": 0,
+          "lean": 0.35,
+          "arms": 0.3,
+          "spread": 0.2,
+          "tempo": 1.1,
+          "name": "approach",
+          "matched": "toward"
+        },
         "reached_at_distance": 7.31
       },
       {
         "rung": 9,
         "descendingRate": [
-          0.04973,
+          0.04955,
           1
         ],
         "says": "The community's own taxonomy holds both readings simultaneously",
         "from_field": "behavior",
         "cites": "entity|Fairies, sirens & seductresses",
+        "motion": {
+          "step": 0.45,
+          "lift": 0.15,
+          "lean": 0.45,
+          "arms": 0.85,
+          "spread": -0.6,
+          "tempo": 0.7,
+          "name": "enfold",
+          "matched": "hold"
+        },
         "reached_at_distance": 6.9
       }
     ],
@@ -1147,7 +1827,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.05813,
+      "maxDescendingRate": 0.0591,
       "firstResponseAtDistance": 10.95,
       "rungsReachedOnAWalk": 10
     }
@@ -1171,110 +1851,210 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.01749
+          0.01721
         ],
         "says": "Emergence",
         "from_field": "behavior",
         "cites": "entity|Fractal humanoids — beings made of the geometry",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.025,
+          "lift": 0.020000000000000004,
+          "lean": 0.03,
+          "arms": 0.08000000000000002,
+          "spread": 0.03,
+          "tempo": 0.87
+        },
         "reached_at_distance": 10.95
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.01749,
-          0.02123
+          0.01721,
+          0.02184
         ],
         "says": "display",
         "from_field": "behavior",
         "cites": "entity|Fractal humanoids — beings made of the geometry",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "display"
+        },
         "reached_at_distance": 10.54
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.02123,
-          0.03079
+          0.02184,
+          0.02928
         ],
         "says": "reabsorption: they condense from the pattern",
         "from_field": "behavior",
         "cites": "entity|Fractal humanoids — beings made of the geometry",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.075,
+          "lift": 0.06,
+          "lean": 0.09,
+          "arms": 0.24,
+          "spread": 0.09,
+          "tempo": 1.01
+        },
         "reached_at_distance": 10.14
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.03079,
-          0.04056
+          0.02928,
+          0.03779
         ],
         "says": "interact",
         "from_field": "behavior",
         "cites": "entity|Fractal humanoids — beings made of the geometry",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.1,
+          "lift": 0.08000000000000002,
+          "lean": 0.12,
+          "arms": 0.32000000000000006,
+          "spread": 0.12,
+          "tempo": 1.08
+        },
         "reached_at_distance": 9.53
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.04056,
-          0.04559
+          0.03779,
+          0.04513
         ],
         "says": "often by modulating the very geometry they are made of",
         "from_field": "behavior",
         "cites": "entity|Fractal humanoids — beings made of the geometry",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.125,
+          "lift": 0.1,
+          "lean": 0.15,
+          "arms": 0.4,
+          "spread": 0.15,
+          "tempo": 1.15
+        },
         "reached_at_distance": 9.13
       },
       {
         "rung": 5,
         "descendingRate": [
-          0.04559,
-          0.05615
+          0.04513,
+          0.05623
         ],
         "says": "sending waves of structure toward the experiencer",
         "from_field": "behavior",
         "cites": "entity|Fractal humanoids — beings made of the geometry",
+        "motion": {
+          "step": 1,
+          "lift": 0,
+          "lean": 0.35,
+          "arms": 0.3,
+          "spread": 0.2,
+          "tempo": 1.1,
+          "name": "approach",
+          "matched": "toward"
+        },
         "reached_at_distance": 8.72
       },
       {
         "rung": 6,
         "descendingRate": [
-          0.05615,
-          0.06362
+          0.05623,
+          0.06513
         ],
         "says": "and dissolve back",
         "from_field": "behavior",
         "cites": "entity|Fractal humanoids — beings made of the geometry",
+        "motion": {
+          "step": -0.8,
+          "lift": 0,
+          "lean": -0.4,
+          "arms": -0.3,
+          "spread": 0.3,
+          "tempo": 0.6,
+          "name": "recede",
+          "matched": "dissolve"
+        },
         "reached_at_distance": 8.32
       },
       {
         "rung": 7,
         "descendingRate": [
-          0.06362,
-          0.07386
+          0.06513,
+          0.07539
         ],
         "says": "Frequently plural and synchronized",
         "from_field": "behavior",
         "cites": "entity|Fractal humanoids — beings made of the geometry",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.2,
+          "lift": 0.16000000000000003,
+          "lean": 0.24,
+          "arms": 0.6400000000000001,
+          "spread": 0.24,
+          "tempo": 1.3599999999999999
+        },
         "reached_at_distance": 7.91
       },
       {
         "rung": 8,
         "descendingRate": [
-          0.07386,
-          0.08401
+          0.07539,
+          0.08437
         ],
         "says": "moving as if the pattern itself had decided to be several people for a while",
         "from_field": "behavior",
         "cites": "entity|Fractal humanoids — beings made of the geometry",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.225,
+          "lift": 0.18000000000000002,
+          "lean": 0.27,
+          "arms": 0.7200000000000001,
+          "spread": 0.27,
+          "tempo": 1.4300000000000002
+        },
         "reached_at_distance": 7.31
       },
       {
         "rung": 9,
         "descendingRate": [
-          0.08401,
+          0.08437,
           1
         ],
         "says": "Michael et al.'s 'sentient structures' coding (25% of encounters) captures the adjacent phenomenon of environment-as-being",
         "from_field": "behavior",
         "cites": "entity|Fractal humanoids — beings made of the geometry",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.25,
+          "lift": 0.2,
+          "lean": 0.3,
+          "arms": 0.8,
+          "spread": 0.3,
+          "tempo": 1.5
+        },
         "reached_at_distance": 6.9
       }
     ],
@@ -1300,7 +2080,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.09391,
+      "maxDescendingRate": 0.09275,
       "firstResponseAtDistance": 10.95,
       "rungsReachedOnAWalk": 10
     }
@@ -1324,44 +2104,84 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.0177
+          0.01895
         ],
         "says": "Guard and gate access to deeper hyperspace",
         "from_field": "behavior",
         "cites": "entity|Guardians & gatekeepers — 'the bouncer'",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.0625,
+          "lift": 0.05,
+          "lean": 0.075,
+          "arms": 0.2,
+          "spread": 0.075,
+          "tempo": 0.9750000000000001
+        },
         "reached_at_distance": 11.15
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.0177,
-          0.033
+          0.01895,
+          0.03525
         ],
         "says": "prepare",
         "from_field": "behavior",
         "cites": "entity|Guardians & gatekeepers — 'the bouncer'",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.125,
+          "lift": 0.1,
+          "lean": 0.15,
+          "arms": 0.4,
+          "spread": 0.15,
+          "tempo": 1.15
+        },
         "reached_at_distance": 9.94
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.033,
-          0.05305
+          0.03525,
+          0.05196
         ],
         "says": "'vet,' or block the visitor",
         "from_field": "behavior",
         "cites": "entity|Guardians & gatekeepers — 'the bouncer'",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.1875,
+          "lift": 0.15000000000000002,
+          "lean": 0.22499999999999998,
+          "arms": 0.6000000000000001,
+          "spread": 0.22499999999999998,
+          "tempo": 1.325
+        },
         "reached_at_distance": 8.72
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.05305,
+          0.05196,
           1
         ],
         "says": "people report being shown where they want to go but 'not allowed to enter,' or being 'banned' for disrespect",
         "from_field": "behavior",
         "cites": "entity|Guardians & gatekeepers — 'the bouncer'",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "show"
+        },
         "reached_at_distance": 7.71
       }
     ],
@@ -1382,7 +2202,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.07355,
+      "maxDescendingRate": 0.07161,
       "firstResponseAtDistance": 11.15,
       "rungsReachedOnAWalk": 4
     }
@@ -1406,99 +2226,189 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.01082
+          0.01014
         ],
         "says": "Watching",
         "from_field": "behavior",
         "cites": "entity|Hooded & cloaked figures",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.027777777777777776,
+          "lift": 0.022222222222222223,
+          "lean": 0.03333333333333333,
+          "arms": 0.08888888888888889,
+          "spread": 0.03333333333333333,
+          "tempo": 0.8777777777777778
+        },
         "reached_at_distance": 10.14
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.01082,
-          0.01522
+          0.01014,
+          0.016
         ],
         "says": "waiting",
         "from_field": "behavior",
         "cites": "entity|Hooded & cloaked figures",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.05555555555555555,
+          "lift": 0.044444444444444446,
+          "lean": 0.06666666666666667,
+          "arms": 0.17777777777777778,
+          "spread": 0.06666666666666667,
+          "tempo": 0.9555555555555556
+        },
         "reached_at_distance": 9.73
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.01522,
-          0.02107
+          0.016,
+          0.02139
         ],
         "says": "escorting",
         "from_field": "behavior",
         "cites": "entity|Hooded & cloaked figures",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.08333333333333333,
+          "lift": 0.06666666666666667,
+          "lean": 0.09999999999999999,
+          "arms": 0.26666666666666666,
+          "spread": 0.09999999999999999,
+          "tempo": 1.0333333333333334
+        },
         "reached_at_distance": 9.33
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.02107,
-          0.02954
+          0.02139,
+          0.02937
         ],
         "says": "withholding: they stand at doorways and peripheries",
         "from_field": "behavior",
         "cites": "entity|Hooded & cloaked figures",
+        "motion": {
+          "step": 0.45,
+          "lift": 0.15,
+          "lean": 0.45,
+          "arms": 0.85,
+          "spread": -0.6,
+          "tempo": 0.7,
+          "name": "enfold",
+          "matched": "hold"
+        },
         "reached_at_distance": 8.93
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.02954,
-          0.03599
+          0.02937,
+          0.03693
         ],
         "says": "observe without approach",
         "from_field": "behavior",
         "cites": "entity|Hooded & cloaked figures",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.1388888888888889,
+          "lift": 0.11111111111111112,
+          "lean": 0.16666666666666666,
+          "arms": 0.4444444444444445,
+          "spread": 0.16666666666666666,
+          "tempo": 1.1888888888888889
+        },
         "reached_at_distance": 8.52
       },
       {
         "rung": 5,
         "descendingRate": [
-          0.03599,
-          0.04367
+          0.03693,
+          0.04179
         ],
         "says": "occasionally beckon or lead",
         "from_field": "behavior",
         "cites": "entity|Hooded & cloaked figures",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.16666666666666666,
+          "lift": 0.13333333333333333,
+          "lean": 0.19999999999999998,
+          "arms": 0.5333333333333333,
+          "spread": 0.19999999999999998,
+          "tempo": 1.2666666666666666
+        },
         "reached_at_distance": 8.12
       },
       {
         "rung": 6,
         "descendingRate": [
-          0.04367,
-          0.05352
+          0.04179,
+          0.05412
         ],
         "says": "almost never reveal what is under the hood",
         "from_field": "behavior",
         "cites": "entity|Hooded & cloaked figures",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.19444444444444445,
+          "lift": 0.15555555555555556,
+          "lean": 0.23333333333333334,
+          "arms": 0.6222222222222222,
+          "spread": 0.23333333333333334,
+          "tempo": 1.3444444444444446
+        },
         "reached_at_distance": 7.71
       },
       {
         "rung": 7,
         "descendingRate": [
-          0.05352,
-          0.06115
+          0.05412,
+          0.05756
         ],
         "says": "Their refusal to disclose is the defining behavior",
         "from_field": "behavior",
         "cites": "entity|Hooded & cloaked figures",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.2222222222222222,
+          "lift": 0.17777777777777778,
+          "lean": 0.26666666666666666,
+          "arms": 0.7111111111111111,
+          "spread": 0.26666666666666666,
+          "tempo": 1.422222222222222
+        },
         "reached_at_distance": 7.31
       },
       {
         "rung": 8,
         "descendingRate": [
-          0.06115,
+          0.05756,
           1
         ],
         "says": "many reports describe an encounter that consists entirely of mutual regard",
         "from_field": "behavior",
         "cites": "entity|Hooded & cloaked figures",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.25,
+          "lift": 0.2,
+          "lean": 0.3,
+          "arms": 0.8,
+          "spread": 0.3,
+          "tempo": 1.5
+        },
         "reached_at_distance": 6.9
       }
     ],
@@ -1526,7 +2436,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.06677,
+      "maxDescendingRate": 0.06833,
       "firstResponseAtDistance": 10.14,
       "rungsReachedOnAWalk": 9
     }
@@ -1550,44 +2460,84 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.01211
+          0.01263
         ],
         "says": "Largely indifferent to the visitor",
         "from_field": "behavior",
         "cites": "entity|Impersonal geometric intelligences — 'the machine'",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.0625,
+          "lift": 0.05,
+          "lean": 0.075,
+          "arms": 0.2,
+          "spread": 0.075,
+          "tempo": 0.9750000000000001
+        },
         "reached_at_distance": 11.15
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.01211,
-          0.02281
+          0.01263,
+          0.02232
         ],
         "says": "carry structure",
         "from_field": "behavior",
         "cites": "entity|Impersonal geometric intelligences — 'the machine'",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.125,
+          "lift": 0.1,
+          "lean": 0.15,
+          "arms": 0.4,
+          "spread": 0.15,
+          "tempo": 1.15
+        },
         "reached_at_distance": 9.94
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.02281,
-          0.03734
+          0.02232,
+          0.03773
         ],
         "says": "meaning rather than relating",
         "from_field": "behavior",
         "cites": "entity|Impersonal geometric intelligences — 'the machine'",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.1875,
+          "lift": 0.15000000000000002,
+          "lean": 0.22499999999999998,
+          "arms": 0.6000000000000001,
+          "spread": 0.22499999999999998,
+          "tempo": 1.325
+        },
         "reached_at_distance": 8.72
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.03734,
+          0.03773,
           1
         ],
         "says": "perform routine higher-dimensional 'competence' that looks miraculous from below",
         "from_field": "behavior",
         "cites": "entity|Impersonal geometric intelligences — 'the machine'",
+        "motion": {
+          "step": 0.3,
+          "lift": 0.6,
+          "lean": 0.2,
+          "arms": 0.7,
+          "spread": 1,
+          "tempo": 2,
+          "name": "play",
+          "matched": "perform"
+        },
         "reached_at_distance": 7.71
       }
     ],
@@ -1609,7 +2559,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.05445,
+      "maxDescendingRate": 0.05157,
       "firstResponseAtDistance": 11.15,
       "rungsReachedOnAWalk": 4
     }
@@ -1633,66 +2583,126 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.01527
+          0.01503
         ],
         "says": "Watch over",
         "from_field": "behavior",
         "cites": "entity|Light beings & angels",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.041666666666666664,
+          "lift": 0.03333333333333333,
+          "lean": 0.049999999999999996,
+          "arms": 0.13333333333333333,
+          "spread": 0.049999999999999996,
+          "tempo": 0.9166666666666667
+        },
         "reached_at_distance": 10.74
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.01527,
-          0.02211
+          0.01503,
+          0.02306
         ],
         "says": "guard",
         "from_field": "behavior",
         "cites": "entity|Light beings & angels",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.08333333333333333,
+          "lift": 0.06666666666666667,
+          "lean": 0.09999999999999999,
+          "arms": 0.26666666666666666,
+          "spread": 0.09999999999999999,
+          "tempo": 1.0333333333333334
+        },
         "reached_at_distance": 9.94
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.02211,
-          0.03398
+          0.02306,
+          0.03343
         ],
         "says": "uplift",
         "from_field": "behavior",
         "cites": "entity|Light beings & angels",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "lift"
+        },
         "reached_at_distance": 9.33
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.03398,
-          0.04477
+          0.03343,
+          0.04768
         ],
         "says": "initiate",
         "from_field": "behavior",
         "cites": "entity|Light beings & angels",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.16666666666666666,
+          "lift": 0.13333333333333333,
+          "lean": 0.19999999999999998,
+          "arms": 0.5333333333333333,
+          "spread": 0.19999999999999998,
+          "tempo": 1.2666666666666666
+        },
         "reached_at_distance": 8.52
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.04477,
-          0.06358
+          0.04768,
+          0.06019
         ],
         "says": "protective and benevolent",
         "from_field": "behavior",
         "cites": "entity|Light beings & angels",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.20833333333333334,
+          "lift": 0.16666666666666669,
+          "lean": 0.25,
+          "arms": 0.6666666666666667,
+          "spread": 0.25,
+          "tempo": 1.3833333333333333
+        },
         "reached_at_distance": 7.91
       },
       {
         "rung": 5,
         "descendingRate": [
-          0.06358,
+          0.06019,
           1
         ],
         "says": "in the lexicon 'Archangels' rule a hierarchy of light beings by their depth of access",
         "from_field": "behavior",
         "cites": "entity|Light beings & angels",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.25,
+          "lift": 0.2,
+          "lean": 0.3,
+          "arms": 0.8,
+          "spread": 0.3,
+          "tempo": 1.5
+        },
         "reached_at_distance": 7.11
       }
     ],
@@ -1713,7 +2723,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.07745,
+      "maxDescendingRate": 0.06987,
       "firstResponseAtDistance": 10.74,
       "rungsReachedOnAWalk": 6
     }
@@ -1737,33 +2747,63 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.01721
+          0.01751
         ],
         "says": "Clinical and surgeon-like",
         "from_field": "behavior",
         "cites": "entity|Mantis & insectoid beings",
+        "motion": {
+          "step": 0.7,
+          "lift": -0.2,
+          "lean": 1,
+          "arms": 0.6,
+          "spread": -0.3,
+          "tempo": 0.8,
+          "name": "loom",
+          "matched": "surg"
+        },
         "reached_at_distance": 10.54
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.01721,
-          0.03322
+          0.01751,
+          0.03356
         ],
         "says": "'leaning over you doing some weird operation on your brain,' performing examinations or procedures",
         "from_field": "behavior",
         "cites": "entity|Mantis & insectoid beings",
+        "motion": {
+          "step": 0.7,
+          "lift": -0.2,
+          "lean": 1,
+          "arms": 0.6,
+          "spread": -0.3,
+          "tempo": 0.8,
+          "name": "loom",
+          "matched": "operat"
+        },
         "reached_at_distance": 9.13
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.03322,
+          0.03356,
           1
         ],
         "says": "sometimes 'harvesting emotions.'",
         "from_field": "behavior",
         "cites": "entity|Mantis & insectoid beings",
+        "motion": {
+          "step": 0.7,
+          "lift": -0.2,
+          "lean": 1,
+          "arms": 0.6,
+          "spread": -0.3,
+          "tempo": 0.8,
+          "name": "loom",
+          "matched": "harvest"
+        },
         "reached_at_distance": 7.91
       }
     ],
@@ -1785,7 +2825,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.06811,
+      "maxDescendingRate": 0.05972,
       "firstResponseAtDistance": 10.54,
       "rungsReachedOnAWalk": 3
     }
@@ -1809,88 +2849,168 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.01231
+          0.01256
         ],
         "says": "Emergence and dissolution: they surface out of the background visual field",
         "from_field": "behavior",
         "cites": "entity|Morphos — amorphous & protean intelligences",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.03125,
+          "lift": 0.025,
+          "lean": 0.0375,
+          "arms": 0.1,
+          "spread": 0.0375,
+          "tempo": 0.8875000000000001
+        },
         "reached_at_distance": 11.15
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.01231,
-          0.01961
+          0.01256,
+          0.01702
         ],
         "says": "engage",
         "from_field": "behavior",
         "cites": "entity|Morphos — amorphous & protean intelligences",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.0625,
+          "lift": 0.05,
+          "lean": 0.075,
+          "arms": 0.2,
+          "spread": 0.075,
+          "tempo": 0.9750000000000001
+        },
         "reached_at_distance": 10.54
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.01961,
-          0.02776
+          0.01702,
+          0.02717
         ],
         "says": "melt back into it",
         "from_field": "behavior",
         "cites": "entity|Morphos — amorphous & protean intelligences",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.09375,
+          "lift": 0.07500000000000001,
+          "lean": 0.11249999999999999,
+          "arms": 0.30000000000000004,
+          "spread": 0.11249999999999999,
+          "tempo": 1.0625
+        },
         "reached_at_distance": 9.94
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.02776,
-          0.03525
+          0.02717,
+          0.03619
         ],
         "says": "blurring the line between entity and environment",
         "from_field": "behavior",
         "cites": "entity|Morphos — amorphous & protean intelligences",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.125,
+          "lift": 0.1,
+          "lean": 0.15,
+          "arms": 0.4,
+          "spread": 0.15,
+          "tempo": 1.15
+        },
         "reached_at_distance": 9.33
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.03525,
-          0.04428
+          0.03619,
+          0.04207
         ],
         "says": "When they solidify a form",
         "from_field": "behavior",
         "cites": "entity|Morphos — amorphous & protean intelligences",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.15625,
+          "lift": 0.125,
+          "lean": 0.1875,
+          "arms": 0.5,
+          "spread": 0.1875,
+          "tempo": 1.2375
+        },
         "reached_at_distance": 8.72
       },
       {
         "rung": 5,
         "descendingRate": [
-          0.04428,
-          0.05847
+          0.04207,
+          0.05753
         ],
         "says": "it reads as a courtesy",
         "from_field": "behavior",
         "cites": "entity|Morphos — amorphous & protean intelligences",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.1875,
+          "lift": 0.15000000000000002,
+          "lean": 0.22499999999999998,
+          "arms": 0.6000000000000001,
+          "spread": 0.22499999999999998,
+          "tempo": 1.325
+        },
         "reached_at_distance": 8.32
       },
       {
         "rung": 6,
         "descendingRate": [
-          0.05847,
-          0.07545
+          0.05753,
+          0.06721
         ],
         "says": "a shape worn briefly so the experiencer has something to address",
         "from_field": "behavior",
         "cites": "entity|Morphos — amorphous & protean intelligences",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.21875,
+          "lift": 0.17500000000000002,
+          "lean": 0.2625,
+          "arms": 0.7000000000000001,
+          "spread": 0.2625,
+          "tempo": 1.4125
+        },
         "reached_at_distance": 7.71
       },
       {
         "rung": 7,
         "descendingRate": [
-          0.07545,
+          0.06721,
           1
         ],
         "says": "The Nexus 'Aliens' entry likewise notes 'more amorphous and nebulous intelligences' among the truly alien classes",
         "from_field": "behavior",
         "cites": "entity|Morphos — amorphous & protean intelligences",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.25,
+          "lift": 0.2,
+          "lean": 0.3,
+          "arms": 0.8,
+          "spread": 0.3,
+          "tempo": 1.5
+        },
         "reached_at_distance": 7.11
       }
     ],
@@ -1913,7 +3033,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.08818,
+      "maxDescendingRate": 0.08536,
       "firstResponseAtDistance": 11.15,
       "rungsReachedOnAWalk": 8
     }
@@ -1937,99 +3057,189 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.00738
+          0.00897
         ],
         "says": "Fluid investigation: tentacles reach toward",
         "from_field": "behavior",
         "cites": "entity|Octopoid & tentacled beings",
+        "motion": {
+          "step": 1,
+          "lift": 0,
+          "lean": 0.35,
+          "arms": 0.3,
+          "spread": 0.2,
+          "tempo": 1.1,
+          "name": "approach",
+          "matched": "toward"
+        },
         "reached_at_distance": 10.34
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.00738,
-          0.01217
+          0.00897,
+          0.01207
         ],
         "says": "taste",
         "from_field": "behavior",
         "cites": "entity|Octopoid & tentacled beings",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.05555555555555555,
+          "lift": 0.044444444444444446,
+          "lean": 0.06666666666666667,
+          "arms": 0.17777777777777778,
+          "spread": 0.06666666666666667,
+          "tempo": 0.9555555555555556
+        },
         "reached_at_distance": 9.94
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.01217,
-          0.01699
+          0.01207,
+          0.01753
         ],
         "says": "or gently palpate the experiencer",
         "from_field": "behavior",
         "cites": "entity|Octopoid & tentacled beings",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.08333333333333333,
+          "lift": 0.06666666666666667,
+          "lean": 0.09999999999999999,
+          "arms": 0.26666666666666666,
+          "spread": 0.09999999999999999,
+          "tempo": 1.0333333333333334
+        },
         "reached_at_distance": 9.53
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.01699,
-          0.02326
+          0.01753,
+          0.0225
         ],
         "says": "color-pattern displays ripple across their skin in what many interpret as language",
         "from_field": "behavior",
         "cites": "entity|Octopoid & tentacled beings",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "display"
+        },
         "reached_at_distance": 9.13
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.02326,
-          0.02923
+          0.0225,
+          0.03214
         ],
         "says": "Generally curious",
         "from_field": "behavior",
         "cites": "entity|Octopoid & tentacled beings",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.1388888888888889,
+          "lift": 0.11111111111111112,
+          "lean": 0.16666666666666666,
+          "arms": 0.4444444444444445,
+          "spread": 0.16666666666666666,
+          "tempo": 1.1888888888888889
+        },
         "reached_at_distance": 8.72
       },
       {
         "rung": 5,
         "descendingRate": [
-          0.02923,
-          0.03983
+          0.03214,
+          0.03688
         ],
         "says": "probing rather than aggressive",
         "from_field": "behavior",
         "cites": "entity|Octopoid & tentacled beings",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.16666666666666666,
+          "lift": 0.13333333333333333,
+          "lean": 0.19999999999999998,
+          "arms": 0.5333333333333333,
+          "spread": 0.19999999999999998,
+          "tempo": 1.2666666666666666
+        },
         "reached_at_distance": 8.12
       },
       {
         "rung": 6,
         "descendingRate": [
-          0.03983,
-          0.04586
+          0.03688,
+          0.04551
         ],
         "says": "though the boneless alien intimacy of contact can overwhelm",
         "from_field": "behavior",
         "cites": "entity|Octopoid & tentacled beings",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.19444444444444445,
+          "lift": 0.15555555555555556,
+          "lean": 0.23333333333333334,
+          "arms": 0.6222222222222222,
+          "spread": 0.23333333333333334,
+          "tempo": 1.3444444444444446
+        },
         "reached_at_distance": 7.71
       },
       {
         "rung": 7,
         "descendingRate": [
-          0.04586,
-          0.04932
+          0.04551,
+          0.04711
         ],
         "says": "The Nexus lexicon's 'Bride of the Devil' account describes a beautiful woman whose true form was 'a hideous hyperdimensional mass of writhing, purplish-black tentacles resembling thorny vines'",
         "from_field": "behavior",
         "cites": "entity|Octopoid & tentacled beings",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.2222222222222222,
+          "lift": 0.17777777777777778,
+          "lean": 0.26666666666666666,
+          "arms": 0.7111111111111111,
+          "spread": 0.26666666666666666,
+          "tempo": 1.422222222222222
+        },
         "reached_at_distance": 7.31
       },
       {
         "rung": 8,
         "descendingRate": [
-          0.04932,
+          0.04711,
           1
         ],
         "says": "the tentacled form as concealed nature",
         "from_field": "behavior",
         "cites": "entity|Octopoid & tentacled beings",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.25,
+          "lift": 0.2,
+          "lean": 0.3,
+          "arms": 0.8,
+          "spread": 0.3,
+          "tempo": 1.5
+        },
         "reached_at_distance": 6.9
       }
     ],
@@ -2053,7 +3263,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.05794,
+      "maxDescendingRate": 0.05838,
       "firstResponseAtDistance": 10.34,
       "rungsReachedOnAWalk": 9
     }
@@ -2077,77 +3287,147 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.01315
+          0.01427
         ],
         "says": "Attentive motion: approaching",
         "from_field": "behavior",
         "cites": "entity|Orbs & point-light beings",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.03571428571428571,
+          "lift": 0.02857142857142857,
+          "lean": 0.04285714285714285,
+          "arms": 0.11428571428571428,
+          "spread": 0.04285714285714285,
+          "tempo": 0.9
+        },
         "reached_at_distance": 9.94
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.01315,
-          0.02208
+          0.01427,
+          0.02201
         ],
         "says": "orbiting",
         "from_field": "behavior",
         "cites": "entity|Orbs & point-light beings",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.07142857142857142,
+          "lift": 0.05714285714285714,
+          "lean": 0.0857142857142857,
+          "arms": 0.22857142857142856,
+          "spread": 0.0857142857142857,
+          "tempo": 1
+        },
         "reached_at_distance": 9.53
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.02208,
-          0.0296
+          0.02201,
+          0.02691
         ],
         "says": "leading (experiencers describe following an orb deeper into the space)",
         "from_field": "behavior",
         "cites": "entity|Orbs & point-light beings",
+        "motion": {
+          "step": 1,
+          "lift": 0,
+          "lean": 0.35,
+          "arms": 0.3,
+          "spread": 0.2,
+          "tempo": 1.1,
+          "name": "approach",
+          "matched": "follow"
+        },
         "reached_at_distance": 8.93
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.0296,
-          0.0417
+          0.02691,
+          0.03948
         ],
         "says": "pulsing in apparent response to thought",
         "from_field": "behavior",
         "cites": "entity|Orbs & point-light beings",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "sing"
+        },
         "reached_at_distance": 8.52
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.0417,
-          0.0461
+          0.03948,
+          0.04841
         ],
         "says": "Groups of orbs coordinate like schools of fish",
         "from_field": "behavior",
         "cites": "entity|Orbs & point-light beings",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.17857142857142858,
+          "lift": 0.14285714285714288,
+          "lean": 0.21428571428571427,
+          "arms": 0.5714285714285715,
+          "spread": 0.21428571428571427,
+          "tempo": 1.3
+        },
         "reached_at_distance": 7.91
       },
       {
         "rung": 5,
         "descendingRate": [
-          0.0461,
-          0.05946
+          0.04841,
+          0.05965
         ],
         "says": "Some reports describe an orb docking with or entering the experiencer's body or field",
         "from_field": "behavior",
         "cites": "entity|Orbs & point-light beings",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.21428571428571427,
+          "lift": 0.17142857142857143,
+          "lean": 0.2571428571428571,
+          "arms": 0.6857142857142857,
+          "spread": 0.2571428571428571,
+          "tempo": 1.4
+        },
         "reached_at_distance": 7.51
       },
       {
         "rung": 6,
         "descendingRate": [
-          0.05946,
+          0.05965,
           1
         ],
         "says": "accompanied by emotional flooding",
         "from_field": "behavior",
         "cites": "entity|Orbs & point-light beings",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.25,
+          "lift": 0.2,
+          "lean": 0.3,
+          "arms": 0.8,
+          "spread": 0.3,
+          "tempo": 1.5
+        },
         "reached_at_distance": 6.9
       }
     ],
@@ -2175,7 +3455,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.06885,
+      "maxDescendingRate": 0.07236,
       "firstResponseAtDistance": 9.94,
       "rungsReachedOnAWalk": 7
     }
@@ -2199,44 +3479,84 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.01026
+          0.01093
         ],
         "says": "enveloping engagement: growing around or through the space",
         "from_field": "behavior",
         "cites": "entity|Plant spirits & devas",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.0625,
+          "lift": 0.05,
+          "lean": 0.075,
+          "arms": 0.2,
+          "spread": 0.075,
+          "tempo": 0.9750000000000001
+        },
         "reached_at_distance": 10.14
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.01026,
-          0.01797
+          0.01093,
+          0.01924
         ],
         "says": "blooming displays timed to the experiencer's attention, transmitting botanical imagery (roots, photosynthesis, growth) as experiential lessons. Amaringo's paintings",
         "from_field": "behavior",
         "cites": "entity|Plant spirits & devas",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "display"
+        },
         "reached_at_distance": 9.13
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.01797,
-          0.0347
+          0.01924,
+          0.03303
         ],
         "says": "the mestizo vegetalismo tradition depict plant mothers instructing singers",
         "from_field": "behavior",
         "cites": "entity|Plant spirits & devas",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "sing"
+        },
         "reached_at_distance": 8.32
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.0347,
+          0.03303,
           1
         ],
         "says": "Narby documents the claim that plant spirits teach knowledge directly",
         "from_field": "behavior",
         "cites": "entity|Plant spirits & devas",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "direct"
+        },
         "reached_at_distance": 7.31
       }
     ],
@@ -2263,7 +3583,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.04713,
+      "maxDescendingRate": 0.04686,
       "firstResponseAtDistance": 10.14,
       "rungsReachedOnAWalk": 4
     }
@@ -2287,44 +3607,84 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.01596
+          0.01544
         ],
         "says": "Ambiguous to unsettling",
         "from_field": "behavior",
         "cites": "entity|Reptilian beings",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.0625,
+          "lift": 0.05,
+          "lean": 0.075,
+          "arms": 0.2,
+          "spread": 0.075,
+          "tempo": 0.9750000000000001
+        },
         "reached_at_distance": 10.95
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.01596,
-          0.0266
+          0.01544,
+          0.02688
         ],
         "says": "often cold and observing",
         "from_field": "behavior",
         "cites": "entity|Reptilian beings",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.125,
+          "lift": 0.1,
+          "lean": 0.15,
+          "arms": 0.4,
+          "spread": 0.15,
+          "tempo": 1.15
+        },
         "reached_at_distance": 9.73
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.0266,
-          0.04549
+          0.02688,
+          0.04807
         ],
         "says": "occasionally framed as malevolent",
         "from_field": "behavior",
         "cites": "entity|Reptilian beings",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.1875,
+          "lift": 0.15000000000000002,
+          "lean": 0.22499999999999998,
+          "arms": 0.6000000000000001,
+          "spread": 0.22499999999999998,
+          "tempo": 1.325
+        },
         "reached_at_distance": 8.72
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.04549,
+          0.04807,
           1
         ],
         "says": "less interactive than elves or mantises",
         "from_field": "behavior",
         "cites": "entity|Reptilian beings",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.25,
+          "lift": 0.2,
+          "lean": 0.3,
+          "arms": 0.8,
+          "spread": 0.3,
+          "tempo": 1.5
+        },
         "reached_at_distance": 7.51
       }
     ],
@@ -2346,7 +3706,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.0699,
+      "maxDescendingRate": 0.06711,
       "firstResponseAtDistance": 10.95,
       "rungsReachedOnAWalk": 4
     }
@@ -2370,132 +3730,252 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.00905
+          0.00895
         ],
         "says": "Task execution: scanning",
         "from_field": "behavior",
         "cites": "entity|Robotic drones & automatons",
+        "motion": {
+          "step": 0.7,
+          "lift": -0.2,
+          "lean": 1,
+          "arms": 0.6,
+          "spread": -0.3,
+          "tempo": 0.8,
+          "name": "loom",
+          "matched": "scan"
+        },
         "reached_at_distance": 10.95
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.00905,
-          0.01262
+          0.00895,
+          0.01315
         ],
         "says": "measuring",
         "from_field": "behavior",
         "cites": "entity|Robotic drones & automatons",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.041666666666666664,
+          "lift": 0.03333333333333333,
+          "lean": 0.049999999999999996,
+          "arms": 0.13333333333333333,
+          "spread": 0.049999999999999996,
+          "tempo": 0.9166666666666667
+        },
         "reached_at_distance": 10.54
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.01262,
-          0.01702
+          0.01315,
+          0.01785
         ],
         "says": "carrying",
         "from_field": "behavior",
         "cites": "entity|Robotic drones & automatons",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.0625,
+          "lift": 0.05,
+          "lean": 0.075,
+          "arms": 0.2,
+          "spread": 0.075,
+          "tempo": 0.9750000000000001
+        },
         "reached_at_distance": 10.14
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.01702,
-          0.0233
+          0.01785,
+          0.01934
         ],
         "says": "assembling",
         "from_field": "behavior",
         "cites": "entity|Robotic drones & automatons",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.08333333333333333,
+          "lift": 0.06666666666666667,
+          "lean": 0.09999999999999999,
+          "arms": 0.26666666666666666,
+          "spread": 0.09999999999999999,
+          "tempo": 1.0333333333333334
+        },
         "reached_at_distance": 9.73
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.0233,
-          0.02462
+          0.01934,
+          0.02508
         ],
         "says": "escorting",
         "from_field": "behavior",
         "cites": "entity|Robotic drones & automatons",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.10416666666666667,
+          "lift": 0.08333333333333334,
+          "lean": 0.125,
+          "arms": 0.33333333333333337,
+          "spread": 0.125,
+          "tempo": 1.0916666666666668
+        },
         "reached_at_distance": 9.53
       },
       {
         "rung": 5,
         "descendingRate": [
-          0.02462,
-          0.02934
+          0.02508,
+          0.03124
         ],
         "says": "They attend to the experiencer the way airport machinery attends to luggage",
         "from_field": "behavior",
         "cites": "entity|Robotic drones & automatons",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.125,
+          "lift": 0.1,
+          "lean": 0.15,
+          "arms": 0.4,
+          "spread": 0.15,
+          "tempo": 1.15
+        },
         "reached_at_distance": 9.13
       },
       {
         "rung": 6,
         "descendingRate": [
-          0.02934,
-          0.03676
+          0.03124,
+          0.03332
         ],
         "says": "thorough",
         "from_field": "behavior",
         "cites": "entity|Robotic drones & automatons",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.14583333333333334,
+          "lift": 0.11666666666666668,
+          "lean": 0.17500000000000002,
+          "arms": 0.46666666666666673,
+          "spread": 0.17500000000000002,
+          "tempo": 1.2083333333333335
+        },
         "reached_at_distance": 8.72
       },
       {
         "rung": 7,
         "descendingRate": [
-          0.03676,
-          0.04043
+          0.03332,
+          0.04247
         ],
         "says": "efficient",
         "from_field": "behavior",
         "cites": "entity|Robotic drones & automatons",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.16666666666666666,
+          "lift": 0.13333333333333333,
+          "lean": 0.19999999999999998,
+          "arms": 0.5333333333333333,
+          "spread": 0.19999999999999998,
+          "tempo": 1.2666666666666666
+        },
         "reached_at_distance": 8.32
       },
       {
         "rung": 8,
         "descendingRate": [
-          0.04043,
-          0.05318
+          0.04247,
+          0.05329
         ],
         "says": "neither warm nor hostile",
         "from_field": "behavior",
         "cites": "entity|Robotic drones & automatons",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.1875,
+          "lift": 0.15000000000000002,
+          "lean": 0.22499999999999998,
+          "arms": 0.6000000000000001,
+          "spread": 0.22499999999999998,
+          "tempo": 1.325
+        },
         "reached_at_distance": 7.91
       },
       {
         "rung": 9,
         "descendingRate": [
-          0.05318,
-          0.05876
+          0.05329,
+          0.05819
         ],
         "says": "Strassman's UNM volunteers included reports of automaton- or robot-like beings running what felt like tests; Meyer's corpus documents 'scanning and examination by machine-like entities'",
         "from_field": "behavior",
         "cites": "entity|Robotic drones & automatons",
+        "motion": {
+          "step": 0.7,
+          "lift": -0.2,
+          "lean": 1,
+          "arms": 0.6,
+          "spread": -0.3,
+          "tempo": 0.8,
+          "name": "loom",
+          "matched": "examin"
+        },
         "reached_at_distance": 7.51
       },
       {
         "rung": 10,
         "descendingRate": [
-          0.05876,
-          0.06422
+          0.05819,
+          0.0609
         ],
         "says": "Effect Index lists 'robotic machines'",
         "from_field": "behavior",
         "cites": "entity|Robotic drones & automatons",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.22916666666666666,
+          "lift": 0.18333333333333335,
+          "lean": 0.27499999999999997,
+          "arms": 0.7333333333333334,
+          "spread": 0.27499999999999997,
+          "tempo": 1.4416666666666667
+        },
         "reached_at_distance": 7.31
       },
       {
         "rung": 11,
         "descendingRate": [
-          0.06422,
+          0.0609,
           1
         ],
         "says": "'bio-mechanical intelligences' among documented entity archetypes",
         "from_field": "behavior",
         "cites": "entity|Robotic drones & automatons",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.25,
+          "lift": 0.2,
+          "lean": 0.3,
+          "arms": 0.8,
+          "spread": 0.3,
+          "tempo": 1.5
+        },
         "reached_at_distance": 6.9
       }
     ],
@@ -2519,7 +3999,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.07128,
+      "maxDescendingRate": 0.07013,
       "firstResponseAtDistance": 10.95,
       "rungsReachedOnAWalk": 12
     }
@@ -2543,55 +4023,105 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.01286
+          0.0143
         ],
         "says": "Greet the visitor with exuberant delight ('we're so glad to see you')",
         "from_field": "behavior",
         "cites": "entity|Self-transforming machine elves",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.05,
+          "lift": 0.04000000000000001,
+          "lean": 0.06,
+          "arms": 0.16000000000000003,
+          "spread": 0.06,
+          "tempo": 0.9400000000000001
+        },
         "reached_at_distance": 10.95
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.01286,
-          0.02685
+          0.0143,
+          0.02829
         ],
         "says": "crowd forward",
         "from_field": "behavior",
         "cites": "entity|Self-transforming machine elves",
+        "motion": {
+          "step": 1,
+          "lift": 0,
+          "lean": 0.35,
+          "arms": 0.3,
+          "spread": 0.2,
+          "tempo": 1.1,
+          "name": "approach",
+          "matched": "crowd"
+        },
         "reached_at_distance": 10.14
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.02685,
-          0.04008
+          0.02829,
+          0.04015
         ],
         "says": "leap in and out of the chest to reassure",
         "from_field": "behavior",
         "cites": "entity|Self-transforming machine elves",
+        "motion": {
+          "step": 0.35,
+          "lift": 1,
+          "lean": 0.1,
+          "arms": 0.55,
+          "spread": 0.7,
+          "tempo": 2.2,
+          "name": "leap",
+          "matched": "leap"
+        },
         "reached_at_distance": 9.13
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.04008,
-          0.05416
+          0.04015,
+          0.05926
         ],
         "says": "frantically sing impossible objects into existence",
         "from_field": "behavior",
         "cites": "entity|Self-transforming machine elves",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "sing"
+        },
         "reached_at_distance": 8.32
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.05416,
+          0.05926,
           1
         ],
         "says": "urging the visitor to do the same",
         "from_field": "behavior",
         "cites": "entity|Self-transforming machine elves",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "urging"
+        },
         "reached_at_distance": 7.31
       }
     ],
@@ -2614,7 +4144,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.06959,
+      "maxDescendingRate": 0.07284,
       "firstResponseAtDistance": 10.95,
       "rungsReachedOnAWalk": 5
     }
@@ -2638,88 +4168,168 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.01029
+          0.0095
         ],
         "says": "Singing as action: the choir's music builds",
         "from_field": "behavior",
         "cites": "entity|The Choir — singing collectives",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "sing"
+        },
         "reached_at_distance": 11.55
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.01029,
-          0.01649
+          0.0095,
+          0.01885
         ],
         "says": "sustains",
         "from_field": "behavior",
         "cites": "entity|The Choir — singing collectives",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.0625,
+          "lift": 0.05,
+          "lean": 0.075,
+          "arms": 0.2,
+          "spread": 0.075,
+          "tempo": 0.9750000000000001
+        },
         "reached_at_distance": 10.95
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.01649,
-          0.02375
+          0.01885,
+          0.0212
         ],
         "says": "or transforms the space",
         "from_field": "behavior",
         "cites": "entity|The Choir — singing collectives",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.09375,
+          "lift": 0.07500000000000001,
+          "lean": 0.11249999999999999,
+          "arms": 0.30000000000000004,
+          "spread": 0.11249999999999999,
+          "tempo": 1.0625
+        },
         "reached_at_distance": 10.34
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.02375,
-          0.03329
+          0.0212,
+          0.03411
         ],
         "says": "experiencers describe scenery assembling in time with the song",
         "from_field": "behavior",
         "cites": "entity|The Choir — singing collectives",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.125,
+          "lift": 0.1,
+          "lean": 0.15,
+          "arms": 0.4,
+          "spread": 0.15,
+          "tempo": 1.15
+        },
         "reached_at_distance": 9.73
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.03329,
-          0.04481
+          0.03411,
+          0.04153
         ],
         "says": "emotional states being played like instruments",
         "from_field": "behavior",
         "cites": "entity|The Choir — singing collectives",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.15625,
+          "lift": 0.125,
+          "lean": 0.1875,
+          "arms": 0.5,
+          "spread": 0.1875,
+          "tempo": 1.2375
+        },
         "reached_at_distance": 8.93
       },
       {
         "rung": 5,
         "descendingRate": [
-          0.04481,
-          0.0553
+          0.04153,
+          0.05233
         ],
         "says": "the McKenna-derived motif of beings singing objects into existence",
         "from_field": "behavior",
         "cites": "entity|The Choir — singing collectives",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "sing"
+        },
         "reached_at_distance": 8.32
       },
       {
         "rung": 6,
         "descendingRate": [
-          0.0553,
-          0.06088
+          0.05233,
+          0.06257
         ],
         "says": "They generally attend to the song rather than the visitor",
         "from_field": "behavior",
         "cites": "entity|The Choir — singing collectives",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.21875,
+          "lift": 0.17500000000000002,
+          "lean": 0.2625,
+          "arms": 0.7000000000000001,
+          "spread": 0.2625,
+          "tempo": 1.4125
+        },
         "reached_at_distance": 7.71
       },
       {
         "rung": 7,
         "descendingRate": [
-          0.06088,
+          0.06257,
           1
         ],
         "says": "though some choirs are experienced as singing at or into the experiencer as a form of work upon them",
         "from_field": "behavior",
         "cites": "entity|The Choir — singing collectives",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "sing"
+        },
         "reached_at_distance": 7.11
       }
     ],
@@ -2744,7 +4354,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.06928,
+      "maxDescendingRate": 0.07054,
       "firstResponseAtDistance": 11.55,
       "rungsReachedOnAWalk": 8
     }
@@ -2768,55 +4378,105 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.01668
+          0.01953
         ],
         "says": "Encircles",
         "from_field": "behavior",
         "cites": "entity|The Cosmic Serpent",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.05,
+          "lift": 0.04000000000000001,
+          "lean": 0.06,
+          "arms": 0.16000000000000003,
+          "spread": 0.06,
+          "tempo": 0.9400000000000001
+        },
         "reached_at_distance": 11.55
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.01668,
-          0.03315
+          0.01953,
+          0.03307
         ],
         "says": "swallows",
         "from_field": "behavior",
         "cites": "entity|The Cosmic Serpent",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.1,
+          "lift": 0.08000000000000002,
+          "lean": 0.12,
+          "arms": 0.32000000000000006,
+          "spread": 0.12,
+          "tempo": 1.08
+        },
         "reached_at_distance": 10.54
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.03315,
-          0.05176
+          0.03307,
+          0.05018
         ],
         "says": "or unwinds before the drinker",
         "from_field": "behavior",
         "cites": "entity|The Cosmic Serpent",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.15,
+          "lift": 0.12,
+          "lean": 0.18,
+          "arms": 0.48,
+          "spread": 0.18,
+          "tempo": 1.22
+        },
         "reached_at_distance": 9.53
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.05176,
-          0.0742
+          0.05018,
+          0.07643
         ],
         "says": "presented as a teacher",
         "from_field": "behavior",
         "cites": "entity|The Cosmic Serpent",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "present"
+        },
         "reached_at_distance": 8.52
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.0742,
+          0.07643,
           1
         ],
         "says": "guardian rather than a threat once trust is established",
         "from_field": "behavior",
         "cites": "entity|The Cosmic Serpent",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.25,
+          "lift": 0.2,
+          "lean": 0.3,
+          "arms": 0.8,
+          "spread": 0.3,
+          "tempo": 1.5
+        },
         "reached_at_distance": 7.51
       }
     ],
@@ -2837,7 +4497,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.09076,
+      "maxDescendingRate": 0.08871,
       "firstResponseAtDistance": 11.55,
       "rungsReachedOnAWalk": 5
     }
@@ -2861,132 +4521,252 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.00854
+          0.00901
         ],
         "says": "Deliberation",
         "from_field": "behavior",
         "cites": "entity|The Council — tribunal of elders",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.020833333333333332,
+          "lift": 0.016666666666666666,
+          "lean": 0.024999999999999998,
+          "arms": 0.06666666666666667,
+          "spread": 0.024999999999999998,
+          "tempo": 0.8583333333333334
+        },
         "reached_at_distance": 11.15
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.00854,
-          0.01241
+          0.00901,
+          0.01244
         ],
         "says": "evaluation",
         "from_field": "behavior",
         "cites": "entity|The Council — tribunal of elders",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.041666666666666664,
+          "lift": 0.03333333333333333,
+          "lean": 0.049999999999999996,
+          "arms": 0.13333333333333333,
+          "spread": 0.049999999999999996,
+          "tempo": 0.9166666666666667
+        },
         "reached_at_distance": 10.74
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.01241,
-          0.01558
+          0.01244,
+          0.01681
         ],
         "says": "pronouncement",
         "from_field": "behavior",
         "cites": "entity|The Council — tribunal of elders",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.0625,
+          "lift": 0.05,
+          "lean": 0.075,
+          "arms": 0.2,
+          "spread": 0.075,
+          "tempo": 0.9750000000000001
+        },
         "reached_at_distance": 10.34
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.01558,
-          0.02139
+          0.01681,
+          0.0192
         ],
         "says": "The council receives the experiencer as if summoned or scheduled",
         "from_field": "behavior",
         "cites": "entity|The Council — tribunal of elders",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.08333333333333333,
+          "lift": 0.06666666666666667,
+          "lean": 0.09999999999999999,
+          "arms": 0.26666666666666666,
+          "spread": 0.09999999999999999,
+          "tempo": 1.0333333333333334
+        },
         "reached_at_distance": 9.94
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.02139,
-          0.02621
+          0.0192,
+          0.02561
         ],
         "says": "reviews them (sometimes their life",
         "from_field": "behavior",
         "cites": "entity|The Council — tribunal of elders",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.10416666666666667,
+          "lift": 0.08333333333333334,
+          "lean": 0.125,
+          "arms": 0.33333333333333337,
+          "spread": 0.125,
+          "tempo": 1.0916666666666668
+        },
         "reached_at_distance": 9.53
       },
       {
         "rung": 5,
         "descendingRate": [
-          0.02621,
-          0.03116
+          0.02561,
+          0.03079
         ],
         "says": "sometimes their conduct in hyperspace)",
         "from_field": "behavior",
         "cites": "entity|The Council — tribunal of elders",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.125,
+          "lift": 0.1,
+          "lean": 0.15,
+          "arms": 0.4,
+          "spread": 0.15,
+          "tempo": 1.15
+        },
         "reached_at_distance": 9.13
       },
       {
         "rung": 6,
         "descendingRate": [
-          0.03116,
-          0.03303
+          0.03079,
+          0.03491
         ],
         "says": "confers among itself",
         "from_field": "behavior",
         "cites": "entity|The Council — tribunal of elders",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.14583333333333334,
+          "lift": 0.11666666666666668,
+          "lean": 0.17500000000000002,
+          "arms": 0.46666666666666673,
+          "spread": 0.17500000000000002,
+          "tempo": 1.2083333333333335
+        },
         "reached_at_distance": 8.72
       },
       {
         "rung": 7,
         "descendingRate": [
-          0.03303,
-          0.03875
+          0.03491,
+          0.0362
         ],
         "says": "delivers judgments",
         "from_field": "behavior",
         "cites": "entity|The Council — tribunal of elders",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.16666666666666666,
+          "lift": 0.13333333333333333,
+          "lean": 0.19999999999999998,
+          "arms": 0.5333333333333333,
+          "spread": 0.19999999999999998,
+          "tempo": 1.2666666666666666
+        },
         "reached_at_distance": 8.52
       },
       {
         "rung": 8,
         "descendingRate": [
-          0.03875,
-          0.04618
+          0.0362,
+          0.04901
         ],
         "says": "instructions",
         "from_field": "behavior",
         "cites": "entity|The Council — tribunal of elders",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.1875,
+          "lift": 0.15000000000000002,
+          "lean": 0.22499999999999998,
+          "arms": 0.6000000000000001,
+          "spread": 0.22499999999999998,
+          "tempo": 1.325
+        },
         "reached_at_distance": 8.12
       },
       {
         "rung": 9,
         "descendingRate": [
-          0.04618,
-          0.05386
+          0.04901,
+          0.05214
         ],
         "says": "or blessings",
         "from_field": "behavior",
         "cites": "entity|The Council — tribunal of elders",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "sing"
+        },
         "reached_at_distance": 7.71
       },
       {
         "rung": 10,
         "descendingRate": [
-          0.05386,
-          0.05651
+          0.05214,
+          0.05937
         ],
         "says": "Some reports describe being turned away or told 'not yet'",
         "from_field": "behavior",
         "cites": "entity|The Council — tribunal of elders",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.22916666666666666,
+          "lift": 0.18333333333333335,
+          "lean": 0.27499999999999997,
+          "arms": 0.7333333333333334,
+          "spread": 0.27499999999999997,
+          "tempo": 1.4416666666666667
+        },
         "reached_at_distance": 7.31
       },
       {
         "rung": 11,
         "descendingRate": [
-          0.05651,
+          0.05937,
           1
         ],
         "says": "others describe formal welcomes 'as travelers, royalty, or long-lost family'",
         "from_field": "behavior",
         "cites": "entity|The Council — tribunal of elders",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.25,
+          "lift": 0.2,
+          "lean": 0.3,
+          "arms": 0.8,
+          "spread": 0.3,
+          "tempo": 1.5
+        },
         "reached_at_distance": 6.9
       }
     ],
@@ -3011,7 +4791,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.06691,
+      "maxDescendingRate": 0.06835,
       "firstResponseAtDistance": 11.15,
       "rungsReachedOnAWalk": 12
     }
@@ -3035,55 +4815,105 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.01715
+          0.01734
         ],
         "says": "Enfolds",
         "from_field": "behavior",
         "cites": "entity|The Divine Feminine",
+        "motion": {
+          "step": 0.45,
+          "lift": 0.15,
+          "lean": 0.45,
+          "arms": 0.85,
+          "spread": -0.6,
+          "tempo": 0.7,
+          "name": "enfold",
+          "matched": "enfold"
+        },
         "reached_at_distance": 10.14
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.01715,
-          0.02727
+          0.01734,
+          0.03127
         ],
         "says": "reassures",
         "from_field": "behavior",
         "cites": "entity|The Divine Feminine",
+        "motion": {
+          "step": 0.45,
+          "lift": 0.15,
+          "lean": 0.45,
+          "arms": 0.85,
+          "spread": -0.6,
+          "tempo": 0.7,
+          "name": "enfold",
+          "matched": "reassur"
+        },
         "reached_at_distance": 9.33
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.02727,
-          0.0431
+          0.03127,
+          0.04864
         ],
         "says": "heals",
         "from_field": "behavior",
         "cites": "entity|The Divine Feminine",
+        "motion": {
+          "step": 0.45,
+          "lift": 0.15,
+          "lean": 0.45,
+          "arms": 0.85,
+          "spread": -0.6,
+          "tempo": 0.7,
+          "name": "enfold",
+          "matched": "heal"
+        },
         "reached_at_distance": 8.72
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.0431,
-          0.05728
+          0.04864,
+          0.05616
         ],
         "says": "'caresses away all pain and tears,' shows the visitor their wounds",
         "from_field": "behavior",
         "cites": "entity|The Divine Feminine",
+        "motion": {
+          "step": 0.45,
+          "lift": 0.15,
+          "lean": 0.45,
+          "arms": 0.85,
+          "spread": -0.6,
+          "tempo": 0.7,
+          "name": "enfold",
+          "matched": "caress"
+        },
         "reached_at_distance": 7.91
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.05728,
+          0.05616,
           1
         ],
         "says": "holds them so the pain can dissolve",
         "from_field": "behavior",
         "cites": "entity|The Divine Feminine",
+        "motion": {
+          "step": 0.45,
+          "lift": 0.15,
+          "lean": 0.45,
+          "arms": 0.85,
+          "spread": -0.6,
+          "tempo": 0.7,
+          "name": "enfold",
+          "matched": "hold"
+        },
         "reached_at_distance": 7.31
       }
     ],
@@ -3106,7 +4936,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.07458,
+      "maxDescendingRate": 0.0712,
       "firstResponseAtDistance": 10.14,
       "rungsReachedOnAWalk": 5
     }
@@ -3130,66 +4960,126 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.01462
+          0.01383
         ],
         "says": "Aloof mastery: characteristically 'they tend to ignore you, but might deign to give you a slight indication that they are aware of you' (Nexus)",
         "from_field": "behavior",
         "cites": "entity|The Dream Wizards — robed magi of hyperspace",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.041666666666666664,
+          "lift": 0.03333333333333333,
+          "lean": 0.049999999999999996,
+          "arms": 0.13333333333333333,
+          "spread": 0.049999999999999996,
+          "tempo": 0.9166666666666667
+        },
         "reached_at_distance": 10.95
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.01462,
-          0.02106
+          0.01383,
+          0.02158
         ],
         "says": "Unlike the Teacher",
         "from_field": "behavior",
         "cites": "entity|The Dream Wizards — robed magi of hyperspace",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.08333333333333333,
+          "lift": 0.06666666666666667,
+          "lean": 0.09999999999999999,
+          "arms": 0.26666666666666666,
+          "spread": 0.09999999999999999,
+          "tempo": 1.0333333333333334
+        },
         "reached_at_distance": 10.14
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.02106,
-          0.03254
+          0.02158,
+          0.03093
         ],
         "says": "they do not instruct unbidden",
         "from_field": "behavior",
         "cites": "entity|The Dream Wizards — robed magi of hyperspace",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.125,
+          "lift": 0.1,
+          "lean": 0.15,
+          "arms": 0.4,
+          "spread": 0.15,
+          "tempo": 1.15
+        },
         "reached_at_distance": 9.53
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.03254,
-          0.04813
+          0.03093,
+          0.04855
         ],
         "says": "the experiencer is a visitor in a working scholar's domain",
         "from_field": "behavior",
         "cites": "entity|The Dream Wizards — robed magi of hyperspace",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.16666666666666666,
+          "lift": 0.13333333333333333,
+          "lean": 0.19999999999999998,
+          "arms": 0.5333333333333333,
+          "spread": 0.19999999999999998,
+          "tempo": 1.2666666666666666
+        },
         "reached_at_distance": 8.72
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.04813,
-          0.05692
+          0.04855,
+          0.05689
         ],
         "says": "tolerated rather than received",
         "from_field": "behavior",
         "cites": "entity|The Dream Wizards — robed magi of hyperspace",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.20833333333333334,
+          "lift": 0.16666666666666669,
+          "lean": 0.25,
+          "arms": 0.6666666666666667,
+          "spread": 0.25,
+          "tempo": 1.3833333333333333
+        },
         "reached_at_distance": 7.91
       },
       {
         "rung": 5,
         "descendingRate": [
-          0.05692,
+          0.05689,
           1
         ],
         "says": "Reports of eventual engagement describe terse demonstrations or a single significant look",
         "from_field": "behavior",
         "cites": "entity|The Dream Wizards — robed magi of hyperspace",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "sing"
+        },
         "reached_at_distance": 7.31
       }
     ],
@@ -3213,7 +5103,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.06652,
+      "maxDescendingRate": 0.06872,
       "firstResponseAtDistance": 10.95,
       "rungsReachedOnAWalk": 6
     }
@@ -3237,77 +5127,147 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.01288
+          0.01273
         ],
         "says": "Presentation of charged objects: the harlequin's signature act is showing things — 'often flashing Hyperspace tarot cards at you which",
         "from_field": "behavior",
         "cites": "entity|The Harlequin — card-dealer of hyperspace",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "flash"
+        },
         "reached_at_distance": 11.35
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.01288,
-          0.02184
+          0.01273,
+          0.02469
         ],
         "says": "on their own",
         "from_field": "behavior",
         "cites": "entity|The Harlequin — card-dealer of hyperspace",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.07142857142857142,
+          "lift": 0.05714285714285714,
+          "lean": 0.0857142857142857,
+          "arms": 0.22857142857142856,
+          "spread": 0.0857142857142857,
+          "tempo": 1
+        },
         "reached_at_distance": 10.74
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.02184,
-          0.03216
+          0.02469,
+          0.03416
         ],
         "says": "can impart reams of information to you when you look at them' (Nexus lexicon)",
         "from_field": "behavior",
         "cites": "entity|The Harlequin — card-dealer of hyperspace",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.10714285714285714,
+          "lift": 0.08571428571428572,
+          "lean": 0.12857142857142856,
+          "arms": 0.34285714285714286,
+          "spread": 0.12857142857142856,
+          "tempo": 1.1
+        },
         "reached_at_distance": 9.94
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.03216,
-          0.04811
+          0.03416,
+          0.04871
         ],
         "says": "Where the jester pranks and mocks",
         "from_field": "behavior",
         "cites": "entity|The Harlequin — card-dealer of hyperspace",
+        "motion": {
+          "step": 0.3,
+          "lift": 0.6,
+          "lean": 0.2,
+          "arms": 0.7,
+          "spread": 1,
+          "tempo": 2,
+          "name": "play",
+          "matched": "mock"
+        },
         "reached_at_distance": 9.33
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.04811,
-          0.06168
+          0.04871,
+          0.05998
         ],
         "says": "the harlequin reveals: each object",
         "from_field": "behavior",
         "cites": "entity|The Harlequin — card-dealer of hyperspace",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.17857142857142858,
+          "lift": 0.14285714285714288,
+          "lean": 0.21428571428571427,
+          "arms": 0.5714285714285715,
+          "spread": 0.21428571428571427,
+          "tempo": 1.3
+        },
         "reached_at_distance": 8.52
       },
       {
         "rung": 5,
         "descendingRate": [
-          0.06168,
-          0.07522
+          0.05998,
+          0.07101
         ],
         "says": "or gesture is a compressed transmission",
         "from_field": "behavior",
         "cites": "entity|The Harlequin — card-dealer of hyperspace",
+        "motion": {
+          "step": 1,
+          "lift": 0,
+          "lean": 0.35,
+          "arms": 0.3,
+          "spread": 0.2,
+          "tempo": 1.1,
+          "name": "approach",
+          "matched": "press"
+        },
         "reached_at_distance": 7.91
       },
       {
         "rung": 6,
         "descendingRate": [
-          0.07522,
+          0.07101,
           1
         ],
         "says": "Reports describe sleight-of-hand that is actually instruction",
         "from_field": "behavior",
         "cites": "entity|The Harlequin — card-dealer of hyperspace",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.25,
+          "lift": 0.2,
+          "lean": 0.3,
+          "arms": 0.8,
+          "spread": 0.3,
+          "tempo": 1.5
+        },
         "reached_at_distance": 7.11
       }
     ],
@@ -3333,7 +5293,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.08662,
+      "maxDescendingRate": 0.0825,
       "firstResponseAtDistance": 11.35,
       "rungsReachedOnAWalk": 7
     }
@@ -3357,88 +5317,168 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.00757
+          0.00819
         ],
         "says": "Reception at the center: the swarm parts",
         "from_field": "behavior",
         "cites": "entity|The Hive Queen — matriarch of the swarm",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.03125,
+          "lift": 0.025,
+          "lean": 0.0375,
+          "arms": 0.1,
+          "spread": 0.0375,
+          "tempo": 0.8875000000000001
+        },
         "reached_at_distance": 10.14
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.00757,
-          0.01505
+          0.00819,
+          0.01551
         ],
         "says": "conducts",
         "from_field": "behavior",
         "cites": "entity|The Hive Queen — matriarch of the swarm",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.0625,
+          "lift": 0.05,
+          "lean": 0.075,
+          "arms": 0.2,
+          "spread": 0.075,
+          "tempo": 0.9750000000000001
+        },
         "reached_at_distance": 9.73
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.01505,
-          0.01982
+          0.01551,
+          0.02092
         ],
         "says": "or carries the experiencer inward to her",
         "from_field": "behavior",
         "cites": "entity|The Hive Queen — matriarch of the swarm",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.09375,
+          "lift": 0.07500000000000001,
+          "lean": 0.11249999999999999,
+          "arms": 0.30000000000000004,
+          "spread": 0.11249999999999999,
+          "tempo": 1.0625
+        },
         "reached_at_distance": 9.13
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.01982,
-          0.02405
+          0.02092,
+          0.02773
         ],
         "says": "she examines",
         "from_field": "behavior",
         "cites": "entity|The Hive Queen — matriarch of the swarm",
+        "motion": {
+          "step": 0.7,
+          "lift": -0.2,
+          "lean": 1,
+          "arms": 0.6,
+          "spread": -0.3,
+          "tempo": 0.8,
+          "name": "loom",
+          "matched": "examin"
+        },
         "reached_at_distance": 8.72
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.02405,
-          0.03209
+          0.02773,
+          0.03058
         ],
         "says": "acknowledges",
         "from_field": "behavior",
         "cites": "entity|The Hive Queen — matriarch of the swarm",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.15625,
+          "lift": 0.125,
+          "lean": 0.1875,
+          "arms": 0.5,
+          "spread": 0.1875,
+          "tempo": 1.2375
+        },
         "reached_at_distance": 8.32
       },
       {
         "rung": 5,
         "descendingRate": [
-          0.03209,
-          0.04263
+          0.03058,
+          0.04284
         ],
         "says": "or absorbs attention while the collective moves in coordination around her will",
         "from_field": "behavior",
         "cites": "entity|The Hive Queen — matriarch of the swarm",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.1875,
+          "lift": 0.15000000000000002,
+          "lean": 0.22499999999999998,
+          "arms": 0.6000000000000001,
+          "spread": 0.22499999999999998,
+          "tempo": 1.325
+        },
         "reached_at_distance": 7.91
       },
       {
         "rung": 6,
         "descendingRate": [
-          0.04263,
-          0.04722
+          0.04284,
+          0.04966
         ],
         "says": "In insectoid-styled versions she is tended by mantis- or bee-like workers",
         "from_field": "behavior",
         "cites": "entity|The Hive Queen — matriarch of the swarm",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.21875,
+          "lift": 0.17500000000000002,
+          "lean": 0.2625,
+          "arms": 0.7000000000000001,
+          "spread": 0.2625,
+          "tempo": 1.4125
+        },
         "reached_at_distance": 7.31
       },
       {
         "rung": 7,
         "descendingRate": [
-          0.04722,
+          0.04966,
           1
         ],
         "says": "in the machine-elf version the entire space is retroactively understood as her body or expression",
         "from_field": "behavior",
         "cites": "entity|The Hive Queen — matriarch of the swarm",
+        "motion": {
+          "step": 1,
+          "lift": 0,
+          "lean": 0.35,
+          "arms": 0.3,
+          "spread": 0.2,
+          "tempo": 1.1,
+          "name": "approach",
+          "matched": "press"
+        },
         "reached_at_distance": 6.9
       }
     ],
@@ -3463,7 +5503,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.0542,
+      "maxDescendingRate": 0.05785,
       "firstResponseAtDistance": 10.14,
       "rungsReachedOnAWalk": 8
     }
@@ -3487,66 +5527,126 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.01379
+          0.01224
         ],
         "says": "Playful",
         "from_field": "behavior",
         "cites": "entity|The Jester / Trickster / Clown",
+        "motion": {
+          "step": 0.3,
+          "lift": 0.6,
+          "lean": 0.2,
+          "arms": 0.7,
+          "spread": 1,
+          "tempo": 2,
+          "name": "play",
+          "matched": "playful"
+        },
         "reached_at_distance": 10.54
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.01379,
-          0.02243
+          0.01224,
+          0.02167
         ],
         "says": "mischievous",
         "from_field": "behavior",
         "cites": "entity|The Jester / Trickster / Clown",
+        "motion": {
+          "step": 0.3,
+          "lift": 0.6,
+          "lean": 0.2,
+          "arms": 0.7,
+          "spread": 1,
+          "tempo": 2,
+          "name": "play",
+          "matched": "mischie"
+        },
         "reached_at_distance": 9.94
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.02243,
-          0.02642
+          0.02167,
+          0.02765
         ],
         "says": "performative",
         "from_field": "behavior",
         "cites": "entity|The Jester / Trickster / Clown",
+        "motion": {
+          "step": 0.3,
+          "lift": 0.6,
+          "lean": 0.2,
+          "arms": 0.7,
+          "spread": 1,
+          "tempo": 2,
+          "name": "play",
+          "matched": "perform"
+        },
         "reached_at_distance": 9.13
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.02642,
-          0.0375
+          0.02765,
+          0.03686
         ],
         "says": "pull the visitor into a shared 'show,' flash information-dense cards/objects",
         "from_field": "behavior",
         "cites": "entity|The Jester / Trickster / Clown",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "flash"
+        },
         "reached_at_distance": 8.52
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.0375,
-          0.05556
+          0.03686,
+          0.05147
         ],
         "says": "direct attention",
         "from_field": "behavior",
         "cites": "entity|The Jester / Trickster / Clown",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "direct"
+        },
         "reached_at_distance": 7.91
       },
       {
         "rung": 5,
         "descendingRate": [
-          0.05556,
+          0.05147,
           1
         ],
         "says": "can tip from liberating fun into mockery or cruelty",
         "from_field": "behavior",
         "cites": "entity|The Jester / Trickster / Clown",
+        "motion": {
+          "step": 0.3,
+          "lift": 0.6,
+          "lean": 0.2,
+          "arms": 0.7,
+          "spread": 1,
+          "tempo": 2,
+          "name": "play",
+          "matched": "mock"
+        },
         "reached_at_distance": 7.11
       }
     ],
@@ -3569,7 +5669,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.06484,
+      "maxDescendingRate": 0.0661,
       "firstResponseAtDistance": 10.54,
       "rungsReachedOnAWalk": 6
     }
@@ -3593,33 +5693,63 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.02335
+          0.02141
         ],
         "says": "Speaks 'through' the visitor",
         "from_field": "behavior",
         "cites": "entity|The Logos — the Voice",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.08333333333333333,
+          "lift": 0.06666666666666667,
+          "lean": 0.09999999999999999,
+          "arms": 0.26666666666666666,
+          "spread": 0.09999999999999999,
+          "tempo": 1.0333333333333334
+        },
         "reached_at_distance": 10.95
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.02335,
-          0.04677
+          0.02141,
+          0.05062
         ],
         "says": "steady and articulate",
         "from_field": "behavior",
         "cites": "entity|The Logos — the Voice",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.16666666666666666,
+          "lift": 0.13333333333333333,
+          "lean": 0.19999999999999998,
+          "arms": 0.5333333333333333,
+          "spread": 0.19999999999999998,
+          "tempo": 1.2666666666666666
+        },
         "reached_at_distance": 9.53
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.04677,
+          0.05062,
           1
         ],
         "says": "dispenses teaching and prophecy",
         "from_field": "behavior",
         "cites": "entity|The Logos — the Voice",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.25,
+          "lift": 0.2,
+          "lean": 0.3,
+          "arms": 0.8,
+          "spread": 0.3,
+          "tempo": 1.5
+        },
         "reached_at_distance": 7.91
       }
     ],
@@ -3641,7 +5771,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.07793,
+      "maxDescendingRate": 0.07939,
       "firstResponseAtDistance": 10.95,
       "rungsReachedOnAWalk": 3
     }
@@ -3665,99 +5795,189 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.00782
+          0.00604
         ],
         "says": "Impersonation",
         "from_field": "behavior",
         "cites": "entity|The Mimic — wearer of familiar faces",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.027777777777777776,
+          "lift": 0.022222222222222223,
+          "lean": 0.03333333333333333,
+          "arms": 0.08888888888888889,
+          "spread": 0.03333333333333333,
+          "tempo": 0.8777777777777778
+        },
         "reached_at_distance": 10.34
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.00782,
-          0.00905
+          0.00604,
+          0.01041
         ],
         "says": "testing: approaching in a trusted guise",
         "from_field": "behavior",
         "cites": "entity|The Mimic — wearer of familiar faces",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.05555555555555555,
+          "lift": 0.044444444444444446,
+          "lean": 0.06666666666666667,
+          "arms": 0.17777777777777778,
+          "spread": 0.06666666666666667,
+          "tempo": 0.9555555555555556
+        },
         "reached_at_distance": 9.94
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.00905,
-          0.01321
+          0.01041,
+          0.01345
         ],
         "says": "soliciting trust or engagement",
         "from_field": "behavior",
         "cites": "entity|The Mimic — wearer of familiar faces",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.08333333333333333,
+          "lift": 0.06666666666666667,
+          "lean": 0.09999999999999999,
+          "arms": 0.26666666666666666,
+          "spread": 0.09999999999999999,
+          "tempo": 1.0333333333333334
+        },
         "reached_at_distance": 9.53
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.01321,
-          0.01773
+          0.01345,
+          0.01791
         ],
         "says": "sometimes dropping the mask",
         "from_field": "behavior",
         "cites": "entity|The Mimic — wearer of familiar faces",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.1111111111111111,
+          "lift": 0.08888888888888889,
+          "lean": 0.13333333333333333,
+          "arms": 0.35555555555555557,
+          "spread": 0.13333333333333333,
+          "tempo": 1.1111111111111112
+        },
         "reached_at_distance": 9.13
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.01773,
-          0.024
+          0.01791,
+          0.02421
         ],
         "says": "deliberately or when challenged",
         "from_field": "behavior",
         "cites": "entity|The Mimic — wearer of familiar faces",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.1388888888888889,
+          "lift": 0.11111111111111112,
+          "lean": 0.16666666666666666,
+          "arms": 0.4444444444444445,
+          "spread": 0.16666666666666666,
+          "tempo": 1.1888888888888889
+        },
         "reached_at_distance": 8.72
       },
       {
         "rung": 5,
         "descendingRate": [
-          0.024,
-          0.0265
+          0.02421,
+          0.02814
         ],
         "says": "Community threads trade methods for 'testing' suspect loved-ones (asking questions only the real person could answer",
         "from_field": "behavior",
         "cites": "entity|The Mimic — wearer of familiar faces",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.16666666666666666,
+          "lift": 0.13333333333333333,
+          "lean": 0.19999999999999998,
+          "arms": 0.5333333333333333,
+          "spread": 0.19999999999999998,
+          "tempo": 1.2666666666666666
+        },
         "reached_at_distance": 8.12
       },
       {
         "rung": 6,
         "descendingRate": [
-          0.0265,
-          0.03688
+          0.02814,
+          0.03508
         ],
         "says": "demanding they show their true form)",
         "from_field": "behavior",
         "cites": "entity|The Mimic — wearer of familiar faces",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "show"
+        },
         "reached_at_distance": 7.71
       },
       {
         "rung": 7,
         "descendingRate": [
-          0.03688,
-          0.04049
+          0.03508,
+          0.04216
         ],
         "says": "Not all mask-wearers are hostile",
         "from_field": "behavior",
         "cites": "entity|The Mimic — wearer of familiar faces",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.2222222222222222,
+          "lift": 0.17777777777777778,
+          "lean": 0.26666666666666666,
+          "arms": 0.7111111111111111,
+          "spread": 0.26666666666666666,
+          "tempo": 1.422222222222222
+        },
         "reached_at_distance": 7.31
       },
       {
         "rung": 8,
         "descendingRate": [
-          0.04049,
+          0.04216,
           1
         ],
         "says": "some reports frame the borrowed face as a courtesy interface chosen to avoid frightening the experiencer",
         "from_field": "behavior",
         "cites": "entity|The Mimic — wearer of familiar faces",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.25,
+          "lift": 0.2,
+          "lean": 0.3,
+          "arms": 0.8,
+          "spread": 0.3,
+          "tempo": 1.5
+        },
         "reached_at_distance": 6.9
       }
     ],
@@ -3783,7 +6003,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.05008,
+      "maxDescendingRate": 0.05077,
       "firstResponseAtDistance": 10.34,
       "rungsReachedOnAWalk": 9
     }
@@ -3807,121 +6027,231 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.01483
+          0.01794
         ],
         "says": "Running",
         "from_field": "behavior",
         "cites": "entity|The Operators — hidden technicians of the experience",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.022727272727272728,
+          "lift": 0.018181818181818184,
+          "lean": 0.02727272727272727,
+          "arms": 0.07272727272727274,
+          "spread": 0.02727272727272727,
+          "tempo": 0.8636363636363636
+        },
         "reached_at_distance": 10.74
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.01483,
-          0.02034
+          0.01794,
+          0.01948
         ],
         "says": "directing",
         "from_field": "behavior",
         "cites": "entity|The Operators — hidden technicians of the experience",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "direct"
+        },
         "reached_at_distance": 10.34
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.02034,
-          0.02877
+          0.01948,
+          0.02918
         ],
         "says": "or maintaining the experience itself",
         "from_field": "behavior",
         "cites": "entity|The Operators — hidden technicians of the experience",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.06818181818181818,
+          "lift": 0.05454545454545454,
+          "lean": 0.0818181818181818,
+          "arms": 0.21818181818181817,
+          "spread": 0.0818181818181818,
+          "tempo": 0.990909090909091
+        },
         "reached_at_distance": 9.94
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.02877,
-          0.03473
+          0.02918,
+          0.03321
         ],
         "says": "assembling scenes",
         "from_field": "behavior",
         "cites": "entity|The Operators — hidden technicians of the experience",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.09090909090909091,
+          "lift": 0.07272727272727274,
+          "lean": 0.10909090909090909,
+          "arms": 0.29090909090909095,
+          "spread": 0.10909090909090909,
+          "tempo": 1.0545454545454547
+        },
         "reached_at_distance": 9.53
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.03473,
-          0.04127
+          0.03321,
+          0.04041
         ],
         "says": "cueing transitions",
         "from_field": "behavior",
         "cites": "entity|The Operators — hidden technicians of the experience",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.11363636363636363,
+          "lift": 0.09090909090909091,
+          "lean": 0.13636363636363635,
+          "arms": 0.36363636363636365,
+          "spread": 0.13636363636363635,
+          "tempo": 1.1181818181818182
+        },
         "reached_at_distance": 9.13
       },
       {
         "rung": 5,
         "descendingRate": [
-          0.04127,
-          0.04883
+          0.04041,
+          0.04339
         ],
         "says": "operating the 'projector'",
         "from_field": "behavior",
         "cites": "entity|The Operators — hidden technicians of the experience",
+        "motion": {
+          "step": 0.7,
+          "lift": -0.2,
+          "lean": 1,
+          "arms": 0.6,
+          "spread": -0.3,
+          "tempo": 0.8,
+          "name": "loom",
+          "matched": "operat"
+        },
         "reached_at_distance": 8.72
       },
       {
         "rung": 6,
         "descendingRate": [
-          0.04883,
-          0.0539
+          0.04339,
+          0.05415
         ],
         "says": "Experiencers describe catching them at work",
         "from_field": "behavior",
         "cites": "entity|The Operators — hidden technicians of the experience",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.1590909090909091,
+          "lift": 0.1272727272727273,
+          "lean": 0.1909090909090909,
+          "arms": 0.5090909090909091,
+          "spread": 0.1909090909090909,
+          "tempo": 1.2454545454545456
+        },
         "reached_at_distance": 8.52
       },
       {
         "rung": 7,
         "descendingRate": [
-          0.0539,
-          0.06849
+          0.05415,
+          0.064
         ],
         "says": "as if peeking backstage",
         "from_field": "behavior",
         "cites": "entity|The Operators — hidden technicians of the experience",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.18181818181818182,
+          "lift": 0.14545454545454548,
+          "lean": 0.21818181818181817,
+          "arms": 0.5818181818181819,
+          "spread": 0.21818181818181817,
+          "tempo": 1.309090909090909
+        },
         "reached_at_distance": 8.12
       },
       {
         "rung": 8,
         "descendingRate": [
-          0.06849,
-          0.07775
+          0.064,
+          0.07227
         ],
         "says": "sometimes triggering amusement or mild annoyance in the beings",
         "from_field": "behavior",
         "cites": "entity|The Operators — hidden technicians of the experience",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.20454545454545456,
+          "lift": 0.16363636363636366,
+          "lean": 0.24545454545454545,
+          "arms": 0.6545454545454547,
+          "spread": 0.24545454545454545,
+          "tempo": 1.3727272727272728
+        },
         "reached_at_distance": 7.71
       },
       {
         "rung": 9,
         "descendingRate": [
-          0.07775,
-          0.08108
+          0.07227,
+          0.07694
         ],
         "says": "The DMT-Nexus lexicon documents first-person accounts of a 'Director' who built allegorical visions like a film director crossed with a dungeon master",
         "from_field": "behavior",
         "cites": "entity|The Operators — hidden technicians of the experience",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "direct"
+        },
         "reached_at_distance": 7.31
       },
       {
         "rung": 10,
         "descendingRate": [
-          0.08108,
+          0.07694,
           1
         ],
         "says": "a 'Conductor' responsible for the experience's soundtrack",
         "from_field": "behavior",
         "cites": "entity|The Operators — hidden technicians of the experience",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.25,
+          "lift": 0.2,
+          "lean": 0.3,
+          "arms": 0.8,
+          "spread": 0.3,
+          "tempo": 1.5
+        },
         "reached_at_distance": 6.9
       }
     ],
@@ -3946,7 +6276,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.09049,
+      "maxDescendingRate": 0.08772,
       "firstResponseAtDistance": 10.74,
       "rungsReachedOnAWalk": 11
     }
@@ -3970,33 +6300,63 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.02325
+          0.02398
         ],
         "says": "Directs attention like a stage act: sweeping gestures that cue reveals",
         "from_field": "behavior",
         "cites": "entity|The Ringmaster — showman of the circus dimension",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "direct"
+        },
         "reached_at_distance": 11.35
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.02325,
-          0.04963
+          0.02398,
+          0.05166
         ],
         "says": "curtains opening on scenes",
         "from_field": "behavior",
         "cites": "entity|The Ringmaster — showman of the circus dimension",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.16666666666666666,
+          "lift": 0.13333333333333333,
+          "lean": 0.19999999999999998,
+          "arms": 0.5333333333333333,
+          "spread": 0.19999999999999998,
+          "tempo": 1.2666666666666666
+        },
         "reached_at_distance": 9.73
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.04963,
+          0.05166,
           1
         ],
         "says": "acts and performers summoned for the experiencer's benefit. Functions as the front-of-house counterpart to the backstage Operators — the experience is framed as a show being put on for (or about) the traveler. Circus and carnival atmospheres appear independently in Strassman's UNM reports",
         "from_field": "behavior",
         "cites": "entity|The Ringmaster — showman of the circus dimension",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "show"
+        },
         "reached_at_distance": 8.12
       }
     ],
@@ -4019,7 +6379,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.08722,
+      "maxDescendingRate": 0.08686,
       "firstResponseAtDistance": 11.35,
       "rungsReachedOnAWalk": 3
     }
@@ -4043,154 +6403,294 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.0108
+          0.00922
         ],
         "says": "Examination and processing: reading the experiencer top to bottom",
         "from_field": "behavior",
         "cites": "entity|The Scanners — entry examiners",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "sing"
+        },
         "reached_at_distance": 10.34
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.0108,
-          0.01185
+          0.00922,
+          0.01514
         ],
         "says": "checking something",
         "from_field": "behavior",
         "cites": "entity|The Scanners — entry examiners",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.03571428571428571,
+          "lift": 0.02857142857142857,
+          "lean": 0.04285714285714285,
+          "arms": 0.11428571428571428,
+          "spread": 0.04285714285714285,
+          "tempo": 0.9
+        },
         "reached_at_distance": 10.14
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.01185,
-          0.01536
+          0.01514,
+          0.01569
         ],
         "says": "variously felt as identity",
         "from_field": "behavior",
         "cites": "entity|The Scanners — entry examiners",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.05357142857142857,
+          "lift": 0.04285714285714286,
+          "lean": 0.06428571428571428,
+          "arms": 0.17142857142857143,
+          "spread": 0.06428571428571428,
+          "tempo": 0.9500000000000001
+        },
         "reached_at_distance": 9.73
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.01536,
-          0.01756
+          0.01569,
+          0.01713
         ],
         "says": "readiness",
         "from_field": "behavior",
         "cites": "entity|The Scanners — entry examiners",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.07142857142857142,
+          "lift": 0.05714285714285714,
+          "lean": 0.0857142857142857,
+          "arms": 0.22857142857142856,
+          "spread": 0.0857142857142857,
+          "tempo": 1
+        },
         "reached_at_distance": 9.53
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.01756,
-          0.02283
+          0.01713,
+          0.0232
         ],
         "says": "intent",
         "from_field": "behavior",
         "cites": "entity|The Scanners — entry examiners",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.08928571428571429,
+          "lift": 0.07142857142857144,
+          "lean": 0.10714285714285714,
+          "arms": 0.28571428571428575,
+          "spread": 0.10714285714285714,
+          "tempo": 1.05
+        },
         "reached_at_distance": 9.33
       },
       {
         "rung": 5,
         "descendingRate": [
-          0.02283,
-          0.02591
+          0.0232,
+          0.02477
         ],
         "says": "or 'credentials'",
         "from_field": "behavior",
         "cites": "entity|The Scanners — entry examiners",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.10714285714285714,
+          "lift": 0.08571428571428572,
+          "lean": 0.12857142857142856,
+          "arms": 0.34285714285714286,
+          "spread": 0.12857142857142856,
+          "tempo": 1.1
+        },
         "reached_at_distance": 8.93
       },
       {
         "rung": 6,
         "descendingRate": [
-          0.02591,
-          0.03141
+          0.02477,
+          0.03163
         ],
         "says": "then admitting",
         "from_field": "behavior",
         "cites": "entity|The Scanners — entry examiners",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.125,
+          "lift": 0.1,
+          "lean": 0.15,
+          "arms": 0.4,
+          "spread": 0.15,
+          "tempo": 1.15
+        },
         "reached_at_distance": 8.72
       },
       {
         "rung": 7,
         "descendingRate": [
-          0.03141,
-          0.0365
+          0.03163,
+          0.03629
         ],
         "says": "redirecting",
         "from_field": "behavior",
         "cites": "entity|The Scanners — entry examiners",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "direct"
+        },
         "reached_at_distance": 8.32
       },
       {
         "rung": 8,
         "descendingRate": [
-          0.0365,
-          0.0386
+          0.03629,
+          0.03446
         ],
         "says": "or ignoring",
         "from_field": "behavior",
         "cites": "entity|The Scanners — entry examiners",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.16071428571428573,
+          "lift": 0.1285714285714286,
+          "lean": 0.19285714285714287,
+          "arms": 0.5142857142857143,
+          "spread": 0.19285714285714287,
+          "tempo": 1.25
+        },
         "reached_at_distance": 8.12
       },
       {
         "rung": 9,
         "descendingRate": [
-          0.0386,
-          0.04688
+          0.03446,
+          0.04495
         ],
         "says": "Distinct from the bouncer/gatekeeper (who bars or admits by authority): scanners assess by inspection",
         "from_field": "behavior",
         "cites": "entity|The Scanners — entry examiners",
+        "motion": {
+          "step": 0.7,
+          "lift": -0.2,
+          "lean": 1,
+          "arms": 0.6,
+          "spread": -0.3,
+          "tempo": 0.8,
+          "name": "loom",
+          "matched": "inspect"
+        },
         "reached_at_distance": 7.91
       },
       {
         "rung": 10,
         "descendingRate": [
-          0.04688,
-          0.05277
+          0.04495,
+          0.05097
         ],
         "says": "often without any verdict being announced",
         "from_field": "behavior",
         "cites": "entity|The Scanners — entry examiners",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.19642857142857142,
+          "lift": 0.15714285714285714,
+          "lean": 0.2357142857142857,
+          "arms": 0.6285714285714286,
+          "spread": 0.2357142857142857,
+          "tempo": 1.35
+        },
         "reached_at_distance": 7.51
       },
       {
         "rung": 11,
         "descendingRate": [
-          0.05277,
-          0.05796
+          0.05097,
+          0.05348
         ],
         "says": "The pervasive reported sense of being expected",
         "from_field": "behavior",
         "cites": "entity|The Scanners — entry examiners",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.21428571428571427,
+          "lift": 0.17142857142857143,
+          "lean": 0.2571428571428571,
+          "arms": 0.6857142857142857,
+          "spread": 0.2571428571428571,
+          "tempo": 1.4
+        },
         "reached_at_distance": 7.31
       },
       {
         "rung": 12,
         "descendingRate": [
-          0.05796,
-          0.06208
+          0.05348,
+          0.06223
         ],
         "says": "Meyer notes 'a consistent sense of being watched or expected by an intelligence'",
         "from_field": "behavior",
         "cites": "entity|The Scanners — entry examiners",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.23214285714285715,
+          "lift": 0.18571428571428572,
+          "lean": 0.2785714285714286,
+          "arms": 0.7428571428571429,
+          "spread": 0.2785714285714286,
+          "tempo": 1.4500000000000002
+        },
         "reached_at_distance": 7.11
       },
       {
         "rung": 13,
         "descendingRate": [
-          0.06208,
+          0.06223,
           1
         ],
         "says": "frequently attaches to these figures",
         "from_field": "behavior",
         "cites": "entity|The Scanners — entry examiners",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.25,
+          "lift": 0.2,
+          "lean": 0.3,
+          "arms": 0.8,
+          "spread": 0.3,
+          "tempo": 1.5
+        },
         "reached_at_distance": 6.7
       }
     ],
@@ -4216,7 +6716,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.0694,
+      "maxDescendingRate": 0.07189,
       "firstResponseAtDistance": 10.34,
       "rungsReachedOnAWalk": 14
     }
@@ -4240,165 +6740,315 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.00722
+          0.00717
         ],
         "says": "Attention: the Witness watches",
         "from_field": "behavior",
         "cites": "entity|The Silent Witness — felt presence without form",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.016666666666666666,
+          "lift": 0.013333333333333334,
+          "lean": 0.02,
+          "arms": 0.05333333333333334,
+          "spread": 0.02,
+          "tempo": 0.8466666666666667
+        },
         "reached_at_distance": 10.54
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.00722,
-          0.01348
+          0.00717,
+          0.01257
         ],
         "says": "It does not act",
         "from_field": "behavior",
         "cites": "entity|The Silent Witness — felt presence without form",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.03333333333333333,
+          "lift": 0.02666666666666667,
+          "lean": 0.04,
+          "arms": 0.10666666666666667,
+          "spread": 0.04,
+          "tempo": 0.8933333333333333
+        },
         "reached_at_distance": 10.34
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.01348,
-          0.01662
+          0.01257,
+          0.01688
         ],
         "says": "guide",
         "from_field": "behavior",
         "cites": "entity|The Silent Witness — felt presence without form",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.05,
+          "lift": 0.04000000000000001,
+          "lean": 0.06,
+          "arms": 0.16000000000000003,
+          "spread": 0.06,
+          "tempo": 0.9400000000000001
+        },
         "reached_at_distance": 9.94
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.01662,
-          0.02053
+          0.01688,
+          0.01846
         ],
         "says": "or interfere",
         "from_field": "behavior",
         "cites": "entity|The Silent Witness — felt presence without form",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.06666666666666667,
+          "lift": 0.05333333333333334,
+          "lean": 0.08,
+          "arms": 0.21333333333333335,
+          "spread": 0.08,
+          "tempo": 0.9866666666666667
+        },
         "reached_at_distance": 9.73
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.02053,
-          0.02672
+          0.01846,
+          0.02473
         ],
         "says": "its entire behavior is sustained",
         "from_field": "behavior",
         "cites": "entity|The Silent Witness — felt presence without form",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.08333333333333333,
+          "lift": 0.06666666666666667,
+          "lean": 0.09999999999999999,
+          "arms": 0.26666666666666666,
+          "spread": 0.09999999999999999,
+          "tempo": 1.0333333333333334
+        },
         "reached_at_distance": 9.53
       },
       {
         "rung": 5,
         "descendingRate": [
-          0.02672,
-          0.02892
+          0.02473,
+          0.02709
         ],
         "says": "evident awareness of the experiencer",
         "from_field": "behavior",
         "cites": "entity|The Silent Witness — felt presence without form",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.1,
+          "lift": 0.08000000000000002,
+          "lean": 0.12,
+          "arms": 0.32000000000000006,
+          "spread": 0.12,
+          "tempo": 1.08
+        },
         "reached_at_distance": 9.13
       },
       {
         "rung": 6,
         "descendingRate": [
-          0.02892,
-          0.03315
+          0.02709,
+          0.03253
         ],
         "says": "Sometimes it accompanies (a felt escort through the experience)",
         "from_field": "behavior",
         "cites": "entity|The Silent Witness — felt presence without form",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.11666666666666667,
+          "lift": 0.09333333333333334,
+          "lean": 0.13999999999999999,
+          "arms": 0.37333333333333335,
+          "spread": 0.13999999999999999,
+          "tempo": 1.1266666666666667
+        },
         "reached_at_distance": 8.93
       },
       {
         "rung": 7,
         "descendingRate": [
-          0.03315,
-          0.04086
+          0.03253,
+          0.04384
         ],
         "says": "sometimes it simply is",
         "from_field": "behavior",
         "cites": "entity|The Silent Witness — felt presence without form",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.13333333333333333,
+          "lift": 0.10666666666666667,
+          "lean": 0.16,
+          "arms": 0.4266666666666667,
+          "spread": 0.16,
+          "tempo": 1.1733333333333333
+        },
         "reached_at_distance": 8.72
       },
       {
         "rung": 8,
         "descendingRate": [
-          0.04086,
-          0.04337
+          0.04384,
+          0.0431
         ],
         "says": "before",
         "from_field": "behavior",
         "cites": "entity|The Silent Witness — felt presence without form",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.15,
+          "lift": 0.12,
+          "lean": 0.18,
+          "arms": 0.48,
+          "spread": 0.18,
+          "tempo": 1.22
+        },
         "reached_at_distance": 8.32
       },
       {
         "rung": 9,
         "descendingRate": [
-          0.04337,
-          0.04718
+          0.0431,
+          0.04627
         ],
         "says": "during",
         "from_field": "behavior",
         "cites": "entity|The Silent Witness — felt presence without form",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.16666666666666666,
+          "lift": 0.13333333333333333,
+          "lean": 0.19999999999999998,
+          "arms": 0.5333333333333333,
+          "spread": 0.19999999999999998,
+          "tempo": 1.2666666666666666
+        },
         "reached_at_distance": 8.12
       },
       {
         "rung": 10,
         "descendingRate": [
-          0.04718,
-          0.0575
+          0.04627,
+          0.0557
         ],
         "says": "after the visual content",
         "from_field": "behavior",
         "cites": "entity|The Silent Witness — felt presence without form",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.18333333333333332,
+          "lift": 0.14666666666666667,
+          "lean": 0.21999999999999997,
+          "arms": 0.5866666666666667,
+          "spread": 0.21999999999999997,
+          "tempo": 1.3133333333333335
+        },
         "reached_at_distance": 7.91
       },
       {
         "rung": 11,
         "descendingRate": [
-          0.0575,
-          0.06109
+          0.0557,
+          0.06045
         ],
         "says": "The Nexus lexicon separately records travelers being placed into 'witness consciousness'",
         "from_field": "behavior",
         "cites": "entity|The Silent Witness — felt presence without form",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.2,
+          "lift": 0.16000000000000003,
+          "lean": 0.24,
+          "arms": 0.6400000000000001,
+          "spread": 0.24,
+          "tempo": 1.3599999999999999
+        },
         "reached_at_distance": 7.51
       },
       {
         "rung": 12,
         "descendingRate": [
-          0.06109,
-          0.06446
+          0.06045,
+          0.06423
         ],
         "says": "'a camera mode' of pure perception",
         "from_field": "behavior",
         "cites": "entity|The Silent Witness — felt presence without form",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.21666666666666667,
+          "lift": 0.17333333333333334,
+          "lean": 0.26,
+          "arms": 0.6933333333333334,
+          "spread": 0.26,
+          "tempo": 1.4066666666666667
+        },
         "reached_at_distance": 7.31
       },
       {
         "rung": 13,
         "descendingRate": [
-          0.06446,
-          0.06844
+          0.06423,
+          0.06867
         ],
         "says": "by entities",
         "from_field": "behavior",
         "cites": "entity|The Silent Witness — felt presence without form",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.23333333333333334,
+          "lift": 0.18666666666666668,
+          "lean": 0.27999999999999997,
+          "arms": 0.7466666666666667,
+          "spread": 0.27999999999999997,
+          "tempo": 1.4533333333333334
+        },
         "reached_at_distance": 7.11
       },
       {
         "rung": 14,
         "descendingRate": [
-          0.06844,
+          0.06867,
           1
         ],
         "says": "the mirror-image phenomenon",
         "from_field": "behavior",
         "cites": "entity|The Silent Witness — felt presence without form",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.25,
+          "lift": 0.2,
+          "lean": 0.3,
+          "arms": 0.8,
+          "spread": 0.3,
+          "tempo": 1.5
+        },
         "reached_at_distance": 6.7
       }
     ],
@@ -4423,7 +7073,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.07349,
+      "maxDescendingRate": 0.07575,
       "firstResponseAtDistance": 10.54,
       "rungsReachedOnAWalk": 15
     }
@@ -4447,110 +7097,210 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.00407
+          0.00512
         ],
         "says": "Working on the experiencer: probing",
         "from_field": "behavior",
         "cites": "entity|The Surgeons — hyperspace medical team",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.025,
+          "lift": 0.020000000000000004,
+          "lean": 0.03,
+          "arms": 0.08000000000000002,
+          "spread": 0.03,
+          "tempo": 0.87
+        },
         "reached_at_distance": 11.15
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.00407,
-          0.00749
+          0.00512,
+          0.00854
         ],
         "says": "scanning",
         "from_field": "behavior",
         "cites": "entity|The Surgeons — hyperspace medical team",
+        "motion": {
+          "step": 0.7,
+          "lift": -0.2,
+          "lean": 1,
+          "arms": 0.6,
+          "spread": -0.3,
+          "tempo": 0.8,
+          "name": "loom",
+          "matched": "scan"
+        },
         "reached_at_distance": 10.74
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.00749,
-          0.01321
+          0.00854,
+          0.01193
         ],
         "says": "inserting or removing objects",
         "from_field": "behavior",
         "cites": "entity|The Surgeons — hyperspace medical team",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.075,
+          "lift": 0.06,
+          "lean": 0.09,
+          "arms": 0.24,
+          "spread": 0.09,
+          "tempo": 1.01
+        },
         "reached_at_distance": 10.14
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.01321,
-          0.01635
+          0.01193,
+          0.01461
         ],
         "says": "adjusting 'energy'",
         "from_field": "behavior",
         "cites": "entity|The Surgeons — hyperspace medical team",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.1,
+          "lift": 0.08000000000000002,
+          "lean": 0.12,
+          "arms": 0.32000000000000006,
+          "spread": 0.12,
+          "tempo": 1.08
+        },
         "reached_at_distance": 9.73
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.01635,
-          0.02171
+          0.01461,
+          0.02277
         ],
         "says": "repairing perceived damage",
         "from_field": "behavior",
         "cites": "entity|The Surgeons — hyperspace medical team",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.125,
+          "lift": 0.1,
+          "lean": 0.15,
+          "arms": 0.4,
+          "spread": 0.15,
+          "tempo": 1.15
+        },
         "reached_at_distance": 9.33
       },
       {
         "rung": 5,
         "descendingRate": [
-          0.02171,
-          0.02513
+          0.02277,
+          0.02426
         ],
         "says": "or performing what is interpreted as psychic surgery",
         "from_field": "behavior",
         "cites": "entity|The Surgeons — hyperspace medical team",
+        "motion": {
+          "step": 0.7,
+          "lift": -0.2,
+          "lean": 1,
+          "arms": 0.6,
+          "spread": -0.3,
+          "tempo": 0.8,
+          "name": "loom",
+          "matched": "surg"
+        },
         "reached_at_distance": 8.72
       },
       {
         "rung": 6,
         "descendingRate": [
-          0.02513,
-          0.03151
+          0.02426,
+          0.03159
         ],
         "says": "They work with detached professional focus",
         "from_field": "behavior",
         "cites": "entity|The Surgeons — hyperspace medical team",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.175,
+          "lift": 0.13999999999999999,
+          "lean": 0.21,
+          "arms": 0.5599999999999999,
+          "spread": 0.21,
+          "tempo": 1.29
+        },
         "reached_at_distance": 8.32
       },
       {
         "rung": 7,
         "descendingRate": [
-          0.03151,
-          0.03745
+          0.03159,
+          0.03703
         ],
         "says": "often seeming unsurprised by the experiencer's arrival",
         "from_field": "behavior",
         "cites": "entity|The Surgeons — hyperspace medical team",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.2,
+          "lift": 0.16000000000000003,
+          "lean": 0.24,
+          "arms": 0.6400000000000001,
+          "spread": 0.24,
+          "tempo": 1.3599999999999999
+        },
         "reached_at_distance": 7.91
       },
       {
         "rung": 8,
         "descendingRate": [
-          0.03745,
-          0.04333
+          0.03703,
+          0.04783
         ],
         "says": "as if the appointment was scheduled",
         "from_field": "behavior",
         "cites": "entity|The Surgeons — hyperspace medical team",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.225,
+          "lift": 0.18000000000000002,
+          "lean": 0.27,
+          "arms": 0.7200000000000001,
+          "spread": 0.27,
+          "tempo": 1.4300000000000002
+        },
         "reached_at_distance": 7.51
       },
       {
         "rung": 9,
         "descendingRate": [
-          0.04333,
+          0.04783,
           1
         ],
         "says": "Several reports describe them pausing to acknowledge the experiencer before resuming work",
         "from_field": "behavior",
         "cites": "entity|The Surgeons — hyperspace medical team",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "sing"
+        },
         "reached_at_distance": 6.9
       }
     ],
@@ -4579,7 +7329,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.05646,
+      "maxDescendingRate": 0.05698,
       "firstResponseAtDistance": 11.15,
       "rungsReachedOnAWalk": 10
     }
@@ -4603,165 +7353,315 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.01292
+          0.00943
         ],
         "says": "Deliberate demonstration",
         "from_field": "behavior",
         "cites": "entity|The Teacher — professor of hyperspace",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.016666666666666666,
+          "lift": 0.013333333333333334,
+          "lean": 0.02,
+          "arms": 0.05333333333333334,
+          "spread": 0.02,
+          "tempo": 0.8466666666666667
+        },
         "reached_at_distance": 10.95
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.01292,
-          0.01717
+          0.00943,
+          0.01527
         ],
         "says": "instruction: showing objects",
         "from_field": "behavior",
         "cites": "entity|The Teacher — professor of hyperspace",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "show"
+        },
         "reached_at_distance": 10.74
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.01717,
-          0.01984
+          0.01527,
+          0.0175
         ],
         "says": "diagrams",
         "from_field": "behavior",
         "cites": "entity|The Teacher — professor of hyperspace",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.05,
+          "lift": 0.04000000000000001,
+          "lean": 0.06,
+          "arms": 0.16000000000000003,
+          "spread": 0.06,
+          "tempo": 0.9400000000000001
+        },
         "reached_at_distance": 10.34
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.01984,
-          0.02398
+          0.0175,
+          0.02462
         ],
         "says": "or scenes",
         "from_field": "behavior",
         "cites": "entity|The Teacher — professor of hyperspace",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.06666666666666667,
+          "lift": 0.05333333333333334,
+          "lean": 0.08,
+          "arms": 0.21333333333333335,
+          "spread": 0.08,
+          "tempo": 0.9866666666666667
+        },
         "reached_at_distance": 10.14
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.02398,
-          0.03052
+          0.02462,
+          0.0291
         ],
         "says": "walking the experiencer through lessons",
         "from_field": "behavior",
         "cites": "entity|The Teacher — professor of hyperspace",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.08333333333333333,
+          "lift": 0.06666666666666667,
+          "lean": 0.09999999999999999,
+          "arms": 0.26666666666666666,
+          "spread": 0.09999999999999999,
+          "tempo": 1.0333333333333334
+        },
         "reached_at_distance": 9.73
       },
       {
         "rung": 5,
         "descendingRate": [
-          0.03052,
-          0.03757
+          0.0291,
+          0.04092
         ],
         "says": "correcting misunderstandings",
         "from_field": "behavior",
         "cites": "entity|The Teacher — professor of hyperspace",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.1,
+          "lift": 0.08000000000000002,
+          "lean": 0.12,
+          "arms": 0.32000000000000006,
+          "spread": 0.12,
+          "tempo": 1.08
+        },
         "reached_at_distance": 9.53
       },
       {
         "rung": 6,
         "descendingRate": [
-          0.03757,
-          0.04211
+          0.04092,
+          0.04023
         ],
         "says": "assigning what feel like exercises or homework",
         "from_field": "behavior",
         "cites": "entity|The Teacher — professor of hyperspace",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.11666666666666667,
+          "lift": 0.09333333333333334,
+          "lean": 0.13999999999999999,
+          "arms": 0.37333333333333335,
+          "spread": 0.13999999999999999,
+          "tempo": 1.1266666666666667
+        },
         "reached_at_distance": 9.13
       },
       {
         "rung": 7,
         "descendingRate": [
-          0.04211,
-          0.04526
+          0.04023,
+          0.04802
         ],
         "says": "Teachers are patient but businesslike",
         "from_field": "behavior",
         "cites": "entity|The Teacher — professor of hyperspace",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.13333333333333333,
+          "lift": 0.10666666666666667,
+          "lean": 0.16,
+          "arms": 0.4266666666666667,
+          "spread": 0.16,
+          "tempo": 1.1733333333333333
+        },
         "reached_at_distance": 8.93
       },
       {
         "rung": 8,
         "descendingRate": [
-          0.04526,
-          0.05437
+          0.04802,
+          0.0538
         ],
         "says": "reports emphasize the sense of a curriculum",
         "from_field": "behavior",
         "cites": "entity|The Teacher — professor of hyperspace",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.15,
+          "lift": 0.12,
+          "lean": 0.18,
+          "arms": 0.48,
+          "spread": 0.18,
+          "tempo": 1.22
+        },
         "reached_at_distance": 8.52
       },
       {
         "rung": 9,
         "descendingRate": [
-          0.05437,
-          0.06218
+          0.0538,
+          0.06339
         ],
         "says": "that the lesson was prepared",
         "from_field": "behavior",
         "cites": "entity|The Teacher — professor of hyperspace",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.16666666666666666,
+          "lift": 0.13333333333333333,
+          "lean": 0.19999999999999998,
+          "arms": 0.5333333333333333,
+          "spread": 0.19999999999999998,
+          "tempo": 1.2666666666666666
+        },
         "reached_at_distance": 8.32
       },
       {
         "rung": 10,
         "descendingRate": [
-          0.06218,
-          0.06853
+          0.06339,
+          0.06725
         ],
         "says": "the student expected",
         "from_field": "behavior",
         "cites": "entity|The Teacher — professor of hyperspace",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.18333333333333332,
+          "lift": 0.14666666666666667,
+          "lean": 0.21999999999999997,
+          "arms": 0.5866666666666667,
+          "spread": 0.21999999999999997,
+          "tempo": 1.3133333333333335
+        },
         "reached_at_distance": 7.91
       },
       {
         "rung": 11,
         "descendingRate": [
-          0.06853,
-          0.07215
+          0.06725,
+          0.07162
         ],
         "says": "Meyer's corpus documents entities demonstrating techniques (e.g",
         "from_field": "behavior",
         "cites": "entity|The Teacher — professor of hyperspace",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.2,
+          "lift": 0.16000000000000003,
+          "lean": 0.24,
+          "arms": 0.6400000000000001,
+          "spread": 0.24,
+          "tempo": 1.3599999999999999
+        },
         "reached_at_distance": 7.71
       },
       {
         "rung": 12,
         "descendingRate": [
-          0.07215,
-          0.07547
+          0.07162,
+          0.07544
         ],
         "says": "breathing",
         "from_field": "behavior",
         "cites": "entity|The Teacher — professor of hyperspace",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.21666666666666667,
+          "lift": 0.17333333333333334,
+          "lean": 0.26,
+          "arms": 0.6933333333333334,
+          "spread": 0.26,
+          "tempo": 1.4066666666666667
+        },
         "reached_at_distance": 7.31
       },
       {
         "rung": 13,
         "descendingRate": [
-          0.07547,
-          0.08259
+          0.07544,
+          0.08075
         ],
         "says": "yoga-like postures)",
         "from_field": "behavior",
         "cites": "entity|The Teacher — professor of hyperspace",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.23333333333333334,
+          "lift": 0.18666666666666668,
+          "lean": 0.27999999999999997,
+          "arms": 0.7466666666666667,
+          "spread": 0.27999999999999997,
+          "tempo": 1.4533333333333334
+        },
         "reached_at_distance": 7.11
       },
       {
         "rung": 14,
         "descendingRate": [
-          0.08259,
+          0.08075,
           1
         ],
         "says": "symbolic knowledge",
         "from_field": "behavior",
         "cites": "entity|The Teacher — professor of hyperspace",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.25,
+          "lift": 0.2,
+          "lean": 0.3,
+          "arms": 0.8,
+          "spread": 0.3,
+          "tempo": 1.5
+        },
         "reached_at_distance": 6.7
       }
     ],
@@ -4786,7 +7686,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.09068,
+      "maxDescendingRate": 0.08812,
       "firstResponseAtDistance": 10.95,
       "rungsReachedOnAWalk": 15
     }
@@ -4810,55 +7710,105 @@
         "rung": 0,
         "descendingRate": [
           0.0005,
-          0.01069
+          0.01006
         ],
         "says": "Welcome",
         "from_field": "behavior",
         "cites": "entity|The generic 'Other' — guides, spirits & helpers",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.05,
+          "lift": 0.04000000000000001,
+          "lean": 0.06,
+          "arms": 0.16000000000000003,
+          "spread": 0.06,
+          "tempo": 0.9400000000000001
+        },
         "reached_at_distance": 11.35
       },
       {
         "rung": 1,
         "descendingRate": [
-          0.01069,
-          0.01863
+          0.01006,
+          0.019
         ],
         "says": "guide",
         "from_field": "behavior",
         "cites": "entity|The generic 'Other' — guides, spirits & helpers",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.1,
+          "lift": 0.08000000000000002,
+          "lean": 0.12,
+          "arms": 0.32000000000000006,
+          "spread": 0.12,
+          "tempo": 1.08
+        },
         "reached_at_distance": 10.34
       },
       {
         "rung": 2,
         "descendingRate": [
-          0.01863,
-          0.02762
+          0.019,
+          0.02553
         ],
         "says": "watch",
         "from_field": "behavior",
         "cites": "entity|The generic 'Other' — guides, spirits & helpers",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.15,
+          "lift": 0.12,
+          "lean": 0.18,
+          "arms": 0.48,
+          "spread": 0.18,
+          "tempo": 1.22
+        },
         "reached_at_distance": 9.33
       },
       {
         "rung": 3,
         "descendingRate": [
-          0.02762,
-          0.04502
+          0.02553,
+          0.03973
         ],
         "says": "present objects/scenes for the visitor to attend to",
         "from_field": "behavior",
         "cites": "entity|The generic 'Other' — guides, spirits & helpers",
+        "motion": {
+          "step": 0.1,
+          "lift": 0.35,
+          "lean": -0.15,
+          "arms": 1,
+          "spread": 0.9,
+          "tempo": 1.6,
+          "name": "present",
+          "matched": "present"
+        },
         "reached_at_distance": 8.52
       },
       {
         "rung": 4,
         "descendingRate": [
-          0.04502,
+          0.03973,
           1
         ],
         "says": "the visitor often feels recognized ('they knew me')",
         "from_field": "behavior",
         "cites": "entity|The generic 'Other' — guides, spirits & helpers",
+        "motion": {
+          "name": "escalate",
+          "matched": null,
+          "step": 0.25,
+          "lift": 0.2,
+          "lean": 0.3,
+          "arms": 0.8,
+          "spread": 0.3,
+          "tempo": 1.5
+        },
         "reached_at_distance": 7.51
       }
     ],
@@ -4880,7 +7830,7 @@
       "samples": 48,
       "far": 16,
       "near": 6.5,
-      "maxDescendingRate": 0.05906,
+      "maxDescendingRate": 0.06045,
       "firstResponseAtDistance": 11.35,
       "rungsReachedOnAWalk": 5
     }

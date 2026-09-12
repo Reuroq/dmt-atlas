@@ -18,7 +18,7 @@
           ],
           "sources": 17,
           "links": 92,
-          "drawCalls": 86,
+          "drawCalls": 87,
           "geometries": 44
         },
         {
@@ -361,13 +361,13 @@
         "paused": false,
         "paced": false,
         "reduced": false,
-        "elapsed": 0.08330000000001747,
-        "animTime": 111.48060000001277,
+        "elapsed": 0.09989999999999419,
+        "animTime": 111.94369999998929,
         "transition": false,
         "renderReady": true,
         "renderPending": false,
-        "renderedAnimTime": 111.48060000001277,
-        "frames": 178,
+        "renderedAnimTime": 111.94369999998929,
+        "frames": 214,
         "position": [
           0,
           1.7,
@@ -466,7 +466,7 @@
         "return",
         "afterglow"
       ],
-      "wallSeconds": 249.2,
+      "wallSeconds": 240.5,
       "complete": {
         "stage": "afterglow",
         "routeIndex": 10,
@@ -474,13 +474,13 @@
         "paused": false,
         "paced": true,
         "reduced": false,
-        "elapsed": 0.8833000000000172,
-        "animTime": 216.38730000002263,
+        "elapsed": 0.8333000000000174,
+        "animTime": 215.11620000001625,
         "transition": false,
         "renderReady": true,
         "renderPending": true,
-        "renderedAnimTime": 216.38730000002263,
-        "frames": 785,
+        "renderedAnimTime": 215.08290000001622,
+        "frames": 1055,
         "position": [
           0,
           1.7,
@@ -537,6 +537,6 @@
       "unavailableWebGL": "visible fallback and working local evidence link"
     }
   },
-  "render_signature": "cd4a34529f369e05fe8406024e3a269f497408986a1c0c402c43e82f1f47feca",
+  "render_signature": "fe1a6b4308bc27c6beff4cd76a4fbc3b1aa6bf2dde31c8e991de9abb45989b0d",
   "passed": true
 }

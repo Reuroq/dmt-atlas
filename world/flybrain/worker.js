@@ -58,6 +58,7 @@ self.onmessage = function (ev) {
           const r = b.brain.readout();
           out[id] = {
             says: rung ? rung.says : null,
+            motion: rung ? rung.motion : null,
             rung: rung ? rung.rung : -1,
             cites: rung ? rung.cites : null,
             entity: b.spec.entity,

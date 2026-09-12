@@ -625,10 +625,34 @@ function animateBeings(t){for(const a of actors){const near=camera.position.dist
  // With the connectome driving, attention is how hard that individual's descending
  // population is firing, not a binary the click sets. A being that has not noticed you
  // yet stays still even if you clicked it.
- const attentive=fly?Math.min(1,fly.descendingRate/0.05):(a.engaged?1:0),w=Math.sin(t*.65+a.seed);
- a.body.position.y=w*(a.kind==='mother'?.035:.055);a.body.rotation.y=Math.max(-.35,Math.min(.35,Math.atan2(camera.position.x-a.g.position.x,camera.position.z-a.g.position.z)))*attentive;
- a.body.rotation.x=a.kind==='mantis'?.06+attentive*.08+Math.sin(t*.4)*.025:0;
- for(const j of a.joints){j.o.rotation.x=Math.sin(t*.8+a.seed+j.side)*.12-attentive*.13;j.o.rotation.z=j.side*(j.mother?-.12+w*.05:j.mantis?.04+w*.06:.08+w*.1);}
+ const attentive=fly?Math.min(1,fly.descendingRate/0.05):(a.engaged?1:0);
+ // A cited action has to reach the BODY. Before this it reached the caption and a seven-degree
+ // arm angle, and a.g.position was never written at all - so "crowd forward" could not crowd
+ // forward, and a controlled pixel test found the beings changing less than the empty room
+ // behind them. Each rung carries a pose derived from its own cited words; it is eased in so a
+ // rung change reads as a movement rather than a jump.
+ if(!a.home)a.home=a.g.position.clone();
+ if(!a.pose)a.pose={step:0,lift:0,lean:0,arms:0,spread:0,tempo:1};
+ const want=(fly&&fly.awake&&fly.motion)?fly.motion:{step:0,lift:0,lean:0,arms:0,spread:0,tempo:1};
+ const ease=.09;
+ a.pose.step+=(want.step-a.pose.step)*ease;a.pose.lift+=(want.lift-a.pose.lift)*ease;
+ a.pose.lean+=(want.lean-a.pose.lean)*ease;a.pose.arms+=(want.arms-a.pose.arms)*ease;
+ a.pose.spread+=(want.spread-a.pose.spread)*ease;a.pose.tempo+=(want.tempo-a.pose.tempo)*ease;
+ const P=a.pose,tempo=Math.max(.3,P.tempo),w=Math.sin(t*.65*tempo+a.seed);
+ if(fly){
+  // Step along the ground toward the traveller, never through them: a being that walked into
+  // the camera would read as a bug, not as contact.
+  const dx=camera.position.x-a.home.x,dz=camera.position.z-a.home.z;
+  const len=Math.max(.001,Math.hypot(dx,dz)),reach=Math.min(4.5,Math.max(0,len-2.4));
+  a.g.position.x=a.home.x+dx/len*reach*P.step;
+  a.g.position.z=a.home.z+dz/len*reach*P.step;
+  if(!camera.position.equals(drawnPosition)||Math.abs(P.step)>.002)drawInvalidated=true;
+ }
+ a.body.position.y=w*(a.kind==='mother'?.035:.055)+Math.abs(Math.sin(t*2.4*tempo+a.seed))*P.lift*1.05;
+ a.body.rotation.y=Math.max(-.35,Math.min(.35,Math.atan2(camera.position.x-a.g.position.x,camera.position.z-a.g.position.z)))*Math.max(attentive,Math.abs(P.step));
+ a.body.rotation.x=(a.kind==='mantis'?.06+attentive*.08+Math.sin(t*.4)*.025:0)+P.lean*.6;
+ for(const j of a.joints){j.o.rotation.x=Math.sin(t*.8*tempo+a.seed+j.side)*.12-attentive*.13-P.arms*.85;
+  j.o.rotation.z=j.side*((j.mother?-.12+w*.05:j.mantis?.04+w*.06:.08+w*.1)+P.spread*.55);}
  }}
 function updateUI(){
  const branch=!!branches[stage.id];$('step').textContent=branch?'AN OPTIONAL PATH':`${String(routeIndex+1).padStart(2,'0')} / ${route.length} · ${stage.id==='afterglow'?'RETURNED':'THE PASSAGE'}`;
@@ -784,6 +808,6 @@ function frame(now){
  }
  lastDrawFrozen=frozen;
 }
-window.journeyDiagnostics=()=>({stage:stage.id,routeIndex,entered,paused,paced,reduced,elapsed,animTime,transition:!!transition,renderReady,renderPending:drawInvalidated||!!renderFence,renderedAnimTime,frames,position:camera.position.toArray(),yaw,pitch,visited:[...visited],entities:[...entities],interactions:interactionCount,evidence:[...currentEvidence],missingEvidence:currentEvidence.filter(k=>!nodeMap.has(k)),sourceCount:currentEvidence.reduce((n,k)=>n+(nodeMap.get(k)?.sources?.length||0),0),portals:portals.map(p=>({...p})),detail:F.quality,pixelRatio:prNow,frameEma:Math.round(frameEma*10)/10,prCooldown:Math.round(prCooldown*100)/100,prBad:{...prBad},prMemo:{...prMemo},drawCalls:composite.calls,triangles:composite.triangles,geometries:renderer.info.memory.geometries,actors:actors.map(a=>{const p=a.g.localToWorld(new T.Vector3(0,a.kind==='mantis'?3:2,0)).project(camera);return {kind:a.kind,engaged:a.engaged,joints:a.joints.length,arm:a.joints[0]?.o.rotation.x,evidence:a.evidence,dist:Math.round(camera.position.distanceTo(a.g.position)*100)/100,screen:[(p.x+1)*innerWidth/2,(1-p.y)*innerHeight/2]};}),danglingMeshEvidence:(()=>{let n=0;root.traverse(o=>{const e=o.userData.evidence;if((o.isMesh||o.isPoints)&&e&&e.some(k=>!nodeMap.has(k)))n++;});return n;})(),genericMeshes:(()=>{let n=0;root.traverse(o=>{if((o.isMesh||o.isPoints)&&o.userData.evidence===currentEvidence)n++;});return n;})(),specificMeshes:(()=>{let n=0;root.traverse(o=>{const e=o.userData.evidence;if((o.isMesh||o.isPoints)&&e&&e!==currentEvidence)n++;});return n;})(),uncitedMeshes:(()=>{let n=0;root.traverse(o=>{if((o.isMesh||o.isPoints)&&!o.userData.evidence?.length)n++;});return n;})()});
+window.journeyDiagnostics=()=>({stage:stage.id,routeIndex,entered,paused,paced,reduced,elapsed,animTime,transition:!!transition,renderReady,renderPending:drawInvalidated||!!renderFence,renderedAnimTime,frames,position:camera.position.toArray(),yaw,pitch,visited:[...visited],entities:[...entities],interactions:interactionCount,evidence:[...currentEvidence],missingEvidence:currentEvidence.filter(k=>!nodeMap.has(k)),sourceCount:currentEvidence.reduce((n,k)=>n+(nodeMap.get(k)?.sources?.length||0),0),portals:portals.map(p=>({...p})),detail:F.quality,pixelRatio:prNow,frameEma:Math.round(frameEma*10)/10,prCooldown:Math.round(prCooldown*100)/100,prBad:{...prBad},prMemo:{...prMemo},drawCalls:composite.calls,triangles:composite.triangles,geometries:renderer.info.memory.geometries,actors:actors.map(a=>{const p=a.g.localToWorld(new T.Vector3(0,a.kind==='mantis'?3:2,0)).project(camera);return {kind:a.kind,engaged:a.engaged,joints:a.joints.length,arm:a.joints[0]?.o.rotation.x,evidence:a.evidence,dist:Math.round(camera.position.distanceTo(a.g.position)*100)/100,pose:{x:Math.round(a.g.position.x*1000)/1000,z:Math.round(a.g.position.z*1000)/1000,y:Math.round(a.body.position.y*1000)/1000,leanX:Math.round(a.body.rotation.x*1000)/1000,turnY:Math.round(a.body.rotation.y*1000)/1000,arm:Math.round((a.joints[0]?a.joints[0].o.rotation.x:0)*1000)/1000,spread:Math.round((a.joints[0]?a.joints[0].o.rotation.z:0)*1000)/1000},screen:[(p.x+1)*innerWidth/2,(1-p.y)*innerHeight/2]};}),danglingMeshEvidence:(()=>{let n=0;root.traverse(o=>{const e=o.userData.evidence;if((o.isMesh||o.isPoints)&&e&&e.some(k=>!nodeMap.has(k)))n++;});return n;})(),genericMeshes:(()=>{let n=0;root.traverse(o=>{if((o.isMesh||o.isPoints)&&o.userData.evidence===currentEvidence)n++;});return n;})(),specificMeshes:(()=>{let n=0;root.traverse(o=>{const e=o.userData.evidence;if((o.isMesh||o.isPoints)&&e&&e!==currentEvidence)n++;});return n;})(),uncitedMeshes:(()=>{let n=0;root.traverse(o=>{if((o.isMesh||o.isPoints)&&!o.userData.evidence?.length)n++;});return n;})()});
 changeStage(route[0]);updateUI();requestAnimationFrame(frame);
 })();

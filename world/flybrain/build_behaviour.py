@@ -85,6 +85,50 @@ def phrases(text):
     return out
 
 
+# A cited action has to become a POSE or the being does not perform it, it merely gets
+# captioned. These are the only channels a being actually has: where it stands, how high its
+# body rides, how far it leans, how far its arms lift and spread, and how fast it moves.
+#
+# The mapping is keyword-driven from the cited phrase itself, and every rung records which
+# keyword matched, so a reader can check that "crowd forward" became a step forward because of
+# the word "forward" and not because someone felt like it. Anything unmatched gets the neutral
+# escalation, which is honest: we do not know what that phrase looks like.
+MOTIONS = {
+    'approach': (['crowd', 'forward', 'toward', 'closer', 'gather', 'press', 'follow'],
+                 {'step': 1.0, 'lift': 0.0, 'lean': 0.35, 'arms': 0.30, 'spread': 0.2, 'tempo': 1.1}),
+    'leap':     (['leap', 'jump', 'spring', 'dart', 'bound', 'flit', 'in and out'],
+                 {'step': 0.35, 'lift': 1.0, 'lean': 0.1, 'arms': 0.55, 'spread': 0.7, 'tempo': 2.2}),
+    'enfold':   (['enfold', 'hold', 'caress', 'embrace', 'cradle', 'reassur', 'heal', 'soothe'],
+                 {'step': 0.45, 'lift': 0.15, 'lean': 0.45, 'arms': 0.85, 'spread': -0.6, 'tempo': 0.7}),
+    'present':  (['sing', 'flash', 'show', 'display', 'present', 'lift', 'conjur', 'offer',
+                  'urging', 'direct'],
+                 {'step': 0.1, 'lift': 0.35, 'lean': -0.15, 'arms': 1.0, 'spread': 0.9, 'tempo': 1.6}),
+    'loom':     (['operat', 'examin', 'surg', 'over you', 'peer', 'inspect', 'scan', 'harvest',
+                  'clinical', 'procedure'],
+                 {'step': 0.7, 'lift': -0.2, 'lean': 1.0, 'arms': 0.6, 'spread': -0.3, 'tempo': 0.8}),
+    'recede':   (['withdraw', 'recede', 'retreat', 'vanish', 'dissolve', 'release'],
+                 {'step': -0.8, 'lift': 0.0, 'lean': -0.4, 'arms': -0.3, 'spread': 0.3, 'tempo': 0.6}),
+    'play':     (['playful', 'mischie', 'perform', 'mock', 'tease', 'caper', 'trick', 'game'],
+                 {'step': 0.3, 'lift': 0.6, 'lean': 0.2, 'arms': 0.7, 'spread': 1.0, 'tempo': 2.0}),
+}
+
+
+def motion_for(says, index, total):
+    """Pick the pose a cited phrase implies, and say which word decided it."""
+    low = says.lower()
+    for name, (words, pose) in MOTIONS.items():
+        for w in words:
+            if w in low:
+                out = dict(pose)
+                out['name'] = name
+                out['matched'] = w
+                return out
+    # Unmatched: escalate neutrally with position on the ladder rather than invent a gesture.
+    f = (index + 1) / float(total)
+    return {'name': 'escalate', 'matched': None, 'step': 0.25 * f, 'lift': 0.2 * f,
+            'lean': 0.3 * f, 'arms': 0.8 * f, 'spread': 0.3 * f, 'tempo': 0.8 + 0.7 * f}
+
+
 def physiology(name):
     """A deterministic individual: same entity, same body, every time.
 
@@ -125,6 +169,7 @@ def main():
                 'says': says,
                 'from_field': 'behavior',
                 'cites': 'entity|' + name,
+                'motion': motion_for(says, i, len(pool)),
             })
         built[key] = {
             'being': key,

@@ -29,3 +29,4 @@ world/*.png
 !world/latest.png
 world/*.rgba
 world/flybrain/__pycache__/
+world/flybrain/pose-*.png
