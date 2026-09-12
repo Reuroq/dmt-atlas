@@ -361,13 +361,13 @@
         "paused": false,
         "paced": false,
         "reduced": false,
-        "elapsed": 0.09989999999999419,
-        "animTime": 111.94369999998929,
+        "elapsed": 0.11680000000001747,
+        "animTime": 109.387600000013,
         "transition": false,
         "renderReady": true,
         "renderPending": false,
-        "renderedAnimTime": 111.94369999998929,
-        "frames": 214,
+        "renderedAnimTime": 109.387600000013,
+        "frames": 211,
         "position": [
           0,
           1.7,
@@ -466,7 +466,7 @@
         "return",
         "afterglow"
       ],
-      "wallSeconds": 240.5,
+      "wallSeconds": 244.3,
       "complete": {
         "stage": "afterglow",
         "routeIndex": 10,
@@ -474,13 +474,13 @@
         "paused": false,
         "paced": true,
         "reduced": false,
-        "elapsed": 0.8333000000000174,
-        "animTime": 215.11620000001625,
+        "elapsed": 0.5832000000000118,
+        "animTime": 214.20450000002202,
         "transition": false,
         "renderReady": true,
         "renderPending": true,
-        "renderedAnimTime": 215.08290000001622,
-        "frames": 1055,
+        "renderedAnimTime": 214.20450000002202,
+        "frames": 1034,
         "position": [
           0,
           1.7,
@@ -537,6 +537,6 @@
       "unavailableWebGL": "visible fallback and working local evidence link"
     }
   },
-  "render_signature": "fe1a6b4308bc27c6beff4cd76a4fbc3b1aa6bf2dde31c8e991de9abb45989b0d",
+  "render_signature": "a58bc3a5046321f38cb6beda72649b2ee0a04730d44c9afeeda11fbeadb422b8",
   "passed": true
 }

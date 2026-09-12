@@ -40,7 +40,13 @@ renderer.setPixelRatio(Math.min(devicePixelRatio,F.quality==='high'?1.5:1)); ren
 let prTarget=Math.min(devicePixelRatio,F.quality==='high'?1.5:1),prNow=prTarget,frameEma=16,prCooldown=0;const prMemo={},prBad={};
 function setPR(v){prNow=v;renderer.setPixelRatio(v);renderer.setSize(innerWidth,innerHeight);if(typeof composite!=='undefined')composite.resize();drawInvalidated=true;}
 renderer.outputColorSpace=T.SRGBColorSpace; renderer.toneMapping=T.ACESFilmicToneMapping; renderer.toneMappingExposure=1.2;
-const scene=new T.Scene(), camera=new T.PerspectiveCamera(68,innerWidth/innerHeight,.06,180);
+// Far plane 300, not 180. The raymarched enclosures are boxes of up to 240 units drawn from
+// the INSIDE, so their far corners sit 208 units from the box centre and 220.3 from a camera
+// standing 19 units off it at the cathedral. Anything past the far plane is clipped
+// mid-triangle and you see the clear colour through the cut - a hard-edged black triangle that
+// appears and vanishes as you turn. The workshop's 200-unit shell crossed it too, at 185.8.
+// Largest measured requirement is 220.3; 300 leaves room for the other stages' entry offsets.
+const scene=new T.Scene(), camera=new T.PerspectiveCamera(68,innerWidth/innerHeight,.06,300);
 const composite=F.compositor(renderer);
 let drawInvalidated=true,lastDrawFrozen=false;
 const drawnPosition=new T.Vector3(),drawnRotation=new T.Quaternion();let drawnInteractions=-1;
@@ -808,6 +814,47 @@ function frame(now){
  }
  lastDrawFrozen=frozen;
 }
+// Diagnostic aim, the write-side companion to journeyDiagnostics. sweep_test.py turns the
+// camera through a full circle at every stage to catch geometry that only breaks at certain
+// angles - the kind of bug a suite that always looks forward can never see. It sets the same
+// two values a drag sets and nothing else, so it cannot put the scene in a state a visitor
+// could not reach by looking around.
+// The scene and camera themselves, for clip_test.py. Asking the scene graph whether any
+// geometry crosses a clip plane is exact; trying to infer the same thing from screenshots
+// failed five times, because a hole in the geometry and sky seen through a gap in foliage
+// are the same pixels.
+window.__scene=scene;window.__camera=camera;
+window.__setView=(y,p)=>{yaw=y;pitch=Math.max(-1.25,Math.min(1.25,p));camera.rotation.set(pitch,yaw,0);drawInvalidated=true;};
 window.journeyDiagnostics=()=>({stage:stage.id,routeIndex,entered,paused,paced,reduced,elapsed,animTime,transition:!!transition,renderReady,renderPending:drawInvalidated||!!renderFence,renderedAnimTime,frames,position:camera.position.toArray(),yaw,pitch,visited:[...visited],entities:[...entities],interactions:interactionCount,evidence:[...currentEvidence],missingEvidence:currentEvidence.filter(k=>!nodeMap.has(k)),sourceCount:currentEvidence.reduce((n,k)=>n+(nodeMap.get(k)?.sources?.length||0),0),portals:portals.map(p=>({...p})),detail:F.quality,pixelRatio:prNow,frameEma:Math.round(frameEma*10)/10,prCooldown:Math.round(prCooldown*100)/100,prBad:{...prBad},prMemo:{...prMemo},drawCalls:composite.calls,triangles:composite.triangles,geometries:renderer.info.memory.geometries,actors:actors.map(a=>{const p=a.g.localToWorld(new T.Vector3(0,a.kind==='mantis'?3:2,0)).project(camera);return {kind:a.kind,engaged:a.engaged,joints:a.joints.length,arm:a.joints[0]?.o.rotation.x,evidence:a.evidence,dist:Math.round(camera.position.distanceTo(a.g.position)*100)/100,pose:{x:Math.round(a.g.position.x*1000)/1000,z:Math.round(a.g.position.z*1000)/1000,y:Math.round(a.body.position.y*1000)/1000,leanX:Math.round(a.body.rotation.x*1000)/1000,turnY:Math.round(a.body.rotation.y*1000)/1000,arm:Math.round((a.joints[0]?a.joints[0].o.rotation.x:0)*1000)/1000,spread:Math.round((a.joints[0]?a.joints[0].o.rotation.z:0)*1000)/1000},screen:[(p.x+1)*innerWidth/2,(1-p.y)*innerHeight/2]};}),danglingMeshEvidence:(()=>{let n=0;root.traverse(o=>{const e=o.userData.evidence;if((o.isMesh||o.isPoints)&&e&&e.some(k=>!nodeMap.has(k)))n++;});return n;})(),genericMeshes:(()=>{let n=0;root.traverse(o=>{if((o.isMesh||o.isPoints)&&o.userData.evidence===currentEvidence)n++;});return n;})(),specificMeshes:(()=>{let n=0;root.traverse(o=>{const e=o.userData.evidence;if((o.isMesh||o.isPoints)&&e&&e!==currentEvidence)n++;});return n;})(),uncitedMeshes:(()=>{let n=0;root.traverse(o=>{if((o.isMesh||o.isPoints)&&!o.userData.evidence?.length)n++;});return n;})()});
 changeStage(route[0]);updateUI();requestAnimationFrame(frame);
+// ---- deep link -------------------------------------------------------------------------
+// ?to=<stage>&fly=1&close=1 - skip the walk, not the content. Every stage reachable this way
+// is reachable by walking; this only removes the walking. With no parameters nothing below
+// runs, so the acceptance suite still drives the real route through the real controls.
+(function __deeplink(){
+ const q=new URLSearchParams(location.search),to=q.get('to');
+ if(!to)return;
+ const isBranch=!!branches[to],target=isBranch?'cathedral':to;
+ if(!isBranch&&!route.some(s=>s.id===to))return;
+ const step=()=>{
+  if(!renderReady)return requestAnimationFrame(step);
+  if(!entered){paced=false;begin();return requestAnimationFrame(step);}
+  if(transition)return requestAnimationFrame(step);
+  if(stage.id!==target&&!isBranch){onward();return requestAnimationFrame(step);}
+  if(stage.id!==target&&isBranch&&stage.id!=='cathedral'){onward();return requestAnimationFrame(step);}
+  if(isBranch&&stage.id==='cathedral'){go(branches[to]);return requestAnimationFrame(step);}
+  // Arrived. Stand closer so the beings are already inside their own response range - the
+  // connectome does nothing at 15 units and that reads as nothing happening.
+  if(q.get('close')==='1'&&actors.length){
+   const a=actors[0],dx=a.g.position.x-camera.position.x,dz=a.g.position.z-camera.position.z;
+   const d=Math.max(.001,Math.hypot(dx,dz)),want=Math.max(0,d-7);
+   camera.position.x+=dx/d*want;camera.position.z+=dz/d*want;drawInvalidated=true;
+  }
+  if(q.get('fly')==='1'&&window.FlyBrain&&FlyBrain.available()&&!flyOn&&!flyLoading){
+   const b=$('flybrain');if(b)b.click();
+  }
+ };
+ requestAnimationFrame(step);
+})();
+
 })();
