@@ -56,15 +56,15 @@
   <!-- Intro splash: the chrysanthemum gateway -->
   <div id="intro">
     <div class="intro-glow" aria-hidden="true"></div>
-    <img id="introFlower" src="assets/img/chrysanthemum.jpg" width="1024" height="1024" decoding="async" alt="" aria-hidden="true" />
+    <img id="introFlower" src="assets/img/chrysanthemum-512.jpg" srcset="assets/img/chrysanthemum-512.jpg 512w, assets/img/chrysanthemum-768.jpg 768w, assets/img/chrysanthemum.jpg 1024w" sizes="(max-width:864px) 88vmin, 760px" width="1024" height="1024" decoding="async" alt="" aria-hidden="true" />
     <div class="intro-content">
       <p class="intro-kicker">✦ &nbsp;Enter the chrysanthemum&nbsp; ✦</p>
       <h2 class="intro-title">The DMT Atlas</h2>
-      <p class="intro-tag">One interactive map of everything people report from the DMT state — 40 recurring entities, 31 realms, the geometry, and the full journey arc, every entry cited to who reported it.</p>
-      <button id="enterBtn" class="enter">Start exploring — descend into the Atlas</button>
+      <p class="intro-tag">An interactive map of what people report from the DMT state — 40 entities, 31 realms, the geometry and the full journey arc, each cited to who reported it.</p>
+      <button id="enterBtn" class="enter">Start exploring the Atlas →</button>
+      <p class="intro-stats" id="introStats"></p>
       <p class="intro-links"><a href="entities/">Browse the 40 entities</a> &nbsp;·&nbsp; <a href="identify.html">What did <em>you</em> meet?</a> &nbsp;·&nbsp; <a href="questions.html">Questions</a> &nbsp;·&nbsp; <a href="grounding.html">After the experience</a></p>
       <p class="intro-note">A map of what people <em>report</em> — every entry cited. Not a claim it is a literal place or beings, and not a guide to making or taking anything.</p>
-      <p class="intro-stats" id="introStats"></p>
     </div>
   </div>
 
@@ -112,6 +112,6 @@
     <p class="muted">Educational only. Every entry traces to the written sources catalogued in the library; convergence across independent reports is striking but is not proof of anything external.</p>
   </section>
 
-  <script src="app.js?v=2"></script>
+  <script defer src="app.js?v=2"></script>
 </body>
 </html>

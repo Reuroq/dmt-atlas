@@ -18,6 +18,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-BKTCYLB89C"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-BKTCYLB89C');</script>
   <link rel="stylesheet" href="trip.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do I need to have taken anything to walk this?","acceptedAnswer":{"@type":"Answer","text":"No. Through runs in the browser, needs no substance, and is not a guide to obtaining, making or taking one. It is a reading of the written record — a synthesis of how people describe the experience, not an instruction, an inducement, or a prediction of anyone's experience."}},{"@type":"Question","name":"Is this what DMT actually looks like?","acceptedAnswer":{"@type":"Answer","text":"No, and the project's own audit says so. Through is graded against a single question — would someone who has had this experience recognise it, or does it read as a game? — against a 0.8 threshold. It does not currently pass: of nineteen inspection targets, the one carrying a live grade (the chrysanthemum) reads GAME rather than RECOGNISE, and the other eighteen are awaiting fresh inspection."}},{"@type":"Question","name":"Is it safe to watch if I am photosensitive?","acceptedAnswer":{"@type":"Answer","text":"There is flashing light and sustained motion. Switching on Reduced motion before you begin holds every scene still, and Detail can be lowered separately. If you are photosensitive or prone to seizures, use Reduced motion or do not begin."}},{"@type":"Question","name":"Are the machine elves the main thing people meet?","acceptedAnswer":{"@type":"Answer","text":"No. They are the iconic image but a minority percept — roughly 2.9% of one report set, and about 10% by one researcher's estimate. The single most-reported figure is a feminine or maternal presence, at roughly 24%, which is why the walkthrough gives it a scene of its own."}},{"@type":"Question","name":"What if the walkthrough lands hard?","acceptedAnswer":{"@type":"Answer","text":"Support is free and confidential: Fireside Project on 623-473-7433, the 988 Lifeline in the US, and Find A Helpline for 175+ other countries. The Atlas also publishes plain-language, non-medical grounding guidance for after an experience."}}]}</script>
 </head>
 <body>
   <canvas id="world" aria-label="First-person journey. Drag to look; use WASD or arrow keys to walk." tabindex="0"></canvas>
@@ -29,7 +30,7 @@
     <p>Geometry becomes a place. Beyond it,<br>rooms, presences, and a way back.</p>
     <p class="advisory" role="note"><strong>Flashing light and sustained motion.</strong> If you are photosensitive or prone to seizures, switch on <strong>Reduced motion</strong> below before you begin — it holds every scene still.</p><button id="begin" class="primary">Begin the journey <span>↗</span></button>
     <label class="check"><input id="autoStart" type="checkbox" checked> Carry me through · about four minutes</label>
-    <p class="small">Synthesised from cited descriptions, not a witness image<br>or a prediction of anyone’s experience. No substance needed.<br><a href="/">Back to the cited atlas ↗</a></p><p class="support">Support, free and confidential: <a href="https://firesideproject.org/" target="_blank" rel="noopener noreferrer">Fireside Project</a> 623-473-7433 · <a href="https://988lifeline.org/" target="_blank" rel="noopener noreferrer">988</a> (US) · <a href="https://findahelpline.com/" target="_blank" rel="noopener noreferrer">Find A Helpline</a> (175+ countries).</p>
+    <p class="small">Synthesised from cited descriptions, not a witness image<br>or a prediction of anyone’s experience. No substance needed.<br><a href="/">Back to the cited atlas ↗</a> · <a href="#primer">What this is built from →</a></p><p class="support">Support, free and confidential: <a href="https://firesideproject.org/" target="_blank" rel="noopener noreferrer">Fireside Project</a> 623-473-7433 · <a href="https://988lifeline.org/" target="_blank" rel="noopener noreferrer">988</a> (US) · <a href="https://findahelpline.com/" target="_blank" rel="noopener noreferrer">Find A Helpline</a> (175+ countries).</p>
   </main>
   <section id="hud" hidden aria-label="Journey controls">
     <div class="scene-copy"><span id="step" class="eyebrow"></span><h2 id="sceneName" aria-live="polite"></h2><p id="sceneHint"></p></div>
@@ -41,6 +42,63 @@
   <footer><button id="motion" aria-pressed="false">Reduced motion: off</button><button id="detail" aria-pressed="true">Detail: high</button><button id="flybrain" aria-pressed="false" hidden>Fly-brain beings: off</button><button id="restart" hidden>Start again</button><span id="stateText" role="status"></span></footer>
   <dialog id="evidence" aria-labelledby="evidenceTitle"><div class="drawer-top"><span class="eyebrow">THE EVIDENCE TRAIL</span><button id="closeEvidence" aria-label="Close sources">Close ×</button></div><h2 id="evidenceTitle">Behind this scene</h2><p class="notice">A synthesis of reported phenomenology, not a claim of literal places or beings. The route, scale, colours, architecture, ordinary room and character designs are editorial choices. Encounters and their order vary; this is not a frequency-weighted simulation.</p><div id="evidenceContent"></div><p class="notice">Corpus connections are adjacent tag mentions in narratives, not verified travel chronology. Vocabulary matches may be metaphorical or negated; archive counts are not population prevalence. Candidate depiction links are not verified witness images and may include AI-generated work.</p><a href="evidence.html">Open the complete evidence atlas ↗</a><p class="support">If any of this is landing hard, support is free and confidential — <a href="https://firesideproject.org/" target="_blank" rel="noopener noreferrer">Fireside Project</a>, call or text 623-473-7433 · <a href="https://988lifeline.org/" target="_blank" rel="noopener noreferrer">988 Lifeline</a>, call or text 988 in the US · <a href="https://findahelpline.com/" target="_blank" rel="noopener noreferrer">Find A Helpline</a> for 175+ other countries.</p></dialog>
   <div id="failure" hidden><h1>The 3D view is unavailable.</h1><p>This browser could not start WebGL. The complete cited evidence is still available.</p><a href="evidence.html">Open the evidence atlas</a> · <a href="/">The DMT Atlas</a></div>
+  <section id="primer" aria-label="About this walkthrough"><div class="primer-inner">
+    <a class="primer-close" href="#welcome">Close ×</a>
+    <span class="eyebrow">ABOUT THIS WALKTHROUGH</span>
+    <h2>What “Through” is, and what it is not</h2>
+    <p><strong>Through</strong> is a procedural, first-person interpretation of the reported DMT journey. It is not a recording, not a reconstruction, and not a prediction of anyone’s experience — nothing in it is a witness image. Each scene is a designer’s reading of recurring language in the corpus behind <a href="/">The DMT Atlas</a>: 103 cited sources and 14,309 tagged reports, indexed across 172 mapped nodes — 40 entities, 44 themes, 31 realms, 24 geometries, 22 motifs and 11 phases. The route, scale, colour, architecture, ordinary room and character designs are all editorial choices. The evidence is what is cited; the picture is an interpretation.</p>
+
+    <h3>The route: eleven scenes, about four minutes</h3>
+    <p>The paced journey follows a fixed route. Ten scenes are timed and total 221 seconds — about three minutes forty — and the closing scene is left open, which is where the “about four minutes” comes from. Turning off <em>Carry me through</em> lets you walk the same route at your own pace.</p>
+    <ol class="primer-route">
+      <li><strong>The familiar room</strong> — Inhalation / Onset · 18s</li>
+      <li><strong>The room falls away</strong> — Inhalation / Onset · 18s</li>
+      <li><strong>The chrysanthemum</strong> — The Chrysanthemum · 22s</li>
+      <li><strong>The rush</strong> — The Rush · 16s</li>
+      <li><strong>The threshold</strong> — Through the Membrane · 17s</li>
+      <li><strong>The waiting room</strong> — Arrival · 26s</li>
+      <li><strong>Under an impossible dome</strong> — Breakthrough · 32s</li>
+      <li><strong>They seem to be expecting you</strong> — Entity Contact · 27s</li>
+      <li><strong>A language made visible</strong> — The Download / Lesson · 25s</li>
+      <li><strong>The way back</strong> — The Return · 20s</li>
+      <li><strong>Here, again</strong> — Afterglow / Integration · open</li>
+    </ol>
+    <p>Those durations are editorial reading and exploration time. They are <em>not</em> corpus-derived timings for the experience itself, and free exploration, pauses and the accessibility modes all change them.</p>
+
+    <h3>The four optional paths</h3>
+    <p>From under the dome you can leave the main route for one of four side spaces instead of continuing through the central arch. The <strong>Workshop</strong> holds jewelled makers — the phenotype the corpus tags as <em>elf</em>, which it also associates with the cathedral, contact and download stages. The <strong>Garden</strong> holds a maternal presence, the single most-reported figure in the literature. The <strong>Clinical room</strong> holds a tall insectoid or mantis presence. The <strong>Void</strong> has no required encounter at all: architecture simply gives way to near-darkness. Encounters and their order vary between accounts, and this is not a frequency-weighted simulation — choosing a path is not evidence that the path is common.</p>
+
+    <h3>How often is any of this actually reported?</h3>
+    <p>Most per-scene numbers in this project are <em>lexical candidate matches</em> — reports whose text matches a stage’s vocabulary — not verified prevalence, and vocabulary matches can be metaphorical or negated. On that basis contact draws 5,225 candidate reports, onset 3,622, the return 2,895, the download 2,848, the membrane 2,779, geometry 2,634, the rush 2,097, the afterglow 1,653, the waiting room 1,600, the void 697 and the cathedral 395. Only three scenes rest on a hand-validated sample: the chrysanthemum (50 reports), the workshop (28) and the garden (4). Archive counts are not population prevalence.</p>
+    <p>Where real frequencies exist they come from named studies, and they cut against the popular image. “Machine elves” are iconic but a minority percept — roughly 2.9% of one report set, about 10% by one researcher’s estimate — while a feminine or maternal presence is the most-reported figure at roughly 24%. Encounters skew benevolent at about 78%, but a menacing minority persists: around 8% are described as malicious and 41% of people report fear at some point. And “more real than real”, the phrase everyone quotes, appears in those exact words in only about 0.6% of the 3,778 accounts analysed by <a href="https://www.nature.com/articles/s41598-022-11999-8" target="_blank" rel="noopener noreferrer">Lawrence et al., <em>Scientific Reports</em> (2022)</a>. The feeling is pervasive; the literal phrase is rare. See also <a href="https://pubmed.ncbi.nlm.nih.gov/32345112/" target="_blank" rel="noopener noreferrer">Davis et al. (Johns Hopkins, 2020)</a> on entity-encounter phenomenology and <a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01424/full" target="_blank" rel="noopener noreferrer">Timmermann et al. (2018)</a> on the near-death overlap.</p>
+
+    <h3>Where this walkthrough knowingly departs from the Atlas</h3>
+    <ul>
+      <li>The waiting room is placed <em>before</em> the breakthrough, inverting the Atlas’s own phase order. It is kept that way because it works as the exploration hub, not because accounts follow it.</li>
+      <li>Geometry gets its own scene, although it subdivides onset rather than being a distinct measured phase.</li>
+      <li>The peak is optional — reachable as the Void — rather than a required throne encounter.</li>
+      <li>Optional realms return to the dome for navigation. That is a convenience, not evidence of a loop in the reports.</li>
+      <li>Corpus connections behind the scenes are adjacent tag mentions in narratives, not verified travel chronology.</li>
+    </ul>
+
+    <h3>Its own realism audit does not pass</h3>
+    <p>The project grades itself against one question: <em>would someone who has had this experience recognise this, or does it read as a game?</em> The threshold is 0.8 and the suite does not currently pass. Of nineteen inspection targets, eighteen are pending fresh review and the one carrying a live grade — the chrysanthemum — reads GAME rather than RECOGNISE. That is adversarial visual judgement of a procedural interpretation, not witness validation, and the failing verdict is published rather than hidden. Treat the picture as a sketch under revision.</p>
+
+    <h2>Frequently asked</h2>
+    <h3>Do I need to have taken anything to walk this?</h3>
+    <p>No. Through runs in the browser, needs no substance, and is not a guide to obtaining, making or taking one.</p>
+    <h3>Is this what DMT actually looks like?</h3>
+    <p>No — see the realism audit above. The honest answer is that one graded scene currently reads as a game and the rest are awaiting inspection.</p>
+    <h3>Is it safe to watch if I am photosensitive?</h3>
+    <p>There is flashing light and sustained motion. <strong>Reduced motion</strong> holds every scene still and <strong>Detail</strong> can be lowered separately; both sit in the footer. If you are photosensitive or prone to seizures, switch on Reduced motion before you begin, or do not begin.</p>
+    <h3>Are the machine elves the main thing people meet?</h3>
+    <p>No. They are a minority percept at roughly 2.9% of one report set; the most-reported figure is a feminine or maternal presence at roughly 24%, which is why the Garden exists as a path.</p>
+    <h3>What if the walkthrough lands hard?</h3>
+    <p>Support is free and confidential — <a href="https://firesideproject.org/" target="_blank" rel="noopener noreferrer">Fireside Project</a> on 623-473-7433, <a href="https://988lifeline.org/" target="_blank" rel="noopener noreferrer">988</a> in the US, and <a href="https://findahelpline.com/" target="_blank" rel="noopener noreferrer">Find A Helpline</a> for 175+ other countries. The Atlas also publishes <a href="/grounding.html">grounding guidance for after an experience</a>.</p>
+
+    <p class="primer-cta"><a href="#welcome" onclick="document.getElementById('begin').click();">Start the journey — walk it now ✦</a></p>
+    <p class="small">Read the cited material instead: <a href="/entities/">the 40 entities</a> · <a href="/realms/">the 31 realms</a> · <a href="/geometry/">the geometry</a> · <a href="/journey.html">the journey arc</a> · <a href="/evidence.html">every quantitative claim</a> · <a href="/library.html">the 103 sources</a> · <a href="/questions.html">questions from hyperspace</a> · <a href="evidence.html">this walkthrough’s evidence trail</a></p>
+  </div></section>
   <link rel="stylesheet" href="fidelity.css">
   <script src="vendor/three.min.js"></script><script src="data.js"></script><script src="fidelity-data.js"></script><script src="fidelity-ui.js"></script><script src="fractal.js"></script><script src="continuum.js"></script><script src="beings.js"></script><script src="flybrain/bridge.js"></script><script src="trip.js"></script>
 </body>
