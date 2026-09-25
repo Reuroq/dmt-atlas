@@ -1003,6 +1003,62 @@ journey as a place you move through, synthesised from cited descriptions.</p><di
 <h3>What did I meet?</h3><p>Describe your encounter and mirror it to the archetypes others most commonly report — with how often, and who documented it.</p><div class="meta"><span class="count-pill">encounter matcher</span></div></a><a class="card" style="--card-accent:var(--c-realm)" href="/grounding.html">
 <h3>After the experience</h3><p>If a trip left you shaken or changed — what's commonly reported, and real peer-support and crisis resources.</p><div class="meta"><span class="count-pill">support &amp; resources</span></div></a></div>
 </section>
+<!-- Deep entry points. Measured 2026-08-02: 109 of ~190 live AI-agent fetches
+     landed on "/" and stopped, because the homepage only linked to section
+     hubs — nothing an answer engine could cite. These are the specific pages
+     AI agents and searchers actually reached for. -->
+<section class="home-section section-cards" id="most-asked">
+  <h2>Most asked</h2>
+  <p class="sub">The entries people and answer engines reach for most — each one cited to who reported it.</p>
+  <div class="deep-links">
+    <div class="deep-col">
+      <h3>Beings people describe</h3>
+      <ul>
+        <li><a href="/entities/self-transforming-machine-elves.html">Self-transforming machine elves</a> <span>the iconic one — and a minority percept</span></li>
+        <li><a href="/entities/the-divine-feminine.html">The Divine Feminine</a> <span>the most-reported figure, ~24%</span></li>
+        <li><a href="/entities/mantis-insectoid-beings.html">Mantis &amp; insectoid beings</a> <span>the clinician-experimenter</span></li>
+        <li><a href="/entities/the-jester-trickster-clown.html">The Jester / Trickster / Clown</a> <span>playful or menacing</span></li>
+        <li><a href="/entities/alien-grey-forms.html">Alien &amp; &lsquo;Grey&rsquo; forms</a> <span>a culturally imported label</span></li>
+        <li><a href="/entities/deities-god-like-presences.html">Deities &amp; god-like presences</a> <span>~17% of reported entities</span></li>
+      </ul>
+    </div>
+    <div class="deep-col">
+      <h3>What the space looks like</h3>
+      <ul>
+        <li><a href="/geometry/the-chrysanthemum.html">The Chrysanthemum</a> <span>the threshold pattern</span></li>
+        <li><a href="/geometry/the-carrier-wave.html">The Carrier Wave</a> <span>the sense of being carried</span></li>
+        <li><a href="/geometry/living-language-visible-sound.html">Living language / visible sound</a> <span>seen speech</span></li>
+        <li><a href="/realms/the-library-hall-of-records.html">The Library / Hall of Records</a> <span>the archive realm</span></li>
+        <li><a href="/identify.html">What did I meet?</a> <span>mirror your encounter to the archetypes</span></li>
+        <li><a href="/questions.html">Are the entities real?</a> <span>the honest answer: unresolved</span></li>
+      </ul>
+    </div>
+    <div class="deep-col">
+      <h3>The scientific record</h3>
+      <ul>
+        <li><a href="/research/studies.html">2,857 peer-reviewed studies</a> <span>1931–present, each linked to its DOI</span></li>
+        <li><a href="/research/trials.html">52 registered clinical trials</a> <span>plus 164 preprints</span></li>
+        <li><a href="/research/patents.html">26 verified patents</a> <span>who is trying to own the periphery</span></li>
+        <li><a href="/research/history.html">20 cited milestones, 1851–2023</a> <span>myths labeled by evidentiary status</span></li>
+        <li><a href="/evidence.html">Every number, with its study</a> <span>the evidence spine</span></li>
+        <li><a href="/library.html">All 103 sources</a> <span>and what weight each carries</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section class="home-section" id="faq">
+  <h2>Frequently asked</h2>
+  <p class="sub">The questions people actually arrive with — answered from the sources, and left open where the
+  evidence genuinely does not settle them.</p>
+  <div class="faq">
+<details><summary>Are the entities people meet on DMT real?</summary><p>The Atlas takes no verdict, because the evidence does not support one. What is documented is the convergence: across 3,778 written reports analysed in <a href="https://www.nature.com/articles/s41598-022-11999-8" target="_blank" rel="noopener">Lawrence et al. 2022</a> (<em>Scientific Reports</em>), 45.5% described meeting an entity — and strangers who have never met describe the same recurring figures. Two honest readings compete: that shared brain architecture and cultural templates produce shared imagery, or that people are describing a shared “space”. The convergence is real and documented; it does not, by itself, settle which reading is true. <a href="/questions.html">Questions from hyperspace</a> lays out each position, cited.</p></details>
+<details><summary>Which beings are most commonly reported?</summary><p>Not the machine elves — this is the Atlas’s most-corrected assumption. In <a href="https://www.nature.com/articles/s41598-022-11999-8" target="_blank" rel="noopener">Lawrence et al. 2022</a> the leading phenotype is <a href="/entities/the-divine-feminine.html">a feminine or Goddess-like presence</a> at 24.2% of the 1,719 entity encounters, ahead of <a href="/entities/deities-god-like-presences.html">deities</a> (17.0%) and <a href="/entities/alien-grey-forms.html">aliens</a> (16.3%); <a href="/entities/self-transforming-machine-elves.html">machine elves</a> sit inside an 8.4% “mythological beings” category. On the realm side, the reported places are catalogued as <a href="/realms/">31 realms</a> — among them <a href="/realms/the-waiting-room.html">the waiting room</a>, <a href="/realms/geometric-palaces-the-lattice.html">the lattice</a> and <a href="/realms/the-void.html">the void</a>. <a href="/prevalence.html">The full ranking →</a></p></details>
+<details><summary>Is a DMT breakthrough like a near-death experience?</summary><p>Partly — and the overlap has been measured, not just felt. In a placebo-controlled study, DMT reproduced much of the classic near-death profile on the Greyson NDE scale, with 15 of 16 items scoring higher under DMT than placebo: <a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01424/full" target="_blank" rel="noopener">Timmermann et al., “DMT Models the Near-Death Experience,” <em>Frontiers in Psychology</em> (2018)</a>. But “models” is not “proves” — the signature NDE elements, the life review and meeting deceased loved ones, are comparatively rare in DMT reports, and the study was small (n=13 per group).</p></details>
+<details><summary>What happens during a breakthrough, and in what order?</summary><p>The reports converge on an arc of eleven commonly-described stages: inhalation and onset, the <a href="/geometry/the-chrysanthemum.html">chrysanthemum</a>, the rush, passing the <a href="/realms/the-membrane-veil.html">membrane</a>, breakthrough, arrival, entity contact, <a href="/motifs/the-download-compressed-information-transfer.html">the download</a>, the peak, <a href="/motifs/the-send-back-it-s-not-your-time.html">the send-back</a>, and the afterglow. It is a common scaffold, not a law — many accounts skip, loop, or reorder stages, and the waiting-room-versus-breakthrough line is largely dose-driven. <a href="/journey.html">The journey, stage by stage →</a> or <a href="/world/">walk through it in 3D</a>.</p></details>
+<details><summary>An experience left me shaken — where should I start?</summary><p><a href="/grounding.html">After the experience</a> collects what is commonly reported during a difficult re-entry, plus real peer-support and crisis resources: Fireside Project (62-FIRESIDE), the 988 Suicide &amp; Crisis Lifeline, and Crisis Text Line. It is plain-language and non-medical. If you are trying to work out what you encountered, <a href="/identify.html">What did I meet?</a> mirrors a description against the archetypes others most commonly report. Difficult encounters are documented, not fringe: in <a href="https://pubmed.ncbi.nlm.nih.gov/32345112/" target="_blank" rel="noopener">Davis et al.’s 2020 Johns Hopkins survey</a> of 2,561 people, ~78% rated the entity benevolent — yet 41% still felt fear at some point.</p></details>
+<details><summary>Where do the Atlas’s numbers come from?</summary><p>From 103 written sources, tiered by weight: peer-reviewed surveys and corpus studies — <a href="https://pubmed.ncbi.nlm.nih.gov/32345112/" target="_blank" rel="noopener">Davis 2020</a>, <a href="https://www.nature.com/articles/s41598-022-11999-8" target="_blank" rel="noopener">Lawrence 2022</a>, Michael 2021, <a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01424/full" target="_blank" rel="noopener">Timmermann 2018</a> — carry the most weight, then clinical narrative (Strassman) and cross-substance scholarship (Shanon), then community archives. Every quantitative claim is listed with its study on <a href="/evidence.html">the evidence page</a>, every work in <a href="/library.html">the library</a>, and the wider scientific record in <a href="/research/">the research layer</a>. No figure appears here without a named study behind it.</p></details>
+  </div>
+</section>
 <section class="charter"><div class="charter-card">
   <h2>What this is — and what it isn't</h2>
   <p>{esc(META.get('charter', ''))}</p>
@@ -1012,12 +1068,28 @@ journey as a place you move through, synthesised from cited descriptions.</p><di
 <script>/* legacy deep links (#entity:x, #about) belong to the explorer */
 if(location.hash && /^#(entity|realm|geometry|theme|phase|source|about)/.test(location.hash))
   location.replace('/explore.html'+location.hash);</script>"""
+    # Homepage FAQ — mirrors the #faq section in the body above; keep the two in sync.
+    home_faq_qas = [
+        ('Are the entities people meet on DMT real?',
+         "The DMT Atlas takes no verdict, because the evidence does not support one. What is documented is the convergence: across 3,778 written reports analysed in Lawrence et al. 2022 (Scientific Reports), 45.5% described meeting an entity, and strangers who have never met describe the same recurring figures. Two honest readings compete: that shared brain architecture and cultural templates produce shared imagery, or that people are describing a shared 'space'. The convergence is real and documented; it does not, by itself, settle which reading is true."),
+        ('Which DMT entities are most commonly reported?',
+         "Not the machine elves. In Lawrence et al. 2022 the leading phenotype is a feminine or Goddess-like presence at 24.2% of the 1,719 entity encounters, ahead of deities (17.0%) and aliens (16.3%); machine elves sit inside an 8.4% 'mythological beings' category. On the realm side, the reported places are catalogued as 31 realms, among them the waiting room, the lattice and the void."),
+        ('Is a DMT breakthrough like a near-death experience?',
+         "Partly, and the overlap has been measured. In a placebo-controlled study, DMT reproduced much of the classic near-death profile on the Greyson NDE scale, with 15 of 16 items scoring higher under DMT than placebo (Timmermann et al., 'DMT Models the Near-Death Experience', Frontiers in Psychology, 2018). But 'models' is not 'proves' - the signature NDE elements, the life review and meeting deceased loved ones, are comparatively rare in DMT reports, and the study was small (n=13 per group)."),
+        ('What happens during a DMT breakthrough, and in what order?',
+         'The reports converge on an arc of eleven commonly-described stages: inhalation and onset, the chrysanthemum, the rush, passing the membrane, breakthrough, arrival, entity contact, the download, the peak, the send-back, and the afterglow. It is a common scaffold, not a law - many accounts skip, loop, or reorder stages, and the waiting-room-versus-breakthrough line is largely dose-driven.'),
+        ('An experience left me shaken - where should I start?',
+         "The Atlas's After the experience page collects what is commonly reported during a difficult re-entry, plus real peer-support and crisis resources: Fireside Project (62-FIRESIDE), the 988 Suicide & Crisis Lifeline, and Crisis Text Line. It is plain-language and non-medical. The What did I meet? tool mirrors a description against the archetypes others most commonly report. Difficult encounters are documented, not fringe: in Davis et al.'s 2020 Johns Hopkins survey of 2,561 people, about 78% rated the entity benevolent, yet 41% still felt fear at some point."),
+        ("Where do the DMT Atlas's numbers come from?",
+         'From 103 written sources, tiered by weight: peer-reviewed surveys and corpus studies (Davis 2020, Lawrence 2022, Michael 2021, Timmermann 2018) carry the most weight, then clinical narrative (Strassman) and cross-substance scholarship (Shanon), then community archives. Every quantitative claim is listed with its study on the evidence page, every work in the library, and the wider scientific record in the research layer. No figure appears without a named study behind it.'),
+    ]
     page("index.html", META.get("title", "The DMT Atlas") + " — a cartography of the collective DMT experience",
          f"An interactive, source-grounded map of the collective DMT experience: {counts['entities']} entities, "
          f"{counts['realms']} realms, the journey stages and themes people report — every entry cited to "
          f"{counts['sources']} written sources.", body,
          jsonld=[{"@context": "https://schema.org", "@type": "WebSite", "name": "The DMT Atlas",
-                  "url": BASE + "/", "description": "A source-grounded cartography of the reported DMT experience."}])
+                  "url": BASE + "/", "description": "A source-grounded cartography of the reported DMT experience."},
+                 faq_ld(home_faq_qas)])
 
     # ---------- crossings ----------
     for c in CROSSINGS:

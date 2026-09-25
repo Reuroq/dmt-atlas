@@ -173,7 +173,10 @@ h1,h2,h3{margin:0;font-weight:600}
 @keyframes breathe{0%,100%{transform:scale(1);opacity:.7}50%{transform:scale(1.08);opacity:1}}
 .intro-glow{position:absolute;width:min(60vmin,520px);height:min(60vmin,520px);border-radius:50%;background:radial-gradient(circle,#1a0f33aa,transparent 70%);animation:breathe 9s ease-in-out infinite}
 .intro-content{position:relative;z-index:2;max-width:560px;padding:0 26px}
-.intro-content::before{content:"";position:absolute;inset:-22% -32%;z-index:-1;background:radial-gradient(closest-side,rgba(5,3,12,.86),rgba(5,3,12,.5) 52%,transparent 78%);filter:blur(10px)}
+/* farthest-side, not closest-side: on a wide viewport the content block is taller than
+   the scrim's closest-side radius, so the stats/links/note fell outside it and rendered
+   over the bright centre of the flower. */
+.intro-content::before{content:"";position:absolute;inset:-22% -32%;z-index:-1;background:radial-gradient(farthest-side,rgba(5,3,12,.92),rgba(5,3,12,.8) 50%,rgba(5,3,12,.5) 74%,transparent 94%);filter:blur(10px)}
 .intro-kicker{font-size:11.5px;letter-spacing:.34em;text-transform:uppercase;color:var(--gold);margin:0 0 18px;opacity:.85}
 .intro-title{
   font-family:"Fraunces",serif;font-weight:600;font-size:clamp(40px,9vw,76px);line-height:.98;margin:0;
@@ -193,6 +196,10 @@ h1,h2,h3{margin:0;font-weight:600}
 }
 .enter:hover{transform:translateY(-2px);box-shadow:0 0 0 1px #f3c96966,0 20px 50px -12px #f3c969aa}
 .intro-stats{margin:24px 0 0;font-size:12px;color:var(--faint);letter-spacing:.16em;text-transform:uppercase}
+/* explore.html only (#intro exists nowhere else): the decorative kicker sits under the
+   CTA, not above the title, so the first screen reads title -> what you get -> action. */
+#intro .intro-kicker{margin:22px 0 0}
+#intro .intro-stats{margin:10px 0 0;color:#8d86b8}
 
 /* ---------- responsive ---------- */
 @media (max-width:900px){
