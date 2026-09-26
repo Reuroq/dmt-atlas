@@ -144,14 +144,17 @@ def crumbs(*parts) -> str:
 
 
 def cite_html(sources: list) -> str:
-    """'What the sources say' — quotes with attribution links to the library."""
+    """'What the sources say' — quotes with attribution links to the library,
+    plus a direct link to the source itself wherever the record carries a URL."""
     out = []
     for s in sources or []:
         k = s.get("source_key")
         rec = SRC.get(k)
         who = f"{rec['author']} — <i>{esc(rec['work'])}</i> ({rec['year']})" if rec else esc(k)
+        ext = (f' · <a href="{esc(rec["url"])}" target="_blank" rel="noopener">source ↗</a>'
+               if rec and rec.get("url") else "")
         out.append(f"""<blockquote class="q">{esc(s.get('detail', ''))}
-<footer>— <a href="/library.html#src-{slug(k or '')}">{who}</a></footer></blockquote>""")
+<footer>— <a href="/library.html#src-{slug(k or '')}">{who}</a>{ext}</footer></blockquote>""")
     return "".join(out)
 
 
@@ -171,7 +174,7 @@ def faq_block(qas: list[tuple[str, str]]) -> str:
     if not qas:
         return ""
     items = "".join(f"<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>" for q, a in qas)
-    return f'<div class="faq"><h2 style="font-size:20px;color:var(--gold);margin-bottom:14px">Questions</h2>{items}</div>'
+    return f'<div class="faq"><h2 style="font-size:20px;color:var(--gold);margin-bottom:14px">Frequently asked</h2>{items}</div>'
 
 
 PHASES = sorted(DATA["phases"], key=lambda p: p["order"])
